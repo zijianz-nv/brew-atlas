@@ -1,0 +1,33 @@
+{
+  "url": "https://en.wikipedia.org/w/api.php?action=query&prop=coordinates%7Cpageprops&format=json&redirects=1&titles=Carmona%2C+Cavite&colimit=max",
+  "fetched_at": "2026-09-18T11:16:46.451819+00:00",
+  "response": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "2016339": {
+          "pageid": 2016339,
+          "ns": 0,
+          "title": "Carmona, Cavite",
+          "coordinates": [
+            {
+              "lat": 14.32,
+              "lon": 121.05,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "15",
+            "page_image_free": "Carmona,Biñan,_Lagunajf8982_12.JPG",
+            "wikibase-shortdesc": "Component city in Cavite, Philippines",
+            "wikibase_item": "Q62611"
+          }
+        }
+      }
+    },
+    "limits": {
+      "coordinates": 500
+    }
+  }
+}

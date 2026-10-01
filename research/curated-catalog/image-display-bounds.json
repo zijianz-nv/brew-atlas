@@ -1,0 +1,72 @@
+{
+  "createdAt": "2026-09-21T11:31:03.822797+00:00",
+  "method": "Pillow decoded RGBA alpha > 0 bounding box; includes every nontransparent pixel including shadows; original bytes unchanged",
+  "images": {
+    "/images/curated/sierra-nevada-pale-ale.png": {
+      "originalSha256": "371f3f5376490563130dde58c346886bb91c1f1cfe35e3a66afd261e1a90337d",
+      "width": 1000,
+      "height": 1742,
+      "bounds": {
+        "x": 86,
+        "y": 89,
+        "width": 841,
+        "height": 1585
+      }
+    },
+    "/images/curated/coopers-original-pale-ale.png": {
+      "originalSha256": "6b0ca5d49b1b497c70ef297e25e14ea34a5e3bfd0795019c6b90cde0db1f3796",
+      "width": 560,
+      "height": 1544,
+      "bounds": {
+        "x": 101,
+        "y": 226,
+        "width": 358,
+        "height": 1313
+      }
+    },
+    "/images/curated/garage-project-hapi-daze.png": {
+      "originalSha256": "1ba1c932de1ac12d0a8317298b3c196614eaf827695ad860b3264e0877c9cc17",
+      "width": 475,
+      "height": 863,
+      "bounds": {
+        "x": 1,
+        "y": 0,
+        "width": 473,
+        "height": 862
+      }
+    },
+    "/images/curated/geist-witty-wit.avif": {
+      "originalSha256": "e30b28e346adbda362fc07a7d5b0dba3afe0b06fbd23442b2a8504651cfa57c3",
+      "width": 260,
+      "height": 674,
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 260,
+        "height": 674
+      }
+    },
+    "/images/curated/jack-black-brewers-lager.png": {
+      "originalSha256": "1fc11b297529db4d1e3ce52f7885bd6b46901e7ae65ff0be2ca051d04e78eaf0",
+      "width": 600,
+      "height": 600,
+      "bounds": {
+        "x": 233,
+        "y": 62,
+        "width": 133,
+        "height": 476
+      }
+    },
+    "/images/curated/westmalle-tripel.png": {
+      "originalSha256": "eff71770baac7ec95c3e9bae3263df84942fb70bed81fce0504d745e8208fb0e",
+      "width": 545,
+      "height": 917,
+      "bounds": {
+        "x": 11,
+        "y": 11,
+        "width": 525,
+        "height": 890
+      }
+    }
+  }
+}

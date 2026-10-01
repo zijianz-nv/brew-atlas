@@ -1,0 +1,35 @@
+{
+  "fetchedAt": "2026-09-18T11:13:20.452133+00:00",
+  "queryUrl": "https://en.wikipedia.org/w/api.php?action=query&prop=coordinates%7Cpageprops&coprimary=primary&colimit=max&format=json&redirects=1&titles=Makhanda%2C+South+Africa",
+  "requestedTitles": [
+    "Makhanda, South Africa"
+  ],
+  "response": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "1930857": {
+          "pageid": 1930857,
+          "ns": 0,
+          "title": "Makhanda, South Africa",
+          "coordinates": [
+            {
+              "lat": -33.31,
+              "lon": 26.52666667,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Grahamstown_from_the_Fort.JPG",
+            "wikibase-shortdesc": "Town in Eastern Cape, South Africa",
+            "wikibase_item": "Q951161"
+          }
+        }
+      }
+    },
+    "limits": {
+      "coordinates": 500
+    }
+  }
+}

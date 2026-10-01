@@ -1,0 +1,436 @@
+{
+  "createdAt": "2026-09-21T11:53:15.900106+00:00",
+  "method": "fresh_official_product_pages_and_public_official_index_no_legacy_catalogue",
+  "records": [
+    {
+      "id": "official-award-457181",
+      "untappdId": "457181",
+      "name": "Scotch Ale",
+      "brewery": "Cerveceria Blest",
+      "officialProductName": "SCOTCH",
+      "styleOriginal": "Scotch Ale / Wee Heavy",
+      "abv": 5.3,
+      "ibu": null,
+      "description": "琥珀铜色的上层发酵艾尔，焦糖麦芽带来柔和甜味，伴有轻微烘烤麦芽风味；酒花存在感较轻。官网列有桶装、473毫升罐装和355毫升瓶装。",
+      "descriptionLanguage": "zh-CN",
+      "descriptionMethod": "faithful_short_paraphrase_of_official_product_page",
+      "countryCode": "AR",
+      "country": "Argentina",
+      "city": "Bariloche",
+      "lat": -41.15,
+      "lng": -71.3,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://cervezablest.com.ar/inicio/contactanos/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Bariloche",
+      "coordinateSourcePageId": null,
+      "coordinatePlaceTitle": "Bariloche",
+      "coordinateEvidenceFile": "research/curated-catalog/award-enrichment-americas-evidence/city-coordinate-index-evidence.json",
+      "locationNote": "Bariloche 城市参考点，来自官网酒厂地址与公开城市坐标；非逐款生产地址。",
+      "imageOriginal": "/images/curated/awards-457181.jpg",
+      "imageSourceUrl": "https://cervezablest.com.ar/wp-content/uploads/2022/03/SCOTCH_recorte-producto.jpg",
+      "candidateImageUrl": null,
+      "imageKind": "official_product_packshot_bottle_and_can_white_background",
+      "imageEvidence": {
+        "downloadStatus": 200,
+        "originalSha256": "2974a99e2743c6e40a925534170b09176b54e9eaa282b4c4e8aed8b71a3b8c68",
+        "bytes": 535139,
+        "rawOriginalUnmodified": true,
+        "reviewed": true,
+        "reviewMethod": "manual_packaging_label_check"
+      },
+      "sourceUrl": "https://cervezablest.com.ar/scotch/",
+      "sourceNote": "官网现行产品资料用于补充同名同厂酒款；不把现行包装或参数等同于获奖统计年度的具体批次。 官网图为同款瓶罐组合，带白色背景；保留原始字节。",
+      "sources": [
+        {
+          "url": "https://cervezablest.com.ar/scotch/",
+          "role": "official_product",
+          "retrievedAt": "2026-09-21T11:47:35.847093+00:00",
+          "readMethod": "direct_public_html"
+        },
+        {
+          "url": "https://cervezablest.com.ar/wp-content/uploads/2022/03/SCOTCH_recorte-producto.jpg",
+          "role": "official_product_image",
+          "retrievedAt": "2026-09-21T11:49:14.601859+00:00",
+          "readMethod": "direct_public_get"
+        },
+        {
+          "url": "https://cervezablest.com.ar/inicio/contactanos/",
+          "role": "official_brewery_location",
+          "retrievedAt": "2026-09-21T11:53:15.900106+00:00",
+          "readMethod": "direct_public_html"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Bariloche",
+          "role": "city_coordinate_reference",
+          "retrievedAt": "2026-09-21T11:53:15.900106+00:00",
+          "readMethod": "public_web_index"
+        }
+      ],
+      "sourceEvidence": {
+        "productPageFile": "research/curated-catalog/award-enrichment-americas-evidence/blest.html",
+        "productPageSha256": "665fcee90d846bfd544ae082a864ad1a87cde4ba9c26066285323375e8535a58",
+        "indexedEvidenceFile": null,
+        "readLimitation": null,
+        "coordinatePageSha256": "765ba6e83630d97eaa522e8364cba94cb0f5def5043cf3454a5374d0f1dd7bc8"
+      },
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/457181/",
+          "https://cervezablest.com.ar/scotch/"
+        ],
+        "basis": "获奖规范酒名与酒厂名称对照官网同款产品标题及风格；无年份、过桶或特别版本后缀冲突。"
+      },
+      "rating": null,
+      "ratingsCount": null,
+      "craftStatus": "not_verified",
+      "imageContentBounds": {
+        "originalSha256": "2974a99e2743c6e40a925534170b09176b54e9eaa282b4c4e8aed8b71a3b8c68",
+        "width": 600,
+        "height": 1000,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 600,
+          "height": 1000
+        }
+      }
+    },
+    {
+      "id": "official-award-12375",
+      "untappdId": "12375",
+      "name": "Scotch",
+      "brewery": "Cervecería Antares",
+      "officialProductName": "Scotch",
+      "styleOriginal": "Scotch Ale / Wee Heavy",
+      "abv": 6,
+      "ibu": null,
+      "description": "酒厂将这款 Scotch 描述为浓郁红宝石色、偏甜且麦芽感鲜明的啤酒，酒体适中；官网列有罐装和桶装。",
+      "descriptionLanguage": "zh-CN",
+      "descriptionMethod": "faithful_short_paraphrase_of_official_product_page",
+      "countryCode": "AR",
+      "country": "Argentina",
+      "city": "Mar del Plata",
+      "lat": -38.0,
+      "lng": -57.55,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://www.cervezaantares.com/nosotros",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Mar_del_Plata",
+      "coordinateSourcePageId": null,
+      "coordinatePlaceTitle": "Mar del Plata",
+      "coordinateEvidenceFile": "research/curated-catalog/award-enrichment-americas-evidence/city-coordinate-index-evidence.json",
+      "locationNote": "Mar del Plata 城市参考点，来自官网酒厂地址与公开城市坐标；非逐款生产地址。",
+      "imageOriginal": null,
+      "imageSourceUrl": null,
+      "candidateImageUrl": null,
+      "imageKind": null,
+      "imageEvidence": null,
+      "sourceUrl": "https://www.cervezaantares.com/cervezas/scotch",
+      "sourceNote": "官网现行产品资料用于补充同名同厂酒款；不把现行包装或参数等同于获奖统计年度的具体批次。 官网产品主图为杯中酒而非瓶罐，未作为酒瓶图片导入；官网苦度字段显示“2 IBU”，可能为级别式字段，未填入数值IBU。",
+      "sources": [
+        {
+          "url": "https://www.cervezaantares.com/cervezas/scotch",
+          "role": "official_product",
+          "retrievedAt": "2026-09-21T11:47:32.495722+00:00",
+          "readMethod": "direct_public_html"
+        },
+        {
+          "url": "https://www.cervezaantares.com/nosotros",
+          "role": "official_brewery_location",
+          "retrievedAt": "2026-09-21T11:53:15.900106+00:00",
+          "readMethod": "direct_public_html"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Mar_del_Plata",
+          "role": "city_coordinate_reference",
+          "retrievedAt": "2026-09-21T11:53:15.900106+00:00",
+          "readMethod": "public_web_index"
+        }
+      ],
+      "sourceEvidence": {
+        "productPageFile": "research/curated-catalog/award-enrichment-americas-evidence/antares.html",
+        "productPageSha256": "cba4fda4b4eeadfdc6ed7073826402933625b7035739969338bf01d3275c1575",
+        "indexedEvidenceFile": null,
+        "readLimitation": null,
+        "bitternessDisplayOriginal": "2 IBU",
+        "coordinatePageSha256": "765ba6e83630d97eaa522e8364cba94cb0f5def5043cf3454a5374d0f1dd7bc8"
+      },
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/12375/",
+          "https://www.cervezaantares.com/cervezas/scotch"
+        ],
+        "basis": "获奖规范酒名与酒厂名称对照官网同款产品标题及风格；无年份、过桶或特别版本后缀冲突。"
+      },
+      "rating": null,
+      "ratingsCount": null,
+      "craftStatus": "not_verified"
+    },
+    {
+      "id": "official-award-23963",
+      "untappdId": "23963",
+      "name": "Winter Warmer",
+      "brewery": "Picaroons Brewing Company",
+      "officialProductName": "Winter Warmer",
+      "styleOriginal": "Winter Warmer",
+      "abv": 7.5,
+      "ibu": 25,
+      "description": "酒厂对英式大麦酒的演绎，呈红宝石至铜色，酒体饱满、偏甜，带有深色水果、巧克力、焦糖与酒精暖感；官网列为冬季供应的473毫升罐装酒款。",
+      "descriptionLanguage": "zh-CN",
+      "descriptionMethod": "faithful_short_paraphrase_of_official_product_page",
+      "countryCode": "CA",
+      "country": "Canada",
+      "city": "Fredericton",
+      "lat": 45.94528,
+      "lng": -66.66667,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://picaroons.ca/our-beer/winter-warmer/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Fredericton",
+      "coordinateSourcePageId": null,
+      "coordinatePlaceTitle": "Fredericton",
+      "coordinateEvidenceFile": "research/curated-catalog/award-enrichment-americas-evidence/city-coordinate-index-evidence.json",
+      "locationNote": "Fredericton 城市参考点，来自官网酒厂地址与公开城市坐标；非逐款生产地址。",
+      "imageOriginal": null,
+      "imageSourceUrl": null,
+      "candidateImageUrl": "https://picaroons.ca/wp-content/uploads/2021/06/winter-warmer-541x1024.png",
+      "imageKind": null,
+      "imageEvidence": null,
+      "sourceUrl": "https://picaroons.ca/our-beer/winter-warmer/",
+      "sourceNote": "官网现行产品资料用于补充同名同厂酒款；不把现行包装或参数等同于获奖统计年度的具体批次。",
+      "sources": [
+        {
+          "url": "https://picaroons.ca/our-beer/winter-warmer/",
+          "role": "official_product",
+          "retrievedAt": "2026-09-21T11:53:15.900106+00:00",
+          "readMethod": "public_web_index"
+        },
+        {
+          "url": "https://picaroons.ca/our-beer/winter-warmer/",
+          "role": "official_brewery_location",
+          "retrievedAt": "2026-09-21T11:53:15.900106+00:00",
+          "readMethod": "public_web_index"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Fredericton",
+          "role": "city_coordinate_reference",
+          "retrievedAt": "2026-09-21T11:53:15.900106+00:00",
+          "readMethod": "public_web_index"
+        }
+      ],
+      "sourceEvidence": {
+        "productPageFile": null,
+        "productPageSha256": null,
+        "indexedEvidenceFile": "research/curated-catalog/award-enrichment-americas-evidence/indexed-product-facts.json",
+        "readLimitation": "HTTP Error 403: Forbidden",
+        "coordinatePageSha256": "765ba6e83630d97eaa522e8364cba94cb0f5def5043cf3454a5374d0f1dd7bc8"
+      },
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/23963/",
+          "https://picaroons.ca/our-beer/winter-warmer/"
+        ],
+        "basis": "获奖规范酒名与酒厂名称对照官网同款产品标题及风格；无年份、过桶或特别版本后缀冲突。"
+      },
+      "rating": null,
+      "ratingsCount": null,
+      "craftStatus": "not_verified"
+    },
+    {
+      "id": "official-award-9259",
+      "untappdId": "9259",
+      "name": "Lions Winter Ale",
+      "brewery": "Granville Island Brewing",
+      "officialProductName": "Lions Winter Ale",
+      "styleOriginal": "Winter Ale",
+      "abv": 5.5,
+      "ibu": null,
+      "description": "以烘烤风味与甜巧克力、香草、太妃糖的层次相结合的冬季艾尔。官网列有473毫升罐装、六瓶装和桶装。",
+      "descriptionLanguage": "zh-CN",
+      "descriptionMethod": "faithful_short_paraphrase_of_official_product_page",
+      "countryCode": "CA",
+      "country": "Canada",
+      "city": null,
+      "lat": null,
+      "lng": null,
+      "locationVerified": false,
+      "locationPrecision": null,
+      "locationRole": null,
+      "locationSourceUrl": null,
+      "coordinateSourceUrl": null,
+      "coordinateSourcePageId": null,
+      "coordinatePlaceTitle": null,
+      "coordinateEvidenceFile": null,
+      "locationNote": "本轮尚未核实酒厂参考坐标。",
+      "imageOriginal": null,
+      "imageSourceUrl": null,
+      "candidateImageUrl": "https://www.granvilleislandbrewing.ca/sites/granville/files/beers/Desktop-Lions.png",
+      "imageKind": null,
+      "imageEvidence": null,
+      "sourceUrl": "https://www.granvilleislandbrewing.ca/en-CA/our-beers/seasonal/lions-winter-ale",
+      "sourceNote": "官网现行产品资料用于补充同名同厂酒款；不把现行包装或参数等同于获奖统计年度的具体批次。",
+      "sources": [
+        {
+          "url": "https://www.granvilleislandbrewing.ca/en-CA/our-beers/seasonal/lions-winter-ale",
+          "role": "official_product",
+          "retrievedAt": "2026-09-21T11:53:15.900106+00:00",
+          "readMethod": "public_web_index"
+        }
+      ],
+      "sourceEvidence": {
+        "productPageFile": null,
+        "productPageSha256": null,
+        "indexedEvidenceFile": "research/curated-catalog/award-enrichment-americas-evidence/indexed-product-facts.json",
+        "readLimitation": "HTTP Error 403: Forbidden"
+      },
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/9259/",
+          "https://www.granvilleislandbrewing.ca/en-CA/our-beers/seasonal/lions-winter-ale"
+        ],
+        "basis": "获奖规范酒名与酒厂名称对照官网同款产品标题及风格；无年份、过桶或特别版本后缀冲突。"
+      },
+      "rating": null,
+      "ratingsCount": null,
+      "craftStatus": "not_verified"
+    },
+    {
+      "id": "official-award-156628",
+      "untappdId": "156628",
+      "name": "Blanche de Curitiba",
+      "brewery": "Bodebrown",
+      "officialProductName": "Blanche de Curitiba",
+      "styleOriginal": "Wheat Beer - Witbier / Blanche",
+      "abv": 5.2,
+      "ibu": null,
+      "description": "源自比利时白啤传统，自2012年开始酿造，并在罐中再次发酵。酒液略显浑浊，呈金色，具有白面包、酵母、香料与柑橘香气，口味在酸与甜之间取得柔和的平衡。",
+      "descriptionLanguage": "zh-CN",
+      "descriptionMethod": "faithful_short_paraphrase_of_official_product_page",
+      "countryCode": "BR",
+      "country": "Brazil",
+      "city": null,
+      "lat": null,
+      "lng": null,
+      "locationVerified": false,
+      "locationPrecision": null,
+      "locationRole": null,
+      "locationSourceUrl": null,
+      "coordinateSourceUrl": null,
+      "coordinateSourcePageId": null,
+      "coordinatePlaceTitle": null,
+      "coordinateEvidenceFile": null,
+      "locationNote": "本轮尚未核实酒厂参考坐标。",
+      "imageOriginal": null,
+      "imageSourceUrl": null,
+      "candidateImageUrl": "https://loja.bodebrown.com.br/media/catalog/product/cache/03be2831e74614a216f127fedd88215d/m/o/mockup-praia-blanche_1_.jpg",
+      "imageKind": null,
+      "imageEvidence": null,
+      "sourceUrl": "https://loja.bodebrown.com.br/cerveja-blanche-de-curitiba-lata-473ml/",
+      "sourceNote": "官网现行产品资料用于补充同名同厂酒款；不把现行包装或参数等同于获奖统计年度的具体批次。",
+      "sources": [
+        {
+          "url": "https://loja.bodebrown.com.br/cerveja-blanche-de-curitiba-lata-473ml/",
+          "role": "official_product",
+          "retrievedAt": "2026-09-21T11:53:15.900106+00:00",
+          "readMethod": "public_web_index"
+        }
+      ],
+      "sourceEvidence": {
+        "productPageFile": null,
+        "productPageSha256": null,
+        "indexedEvidenceFile": "research/curated-catalog/award-enrichment-americas-evidence/indexed-product-facts.json",
+        "readLimitation": "HTTP Error 403: Forbidden"
+      },
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/156628/",
+          "https://loja.bodebrown.com.br/cerveja-blanche-de-curitiba-lata-473ml/"
+        ],
+        "basis": "获奖规范酒名与酒厂名称对照官网同款产品标题及风格；无年份、过桶或特别版本后缀冲突。"
+      },
+      "rating": null,
+      "ratingsCount": null,
+      "craftStatus": "not_verified"
+    },
+    {
+      "id": "official-award-5561747",
+      "untappdId": "5561747",
+      "name": "Wit",
+      "brewery": "Kasteel Brouwerij Vanhonsebrouck",
+      "officialProductName": "Kasteel Wit",
+      "styleOriginal": "Wheat Beer - Witbier / Blanche",
+      "abv": 4.8,
+      "ibu": null,
+      "description": "这款小麦艾尔带有柑橘与鲜姜香气，饼干般的麦芽风味平衡甜、酸和香辛感；芫荽与香茅的气息伴随清脆、干爽的收尾。",
+      "descriptionLanguage": "zh-CN",
+      "descriptionMethod": "faithful_short_paraphrase_of_official_product_page",
+      "countryCode": "BE",
+      "country": "Belgium",
+      "city": null,
+      "lat": null,
+      "lng": null,
+      "locationVerified": false,
+      "locationPrecision": null,
+      "locationRole": null,
+      "locationSourceUrl": null,
+      "coordinateSourceUrl": null,
+      "coordinateSourcePageId": null,
+      "coordinatePlaceTitle": null,
+      "coordinateEvidenceFile": null,
+      "locationNote": "本轮尚未核实酒厂参考坐标。",
+      "imageOriginal": null,
+      "imageSourceUrl": null,
+      "candidateImageUrl": null,
+      "imageKind": null,
+      "imageEvidence": null,
+      "sourceUrl": "https://www.vanhonsebrouck.be/en-us/beer/kasteel/kasteel-wit/",
+      "sourceNote": "官网现行产品资料用于补充同名同厂酒款；不把现行包装或参数等同于获奖统计年度的具体批次。 官网美国市场页标示4.8%；美国经销地址不作为产地。",
+      "sources": [
+        {
+          "url": "https://www.vanhonsebrouck.be/en-us/beer/kasteel/kasteel-wit/",
+          "role": "official_product",
+          "retrievedAt": "2026-09-21T11:53:15.900106+00:00",
+          "readMethod": "public_search_index"
+        }
+      ],
+      "sourceEvidence": {
+        "productPageFile": null,
+        "productPageSha256": null,
+        "indexedEvidenceFile": "research/curated-catalog/award-enrichment-americas-evidence/indexed-product-facts.json",
+        "readLimitation": null
+      },
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/5561747/",
+          "https://www.vanhonsebrouck.be/en-us/beer/kasteel/kasteel-wit/"
+        ],
+        "basis": "获奖规范酒名与酒厂名称对照官网同款产品标题及风格；无年份、过桶或特别版本后缀冲突。"
+      },
+      "rating": null,
+      "ratingsCount": null,
+      "craftStatus": "not_verified"
+    }
+  ],
+  "summary": {
+    "records": 6,
+    "localImages": 1,
+    "verifiedCityLocations": 3,
+    "noLegacyDataRead": true,
+    "imagesUnmodified": true
+  },
+  "limitations": [
+    "403及验证页面均记录，未登录、未绕过或重试受限端点。",
+    "缺图条目仅补官方介绍与可核实参数，不计作补图成功。",
+    "Antares杯图已从导入imageOriginal排除。"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "records": [
+    {
+      "untappdId": "1498508",
+      "expectedName": "Bräuhaus Weiße",
+      "expectedBrewery": "Paulaner Bräuhaus",
+      "fields": {
+        "abv": 5.5,
+        "description": "采用酒花、小麦与大麦麦芽以及上层发酵酵母酿造。酒体自然浑浊，清爽活泼，带有细微苦味。"
+      },
+      "sourceUrls": [
+        "https://untappd.com/b/paulaner-brauhaus-brauhaus-weisse/1498508"
+      ],
+      "sources": [
+        {
+          "url": "https://untappd.com/b/paulaner-brauhaus-brauhaus-weisse/1498508",
+          "role": "untappd_product_public_page",
+          "retrievedAt": "2026-10-01",
+          "readMethod": "public_web_index",
+          "facts": {
+            "abv": 5.5,
+            "ibuProvided": false,
+            "descriptionParaphrased": true
+          }
+        }
+      ],
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "basis": "获奖ID与Untappd商品页ID均为1498508，完整酒名与酒厂一致。"
+      },
+      "note": "依据 Untappd 同款商品页补充介绍与 5.5% ABV；旧照片页曾记 5.4%，此处采用本次核对的商品页数值。商品页资料与2025年度奖项分开保存，厂标不作为瓶图。"
+    },
+    {
+      "untappdId": "156628",
+      "expectedName": "Blanche de Curitiba",
+      "expectedBrewery": "Bodebrown",
+      "fields": {
+        "abv": 5.2
+      },
+      "sourceUrls": [
+        "https://untappd.com/b/bodebrown-blanche-de-curitiba/156628"
+      ],
+      "sources": [
+        {
+          "url": "https://untappd.com/b/bodebrown-blanche-de-curitiba/156628",
+          "role": "untappd_product_public_page",
+          "retrievedAt": "2026-10-01",
+          "readMethod": "public_web_index",
+          "facts": {
+            "abv": 5.2
+          }
+        }
+      ],
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "basis": "获奖ID与Untappd商品页ID均为156628，完整酒名与酒厂一致。"
+      },
+      "note": "Untappd同款页的ABV与已采官网数值一致；保留官网介绍和原奖项，不将酒标视作瓶罐主图。"
+    }
+  ]
+}

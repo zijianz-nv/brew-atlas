@@ -1,0 +1,487 @@
+{
+  "url": "https://en.wikipedia.org/w/api.php?action=query&prop=coordinates%7Cpageprops&coprimary=primary&format=json&redirects=1&titles=Seattle%7CEnsenada%7CCuracav%C3%AD%7CAkureyri%7CR%C3%A9duit%2C+Mauritius%7CHo+Chi+Minh+City%7CSeoul%7CZamrudpur%7CSingapore%7CStavanger%7CNew+Taipei+City%7CAvlonari%7CPerth%7CNairobi%7CSan+Juan%2C+Puerto+Rico%7CKathu%7CAnchorage%2C+Alaska%7CKihei%2C+Hawaii%7CVictoria%2C+British+Columbia%7CUshuaia%7CStockholm%7CSan+Carlos+de+Bariloche%7CChengdu%7CBeijing%7CKyalami%7CKikuyu%2C+Kenya&colimit=max",
+  "response": {
+    "batchcomplete": "",
+    "query": {
+      "redirects": [
+        {
+          "from": "Réduit, Mauritius",
+          "to": "Moka"
+        },
+        {
+          "from": "San Carlos de Bariloche",
+          "to": "Bariloche"
+        },
+        {
+          "from": "Kihei, Hawaii",
+          "to": "Kīhei, Hawaii"
+        }
+      ],
+      "pages": {
+        "-1": {
+          "ns": 0,
+          "title": "Zamrudpur",
+          "missing": ""
+        },
+        "101208": {
+          "pageid": 101208,
+          "ns": 0,
+          "title": "Akureyri",
+          "coordinates": [
+            {
+              "lat": 65.68333333,
+              "lon": -18.1,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Akureyri_-_Skapti_Hallgrímsson.jpg",
+            "wikibase-shortdesc": "Municipality in Northeastern Region, Iceland",
+            "wikibase_item": "Q29042"
+          }
+        },
+        "7004698": {
+          "pageid": 7004698,
+          "ns": 0,
+          "title": "Anchorage, Alaska",
+          "coordinates": [
+            {
+              "lat": 61.21666667,
+              "lon": -149.89361111,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Anchorage,_Alaska_skyline.jpg",
+            "wikibase-shortdesc": "Consolidated city-borough in Alaska, US",
+            "wikibase_item": "Q39450"
+          }
+        },
+        "15695909": {
+          "pageid": 15695909,
+          "ns": 0,
+          "title": "Avlonari",
+          "coordinates": [
+            {
+              "lat": 38.5,
+              "lon": 24.13333333,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Avlonari.JPG",
+            "wikibase-shortdesc": "Community in Greece",
+            "wikibase_item": "Q2874428"
+          }
+        },
+        "18603746": {
+          "pageid": 18603746,
+          "ns": 0,
+          "title": "Beijing",
+          "coordinates": [
+            {
+              "lat": 39.90666667,
+              "lon": 116.3975,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Skyline_of_Beijing_CBD_with_B-5906_approaching_(20211016171955)_(1).jpg",
+            "wikibase-shortdesc": "Capital city of China",
+            "wikibase_item": "Q956"
+          }
+        },
+        "170375": {
+          "pageid": 170375,
+          "ns": 0,
+          "title": "Chengdu",
+          "coordinates": [
+            {
+              "lat": 30.66,
+              "lon": 104.06333333,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "雪山下的成都市天际线_Chengdu_skyline_with_snow_capped_mountains.jpg",
+            "wikibase-shortdesc": "Capital of Sichuan, China",
+            "wikibase_item": "Q30002"
+          }
+        },
+        "27717816": {
+          "pageid": 27717816,
+          "ns": 0,
+          "title": "Curacaví",
+          "coordinates": [
+            {
+              "lat": -33.4,
+              "lon": -71.15,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "defaultsort": "Curacavi",
+            "page_image_free": "Casas_en_Curacaví.jpg",
+            "wikibase-shortdesc": "City and Commune in Santiago Metropolitan Region, Chile",
+            "wikibase_item": "Q3885"
+          }
+        },
+        "654971": {
+          "pageid": 654971,
+          "ns": 0,
+          "title": "Ensenada",
+          "coordinates": [
+            {
+              "lat": 31.85777778,
+              "lon": -116.60583333,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Baja09flickr-05_(4258690724).jpg",
+            "wikibase-shortdesc": "City in Baja California, Mexico",
+            "wikibase_item": "Q656189"
+          }
+        },
+        "66956": {
+          "pageid": 66956,
+          "ns": 0,
+          "title": "Ho Chi Minh City",
+          "coordinates": [
+            {
+              "lat": 10.77555556,
+              "lon": 106.70194444,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Ho_Chi_Minh_City,_City_Hall,_2020-01_CN-03.jpg",
+            "wikibase-shortdesc": "Largest city in Vietnam",
+            "wikibase_item": "Q1854"
+          }
+        },
+        "631299": {
+          "pageid": 631299,
+          "ns": 0,
+          "title": "Kathu",
+          "coordinates": [
+            {
+              "lat": -27.7,
+              "lon": 23.05,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "wikibase-shortdesc": "Place in Northern Cape, South Africa",
+            "wikibase_item": "Q1736557"
+          }
+        },
+        "7409509": {
+          "pageid": 7409509,
+          "ns": 0,
+          "title": "Kikuyu, Kenya",
+          "pageprops": {
+            "page_image_free": "Kikuyu_town.jpg",
+            "wikibase-shortdesc": "Town Council in Kiambu County, Kenya",
+            "wikibase_item": "Q1026079"
+          }
+        },
+        "1336190": {
+          "pageid": 1336190,
+          "ns": 0,
+          "title": "Kyalami",
+          "coordinates": [
+            {
+              "lat": -25.99805556,
+              "lon": 28.06888889,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Kyalami_16.png",
+            "wikibase-shortdesc": "Race track in Midrand, Gauteng, South Africa",
+            "wikibase_item": "Q171667"
+          }
+        },
+        "21482": {
+          "pageid": 21482,
+          "ns": 0,
+          "title": "Nairobi",
+          "coordinates": [
+            {
+              "lat": -1.28638889,
+              "lon": 36.81722222,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Nairobi_skyline_from_Gem_Hotel.jpg",
+            "wikibase-shortdesc": "Capital and largest city of Kenya",
+            "wikibase_item": "Q3870"
+          }
+        },
+        "333440": {
+          "pageid": 333440,
+          "ns": 0,
+          "title": "New Taipei City",
+          "coordinates": [
+            {
+              "lat": 25.0125,
+              "lon": 121.465,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Xinban_Special_District_20241203_(54182542495).jpg",
+            "wikibase-shortdesc": "Special municipality in Taiwan",
+            "wikibase_item": "Q244898"
+          }
+        },
+        "24355": {
+          "pageid": 24355,
+          "ns": 0,
+          "title": "Perth",
+          "coordinates": [
+            {
+              "lat": -32,
+              "lon": 115.9,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Perth_CBD_skyline_from_State_War_Memorial_Lookout,_2023,_04_b.jpg",
+            "wikibase-shortdesc": "Capital city of Western Australia",
+            "wikibase_item": "Q3183"
+          }
+        },
+        "57872": {
+          "pageid": 57872,
+          "ns": 0,
+          "title": "San Juan, Puerto Rico",
+          "coordinates": [
+            {
+              "lat": 18.40638889,
+              "lon": -66.06388889,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "defaultsort": "San Juan, Puerto Rico",
+            "kartographer_frames": "1",
+            "page_image_free": "2013_Old_San_Juan_01.JPG",
+            "wikibase-shortdesc": "Capital and largest city of Puerto Rico",
+            "wikibase_item": "Q41211"
+          }
+        },
+        "11388236": {
+          "pageid": 11388236,
+          "ns": 0,
+          "title": "Seattle",
+          "coordinates": [
+            {
+              "lat": 47.60388889,
+              "lon": -122.33,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Seattle_Center_as_night_falls.jpg",
+            "wikibase-shortdesc": "City in Washington, United States",
+            "wikibase_item": "Q5083"
+          }
+        },
+        "19159283": {
+          "pageid": 19159283,
+          "ns": 0,
+          "title": "Seoul",
+          "coordinates": [
+            {
+              "lat": 37.56,
+              "lon": 126.99,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "2",
+            "page_image_free": "중화전의_낮.jpg",
+            "wikibase-shortdesc": "Capital and largest city of South Korea",
+            "wikibase_item": "Q8684"
+          }
+        },
+        "27318": {
+          "pageid": 27318,
+          "ns": 0,
+          "title": "Singapore",
+          "coordinates": [
+            {
+              "lat": 1.28333333,
+              "lon": 103.83333333,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Flag_of_Singapore.svg",
+            "wikibase-badge-Q17437798": "",
+            "wikibase-shortdesc": "Island country in Southeast Asia",
+            "wikibase_item": "Q334"
+          }
+        },
+        "172538": {
+          "pageid": 172538,
+          "ns": 0,
+          "title": "Stavanger",
+          "coordinates": [
+            {
+              "lat": 58.97,
+              "lon": 5.73138889,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Breiavatnet_-_Stavanger,_Norway_2021-08-01_(02).jpg",
+            "wikibase-shortdesc": "City in Rogaland, Norway",
+            "wikibase_item": "Q25416"
+          }
+        },
+        "26741": {
+          "pageid": 26741,
+          "ns": 0,
+          "title": "Stockholm",
+          "coordinates": [
+            {
+              "lat": 59.32944444,
+              "lon": 18.06861111,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Royal_Dramatic_Theatre_Stockholm.jpg",
+            "wikibase-shortdesc": "Capital and most populous city of Sweden",
+            "wikibase_item": "Q1754"
+          }
+        },
+        "352107": {
+          "pageid": 352107,
+          "ns": 0,
+          "title": "Ushuaia",
+          "coordinates": [
+            {
+              "lat": -54.80722222,
+              "lon": -68.30805556,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Ushuaia_aerial_panorama.jpg",
+            "wikibase-shortdesc": "City and port in Tierra del Fuego, Argentina",
+            "wikibase_item": "Q44254"
+          }
+        },
+        "32388": {
+          "pageid": 32388,
+          "ns": 0,
+          "title": "Victoria, British Columbia",
+          "coordinates": [
+            {
+              "lat": 48.42833333,
+              "lon": -123.36472222,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Victoria_BC,_Canada_(Johnson_Street)_-_panoramio.jpg",
+            "wikibase-shortdesc": "Capital city of British Columbia, Canada",
+            "wikibase_item": "Q2132"
+          }
+        },
+        "738749": {
+          "pageid": 738749,
+          "ns": 0,
+          "title": "Bariloche",
+          "coordinates": [
+            {
+              "lat": -41.15,
+              "lon": -71.3,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "defaultsort": "Bariloche",
+            "page_image_free": "Catedral_desde_el_Lago_Nahuel_Huapi_-_panoramio.jpg",
+            "wikibase-shortdesc": "City and municipality in Río Negro, Argentina",
+            "wikibase_item": "Q47772"
+          }
+        },
+        "110575": {
+          "pageid": 110575,
+          "ns": 0,
+          "title": "Kīhei, Hawaii",
+          "coordinates": [
+            {
+              "lat": 20.75916667,
+              "lon": -156.45722222,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Kihei_coast.jpg",
+            "wikibase-shortdesc": "Census-designated place in Hawaii, United States",
+            "wikibase_item": "Q1026771"
+          }
+        },
+        "333161": {
+          "pageid": 333161,
+          "ns": 0,
+          "title": "Moka",
+          "coordinates": [
+            {
+              "lat": -20.219,
+              "lon": 57.496,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "wikibase-shortdesc": "Villages in Moka District, Mauritius",
+            "wikibase_item": "Q282908"
+          }
+        }
+      }
+    },
+    "limits": {
+      "coordinates": 500
+    }
+  }
+}

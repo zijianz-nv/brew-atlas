@@ -1,0 +1,73 @@
+{
+  "url": "https://en.wikipedia.org/w/api.php?action=query&prop=coordinates%7Cpageprops&format=json&redirects=1&titles=Wieprz%2C+Silesian+Voivodeship%7CMente%C5%9Fe%7CSingaraja%7CMu%C4%9Fla&colimit=max",
+  "fetched_at": "2026-09-18T11:14:51.380788+00:00",
+  "response": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "39621882": {
+          "pageid": 39621882,
+          "ns": 0,
+          "title": "Menteşe",
+          "pageprops": {
+            "defaultsort": "Mentese",
+            "disambiguation": "",
+            "expectshortpage": "",
+            "wikibase-shortdesc": "Topics referred to by the same term",
+            "wikibase_item": "Q766334"
+          }
+        },
+        "1361351": {
+          "pageid": 1361351,
+          "ns": 0,
+          "title": "Muğla",
+          "coordinates": [
+            {
+              "lat": 37.21666667,
+              "lon": 28.36666667,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "defaultsort": "Mugla",
+            "page_image_free": "Muğla_fortress_hill_5810.jpg",
+            "wikibase-shortdesc": "City in southwestern Turkey",
+            "wikibase_item": "Q216912"
+          }
+        },
+        "2814275": {
+          "pageid": 2814275,
+          "ns": 0,
+          "title": "Singaraja",
+          "pageprops": {
+            "page_image_free": "Singaraja_200507-8.jpg",
+            "wikibase-shortdesc": "Town in Bali, Indonesia",
+            "wikibase_item": "Q1013537"
+          }
+        },
+        "21263896": {
+          "pageid": 21263896,
+          "ns": 0,
+          "title": "Wieprz, Silesian Voivodeship",
+          "coordinates": [
+            {
+              "lat": 49.63805556,
+              "lon": 19.17444444,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Wieprz_-_gmina_Radziechowy-Wieprz.jpg",
+            "wikibase-shortdesc": "Village in Silesian Voivodeship, Poland",
+            "wikibase_item": "Q2633393"
+          }
+        }
+      }
+    },
+    "limits": {
+      "coordinates": 500
+    }
+  }
+}

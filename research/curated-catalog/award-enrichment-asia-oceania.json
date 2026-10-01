@@ -1,0 +1,455 @@
+{
+  "createdAt": "2026-09-21T11:52:40.614636+00:00",
+  "method": "fresh_official_product_and_city_sources",
+  "scope": "Four existing award beers enriched; no representative membership added, no legacy catalogs or legacy images used.",
+  "records": [
+    {
+      "id": "official-award-148016",
+      "untappdId": "148016",
+      "name": "Tint-In-Wit",
+      "brewery": "Toit Beer Co.",
+      "officialProductName": "Toit Tint-In-Wit",
+      "styleOriginal": "Wheat Beer - Witbier / Blanche",
+      "abv": 4.6,
+      "ibu": null,
+      "countryCode": "IN",
+      "country": "India",
+      "city": "Bengaluru",
+      "description": "以皮尔森麦芽和印度本地未发芽小麦酿造，加入芫荽与新鲜橙皮，带有柑橘和轻微香料气息。酒体浑浊，口感柔滑且略带奶油感。",
+      "descriptionLanguage": "zh-CN",
+      "descriptionMethod": "faithful_short_paraphrase_of_official_product_page",
+      "collectionRole": "existing_award_record_enrichment",
+      "representativeReason": null,
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/148016/",
+          "https://toit.in/beer/toit-tint-in-wit/"
+        ],
+        "basis": "核对获奖详情同一酒名与酒厂；官网产品及实物标签对应同款，不以近似风格或新年份特别版替代。"
+      },
+      "sourceUrl": "https://toit.in/beer/toit-tint-in-wit/",
+      "imageOriginal": "/images/curated/awards-148016.png",
+      "imageSourceUrl": "https://toit.in/wp-content/uploads/2025/06/tin-inwit.png",
+      "imageKind": "official_product_bottle_and_glass",
+      "imageReview": "官网同款透明瓶杯组合，瓶标可读 Tint-in-Wit；保留整组，不裁去酒杯。",
+      "imageEvidence": {
+        "downloadStatus": 200,
+        "originalSha256": "6b00ce4cb97fac2c512371fd7c2c7788af48c5a19cbce03937a448313086d9ed",
+        "bytes": 726297,
+        "width": 545,
+        "height": 1031,
+        "format": "PNG",
+        "reviewed": true,
+        "reviewMethod": "manual_packaging_label_check",
+        "rawOriginalUnmodified": true
+      },
+      "imageContentBounds": {
+        "originalSha256": "6b00ce4cb97fac2c512371fd7c2c7788af48c5a19cbce03937a448313086d9ed",
+        "width": 545,
+        "height": 1031,
+        "bounds": {
+          "x": 12,
+          "y": 34,
+          "width": 509,
+          "height": 977
+        }
+      },
+      "lat": 12.97888889,
+      "lng": 77.59166667,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_origin_city_reference",
+      "locationNote": "Bengaluru 城市参考点；官网将 Indiranagar 门店称为第一家 Toit 微型酒厂，不代表每瓶的精确生产门牌。",
+      "locationSourceUrl": "https://toit.in/restaurant/toit-bangalore/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/?curid=44275267",
+      "coordinateResponseUrl": "https://en.wikipedia.org/w/api.php?action=query&titles=Gotemba%7CWaipu%7CWellington%7CBangalore%7CChristchurch&prop=coordinates&colimit=max&format=json&redirects=1",
+      "coordinatePlaceTitle": "Bengaluru",
+      "coordinateSourcePageId": 44275267,
+      "coordinateEvidenceFile": "research/curated-catalog/asia-oceania-evidence/coords.json",
+      "sourceEvidence": {
+        "productPageFile": "research/curated-catalog/asia-oceania-evidence/toit-product.html",
+        "productPageSha256": "e48b6d40ccf6e5b410aa9774f4502f99edbd545824aa8cc38aa2364c2e9790d0",
+        "locationPageFile": "research/curated-catalog/asia-oceania-evidence/toit-city.html",
+        "coordinatePageSha256": "8729af03a1d49fc63be0b4793fca8af5493d8aa497ca54d97b68ed314e80befa"
+      },
+      "imageLicense": "copyright_owner_official_brewery; no open redistribution licence verified",
+      "sourceNote": "官网实采同款产品信息，图片保留来源原字节；年度奖项与评分沿用原获奖记录，不把当前官网包装当作获奖年度包装证明。",
+      "rating": null,
+      "ratingsCount": null,
+      "sources": [
+        {
+          "url": "https://awards.untappd.com/beers/148016/",
+          "role": "identity_award_detail",
+          "retrievedAt": "2026-09-21T11:52:40.614636+00:00",
+          "readMethod": "public_web_page"
+        },
+        {
+          "url": "https://toit.in/beer/toit-tint-in-wit/",
+          "role": "official_product",
+          "retrievedAt": "2026-09-21T11:52:40.614636+00:00",
+          "readMethod": "direct_public_html"
+        },
+        {
+          "url": "https://toit.in/restaurant/toit-bangalore/",
+          "role": "official_brewery_location",
+          "retrievedAt": "2026-09-21T11:52:40.614636+00:00",
+          "readMethod": "direct_public_html"
+        },
+        {
+          "url": "https://toit.in/wp-content/uploads/2025/06/tin-inwit.png",
+          "role": "official_product_image",
+          "retrievedAt": "2026-09-21T11:50:44.572229+00:00",
+          "readMethod": "direct_public_get"
+        },
+        {
+          "url": "https://en.wikipedia.org/w/api.php?action=query&titles=Gotemba%7CWaipu%7CWellington%7CBangalore%7CChristchurch&prop=coordinates&colimit=max&format=json&redirects=1",
+          "role": "city_coordinate_reference",
+          "retrievedAt": "2026-09-21T11:52:40.614636+00:00",
+          "readMethod": "public_wikipedia_coordinates"
+        }
+      ]
+    },
+    {
+      "id": "official-award-1196102",
+      "untappdId": "1196102",
+      "name": "Pioneer Brown Porter",
+      "brewery": "McLeod's Brewery",
+      "officialProductName": "Pioneer Brown Porter",
+      "styleOriginal": "Porter - English",
+      "abv": 5.6,
+      "ibu": null,
+      "countryCode": "NZ",
+      "country": "New Zealand",
+      "city": "Waipu, New Zealand",
+      "description": "英式棕色波特，以经典英式艾尔酵母带来果香酯味，麦芽呈面包、可可与烘烤风味，整体强调平衡。",
+      "descriptionLanguage": "zh-CN",
+      "descriptionMethod": "faithful_short_paraphrase_of_official_product_page",
+      "collectionRole": "existing_award_record_enrichment",
+      "representativeReason": null,
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/1196102/",
+          "https://mcleodsbrewery.co.nz/products/pioneer-brown-porter"
+        ],
+        "basis": "核对获奖详情同一酒名与酒厂；官网产品及实物标签对应同款，不以近似风格或新年份特别版替代。"
+      },
+      "sourceUrl": "https://mcleodsbrewery.co.nz/products/pioneer-brown-porter",
+      "imageOriginal": "/images/curated/awards-1196102.png",
+      "imageSourceUrl": "https://mcleodsbrewery.co.nz/cdn/shop/files/Pioneer_Brown_Porter_Can___Mcleod_s_Brewery_-_Year_Round___Well_Crafted_Steady_On.png?v=1734652666",
+      "imageKind": "official_product_packshot",
+      "imageReview": "透明单罐，罐标可读 Pioneer Brown Porter、McLeod’s、5.6%。",
+      "imageEvidence": {
+        "downloadStatus": 200,
+        "originalSha256": "ed4bb41d3eaabf0c3236e4351c939e11da94c93f017c47fdd0737a643cefbc18",
+        "bytes": 1443249,
+        "width": 2048,
+        "height": 2048,
+        "format": "PNG",
+        "reviewed": true,
+        "reviewMethod": "manual_packaging_label_check",
+        "rawOriginalUnmodified": true
+      },
+      "imageContentBounds": {
+        "originalSha256": "ed4bb41d3eaabf0c3236e4351c939e11da94c93f017c47fdd0737a643cefbc18",
+        "width": 2048,
+        "height": 2048,
+        "bounds": {
+          "x": 650,
+          "y": 204,
+          "width": 748,
+          "height": 1639
+        }
+      },
+      "lat": -35.98472222,
+      "lng": 174.44722222,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_origin_city_reference",
+      "locationNote": "Waipu 城镇参考点；官网说明酒厂起源于当地 Pizza Barn，并给出 2 Cove Road，不是门牌级坐标。",
+      "locationSourceUrl": "https://mcleodsbrewery.co.nz/pages/our-place",
+      "coordinateSourceUrl": "https://en.wikipedia.org/?curid=2783976",
+      "coordinateResponseUrl": "https://en.wikipedia.org/w/api.php?action=query&titles=Waipu,_New_Zealand&prop=coordinates&colimit=max&format=json&redirects=1",
+      "coordinatePlaceTitle": "Waipu, New Zealand",
+      "coordinateSourcePageId": 2783976,
+      "coordinateEvidenceFile": "research/curated-catalog/asia-oceania-evidence/waipu-coords.json",
+      "sourceEvidence": {
+        "productPageFile": "research/curated-catalog/asia-oceania-evidence/mcleods.html",
+        "productPageSha256": "a6d3808705af4b7155fbe113fa41dee5a1313237feb970dc64b04bf452f9e26a",
+        "locationPageFile": "research/curated-catalog/asia-oceania-evidence/mcleods-city.html",
+        "coordinatePageSha256": "e63e1c5740927ba8e29e163bc0f9b68716331f73eaddca1f7dba1f018f4c15ca"
+      },
+      "imageLicense": "copyright_owner_official_brewery; no open redistribution licence verified",
+      "sourceNote": "官网实采同款产品信息，图片保留来源原字节；年度奖项与评分沿用原获奖记录，不把当前官网包装当作获奖年度包装证明。",
+      "rating": null,
+      "ratingsCount": null,
+      "sources": [
+        {
+          "url": "https://awards.untappd.com/beers/1196102/",
+          "role": "identity_award_detail",
+          "retrievedAt": "2026-09-21T11:52:40.614636+00:00",
+          "readMethod": "public_web_page"
+        },
+        {
+          "url": "https://mcleodsbrewery.co.nz/products/pioneer-brown-porter",
+          "role": "official_product",
+          "retrievedAt": "2026-09-21T11:52:40.614636+00:00",
+          "readMethod": "direct_public_html"
+        },
+        {
+          "url": "https://mcleodsbrewery.co.nz/pages/our-place",
+          "role": "official_brewery_location",
+          "retrievedAt": "2026-09-21T11:52:40.614636+00:00",
+          "readMethod": "direct_public_html"
+        },
+        {
+          "url": "https://mcleodsbrewery.co.nz/cdn/shop/files/Pioneer_Brown_Porter_Can___Mcleod_s_Brewery_-_Year_Round___Well_Crafted_Steady_On.png?v=1734652666",
+          "role": "official_product_image",
+          "retrievedAt": "2026-09-21T11:50:26.906086+00:00",
+          "readMethod": "direct_public_get"
+        },
+        {
+          "url": "https://en.wikipedia.org/w/api.php?action=query&titles=Waipu,_New_Zealand&prop=coordinates&colimit=max&format=json&redirects=1",
+          "role": "city_coordinate_reference",
+          "retrievedAt": "2026-09-21T11:52:40.614636+00:00",
+          "readMethod": "public_wikipedia_coordinates"
+        }
+      ]
+    },
+    {
+      "id": "official-award-2953998",
+      "untappdId": "2953998",
+      "name": "Rococo Tokyo White",
+      "brewery": "Rococo Tokyo",
+      "officialProductName": "ROCOCO Tokyo",
+      "styleOriginal": "Wheat Beer - Hefeweizen",
+      "abv": 5.5,
+      "ibu": null,
+      "countryCode": "JP",
+      "country": "Japan",
+      "city": "Gotemba, Shizuoka",
+      "description": "使用富士山天然泉水酿造，官网描述其带有果香、柔滑质感与清爽收尾，并以配合精细菜肴为设计方向。官方标示产地为静冈县御殿场市。",
+      "descriptionLanguage": "zh-CN",
+      "descriptionMethod": "faithful_short_paraphrase_of_official_product_page",
+      "collectionRole": "existing_award_record_enrichment",
+      "representativeReason": null,
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/2953998/",
+          "https://rococotokyo.com/en/product/index.html"
+        ],
+        "basis": "核对获奖详情同一酒名与酒厂；官网产品及实物标签对应同款，不以近似风格或新年份特别版替代。官网简称 ROCOCO Tokyo，官网图片瓶标明确 WHITE。"
+      },
+      "sourceUrl": "https://rococotokyo.com/en/product/index.html",
+      "imageOriginal": "/images/curated/awards-2953998.jpg",
+      "imageSourceUrl": "https://rococotokyo.com/img/index/photo02_2.png",
+      "imageKind": "official_product_lifestyle_photo",
+      "imageReview": "官网手持整瓶照片，瓶标清晰可读 ROCOCO Tokyo WHITE；非透明商品抠图，人物手部与背景保留。",
+      "imageEvidence": {
+        "downloadStatus": 200,
+        "originalSha256": "ed0c453451f2f0548c80417e1de9b520c6b882d8b2e27e473c664f870e2ba918",
+        "bytes": 111163,
+        "width": 1784,
+        "height": 1784,
+        "format": "JPEG",
+        "reviewed": true,
+        "reviewMethod": "manual_packaging_label_check",
+        "rawOriginalUnmodified": true
+      },
+      "imageContentBounds": {
+        "originalSha256": "ed0c453451f2f0548c80417e1de9b520c6b882d8b2e27e473c664f870e2ba918",
+        "width": 1784,
+        "height": 1784,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1784,
+          "height": 1784
+        }
+      },
+      "lat": 35.30869444,
+      "lng": 138.93461111,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "official_production_city_reference",
+      "locationNote": "御殿场城市参考点；官网明确标注 Production Area 为 Gotemba。品牌发源地 Tokyo 不是本条生产地坐标。",
+      "locationSourceUrl": "https://rococotokyo.com/en/product/index.html",
+      "coordinateSourceUrl": "https://en.wikipedia.org/?curid=329012",
+      "coordinateResponseUrl": "https://en.wikipedia.org/w/api.php?action=query&titles=Gotemba%7CWaipu%7CWellington%7CBangalore%7CChristchurch&prop=coordinates&colimit=max&format=json&redirects=1",
+      "coordinatePlaceTitle": "Gotemba, Shizuoka",
+      "coordinateSourcePageId": 329012,
+      "coordinateEvidenceFile": "research/curated-catalog/asia-oceania-evidence/coords.json",
+      "sourceEvidence": {
+        "productPageFile": "research/curated-catalog/asia-oceania-evidence/rococo.html",
+        "productPageSha256": "a0bc6bdfb9be0e302ca016716af881bfa9b043da4478a20b55a8f1662b4bfbc3",
+        "locationPageFile": "research/curated-catalog/asia-oceania-evidence/rococo.html",
+        "coordinatePageSha256": "8729af03a1d49fc63be0b4793fca8af5493d8aa497ca54d97b68ed314e80befa"
+      },
+      "imageLicense": "copyright_owner_official_brewery; no open redistribution licence verified",
+      "sourceNote": "官网实采同款产品信息，图片保留来源原字节；年度奖项与评分沿用原获奖记录，不把当前官网包装当作获奖年度包装证明。",
+      "rating": null,
+      "ratingsCount": null,
+      "sources": [
+        {
+          "url": "https://awards.untappd.com/beers/2953998/",
+          "role": "identity_award_detail",
+          "retrievedAt": "2026-09-21T11:52:40.614636+00:00",
+          "readMethod": "public_web_page"
+        },
+        {
+          "url": "https://rococotokyo.com/en/product/index.html",
+          "role": "official_product",
+          "retrievedAt": "2026-09-21T11:52:40.614636+00:00",
+          "readMethod": "direct_public_html"
+        },
+        {
+          "url": "https://rococotokyo.com/en/product/index.html",
+          "role": "official_brewery_location",
+          "retrievedAt": "2026-09-21T11:52:40.614636+00:00",
+          "readMethod": "direct_public_html"
+        },
+        {
+          "url": "https://rococotokyo.com/img/index/photo02_2.png",
+          "role": "official_product_image",
+          "retrievedAt": "2026-09-21T11:50:26.908389+00:00",
+          "readMethod": "direct_public_get"
+        },
+        {
+          "url": "https://en.wikipedia.org/w/api.php?action=query&titles=Gotemba%7CWaipu%7CWellington%7CBangalore%7CChristchurch&prop=coordinates&colimit=max&format=json&redirects=1",
+          "role": "city_coordinate_reference",
+          "retrievedAt": "2026-09-21T11:52:40.614636+00:00",
+          "readMethod": "public_wikipedia_coordinates"
+        }
+      ]
+    },
+    {
+      "id": "official-award-4255419",
+      "untappdId": "4255419",
+      "name": "Four Legs Good",
+      "brewery": "Garage Project",
+      "officialProductName": "Four Legs Good",
+      "styleOriginal": "Table Beer",
+      "abv": 2.5,
+      "ibu": null,
+      "countryCode": "NZ",
+      "country": "New Zealand",
+      "city": "Wellington",
+      "description": "低酒精度农舍风格餐桌啤酒，经橡木熟成，并以 Wai-iti 和 Pacifica 酒花轻度干投。口感干爽清脆，带有轻微酸味。",
+      "descriptionLanguage": "zh-CN",
+      "descriptionMethod": "faithful_short_paraphrase_of_official_product_page",
+      "collectionRole": "existing_award_record_enrichment",
+      "representativeReason": null,
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/4255419/",
+          "https://garageproject.co.nz/products/fourlegsgood"
+        ],
+        "basis": "核对获奖详情同一酒名与酒厂；官网产品及实物标签对应同款，不以近似风格或新年份特别版替代。"
+      },
+      "sourceUrl": "https://garageproject.co.nz/products/fourlegsgood",
+      "imageOriginal": "/images/curated/awards-4255419.png",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0178/4982/files/FourLegsGood_Render_Web_1.png?v=1787791975",
+      "imageKind": "official_product_packshot",
+      "imageReview": "官网当前透明单罐，标签清楚可读 Four Legs Good、Table Beer、2.5%、Garage Project；为同款当前包装，不宣称是2025获奖时包装。",
+      "imageEvidence": {
+        "downloadStatus": 200,
+        "originalSha256": "1166848b05b78fc60b00a02a2ff4aba090ff6ef970fdceb7e61e77cd5f79e1dc",
+        "bytes": 756147,
+        "width": 633,
+        "height": 1150,
+        "format": "PNG",
+        "reviewed": true,
+        "reviewMethod": "manual_packaging_label_check",
+        "rawOriginalUnmodified": true
+      },
+      "imageContentBounds": {
+        "originalSha256": "1166848b05b78fc60b00a02a2ff4aba090ff6ef970fdceb7e61e77cd5f79e1dc",
+        "width": 633,
+        "height": 1150,
+        "bounds": {
+          "x": 1,
+          "y": 0,
+          "width": 631,
+          "height": 1148
+        }
+      },
+      "lat": -41.28888889,
+      "lng": 174.77722222,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_origin_city_reference",
+      "locationNote": "Wellington 城市参考点；官方 Aro Cellar Door 页面说明其紧邻 Aro Valley 原始酒厂，不代表每罐生产车间。",
+      "locationSourceUrl": "https://garageproject.co.nz/locations/aro-cellar-door",
+      "coordinateSourceUrl": "https://en.wikipedia.org/?curid=33804",
+      "coordinateResponseUrl": "https://en.wikipedia.org/w/api.php?action=query&titles=Gotemba%7CWaipu%7CWellington%7CBangalore%7CChristchurch&prop=coordinates&colimit=max&format=json&redirects=1",
+      "coordinatePlaceTitle": "Wellington",
+      "coordinateSourcePageId": 33804,
+      "coordinateEvidenceFile": "research/curated-catalog/asia-oceania-evidence/coords.json",
+      "sourceEvidence": {
+        "productPageFile": "research/curated-catalog/asia-oceania-evidence/garage.json",
+        "productPageSha256": "6cf72d687cd196b2298e62b2cef98b754a8b993aa5ccea987229f39c930cc473",
+        "locationPageFile": "research/curated-catalog/asia-oceania-evidence/garage-city.html",
+        "coordinatePageSha256": "8729af03a1d49fc63be0b4793fca8af5493d8aa497ca54d97b68ed314e80befa"
+      },
+      "imageLicense": "copyright_owner_official_brewery; no open redistribution licence verified",
+      "sourceNote": "官网实采同款产品信息，图片保留来源原字节；年度奖项与评分沿用原获奖记录，不把当前官网包装当作获奖年度包装证明。",
+      "rating": null,
+      "ratingsCount": null,
+      "sources": [
+        {
+          "url": "https://awards.untappd.com/beers/4255419/",
+          "role": "identity_award_detail",
+          "retrievedAt": "2026-09-21T11:52:40.614636+00:00",
+          "readMethod": "public_web_page"
+        },
+        {
+          "url": "https://garageproject.co.nz/products/fourlegsgood",
+          "role": "official_product",
+          "retrievedAt": "2026-09-21T11:52:40.614636+00:00",
+          "readMethod": "official_public_product_page_data"
+        },
+        {
+          "url": "https://garageproject.co.nz/locations/aro-cellar-door",
+          "role": "official_brewery_location",
+          "retrievedAt": "2026-09-21T11:52:40.614636+00:00",
+          "readMethod": "direct_public_html"
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0178/4982/files/FourLegsGood_Render_Web_1.png?v=1787791975",
+          "role": "official_product_image",
+          "retrievedAt": "2026-09-21T11:50:28.310324+00:00",
+          "readMethod": "direct_public_get"
+        },
+        {
+          "url": "https://en.wikipedia.org/w/api.php?action=query&titles=Gotemba%7CWaipu%7CWellington%7CBangalore%7CChristchurch&prop=coordinates&colimit=max&format=json&redirects=1",
+          "role": "city_coordinate_reference",
+          "retrievedAt": "2026-09-21T11:52:40.614636+00:00",
+          "readMethod": "public_wikipedia_coordinates"
+        },
+        {
+          "url": "https://garageproject.co.nz/page-data/products/fourlegsgood/page-data.json",
+          "role": "official_public_product_page_data",
+          "retrievedAt": "2026-09-21T11:52:40.614636+00:00"
+        }
+      ]
+    }
+  ],
+  "deferred": [
+    {
+      "untappdId": "18394",
+      "reason": "Three Boys official Wheat page only exposes tap-badge graphic; not imported as bottle photo.",
+      "sourceUrl": "https://www.threeboysbrewery.co.nz/shop/wheat"
+    },
+    {
+      "untappdId": "1524525",
+      "reason": "Not completed within bounded pass; no guessed replacement."
+    },
+    {
+      "untappdId": "5953792",
+      "reason": "Not attempted: version-specific Bake Sale needs additional identity review."
+    }
+  ]
+}

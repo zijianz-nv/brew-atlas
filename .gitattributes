@@ -1,0 +1,15 @@
+* text=auto
+*.js text eol=lf
+*.jsx text eol=lf
+*.mjs text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.command text eol=lf
+*.gz binary
+*.png binary
+*.jpg binary
+*.webp binary
+
+# Evidence tests hash the original downloaded bytes, including line endings.
+research/** -text
+public/data-sources/** -text

@@ -1,0 +1,495 @@
+{
+  "createdAt": "2026-09-21T11:32:16.503479+00:00",
+  "method": "fresh_official_brewery_product_sources_with_public_city_coordinate_references",
+  "scope": "Six illustrative global representative seeds, not a sales ranking or complete global catalog. No prior catalog or assets used as a source.",
+  "records": [
+    {
+      "id": "official-sierra-nevada-pale-ale",
+      "name": "Pale Ale",
+      "brewery": "Sierra Nevada Brewing Co.",
+      "styleOriginal": "Pale Ale",
+      "abv": 5.6,
+      "ibu": 38,
+      "countryCode": "US",
+      "country": "United States",
+      "city": "Chico",
+      "description": "以 Cascade 酒花为主，带有松针与柑橘香气，并以焦糖麦芽取得平衡；包装内的二次发酵形成自然碳酸。",
+      "representativeReason": "作为美国淡色艾尔历史代表入选。酒厂官网将其追溯至 1980 年，并说明其对美式淡色艾尔的影响；不代表销量排名。",
+      "locationRole": "brewery_origin_city_reference",
+      "locationNote": "Chico 城市参考点。官方页面同时列出 Chico 与 Mills River 两处酒厂，不能据此判断每罐的生产地点。",
+      "imageKind": "official_product_packshot",
+      "imageReview": "罐身可读 Sierra Nevada、Pale Ale；不是 logo 或奖牌。",
+      "sourceNote": "直接产品页与 Chico 页面 GET 返回 403 后未重试。产品事实、Chico 地址和 CDN 图片链接从可访问的官方页面 web 索引读取；图片 CDN 正常 GET 200。",
+      "lat": 39.74,
+      "lng": -121.83555556,
+      "locationPrecision": "city",
+      "locationVerified": true,
+      "locationSourceUrl": "https://sierranevada.com/brews/pale-ale",
+      "coordinateSourceUrl": "https://en.wikipedia.org/?curid=107356",
+      "coordinateResponseUrl": "https://en.wikipedia.org/w/api.php?action=query&titles=Chico%2C+California%7CRegency+Park%2C+South+Australia%7CWellington%7CBangalore%7CCape+Town%7CMalle&prop=coordinates&colimit=max&format=json&redirects=1",
+      "coordinateSourcePageId": 107356,
+      "coordinatePlaceTitle": "Chico, California",
+      "coordinateEvidenceFile": "research/curated-catalog/evidence/city-coordinates.json",
+      "imageOriginal": "/images/curated/sierra-nevada-pale-ale.png",
+      "imageSourceUrl": "https://webadmin.sierranevada.com/wp-content/uploads/2022/10/PaleAle_12ozCan.png?w=3840",
+      "imageEvidence": {
+        "downloadStatus": 200,
+        "originalSha256": "371f3f5376490563130dde58c346886bb91c1f1cfe35e3a66afd261e1a90337d",
+        "bytes": 425347,
+        "width": 1000,
+        "height": 1742,
+        "reviewed": true,
+        "reviewMethod": "manual_packaging_label_check",
+        "reviewScope": "matches named product; not physical photography or latest packaging certification",
+        "rawOriginalUnmodified": true
+      },
+      "sources": [
+        {
+          "url": "https://sierranevada.com/brews/pale-ale",
+          "role": "official_product",
+          "retrievedAt": "2026-09-21T11:32:16.503479+00:00",
+          "readMethod": "public_web_index"
+        },
+        {
+          "url": "https://webadmin.sierranevada.com/wp-content/uploads/2022/10/PaleAle_12ozCan.png?w=3840",
+          "role": "official_product_image",
+          "retrievedAt": "2026-09-21T11:19:35.851699+00:00",
+          "readMethod": "direct_public_get"
+        },
+        {
+          "url": "https://en.wikipedia.org/w/api.php?action=query&titles=Chico%2C+California%7CRegency+Park%2C+South+Australia%7CWellington%7CBangalore%7CCape+Town%7CMalle&prop=coordinates&colimit=max&format=json&redirects=1",
+          "role": "city_coordinate_reference",
+          "retrievedAt": "2026-09-21T11:19:09.887139+00:00",
+          "readMethod": "public_wikipedia_coordinates"
+        }
+      ],
+      "sourceUrl": "https://sierranevada.com/brews/pale-ale",
+      "descriptionLanguage": "zh-CN",
+      "descriptionMethod": "faithful_short_paraphrase_of_official_product_page",
+      "collectionRole": "global_representative_seed",
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceEvidence": {
+        "productPageFile": null,
+        "productPageSha256": null,
+        "readLimitation": "HTTP Error 403: Forbidden",
+        "coordinatePageSha256": "cfe2466f60b2c1682861ebacbdc3bddcce6dc74b5e8ba610a5a965d2eb4b5659"
+      }
+    },
+    {
+      "id": "official-coopers-original-pale-ale",
+      "name": "Original Pale Ale",
+      "brewery": "Coopers Brewery",
+      "styleOriginal": "Pale Ale",
+      "abv": 4.5,
+      "ibu": 26,
+      "countryCode": "AU",
+      "country": "Australia",
+      "city": "Regency Park",
+      "description": "全麦芽淡色艾尔，在瓶、罐或桶内自然熟成，因此保留细微沉淀和浑浊外观。官方描述具有果香与花香，并以清脆苦味平衡。",
+      "representativeReason": "作为澳大利亚传统自然熟成淡色艾尔代表入选；官网明确介绍其自然熟成方法与长期产品身份，不作销量数值承诺。",
+      "locationRole": "brewery_locality_reference",
+      "locationNote": "Regency Park 郊区参考点；官网给出 230 Regency Road 地址，本坐标不是该门牌的精确定位。",
+      "imageKind": "official_product_packshot",
+      "imageReview": "瓶标可读 Coopers Original Pale Ale。",
+      "lat": -34.86,
+      "lng": 138.57,
+      "locationPrecision": "city",
+      "locationVerified": true,
+      "locationSourceUrl": "https://coopers.com.au/pages/contact",
+      "coordinateSourceUrl": "https://en.wikipedia.org/?curid=3613177",
+      "coordinateResponseUrl": "https://en.wikipedia.org/w/api.php?action=query&titles=Chico%2C+California%7CRegency+Park%2C+South+Australia%7CWellington%7CBangalore%7CCape+Town%7CMalle&prop=coordinates&colimit=max&format=json&redirects=1",
+      "coordinateSourcePageId": 3613177,
+      "coordinatePlaceTitle": "Regency Park, South Australia",
+      "coordinateEvidenceFile": "research/curated-catalog/evidence/city-coordinates.json",
+      "imageOriginal": "/images/curated/coopers-original-pale-ale.png",
+      "imageSourceUrl": "https://coopers.com.au/cdn/shop/files/range-375ml-bottle.png?v=1720666482",
+      "imageEvidence": {
+        "downloadStatus": 200,
+        "originalSha256": "6b0ca5d49b1b497c70ef297e25e14ea34a5e3bfd0795019c6b90cde0db1f3796",
+        "bytes": 195240,
+        "width": 560,
+        "height": 1544,
+        "reviewed": true,
+        "reviewMethod": "manual_packaging_label_check",
+        "reviewScope": "matches named product; not physical photography or latest packaging certification",
+        "rawOriginalUnmodified": true
+      },
+      "sources": [
+        {
+          "url": "https://coopers.com.au/products/original-pale-ale",
+          "role": "official_product",
+          "retrievedAt": "2026-09-21T11:17:39.620031+00:00",
+          "readMethod": "direct_public_html"
+        },
+        {
+          "url": "https://coopers.com.au/pages/contact",
+          "role": "official_brewery_location",
+          "retrievedAt": "2026-09-21T11:18:17.705119+00:00",
+          "readMethod": "direct_public_html"
+        },
+        {
+          "url": "https://coopers.com.au/cdn/shop/files/range-375ml-bottle.png?v=1720666482",
+          "role": "official_product_image",
+          "retrievedAt": "2026-09-21T11:19:35.652109+00:00",
+          "readMethod": "direct_public_get"
+        },
+        {
+          "url": "https://en.wikipedia.org/w/api.php?action=query&titles=Chico%2C+California%7CRegency+Park%2C+South+Australia%7CWellington%7CBangalore%7CCape+Town%7CMalle&prop=coordinates&colimit=max&format=json&redirects=1",
+          "role": "city_coordinate_reference",
+          "retrievedAt": "2026-09-21T11:19:09.887139+00:00",
+          "readMethod": "public_wikipedia_coordinates"
+        }
+      ],
+      "sourceUrl": "https://coopers.com.au/products/original-pale-ale",
+      "descriptionLanguage": "zh-CN",
+      "descriptionMethod": "faithful_short_paraphrase_of_official_product_page",
+      "collectionRole": "global_representative_seed",
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceEvidence": {
+        "productPageFile": "research/curated-catalog/evidence/coopers-pale.html",
+        "productPageSha256": "46c25a0d419e75c7e1a6171e7f923599d83835a7c899c7bd701490fd920c99e6",
+        "readLimitation": null,
+        "coordinatePageSha256": "cfe2466f60b2c1682861ebacbdc3bddcce6dc74b5e8ba610a5a965d2eb4b5659"
+      }
+    },
+    {
+      "id": "official-garage-project-hapi-daze",
+      "name": "Hāpi Daze",
+      "brewery": "Garage Project",
+      "styleOriginal": "Pacific Pale Ale",
+      "abv": 4.6,
+      "ibu": null,
+      "countryCode": "NZ",
+      "country": "New Zealand",
+      "city": "Wellington",
+      "description": "使用新西兰大麦与当地酒花酿造的太平洋淡色艾尔，呈明亮金色。官网描述突出芳香酒花，同时保持适合轻松饮用的酒精强度。",
+      "representativeReason": "作为新西兰本地原料淡色艾尔代表入选；官方产品页记载于 2011 年 8 月首次推出。",
+      "locationRole": "brewery_origin_city_reference",
+      "locationNote": "Wellington 城市参考点；官方 Aro Cellar Door 页面明确其位于 Aro Valley 的原始酒厂旁。",
+      "imageKind": "official_product_packshot",
+      "imageReview": "罐身可读 Hāpi Daze、Pacific Pale Ale、Garage Project。",
+      "lat": -41.28888889,
+      "lng": 174.77722222,
+      "locationPrecision": "city",
+      "locationVerified": true,
+      "locationSourceUrl": "https://garageproject.co.nz/locations/aro-cellar-door",
+      "coordinateSourceUrl": "https://en.wikipedia.org/?curid=33804",
+      "coordinateResponseUrl": "https://en.wikipedia.org/w/api.php?action=query&titles=Chico%2C+California%7CRegency+Park%2C+South+Australia%7CWellington%7CBangalore%7CCape+Town%7CMalle&prop=coordinates&colimit=max&format=json&redirects=1",
+      "coordinateSourcePageId": 33804,
+      "coordinatePlaceTitle": "Wellington",
+      "coordinateEvidenceFile": "research/curated-catalog/evidence/city-coordinates.json",
+      "imageOriginal": "/images/curated/garage-project-hapi-daze.png",
+      "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0178/4982/products/Hapi-Daze-Still_IA_9c6c09ba-5d9e-4970-bc0e-cd3d05573a5e.png?v=1607551685",
+      "imageEvidence": {
+        "downloadStatus": 200,
+        "originalSha256": "1ba1c932de1ac12d0a8317298b3c196614eaf827695ad860b3264e0877c9cc17",
+        "bytes": 183822,
+        "width": 475,
+        "height": 863,
+        "reviewed": true,
+        "reviewMethod": "manual_packaging_label_check",
+        "reviewScope": "matches named product; not physical photography or latest packaging certification",
+        "rawOriginalUnmodified": true
+      },
+      "sources": [
+        {
+          "url": "https://garageproject.co.nz/products/hapi-daze-1",
+          "role": "official_product",
+          "retrievedAt": "2026-09-21T11:17:38.771592+00:00",
+          "readMethod": "direct_public_html"
+        },
+        {
+          "url": "https://garageproject.co.nz/locations/aro-cellar-door",
+          "role": "official_brewery_location",
+          "retrievedAt": "2026-09-21T11:18:17.867685+00:00",
+          "readMethod": "direct_public_html"
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0178/4982/products/Hapi-Daze-Still_IA_9c6c09ba-5d9e-4970-bc0e-cd3d05573a5e.png?v=1607551685",
+          "role": "official_product_image",
+          "retrievedAt": "2026-09-21T11:20:02.902340+00:00",
+          "readMethod": "direct_public_get"
+        },
+        {
+          "url": "https://en.wikipedia.org/w/api.php?action=query&titles=Chico%2C+California%7CRegency+Park%2C+South+Australia%7CWellington%7CBangalore%7CCape+Town%7CMalle&prop=coordinates&colimit=max&format=json&redirects=1",
+          "role": "city_coordinate_reference",
+          "retrievedAt": "2026-09-21T11:19:09.887139+00:00",
+          "readMethod": "public_wikipedia_coordinates"
+        },
+        {
+          "url": "https://garageproject.co.nz/page-data/products/hapi-daze-1/page-data.json",
+          "role": "official_public_product_page_data",
+          "retrievedAt": "2026-09-21T11:19:09.958728+00:00"
+        }
+      ],
+      "sourceUrl": "https://garageproject.co.nz/products/hapi-daze-1",
+      "descriptionLanguage": "zh-CN",
+      "descriptionMethod": "faithful_short_paraphrase_of_official_product_page",
+      "collectionRole": "global_representative_seed",
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceEvidence": {
+        "productPageFile": "research/curated-catalog/evidence/garage-hapi.html",
+        "productPageSha256": "cc406331d0cfad04013d63bdbb54bba55b6908656181ea0701d0123e08b4835e",
+        "readLimitation": null,
+        "coordinatePageSha256": "cfe2466f60b2c1682861ebacbdc3bddcce6dc74b5e8ba610a5a965d2eb4b5659",
+        "productImageJsonField": "result.data.productData.media[0].image.originalSrc"
+      }
+    },
+    {
+      "id": "official-geist-witty-wit",
+      "name": "Geist Witty Wit",
+      "brewery": "Geist Brewing Co.",
+      "styleOriginal": "BELGIAN-STYLE WITBIER",
+      "abv": 5.0,
+      "ibu": 10,
+      "countryCode": "IN",
+      "country": "India",
+      "city": "Bengaluru",
+      "description": "遵循比利时小麦啤酒传统，加入橙皮与芫荽。酒液呈浑浊的浅黄色，泡沫绵密；官方描述突出小麦、谷物带来的轻微酸感，以及柔和的香料、果香与麦芽平衡。",
+      "representativeReason": "作为印度地区小麦啤酒代表入选；官网说明它是酒厂 2017 年开始酿造的最初三款之一。",
+      "locationRole": "brewery_city_reference",
+      "locationNote": "Bengaluru 城市参考点；官方零售页明确 crowler 在 Bangalore 的 Old Madras Road 生产酒厂灌装，不把城市坐标当作工厂门址。",
+      "imageKind": "official_packaging_mockup",
+      "imageReview": "官方 retail 产品块中的 Witty Wit crowler 罐图，罐身名称已目视确认；文件名带 Mockup，不能称摄影实拍。",
+      "sourceNote": "产品 HTML 同时含 availability 通用模板字样，未据此判定当前库存、停售或产能。",
+      "lat": 12.97888889,
+      "lng": 77.59166667,
+      "locationPrecision": "city",
+      "locationVerified": true,
+      "locationSourceUrl": "https://www.geist.in/retail",
+      "coordinateSourceUrl": "https://en.wikipedia.org/?curid=44275267",
+      "coordinateResponseUrl": "https://en.wikipedia.org/w/api.php?action=query&titles=Chico%2C+California%7CRegency+Park%2C+South+Australia%7CWellington%7CBangalore%7CCape+Town%7CMalle&prop=coordinates&colimit=max&format=json&redirects=1",
+      "coordinateSourcePageId": 44275267,
+      "coordinatePlaceTitle": "Bengaluru",
+      "coordinateEvidenceFile": "research/curated-catalog/evidence/city-coordinates.json",
+      "imageOriginal": "/images/curated/geist-witty-wit.avif",
+      "imageSourceUrl": "https://cdn.prod.website-files.com/6303baac8e0dfd72828a2e07/64d3a58cfad8ce10fc6e0bbe_Mockup5-WW%201.avif",
+      "imageEvidence": {
+        "downloadStatus": 200,
+        "originalSha256": "e30b28e346adbda362fc07a7d5b0dba3afe0b06fbd23442b2a8504651cfa57c3",
+        "bytes": 29090,
+        "width": 260,
+        "height": 674,
+        "reviewed": true,
+        "reviewMethod": "manual_packaging_label_check",
+        "reviewScope": "matches named product; not physical photography or latest packaging certification",
+        "rawOriginalUnmodified": true
+      },
+      "sources": [
+        {
+          "url": "https://www.geist.in/beer-catalogue/geist-witty-wit",
+          "role": "official_product",
+          "retrievedAt": "2026-09-21T11:17:40.436432+00:00",
+          "readMethod": "direct_public_html"
+        },
+        {
+          "url": "https://www.geist.in/retail",
+          "role": "official_brewery_location",
+          "retrievedAt": "2026-09-21T11:18:16.512876+00:00",
+          "readMethod": "direct_public_html"
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/6303baac8e0dfd72828a2e07/64d3a58cfad8ce10fc6e0bbe_Mockup5-WW%201.avif",
+          "role": "official_product_image",
+          "retrievedAt": "2026-09-21T11:19:36.406042+00:00",
+          "readMethod": "direct_public_get"
+        },
+        {
+          "url": "https://en.wikipedia.org/w/api.php?action=query&titles=Chico%2C+California%7CRegency+Park%2C+South+Australia%7CWellington%7CBangalore%7CCape+Town%7CMalle&prop=coordinates&colimit=max&format=json&redirects=1",
+          "role": "city_coordinate_reference",
+          "retrievedAt": "2026-09-21T11:19:09.887139+00:00",
+          "readMethod": "public_wikipedia_coordinates"
+        }
+      ],
+      "sourceUrl": "https://www.geist.in/beer-catalogue/geist-witty-wit",
+      "descriptionLanguage": "zh-CN",
+      "descriptionMethod": "faithful_short_paraphrase_of_official_product_page",
+      "collectionRole": "global_representative_seed",
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceEvidence": {
+        "productPageFile": "research/curated-catalog/evidence/geist-witty.html",
+        "productPageSha256": "10460afb7170f8cf2d41476633bed32138b6f73ca9ab84beaaa3eb4680f0078c",
+        "readLimitation": null,
+        "coordinatePageSha256": "cfe2466f60b2c1682861ebacbdc3bddcce6dc74b5e8ba610a5a965d2eb4b5659",
+        "imagePageFile": "research/curated-catalog/evidence/geist-retail.html"
+      },
+      "untappdId": "2238467",
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "reviewedAt": "2026-09-21",
+        "sources": [
+          "https://awards.untappd.com/beers/2238467/",
+          "https://www.geist.in/beer-catalogue/geist-witty-wit"
+        ],
+        "basis": "Exact Geist Witty Wit product name, Geist Brewing Co. producer and India country; Witbier style agrees with the official Belgian-style Witbier. Annual award and current official product facts remain separately attributed; packaging is not asserted to be the exact awarded batch."
+      }
+    },
+    {
+      "id": "official-jack-black-brewers-lager",
+      "name": "Brewers Lager",
+      "brewery": "Jack Black's Brewing Co.",
+      "styleOriginal": "Lager",
+      "abv": 5.0,
+      "ibu": 22,
+      "countryCode": "ZA",
+      "country": "South Africa",
+      "city": "Cape Town",
+      "description": "酒厂的旗舰拉格，使用百分之百优质麦芽酿造。官方将其描述为适合多种日常饮用场合的清爽酒款。",
+      "representativeReason": "作为南非地区旗舰酒款入选；官网在 THE ORIGINALS 栏目明确称 Brewers Lager 为旗舰。",
+      "locationRole": "brewery_city_reference",
+      "locationNote": "Cape Town 城市参考点；官网产品页明确酒款由其 Cape Town craft brewery 酿造。",
+      "imageKind": "official_product_packshot",
+      "imageReview": "瓶身可读 Jack Black Original、Brewers Lager。",
+      "lat": -33.92527778,
+      "lng": 18.42388889,
+      "locationPrecision": "city",
+      "locationVerified": true,
+      "locationSourceUrl": "https://jackblackbeer.com/pages/beer",
+      "coordinateSourceUrl": "https://en.wikipedia.org/?curid=6653",
+      "coordinateResponseUrl": "https://en.wikipedia.org/w/api.php?action=query&titles=Chico%2C+California%7CRegency+Park%2C+South+Australia%7CWellington%7CBangalore%7CCape+Town%7CMalle&prop=coordinates&colimit=max&format=json&redirects=1",
+      "coordinateSourcePageId": 6653,
+      "coordinatePlaceTitle": "Cape Town",
+      "coordinateEvidenceFile": "research/curated-catalog/evidence/city-coordinates.json",
+      "imageOriginal": "/images/curated/jack-black-brewers-lager.png",
+      "imageSourceUrl": "https://jackblackbeer.com/cdn/shop/files/product-beer-jack-brewers-lager-beer.png?v=1689781342&width=600",
+      "imageEvidence": {
+        "downloadStatus": 200,
+        "originalSha256": "1fc11b297529db4d1e3ce52f7885bd6b46901e7ae65ff0be2ca051d04e78eaf0",
+        "bytes": 43803,
+        "width": 600,
+        "height": 600,
+        "reviewed": true,
+        "reviewMethod": "manual_packaging_label_check",
+        "reviewScope": "matches named product; not physical photography or latest packaging certification",
+        "rawOriginalUnmodified": true
+      },
+      "sources": [
+        {
+          "url": "https://jackblackbeer.com/pages/beer",
+          "role": "official_product",
+          "retrievedAt": "2026-09-21T11:17:40.646361+00:00",
+          "readMethod": "direct_public_html"
+        },
+        {
+          "url": "https://jackblackbeer.com/cdn/shop/files/product-beer-jack-brewers-lager-beer.png?v=1689781342&width=600",
+          "role": "official_product_image",
+          "retrievedAt": "2026-09-21T11:19:35.935860+00:00",
+          "readMethod": "direct_public_get"
+        },
+        {
+          "url": "https://en.wikipedia.org/w/api.php?action=query&titles=Chico%2C+California%7CRegency+Park%2C+South+Australia%7CWellington%7CBangalore%7CCape+Town%7CMalle&prop=coordinates&colimit=max&format=json&redirects=1",
+          "role": "city_coordinate_reference",
+          "retrievedAt": "2026-09-21T11:19:09.887139+00:00",
+          "readMethod": "public_wikipedia_coordinates"
+        }
+      ],
+      "sourceUrl": "https://jackblackbeer.com/pages/beer",
+      "descriptionLanguage": "zh-CN",
+      "descriptionMethod": "faithful_short_paraphrase_of_official_product_page",
+      "collectionRole": "global_representative_seed",
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceEvidence": {
+        "productPageFile": "research/curated-catalog/evidence/jackblack.html",
+        "productPageSha256": "71b932860ebdb4db65352a7d436cb548faa053f2597dff7293bb21861c616999",
+        "readLimitation": null,
+        "coordinatePageSha256": "cfe2466f60b2c1682861ebacbdc3bddcce6dc74b5e8ba610a5a965d2eb4b5659"
+      }
+    },
+    {
+      "id": "official-westmalle-tripel",
+      "name": "Westmalle Tripel",
+      "brewery": "Brouwerij der Trappisten van Westmalle",
+      "styleOriginal": "Tripel",
+      "abv": 9.5,
+      "ibu": null,
+      "countryCode": "BE",
+      "country": "Belgium",
+      "city": "Malle",
+      "description": "金黄色的特拉普三料啤酒，采用上层发酵并在瓶中再次发酵。官方描述具有熟香蕉果香、细致酒花香、柔滑口感，以及干爽而悠长的收尾。",
+      "representativeReason": "作为比利时 Tripel 风格历史代表入选；官网记载该修道院于 1934 年首次酿造三料啤酒。",
+      "locationRole": "brewery_municipality_reference",
+      "locationNote": "Malle 市镇参考点；官网列出酒厂地址 Antwerpsesteenweg 496, 2390 Malle，本坐标不是该门牌的精确定位。",
+      "imageKind": "official_product_packshot_with_glass",
+      "imageReview": "官方瓶与杯组合素材，瓶颈可读 Tripel 9.5%，主标可读 Westmalle Tripel；并非单独酒瓶裁切。",
+      "sourceNote": "官网苦度为 38 EBU；没有将 EBU 强行填作 IBU，另在 sourceEvidence 中保留。",
+      "lat": 51.28333333,
+      "lng": 4.68333333,
+      "locationPrecision": "city",
+      "locationVerified": true,
+      "locationSourceUrl": "https://www.trappistwestmalle.be/fr/bieres-trappistes/westmalle-tripel/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/?curid=156134",
+      "coordinateResponseUrl": "https://en.wikipedia.org/w/api.php?action=query&titles=Chico%2C+California%7CRegency+Park%2C+South+Australia%7CWellington%7CBangalore%7CCape+Town%7CMalle&prop=coordinates&colimit=max&format=json&redirects=1",
+      "coordinateSourcePageId": 156134,
+      "coordinatePlaceTitle": "Malle",
+      "coordinateEvidenceFile": "research/curated-catalog/evidence/city-coordinates.json",
+      "imageOriginal": "/images/curated/westmalle-tripel.png",
+      "imageSourceUrl": "https://www.trappistwestmalle.be/wp-content/uploads/2023/03/Westmalle-Tripel-978x1024-1.png",
+      "imageEvidence": {
+        "downloadStatus": 200,
+        "originalSha256": "eff71770baac7ec95c3e9bae3263df84942fb70bed81fce0504d745e8208fb0e",
+        "bytes": 110217,
+        "width": 545,
+        "height": 917,
+        "reviewed": true,
+        "reviewMethod": "manual_packaging_label_check",
+        "reviewScope": "matches named product; not physical photography or latest packaging certification",
+        "rawOriginalUnmodified": true
+      },
+      "sources": [
+        {
+          "url": "https://www.trappistwestmalle.be/fr/bieres-trappistes/westmalle-tripel/",
+          "role": "official_product",
+          "retrievedAt": "2026-09-21T11:18:24.793764+00:00",
+          "readMethod": "direct_public_html"
+        },
+        {
+          "url": "https://www.trappistwestmalle.be/wp-content/uploads/2023/03/Westmalle-Tripel-978x1024-1.png",
+          "role": "official_product_image",
+          "retrievedAt": "2026-09-21T11:19:37.535878+00:00",
+          "readMethod": "direct_public_get"
+        },
+        {
+          "url": "https://en.wikipedia.org/w/api.php?action=query&titles=Chico%2C+California%7CRegency+Park%2C+South+Australia%7CWellington%7CBangalore%7CCape+Town%7CMalle&prop=coordinates&colimit=max&format=json&redirects=1",
+          "role": "city_coordinate_reference",
+          "retrievedAt": "2026-09-21T11:19:09.887139+00:00",
+          "readMethod": "public_wikipedia_coordinates"
+        }
+      ],
+      "sourceUrl": "https://www.trappistwestmalle.be/fr/bieres-trappistes/westmalle-tripel/",
+      "descriptionLanguage": "zh-CN",
+      "descriptionMethod": "faithful_short_paraphrase_of_official_product_page",
+      "collectionRole": "global_representative_seed",
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceEvidence": {
+        "productPageFile": "research/curated-catalog/evidence/westmalle-tripel.html",
+        "productPageSha256": "4b6b9337d5fdbb994c8f288466681a942ca25361ff33c882e2f77d8dcbf4f2c8",
+        "readLimitation": null,
+        "coordinatePageSha256": "cfe2466f60b2c1682861ebacbdc3bddcce6dc74b5e8ba610a5a965d2eb4b5659",
+        "bitternessOriginal": {
+          "value": 38,
+          "unit": "EBU"
+        }
+      }
+    }
+  ],
+  "summary": {
+    "records": 6,
+    "countries": 6,
+    "officialProductImagesCached": 6,
+    "cityReferenceCoordinates": 6,
+    "rankedBySales": false,
+    "legacyCatalogInput": false
+  }
+}

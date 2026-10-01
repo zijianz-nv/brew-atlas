@@ -1,0 +1,47 @@
+{
+  "source": "https://github.com/brewdega/open-beer-database-dumps",
+  "downloadedOrVerifiedAt": "2026-09-14T05:03:56.566643+00:00",
+  "files": [
+    {
+      "file": "README.md",
+      "url": "https://raw.githubusercontent.com/brewdega/open-beer-database-dumps/master/README.md",
+      "bytes": 1312,
+      "sha256": "330bd29e12400d22ff6e2ac2d74a25d770be51e040316d2f38a57068cac80f4a"
+    },
+    {
+      "file": "beers.csv",
+      "url": "https://raw.githubusercontent.com/brewdega/open-beer-database-dumps/master/dumps/beers.csv",
+      "bytes": 1200273,
+      "sha256": "12820086ed2db3842face7e595778cb733c76241053f9d37b0d6a01bd97b0f1a"
+    },
+    {
+      "file": "breweries.csv",
+      "url": "https://raw.githubusercontent.com/brewdega/open-beer-database-dumps/master/dumps/breweries.csv",
+      "bytes": 328849,
+      "sha256": "9993fc585bee19d0e3ed2997809eaf793f10f93c69a2edec2eb571f5ce10c164"
+    },
+    {
+      "file": "styles.csv",
+      "url": "https://raw.githubusercontent.com/brewdega/open-beer-database-dumps/master/dumps/styles.csv",
+      "bytes": 7636,
+      "sha256": "eea36f26aa897b46355f7433f901a7856ea4fc39cd4aaf06eb733acd78a061f5"
+    },
+    {
+      "file": "categories.csv",
+      "url": "https://raw.githubusercontent.com/brewdega/open-beer-database-dumps/master/dumps/categories.csv",
+      "bytes": 480,
+      "sha256": "9189d2e8ca189399a8deaafe1b811765c0d7b4d7aacb358f2d210a441cf98f30"
+    },
+    {
+      "file": "geocodes.csv",
+      "url": "https://raw.githubusercontent.com/brewdega/open-beer-database-dumps/master/dumps/geocodes.csv",
+      "bytes": 76140,
+      "sha256": "bfd4f3aae231024e927d3a388bcb2e09bee0eb5bd1cd3cd30f4d0bf575fe390a"
+    }
+  ],
+  "licenses": {
+    "database": "https://opendatacommons.org/licenses/odbl/1-0/",
+    "contents": "https://opendatacommons.org/licenses/dbcl/1-0/"
+  },
+  "note": "Original bytes preserved. Source README mislinks the Open Database License anchor to DbCL; both named licenses and correct URLs are retained."
+}

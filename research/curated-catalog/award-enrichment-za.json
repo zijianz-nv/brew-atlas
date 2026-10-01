@@ -1,0 +1,287 @@
+{
+  "createdAt": "2026-09-21T11:55:02.185943+00:00",
+  "method": "official_product_enrichment_for_existing_award_ids",
+  "records": [
+    {
+      "untappdId": "1705785",
+      "name": "Cape Pale Ale",
+      "brewery": "Jack Black's Brewing Co.",
+      "officialProductName": "Cape Pale Ale",
+      "styleOriginal": "Pale Ale",
+      "abv": 4.0,
+      "ibu": 35,
+      "description": "采用干投酒花工艺，官方描述具有柑橘、松针与热带水果香气，并强调易饮的特点。",
+      "city": "Cape Town",
+      "lat": -33.92527778,
+      "lng": 18.42388889,
+      "sourceUrl": "https://jackblackbeer.com/pages/beer",
+      "locationSourceUrl": "https://jackblackbeer.com/pages/beer",
+      "coordinateSourceUrl": "https://en.wikipedia.org/?curid=6653",
+      "coordinateEvidenceFile": "research/curated-catalog/evidence/city-coordinates.json",
+      "imageKind": "official_product_packshot",
+      "imageNote": "透明背景单瓶，原图未修改。",
+      "id": "official-award-1705785",
+      "countryCode": "ZA",
+      "country": "South Africa",
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationVerified": true,
+      "imageOriginal": "/images/curated/awards-1705785.png",
+      "imageSourceUrl": "https://jackblackbeer.com/cdn/shop/files/product-beer-jack-cape-pale-ale-beer.png?v=1689781349&width=600",
+      "imageContentBounds": {
+        "width": 600,
+        "height": 600,
+        "bounds": {
+          "x": 233,
+          "y": 63,
+          "width": 133,
+          "height": 475
+        },
+        "originalSha256": "28b8bafef236cd4bcf3d0cb993f7b9093ea24e6bf16bf1a2a8d86146a892e116"
+      },
+      "imageEvidence": {
+        "originalSha256": "28b8bafef236cd4bcf3d0cb993f7b9093ea24e6bf16bf1a2a8d86146a892e116",
+        "bytes": 43810,
+        "width": 600,
+        "height": 600,
+        "reviewed": true,
+        "rawOriginalUnmodified": true
+      },
+      "descriptionMethod": "faithful_short_paraphrase_of_official_product_source",
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "basis": "获奖指定名称 Cape Pale Ale 与官网同名产品、生产商 Jack Black 对应；官网该产品块的瓶图正面为 Jack Black CPA，与描述中的 CPA 缩写一致。",
+        "sources": [
+          "https://jackblackbeer.com/pages/beer",
+          "https://awards.untappd.com/region/south-africa/",
+          "https://awards.untappd.com/beers/1705785/"
+        ],
+        "awardSourceMethod": "existing current-round parsed award-ID evidence; not a new GET in this enrichment pass"
+      },
+      "sources": [
+        {
+          "url": "https://jackblackbeer.com/pages/beer",
+          "role": "official_product",
+          "retrievedAt": "2026-09-21T11:55:02.185943+00:00"
+        },
+        {
+          "url": "https://jackblackbeer.com/pages/beer",
+          "role": "official_brewery_location",
+          "retrievedAt": "2026-09-21T11:55:02.185943+00:00"
+        },
+        {
+          "url": "https://jackblackbeer.com/cdn/shop/files/product-beer-jack-cape-pale-ale-beer.png?v=1689781349&width=600",
+          "role": "official_product_image",
+          "retrievedAt": "2026-09-21T11:48:47.473389+00:00"
+        },
+        {
+          "url": "https://en.wikipedia.org/?curid=6653",
+          "role": "city_coordinate",
+          "retrievedAt": "2026-09-21T11:55:02.185943+00:00"
+        }
+      ],
+      "sourceEvidence": {
+        "files": [
+          "research/curated-catalog/evidence/jackblack.html"
+        ],
+        "locationNote": "城市参考点，不是精确厂址。",
+        "rawImagesUnmodified": true
+      }
+    },
+    {
+      "untappdId": "5857672",
+      "name": "Milk Stout",
+      "brewery": "Cape Brewing Co.",
+      "officialProductName": "CBC Milk Stout",
+      "styleOriginal": "Milk Stout",
+      "abv": 6.0,
+      "ibu": 28,
+      "description": "酒厂将其描述为酒体饱满、口感绵滑的深色啤酒，带有烘焙咖啡豆、黑巧克力与软糖风味，甜感平衡，收尾柔和。",
+      "city": "Paarl",
+      "lat": -33.72417,
+      "lng": 18.95583,
+      "sourceUrl": "https://capebrewing.co.za/product/cbc-milk-stout-24x340ml/",
+      "locationSourceUrl": "https://capebrewing.co.za/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Paarl",
+      "coordinateEvidenceFile": "research/curated-catalog/za-evidence/paarl-coordinate-web.json",
+      "imageKind": "official_product_packshot",
+      "imageNote": "官网透明背景单瓶产品 PNG；Pillow RGBA alpha 检查确认透明通道。原图字节未修改。",
+      "id": "official-award-5857672",
+      "countryCode": "ZA",
+      "country": "South Africa",
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationVerified": true,
+      "imageOriginal": "/images/curated/awards-5857672.png",
+      "imageSourceUrl": "https://capebrewing.co.za/wp-content/uploads/2024/05/SHOP-CBC-Milk-Stout-Single-1000px-x-1000px.png",
+      "imageContentBounds": {
+        "width": 1000,
+        "height": 1000,
+        "bounds": {
+          "x": 372,
+          "y": 12,
+          "width": 255,
+          "height": 976
+        },
+        "originalSha256": "dbe605221393233280eebc60ea8e7718cfc494b8e6258949cce470a5b81cd59d"
+      },
+      "imageEvidence": {
+        "originalSha256": "dbe605221393233280eebc60ea8e7718cfc494b8e6258949cce470a5b81cd59d",
+        "bytes": 310933,
+        "width": 1000,
+        "height": 1000,
+        "reviewed": true,
+        "rawOriginalUnmodified": true
+      },
+      "descriptionMethod": "faithful_short_paraphrase_of_official_product_source",
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "basis": "获奖生产商 Cape Brewing Co. 对应官方 Cape Brewing Company/CBC；产品页明确 CBC Milk Stout，单瓶图片标签同时显示 CBC、Milk Stout、6.0%。CBC为官方生产商缩写，不是不同口味或年份。",
+        "sources": [
+          "https://capebrewing.co.za/product/cbc-milk-stout-24x340ml/",
+          "https://awards.untappd.com/region/south-africa/page/2/",
+          "https://awards.untappd.com/beers/5857672/"
+        ],
+        "awardSourceMethod": "existing current-round parsed award-ID evidence; not a new GET in this enrichment pass"
+      },
+      "sources": [
+        {
+          "url": "https://capebrewing.co.za/product/cbc-milk-stout-24x340ml/",
+          "role": "official_product",
+          "retrievedAt": "2026-09-21T11:55:02.185943+00:00"
+        },
+        {
+          "url": "https://capebrewing.co.za/",
+          "role": "official_brewery_location",
+          "retrievedAt": "2026-09-21T11:55:02.185943+00:00"
+        },
+        {
+          "url": "https://capebrewing.co.za/wp-content/uploads/2024/05/SHOP-CBC-Milk-Stout-Single-1000px-x-1000px.png",
+          "role": "official_product_image",
+          "retrievedAt": "2026-09-21T11:48:48.439172+00:00"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Paarl",
+          "role": "city_coordinate",
+          "retrievedAt": "2026-09-21T11:55:02.185943+00:00"
+        },
+        {
+          "url": "https://capebrewing.co.za/",
+          "role": "official_product_description",
+          "retrievedAt": "2026-09-21T11:55:02.185943+00:00"
+        }
+      ],
+      "sourceEvidence": {
+        "files": [
+          "research/curated-catalog/za-evidence/cbc-product.html",
+          "research/curated-catalog/za-evidence/cbc-home.html"
+        ],
+        "locationNote": "城市参考点，不是精确厂址。",
+        "rawImagesUnmodified": true
+      }
+    },
+    {
+      "untappdId": "1239720",
+      "name": "Jacob’s Pale Ale",
+      "brewery": "Newlands Spring Brewing Co.",
+      "officialProductName": "Jacobs Pale Ale",
+      "styleOriginal": "English styled Ale",
+      "abv": 5.0,
+      "ibu": null,
+      "description": "Newlands Spring 的小批量英式艾尔。酒厂官网说明，其配方源于酒厂档案中保存的一份历史配方。",
+      "city": "Cape Town",
+      "lat": -33.972744444444444,
+      "lng": 18.465019444444444,
+      "sourceUrl": "https://newlandsbrewery.co.za/beer-culture/",
+      "locationSourceUrl": "https://newlandsbrewery.co.za/contact/",
+      "coordinateSourceUrl": "https://newlandsbrewery.co.za/contact/",
+      "coordinateEvidenceFile": "research/curated-catalog/za-evidence/newlands-contact.html",
+      "imageKind": "retailer_product_packshot",
+      "imageNote": "Mr D/Pick n Pay 公共商品页的单瓶 JPEG，白色不透明背景，300×300，标签已目视确认。原字节未修改；不是厂家素材或公开许可声明。",
+      "id": "official-award-1239720",
+      "countryCode": "ZA",
+      "country": "South Africa",
+      "locationPrecision": "brewery",
+      "locationRole": "official_brewery_gps",
+      "locationVerified": true,
+      "imageOriginal": "/images/curated/awards-1239720.jpg",
+      "imageSourceUrl": "https://images.bottles.bottlesapp.co.za/productImages/Straight_on-6003326016902.jpg",
+      "imageContentBounds": {
+        "width": 300,
+        "height": 300,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 300,
+          "height": 300
+        },
+        "originalSha256": "8b4d5947e577b81bcc5433d24165eff377cb4d015805972669f31bdd2070279e"
+      },
+      "imageEvidence": {
+        "originalSha256": "8b4d5947e577b81bcc5433d24165eff377cb4d015805972669f31bdd2070279e",
+        "bytes": 7768,
+        "width": 300,
+        "height": 300,
+        "reviewed": true,
+        "rawOriginalUnmodified": true
+      },
+      "descriptionMethod": "faithful_short_paraphrase_of_official_product_source",
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "basis": "获奖指定 Newlands Spring Brewing Co. Jacob’s Pale Ale 与官网 Jacobs Pale Ale 同名同生产商；Mr D/Pick n Pay 商品 JSON-LD 指明同名340ml单瓶及专属图片，标签可读 NEWLANDS SPRING 与 JACOBS PALE ALE。无年份或不同版本名称。",
+        "sources": [
+          "https://newlandsbrewery.co.za/beer-culture/",
+          "https://awards.untappd.com/region/south-africa/",
+          "https://awards.untappd.com/beers/1239720/",
+          "https://www.mrd.com/delivery/groceries/products/995977_EA/newlands-spring-jacobs-pale-ale-340ml"
+        ],
+        "awardSourceMethod": "existing current-round parsed award-ID evidence; not a new GET in this enrichment pass"
+      },
+      "sources": [
+        {
+          "url": "https://newlandsbrewery.co.za/beer-culture/",
+          "role": "official_product",
+          "retrievedAt": "2026-09-21T11:55:02.185943+00:00"
+        },
+        {
+          "url": "https://newlandsbrewery.co.za/contact/",
+          "role": "official_brewery_location",
+          "retrievedAt": "2026-09-21T11:55:02.185943+00:00"
+        },
+        {
+          "url": "https://images.bottles.bottlesapp.co.za/productImages/Straight_on-6003326016902.jpg",
+          "role": "retailer_product_image",
+          "retrievedAt": "2026-09-21T11:51:53.250355+00:00"
+        },
+        {
+          "url": "https://newlandsbrewery.co.za/contact/",
+          "role": "official_brewery_gps",
+          "retrievedAt": "2026-09-21T11:55:02.185943+00:00"
+        },
+        {
+          "url": "https://www.mrd.com/delivery/groceries/products/995977_EA/newlands-spring-jacobs-pale-ale-340ml",
+          "role": "retailer_product_and_image",
+          "retrievedAt": "2026-09-21T11:55:02.185943+00:00"
+        },
+        {
+          "url": "https://mitchellsalehouse.co.za/",
+          "role": "venue_beer_menu_abv",
+          "retrievedAt": "2026-09-21T11:55:02.185943+00:00"
+        }
+      ],
+      "sourceEvidence": {
+        "files": [
+          "research/curated-catalog/za-evidence/newlands.html",
+          "research/curated-catalog/za-evidence/newlands-retail.html",
+          "research/curated-catalog/za-evidence/newlands-contact.html",
+          "research/curated-catalog/za-evidence/newlands-menu.html"
+        ],
+        "locationNote": "官网 Contact 明示 GPS：33°58′21.88″S 18°27′54.07″E，按度分秒换算；不是城市中心或猜测门牌。",
+        "rawImagesUnmodified": true,
+        "ownershipNote": "官方页标明为 South African Breweries 的子公司；没有把它标为独立酒厂。",
+        "imageJsonField": "Product.image in retailer application/ld+json",
+        "abvSource": "Mitchell’s Scottish Ale House public own menu lists Newlands Spring Jacobs Pale Ale 5.0% abv; official brewery prose omits ABV."
+      }
+    }
+  ]
+}

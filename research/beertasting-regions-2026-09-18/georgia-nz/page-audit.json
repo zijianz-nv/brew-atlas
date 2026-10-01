@@ -1,0 +1,365 @@
+{
+  "method": "direct_public_html",
+  "batch": "regions_georgia_nz_20260918",
+  "pages": [
+    {
+      "url": "https://www.beertasting.com/en/brewery/natakhtari/beers",
+      "fetched_at": "2026-09-18T10:38:35.163270+00:00",
+      "http_status": 200,
+      "source_bytes": 155202,
+      "source_sha256": "f80faaa57f5d56cf248ca20e1d4a282a55979d8ea59f897d02ac8da102f1d953",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 7
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/zedazeni/beers",
+      "fetched_at": "2026-09-18T10:38:29.127523+00:00",
+      "http_status": 200,
+      "source_bytes": 206137,
+      "source_sha256": "775590151c28089a5c930301778148e65da52370091ec3c59040560af84bc95c",
+      "meta": {
+        "current_page": 1,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 16
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/garage-project/beers",
+      "fetched_at": "2026-09-18T10:38:48.120720+00:00",
+      "http_status": 200,
+      "source_bytes": 190170,
+      "source_sha256": "55c25f1a26f1a93501fd5be0a1604a8dd894d9398de291038893e70a03f9fb6f",
+      "meta": {
+        "current_page": 1,
+        "last_page": 8,
+        "per_page": 15,
+        "total": 106
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/garage-project/beers?page=2",
+      "fetched_at": "2026-09-18T10:39:30.054180+00:00",
+      "http_status": 200,
+      "source_bytes": 196096,
+      "source_sha256": "9decae315f1deb54b68fb1e7a1d3b8488fe25e8c2cf9c85b56d25f7b0215f299",
+      "meta": {
+        "current_page": 2,
+        "last_page": 8,
+        "per_page": 15,
+        "total": 106
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/hop-federation/beers?page=2",
+      "fetched_at": "2026-09-18T10:39:35.919060+00:00",
+      "http_status": 200,
+      "source_bytes": 191371,
+      "source_sha256": "454f3f9b473eb78a14ad2df8c431954a5b6d7d0144695b3fdfe2facc56c0dcab",
+      "meta": {
+        "current_page": 2,
+        "last_page": 3,
+        "per_page": 15,
+        "total": 32
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/behemoth-chur/beers",
+      "fetched_at": "2026-09-18T10:38:41.293062+00:00",
+      "http_status": 200,
+      "source_bytes": 203213,
+      "source_sha256": "5640f3a3b99c22995637f427df01146a133627685dfd3d4b29695db3ef05422e",
+      "meta": {
+        "current_page": 1,
+        "last_page": 9,
+        "per_page": 15,
+        "total": 125
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/emersons-brewery/beers",
+      "fetched_at": "2026-09-18T10:39:01.023972+00:00",
+      "http_status": 200,
+      "source_bytes": 190314,
+      "source_sha256": "afa1af1f0f73c97314ed77a8338e6f4f38a29f6df5821e3e4f41c9d649dab60e",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 15
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/megobrebi-brewery/beers",
+      "fetched_at": "2026-09-18T10:38:23.522980+00:00",
+      "http_status": 200,
+      "source_bytes": 123654,
+      "source_sha256": "3e53a68bcf70a91df91bfa1a5ef17226b29fb94966ec18b75544addbb00ec13b",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 5
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/behemoth-chur/beers?page=2",
+      "fetched_at": "2026-09-18T10:39:23.984625+00:00",
+      "http_status": 200,
+      "source_bytes": 206668,
+      "source_sha256": "4d1b2e803bd2af51fb705b88f031c58a67823127d77b1d1ed8c2e9a99aa49f72",
+      "meta": {
+        "current_page": 2,
+        "last_page": 9,
+        "per_page": 15,
+        "total": 125
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/hop-federation/beers",
+      "fetched_at": "2026-09-18T10:39:05.940906+00:00",
+      "http_status": 200,
+      "source_bytes": 190766,
+      "source_sha256": "69c581677aa81ee84f1b5e0c0b7cca4619a2c934fbc41fdffff5767323192898",
+      "meta": {
+        "current_page": 1,
+        "last_page": 3,
+        "per_page": 15,
+        "total": 32
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/cassels-brewing/beers",
+      "fetched_at": "2026-09-18T10:38:57.651721+00:00",
+      "http_status": 200,
+      "source_bytes": 164925,
+      "source_sha256": "9925558a424a6a5210f0d1e98e1c84022a69e0546194e328082bc05f2e859594",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 11
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/zedazeni/beers?page=2",
+      "fetched_at": "2026-09-18T10:39:17.881977+00:00",
+      "http_status": 200,
+      "source_bytes": 134887,
+      "source_sha256": "5fd1bd20824298ecf73f5198da2a099d3e8ea6a3225bd0e702e028a98192dc42",
+      "meta": {
+        "current_page": 2,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 16
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/black-lion/beers",
+      "fetched_at": "2026-09-18T10:45:09.037454+00:00",
+      "http_status": 200,
+      "source_bytes": 159857,
+      "source_sha256": "4cb484933e74f8109829035cef37716b1ab98e4abc9aa0bb23fe67fa58cd51b8",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 10
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/renaissance-brewing-limited/beers?page=2",
+      "fetched_at": "2026-09-18T10:41:22.684894+00:00",
+      "http_status": 200,
+      "source_bytes": 196858,
+      "source_sha256": "0fcb3cd39dcb0a0966151fe6d62880a71fda6151a8138fdfadcbf355ee965dae",
+      "meta": {
+        "current_page": 2,
+        "last_page": 3,
+        "per_page": 15,
+        "total": 31
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/renaissance-brewing-limited/beers",
+      "fetched_at": "2026-09-18T10:41:16.899047+00:00",
+      "http_status": 200,
+      "source_bytes": 196140,
+      "source_sha256": "b770a26dcb21ab5e7afb0f18f5ef4a45cd6d358bced2e8510193643bc02a9111",
+      "meta": {
+        "current_page": 1,
+        "last_page": 3,
+        "per_page": 15,
+        "total": 31
+      }
+    }
+  ],
+  "rejected": [],
+  "requestEvents": [
+    {
+      "url": "https://www.beertasting.com/en/brewery/megobrebi-brewery/beers",
+      "started_at": "2026-09-18T10:38:20.846853+00:00",
+      "status": 200,
+      "rows": 5,
+      "selected_new": 5,
+      "unique_total": 5,
+      "page": 1,
+      "listed_total": 5
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/zedazeni/beers",
+      "started_at": "2026-09-18T10:38:23.531434+00:00",
+      "status": 200,
+      "rows": 15,
+      "selected_new": 15,
+      "unique_total": 20,
+      "page": 1,
+      "listed_total": 16
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/natakhtari/beers",
+      "started_at": "2026-09-18T10:38:29.132006+00:00",
+      "status": 200,
+      "rows": 7,
+      "selected_new": 7,
+      "unique_total": 27,
+      "page": 1,
+      "listed_total": 7
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/behemoth-chur/beers",
+      "started_at": "2026-09-18T10:38:35.169497+00:00",
+      "status": 200,
+      "rows": 15,
+      "selected_new": 15,
+      "unique_total": 42,
+      "page": 1,
+      "listed_total": 125
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/garage-project/beers",
+      "started_at": "2026-09-18T10:38:41.297602+00:00",
+      "status": 200,
+      "rows": 15,
+      "selected_new": 15,
+      "unique_total": 57,
+      "page": 1,
+      "listed_total": 106
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/cassels-brewing/beers",
+      "started_at": "2026-09-18T10:38:48.124280+00:00",
+      "status": 200,
+      "rows": 11,
+      "selected_new": 11,
+      "unique_total": 68,
+      "page": 1,
+      "listed_total": 11
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/emersons-brewery/beers",
+      "started_at": "2026-09-18T10:38:57.655351+00:00",
+      "status": 200,
+      "rows": 15,
+      "selected_new": 15,
+      "unique_total": 83,
+      "page": 1,
+      "listed_total": 15
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/hop-federation/beers",
+      "started_at": "2026-09-18T10:39:01.031308+00:00",
+      "status": 200,
+      "rows": 15,
+      "selected_new": 15,
+      "unique_total": 98,
+      "page": 1,
+      "listed_total": 32
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/renaissance-brewing-company/beers",
+      "started_at": "2026-09-18T10:39:05.946598+00:00",
+      "error": "HTTP Error 404: Not Found",
+      "status": 404
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/zedazeni/beers?page=2",
+      "started_at": "2026-09-18T10:39:11.027842+00:00",
+      "status": 200,
+      "rows": 1,
+      "selected_new": 1,
+      "unique_total": 99,
+      "page": 2,
+      "listed_total": 16
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/behemoth-chur/beers?page=2",
+      "started_at": "2026-09-18T10:39:17.889187+00:00",
+      "status": 200,
+      "rows": 15,
+      "selected_new": 15,
+      "unique_total": 114,
+      "page": 2,
+      "listed_total": 125
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/garage-project/beers?page=2",
+      "started_at": "2026-09-18T10:39:23.987540+00:00",
+      "status": 200,
+      "rows": 15,
+      "selected_new": 15,
+      "unique_total": 129,
+      "page": 2,
+      "listed_total": 106
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/hop-federation/beers?page=2",
+      "started_at": "2026-09-18T10:39:30.062419+00:00",
+      "status": 200,
+      "rows": 15,
+      "selected_new": 15,
+      "unique_total": 144,
+      "page": 2,
+      "listed_total": 32
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/black-lion/beers",
+      "started_at": "2026-09-18T10:45:06.918902+00:00",
+      "status": 200,
+      "rows": 10,
+      "selected_new": 10,
+      "unique_total": 10,
+      "page": 1,
+      "listed_total": 10
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/renaissance-brewing-limited/beers",
+      "started_at": "2026-09-18T10:41:14.550485+00:00",
+      "status": 200,
+      "rows": 15,
+      "selected_new": 15,
+      "unique_total": 15,
+      "page": 1,
+      "listed_total": 31
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/renaissance-brewing-limited/beers?page=2",
+      "started_at": "2026-09-18T10:41:16.902319+00:00",
+      "status": 200,
+      "rows": 15,
+      "selected_new": 15,
+      "unique_total": 30,
+      "page": 2,
+      "listed_total": 31
+    }
+  ],
+  "blocked": false,
+  "maxParallelRequests": 1,
+  "maxPagesPerBrewery": 2,
+  "configuredDelaySeconds": 6,
+  "note": "Serial public HTML reads, no account, no internal API. Per-request timestamps retained; the reused collector has no initial-page delay. One guessed slug returned404 and was replaced with the search-verified public slug."
+}

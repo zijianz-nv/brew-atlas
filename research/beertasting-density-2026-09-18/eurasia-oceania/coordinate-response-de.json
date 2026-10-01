@@ -1,0 +1,42 @@
+{
+  "url": "https://de.wikipedia.org/w/api.php?action=query&prop=coordinates%7Cpageprops&format=json&redirects=1&titles=Singaraja%7CMente%C5%9Fe&colimit=max",
+  "fetched_at": "2026-09-18T11:15:49.634460+00:00",
+  "response": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "6267115": {
+          "pageid": 6267115,
+          "ns": 0,
+          "title": "Menteşe",
+          "pageprops": {
+            "defaultsort": "Mentese",
+            "disambiguation": "",
+            "expectshortpage": "",
+            "wikibase_item": "Q766334"
+          }
+        },
+        "1033357": {
+          "pageid": 1033357,
+          "ns": 0,
+          "title": "Singaraja",
+          "coordinates": [
+            {
+              "lat": -8.116667,
+              "lon": 115.083333,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Singarajapalace.JPG",
+            "wikibase_item": "Q1013537"
+          }
+        }
+      }
+    },
+    "limits": {
+      "coordinates": 500
+    }
+  }
+}

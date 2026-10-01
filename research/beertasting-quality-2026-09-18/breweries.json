@@ -1,0 +1,109 @@
+{
+  "count": 8,
+  "records": [
+    {
+      "id": "04f7e5b6-c940-4b96-bd7b-f2445fbe5fd0",
+      "name": "Gorilla Brewing",
+      "slug": "gorilla-brewing",
+      "city": "Suyeong-gu",
+      "region": "Pusan-Kwangyokshi",
+      "country": "KR",
+      "country_name": "South Korea",
+      "street": "125 Gwangnam-ro, Gwangan 2(i)-dong,",
+      "zip": "48299",
+      "beers_count": 14,
+      "homepage_link": "https://gorillabrewingcompany.com/"
+    },
+    {
+      "id": "13e901c8-7318-421b-970a-e089f513819f",
+      "name": "Baird Beer",
+      "slug": "baird-beer",
+      "city": "Shizuoka",
+      "region": "Chiba",
+      "country": "JP",
+      "country_name": "Japan",
+      "street": null,
+      "zip": "410-0845",
+      "beers_count": 29,
+      "homepage_link": "https://bairdbeer.com"
+    },
+    {
+      "id": "47e2a992-e5b8-4a4f-b296-db884f3ee4b6",
+      "name": "Jeju Beer",
+      "slug": "jeju-beer",
+      "city": "Jeju-Si",
+      "region": "Cheju-do",
+      "country": "KR",
+      "country_name": "South Korea",
+      "street": "263-6 Yeon-dong",
+      "zip": "302-690",
+      "beers_count": 7,
+      "homepage_link": "https://jejubeer.co.kr/"
+    },
+    {
+      "id": "6327fcfc-c202-410e-8c53-98e10a9343ea",
+      "name": "Paper Plane Brewing",
+      "slug": "paper-plane-brewing",
+      "city": "Hangzhou",
+      "region": "Zhejiang",
+      "country": "CN",
+      "country_name": "China",
+      "street": null,
+      "zip": "-",
+      "beers_count": 10,
+      "homepage_link": null
+    },
+    {
+      "id": "86744998-cced-4009-bec1-f10587ade3de",
+      "name": "Tamamura Honten Co.",
+      "slug": "tamamura-honten-co",
+      "city": "Yamanochi",
+      "region": "Nagano",
+      "country": "JP",
+      "country_name": "Japan",
+      "street": null,
+      "zip": "381-0401",
+      "beers_count": 6,
+      "homepage_link": null
+    },
+    {
+      "id": "aa867c29-8681-437c-814c-05619ebc196a",
+      "name": "Bier Brewery Lohn",
+      "slug": "bier-brewery-lohn",
+      "city": "Lauro Muller",
+      "region": "Rio de Janeiro",
+      "country": "BR",
+      "country_name": "Brazil",
+      "street": null,
+      "zip": "88880-970",
+      "beers_count": 110,
+      "homepage_link": "www.lohnbier.com.br/"
+    },
+    {
+      "id": "ad10171f-b6b6-4f66-b26f-174e8e296ae2",
+      "name": "Antares",
+      "slug": "antares",
+      "city": "Mar del Plata.",
+      "region": "Buenos Aires",
+      "country": "AR",
+      "country_name": "Argentina",
+      "street": "12 de Octubre",
+      "zip": "7749",
+      "beers_count": 19,
+      "homepage_link": "www.cervezaantares.com/"
+    },
+    {
+      "id": "f47e13c9-0010-4e85-a47d-b968cd26729c",
+      "name": "Minoh Beer",
+      "slug": "minoh-beer",
+      "city": "Minoh",
+      "region": "Osaka",
+      "country": "JP",
+      "country_name": "Japan",
+      "street": "3-19-11 Makiochi",
+      "zip": "562-0004 ",
+      "beers_count": 18,
+      "homepage_link": "www.minoh-beer.jp/"
+    }
+  ]
+}

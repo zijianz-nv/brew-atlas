@@ -1,0 +1,35 @@
+{
+  "fetchedAt": "2026-09-18T10:42:10.277293+00:00",
+  "queryUrl": "https://fr.wikipedia.org/w/api.php?action=query&prop=coordinates%7Cpageprops&coprimary=primary&colimit=max&format=json&redirects=1&titles=Sagouramo",
+  "requestedTitles": [
+    "Sagouramo"
+  ],
+  "response": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "17386575": {
+          "pageid": 17386575,
+          "ns": 0,
+          "title": "Sagouramo",
+          "coordinates": [
+            {
+              "lat": 41.8988,
+              "lon": 44.7595,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_links": "1",
+            "page_image_free": "Zedazeni_church.jpg",
+            "wikibase_item": "Q4710920"
+          }
+        }
+      }
+    },
+    "limits": {
+      "coordinates": 500
+    }
+  }
+}

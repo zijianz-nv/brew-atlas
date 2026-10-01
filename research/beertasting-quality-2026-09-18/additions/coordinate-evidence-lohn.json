@@ -1,0 +1,36 @@
+{
+  "fetchedAt": "2026-09-18T11:42:45.935597+00:00",
+  "queryUrl": "https://en.wikipedia.org/w/api.php?action=query&prop=coordinates%7Cpageprops&coprimary=primary&colimit=max&format=json&redirects=1&titles=Lauro+M%C3%BCller%2C+Santa+Catarina",
+  "requestedTitles": [
+    "Lauro Müller, Santa Catarina"
+  ],
+  "response": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "17208492": {
+          "pageid": 17208492,
+          "ns": 0,
+          "title": "Lauro Müller, Santa Catarina",
+          "coordinates": [
+            {
+              "lat": -28.39277778,
+              "lon": -49.39694444,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "defaultsort": "Lauro Muller, Santa Catarina",
+            "page_image_free": "SantaCatarina_Municip_LauroMuller.svg",
+            "wikibase-shortdesc": "Place in South, Brazil",
+            "wikibase_item": "Q651077"
+          }
+        }
+      }
+    },
+    "limits": {
+      "coordinates": 500
+    }
+  }
+}

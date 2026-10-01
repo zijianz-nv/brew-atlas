@@ -1,0 +1,177 @@
+{
+  "fetchedAt": "2026-09-18T10:41:34.652781+00:00",
+  "queryUrl": "https://en.wikipedia.org/w/api.php?action=query&prop=coordinates%7Cpageprops&coprimary=primary&colimit=max&format=json&redirects=1&titles=Tbilisi%7CSaguramo%7CNatakhtari%7CAuckland%7CWellington%7CWoolston%2C+New+Zealand%7CDunedin%7CRiwaka%7CBlenheim%2C+New+Zealand",
+  "requestedTitles": [
+    "Tbilisi",
+    "Saguramo",
+    "Natakhtari",
+    "Auckland",
+    "Wellington",
+    "Woolston, New Zealand",
+    "Dunedin",
+    "Riwaka",
+    "Blenheim, New Zealand"
+  ],
+  "response": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "-1": {
+          "ns": 0,
+          "title": "Saguramo",
+          "missing": ""
+        },
+        "18660332": {
+          "pageid": 18660332,
+          "ns": 0,
+          "title": "Auckland",
+          "coordinates": [
+            {
+              "lat": -36.8492,
+              "lon": 174.7653,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Auckland_skyline_-_May_2024_(2).jpg",
+            "wikibase-shortdesc": "Largest city in New Zealand",
+            "wikibase_item": "Q37100"
+          }
+        },
+        "613071": {
+          "pageid": 613071,
+          "ns": 0,
+          "title": "Blenheim, New Zealand",
+          "coordinates": [
+            {
+              "lat": -41.514,
+              "lon": 173.96,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "ISS_Blenheim,_New_Zealand.jpg",
+            "wikibase-shortdesc": "Town in Marlborough, New Zealand",
+            "wikibase_item": "Q883831"
+          }
+        },
+        "628345": {
+          "pageid": 628345,
+          "ns": 0,
+          "title": "Dunedin",
+          "coordinates": [
+            {
+              "lat": -45.87416667,
+              "lon": 170.50361111,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Dunedin-Nueva_Zelanda01.JPG",
+            "wikibase-shortdesc": "City in Otago, New Zealand",
+            "wikibase_item": "Q133073"
+          }
+        },
+        "56750238": {
+          "pageid": 56750238,
+          "ns": 0,
+          "title": "Natakhtari",
+          "coordinates": [
+            {
+              "lat": 41.91944444,
+              "lon": 44.72722222,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Natakhtari_Airfield_hangar.jpg",
+            "wikibase-shortdesc": "Village in Mtskheta-Mtianeti, Georgia",
+            "wikibase_item": "Q4709824"
+          }
+        },
+        "1130958": {
+          "pageid": 1130958,
+          "ns": 0,
+          "title": "Riwaka",
+          "coordinates": [
+            {
+              "lat": -41.08333333,
+              "lon": 173,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Riwaka_Tavern.JPG",
+            "wikibase-shortdesc": "Town in Tasman, New Zealand",
+            "wikibase_item": "Q2155783"
+          }
+        },
+        "42298": {
+          "pageid": 42298,
+          "ns": 0,
+          "title": "Tbilisi",
+          "coordinates": [
+            {
+              "lat": 41.7225,
+              "lon": 44.7925,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "View_of_Tbilisi_from_Tabori_Church_2023-10-08-2.jpg",
+            "wikibase-shortdesc": "Capital and the largest city of Georgia (country)",
+            "wikibase_item": "Q994"
+          }
+        },
+        "33804": {
+          "pageid": 33804,
+          "ns": 0,
+          "title": "Wellington",
+          "coordinates": [
+            {
+              "lat": -41.28888889,
+              "lon": 174.77722222,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Seddon_Statue_in_Parliament_Grounds.jpg",
+            "wikibase-shortdesc": "Capital city of New Zealand",
+            "wikibase_item": "Q23661"
+          }
+        },
+        "1309635": {
+          "pageid": 1309635,
+          "ns": 0,
+          "title": "Woolston, New Zealand",
+          "coordinates": [
+            {
+              "lat": -43.55,
+              "lon": 172.68333333,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "The_Original_Post_Shop.jpg",
+            "wikibase-shortdesc": "Suburb of Christchurch, New Zealand",
+            "wikibase_item": "Q8033945"
+          }
+        }
+      }
+    },
+    "limits": {
+      "coordinates": 500
+    }
+  }
+}

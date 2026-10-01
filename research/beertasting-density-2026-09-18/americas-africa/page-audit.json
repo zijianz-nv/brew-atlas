@@ -1,0 +1,526 @@
+{
+  "method": "direct_public_html",
+  "batch": "density_americas_africa_20260918",
+  "pages": [
+    {
+      "url": "https://www.beertasting.com/en/brewery/river-north-brewery/beers",
+      "fetched_at": "2026-09-18T11:09:24.170883+00:00",
+      "http_status": 200,
+      "source_bytes": 195085,
+      "source_sha256": "bbf52ecaf8ce769566035ca35167e7b6c0c06075106426c885ef3ea56247dd4f",
+      "meta": {
+        "current_page": 1,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 21
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/fulton-beer/beers",
+      "fetched_at": "2026-09-18T11:09:35.894942+00:00",
+      "http_status": 200,
+      "source_bytes": 188615,
+      "source_sha256": "2b3a6a8b384ae9310e290f30a6ab6788ea61bfbcdf59d5b1fb5aa98341ef76d9",
+      "meta": {
+        "current_page": 1,
+        "last_page": 4,
+        "per_page": 15,
+        "total": 47
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/austin-beerworks/beers",
+      "fetched_at": "2026-09-18T11:09:29.918937+00:00",
+      "http_status": 200,
+      "source_bytes": 189217,
+      "source_sha256": "2524b243dccf8660e7d5ed9ea50b0672e9d444c60589639e96ae64085571f2da",
+      "meta": {
+        "current_page": 1,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 17
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/moody-tongue-brewing/beers",
+      "fetched_at": "2026-09-18T11:09:41.854203+00:00",
+      "http_status": 200,
+      "source_bytes": 195496,
+      "source_sha256": "6aad4ab51fc539d0085d9b41b91640c29615b71c5498bd6f9900ffbd33649c61",
+      "meta": {
+        "current_page": 1,
+        "last_page": 4,
+        "per_page": 15,
+        "total": 58
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/nonsuch-brewing-company/beers",
+      "fetched_at": "2026-09-18T11:09:59.842983+00:00",
+      "http_status": 200,
+      "source_bytes": 181240,
+      "source_sha256": "e3ef2f9e2905cd59e28dd66398640f9daaabf2749a989c0d3b0c0a7d1885dca7",
+      "meta": {
+        "current_page": 1,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 18
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/uinta-brewing/beers",
+      "fetched_at": "2026-09-18T11:09:48.269472+00:00",
+      "http_status": 200,
+      "source_bytes": 212431,
+      "source_sha256": "6ba2fb7dbd24b03b7cd70cd708845e807c7a27fbaf4bd121ac6b146889938a80",
+      "meta": {
+        "current_page": 1,
+        "last_page": 14,
+        "per_page": 15,
+        "total": 204
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/cabin-brewing-company/beers",
+      "fetched_at": "2026-09-18T11:09:53.875000+00:00",
+      "http_status": 200,
+      "source_bytes": 190089,
+      "source_sha256": "6f8ee83d176f33a77bae04f36176703e69f9ab824765ff4b1cc3cea2306f7019",
+      "meta": {
+        "current_page": 1,
+        "last_page": 3,
+        "per_page": 15,
+        "total": 36
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/brewskey-pub-taproom/beers",
+      "fetched_at": "2026-09-18T11:11:50.753904+00:00",
+      "http_status": 200,
+      "source_bytes": 181549,
+      "source_sha256": "f5d88d2ae212d2c1b48d0275099efef2d71ca61f0ceb72f9edbf4545a720f147",
+      "meta": {
+        "current_page": 1,
+        "last_page": 11,
+        "per_page": 15,
+        "total": 163
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/bandido/beers",
+      "fetched_at": "2026-09-18T11:12:14.688768+00:00",
+      "http_status": 200,
+      "source_bytes": 149074,
+      "source_sha256": "950bf34eba43865ebc7f2d6f542ae14f6ae8d0da48c8a63bac2b29125e596327",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 7
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/featherstone-brewery-1/beers",
+      "fetched_at": "2026-09-18T11:12:32.880404+00:00",
+      "http_status": 200,
+      "source_bytes": 140445,
+      "source_sha256": "55d020bc950bee27a8131c4bfb094daf36f8d65944120d374d4d2e7ad933cbe6",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 8
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/rio-bravo-brewing-company/beers",
+      "fetched_at": "2026-09-18T11:12:26.840185+00:00",
+      "http_status": 200,
+      "source_bytes": 184585,
+      "source_sha256": "25f4e5bf87d5332d27bc115ff5207fedf3cbec34aa73473fec3a440a4825212a",
+      "meta": {
+        "current_page": 1,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 16
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/delta-breweries/beers",
+      "fetched_at": "2026-09-18T11:12:56.812666+00:00",
+      "http_status": 200,
+      "source_bytes": 121453,
+      "source_sha256": "36e2dd16f863157b0e7125e62d9a694f2492b716ac636820222df15b4ce41322",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 4
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/stadt-bier/beers",
+      "fetched_at": "2026-09-18T11:11:56.713747+00:00",
+      "http_status": 200,
+      "source_bytes": 118072,
+      "source_sha256": "06b7fc99787c2d982886871958fb0cbeda8690da872c53aa952b1f9e23a3aff3",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 4
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/brauhaus-afrika/beers",
+      "fetched_at": "2026-09-18T11:12:38.328513+00:00",
+      "http_status": 200,
+      "source_bytes": 98246,
+      "source_sha256": "c46858576df2bb593f4798b0ecb3ff39af0f8fa4ccbb8265af6cc3eef4c1ae25",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 1
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/oc-brewery/beers",
+      "fetched_at": "2026-09-18T11:12:44.302720+00:00",
+      "http_status": 200,
+      "source_bytes": 99520,
+      "source_sha256": "440d340ecc76db10292a3d201d6624753dc051f78a05038c9c2fb7898ee165dc",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 1
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/zambian-breweries/beers",
+      "fetched_at": "2026-09-18T11:12:50.595776+00:00",
+      "http_status": 200,
+      "source_bytes": 111100,
+      "source_sha256": "7a11e8297768ad17ae3fd486a50299033eedf29a943f4988b0ef67af469d803d",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 2
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/cerveceria-del-valle-sagrado-1/beers",
+      "fetched_at": "2026-09-18T11:12:08.872477+00:00",
+      "http_status": 200,
+      "source_bytes": 153665,
+      "source_sha256": "f929ef6868ec2bcf564f520c2aaff37e25c8d973000979701ae2593d6c225ed8",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 9
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/casa-cervecera-morenos/beers",
+      "fetched_at": "2026-09-18T11:12:21.041964+00:00",
+      "http_status": 200,
+      "source_bytes": 185661,
+      "source_sha256": "3ce14406f83cb9aa1d16776629c8931d7cc62c0cee6a13775a668a266167ee9d",
+      "meta": {
+        "current_page": 1,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 23
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/cervejaria-backer/beers",
+      "fetched_at": "2026-09-18T11:12:02.829139+00:00",
+      "http_status": 200,
+      "source_bytes": 187988,
+      "source_sha256": "cf7db2aa1bb76a64897b95c98650eb4df8eafc6f0b8aa08209e9b4647bdefdbd",
+      "meta": {
+        "current_page": 1,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 23
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/yukon-brewing/beers",
+      "fetched_at": "2026-09-18T11:13:58.025944+00:00",
+      "http_status": 200,
+      "source_bytes": 186260,
+      "source_sha256": "9de2f89566e4f99e087b0609d90374bf1a4745a4cc117984cd0fd6fdee085600",
+      "meta": {
+        "current_page": 1,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 25
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/bgi-ethiopia/beers",
+      "fetched_at": "2026-09-18T11:14:03.597780+00:00",
+      "http_status": 200,
+      "source_bytes": 106711,
+      "source_sha256": "e46d1b8e6c6f2d85dcb5c5bd779e32f3303258c3deb53dc2e5d099529c35575a",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 2
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/american-solera/beers",
+      "fetched_at": "2026-09-18T11:13:51.898330+00:00",
+      "http_status": 200,
+      "source_bytes": 184426,
+      "source_sha256": "b27231f7f6cd345fa1994610dc70c986ba0fc92a8c2d879cd913b7b8b6f313a5",
+      "meta": {
+        "current_page": 1,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 20
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "id": "5433809a-3d45-4306-839c-60ac6e55c6bb",
+      "source_url": "https://www.beertasting.com/en/brewery/fulton-beer/beers",
+      "reason": "Source explicitly classifies as Hard Seltzer / Fruit wine Mix; excluded from beer count"
+    }
+  ],
+  "requestEvents": [
+    {
+      "url": "https://www.beertasting.com/en/brewery/river-north-brewery/beers",
+      "started_at": "2026-09-18T11:09:21.520214+00:00",
+      "status": 200,
+      "rows": 15,
+      "selected_new": 15,
+      "unique_total": 15,
+      "page": 1,
+      "listed_total": 21
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/austin-beerworks/beers",
+      "started_at": "2026-09-18T11:09:24.177324+00:00",
+      "status": 200,
+      "rows": 15,
+      "selected_new": 15,
+      "unique_total": 30,
+      "page": 1,
+      "listed_total": 17
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/fulton-beer/beers",
+      "started_at": "2026-09-18T11:09:29.926035+00:00",
+      "status": 200,
+      "rows": 15,
+      "selected_new": 15,
+      "unique_total": 45,
+      "page": 1,
+      "listed_total": 47
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/moody-tongue-brewing/beers",
+      "started_at": "2026-09-18T11:09:35.899857+00:00",
+      "status": 200,
+      "rows": 15,
+      "selected_new": 15,
+      "unique_total": 60,
+      "page": 1,
+      "listed_total": 58
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/uinta-brewing/beers",
+      "started_at": "2026-09-18T11:09:41.860979+00:00",
+      "status": 200,
+      "rows": 15,
+      "selected_new": 15,
+      "unique_total": 75,
+      "page": 1,
+      "listed_total": 204
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/cabin-brewing-company/beers",
+      "started_at": "2026-09-18T11:09:48.277331+00:00",
+      "status": 200,
+      "rows": 15,
+      "selected_new": 15,
+      "unique_total": 90,
+      "page": 1,
+      "listed_total": 36
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/nonsuch-brewing-company/beers",
+      "started_at": "2026-09-18T11:09:53.882279+00:00",
+      "status": 200,
+      "rows": 15,
+      "selected_new": 15,
+      "unique_total": 105,
+      "page": 1,
+      "listed_total": 18
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/brewskey-pub-taproom/beers",
+      "started_at": "2026-09-18T11:11:48.604155+00:00",
+      "status": 200,
+      "rows": 15,
+      "selected_new": 15,
+      "unique_total": 15,
+      "page": 1,
+      "listed_total": 163
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/stadt-bier/beers",
+      "started_at": "2026-09-18T11:11:50.760869+00:00",
+      "status": 200,
+      "rows": 4,
+      "selected_new": 4,
+      "unique_total": 19,
+      "page": 1,
+      "listed_total": 4
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/cervejaria-backer/beers",
+      "started_at": "2026-09-18T11:11:56.720342+00:00",
+      "status": 200,
+      "rows": 15,
+      "selected_new": 15,
+      "unique_total": 34,
+      "page": 1,
+      "listed_total": 23
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/cerveceria-del-valle-sagrado-1/beers",
+      "started_at": "2026-09-18T11:12:02.833092+00:00",
+      "status": 200,
+      "rows": 9,
+      "selected_new": 9,
+      "unique_total": 43,
+      "page": 1,
+      "listed_total": 9
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/bandido/beers",
+      "started_at": "2026-09-18T11:12:08.877397+00:00",
+      "status": 200,
+      "rows": 7,
+      "selected_new": 7,
+      "unique_total": 50,
+      "page": 1,
+      "listed_total": 7
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/casa-cervecera-morenos/beers",
+      "started_at": "2026-09-18T11:12:14.692265+00:00",
+      "status": 200,
+      "rows": 15,
+      "selected_new": 15,
+      "unique_total": 65,
+      "page": 1,
+      "listed_total": 23
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/rio-bravo-brewing-company/beers",
+      "started_at": "2026-09-18T11:12:21.056092+00:00",
+      "status": 200,
+      "rows": 15,
+      "selected_new": 15,
+      "unique_total": 80,
+      "page": 1,
+      "listed_total": 16
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/featherstone-brewery-1/beers",
+      "started_at": "2026-09-18T11:12:26.844783+00:00",
+      "status": 200,
+      "rows": 8,
+      "selected_new": 8,
+      "unique_total": 88,
+      "page": 1,
+      "listed_total": 8
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/brauhaus-afrika/beers",
+      "started_at": "2026-09-18T11:12:32.884824+00:00",
+      "status": 200,
+      "rows": 1,
+      "selected_new": 1,
+      "unique_total": 89,
+      "page": 1,
+      "listed_total": 1
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/oc-brewery/beers",
+      "started_at": "2026-09-18T11:12:38.335367+00:00",
+      "status": 200,
+      "rows": 1,
+      "selected_new": 1,
+      "unique_total": 90,
+      "page": 1,
+      "listed_total": 1
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/zambian-breweries/beers",
+      "started_at": "2026-09-18T11:12:44.306165+00:00",
+      "status": 200,
+      "rows": 2,
+      "selected_new": 2,
+      "unique_total": 92,
+      "page": 1,
+      "listed_total": 2
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/delta-breweries/beers",
+      "started_at": "2026-09-18T11:12:50.601685+00:00",
+      "status": 200,
+      "rows": 4,
+      "selected_new": 4,
+      "unique_total": 96,
+      "page": 1,
+      "listed_total": 4
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/american-solera/beers",
+      "started_at": "2026-09-18T11:13:49.645748+00:00",
+      "status": 200,
+      "rows": 15,
+      "selected_new": 15,
+      "unique_total": 15,
+      "page": 1,
+      "listed_total": 20
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/yukon-brewing/beers",
+      "started_at": "2026-09-18T11:13:51.902003+00:00",
+      "status": 200,
+      "rows": 15,
+      "selected_new": 15,
+      "unique_total": 30,
+      "page": 1,
+      "listed_total": 25
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/bgi-ethiopia/beers",
+      "started_at": "2026-09-18T11:13:58.028848+00:00",
+      "status": 200,
+      "rows": 2,
+      "selected_new": 2,
+      "unique_total": 32,
+      "page": 1,
+      "listed_total": 2
+    }
+  ],
+  "blocked": false,
+  "maxParallelRequests": 1,
+  "maxPagesPerBrewery": 1,
+  "configuredDelaySeconds": 6,
+  "note": "Serial public HTML reads, no account, no internal API. Delay6s is enforced before network sends; reused collector log started_at precedes its scheduling wait, so that field is not exact network-send time."
+}

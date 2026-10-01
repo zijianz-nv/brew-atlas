@@ -1,0 +1,182 @@
+{
+  "url": "https://en.wikipedia.org/w/api.php?action=query&prop=coordinates%7Cpageprops&coprimary=primary&format=json&redirects=1&titles=Maun%7CMoshi%7CSwakopmund%7CNakasero%7CNsawam%7CCasablanca%7CDarling%2C+South+Africa%7CCape+Town%7CKnysna%7CPaarl&colimit=max",
+  "fetched_at": "2026-09-18T10:41:41.444133+00:00",
+  "response": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "6653": {
+          "pageid": 6653,
+          "ns": 0,
+          "title": "Cape Town",
+          "coordinates": [
+            {
+              "lat": -33.92527778,
+              "lon": 18.42388889,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Camps_bay_(53460319478)_(cropped).jpg",
+            "wikibase-shortdesc": "Legislative capital of South Africa",
+            "wikibase_item": "Q5465"
+          }
+        },
+        "7301": {
+          "pageid": 7301,
+          "ns": 0,
+          "title": "Casablanca",
+          "coordinates": [
+            {
+              "lat": 33.53333333,
+              "lon": -7.58333333,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Casa_finance_city_6_(cropped).jpg",
+            "wikibase-shortdesc": "Largest city in Morocco",
+            "wikibase_item": "Q7903"
+          }
+        },
+        "5243456": {
+          "pageid": 5243456,
+          "ns": 0,
+          "title": "Darling, South Africa",
+          "coordinates": [
+            {
+              "lat": -33.38333333,
+              "lon": 18.38333333,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Darling_WC.jpg",
+            "wikibase-shortdesc": "Place in Western Cape, South Africa",
+            "wikibase_item": "Q1003369"
+          }
+        },
+        "1166026": {
+          "pageid": 1166026,
+          "ns": 0,
+          "title": "Knysna",
+          "coordinates": [
+            {
+              "lat": -34.03555556,
+              "lon": 23.04888889,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Knysna_waterfront.jpg",
+            "wikibase-shortdesc": "Town in Western Cape, South Africa",
+            "wikibase_item": "Q251137"
+          }
+        },
+        "40611732": {
+          "pageid": 40611732,
+          "ns": 0,
+          "title": "Maun",
+          "pageprops": {
+            "disambiguation": "",
+            "wikibase-shortdesc": "Topics referred to by the same term",
+            "wikibase_item": "Q4285540"
+          }
+        },
+        "36810548": {
+          "pageid": 36810548,
+          "ns": 0,
+          "title": "Moshi",
+          "pageprops": {
+            "disambiguation": "",
+            "expectshortpage": "",
+            "toc": "",
+            "wikibase-shortdesc": "Topics referred to by the same term",
+            "wikibase_item": "Q6916210"
+          }
+        },
+        "23291873": {
+          "pageid": 23291873,
+          "ns": 0,
+          "title": "Nakasero",
+          "coordinates": [
+            {
+              "lat": 0.32333333,
+              "lon": 32.57888889,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Nakasero_Market_Kampala.jpg",
+            "wikibase-shortdesc": "Neighborhood in Kampala city, Uganda",
+            "wikibase_item": "Q16895628"
+          }
+        },
+        "2222038": {
+          "pageid": 2222038,
+          "ns": 0,
+          "title": "Nsawam",
+          "coordinates": [
+            {
+              "lat": 5.8,
+              "lon": -0.35,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Akuapim_South_Municipal_District_logo.gif",
+            "wikibase-shortdesc": "Town in Eastern Region, Ghana",
+            "wikibase_item": "Q2003928"
+          }
+        },
+        "450281": {
+          "pageid": 450281,
+          "ns": 0,
+          "title": "Paarl",
+          "coordinates": [
+            {
+              "lat": -33.72416667,
+              "lon": 18.95583333,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Paarl-monument.jpg",
+            "wikibase-shortdesc": "City in Western Cape, South Africa",
+            "wikibase_item": "Q1018144"
+          }
+        },
+        "949841": {
+          "pageid": 949841,
+          "ns": 0,
+          "title": "Swakopmund",
+          "coordinates": [
+            {
+              "lat": -22.68333333,
+              "lon": 14.53333333,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Mole,_Jetty_and_Lighthouse_Swakopmund,_Namibia.jpg",
+            "wikibase-shortdesc": "City in Erongo, Namibia",
+            "wikibase_item": "Q59698"
+          }
+        }
+      }
+    },
+    "limits": {
+      "coordinates": 500
+    }
+  }
+}

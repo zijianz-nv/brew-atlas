@@ -1,0 +1,396 @@
+{
+  "url": "https://en.wikipedia.org/w/api.php?action=query&prop=coordinates%7Cpageprops&coprimary=primary&format=json&redirects=1&titles=Newcastle+upon+Tyne%7COranmore%7CLa+Motte-Servolex%7CPiozzo%7CBroumy%7CWieprz%2C+%C5%BBywiec+County%7CEspoo%7CMente%C5%9Fe%7CRiga%7CBucharest%7CSingaraja%7CKathmandu%7CRoyal+Park%2C+South+Australia%7CCollingwood%2C+Victoria%7CZarechny%2C+Sverdlovsk+Oblast%7CDresden%7CRoss%2C+Northern+Territory%7CDnipro%7CBudapest%7CLeeds%7CBratislava%7CMakati&colimit=max",
+  "fetched_at": "2026-09-18T11:14:09.771633+00:00",
+  "response": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "-1": {
+          "ns": 0,
+          "title": "Wieprz, Żywiec County",
+          "missing": ""
+        },
+        "18933194": {
+          "pageid": 18933194,
+          "ns": 0,
+          "title": "Bratislava",
+          "coordinates": [
+            {
+              "lat": 48.14388889,
+              "lon": 17.10972222,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Slovakia_bratislava.jpg",
+            "wikibase-shortdesc": "Capital and largest city of Slovakia",
+            "wikibase_item": "Q1780"
+          }
+        },
+        "23564720": {
+          "pageid": 23564720,
+          "ns": 0,
+          "title": "Broumy",
+          "coordinates": [
+            {
+              "lat": 49.95527778,
+              "lon": 13.85222222,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Broumy,_ze_Špičky_(03).jpg",
+            "wikibase-shortdesc": "Municipality in Central Bohemian, Czech Republic",
+            "wikibase_item": "Q990971"
+          }
+        },
+        "36877": {
+          "pageid": 36877,
+          "ns": 0,
+          "title": "Bucharest",
+          "coordinates": [
+            {
+              "lat": 44.4325,
+              "lon": 26.10388889,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Bucharest_University_Square_(cropped).jpg",
+            "wikibase-shortdesc": "Capital and largest city of Romania",
+            "wikibase_item": "Q19660"
+          }
+        },
+        "36787": {
+          "pageid": 36787,
+          "ns": 0,
+          "title": "Budapest",
+          "coordinates": [
+            {
+              "lat": 47.4925,
+              "lon": 19.05138889,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "View_from_Gellért_Hill_to_the_Danube,_Hungary_-_Budapest_(28493220635).jpg",
+            "wikibase-shortdesc": "Capital and largest city of Hungary",
+            "wikibase_item": "Q1781"
+          }
+        },
+        "611800": {
+          "pageid": 611800,
+          "ns": 0,
+          "title": "Collingwood, Victoria",
+          "coordinates": [
+            {
+              "lat": -37.8019,
+              "lon": 144.98815,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Collingwood_aerial.jpg",
+            "wikibase-shortdesc": "Suburb of Melbourne, Victoria, Australia",
+            "wikibase_item": "Q1109698"
+          }
+        },
+        "989795": {
+          "pageid": 989795,
+          "ns": 0,
+          "title": "Dnipro",
+          "coordinates": [
+            {
+              "lat": 48.4675,
+              "lon": 35.04,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Днепропетровский_городской_совет.JPG",
+            "wikibase-shortdesc": "City and administrative center of Dnipropetrovsk Oblast, Ukraine",
+            "wikibase_item": "Q48256"
+          }
+        },
+        "37410": {
+          "pageid": 37410,
+          "ns": 0,
+          "title": "Dresden",
+          "coordinates": [
+            {
+              "lat": 51.05,
+              "lon": 13.74,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "DD-Schloss-gp.jpg",
+            "wikibase-shortdesc": "Capital city of Saxony, Germany",
+            "wikibase_item": "Q1731"
+          }
+        },
+        "44899": {
+          "pageid": 44899,
+          "ns": 0,
+          "title": "Espoo",
+          "coordinates": [
+            {
+              "lat": 60.20555556,
+              "lon": 24.65555556,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Piispansilta_Matinkylä_Espoo_Iso_Omena_280719.jpg",
+            "wikibase-shortdesc": "City in Uusimaa, Finland",
+            "wikibase_item": "Q47034"
+          }
+        },
+        "17168": {
+          "pageid": 17168,
+          "ns": 0,
+          "title": "Kathmandu",
+          "coordinates": [
+            {
+              "lat": 27.71,
+              "lon": 85.32,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Kathmandu-Durbar_Square-06-Mahavishnu-Kuh-Vishnu-Pratapamalla-Jagannath-2007-gje.jpg",
+            "wikibase-shortdesc": "Capital and largest city in Nepal",
+            "wikibase_item": "Q3037"
+          }
+        },
+        "15675092": {
+          "pageid": 15675092,
+          "ns": 0,
+          "title": "La Motte-Servolex",
+          "coordinates": [
+            {
+              "lat": 45.5975,
+              "lon": 5.8783,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "defaultsort": "Motteservolex",
+            "kartographer_frames": "1",
+            "page_image_free": "La_Motte-Servolex_(centre).jpg",
+            "wikibase-shortdesc": "Commune in Auvergne-Rhône-Alpes, France",
+            "wikibase_item": "Q912285"
+          }
+        },
+        "8262427": {
+          "pageid": 8262427,
+          "ns": 0,
+          "title": "Leeds",
+          "coordinates": [
+            {
+              "lat": 53.7975,
+              "lon": -1.54361111,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Leeds_CBD_at_night.jpg",
+            "wikibase-shortdesc": "City in West Yorkshire, England",
+            "wikibase_item": "Q39121"
+          }
+        },
+        "210279": {
+          "pageid": 210279,
+          "ns": 0,
+          "title": "Makati",
+          "coordinates": [
+            {
+              "lat": 14.5567,
+              "lon": 121.0214,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Ayala_Avenue,_Makati_Avenue,_PSE_(Makati;_01-31-2021).jpg",
+            "wikibase-shortdesc": "Highly urbanized city in Metro Manila, Philippines",
+            "wikibase_item": "Q1508"
+          }
+        },
+        "39621882": {
+          "pageid": 39621882,
+          "ns": 0,
+          "title": "Menteşe",
+          "pageprops": {
+            "defaultsort": "Mentese",
+            "disambiguation": "",
+            "expectshortpage": "",
+            "wikibase-shortdesc": "Topics referred to by the same term",
+            "wikibase_item": "Q766334"
+          }
+        },
+        "70348": {
+          "pageid": 70348,
+          "ns": 0,
+          "title": "Newcastle upon Tyne",
+          "coordinates": [
+            {
+              "lat": 54.9738,
+              "lon": -1.6131,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "defaultsort": "Newcastle Upon Tyne",
+            "kartographer_frames": "1",
+            "page_image_free": "Newcastle-upon-Tyne-bridges-and-skyline_cropped.jpg",
+            "wikibase-shortdesc": "City in England",
+            "wikibase_item": "Q1425428"
+          }
+        },
+        "867026": {
+          "pageid": 867026,
+          "ns": 0,
+          "title": "Oranmore",
+          "coordinates": [
+            {
+              "lat": 53.2683,
+              "lon": -8.92,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Oranmore_Castle.jpg",
+            "wikibase-shortdesc": "Town in County Galway, Ireland",
+            "wikibase_item": "Q1026389"
+          }
+        },
+        "6556130": {
+          "pageid": 6556130,
+          "ns": 0,
+          "title": "Piozzo",
+          "coordinates": [
+            {
+              "lat": 44.51666667,
+              "lon": 7.9,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "wikibase-shortdesc": "Comune in Piedmont, Italy",
+            "wikibase_item": "Q20355"
+          }
+        },
+        "25508": {
+          "pageid": 25508,
+          "ns": 0,
+          "title": "Riga",
+          "coordinates": [
+            {
+              "lat": 56.94888889,
+              "lon": 24.10638889,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Riga_(33844464828).jpg",
+            "wikibase-shortdesc": "Capital and largest city of Latvia",
+            "wikibase_item": "Q1773"
+          }
+        },
+        "53754837": {
+          "pageid": 53754837,
+          "ns": 0,
+          "title": "Ross, Northern Territory",
+          "coordinates": [
+            {
+              "lat": -23.7463,
+              "lon": 133.902,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "wikibase-shortdesc": "Suburb of Alice Springs, the Northern Territory, Australia",
+            "wikibase_item": "Q29272931"
+          }
+        },
+        "23023954": {
+          "pageid": 23023954,
+          "ns": 0,
+          "title": "Royal Park, South Australia",
+          "coordinates": [
+            {
+              "lat": -34.872,
+              "lon": 138.508,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Cooke_Reserve_wetland.JPG",
+            "wikibase-shortdesc": "Suburb of Adelaide, South Australia",
+            "wikibase_item": "Q7374689"
+          }
+        },
+        "2814275": {
+          "pageid": 2814275,
+          "ns": 0,
+          "title": "Singaraja",
+          "pageprops": {
+            "page_image_free": "Singaraja_200507-8.jpg",
+            "wikibase-shortdesc": "Town in Bali, Indonesia",
+            "wikibase_item": "Q1013537"
+          }
+        },
+        "7167081": {
+          "pageid": 7167081,
+          "ns": 0,
+          "title": "Zarechny, Sverdlovsk Oblast",
+          "coordinates": [
+            {
+              "lat": 56.81666667,
+              "lon": 61.33333333,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Zaretsjny_view_over_lake.jpg",
+            "wikibase-shortdesc": "Town in Sverdlovsk Oblast, Russia",
+            "wikibase_item": "Q136758"
+          }
+        }
+      }
+    },
+    "limits": {
+      "coordinates": 500
+    }
+  }
+}

@@ -1,0 +1,1500 @@
+{
+  "breweries": [
+    {
+      "id": "sierra-nevada",
+      "name": "Sierra Nevada Brewing Co.",
+      "nameZh": "内华达山脉",
+      "country": "United States",
+      "countryZh": "美国",
+      "city": "Chico",
+      "lat": 39.72333333,
+      "lng": -121.81583333,
+      "locationPrecision": "brewery",
+      "year": 1980,
+      "website": "https://sierranevada.com/brews/pale-ale",
+      "description": "从加州 Chico 起步，以 Cascade 酒花的松针与柑橘香塑造美式淡色艾尔。此处标记 Chico 酒厂，并不推定每瓶酒的生产厂。",
+      "sourceUrls": [
+        "https://sierranevada.com/brews/pale-ale",
+        "https://en.wikipedia.org/wiki/Sierra_Nevada_Brewing_Company"
+      ]
+    },
+    {
+      "id": "duvel-moortgat",
+      "name": "Duvel Moortgat",
+      "nameZh": "督威",
+      "country": "Belgium",
+      "countryZh": "比利时",
+      "city": "Breendonk",
+      "lat": 51.041996,
+      "lng": 4.32871,
+      "locationPrecision": "brewery",
+      "year": 1871,
+      "website": "https://www.duvel.com/en/contact-us",
+      "description": "位于 Breendonk 的比利时酒厂，代表作以瓶中二次发酵和长时间熟成形成细密气泡。",
+      "sourceUrls": [
+        "https://www.duvel.com/en/contact-us",
+        "https://en.wikipedia.org/wiki/Duvel_Moortgat_Brewery",
+        "https://www.duvel.com/en/the-beer/duvel"
+      ]
+    },
+    {
+      "id": "chimay",
+      "name": "Chimay Brewery",
+      "nameZh": "智美修道院",
+      "country": "Belgium",
+      "countryZh": "比利时",
+      "city": "Chimay",
+      "lat": 49.98194444,
+      "lng": 4.3375,
+      "locationPrecision": "brewery",
+      "year": 1862,
+      "website": "https://chimay.com/us/discover-chimay/",
+      "description": "Scourmont 修道院的酿造传统始于 1862 年。红帽和蓝帽展现果香、焦糖与巧克力等不同层次。",
+      "sourceUrls": [
+        "https://chimay.com/us/discover-chimay/",
+        "https://en.wikipedia.org/wiki/Chimay_Brewery"
+      ]
+    },
+    {
+      "id": "weihenstephan",
+      "name": "Bayerische Staatsbrauerei Weihenstephan",
+      "nameZh": "维森巴伐利亚州立酒厂",
+      "country": "Germany",
+      "countryZh": "德国",
+      "city": "Freising",
+      "lat": 48.39611111,
+      "lng": 11.72916667,
+      "locationPrecision": "brewery",
+      "year": null,
+      "website": "https://www.weihenstephaner.de/unsere-biere/hefeweissbier",
+      "description": "弗赖辛 Weihenstephan 山上的巴伐利亚酒厂，麦香、香蕉和丁香香构成其经典小麦啤酒的风味。",
+      "sourceUrls": [
+        "https://www.weihenstephaner.de/unsere-biere/hefeweissbier",
+        "https://en.wikipedia.org/wiki/Bayerische_Staatsbrauerei_Weihenstephan"
+      ]
+    },
+    {
+      "id": "guinness",
+      "name": "Guinness · St. James’s Gate",
+      "nameZh": "吉尼斯圣詹姆斯门酒厂",
+      "country": "Ireland",
+      "countryZh": "爱尔兰",
+      "city": "Dublin",
+      "lat": 53.34444444,
+      "lng": -6.28888889,
+      "locationPrecision": "brewery",
+      "year": null,
+      "website": "https://www.guinness.com/en-gb/beers/guinness-draught",
+      "description": "都柏林的世涛风格地标，Draught 在 1959 年问世。收录为世界风格参照，不代表独立精酿认证。",
+      "sourceUrls": [
+        "https://www.guinness.com/en-gb/beers/guinness-draught",
+        "https://en.wikipedia.org/wiki/Guinness_Brewery"
+      ]
+    },
+    {
+      "id": "pilsner-urquell",
+      "name": "Pilsner Urquell Brewery",
+      "nameZh": "皮尔森之源",
+      "country": "Czechia",
+      "countryZh": "捷克",
+      "city": "Plzeň",
+      "lat": 49.74666667,
+      "lng": 13.38722222,
+      "locationPrecision": "brewery",
+      "year": 1842,
+      "website": "https://www.pilsnerurquell.com/",
+      "description": "Plzeň 的金色拉格以本地麦芽、Saaz 酒花和软水酿造，延续三次糖化煮出传统。收录为风格参照，不代表独立精酿认证。",
+      "sourceUrls": [
+        "https://www.pilsnerurquell.com/",
+        "https://en.wikipedia.org/wiki/Pilsner_Urquell_Brewery"
+      ]
+    },
+    {
+      "id": "lindemans",
+      "name": "Lindemans Brewery",
+      "nameZh": "林德曼",
+      "country": "Belgium",
+      "countryZh": "比利时",
+      "city": "Vlezenbeek",
+      "lat": 50.81579,
+      "lng": 4.21229,
+      "locationPrecision": "brewery",
+      "year": null,
+      "website": "https://lindemans.be/fr-be/pages/lindemans-kriek",
+      "description": "以 Lambic 和水果啤酒闻名的比利时酒厂。Kriek 将酸樱桃与 Lambic 结合，平衡果甜和酸度。",
+      "sourceUrls": [
+        "https://lindemans.be/fr-be/pages/lindemans-kriek",
+        "https://en.wikipedia.org/wiki/Lindemans_Brewery"
+      ]
+    },
+    {
+      "id": "kiuchi",
+      "name": "Kiuchi Brewery · Hitachino Nest",
+      "nameZh": "木内酒造 · 常陆野猫头鹰",
+      "country": "Japan",
+      "countryZh": "日本",
+      "city": "Naka, Ibaraki",
+      "lat": 36.45738889,
+      "lng": 140.48675,
+      "locationPrecision": "city",
+      "year": null,
+      "website": "https://kiuchibrewery.co.jp/en/products/beer/",
+      "description": "茨城县那珂市的木内酒造将本地食材带入常陆野啤酒。红米艾尔使用古代米 Asamurasaki。地点为那珂市中心，非精确厂址。",
+      "sourceUrls": [
+        "https://kiuchibrewery.co.jp/en/products/beer/",
+        "https://en.wikipedia.org/wiki/Naka,_Ibaraki",
+        "https://kiuchibrewery.co.jp/en/news/2024-10-28/"
+      ]
+    },
+    {
+      "id": "coopers",
+      "name": "Coopers Brewery",
+      "nameZh": "库珀酒厂",
+      "country": "Australia",
+      "countryZh": "澳大利亚",
+      "city": "Regency Park, Adelaide",
+      "lat": -34.8726,
+      "lng": 138.5731,
+      "locationPrecision": "brewery",
+      "year": null,
+      "website": "https://coopers.com.au/pages/how-to-find-us",
+      "description": "阿德莱德 Regency Park 酒厂延续自然熟成传统，瓶、罐与桶中二次发酵带来细腻浑浊感。",
+      "sourceUrls": [
+        "https://coopers.com.au/pages/how-to-find-us",
+        "https://en.wikipedia.org/wiki/Coopers_Brewery",
+        "https://coopers.com.au/products/original-pale-ale"
+      ]
+    },
+    {
+      "id": "stone",
+      "name": "Stone Brewing",
+      "nameZh": "巨石酿酒",
+      "country": "United States",
+      "countryZh": "美国",
+      "city": "Escondido, California",
+      "lat": 33.12472222,
+      "lng": -117.08083333,
+      "locationPrecision": "city",
+      "year": null,
+      "website": "https://www.stonebrewing.com/beer/year-round-releases/stone-fearmovielions-hazy-double-ipa",
+      "description": "从加州出发的酒花风格酒厂，Fear.Movie.Lions 融合东西海岸 IPA 的表达。标记为 Escondido 城市中心，非酒款精确生产地址。",
+      "sourceUrls": [
+        "https://www.stonebrewing.com/beer/year-round-releases/stone-fearmovielions-hazy-double-ipa",
+        "https://en.wikipedia.org/wiki/Escondido,_California"
+      ]
+    },
+    {
+      "id": "unibroue",
+      "name": "Unibroue",
+      "nameZh": "优尼堡",
+      "country": "Canada",
+      "countryZh": "加拿大",
+      "city": "Chambly, Québec",
+      "lat": 45.45,
+      "lng": -73.28333333,
+      "locationPrecision": "city",
+      "year": null,
+      "website": "https://www.unibroue.com/en-ca/beers/classics/ce-nest-pas-la-fin-du-monde",
+      "description": "魁北克 Chambly 的比利时风格酒厂，以瓶罐内熟成、小麦白啤和高发酵艾尔见长。地图采用城市中心，非精确生产厂址。",
+      "sourceUrls": [
+        "https://www.unibroue.com/en-ca/beers/classics/ce-nest-pas-la-fin-du-monde",
+        "https://en.wikipedia.org/wiki/Chambly,_Quebec"
+      ]
+    },
+    {
+      "id": "la-trappe",
+      "name": "Brouwerij de Koningshoeven · La Trappe",
+      "nameZh": "康宁斯胡芬 · La Trappe",
+      "country": "Netherlands",
+      "countryZh": "荷兰",
+      "city": "Berkel-Enschot",
+      "lat": 51.54355,
+      "lng": 5.12661667,
+      "locationPrecision": "brewery",
+      "year": null,
+      "website": "https://it.latrappetrappist.com/it/it/le-nostre-birre/prodotti/birra/la-trappe-blond.html",
+      "description": "荷兰 Berkel-Enschot 修道院的 La Trappe，从金色 Blond 到深色 Quadrupel 展示酵母、麦芽与果香的多种组合。",
+      "sourceUrls": [
+        "https://it.latrappetrappist.com/it/it/le-nostre-birre/prodotti/birra/la-trappe-blond.html",
+        "https://en.wikipedia.org/wiki/De_Koningshoeven_Brewery"
+      ]
+    },
+    {
+      "id": "brouwerij-ij",
+      "name": "Brouwerij ’t IJ",
+      "nameZh": "阿姆斯特丹 IJ 酒厂",
+      "country": "Netherlands",
+      "countryZh": "荷兰",
+      "city": "Amsterdam",
+      "lat": 52.36666667,
+      "lng": 4.92638889,
+      "locationPrecision": "brewery",
+      "year": 1985,
+      "website": "https://www.brouwerijhetij.nl/en/our-beers/zatte-tripel",
+      "description": "阿姆斯特丹风车旁的酒厂，1985 年以 Zatte 起步。小麦、香料和酒花各有鲜明表达。",
+      "sourceUrls": [
+        "https://www.brouwerijhetij.nl/en/our-beers/zatte-tripel",
+        "https://en.wikipedia.org/wiki/Brouwerij_%27t_IJ"
+      ]
+    },
+    {
+      "id": "nogne-o",
+      "name": "Nøgne Ø",
+      "nameZh": "裸岛酒厂",
+      "country": "Norway",
+      "countryZh": "挪威",
+      "city": "Grimstad",
+      "lat": 58.3405,
+      "lng": 8.5934,
+      "locationPrecision": "city",
+      "year": null,
+      "website": "https://www.nogne-o.no/kontakt",
+      "description": "挪威 Grimstad 的酒厂，IPA 与 Saison 展示酒花和酵母带来的不同层次。地图采用城市中心，官方厂址为 Lunde 8。",
+      "sourceUrls": [
+        "https://www.nogne-o.no/kontakt",
+        "https://en.wikipedia.org/wiki/Grimstad_(town)"
+      ]
+    },
+    {
+      "id": "mikkeller",
+      "name": "Mikkeller",
+      "nameZh": "米凯乐",
+      "country": "Denmark",
+      "countryZh": "丹麦",
+      "city": "Copenhagen",
+      "lat": 55.67611111,
+      "lng": 12.56833333,
+      "locationPrecision": "city",
+      "year": null,
+      "website": "https://www.mikkeller.com/events/beer-geek-breakfast",
+      "description": "源自哥本哈根的啤酒品牌，以咖啡世涛和跨厂合作闻名。此处标记总部城市中心；酒款可能由其他国家的合作酒厂酿造。",
+      "sourceUrls": [
+        "https://www.mikkeller.com/events/beer-geek-breakfast",
+        "https://en.wikipedia.org/wiki/Copenhagen",
+        "https://www.mikkeller.com/how-it-all-started",
+        "https://www.mikkeller.com/news/new-beer-geek-breakfast-can-ready"
+      ]
+    },
+    {
+      "id": "colorado",
+      "name": "Cervejaria Colorado",
+      "nameZh": "科罗拉多酒厂",
+      "country": "Brazil",
+      "countryZh": "巴西",
+      "city": "Ribeirão Preto",
+      "lat": -21.17833333,
+      "lng": -47.80666667,
+      "locationPrecision": "city",
+      "year": 1996,
+      "website": "https://www.cervejariacolorado.com.br/",
+      "description": "巴西 Ribeirão Preto 的酒厂，将本地食材引入啤酒，Appia 使用橙花蜂蜜。地点为城市中心；收录不代表独立精酿认证。",
+      "sourceUrls": [
+        "https://www.cervejariacolorado.com.br/",
+        "https://en.wikipedia.org/wiki/Ribeir%C3%A3o_Preto",
+        "https://www.ribeiraopreto.sp.gov.br/portal/pdf/cultura849.pdf",
+        "https://rizatti.com.br/nossas-marcas/cervejas/cervejaria-colorado/colorado-appia"
+      ]
+    },
+    {
+      "id": "omnipollo",
+      "name": "Omnipollo",
+      "nameZh": "欧米波罗",
+      "country": "Sweden",
+      "countryZh": "瑞典",
+      "city": "Sundbyberg",
+      "lat": 59.36666667,
+      "lng": 17.96666667,
+      "locationPrecision": "city",
+      "year": null,
+      "website": "https://omnipollo.com/pages/contact",
+      "description": "瑞典啤酒品牌，在 Sundbyberg 设有教堂酒厂。地图采用品牌所在城市中心；此处 Marbles 官方注明在比利时 De Proefbrouwerij 酿造。",
+      "sourceUrls": [
+        "https://omnipollo.com/pages/contact",
+        "https://en.wikipedia.org/wiki/Sundbyberg_Municipality",
+        "https://omnipollo.com/products/marbles"
+      ]
+    },
+    {
+      "id": "orval-brewery",
+      "name": "Brasserie d’Orval",
+      "nameZh": "奥瓦修道院酒厂",
+      "country": "Belgium",
+      "countryZh": "比利时",
+      "city": "Villers-devant-Orval",
+      "lat": 49.63944444,
+      "lng": 5.34861111,
+      "locationPrecision": "brewery",
+      "year": 1931,
+      "website": "https://www.orval.be/en/page/447-orval-brewery",
+      "description": "位于 Orval 修道院内的酒厂，始于 1931 年，以高发酵、熟成和酒花创造鲜明果香与苦韵。",
+      "sourceUrls": [
+        "https://www.orval.be/en/page/447-orval-brewery",
+        "https://en.wikipedia.org/wiki/Orval_Brewery"
+      ]
+    },
+    {
+      "id": "chouffe-brewery",
+      "name": "Brasserie d’Achouffe",
+      "nameZh": "小精灵酒厂",
+      "country": "Belgium",
+      "countryZh": "比利时",
+      "city": "Achouffe",
+      "lat": 50.1509,
+      "lng": 5.7456,
+      "locationPrecision": "brewery",
+      "year": null,
+      "website": "https://chouffe.com/fr-fr/nos-bieres/la-chouffe",
+      "description": "比利时阿登地区 Achouffe 的酒厂，小精灵标签下的金色艾尔以清新柑橘、花香和香料气息见长。",
+      "sourceUrls": [
+        "https://chouffe.com/fr-fr/nos-bieres/la-chouffe",
+        "https://en.wikipedia.org/wiki/Brasserie_d%27Achouffe"
+      ]
+    },
+    {
+      "id": "rodenbach",
+      "name": "Brouwerij Rodenbach",
+      "nameZh": "罗登巴赫",
+      "country": "Belgium",
+      "countryZh": "比利时",
+      "city": "Roeselare",
+      "lat": 50.946495,
+      "lng": 3.13761,
+      "locationPrecision": "brewery",
+      "year": null,
+      "website": "https://www.rodenbach.be/",
+      "description": "Roeselare 的红色艾尔传统，以橡木大桶熟成带出酸甜果香和悠长余韵。",
+      "sourceUrls": [
+        "https://www.rodenbach.be/",
+        "https://en.wikipedia.org/wiki/Rodenbach_Brewery",
+        "https://www.rodenbach.be/content/dam/rodenbach/het-foederhuis/Foederhuis%20Menu%20-%20ENG.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/Foederhuis%20Menu%20-%20ENG.pdf"
+      ]
+    },
+    {
+      "id": "dupont",
+      "name": "Brasserie Dupont",
+      "nameZh": "杜邦酒厂",
+      "country": "Belgium",
+      "countryZh": "比利时",
+      "city": "Tourpes",
+      "lat": 50.571989,
+      "lng": 3.650757,
+      "locationPrecision": "brewery",
+      "year": null,
+      "website": "https://www.brasserie-dupont.com/saison-dupont/",
+      "description": "Tourpes 的农场酒厂延续 Saison 传统，用葡萄柚、丁香、麦芽和干爽收尾展现季节啤酒的轮廓。",
+      "sourceUrls": [
+        "https://www.brasserie-dupont.com/saison-dupont/",
+        "https://en.wikipedia.org/wiki/Dupont_Brewery"
+      ]
+    },
+    {
+      "id": "st-bernardus",
+      "name": "Brouwerij St. Bernardus",
+      "nameZh": "圣伯纳德酒厂",
+      "country": "Belgium",
+      "countryZh": "比利时",
+      "city": "Watou",
+      "lat": 50.86666667,
+      "lng": 2.61666667,
+      "locationPrecision": "city",
+      "year": null,
+      "website": "https://www.sintbernardus.be/en/brewery/our-beers/stbernardus-abt-12-en",
+      "description": "Watou 酒厂以 Abt 12 四料艾尔为代表，强调酵母果香和绵长苦甜平衡。地图采用城市中心，非精确厂址。",
+      "sourceUrls": [
+        "https://www.sintbernardus.be/en/brewery/our-beers/stbernardus-abt-12-en",
+        "https://en.wikipedia.org/wiki/Watou"
+      ]
+    }
+  ],
+  "beers": [
+    {
+      "id": "sierra-pale",
+      "name": "Sierra Nevada Pale Ale",
+      "breweryId": "sierra-nevada",
+      "style": "American Pale Ale",
+      "styleZh": "美式淡色艾尔",
+      "abv": 5.6,
+      "ibu": 38,
+      "srm": null,
+      "description": "Cascade 酒花带来明亮的柑橘与松针香，焦糖麦芽让苦味有温柔的落点。瓶中熟成赋予酒体细腻气泡。",
+      "originalDescription": "Intense aromas of pine and citrus, balanced by smooth caramel malt.",
+      "flavors": [
+        "柑橘",
+        "松针",
+        "焦糖"
+      ],
+      "hops": [
+        "Cascade"
+      ],
+      "malts": [
+        "Caramelized",
+        "Two-row Pale"
+      ],
+      "yeast": "Ale",
+      "foodPairings": [],
+      "firstBrewed": "1980",
+      "image": "/images/world-sierra-pale.jpg",
+      "imageCredit": "SteveR · CC BY 2.0",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Sierra_Nevada_Pale_Ale_(cropped).jpg",
+      "sourceUrls": [
+        "https://sierranevada.com/brews/pale-ale"
+      ],
+      "sourceNote": "风味为酒厂原文的人工中文摘要；参数取所列官方资料，缺失项留空。照片可能为历史包装。",
+      "collection": "world",
+      "imageLicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "imageDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Sierra_Nevada_Pale_Ale_%28cropped%29.jpg"
+    },
+    {
+      "id": "duvel",
+      "name": "Duvel",
+      "breweryId": "duvel-moortgat",
+      "style": "Belgian Golden Strong Ale",
+      "styleZh": "比利时金色烈性艾尔",
+      "abv": 8.5,
+      "ibu": null,
+      "srm": null,
+      "description": "轻盈果香、干爽收尾与细密气泡并存；斯洛文尼亚和捷克酒花带来清晰而细致的苦韵。",
+      "originalDescription": "Slightly fruity, dry aroma, well hopped, with a slightly bitter aftertaste.",
+      "flavors": [
+        "果香",
+        "清爽"
+      ],
+      "hops": [
+        "Saaz-Saaz",
+        "Styrian Golding"
+      ],
+      "malts": [
+        "Barley malt"
+      ],
+      "yeast": "Duvel house yeast",
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/world-duvel.jpg",
+      "imageCredit": "Andreador · CC BY 3.0",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Duvel..jpg",
+      "sourceUrls": [
+        "https://www.duvel.com/en/the-beer/duvel"
+      ],
+      "sourceNote": "风味为酒厂原文的人工中文摘要；参数取所列官方资料，缺失项留空。照片可能为历史包装。",
+      "collection": "world",
+      "imageLicenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "imageDownloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Duvel..jpg/500px-Duvel..jpg"
+    },
+    {
+      "id": "chimay-blue",
+      "name": "Chimay Blue / Grande Réserve",
+      "breweryId": "chimay",
+      "style": "Belgian Dark Strong Ale",
+      "styleZh": "比利时深色烈性艾尔",
+      "abv": 9,
+      "ibu": null,
+      "srm": null,
+      "description": "深棕色酒体中，浓郁果香与巧克力、香料交织。蓝帽适合观察比利时深色艾尔的熟成潜力。",
+      "originalDescription": "A luscious fruity bouquet and delicious chocolate.",
+      "flavors": [
+        "果香",
+        "巧克力",
+        "香料"
+      ],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/world-chimay-blue.jpg",
+      "imageCredit": "Ludovic Péron · CC BY-SA 3.0",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Chimay_bleu.jpg",
+      "sourceUrls": [
+        "https://chimay.com/wp-content/uploads/2020/12/6299-Communique%CC%81-de-presse-EN.pdf",
+        "https://chimay.com/cadeaux/?lang=en"
+      ],
+      "sourceNote": "风味为酒厂原文的人工中文摘要；参数取所列官方资料，缺失项留空。照片可能为历史包装。",
+      "collection": "world",
+      "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDownloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Chimay_bleu.jpg/500px-Chimay_bleu.jpg"
+    },
+    {
+      "id": "chimay-red",
+      "name": "Chimay Red / Première",
+      "breweryId": "chimay",
+      "style": "Belgian Dubbel",
+      "styleZh": "比利时双料艾尔",
+      "abv": 7,
+      "ibu": null,
+      "srm": null,
+      "description": "智美红帽以慷慨的果香与太妃糖气息形成平衡，是该酒厂历史较早的代表酒款。",
+      "originalDescription": "Generous fruity flavours and toffee.",
+      "flavors": [
+        "果香",
+        "焦糖"
+      ],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/world-chimay-red.jpg",
+      "imageCredit": "LeeKeoma · CC0",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Chimay_Rouge.JPG",
+      "sourceUrls": [
+        "https://chimay.com/wp-content/uploads/2020/12/6299-Communique%CC%81-de-presse-EN.pdf"
+      ],
+      "sourceNote": "风味为酒厂原文的人工中文摘要；参数取所列官方资料，缺失项留空。照片可能为历史包装。",
+      "collection": "world",
+      "imageLicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "imageDownloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Chimay_Rouge.JPG/500px-Chimay_Rouge.JPG"
+    },
+    {
+      "id": "weihen-hefe",
+      "name": "Weihenstephaner Hefeweißbier",
+      "breweryId": "weihenstephan",
+      "style": "Hefeweizen",
+      "styleZh": "德式小麦白啤",
+      "abv": 5.4,
+      "ibu": 14,
+      "srm": null,
+      "description": "天然浑浊的琥珀色小麦啤酒，香蕉和丁香香十分鲜明，口感柔滑，带少许香料气息。",
+      "originalDescription": "Duftet nach Gewürznelken und besticht durch sein feines Bananenaroma.",
+      "flavors": [
+        "香蕉",
+        "丁香",
+        "香料"
+      ],
+      "hops": [],
+      "malts": [
+        "Barley malt",
+        "Wheat malt"
+      ],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/world-weihen-hefe.jpg",
+      "imageCredit": "LeeKeoma · CC0",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Weihenstephaner_Hefe_Weissbier.JPG",
+      "sourceUrls": [
+        "https://www.weihenstephaner.de/unsere-biere/hefeweissbier"
+      ],
+      "sourceNote": "风味为酒厂原文的人工中文摘要；参数取所列官方资料，缺失项留空。照片可能为历史包装。",
+      "collection": "world",
+      "imageLicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "imageDownloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Weihenstephaner_Hefe_Weissbier.JPG/500px-Weihenstephaner_Hefe_Weissbier.JPG"
+    },
+    {
+      "id": "weihen-dunkel",
+      "name": "Weihenstephaner Hefeweißbier Dunkel",
+      "breweryId": "weihenstephan",
+      "style": "Dunkelweizen",
+      "styleZh": "德式深色小麦啤",
+      "abv": 5.3,
+      "ibu": 14,
+      "srm": null,
+      "description": "栗棕色酒体带有轻柔焦糖、熟香蕉与麦芽香，气泡活泼而入口绵柔。",
+      "originalDescription": "A pleasantly light caramel note is perceptible in the flavor.",
+      "flavors": [
+        "焦糖",
+        "香蕉",
+        "麦香"
+      ],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [
+        "烤猪肉",
+        "甜点"
+      ],
+      "firstBrewed": null,
+      "image": "/images/world-weihen-dunkel.jpg",
+      "imageCredit": "LeeKeoma · CC0",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Weihenstephaner_Hefeweissbier_Dunkel.JPG",
+      "sourceUrls": [
+        "https://www.weihenstephaner.de/en/our-beers/dark-wheat-beer-1"
+      ],
+      "sourceNote": "风味为酒厂原文的人工中文摘要；参数取所列官方资料，缺失项留空。照片可能为历史包装。",
+      "collection": "world",
+      "imageLicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "imageDownloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Weihenstephaner_Hefeweissbier_Dunkel.JPG/500px-Weihenstephaner_Hefeweissbier_Dunkel.JPG"
+    },
+    {
+      "id": "guinness",
+      "name": "Guinness Draught",
+      "breweryId": "guinness",
+      "style": "Irish Dry Stout",
+      "styleZh": "爱尔兰干世涛",
+      "abv": 4.2,
+      "ibu": null,
+      "srm": null,
+      "description": "烘烤大麦带来咖啡与巧克力香，酒体顺滑，苦、甜与烘烤感保持平衡，表面覆盖奶油般细密泡沫。",
+      "originalDescription": "Hints of roasted coffee and chocolate.",
+      "flavors": [
+        "烘烤",
+        "咖啡",
+        "巧克力"
+      ],
+      "hops": [],
+      "malts": [
+        "Malted barley"
+      ],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": "1959",
+      "image": "/images/world-guinness.jpg",
+      "imageCredit": "FakirNL · CC BY-SA 3.0",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Guinness_Draught.jpg",
+      "sourceUrls": [
+        "https://www.guinness.com/en-gb/beers/guinness-draught"
+      ],
+      "sourceNote": "4.2% 采用英国官方产品版本；不同市场和包装可能不同。此酒为世涛风格参照，不表示独立精酿认证。",
+      "collection": "world",
+      "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Guinness_Draught.jpg"
+    },
+    {
+      "id": "urquell",
+      "name": "Pilsner Urquell",
+      "breweryId": "pilsner-urquell",
+      "style": "Czech Pilsner",
+      "styleZh": "捷克皮尔森",
+      "abv": 4.4,
+      "ibu": null,
+      "srm": null,
+      "description": "三次煮出糖化的麦芽甜感与 Saaz 酒花苦韵互相平衡，带淡淡焦糖，收尾清爽干净。",
+      "originalDescription": "Subtle caramel tones and a clean finish with a pleasing, hoppy bitterness.",
+      "flavors": [
+        "焦糖",
+        "麦香",
+        "清爽"
+      ],
+      "hops": [
+        "Saaz"
+      ],
+      "malts": [
+        "Moravian barley malt"
+      ],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": "1842",
+      "image": "/images/world-urquell.jpg",
+      "imageCredit": "Latterdaystan · CC BY-SA 4.0",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Pilsner_Urquell_330mL_Bottle.jpg",
+      "sourceUrls": [
+        "https://www.pilsnerurquell.com/",
+        "https://www.asahideutschland.de/unsere-marken/pilsner-urquell"
+      ],
+      "sourceNote": "风味来自酒厂官网，ABV 来自品牌母公司德国官网。收录为皮尔森风格参照，不表示独立精酿认证。",
+      "collection": "world",
+      "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "imageDownloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Pilsner_Urquell_330mL_Bottle.jpg/500px-Pilsner_Urquell_330mL_Bottle.jpg"
+    },
+    {
+      "id": "lindemans-kriek",
+      "name": "Lindemans Kriek",
+      "breweryId": "lindemans",
+      "style": "Fruit Lambic",
+      "styleZh": "樱桃兰比克",
+      "abv": 3.5,
+      "ibu": null,
+      "srm": null,
+      "description": "鲜明酸樱桃香中有淡淡杏仁，红色酒体与粉色泡沫将水果的甜润和 Lambic 的酸爽连接起来。",
+      "originalDescription": "Un équilibre parfaitement maîtrisé entre douceur et acidité.",
+      "flavors": [
+        "樱桃",
+        "酸爽",
+        "杏仁"
+      ],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [
+        "山羊奶酪",
+        "巧克力甜点"
+      ],
+      "firstBrewed": "1979",
+      "image": "/images/world-lindemans-kriek.jpg",
+      "imageCredit": "Strangerhappenings · CC BY-SA 4.0",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Lindemans_-_Kriek_%2B_bottle_Studio_Wauters_LR_02.jpg",
+      "sourceUrls": [
+        "https://lindemans.be/fr-be/pages/lindemans-kriek"
+      ],
+      "sourceNote": "风味为酒厂原文的人工中文摘要；参数取所列官方资料，缺失项留空。照片可能为历史包装。",
+      "collection": "world",
+      "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "imageDownloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Lindemans_-_Kriek_%2B_bottle_Studio_Wauters_LR_02.jpg/500px-Lindemans_-_Kriek_%2B_bottle_Studio_Wauters_LR_02.jpg"
+    },
+    {
+      "id": "hitachino-red",
+      "name": "Hitachino Nest Red Rice Ale",
+      "breweryId": "kiuchi",
+      "style": "Red Rice Ale",
+      "styleZh": "红米艾尔",
+      "abv": 7,
+      "ibu": 11,
+      "srm": 8.8,
+      "description": "采用古代红米 Asamurasaki，呈淡红色。柔和苦味、鲜明果香和适度酸感，构成常陆野独特的米酿表达。",
+      "originalDescription": "A fruity aroma reminiscent of fruit, and just the right amount of acidity.",
+      "flavors": [
+        "果香",
+        "酸爽"
+      ],
+      "hops": [],
+      "malts": [
+        "Malt"
+      ],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/world-hitachino-red.jpg",
+      "imageCredit": "Ryan Snyder · CC BY 2.0",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Hitachino_Red_Rice_Ale_(2970235314).jpg",
+      "sourceUrls": [
+        "https://kiuchibrewery.co.jp/en/products/beer/list/red-rice-ale/"
+      ],
+      "sourceNote": "官方参数：7% ABV、11 IBU、8.8 SRM。配料另含 Asamurasaki 红米；地图只精确到那珂市。",
+      "collection": "world",
+      "imageLicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "imageDownloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Hitachino_Red_Rice_Ale_%282970235314%29.jpg/500px-Hitachino_Red_Rice_Ale_%282970235314%29.jpg"
+    },
+    {
+      "id": "coopers-pale",
+      "name": "Coopers Original Pale Ale",
+      "breweryId": "coopers",
+      "style": "Australian Pale Ale",
+      "styleZh": "澳式淡色艾尔",
+      "abv": 4.5,
+      "ibu": 26,
+      "srm": null,
+      "description": "果香和花香在清脆苦味中保持平衡。自然熟成带来轻微浑浊，以及具有辨识度的酵母果香。",
+      "originalDescription": "Fruity and floral characters, balanced with a crisp bitterness.",
+      "flavors": [
+        "果香",
+        "花香",
+        "清爽"
+      ],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/world-coopers-pale.jpg",
+      "imageCredit": "calflier001 · CC BY-SA 2.0",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:COOPERS_PALE_ALE_FROM_ADELAIDE_AUSTRALIA_IN_THE_BIER_GARDEN_SAIGON_VIETNAM_JAN_2012_(6964050205).jpg",
+      "sourceUrls": [
+        "https://coopers.com.au/products/original-pale-ale"
+      ],
+      "sourceNote": "IBU 26 采用当前酒厂官网；旧产品单中的数值不同，照片为历史包装。",
+      "collection": "world",
+      "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "imageDownloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/COOPERS_PALE_ALE_FROM_ADELAIDE_AUSTRALIA_IN_THE_BIER_GARDEN_SAIGON_VIETNAM_JAN_2012_%286964050205%29.jpg/500px-COOPERS_PALE_ALE_FROM_ADELAIDE_AUSTRALIA_IN_THE_BIER_GARDEN_SAIGON_VIETNAM_JAN_2012_%286964050205%29.jpg"
+    },
+    {
+      "id": "stone-fml",
+      "name": "Stone ///Fear.Movie.Lions Hazy Double IPA",
+      "breweryId": "stone",
+      "style": "Hazy Double IPA",
+      "styleZh": "浑浊双倍 IPA",
+      "abv": 8.5,
+      "ibu": 60,
+      "srm": null,
+      "description": "Loral 与 Mosaic 酒花呈现草莓、蓝莓、葡萄和些许菠萝香。果汁般酒体，以适中的西海岸式苦韵收尾。",
+      "originalDescription": "Fresh-squeezed fruit juice, strawberry, blueberry, grapes and a hint of white sage.",
+      "flavors": [
+        "莓果",
+        "热带水果",
+        "果香"
+      ],
+      "hops": [
+        "Loral",
+        "Mosaic"
+      ],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [
+        "泰式炒河粉",
+        "草莓芭菲"
+      ],
+      "firstBrewed": "2018-06-04",
+      "image": "/images/world-stone-fml.jpg",
+      "imageCredit": "BBQboffin · CC BY-SA 4.0",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Fear.Movie.Lions_IPA.jpg",
+      "sourceUrls": [
+        "https://www.stonebrewing.com/beer/year-round-releases/stone-fearmovielions-hazy-double-ipa"
+      ],
+      "sourceNote": "风味为酒厂原文的人工中文摘要；参数取所列官方资料，缺失项留空。照片可能为历史包装。",
+      "collection": "world",
+      "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "imageDownloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Fear.Movie.Lions_IPA.jpg/500px-Fear.Movie.Lions_IPA.jpg"
+    },
+    {
+      "id": "unibroue-fin-monde",
+      "name": "Unibroue Ce n’est pas La Fin du Monde",
+      "breweryId": "unibroue",
+      "style": "Belgian IPA",
+      "styleZh": "比利时 IPA",
+      "abv": 9.5,
+      "ibu": 50,
+      "srm": 5.5,
+      "description": "比利时三料的酵母层次与新世界 IPA 酒花结合，桃子、热带水果、丁香和树脂苦韵交织，收尾有温暖酒精感。",
+      "originalDescription": "Cereal, tropical and stone fruit, cloves, sweet pepper, boreal, herbaceous and resinous bitterness.",
+      "flavors": [
+        "热带水果",
+        "果香",
+        "丁香",
+        "香料"
+      ],
+      "hops": [
+        "Galaxy",
+        "Willamette",
+        "Cascade",
+        "Simcoe"
+      ],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [
+        "香辣鱼肉塔可",
+        "菠萝蛋糕",
+        "熟成切达奶酪"
+      ],
+      "firstBrewed": null,
+      "image": "/images/world-unibroue-fin-monde.jpg",
+      "imageCredit": "Gogerr · CC BY-SA 4.0",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Tallboy_can_of_La_Fin_Du_Monde_by_Unibroue.jpg",
+      "sourceUrls": [
+        "https://www.unibroue.com/en-ca/beers/classics/ce-nest-pas-la-fin-du-monde"
+      ],
+      "sourceNote": "所收录为 Ce n’est pas La Fin du Monde，9.5% Belgian IPA；不是经典 La Fin du Monde 9% Tripel。Commons 文件名较简略，以图片标签和酒厂官网核对。",
+      "collection": "world",
+      "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "imageDownloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Tallboy_can_of_La_Fin_Du_Monde_by_Unibroue.jpg/500px-Tallboy_can_of_La_Fin_Du_Monde_by_Unibroue.jpg"
+    },
+    {
+      "id": "unibroue-maudite",
+      "name": "Unibroue Maudite",
+      "breweryId": "unibroue",
+      "style": "Belgian Dubbel",
+      "styleZh": "比利时双料艾尔",
+      "abv": 8,
+      "ibu": 22,
+      "srm": 18,
+      "description": "焦糖化糖与橘子酱般的柔滑入口，伴随轻微烘烤感，尾段带丁香等香料气息。",
+      "originalDescription": "Velvety palate of caramelized sugar and marmalade, slightly roasted with a spicy finish.",
+      "flavors": [
+        "焦糖",
+        "柑橘",
+        "烘烤",
+        "香料"
+      ],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/world-unibroue-maudite.jpg",
+      "imageCredit": "Gogerr · CC BY-SA 4.0",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Tallboy_can_of_%22Maudite%22_by_Unibroue.jpg",
+      "sourceUrls": [
+        "https://www.unibroue.com/en-us/beers/classics/maudite"
+      ],
+      "sourceNote": "风味为酒厂原文的人工中文摘要；参数取所列官方资料，缺失项留空。照片可能为历史包装。",
+      "collection": "world",
+      "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "imageDownloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Tallboy_can_of_%22Maudite%22_by_Unibroue.jpg/500px-Tallboy_can_of_%22Maudite%22_by_Unibroue.jpg"
+    },
+    {
+      "id": "unibroue-blanche",
+      "name": "Unibroue Blanche de Chambly",
+      "breweryId": "unibroue",
+      "style": "Witbier",
+      "styleZh": "比利时小麦白啤",
+      "abv": 5,
+      "ibu": 10,
+      "srm": 4,
+      "description": "小麦、橙子与香料气息清新交织，甜感和酸度平衡，蜂蜜般的余韵柔和收尾。",
+      "originalDescription": "Notes of wheat, orange and spices, good sugar/acidity balance, honey finish.",
+      "flavors": [
+        "麦香",
+        "柑橘",
+        "香料",
+        "蜂蜜"
+      ],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [
+        "白肉鱼",
+        "沙拉",
+        "山羊奶酪"
+      ],
+      "firstBrewed": null,
+      "image": "/images/world-unibroue-blanche.jpg",
+      "imageCredit": "Gogerr · CC BY-SA 4.0",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Can_of_Blanche_Chambly_by_Unibroue.jpg",
+      "sourceUrls": [
+        "https://www.unibroue.com/en-us/beers/classics/blanche-de-chambly"
+      ],
+      "sourceNote": "风味为酒厂原文的人工中文摘要；参数取所列官方资料，缺失项留空。照片可能为历史包装。",
+      "collection": "world",
+      "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "imageDownloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Can_of_Blanche_Chambly_by_Unibroue.jpg/500px-Can_of_Blanche_Chambly_by_Unibroue.jpg"
+    },
+    {
+      "id": "latrappe-quad",
+      "name": "La Trappe Quadrupel",
+      "breweryId": "la-trappe",
+      "style": "Belgian Quadrupel",
+      "styleZh": "修道院四料艾尔",
+      "abv": 10,
+      "ibu": null,
+      "srm": null,
+      "description": "浓郁麦芽中有椰枣、无花果与焦糖气息，丁香、香草和坚果香让深色酒体更具层次。",
+      "originalDescription": "Maltata con dolci note di datteri, fichi e caramello.",
+      "flavors": [
+        "焦糖",
+        "果干",
+        "丁香",
+        "麦香"
+      ],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/world-latrappe-quad.jpg",
+      "imageCredit": "Weber Ribeiro · CC BY-SA 3.0",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Latrappequadrupel.jpg",
+      "sourceUrls": [
+        "https://it.latrappetrappist.com/it/it/le-nostre-birre/prodotti/birra/la-trappe-quadrupel.html"
+      ],
+      "sourceNote": "风味为酒厂原文的人工中文摘要；参数取所列官方资料，缺失项留空。照片可能为历史包装。",
+      "collection": "world",
+      "imageLicenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "imageDownloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Latrappequadrupel.jpg/500px-Latrappequadrupel.jpg"
+    },
+    {
+      "id": "latrappe-tripel",
+      "name": "La Trappe Tripel",
+      "breweryId": "la-trappe",
+      "style": "Belgian Tripel",
+      "styleZh": "修道院三料艾尔",
+      "abv": 8,
+      "ibu": null,
+      "srm": null,
+      "description": "桃子、杏子与花香构成上扬香气，入口饱满柔和，麦芽和糖果甜感由尾段轻苦收住。",
+      "originalDescription": "Fruttato con aromi di pesca e albicocca, combinati con note floreali.",
+      "flavors": [
+        "果香",
+        "花香",
+        "麦香"
+      ],
+      "hops": [],
+      "malts": [
+        "Barley malt"
+      ],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/world-latrappe-tripel.jpg",
+      "imageCredit": "Weber Ribeiro · CC BY-SA 3.0",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Latrappetripel.jpg",
+      "sourceUrls": [
+        "https://it.latrappetrappist.com/it/it/le-nostre-birre/prodotti/birra/la-trappe-tripel.html"
+      ],
+      "sourceNote": "风味为酒厂原文的人工中文摘要；参数取所列官方资料，缺失项留空。照片可能为历史包装。",
+      "collection": "world",
+      "imageLicenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "imageDownloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Latrappetripel.jpg/500px-Latrappetripel.jpg"
+    },
+    {
+      "id": "latrappe-blond",
+      "name": "La Trappe Blond",
+      "breweryId": "la-trappe",
+      "style": "Belgian Blond Ale",
+      "styleZh": "修道院金色艾尔",
+      "abv": 6.5,
+      "ibu": null,
+      "srm": null,
+      "description": "清新果香和柑橘气息与甜麦芽融合，略带香料，轻微甜感与细致苦韵保持平衡。",
+      "originalDescription": "Un sapore delicatamente dolce, lievemente amaro e maltato.",
+      "flavors": [
+        "果香",
+        "柑橘",
+        "麦香",
+        "香料"
+      ],
+      "hops": [],
+      "malts": [
+        "Pale barley malt",
+        "Munich malt"
+      ],
+      "yeast": null,
+      "foodPairings": [
+        "清淡鱼料理",
+        "禽肉",
+        "年轻软奶酪"
+      ],
+      "firstBrewed": null,
+      "image": "/images/world-latrappe-blond.jpg",
+      "imageCredit": "Miguel Andrade · CC0",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:LaTrappeTrappistBlond.jpg",
+      "sourceUrls": [
+        "https://it.latrappetrappist.com/it/it/le-nostre-birre/prodotti/birra/la-trappe-blond.html"
+      ],
+      "sourceNote": "风味为酒厂原文的人工中文摘要；参数取所列官方资料，缺失项留空。照片可能为历史包装。",
+      "collection": "world",
+      "imageLicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "imageDownloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/LaTrappeTrappistBlond.jpg/500px-LaTrappeTrappistBlond.jpg"
+    },
+    {
+      "id": "ij-zatte",
+      "name": "Brouwerij ’t IJ Zatte Tripel",
+      "breweryId": "brouwerij-ij",
+      "style": "Belgian Tripel",
+      "styleZh": "三料艾尔",
+      "abv": 8,
+      "ibu": null,
+      "srm": null,
+      "description": "酒厂 1985 年的第一款啤酒。金色酒体带麦香、果香与香料，入口稍甜，尾段顺滑干爽。",
+      "originalDescription": "Malty, Spicy, Fruity, Bitter.",
+      "flavors": [
+        "麦香",
+        "香料",
+        "果香"
+      ],
+      "hops": [],
+      "malts": [
+        "Barley malt"
+      ],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": "1985",
+      "image": "/images/world-ij-zatte.jpg",
+      "imageCredit": "FakirNL · CC BY-SA 4.0",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:%27t_IJ_Zatte_Tripel.jpg",
+      "sourceUrls": [
+        "https://www.brouwerijhetij.nl/en/our-beers/zatte-tripel"
+      ],
+      "sourceNote": "风味为酒厂原文的人工中文摘要；参数取所列官方资料，缺失项留空。照片可能为历史包装。",
+      "collection": "world",
+      "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "imageDownloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/%27t_IJ_Zatte_Tripel.jpg/500px-%27t_IJ_Zatte_Tripel.jpg"
+    },
+    {
+      "id": "ij-ipa",
+      "name": "Brouwerij ’t IJ IPA",
+      "breweryId": "brouwerij-ij",
+      "style": "American IPA",
+      "styleZh": "美式 IPA",
+      "abv": 6.5,
+      "ibu": null,
+      "srm": null,
+      "description": "突出的酒花香带来葡萄柚和花香，入口果香鲜明，以清晰苦韵收尾。",
+      "originalDescription": "Aromas of grapefruit and flowers.",
+      "flavors": [
+        "柑橘",
+        "花香",
+        "果香"
+      ],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/world-ij-ipa.jpg",
+      "imageCredit": "Lars van der Heide · CC BY-SA 4.0",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Brouwerij_%27t_IJ_I.P.A._(old_design).jpg",
+      "sourceUrls": [
+        "https://www.brouwerijhetij.nl/en/our-beers/ipa"
+      ],
+      "sourceNote": "ABV 6.5% 采用当前酒厂产品页；本地照片为旧标签，显示 7%。两者是不同时间版本，不把旧照片当作当前包装。",
+      "collection": "world",
+      "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "imageDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Brouwerij_%27t_IJ_I.P.A._%28old_design%29.jpg"
+    },
+    {
+      "id": "ij-wit",
+      "name": "Brouwerij ’t IJ IJwit",
+      "breweryId": "brouwerij-ij",
+      "style": "Witbier",
+      "styleZh": "小麦白啤",
+      "abv": 6.5,
+      "ibu": null,
+      "srm": null,
+      "description": "小麦麦芽、柠檬和芫荽籽带来清新而饱满的口感，果香与香料气息十分鲜明。",
+      "originalDescription": "Wheat malt, lemon and coriander seed.",
+      "flavors": [
+        "麦香",
+        "柑橘",
+        "香料",
+        "清爽"
+      ],
+      "hops": [],
+      "malts": [
+        "Barley malt",
+        "Wheat malt"
+      ],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/world-ij-wit.jpg",
+      "imageCredit": "FakirNL · CC BY-SA 4.0",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Brouwerij_%27t_IJ_IJwit_(bottle).jpg",
+      "sourceUrls": [
+        "https://www.brouwerijhetij.nl/en/our-beers/ijwit"
+      ],
+      "sourceNote": "风味为酒厂原文的人工中文摘要；参数取所列官方资料，缺失项留空。照片可能为历史包装。",
+      "collection": "world",
+      "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "imageDownloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Brouwerij_%27t_IJ_IJwit_%28bottle%29.jpg/500px-Brouwerij_%27t_IJ_IJwit_%28bottle%29.jpg"
+    },
+    {
+      "id": "nogne-ipa",
+      "name": "Nøgne Ø India Pale Ale",
+      "breweryId": "nogne-o",
+      "style": "American IPA",
+      "styleZh": "美式 IPA",
+      "abv": 7.5,
+      "ibu": 60,
+      "srm": null,
+      "description": "饱满柔滑，酒花苦味清晰；浅色与轻度烘烤麦芽中带柑橘、草本和些许松针气息。",
+      "originalDescription": "Fyldig og kremet med tydelig humlebitterhet, lyst og litt røstet malt, svale urter og sitrus.",
+      "flavors": [
+        "柑橘",
+        "麦香",
+        "松针",
+        "烘烤"
+      ],
+      "hops": [],
+      "malts": [
+        "Barley malt",
+        "Wheat malt"
+      ],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/world-nogne-ipa.jpg",
+      "imageCredit": "Ras · CC BY-SA 3.0",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Nogne_o_ipa.jpg",
+      "sourceUrls": [
+        "https://www.vinmonopolet.no/Land/Norge/N%C3%B8gne-%C3%98-India-Pale-Ale/p/1336802",
+        "https://www.nogne-o.no/vare-ol/india-pale-ale"
+      ],
+      "sourceNote": "ABV 与风味采用挪威国营酒类零售商 Vinmonopolet 的产品品评；IBU 60 采用酒厂官网。",
+      "collection": "world",
+      "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Nogne_o_ipa.jpg"
+    },
+    {
+      "id": "nogne-saison",
+      "name": "Nøgne Ø Saison",
+      "breweryId": "nogne-o",
+      "style": "Saison",
+      "styleZh": "赛松农舍艾尔",
+      "abv": 6.5,
+      "ibu": null,
+      "srm": null,
+      "description": "明亮果香中有柑橘、苹果与草本气息，淡麦芽和花香相随，余味悠长。",
+      "originalDescription": "Lyst og fruktig, preg av sitrus, eple og urter, ettersmak med god lengde.",
+      "flavors": [
+        "柑橘",
+        "果香",
+        "麦香",
+        "花香"
+      ],
+      "hops": [],
+      "malts": [
+        "Barley malt",
+        "Wheat malt"
+      ],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/world-nogne-saison.jpg",
+      "imageCredit": "Ras · CC BY-SA 4.0",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Nogne_o_saison.jpg",
+      "sourceUrls": [
+        "https://www.vinmonopolet.no/Land/Norge/Agder/Grimstad/N%C3%B8gne-%C3%98-Saison/p/7906702"
+      ],
+      "sourceNote": "参数与风味来自 Vinmonopolet 产品页，采用其 6.5% 版本。照片是历史包装，不据旧照片推定当前参数。",
+      "collection": "world",
+      "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "imageDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Nogne_o_saison.jpg"
+    },
+    {
+      "id": "mikkeller-breakfast",
+      "name": "Mikkeller Beer Geek Breakfast",
+      "breweryId": "mikkeller",
+      "style": "Oatmeal Coffee Stout",
+      "styleZh": "燕麦咖啡世涛",
+      "abv": 7.5,
+      "ibu": null,
+      "srm": null,
+      "description": "浓缩咖啡、黑巧克力和焦糖香融合，口感柔滑绵密，尾段保留平衡苦味。",
+      "originalDescription": "Balanced Stout beer with notes of espresso, dark chocolate and caramel.",
+      "flavors": [
+        "咖啡",
+        "巧克力",
+        "焦糖"
+      ],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/world-mikkeller-breakfast.jpg",
+      "imageCredit": "Dirk Van Esbroeck · CC BY-SA 3.0",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Beergeekbreakfast_glas.jpg",
+      "sourceUrls": [
+        "https://faergekroen.mikkeller.com/drinks",
+        "https://www.mikkeller.com/how-it-all-started",
+        "https://www.mikkeller.com/news/new-beer-geek-breakfast-can-ready"
+      ],
+      "sourceNote": "7.5% 与风味取 Mikkeller 自营餐厅菜单；地图表示丹麦品牌总部城市，非这瓶酒的生产地。2017 年罐装版本官方说明在挪威 Lervig 酿造。照片是历史瓶装。",
+      "collection": "world",
+      "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDownloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Beergeekbreakfast_glas.jpg/500px-Beergeekbreakfast_glas.jpg"
+    },
+    {
+      "id": "colorado-appia",
+      "name": "Colorado Appia",
+      "breweryId": "colorado",
+      "style": "Honey Wheat Ale",
+      "styleZh": "蜂蜜小麦艾尔",
+      "abv": 5.5,
+      "ibu": 10,
+      "srm": null,
+      "description": "橙花蜂蜜与大麦、小麦麦芽结合，入口甜润饱满而清爽，适合观察巴西本地食材的表达。",
+      "originalDescription": "Doce, encorpada e refrescante.",
+      "flavors": [
+        "蜂蜜",
+        "麦香",
+        "清爽"
+      ],
+      "hops": [],
+      "malts": [
+        "Barley malt",
+        "Wheat malt"
+      ],
+      "yeast": null,
+      "foodPairings": [
+        "沙拉",
+        "鸡肉",
+        "布里奶酪"
+      ],
+      "firstBrewed": null,
+      "image": "/images/world-colorado-appia.jpg",
+      "imageCredit": "Christian Benseler · CC BY 2.0",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Colorado_Appia_(8472282044).jpg",
+      "sourceUrls": [
+        "https://rizatti.com.br/nossas-marcas/cervejas/cervejaria-colorado/colorado-appia"
+      ],
+      "sourceNote": "5.5% ABV、10 IBU 和风味采用品牌经销商 Rizatti 产品页；Commons 为历史包装，旧图说明提及 4.5% 版本，不与当前参数混同。",
+      "collection": "world",
+      "imageLicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "imageDownloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Colorado_Appia_%288472282044%29.jpg/500px-Colorado_Appia_%288472282044%29.jpg"
+    },
+    {
+      "id": "omnipollo-marbles",
+      "name": "Omnipollo Marbles",
+      "breweryId": "omnipollo",
+      "style": "American Pale Ale",
+      "styleZh": "美式淡色艾尔",
+      "abv": 5.3,
+      "ibu": null,
+      "srm": null,
+      "description": "以 Nelson Sauvin、Galaxy 和 Citra 酒花酿造，酒厂将其描述为容易饮用的美式淡色艾尔，呈现直接的酒花表达。",
+      "originalDescription": "Easy drinking American Pale Ale brewed with Nelson Sauvin, Galaxy and Citra hops.",
+      "flavors": [
+        "清爽",
+        "酒花"
+      ],
+      "hops": [
+        "Nelson Sauvin",
+        "Galaxy",
+        "Citra"
+      ],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/world-omnipollo-marbles.jpg",
+      "imageCredit": "JIP · CC BY-SA 4.0",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Omnipollo_Marbles.jpg",
+      "sourceUrls": [
+        "https://omnipollo.com/products/marbles"
+      ],
+      "sourceNote": "地图按瑞典品牌所在地展示；这款 Marbles 的官方产品页明确写明在比利时 De Proefbrouwerij 酿造。配图是实际产品罐身，图案作者 Tobias Lund，照片许可与品牌包装权利分别处理。",
+      "collection": "world",
+      "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "imageDownloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Omnipollo_Marbles.jpg/500px-Omnipollo_Marbles.jpg"
+    },
+    {
+      "id": "orval",
+      "name": "Orval",
+      "breweryId": "orval-brewery",
+      "style": "Belgian Pale Ale",
+      "styleZh": "比利时淡色艾尔",
+      "abv": 6.2,
+      "ibu": null,
+      "srm": null,
+      "description": "高发酵与熟成形成鲜明果香，饱满复杂的口感和酒花苦韵保持细致平衡。",
+      "originalDescription": "The distinctive fruity and bitter taste of Orval beer.",
+      "flavors": [
+        "果香",
+        "酒花"
+      ],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": "1931",
+      "image": "/images/world-orval.png",
+      "imageCredit": "LeeKeoma edit by Bruce The Deus · CC0",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Orval_beer_bottle_(2011).png",
+      "sourceUrls": [
+        "https://www.orval.be/en/page/447-orval-brewery",
+        "https://en.wikipedia.org/wiki/Orval_Brewery"
+      ],
+      "sourceNote": "风味来自修道院官网；ABV 6.2% 采用常规欧洲标签版本及百科产品资料。北美标签可能标 6.9%，并非统一全球参数。",
+      "collection": "world",
+      "imageLicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "imageDownloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Orval_beer_bottle_%282011%29.png/500px-Orval_beer_bottle_%282011%29.png"
+    },
+    {
+      "id": "chouffe",
+      "name": "La Chouffe",
+      "breweryId": "chouffe-brewery",
+      "style": "Belgian Blond Ale",
+      "styleZh": "比利时金色艾尔",
+      "abv": 8,
+      "ibu": null,
+      "srm": null,
+      "description": "金色酒体带来清新的柑橘与花香，尾段有舒适的香料气息。",
+      "originalDescription": "Notes d’agrumes, suivies d’une touche agréablement épicée.",
+      "flavors": [
+        "柑橘",
+        "花香",
+        "香料"
+      ],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [
+        "禽肉",
+        "烟熏三文鱼",
+        "贻贝"
+      ],
+      "firstBrewed": null,
+      "image": "/images/world-chouffe.jpg",
+      "imageCredit": "Marie-Lan Nguyen · CC BY 2.5",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:La_Chouffe_bottle.jpg",
+      "sourceUrls": [
+        "https://chouffe.com/fr-fr/nos-bieres/la-chouffe"
+      ],
+      "sourceNote": "风味为酒厂原文的人工中文摘要；参数取所列官方资料，缺失项留空。照片可能为历史包装。",
+      "collection": "world",
+      "imageLicenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "imageDownloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/La_Chouffe_bottle.jpg/500px-La_Chouffe_bottle.jpg"
+    },
+    {
+      "id": "rodenbach-grand",
+      "name": "Rodenbach Grand Cru",
+      "breweryId": "rodenbach",
+      "style": "Flanders Red Ale",
+      "styleZh": "弗兰德斯红艾尔",
+      "abv": 6,
+      "ibu": null,
+      "srm": null,
+      "description": "在橡木大桶中熟成，形成复杂酸甜果香与悠长尾韵，是探索红色酸艾尔的风格样本。",
+      "originalDescription": "Complex sweet-sour fruitiness, long aftertaste, aged in oak foeders.",
+      "flavors": [
+        "酸爽",
+        "果香",
+        "木桶"
+      ],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/world-rodenbach-grand.jpg",
+      "imageCredit": "Bertrouf · CC BY-SA 3.0",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Rodenbach_grand_cru_bottle.jpg",
+      "sourceUrls": [
+        "https://www.rodenbach.be/content/dam/rodenbach/het-foederhuis/Foederhuis%20Menu%20-%20ENG.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/Foederhuis%20Menu%20-%20ENG.pdf"
+      ],
+      "sourceNote": "风味为酒厂原文的人工中文摘要；参数取所列官方资料，缺失项留空。照片可能为历史包装。",
+      "collection": "world",
+      "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDownloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Rodenbach_grand_cru_bottle.jpg/500px-Rodenbach_grand_cru_bottle.jpg"
+    },
+    {
+      "id": "dupont-saison",
+      "name": "Saison Dupont",
+      "breweryId": "dupont",
+      "style": "Saison",
+      "styleZh": "赛松农舍艾尔",
+      "abv": 6.5,
+      "ibu": null,
+      "srm": null,
+      "description": "葡萄柚、白色水果与丁香香清晰，入口有麦芽层次，苦味鲜明，收尾干爽。",
+      "originalDescription": "Fragrances de pamplemousse, et d’épices (girofle).",
+      "flavors": [
+        "柑橘",
+        "丁香",
+        "麦香",
+        "香料"
+      ],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [
+        "贻贝",
+        "芦笋",
+        "亚洲料理"
+      ],
+      "firstBrewed": "1844",
+      "image": "/images/world-dupont-saison.jpg",
+      "imageCredit": "Jmcstrav · CC BY-SA 3.0 (also public domain dedication)",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Saison_Dupont.jpg",
+      "sourceUrls": [
+        "https://www.brasserie-dupont.com/saison-dupont/"
+      ],
+      "sourceNote": "风味为酒厂原文的人工中文摘要；参数取所列官方资料，缺失项留空。照片可能为历史包装。",
+      "collection": "world",
+      "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDownloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Saison_Dupont.jpg/500px-Saison_Dupont.jpg"
+    },
+    {
+      "id": "bernardus-abt",
+      "name": "St. Bernardus Abt 12",
+      "breweryId": "st-bernardus",
+      "style": "Belgian Quadrupel",
+      "styleZh": "比利时四料艾尔",
+      "abv": 10,
+      "ibu": null,
+      "srm": null,
+      "description": "酒厂自有酵母带来浓郁果香，深色酒体柔和饱满，复杂味道以悠长苦甜余韵收尾。",
+      "originalDescription": "A very fruity aroma that is the result of using our own unique yeast.",
+      "flavors": [
+        "果香"
+      ],
+      "hops": [],
+      "malts": [],
+      "yeast": "St. Bernardus house yeast",
+      "foodPairings": [
+        "炖牛肉",
+        "蓝纹奶酪",
+        "巧克力"
+      ],
+      "firstBrewed": null,
+      "image": "/images/world-bernardus-abt.jpg",
+      "imageCredit": "Dirk Van Esbroeck · CC BY-SA 3.0",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Stbernardusabt.jpg",
+      "sourceUrls": [
+        "https://www.sintbernardus.be/en/brewery/our-beers/stbernardus-abt-12-en"
+      ],
+      "sourceNote": "ABV 10% 采用酒厂官网；官网以 EBU 20、EBC 70 标注苦度和色度，此处不擅自换写 IBU/SRM，故保留空值。",
+      "collection": "world",
+      "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDownloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Stbernardusabt.jpg/500px-Stbernardusabt.jpg"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "url": "https://en.wikipedia.org/w/api.php?action=query&prop=coordinates%7Cpageprops&format=json&redirects=1&titles=Mente%C5%9Fe%2C+Mu%C4%9Fla&colimit=max",
+  "fetched_at": "2026-09-18T11:16:09.637243+00:00",
+  "response": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "39617913": {
+          "pageid": 39617913,
+          "ns": 0,
+          "title": "Menteşe, Muğla",
+          "coordinates": [
+            {
+              "lat": 37.21805556,
+              "lon": 28.365,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "defaultsort": "Mentese",
+            "page_image_free": "Muğla_location_Merkez.svg",
+            "wikibase-shortdesc": "District and second level municipality in Muğla Province, Turkey",
+            "wikibase_item": "Q6817536"
+          }
+        }
+      }
+    },
+    "limits": {
+      "coordinates": 500
+    }
+  }
+}

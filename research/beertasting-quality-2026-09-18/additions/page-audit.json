@@ -1,0 +1,467 @@
+{
+  "method": "direct_public_html",
+  "batch": "quality_additions_20260918",
+  "pages": [
+    {
+      "url": "https://www.beertasting.com/en/brewery/antares/beers",
+      "fetched_at": "2026-09-18T11:37:02.533504+00:00",
+      "http_status": 200,
+      "source_bytes": 191067,
+      "source_sha256": "63ed5f94f9e28601addf1ec771c7e39f8de3cc2c454f8e37465c7204445941a5",
+      "meta": {
+        "current_page": 1,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 19
+      },
+      "archive_file": "research/beertasting-quality-2026-09-18/additions/html/antares.html",
+      "selected": true,
+      "quality": {
+        "slug": "antares",
+        "country": "AR",
+        "city": "Mar del Plata.",
+        "rows": 15,
+        "images": 13,
+        "descriptions": 7,
+        "imageAndDescription": 7,
+        "selected": true
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/baird-beer/beers",
+      "fetched_at": "2026-09-18T11:39:50.344008+00:00",
+      "http_status": 200,
+      "source_bytes": 191775,
+      "source_sha256": "e565ee503fe7d0803c675b3a0393d76867fe8f877808107073ae2d56a8c7a81b",
+      "meta": {
+        "current_page": 1,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 29
+      },
+      "archive_file": "research/beertasting-quality-2026-09-18/additions/html/baird-beer.html",
+      "selected": true,
+      "quality": {
+        "slug": "baird-beer",
+        "country": "JP",
+        "city": "Shizuoka",
+        "rows": 15,
+        "images": 14,
+        "descriptions": 8,
+        "imageAndDescription": 8,
+        "selected": true
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/bier-brewery-lohn/beers",
+      "fetched_at": "2026-09-18T11:39:10.679365+00:00",
+      "http_status": 200,
+      "source_bytes": 189814,
+      "source_sha256": "d4a50600d9a40120ae243ee8dc6c485e43d2494475dcb9efef6b5da9025da14b",
+      "meta": {
+        "current_page": 1,
+        "last_page": 8,
+        "per_page": 15,
+        "total": 110
+      },
+      "archive_file": "research/beertasting-quality-2026-09-18/additions/html/bier-brewery-lohn.html",
+      "selected": true,
+      "quality": {
+        "slug": "bier-brewery-lohn",
+        "country": "BR",
+        "city": "Lauro Muller",
+        "rows": 15,
+        "images": 11,
+        "descriptions": 5,
+        "imageAndDescription": 5,
+        "selected": true
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/cervejaria-dadiva/beers",
+      "fetched_at": "2026-09-18T11:38:36.935523+00:00",
+      "http_status": 200,
+      "source_bytes": 180669,
+      "source_sha256": "c2a0e69ba81ad49d9ae07208ecd80f2f2c6d98baa0bd8a8e5cca113fda808000",
+      "meta": {
+        "current_page": 1,
+        "last_page": 8,
+        "per_page": 15,
+        "total": 118
+      },
+      "archive_file": "research/beertasting-quality-2026-09-18/additions/html/cervejaria-dadiva.html",
+      "selected": false,
+      "quality": {
+        "slug": "cervejaria-dadiva",
+        "country": "BR",
+        "city": "Várzea Paulista",
+        "rows": 15,
+        "images": 3,
+        "descriptions": 0,
+        "imageAndDescription": 0,
+        "selected": false
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/chachingo-craft-beer/beers",
+      "fetched_at": "2026-09-18T11:37:08.332854+00:00",
+      "http_status": 200,
+      "source_bytes": 109548,
+      "source_sha256": "18fa5ed4a8ace958ac9a5f025a0f7700f1bb8ec26404d9194727f9904e523cf6",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 3
+      },
+      "archive_file": "research/beertasting-quality-2026-09-18/additions/html/chachingo-craft-beer.html",
+      "selected": false,
+      "quality": {
+        "slug": "chachingo-craft-beer",
+        "country": "AR",
+        "city": "Maipú",
+        "rows": 3,
+        "images": 1,
+        "descriptions": 0,
+        "imageAndDescription": 0,
+        "selected": false
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/distant-shores-brewing/beers",
+      "fetched_at": "2026-09-18T11:36:44.659265+00:00",
+      "http_status": 200,
+      "source_bytes": 185324,
+      "source_sha256": "8bc54102402f2f42efa7533f8b7f19899ffca90203536929bdbd87021ac53dbd",
+      "meta": {
+        "current_page": 1,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 20
+      },
+      "archive_file": "research/beertasting-quality-2026-09-18/additions/html/distant-shores-brewing.html",
+      "selected": false,
+      "quality": {
+        "slug": "distant-shores-brewing",
+        "country": "JP",
+        "city": "Higashimurayama",
+        "rows": 15,
+        "images": 11,
+        "descriptions": 1,
+        "imageAndDescription": 1,
+        "selected": false
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/gorilla-brewing/beers",
+      "fetched_at": "2026-09-18T11:36:50.686390+00:00",
+      "http_status": 200,
+      "source_bytes": 179114,
+      "source_sha256": "01cd39c57c40ec65c832b2dc2a26a6eae84d24df31a077a35a59229ae6c39a6d",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 14
+      },
+      "archive_file": "research/beertasting-quality-2026-09-18/additions/html/gorilla-brewing.html",
+      "selected": true,
+      "quality": {
+        "slug": "gorilla-brewing",
+        "country": "KR",
+        "city": "Suyeong-gu",
+        "rows": 14,
+        "images": 5,
+        "descriptions": 7,
+        "imageAndDescription": 3,
+        "selected": true
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/jeju-beer/beers",
+      "fetched_at": "2026-09-18T11:36:56.557105+00:00",
+      "http_status": 200,
+      "source_bytes": 141710,
+      "source_sha256": "8bc641d1c701fdf4b7649e6342369ce9b11d11f45f79af211c20efd9223b1c39",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 7
+      },
+      "archive_file": "research/beertasting-quality-2026-09-18/additions/html/jeju-beer.html",
+      "selected": true,
+      "quality": {
+        "slug": "jeju-beer",
+        "country": "KR",
+        "city": "Jeju-Si",
+        "rows": 7,
+        "images": 5,
+        "descriptions": 4,
+        "imageAndDescription": 4,
+        "selected": true
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/kyoto-brewing-company/beers",
+      "fetched_at": "2026-09-18T11:36:38.553370+00:00",
+      "http_status": 200,
+      "source_bytes": 181154,
+      "source_sha256": "f86d347911067894baf89c12a1d46d95e5de92aef96aa94ef0d084d8b999c136",
+      "meta": {
+        "current_page": 1,
+        "last_page": 13,
+        "per_page": 15,
+        "total": 185
+      },
+      "archive_file": "research/beertasting-quality-2026-09-18/additions/html/kyoto-brewing-company.html",
+      "selected": false,
+      "quality": {
+        "slug": "kyoto-brewing-company",
+        "country": "JP",
+        "city": "Minami Ward",
+        "rows": 15,
+        "images": 1,
+        "descriptions": 1,
+        "imageAndDescription": 0,
+        "selected": false
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/minoh-beer/beers",
+      "fetched_at": "2026-09-18T11:36:33.192982+00:00",
+      "http_status": 200,
+      "source_bytes": 191245,
+      "source_sha256": "237e62daa5c2fa9e2b14248a0d6704ddfe3be40a3189013de0c0f0ece17e600a",
+      "meta": {
+        "current_page": 1,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 18
+      },
+      "archive_file": "research/beertasting-quality-2026-09-18/additions/html/minoh-beer.html",
+      "selected": true,
+      "quality": {
+        "slug": "minoh-beer",
+        "country": "JP",
+        "city": "Minoh",
+        "rows": 15,
+        "images": 11,
+        "descriptions": 6,
+        "imageAndDescription": 5,
+        "selected": true
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/paper-plane-brewing/beers",
+      "fetched_at": "2026-09-18T11:38:31.107134+00:00",
+      "http_status": 200,
+      "source_bytes": 166318,
+      "source_sha256": "76094255007baee4eb9fe0287b43f32b7b90d1465f6c66c23d4c860daf0b3021",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 10
+      },
+      "archive_file": "research/beertasting-quality-2026-09-18/additions/html/paper-plane-brewing.html",
+      "selected": true,
+      "quality": {
+        "slug": "paper-plane-brewing",
+        "country": "CN",
+        "city": "Hangzhou",
+        "rows": 10,
+        "images": 8,
+        "descriptions": 4,
+        "imageAndDescription": 2,
+        "selected": true
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/tamamura-honten-co/beers",
+      "fetched_at": "2026-09-18T11:39:16.706272+00:00",
+      "http_status": 200,
+      "source_bytes": 132718,
+      "source_sha256": "71fae876896381eeff615997cdaaf9e7d4481a242f37e83f709c2ff769efce25",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 6
+      },
+      "archive_file": "research/beertasting-quality-2026-09-18/additions/html/tamamura-honten-co.html",
+      "selected": true,
+      "quality": {
+        "slug": "tamamura-honten-co",
+        "country": "JP",
+        "city": "Yamanochi",
+        "rows": 6,
+        "images": 5,
+        "descriptions": 5,
+        "imageAndDescription": 5,
+        "selected": true
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/yo-ho-brewing-company/beers",
+      "fetched_at": "2026-09-18T11:39:44.540369+00:00",
+      "http_status": 200,
+      "source_bytes": 203785,
+      "source_sha256": "1b00e019d0344258a4978de91ad5da3a8b7f406263647482a764a75541c7d589",
+      "meta": {
+        "current_page": 1,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 22
+      },
+      "archive_file": "research/beertasting-quality-2026-09-18/additions/html/yo-ho-brewing-company.html",
+      "selected": false,
+      "quality": {
+        "slug": "yo-ho-brewing-company",
+        "country": "JP",
+        "city": "Karuizawa",
+        "rows": 15,
+        "images": 8,
+        "descriptions": 2,
+        "imageAndDescription": 2,
+        "selected": false
+      }
+    }
+  ],
+  "delay_seconds": 6,
+  "request_concurrency": 1,
+  "selectionSummary": [
+    {
+      "slug": "antares",
+      "country": "AR",
+      "city": "Mar del Plata.",
+      "rows": 15,
+      "images": 13,
+      "descriptions": 7,
+      "imageAndDescription": 7,
+      "selected": true
+    },
+    {
+      "slug": "baird-beer",
+      "country": "JP",
+      "city": "Shizuoka",
+      "rows": 15,
+      "images": 14,
+      "descriptions": 8,
+      "imageAndDescription": 8,
+      "selected": true
+    },
+    {
+      "slug": "bier-brewery-lohn",
+      "country": "BR",
+      "city": "Lauro Muller",
+      "rows": 15,
+      "images": 11,
+      "descriptions": 5,
+      "imageAndDescription": 5,
+      "selected": true
+    },
+    {
+      "slug": "cervejaria-dadiva",
+      "country": "BR",
+      "city": "Várzea Paulista",
+      "rows": 15,
+      "images": 3,
+      "descriptions": 0,
+      "imageAndDescription": 0,
+      "selected": false
+    },
+    {
+      "slug": "chachingo-craft-beer",
+      "country": "AR",
+      "city": "Maipú",
+      "rows": 3,
+      "images": 1,
+      "descriptions": 0,
+      "imageAndDescription": 0,
+      "selected": false
+    },
+    {
+      "slug": "distant-shores-brewing",
+      "country": "JP",
+      "city": "Higashimurayama",
+      "rows": 15,
+      "images": 11,
+      "descriptions": 1,
+      "imageAndDescription": 1,
+      "selected": false
+    },
+    {
+      "slug": "gorilla-brewing",
+      "country": "KR",
+      "city": "Suyeong-gu",
+      "rows": 14,
+      "images": 5,
+      "descriptions": 7,
+      "imageAndDescription": 3,
+      "selected": true
+    },
+    {
+      "slug": "jeju-beer",
+      "country": "KR",
+      "city": "Jeju-Si",
+      "rows": 7,
+      "images": 5,
+      "descriptions": 4,
+      "imageAndDescription": 4,
+      "selected": true
+    },
+    {
+      "slug": "kyoto-brewing-company",
+      "country": "JP",
+      "city": "Minami Ward",
+      "rows": 15,
+      "images": 1,
+      "descriptions": 1,
+      "imageAndDescription": 0,
+      "selected": false
+    },
+    {
+      "slug": "minoh-beer",
+      "country": "JP",
+      "city": "Minoh",
+      "rows": 15,
+      "images": 11,
+      "descriptions": 6,
+      "imageAndDescription": 5,
+      "selected": true
+    },
+    {
+      "slug": "paper-plane-brewing",
+      "country": "CN",
+      "city": "Hangzhou",
+      "rows": 10,
+      "images": 8,
+      "descriptions": 4,
+      "imageAndDescription": 2,
+      "selected": true
+    },
+    {
+      "slug": "tamamura-honten-co",
+      "country": "JP",
+      "city": "Yamanochi",
+      "rows": 6,
+      "images": 5,
+      "descriptions": 5,
+      "imageAndDescription": 5,
+      "selected": true
+    },
+    {
+      "slug": "yo-ho-brewing-company",
+      "country": "JP",
+      "city": "Karuizawa",
+      "rows": 15,
+      "images": 8,
+      "descriptions": 2,
+      "imageAndDescription": 2,
+      "selected": false
+    }
+  ],
+  "excludedReason": "Unselected candidates lack at least 3 pictured source descriptions on this bounded first-page sample; no detail pages were fetched.",
+  "imagesNotYetVerified": true
+}

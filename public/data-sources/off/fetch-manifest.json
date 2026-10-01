@@ -1,0 +1,264 @@
+{
+  "generatedAt": "2026-09-14T05:47:15.133810+00:00",
+  "counts": {
+    "candidateBarcodes": 1500,
+    "fromSearch": 1494,
+    "fromHuggingFace": 6,
+    "searchPagesOf100": 17,
+    "searchResponseRows": 1700,
+    "traversedSearchRows": 1671,
+    "withBrand": 1173,
+    "withAlcoholNumericField": 0,
+    "reportedSearchCount": 10000,
+    "reportedSearchCountIsExact": false
+  },
+  "files": [
+    {
+      "sourceUrl": "https://datasets-server.huggingface.co/filter?dataset=openfoodfacts%2Fproduct-database&config=default&split=food&where=%22categories%22+LIKE+%27%25beer%25%27&length=20",
+      "revision": "d75439d6ed36ec9abe625d3702c8fb51c7d67d89",
+      "sha256": "737578436c8d1abee924469698de33cc9aebbf4b5560b9a3ec5c7022bdfdc172",
+      "rawFile": "hf-20-page-0000.json",
+      "fetchedAt": "2026-09-14T05:35:01.389017+00:00",
+      "counts": {
+        "responseRows": 20,
+        "reportedQueryCount": 4768,
+        "isCountExact": null,
+        "partial": false
+      }
+    },
+    {
+      "sourceUrl": "https://search.openfoodfacts.org/search?q=categories_tags%3A%22en%3Abeers%22&page_size=20&page=1",
+      "revision": null,
+      "sha256": "1e1d83d88e0b09bc34985fbba967c3e38e2ea949dc29a090d236707d598b61d7",
+      "rawFile": "searchalicious-probe.json",
+      "fetchedAt": "2026-09-14T05:39:19.433391+00:00",
+      "counts": {
+        "responseRows": 20,
+        "reportedQueryCount": 10000,
+        "isCountExact": false,
+        "partial": null
+      }
+    },
+    {
+      "sourceUrl": "https://search.openfoodfacts.org/search?q=categories_tags%3A%22en%3Abeers%22&page_size=100&page=1",
+      "revision": null,
+      "sha256": "a194a2889abf0beb5fd98d1df2709f330ba66f46ed0f452ec96b531cc2ce738b",
+      "rawFile": "search-100-page-0001.json",
+      "fetchedAt": "2026-09-14T05:39:23.329289+00:00",
+      "counts": {
+        "responseRows": 100,
+        "reportedQueryCount": 10000,
+        "isCountExact": false,
+        "partial": null
+      }
+    },
+    {
+      "sourceUrl": "https://search.openfoodfacts.org/search?q=categories_tags%3A%22en%3Abeers%22&page_size=100&page=2",
+      "revision": null,
+      "sha256": "e1d4711e692701524ecb0dcecea5c9e9f161aced542111e869bdd0b89450ba6d",
+      "rawFile": "search-100-page-0002.json",
+      "fetchedAt": "2026-09-14T05:39:32.923123+00:00",
+      "counts": {
+        "responseRows": 100,
+        "reportedQueryCount": 10000,
+        "isCountExact": false,
+        "partial": null
+      }
+    },
+    {
+      "sourceUrl": "https://search.openfoodfacts.org/search?q=categories_tags%3A%22en%3Abeers%22&page_size=100&page=3",
+      "revision": null,
+      "sha256": "173c5d034f604ec22c9662d8fd0d210d15de807ae06da8a0a6d66b75df5ec5af",
+      "rawFile": "search-100-page-0003.json",
+      "fetchedAt": "2026-09-14T05:39:42.107785+00:00",
+      "counts": {
+        "responseRows": 100,
+        "reportedQueryCount": 10000,
+        "isCountExact": false,
+        "partial": null
+      }
+    },
+    {
+      "sourceUrl": "https://search.openfoodfacts.org/search?q=categories_tags%3A%22en%3Abeers%22&page_size=100&page=4",
+      "revision": null,
+      "sha256": "5592ea06eb151169cd576016158a146f3a986aa8358b871b7884e5dfa59c58b3",
+      "rawFile": "search-100-page-0004.json",
+      "fetchedAt": "2026-09-14T05:39:52.173769+00:00",
+      "counts": {
+        "responseRows": 100,
+        "reportedQueryCount": 10000,
+        "isCountExact": false,
+        "partial": null
+      }
+    },
+    {
+      "sourceUrl": "https://search.openfoodfacts.org/search?q=categories_tags%3A%22en%3Abeers%22&page_size=100&page=5",
+      "revision": null,
+      "sha256": "77901b7996297c292a6f43a7b731a1ebb6dfbb3ab6887642c66d53ce96a4cf00",
+      "rawFile": "search-100-page-0005.json",
+      "fetchedAt": "2026-09-14T05:40:01.420720+00:00",
+      "counts": {
+        "responseRows": 100,
+        "reportedQueryCount": 10000,
+        "isCountExact": false,
+        "partial": null
+      }
+    },
+    {
+      "sourceUrl": "https://search.openfoodfacts.org/search?q=categories_tags%3A%22en%3Abeers%22&page_size=100&page=6",
+      "revision": null,
+      "sha256": "4a5638f7dd3b1ccb5f5c7a82fdbb4cda15e4306e33aea2d9eaf2aa974d4ab154",
+      "rawFile": "search-100-page-0006.json",
+      "fetchedAt": "2026-09-14T05:40:12.128539+00:00",
+      "counts": {
+        "responseRows": 100,
+        "reportedQueryCount": 10000,
+        "isCountExact": false,
+        "partial": null
+      }
+    },
+    {
+      "sourceUrl": "https://search.openfoodfacts.org/search?q=categories_tags%3A%22en%3Abeers%22&page_size=100&page=7",
+      "revision": null,
+      "sha256": "13d7dc2d568313bf179192901b3f7b51233465f806ce9285f1b2504838125c2b",
+      "rawFile": "search-100-page-0007.json",
+      "fetchedAt": "2026-09-14T05:40:22.680968+00:00",
+      "counts": {
+        "responseRows": 100,
+        "reportedQueryCount": 10000,
+        "isCountExact": false,
+        "partial": null
+      }
+    },
+    {
+      "sourceUrl": "https://search.openfoodfacts.org/search?q=categories_tags%3A%22en%3Abeers%22&page_size=100&page=8",
+      "revision": null,
+      "sha256": "371ed409951a93906ce7bd0cf5e74bbf3047ff43bb7b8a0708958f266572d14d",
+      "rawFile": "search-100-page-0008.json",
+      "fetchedAt": "2026-09-14T05:40:32.107743+00:00",
+      "counts": {
+        "responseRows": 100,
+        "reportedQueryCount": 10000,
+        "isCountExact": false,
+        "partial": null
+      }
+    },
+    {
+      "sourceUrl": "https://search.openfoodfacts.org/search?q=categories_tags%3A%22en%3Abeers%22&page_size=100&page=9",
+      "revision": null,
+      "sha256": "20b8fe0abc78095b6bf09da63fee9b25eb7f589628d12b0f9072eaf668908ff7",
+      "rawFile": "search-100-page-0009.json",
+      "fetchedAt": "2026-09-14T05:40:42.572202+00:00",
+      "counts": {
+        "responseRows": 100,
+        "reportedQueryCount": 10000,
+        "isCountExact": false,
+        "partial": null
+      }
+    },
+    {
+      "sourceUrl": "https://search.openfoodfacts.org/search?q=categories_tags%3A%22en%3Abeers%22&page_size=100&page=10",
+      "revision": null,
+      "sha256": "5a2802cab98d909cbd68290f1182d997234a42a726d4b3165dd04878d965a5f3",
+      "rawFile": "search-100-page-0010.json",
+      "fetchedAt": "2026-09-14T05:40:53.141056+00:00",
+      "counts": {
+        "responseRows": 100,
+        "reportedQueryCount": 10000,
+        "isCountExact": false,
+        "partial": null
+      }
+    },
+    {
+      "sourceUrl": "https://search.openfoodfacts.org/search?q=categories_tags%3A%22en%3Abeers%22&page_size=100&page=11",
+      "revision": null,
+      "sha256": "32fbe1f334734e9fd210a70d920ff1b1fe9c1c95e950b6f2a05b3dd02e8d082f",
+      "rawFile": "search-100-page-0011.json",
+      "fetchedAt": "2026-09-14T05:41:03.717392+00:00",
+      "counts": {
+        "responseRows": 100,
+        "reportedQueryCount": 10000,
+        "isCountExact": false,
+        "partial": null
+      }
+    },
+    {
+      "sourceUrl": "https://search.openfoodfacts.org/search?q=categories_tags%3A%22en%3Abeers%22&page_size=100&page=12",
+      "revision": null,
+      "sha256": "f0fa4649a2b79b5a111e56504d55ae031bd293a24f46b756c37cbee0b030c2d5",
+      "rawFile": "search-100-page-0012.json",
+      "fetchedAt": "2026-09-14T05:41:12.974532+00:00",
+      "counts": {
+        "responseRows": 100,
+        "reportedQueryCount": 10000,
+        "isCountExact": false,
+        "partial": null
+      }
+    },
+    {
+      "sourceUrl": "https://search.openfoodfacts.org/search?q=categories_tags%3A%22en%3Abeers%22&page_size=100&page=13",
+      "revision": null,
+      "sha256": "6e8317c098268f701a5fd491b973b15da7d0b0c3afd6ef38140bfb8374be3fbd",
+      "rawFile": "search-100-page-0013.json",
+      "fetchedAt": "2026-09-14T05:41:23.388554+00:00",
+      "counts": {
+        "responseRows": 100,
+        "reportedQueryCount": 10000,
+        "isCountExact": false,
+        "partial": null
+      }
+    },
+    {
+      "sourceUrl": "https://search.openfoodfacts.org/search?q=categories_tags%3A%22en%3Abeers%22&page_size=100&page=14",
+      "revision": null,
+      "sha256": "21758d4b66fd1b2b069d6ab981cccde83792ff17856fc42cf8a861fd88c59ff3",
+      "rawFile": "search-100-page-0014.json",
+      "fetchedAt": "2026-09-14T05:41:32.521100+00:00",
+      "counts": {
+        "responseRows": 100,
+        "reportedQueryCount": 10000,
+        "isCountExact": false,
+        "partial": null
+      }
+    },
+    {
+      "sourceUrl": "https://search.openfoodfacts.org/search?q=categories_tags%3A%22en%3Abeers%22&page_size=100&page=15",
+      "revision": null,
+      "sha256": "7829c7b4ab757064b1a84bb3bca4726b78b34d71273c5e9567c192e23b2643f8",
+      "rawFile": "search-100-page-0015.json",
+      "fetchedAt": "2026-09-14T05:41:41.859750+00:00",
+      "counts": {
+        "responseRows": 100,
+        "reportedQueryCount": 10000,
+        "isCountExact": false,
+        "partial": null
+      }
+    },
+    {
+      "sourceUrl": "https://search.openfoodfacts.org/search?q=categories_tags%3A%22en%3Abeers%22&page_size=100&page=16",
+      "revision": null,
+      "sha256": "6446fc9b4283f08a6d97fd58eafb2359ad0b5d72628f0ab225e2df8c2d9f2234",
+      "rawFile": "search-100-page-0016.json",
+      "fetchedAt": "2026-09-14T05:41:51.148529+00:00",
+      "counts": {
+        "responseRows": 100,
+        "reportedQueryCount": 10000,
+        "isCountExact": false,
+        "partial": null
+      }
+    },
+    {
+      "sourceUrl": "https://search.openfoodfacts.org/search?q=categories_tags%3A%22en%3Abeers%22&page_size=100&page=17",
+      "revision": null,
+      "sha256": "9d9f4881f97a4200e5492642dbc8d5fb096df4c46c8f9c824534722d165869e4",
+      "rawFile": "search-100-page-0017.json",
+      "fetchedAt": "2026-09-14T05:42:01.706958+00:00",
+      "counts": {
+        "responseRows": 100,
+        "reportedQueryCount": 10000,
+        "isCountExact": false,
+        "partial": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "source": "Existing source-backed world/archive brewery records",
+  "note": "Explicit brand aliases; all locations are references, not product manufacturing evidence.",
+  "aliases": [
+    {
+      "breweryId": "sierra-nevada",
+      "aliases": [
+        "Sierra Nevada"
+      ],
+      "sourceUrls": [
+        "https://sierranevada.com/brews/pale-ale",
+        "https://en.wikipedia.org/wiki/Sierra_Nevada_Brewing_Company"
+      ],
+      "role": "brand_reference",
+      "productionLocationVerified": false
+    },
+    {
+      "breweryId": "duvel-moortgat",
+      "aliases": [
+        "Duvel",
+        "Duvel Moortgat"
+      ],
+      "sourceUrls": [
+        "https://www.duvel.com/en/contact-us",
+        "https://en.wikipedia.org/wiki/Duvel_Moortgat_Brewery",
+        "https://www.duvel.com/en/the-beer/duvel"
+      ],
+      "role": "brand_reference",
+      "productionLocationVerified": false
+    },
+    {
+      "breweryId": "chimay",
+      "aliases": [
+        "Chimay"
+      ],
+      "sourceUrls": [
+        "https://chimay.com/us/discover-chimay/",
+        "https://en.wikipedia.org/wiki/Chimay_Brewery"
+      ],
+      "role": "brand_reference",
+      "productionLocationVerified": false
+    },
+    {
+      "breweryId": "weihenstephan",
+      "aliases": [
+        "Weihenstephan",
+        "Weihenstephaner"
+      ],
+      "sourceUrls": [
+        "https://www.weihenstephaner.de/unsere-biere/hefeweissbier",
+        "https://en.wikipedia.org/wiki/Bayerische_Staatsbrauerei_Weihenstephan"
+      ],
+      "role": "brand_reference",
+      "productionLocationVerified": false
+    },
+    {
+      "breweryId": "guinness",
+      "aliases": [
+        "Guinness"
+      ],
+      "sourceUrls": [
+        "https://www.guinness.com/en-gb/beers/guinness-draught",
+        "https://en.wikipedia.org/wiki/Guinness_Brewery"
+      ],
+      "role": "brand_reference",
+      "productionLocationVerified": false
+    },
+    {
+      "breweryId": "pilsner-urquell",
+      "aliases": [
+        "Pilsner Urquell"
+      ],
+      "sourceUrls": [
+        "https://www.pilsnerurquell.com/",
+        "https://en.wikipedia.org/wiki/Pilsner_Urquell_Brewery"
+      ],
+      "role": "brand_reference",
+      "productionLocationVerified": false
+    },
+    {
+      "breweryId": "lindemans",
+      "aliases": [
+        "Lindemans"
+      ],
+      "sourceUrls": [
+        "https://lindemans.be/fr-be/pages/lindemans-kriek",
+        "https://en.wikipedia.org/wiki/Lindemans_Brewery"
+      ],
+      "role": "brand_reference",
+      "productionLocationVerified": false
+    },
+    {
+      "breweryId": "kiuchi",
+      "aliases": [
+        "Kiuchi",
+        "Hitachino Nest"
+      ],
+      "sourceUrls": [
+        "https://kiuchibrewery.co.jp/en/products/beer/",
+        "https://en.wikipedia.org/wiki/Naka,_Ibaraki",
+        "https://kiuchibrewery.co.jp/en/news/2024-10-28/"
+      ],
+      "role": "brand_reference",
+      "productionLocationVerified": false
+    },
+    {
+      "breweryId": "coopers",
+      "aliases": [
+        "Coopers"
+      ],
+      "sourceUrls": [
+        "https://coopers.com.au/pages/how-to-find-us",
+        "https://en.wikipedia.org/wiki/Coopers_Brewery",
+        "https://coopers.com.au/products/original-pale-ale"
+      ],
+      "role": "brand_reference",
+      "productionLocationVerified": false
+    },
+    {
+      "breweryId": "stone",
+      "aliases": [
+        "Stone Brewing"
+      ],
+      "sourceUrls": [
+        "https://www.stonebrewing.com/beer/year-round-releases/stone-fearmovielions-hazy-double-ipa",
+        "https://en.wikipedia.org/wiki/Escondido,_California"
+      ],
+      "role": "brand_reference",
+      "productionLocationVerified": false
+    },
+    {
+      "breweryId": "unibroue",
+      "aliases": [
+        "Unibroue"
+      ],
+      "sourceUrls": [
+        "https://www.unibroue.com/en-ca/beers/classics/ce-nest-pas-la-fin-du-monde",
+        "https://en.wikipedia.org/wiki/Chambly,_Quebec"
+      ],
+      "role": "brand_reference",
+      "productionLocationVerified": false
+    },
+    {
+      "breweryId": "la-trappe",
+      "aliases": [
+        "La Trappe"
+      ],
+      "sourceUrls": [
+        "https://it.latrappetrappist.com/it/it/le-nostre-birre/prodotti/birra/la-trappe-blond.html",
+        "https://en.wikipedia.org/wiki/De_Koningshoeven_Brewery"
+      ],
+      "role": "brand_reference",
+      "productionLocationVerified": false
+    },
+    {
+      "breweryId": "brouwerij-ij",
+      "aliases": [
+        "Brouwerij 't IJ",
+        "'t IJ"
+      ],
+      "sourceUrls": [
+        "https://www.brouwerijhetij.nl/en/our-beers/zatte-tripel",
+        "https://en.wikipedia.org/wiki/Brouwerij_%27t_IJ"
+      ],
+      "role": "brand_reference",
+      "productionLocationVerified": false
+    },
+    {
+      "breweryId": "nogne-o",
+      "aliases": [
+        "Nøgne Ø"
+      ],
+      "sourceUrls": [
+        "https://www.nogne-o.no/kontakt",
+        "https://en.wikipedia.org/wiki/Grimstad_(town)"
+      ],
+      "role": "brand_reference",
+      "productionLocationVerified": false
+    },
+    {
+      "breweryId": "mikkeller",
+      "aliases": [
+        "Mikkeller"
+      ],
+      "sourceUrls": [
+        "https://www.mikkeller.com/events/beer-geek-breakfast",
+        "https://en.wikipedia.org/wiki/Copenhagen",
+        "https://www.mikkeller.com/how-it-all-started",
+        "https://www.mikkeller.com/news/new-beer-geek-breakfast-can-ready"
+      ],
+      "role": "brand_reference",
+      "productionLocationVerified": false
+    },
+    {
+      "breweryId": "colorado",
+      "aliases": [
+        "Cervejaria Colorado"
+      ],
+      "sourceUrls": [
+        "https://www.cervejariacolorado.com.br/",
+        "https://en.wikipedia.org/wiki/Ribeir%C3%A3o_Preto",
+        "https://www.ribeiraopreto.sp.gov.br/portal/pdf/cultura849.pdf",
+        "https://rizatti.com.br/nossas-marcas/cervejas/cervejaria-colorado/colorado-appia"
+      ],
+      "role": "brand_reference",
+      "productionLocationVerified": false
+    },
+    {
+      "breweryId": "omnipollo",
+      "aliases": [
+        "Omnipollo"
+      ],
+      "sourceUrls": [
+        "https://omnipollo.com/pages/contact",
+        "https://en.wikipedia.org/wiki/Sundbyberg_Municipality",
+        "https://omnipollo.com/products/marbles"
+      ],
+      "role": "brand_reference",
+      "productionLocationVerified": false
+    },
+    {
+      "breweryId": "orval-brewery",
+      "aliases": [
+        "Orval"
+      ],
+      "sourceUrls": [
+        "https://www.orval.be/en/page/447-orval-brewery",
+        "https://en.wikipedia.org/wiki/Orval_Brewery"
+      ],
+      "role": "brand_reference",
+      "productionLocationVerified": false
+    },
+    {
+      "breweryId": "chouffe-brewery",
+      "aliases": [
+        "La Chouffe",
+        "Chouffe"
+      ],
+      "sourceUrls": [
+        "https://chouffe.com/fr-fr/nos-bieres/la-chouffe",
+        "https://en.wikipedia.org/wiki/Brasserie_d%27Achouffe"
+      ],
+      "role": "brand_reference",
+      "productionLocationVerified": false
+    },
+    {
+      "breweryId": "rodenbach",
+      "aliases": [
+        "Rodenbach"
+      ],
+      "sourceUrls": [
+        "https://www.rodenbach.be/",
+        "https://en.wikipedia.org/wiki/Rodenbach_Brewery",
+        "https://www.rodenbach.be/content/dam/rodenbach/het-foederhuis/Foederhuis%20Menu%20-%20ENG.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/Foederhuis%20Menu%20-%20ENG.pdf"
+      ],
+      "role": "brand_reference",
+      "productionLocationVerified": false
+    },
+    {
+      "breweryId": "dupont",
+      "aliases": [
+        "Brasserie Dupont"
+      ],
+      "sourceUrls": [
+        "https://www.brasserie-dupont.com/saison-dupont/",
+        "https://en.wikipedia.org/wiki/Dupont_Brewery"
+      ],
+      "role": "brand_reference",
+      "productionLocationVerified": false
+    },
+    {
+      "breweryId": "st-bernardus",
+      "aliases": [
+        "St. Bernardus",
+        "St Bernardus",
+        "St.Bernardus"
+      ],
+      "sourceUrls": [
+        "https://www.sintbernardus.be/en/brewery/our-beers/stbernardus-abt-12-en",
+        "https://en.wikipedia.org/wiki/Watou"
+      ],
+      "role": "brand_reference",
+      "productionLocationVerified": false
+    },
+    {
+      "breweryId": "brewdog-ellon",
+      "aliases": [
+        "BrewDog"
+      ],
+      "sourceUrls": [
+        "https://brewdog.com/pages/customer-service-contact-us",
+        "https://www.trove.scot/place/320338?display=image",
+        "https://efp.brewdog.com/es/blog/diy-dog"
+      ],
+      "role": "brand_reference",
+      "productionLocationVerified": false
+    }
+  ]
+}

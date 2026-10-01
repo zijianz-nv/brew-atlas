@@ -1,0 +1,172 @@
+{
+  "url": "https://en.wikipedia.org/w/api.php?action=query&prop=coordinates%7Cpageprops&coprimary=primary&format=json&redirects=1&titles=Shanghai%7CNanjing%7CShangri-La%2C+Yunnan%7CWuhan%7CBangalore%7CPune%7CSangolda%7CMumbai&colimit=max",
+  "fetched_at": "2026-09-18T10:41:08.492448+00:00",
+  "response": {
+    "batchcomplete": "",
+    "query": {
+      "redirects": [
+        {
+          "from": "Bangalore",
+          "to": "Bengaluru"
+        }
+      ],
+      "pages": {
+        "19189": {
+          "pageid": 19189,
+          "ns": 0,
+          "title": "Mumbai",
+          "coordinates": [
+            {
+              "lat": 19.07611111,
+              "lon": 72.8775,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Mumbai_Bandra-Worli_Sea_Link.jpg",
+            "wikibase-badge-Q17437798": "",
+            "wikibase-shortdesc": "Capital of Maharashtra, India",
+            "wikibase_item": "Q1156"
+          }
+        },
+        "21791": {
+          "pageid": 21791,
+          "ns": 0,
+          "title": "Nanjing",
+          "coordinates": [
+            {
+              "lat": 32.06083333,
+              "lon": 118.77888889,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Nanjing_CBD_from_City_Wall.jpg",
+            "wikibase-shortdesc": "Capital of Jiangsu, China",
+            "wikibase_item": "Q16666"
+          }
+        },
+        "164634": {
+          "pageid": 164634,
+          "ns": 0,
+          "title": "Pune",
+          "coordinates": [
+            {
+              "lat": 18.52111111,
+              "lon": 73.85527778,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Pune_West_skyline_-_March_2017.jpg",
+            "wikibase-shortdesc": "City in Maharashtra, India",
+            "wikibase_item": "Q1538"
+          }
+        },
+        "22115109": {
+          "pageid": 22115109,
+          "ns": 0,
+          "title": "Sangolda",
+          "coordinates": [
+            {
+              "lat": 15.542097,
+              "lon": 73.821381,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "wikibase-shortdesc": "Village in Goa, India",
+            "wikibase_item": "Q7418068"
+          }
+        },
+        "27643": {
+          "pageid": 27643,
+          "ns": 0,
+          "title": "Shanghai",
+          "coordinates": [
+            {
+              "lat": 31.2325,
+              "lon": 121.46916667,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Huangpu_Park_20124-Shanghai_(32208802494).jpg",
+            "wikibase-badge-Q17437798": "",
+            "wikibase-shortdesc": "Municipality and largest city in China",
+            "wikibase_item": "Q8686"
+          }
+        },
+        "1718061": {
+          "pageid": 1718061,
+          "ns": 0,
+          "title": "Shangri-La, Yunnan",
+          "coordinates": [
+            {
+              "lat": 27.825,
+              "lon": 99.7025,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "松赞林寺_-_全景_-_2025-05-07_09_(cropped).jpg",
+            "wikibase-shortdesc": "County-level city in Yunnan, China",
+            "wikibase_item": "Q933866"
+          }
+        },
+        "82138": {
+          "pageid": 82138,
+          "ns": 0,
+          "title": "Wuhan",
+          "coordinates": [
+            {
+              "lat": 30.595,
+              "lon": 114.2975,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "武汉黄鹤楼俯瞰.jpg",
+            "wikibase-shortdesc": "Capital of Hubei, China",
+            "wikibase_item": "Q11746"
+          }
+        },
+        "44275267": {
+          "pageid": 44275267,
+          "ns": 0,
+          "title": "Bengaluru",
+          "coordinates": [
+            {
+              "lat": 12.97888889,
+              "lon": 77.59166667,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "View_from_Visvesvaraya_Industrial_and_Technological_Museum_(2025)_02.jpg",
+            "wikibase-badge-Q17437798": "",
+            "wikibase-shortdesc": "Capital of Karnataka, India",
+            "wikibase_item": "Q1355"
+          }
+        }
+      }
+    },
+    "limits": {
+      "coordinates": 500
+    }
+  }
+}

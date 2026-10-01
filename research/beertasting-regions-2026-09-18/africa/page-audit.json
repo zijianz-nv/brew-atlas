@@ -1,0 +1,202 @@
+{
+  "method": "direct_public_html",
+  "batch": "africa_public_html_20260918",
+  "pages": [
+    {
+      "url": "https://www.beertasting.com/en/brewery/okavango-craft-brewery/beers",
+      "fetched_at": "2026-09-18T10:38:48.270348+00:00",
+      "http_status": 200,
+      "source_bytes": 130917,
+      "source_sha256": "047836377b8067bd7ffe482e125d3d08433e4234f2fbffd9f62f63abe3186395",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 6
+      },
+      "raw_html_path": "pages/e65d10235ed1e17f2e6dedd9.html.gz"
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/kilimanjaro-beer-works/beers",
+      "fetched_at": "2026-09-18T10:38:57.131724+00:00",
+      "http_status": 200,
+      "source_bytes": 154927,
+      "source_sha256": "bfe8d37579d8d56acedf33b92cdc9d92b453506e6641138ecf3bd5cd16e93a7f",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 6
+      },
+      "raw_html_path": "pages/68afbdc45375527318e1a297.html.gz"
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/namib-dunes-craft-brewery/beers",
+      "fetched_at": "2026-09-18T10:39:42.221387+00:00",
+      "http_status": 200,
+      "source_bytes": 139013,
+      "source_sha256": "c58021f3621b369b3ebcfdf18ea6e33bd24784c85a8db23ef3e67b5f027f9b0e",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 6
+      },
+      "raw_html_path": "pages/ce012df62dc0bd8870e96217.html.gz"
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/banange-brewing/beers",
+      "fetched_at": "2026-09-18T10:39:46.503953+00:00",
+      "http_status": 200,
+      "source_bytes": 118392,
+      "source_sha256": "bea88d0b60c52fc8809d4acda630c4883f37292ae4844cd109f853ba639a84c6",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 4
+      },
+      "raw_html_path": "pages/a11bfa55e02e8325eaac20c4.html.gz"
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/tale-african-beer-craft/beers",
+      "fetched_at": "2026-09-18T10:39:50.930897+00:00",
+      "http_status": 200,
+      "source_bytes": 161656,
+      "source_sha256": "d991e9e3c6d0029a7e08334f214884b45d720c4f358e10d1bec2bd62fb8586e5",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 6
+      },
+      "raw_html_path": "pages/6cc8e01e147b10c4fdc3fab5.html.gz"
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/brasseries-du-maroc/beers",
+      "fetched_at": "2026-09-18T10:39:55.941489+00:00",
+      "http_status": 200,
+      "source_bytes": 218636,
+      "source_sha256": "5006e5d391040a22d0426b281f24868e064a131cb9cfd4b8e748ecf74831bc48",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 13
+      },
+      "raw_html_path": "pages/7ee1353729597cb9a69b6009.html.gz"
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/darling-brew/beers",
+      "fetched_at": "2026-09-18T10:41:08.156678+00:00",
+      "http_status": 200,
+      "source_bytes": 190408,
+      "source_sha256": "27282629242b1bb79a4a47ea4a71fbb4531b8103ed81611d2017d763fc05e18e",
+      "meta": {
+        "current_page": 1,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 20
+      },
+      "raw_html_path": "pages/87e05789fde5724adcb6a1c9.html.gz"
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/darling-brew/beers?page=2",
+      "fetched_at": "2026-09-18T10:41:12.521804+00:00",
+      "http_status": 200,
+      "source_bytes": 142327,
+      "source_sha256": "1c8402d599023fcad1f17415670bcc8f4aaa4af5b60b16845c53b812b3cc66be",
+      "meta": {
+        "current_page": 2,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 20
+      },
+      "raw_html_path": "pages/030df4c3f5c55f8406b98117.html.gz"
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/devils-peak-brewing-company/beers",
+      "fetched_at": "2026-09-18T10:41:17.097780+00:00",
+      "http_status": 200,
+      "source_bytes": 206768,
+      "source_sha256": "34ea4c40718ab8961fe6b6567d06a5f7acc2011c921dee1f23160b2eb5179d63",
+      "meta": {
+        "current_page": 1,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 16
+      },
+      "raw_html_path": "pages/4933edc48fd1345b4bb78d72.html.gz"
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/devils-peak-brewing-company/beers?page=2",
+      "fetched_at": "2026-09-18T10:41:21.500223+00:00",
+      "http_status": 200,
+      "source_bytes": 135459,
+      "source_sha256": "f2f499428a82475e314e9019a63a4fcc7db6439ffc271d32cdbea796831a2b4e",
+      "meta": {
+        "current_page": 2,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 16
+      },
+      "raw_html_path": "pages/a26d81b45af45d58118fb103.html.gz"
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/mitchells/beers",
+      "fetched_at": "2026-09-18T10:41:25.937296+00:00",
+      "http_status": 200,
+      "source_bytes": 147958,
+      "source_sha256": "e3f8b65e60f88c059d0534c6fb2da4a0b7bac0bcb5ee1de525129422eca464e8",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 8
+      },
+      "raw_html_path": "pages/927fade28daf8233bea29367.html.gz"
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/swakopmund-brewing-company/beers",
+      "fetched_at": "2026-09-18T10:41:30.273663+00:00",
+      "http_status": 200,
+      "source_bytes": 135189,
+      "source_sha256": "54378125e684ceb2a1783d19ae2610b290ba4a36ec6a6c90a7ce71cadc1534d2",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 7
+      },
+      "raw_html_path": "pages/e8d6f1b2b8642994f37cedb9.html.gz"
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/cape-brewing-company-cbc/beers",
+      "fetched_at": "2026-09-18T10:41:55.851863+00:00",
+      "http_status": 200,
+      "source_bytes": 198674,
+      "source_sha256": "fc8f5f7c7806d1280e489d3a5ad3b2dda1713c97f5f1e331c690ccb848ab8e16",
+      "meta": {
+        "current_page": 1,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 25
+      },
+      "raw_html_path": "pages/e856760b73a98dda7329d6be.html.gz"
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/cape-brewing-company-cbc/beers?page=2",
+      "fetched_at": "2026-09-18T10:42:00.216937+00:00",
+      "http_status": 200,
+      "source_bytes": 173079,
+      "source_sha256": "25f18acb7d187c39484ac40958337b69e849fb2be1e34f27fbd79b4f29958b79",
+      "meta": {
+        "current_page": 2,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 25
+      },
+      "raw_html_path": "pages/6061c2e936de1624f016cbfe.html.gz"
+    }
+  ]
+}

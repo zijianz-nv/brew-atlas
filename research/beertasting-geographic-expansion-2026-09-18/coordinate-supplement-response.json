@@ -1,0 +1,131 @@
+{
+  "url": "https://en.wikipedia.org/w/api.php?action=query&prop=coordinates%7Cpageprops&coprimary=primary&colimit=max&format=json&redirects=1&titles=New+Delhi%7CKathu+district%7CKathu%2C+Thailand%7CBarbeque+Downs%7CMidrand%7CKikuyu%2C+Kenya%7CMoka%7CRiverside+Point%7CZamrudpur",
+  "response": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "-1": {
+          "ns": 0,
+          "title": "Kathu, Thailand",
+          "missing": ""
+        },
+        "-2": {
+          "ns": 0,
+          "title": "Zamrudpur",
+          "missing": ""
+        },
+        "2188967": {
+          "pageid": 2188967,
+          "ns": 0,
+          "title": "Barbeque Downs",
+          "coordinates": [
+            {
+              "lat": -26.00305556,
+              "lon": 28.07527778,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "wikibase-shortdesc": "Place in Gauteng, South Africa",
+            "wikibase_item": "Q4859566"
+          }
+        },
+        "3666665": {
+          "pageid": 3666665,
+          "ns": 0,
+          "title": "Kathu district",
+          "coordinates": [
+            {
+              "lat": 7.90888889,
+              "lon": 98.33333333,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Kamala_Beach_-_panoramio.jpg",
+            "wikibase-shortdesc": "District in Phuket, Thailand",
+            "wikibase_item": "Q182516"
+          }
+        },
+        "7409509": {
+          "pageid": 7409509,
+          "ns": 0,
+          "title": "Kikuyu, Kenya",
+          "pageprops": {
+            "page_image_free": "Kikuyu_town.jpg",
+            "wikibase-shortdesc": "Town Council in Kiambu County, Kenya",
+            "wikibase_item": "Q1026079"
+          }
+        },
+        "599827": {
+          "pageid": 599827,
+          "ns": 0,
+          "title": "Midrand",
+          "coordinates": [
+            {
+              "lat": -25.99916667,
+              "lon": 28.12638889,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Johhanesburg_Water-Midrand_Tower-002.jpg",
+            "wikibase-shortdesc": "Town in Gauteng, South Africa",
+            "wikibase_item": "Q639518"
+          }
+        },
+        "333161": {
+          "pageid": 333161,
+          "ns": 0,
+          "title": "Moka",
+          "coordinates": [
+            {
+              "lat": -20.219,
+              "lon": 57.496,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "wikibase-shortdesc": "Villages in Moka District, Mauritius",
+            "wikibase_item": "Q282908"
+          }
+        },
+        "51585": {
+          "pageid": 51585,
+          "ns": 0,
+          "title": "New Delhi",
+          "coordinates": [
+            {
+              "lat": 28.6139,
+              "lon": 77.2089,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "2",
+            "page_image_free": "Forecourt,_Rashtrapati_Bhavan_-_1.jpg",
+            "wikibase-shortdesc": "Capital city of India",
+            "wikibase_item": "Q987"
+          }
+        },
+        "81749753": {
+          "pageid": 81749753,
+          "ns": 0,
+          "title": "Riverside Point",
+          "pageprops": {
+            "page_image_free": "Riverside_Point_-_panoramio.jpg",
+            "wikibase_item": "Q114157623"
+          }
+        }
+      }
+    },
+    "limits": {
+      "coordinates": 500
+    }
+  }
+}

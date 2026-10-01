@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-01T14:11:45.955794+00:00",
+  "method": "local_existing_kkcp_exact_award_id_field_supplement",
+  "mergePolicy": "fill_missing_only; reject unknown ID or unexpected name/brewery; keep existing nonempty values; never alter identity, geography, images, ratings or awards",
+  "sourceSnapshotDate": "2026-09-17",
+  "upstreamCollectedAt": null,
+  "sourceSnapshotSha256": "d1dddd0a091babaf88549ff0e44193e5115fa5f4f7f95284f19553c10db49c50",
+  "comparedCatalogSha256": "f7a640649d6e33c0cdabb48574feb42953ee7aa6efb32a0448f05ad7f8d0d3a8",
+  "summary": {
+    "records": 3,
+    "abvValues": 3,
+    "ibuValues": 3,
+    "historicalDescriptionExcerpts": 2,
+    "shortChineseSummaries": 2,
+    "locationImports": 0,
+    "imageImports": 0,
+    "sourceAssociationConflicts": 2,
+    "conflictsWithExistingTargetFields": 0
+  },
+  "records": [
+    {
+      "untappdId": "1920224",
+      "expectedName": "Pilsgnar",
+      "expectedBrewery": "Melvin Brewing",
+      "fields": {
+        "abv": 4.8,
+        "ibu": 45.0,
+        "description": "这是一款合作酿造的比尔森啤酒。",
+        "originalDescription": "This newest collaboration in our lineup will have you sessioning brews like you session laps off the tram…the Pils-gnar is inspired by, and built for,… Read More"
+      },
+      "sourceUrls": [
+        "https://untappd.com/b/melvin-brewing-pils-gnar/1920224",
+        "https://raw.githubusercontent.com/kkcp-dsi/CraftBeerRatingsAnalysis/main/data/all_beers.csv"
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/kkcp-dsi/CraftBeerRatingsAnalysis/main/data/all_beers.csv",
+          "role": "historical_snapshot",
+          "retrievedAt": "2026-09-17",
+          "sourceFile": ".runtime/research-2026-09-17-open/kkcp-beers.csv",
+          "sha256": "d1dddd0a091babaf88549ff0e44193e5115fa5f4f7f95284f19553c10db49c50",
+          "upstreamCollectedAt": null,
+          "upstreamCollectedAtStatus": "unknown",
+          "rows": [
+            {
+              "recordOrdinal": 673,
+              "physicalLineStart": 694,
+              "physicalLineEnd": 694,
+              "rawRowSha256": "69a5c7440b3ab5e32cebc8f69f3b336e5337fe92aaeb082a69aa31bb3c69be67",
+              "beerUrlOriginal": "https://untappd.com//b/melvin-brewing-pils-gnar/1920224",
+              "sourceBreweryKey": "Melvin_Brewing",
+              "sourceState": "Missouri",
+              "sourceBeerAddedRaw": "01/23/17",
+              "sourceBeerAddedMeaning": "来源 beer_added 原值，不等于采集日期或首酿日期",
+              "abvRaw": "4.8% ABV",
+              "ibuRaw": "45 IBU"
+            },
+            {
+              "recordOrdinal": 23426,
+              "physicalLineStart": 23748,
+              "physicalLineEnd": 23748,
+              "rawRowSha256": "0a0b7354c0ba53646e5bc1f5e0de982c19c5cfe3eb275d487aa0e27ab2502424",
+              "beerUrlOriginal": "https://untappd.com//b/melvin-brewing-pils-gnar/1920224",
+              "sourceBreweryKey": "Melvin_Brewing_Bellingham",
+              "sourceState": "Washington",
+              "sourceBeerAddedRaw": "01/23/17",
+              "sourceBeerAddedMeaning": "来源 beer_added 原值，不等于采集日期或首酿日期",
+              "abvRaw": "4.8% ABV",
+              "ibuRaw": "45 IBU"
+            },
+            {
+              "recordOrdinal": 74544,
+              "physicalLineStart": 75472,
+              "physicalLineEnd": 75472,
+              "rawRowSha256": "1b5be79acc58d23e778c3a33ecdc02744ce8d3e363a13756cbfea514740c5f48",
+              "beerUrlOriginal": "https://untappd.com//b/melvin-brewing-pils-gnar/1920224",
+              "sourceBreweryKey": "Melvin_Brewing",
+              "sourceState": "Wyoming",
+              "sourceBeerAddedRaw": "01/23/17",
+              "sourceBeerAddedMeaning": "来源 beer_added 原值，不等于采集日期或首酿日期",
+              "abvRaw": "4.8% ABV",
+              "ibuRaw": "45 IBU"
+            }
+          ]
+        },
+        {
+          "url": "https://untappd.com/b/melvin-brewing-pils-gnar/1920224",
+          "role": "source_beer_identity_url",
+          "retrievedAt": null,
+          "accessMethod": "URL present in local CSV; not fetched by this preparation task"
+        }
+      ],
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "method": "exact_untappd_id_from_csv_beer_url_and_exact_beer_name",
+        "expectedUntappdId": "1920224",
+        "sourceBeerUrl": "https://untappd.com/b/melvin-brewing-pils-gnar/1920224",
+        "sources": [
+          "https://untappd.com/b/melvin-brewing-pils-gnar/1920224",
+          "https://awards.untappd.com/beers/1920224/"
+        ],
+        "basis": "CSV beer_url 尾部数字与当前获奖酒 untappdId 精确相等，酒名精确相等。厂表关联不作为字段或地理证据。"
+      },
+      "descriptionQuality": {
+        "status": "historical_excerpt_truncated",
+        "fullOriginalAvailable": false,
+        "summaryBasis": "仅概述现存节录中明确的信息；未补写被截断部分或根据风格推测风味。"
+      },
+      "fieldConflicts": [
+        {
+          "field": "source_brewery_location_duplicates",
+          "sourceValues": [
+            {
+              "brewery": "Melvin_Brewing",
+              "state": "Missouri"
+            },
+            {
+              "brewery": "Melvin_Brewing_Bellingham",
+              "state": "Washington"
+            },
+            {
+              "brewery": "Melvin_Brewing",
+              "state": "Wyoming"
+            }
+          ],
+          "resolution": "同一 beer ID 重复关联 Missouri、Washington、Wyoming 三条厂记录；ABV、IBU、描述一致，只导入酒款字段，不挑选厂址。"
+        }
+      ],
+      "excludedFields": [
+        "name",
+        "brewery",
+        "breweryId",
+        "city",
+        "country",
+        "lat",
+        "lng",
+        "location",
+        "image",
+        "rating",
+        "ratingsCount",
+        "awards",
+        "firstBrewed"
+      ],
+      "note": "来自 2026-09-17 已取得的 KKCP 历史快照；上游采集日期未知，不能当作 2026-10-01 最新酒款参数。只填空，不覆盖已核官网资料、奖项或评分；不提供图片或坐标。英文介绍为被截断的原始节录，中文仅忠实概述可见部分。"
+    },
+    {
+      "untappdId": "2988744",
+      "expectedName": "Petro Club Pilsner",
+      "expectedBrewery": "Gruner Brothers Brewing",
+      "fields": {
+        "abv": 5.2,
+        "ibu": 29.0,
+        "description": "这款清爽拉格以酒厂建筑的历史与渊源，以及怀俄明州勤劳人们的精神为主题。",
+        "originalDescription": "This crisp lager celebrates the history and origin of our brewery’s building and the magical energy of the hardworking people of Wyoming. For those that… Read More"
+      },
+      "sourceUrls": [
+        "https://untappd.com/b/gruner-brothers-brewing-petro-club-pilsner/2988744",
+        "https://raw.githubusercontent.com/kkcp-dsi/CraftBeerRatingsAnalysis/main/data/all_beers.csv"
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/kkcp-dsi/CraftBeerRatingsAnalysis/main/data/all_beers.csv",
+          "role": "historical_snapshot",
+          "retrievedAt": "2026-09-17",
+          "sourceFile": ".runtime/research-2026-09-17-open/kkcp-beers.csv",
+          "sha256": "d1dddd0a091babaf88549ff0e44193e5115fa5f4f7f95284f19553c10db49c50",
+          "upstreamCollectedAt": null,
+          "upstreamCollectedAtStatus": "unknown",
+          "rows": [
+            {
+              "recordOrdinal": 74460,
+              "physicalLineStart": 75385,
+              "physicalLineEnd": 75385,
+              "rawRowSha256": "0a17844ca5f80f1588a9552c6665268203b07403b0f92c7769edb044e65f61ce",
+              "beerUrlOriginal": "https://untappd.com//b/gruner-brothers-brewing-petro-club-pilsner/2988744",
+              "sourceBreweryKey": "Gruner_Brothers_Brewing",
+              "sourceState": "Wyoming",
+              "sourceBeerAddedRaw": "12/14/18",
+              "sourceBeerAddedMeaning": "来源 beer_added 原值，不等于采集日期或首酿日期",
+              "abvRaw": "5.2% ABV",
+              "ibuRaw": "29 IBU"
+            }
+          ]
+        },
+        {
+          "url": "https://untappd.com/b/gruner-brothers-brewing-petro-club-pilsner/2988744",
+          "role": "source_beer_identity_url",
+          "retrievedAt": null,
+          "accessMethod": "URL present in local CSV; not fetched by this preparation task"
+        }
+      ],
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "method": "exact_untappd_id_from_csv_beer_url_and_exact_beer_name",
+        "expectedUntappdId": "2988744",
+        "sourceBeerUrl": "https://untappd.com/b/gruner-brothers-brewing-petro-club-pilsner/2988744",
+        "sources": [
+          "https://untappd.com/b/gruner-brothers-brewing-petro-club-pilsner/2988744",
+          "https://awards.untappd.com/beers/2988744/"
+        ],
+        "basis": "CSV beer_url 尾部数字与当前获奖酒 untappdId 精确相等，酒名精确相等。厂表关联不作为字段或地理证据。"
+      },
+      "descriptionQuality": {
+        "status": "historical_excerpt_truncated",
+        "fullOriginalAvailable": false,
+        "summaryBasis": "仅概述现存节录中明确的信息；未补写被截断部分或根据风格推测风味。"
+      },
+      "fieldConflicts": [],
+      "excludedFields": [
+        "name",
+        "brewery",
+        "breweryId",
+        "city",
+        "country",
+        "lat",
+        "lng",
+        "location",
+        "image",
+        "rating",
+        "ratingsCount",
+        "awards",
+        "firstBrewed"
+      ],
+      "note": "来自 2026-09-17 已取得的 KKCP 历史快照；上游采集日期未知，不能当作 2026-10-01 最新酒款参数。只填空，不覆盖已核官网资料、奖项或评分；不提供图片或坐标。英文介绍为被截断的原始节录，中文仅忠实概述可见部分。"
+    },
+    {
+      "untappdId": "1762989",
+      "expectedName": "Typhoon Detector",
+      "expectedBrewery": "Baylands Brewery",
+      "fields": {
+        "abv": 6.0,
+        "ibu": 45.0
+      },
+      "sourceUrls": [
+        "https://untappd.com/b/baylands-brewery-typhoon-detector/1762989",
+        "https://raw.githubusercontent.com/kkcp-dsi/CraftBeerRatingsAnalysis/main/data/all_beers.csv"
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/kkcp-dsi/CraftBeerRatingsAnalysis/main/data/all_beers.csv",
+          "role": "historical_snapshot",
+          "retrievedAt": "2026-09-17",
+          "sourceFile": ".runtime/research-2026-09-17-open/kkcp-beers.csv",
+          "sha256": "d1dddd0a091babaf88549ff0e44193e5115fa5f4f7f95284f19553c10db49c50",
+          "upstreamCollectedAt": null,
+          "upstreamCollectedAtStatus": "unknown",
+          "rows": [
+            {
+              "recordOrdinal": 120909,
+              "physicalLineStart": 122424,
+              "physicalLineEnd": 122424,
+              "rawRowSha256": "575e45c744d45a8b427acb452c7532f036f44ac456a4a01b2ce1019db6b6ab54",
+              "beerUrlOriginal": "https://untappd.com//b/baylands-brewery-typhoon-detector/1762989",
+              "sourceBreweryKey": "Taplands_Brewery",
+              "sourceState": "California",
+              "sourceBeerAddedRaw": "10/06/16",
+              "sourceBeerAddedMeaning": "来源 beer_added 原值，不等于采集日期或首酿日期",
+              "abvRaw": "6% ABV",
+              "ibuRaw": "45 IBU"
+            }
+          ]
+        },
+        {
+          "url": "https://untappd.com/b/baylands-brewery-typhoon-detector/1762989",
+          "role": "source_beer_identity_url",
+          "retrievedAt": null,
+          "accessMethod": "URL present in local CSV; not fetched by this preparation task"
+        }
+      ],
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "method": "exact_untappd_id_from_csv_beer_url_and_exact_beer_name",
+        "expectedUntappdId": "1762989",
+        "sourceBeerUrl": "https://untappd.com/b/baylands-brewery-typhoon-detector/1762989",
+        "sources": [
+          "https://untappd.com/b/baylands-brewery-typhoon-detector/1762989",
+          "https://awards.untappd.com/beers/1762989/"
+        ],
+        "basis": "CSV beer_url 尾部数字与当前获奖酒 untappdId 精确相等，酒名精确相等。厂表关联不作为字段或地理证据。"
+      },
+      "descriptionQuality": {
+        "status": "omitted_style_label_only",
+        "sourceValue": "American Red Ale",
+        "reason": "原值只有 American Red Ale 风格名称，不当作酒款介绍。"
+      },
+      "fieldConflicts": [
+        {
+          "field": "source_brewery_and_geography",
+          "sourceValues": [
+            {
+              "brewery": "Taplands_Brewery",
+              "state": "California"
+            }
+          ],
+          "expectedBrewery": "Baylands Brewery",
+          "expectedCountryCode": "NZ",
+          "resolution": "beer_url 的精确 ID、Baylands slug 及酒名支持酒款身份；Taplands_Brewery/California 为错误厂表关联。仅保留该酒款的数值字段，不导入酒厂或地理信息。"
+        }
+      ],
+      "excludedFields": [
+        "name",
+        "brewery",
+        "breweryId",
+        "city",
+        "country",
+        "lat",
+        "lng",
+        "location",
+        "image",
+        "rating",
+        "ratingsCount",
+        "awards",
+        "firstBrewed",
+        "description",
+        "originalDescription"
+      ],
+      "note": "来自 2026-09-17 已取得的 KKCP 历史快照；上游采集日期未知，不能当作 2026-10-01 最新酒款参数。只填空，不覆盖已核官网资料、奖项或评分；不提供图片或坐标。源酒厂关联错误，风格式短语不充作介绍。"
+    }
+  ]
+}

@@ -1,0 +1,488 @@
+{
+  "method": "direct_public_html",
+  "batch": "geographic_public_html_20260918",
+  "pages": [
+    {
+      "url": "https://www.beertasting.com/en/brewery/magpie-brewing/beers",
+      "fetched_at": "2026-09-18T10:21:27.403009+00:00",
+      "http_status": 200,
+      "source_bytes": 186322,
+      "source_sha256": "20c2de4b35f537bc177046616a2cb953406dfdd640ff72f55583a68b10e0504a",
+      "meta": {
+        "current_page": 1,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 16
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/brewerkz/beers",
+      "fetched_at": "2026-09-18T10:21:42.397210+00:00",
+      "http_status": 200,
+      "source_bytes": 201166,
+      "source_sha256": "5888a35c917f2dae4ed83646239adf8dcc8d7c82a840d19dacdb93faa69b4fe5",
+      "meta": {
+        "current_page": 1,
+        "last_page": 3,
+        "per_page": 15,
+        "total": 41
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/brewlander/beers",
+      "fetched_at": "2026-09-18T10:21:37.418860+00:00",
+      "http_status": 200,
+      "source_bytes": 188002,
+      "source_sha256": "1101e6a08e8eae3bc0ca1e434514ba302eb549dbe9d384ed89557cae75af173d",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 15
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/cerveceria-kross/beers",
+      "fetched_at": "2026-09-18T10:21:07.363648+00:00",
+      "http_status": 200,
+      "source_bytes": 195647,
+      "source_sha256": "2f503d890c5275760a498d48784bbbeac39692031d915cb7d812ba817224976e",
+      "meta": {
+        "current_page": 1,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 25
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/flying-dodo/beers",
+      "fetched_at": "2026-09-18T10:21:17.247117+00:00",
+      "http_status": 200,
+      "source_bytes": 187316,
+      "source_sha256": "ce4b3e171b76dd51f03b71daa4e5f5a3d3439a47a109917d393780e448da69fa",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 15
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/einstok/beers",
+      "fetched_at": "2026-09-18T10:21:12.735835+00:00",
+      "http_status": 200,
+      "source_bytes": 233493,
+      "source_sha256": "cfa65aec828c4acc6e623d584f49b25cd5050621afd0d534ee89d13896a46957",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 14
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/fremont-brewing-company/beers",
+      "fetched_at": "2026-09-18T10:20:57.776509+00:00",
+      "http_status": 200,
+      "source_bytes": 211612,
+      "source_sha256": "a50f5c2c9de5b89f9fd8d5563ac1858e57c653c01fcf231148c11aaeaa4d6cac",
+      "meta": {
+        "current_page": 1,
+        "last_page": 8,
+        "per_page": 15,
+        "total": 118
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/magpie-brewing/beers?page=2",
+      "fetched_at": "2026-09-18T10:22:02.019642+00:00",
+      "http_status": 200,
+      "source_bytes": 115562,
+      "source_sha256": "d1e5c41d5a28ce5a925bb2eee7a9cc0c324e82653cd56695bf1428759cb0820f",
+      "meta": {
+        "current_page": 2,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 16
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/brewerkz/beers?page=2",
+      "fetched_at": "2026-09-18T10:22:07.303521+00:00",
+      "http_status": 200,
+      "source_bytes": 198509,
+      "source_sha256": "789822d1c60ed70c1c3949c38cb01595d4c2649220651a40cb36ece8ab370298",
+      "meta": {
+        "current_page": 2,
+        "last_page": 3,
+        "per_page": 15,
+        "total": 41
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/cerveceria-wendlandt/beers",
+      "fetched_at": "2026-09-18T10:21:02.315887+00:00",
+      "http_status": 200,
+      "source_bytes": 149845,
+      "source_sha256": "9f6eaafdac5ac59ee6928dfd3a4287d0d685fd7c16c08b13df6f20872cb4140c",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 8
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/cerveceria-kross/beers?page=2",
+      "fetched_at": "2026-09-18T10:21:52.267822+00:00",
+      "http_status": 200,
+      "source_bytes": 171869,
+      "source_sha256": "80f935bdf3a23c5a15b2165a7dbdd2e0da6453de7383f5867883aa81cfb00a17",
+      "meta": {
+        "current_page": 2,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 25
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/pasteur-street-brewing-company/beers",
+      "fetched_at": "2026-09-18T10:21:22.583462+00:00",
+      "http_status": 200,
+      "source_bytes": 195177,
+      "source_sha256": "914a0ee6abf24e8a623d70eb58ce5f27de856e2418346c4cbfc87db5609fd9ac",
+      "meta": {
+        "current_page": 1,
+        "last_page": 3,
+        "per_page": 15,
+        "total": 31
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/fremont-brewing-company/beers?page=2",
+      "fetched_at": "2026-09-18T10:21:47.527794+00:00",
+      "http_status": 200,
+      "source_bytes": 215613,
+      "source_sha256": "0abaab252d48bb33ad4e62e0b9115eacf2fa951f9f821a45089889b2c87ccfe1",
+      "meta": {
+        "current_page": 2,
+        "last_page": 8,
+        "per_page": 15,
+        "total": 118
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/pasteur-street-brewing-company/beers?page=2",
+      "fetched_at": "2026-09-18T10:21:57.303940+00:00",
+      "http_status": 200,
+      "source_bytes": 194225,
+      "source_sha256": "27958acaf8972bc6abf386c68b3bcac3cfa0e4040f70a0624e8229e31691a34d",
+      "meta": {
+        "current_page": 2,
+        "last_page": 3,
+        "per_page": 15,
+        "total": 31
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/bira-91/beers",
+      "fetched_at": "2026-09-18T10:21:32.335156+00:00",
+      "http_status": 200,
+      "source_bytes": 186324,
+      "source_sha256": "30973dc3b10de71278daa40914c00f0121997871b06add4b11234ab5a3962ae9",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 11
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/bateleur-brewery/beers",
+      "fetched_at": "2026-09-18T10:22:49.508176+00:00",
+      "http_status": 200,
+      "source_bytes": 155100,
+      "source_sha256": "963edb62cd014d8f83e80d2d8464989bdd816b1a56dba85f47f209331b86047d",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 10
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/taihu-brewing/beers?page=2",
+      "fetched_at": "2026-09-18T10:23:28.732266+00:00",
+      "http_status": 200,
+      "source_bytes": 194926,
+      "source_sha256": "4a113000042bcaa1c7e1db1bf9d2957f8ace6dc048e7fb6a04c665439562382c",
+      "meta": {
+        "current_page": 2,
+        "last_page": 3,
+        "per_page": 15,
+        "total": 37
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/driftwood-brewery/beers?page=2",
+      "fetched_at": "2026-09-18T10:23:53.532710+00:00",
+      "http_status": 200,
+      "source_bytes": 129135,
+      "source_sha256": "698559da88b64082c6518ddb3be704b398fccb76a3cdeebeb5bc5b86c91c3064",
+      "meta": {
+        "current_page": 2,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 18
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/lervig/beers?page=2",
+      "fetched_at": "2026-09-18T10:23:24.330649+00:00",
+      "http_status": 200,
+      "source_bytes": 262272,
+      "source_sha256": "bf2cfd05600b3605ec47fb61755a6a981d8990443de32238af3ea48446cb9d45",
+      "meta": {
+        "current_page": 2,
+        "last_page": 15,
+        "per_page": 15,
+        "total": 219
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/bright-tank-brewing-co/beers?page=2",
+      "fetched_at": "2026-09-18T10:23:38.684978+00:00",
+      "http_status": 200,
+      "source_bytes": 155879,
+      "source_sha256": "7b0342833213ffad97e36117bc12adebc22c6ba7f10702da452eb18cefe5789d",
+      "meta": {
+        "current_page": 2,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 24
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/taihu-brewing/beers",
+      "fetched_at": "2026-09-18T10:22:33.670250+00:00",
+      "http_status": 200,
+      "source_bytes": 190435,
+      "source_sha256": "66607bb212f467bdc08ed5c1543f9d97ad8ad7235420b0a93e253a9fcb5ed1f4",
+      "meta": {
+        "current_page": 1,
+        "last_page": 3,
+        "per_page": 15,
+        "total": 37
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/ocean-lab/beers?page=2",
+      "fetched_at": "2026-09-18T10:23:43.577290+00:00",
+      "http_status": 200,
+      "source_bytes": 121986,
+      "source_sha256": "08714e133ef7d09264dd1712ed82b0c39d3beb44ef7b7d762d29f2bd5dc87bec",
+      "meta": {
+        "current_page": 2,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 17
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/bright-tank-brewing-co/beers",
+      "fetched_at": "2026-09-18T10:22:43.554243+00:00",
+      "http_status": 200,
+      "source_bytes": 188738,
+      "source_sha256": "56d04e36665bf67e2d78dd6e28d72bb64a3bacc99522d6c3df76b1ddfefcbcf7",
+      "meta": {
+        "current_page": 1,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 24
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/septem-microbrewery/beers",
+      "fetched_at": "2026-09-18T10:22:39.134700+00:00",
+      "http_status": 200,
+      "source_bytes": 237877,
+      "source_sha256": "992b6b1e2b9520527992a811f0470255fa23aae4f95ad7163497adafe52b7094",
+      "meta": {
+        "current_page": 1,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 22
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/septem-microbrewery/beers?page=2",
+      "fetched_at": "2026-09-18T10:23:33.821899+00:00",
+      "http_status": 200,
+      "source_bytes": 195753,
+      "source_sha256": "2f1e6e3f30ec3fc2840627787c6c6e713669f86e9453860047b7e00f44fe24ae",
+      "meta": {
+        "current_page": 2,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 22
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/driftwood-brewery/beers",
+      "fetched_at": "2026-09-18T10:23:13.874117+00:00",
+      "http_status": 200,
+      "source_bytes": 190935,
+      "source_sha256": "151b4ec92d78b7e4220f192470a371cfde87f8c4aed7741d48bf66a8ceb3b68c",
+      "meta": {
+        "current_page": 1,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 18
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/full-moon-brewwork/beers?page=2",
+      "fetched_at": "2026-09-18T10:23:48.838486+00:00",
+      "http_status": 200,
+      "source_bytes": 186209,
+      "source_sha256": "480c1a9ac62a88d0844571fefb6cb6165c17b0621f4c5af99b6ddc275bf5f7e1",
+      "meta": {
+        "current_page": 2,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 23
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/full-moon-brewwork/beers",
+      "fetched_at": "2026-09-18T10:22:59.364911+00:00",
+      "http_status": 200,
+      "source_bytes": 220424,
+      "source_sha256": "86ccae4850b7d7a2b5148f6732252436c84306471b6843b6f16e4541e3ec4ad8",
+      "meta": {
+        "current_page": 1,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 23
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/ocean-lab/beers",
+      "fetched_at": "2026-09-18T10:22:53.910921+00:00",
+      "http_status": 200,
+      "source_bytes": 188284,
+      "source_sha256": "e19a7d4894ec503c405971c17809c3724d67b36e1a6ab80d2eda5774e49e808e",
+      "meta": {
+        "current_page": 1,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 17
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/lervig/beers",
+      "fetched_at": "2026-09-18T10:22:29.090497+00:00",
+      "http_status": 200,
+      "source_bytes": 258125,
+      "source_sha256": "6e0c5ba52899b52911d70be734f1a00dfef04bfe46bf66cd30d53c97cdcd43d6",
+      "meta": {
+        "current_page": 1,
+        "last_page": 15,
+        "per_page": 15,
+        "total": 219
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/dao-brewing/beers",
+      "fetched_at": "2026-09-18T10:23:39.211945+00:00",
+      "http_status": 200,
+      "source_bytes": 142060,
+      "source_sha256": "0b1f092e5e45852726ba38e58cd6079abe361052e3537ee73956b6a134029809",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 7
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/brewhogs/beers",
+      "fetched_at": "2026-09-18T10:23:49.627303+00:00",
+      "http_status": 200,
+      "source_bytes": 132498,
+      "source_sha256": "1abf4e2de457784f9b808d6844678ff5df8f4f1e6d19074ea8e8357c541fe5ca",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 6
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/omnipollo/beers",
+      "fetched_at": "2026-09-18T10:23:29.957775+00:00",
+      "http_status": 200,
+      "source_bytes": 243983,
+      "source_sha256": "c52cacbc0f08ad71a9c18203e7fea5e4c1868a0a4ea9ad263b4a47ad9bed9ce0",
+      "meta": {
+        "current_page": 1,
+        "last_page": 29,
+        "per_page": 15,
+        "total": 434
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/omnipollo/beers?page=2",
+      "fetched_at": "2026-09-18T10:23:59.983552+00:00",
+      "http_status": 200,
+      "source_bytes": 246921,
+      "source_sha256": "a752e5a4a037c264d78773fcb78680ad83b8654ca949110904a42f4aed111f7e",
+      "meta": {
+        "current_page": 2,
+        "last_page": 29,
+        "per_page": 15,
+        "total": 434
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/254-brewing/beers",
+      "fetched_at": "2026-09-18T10:23:53.979648+00:00",
+      "http_status": 200,
+      "source_bytes": 132728,
+      "source_sha256": "fd224315d5aa196a06bc18cab01eafdf854ca561c2085b90a9566a90dbfa47d6",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 6
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/cerveceria-blest/beers",
+      "fetched_at": "2026-09-18T10:23:33.969101+00:00",
+      "http_status": 200,
+      "source_bytes": 150360,
+      "source_sha256": "708a6e377c5cc253579c40174d335dc1c776ba215dbd6add6d03e9a35f1f3aec",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 8
+      }
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/great-leap-brewing/beers",
+      "fetched_at": "2026-09-18T10:23:43.953834+00:00",
+      "http_status": 200,
+      "source_bytes": 139841,
+      "source_sha256": "cd7326acbd4390dde0a44b22cb7aaaf5e2e50ffe9136a1f1b74448e77fc39ab2",
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 7
+      }
+    }
+  ],
+  "rejected": []
+}

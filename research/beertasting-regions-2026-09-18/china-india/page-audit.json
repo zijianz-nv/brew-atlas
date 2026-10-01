@@ -1,0 +1,261 @@
+{
+  "method": "direct_public_html_not_ids",
+  "batch": "regions-20260918-china-india",
+  "updated_at": "2026-09-18T10:43:22.564400+00:00",
+  "delaySeconds": 5,
+  "concurrency": 1,
+  "blocked": false,
+  "pages": [
+    {
+      "url": "https://www.beertasting.com/en/brewery/boxing-cat-brewery/beers",
+      "startedAt": "2026-09-18T10:43:22.473013+00:00",
+      "slug": "boxing-cat-brewery",
+      "page": 1,
+      "status": "cached",
+      "rows": 15,
+      "new": 15,
+      "total": 24,
+      "source_sha256": "d9ef10091d9fab5129d12d02f0ae5bed9f51087b586a807015200e7b3a36115a",
+      "fetched_at": "2026-09-18T10:40:23.301721+00:00",
+      "http_status": 200,
+      "source_bytes": 186412,
+      "meta": {
+        "current_page": 1,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 24
+      },
+      "rawHtml": "research/beertasting-regions-2026-09-18/china-india/raw/boxing-cat-brewery-p1.html",
+      "parsedJson": "research/beertasting-regions-2026-09-18/china-india/pages/boxing-cat-brewery-p1.json"
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/boxing-cat-brewery/beers?page=2",
+      "startedAt": "2026-09-18T10:43:22.481568+00:00",
+      "slug": "boxing-cat-brewery",
+      "page": 2,
+      "status": "cached",
+      "rows": 9,
+      "new": 9,
+      "total": 24,
+      "source_sha256": "064a0b1e07e12ef18578d08535ff7a7b71772384f0e0b0ee8008f2ce2e8590fc",
+      "fetched_at": "2026-09-18T10:40:28.264308+00:00",
+      "http_status": 200,
+      "source_bytes": 160696,
+      "meta": {
+        "current_page": 2,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 24
+      },
+      "rawHtml": "research/beertasting-regions-2026-09-18/china-india/raw/boxing-cat-brewery-p2.html",
+      "parsedJson": "research/beertasting-regions-2026-09-18/china-india/pages/boxing-cat-brewery-p2.json"
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/master-gao-nanjing-craft-brewing-co/beers",
+      "startedAt": "2026-09-18T10:43:22.490347+00:00",
+      "slug": "master-gao-nanjing-craft-brewing-co",
+      "page": 1,
+      "status": "cached",
+      "rows": 15,
+      "new": 15,
+      "total": 30,
+      "source_sha256": "57830f7772dbdc986993f7fb04ac4724f2592218df7a453338f754dd01ae6dad",
+      "fetched_at": "2026-09-18T10:40:32.996469+00:00",
+      "http_status": 200,
+      "source_bytes": 187738,
+      "meta": {
+        "current_page": 1,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 30
+      },
+      "rawHtml": "research/beertasting-regions-2026-09-18/china-india/raw/master-gao-nanjing-craft-brewing-co-p1.html",
+      "parsedJson": "research/beertasting-regions-2026-09-18/china-india/pages/master-gao-nanjing-craft-brewing-co-p1.json"
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/master-gao-nanjing-craft-brewing-co/beers?page=2",
+      "startedAt": "2026-09-18T10:43:22.497765+00:00",
+      "slug": "master-gao-nanjing-craft-brewing-co",
+      "page": 2,
+      "status": "cached",
+      "rows": 15,
+      "new": 15,
+      "total": 30,
+      "source_sha256": "b5912e801862d0abc73198996797925bfc64f6eb799976263c61643e0e35b47e",
+      "fetched_at": "2026-09-18T10:40:38.010687+00:00",
+      "http_status": 200,
+      "source_bytes": 189491,
+      "meta": {
+        "current_page": 2,
+        "last_page": 2,
+        "per_page": 15,
+        "total": 30
+      },
+      "rawHtml": "research/beertasting-regions-2026-09-18/china-india/raw/master-gao-nanjing-craft-brewing-co-p2.html",
+      "parsedJson": "research/beertasting-regions-2026-09-18/china-india/pages/master-gao-nanjing-craft-brewing-co-p2.json"
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/shangri-la-highland-craft-brewery/beers",
+      "startedAt": "2026-09-18T10:43:22.505568+00:00",
+      "slug": "shangri-la-highland-craft-brewery",
+      "page": 1,
+      "status": "cached",
+      "rows": 10,
+      "new": 10,
+      "total": 10,
+      "source_sha256": "181daca01e0c25776aa65ea49b3bc3d25e5ddfff3bfee223516fb96275d4765a",
+      "fetched_at": "2026-09-18T10:40:43.147181+00:00",
+      "http_status": 200,
+      "source_bytes": 168768,
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 10
+      },
+      "rawHtml": "research/beertasting-regions-2026-09-18/china-india/raw/shangri-la-highland-craft-brewery-p1.html",
+      "parsedJson": "research/beertasting-regions-2026-09-18/china-india/pages/shangri-la-highland-craft-brewery-p1.json"
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/no18-brewing-co/beers",
+      "startedAt": "2026-09-18T10:43:22.514794+00:00",
+      "slug": "no18-brewing-co",
+      "page": 1,
+      "status": "cached",
+      "rows": 12,
+      "new": 12,
+      "total": 12,
+      "source_sha256": "b9ca4aca008c92c80ba5386cf28330dfa36cc07491ea791adc45f4dbf207a692",
+      "fetched_at": "2026-09-18T10:40:48.070730+00:00",
+      "http_status": 200,
+      "source_bytes": 172768,
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 12
+      },
+      "rawHtml": "research/beertasting-regions-2026-09-18/china-india/raw/no18-brewing-co-p1.html",
+      "parsedJson": "research/beertasting-regions-2026-09-18/china-india/pages/no18-brewing-co-p1.json"
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/toit-brewpub/beers",
+      "startedAt": "2026-09-18T10:43:22.522766+00:00",
+      "slug": "toit-brewpub",
+      "page": 1,
+      "status": "cached",
+      "rows": 15,
+      "new": 15,
+      "total": 43,
+      "source_sha256": "98487f9d444bbfcd1ad3d480e3e61f51174f1f88434e6745c69d2b46127cb95f",
+      "fetched_at": "2026-09-18T10:40:53.200541+00:00",
+      "http_status": 200,
+      "source_bytes": 186771,
+      "meta": {
+        "current_page": 1,
+        "last_page": 3,
+        "per_page": 15,
+        "total": 43
+      },
+      "rawHtml": "research/beertasting-regions-2026-09-18/china-india/raw/toit-brewpub-p1.html",
+      "parsedJson": "research/beertasting-regions-2026-09-18/china-india/pages/toit-brewpub-p1.json"
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/toit-brewpub/beers?page=2",
+      "startedAt": "2026-09-18T10:43:22.532469+00:00",
+      "slug": "toit-brewpub",
+      "page": 2,
+      "status": "cached",
+      "rows": 15,
+      "new": 15,
+      "total": 43,
+      "source_sha256": "dc08ffdb2e10bf039ff930d8ad684d357f72d7b75882b805074dc07e24f568d8",
+      "fetched_at": "2026-09-18T10:40:58.149183+00:00",
+      "http_status": 200,
+      "source_bytes": 184602,
+      "meta": {
+        "current_page": 2,
+        "last_page": 3,
+        "per_page": 15,
+        "total": 43
+      },
+      "rawHtml": "research/beertasting-regions-2026-09-18/china-india/raw/toit-brewpub-p2.html",
+      "parsedJson": "research/beertasting-regions-2026-09-18/china-india/pages/toit-brewpub-p2.json"
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/great-state-aleworks/beers",
+      "startedAt": "2026-09-18T10:43:22.540306+00:00",
+      "slug": "great-state-aleworks",
+      "page": 1,
+      "status": "cached",
+      "rows": 3,
+      "new": 3,
+      "total": 3,
+      "source_sha256": "9e3e98f35ad1e3ee35b4d74bc2bdff6741be4557ef43b0ac53a848b6024898d3",
+      "fetched_at": "2026-09-18T10:41:02.845654+00:00",
+      "http_status": 200,
+      "source_bytes": 110370,
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 3
+      },
+      "rawHtml": "research/beertasting-regions-2026-09-18/china-india/raw/great-state-aleworks-p1.html",
+      "parsedJson": "research/beertasting-regions-2026-09-18/china-india/pages/great-state-aleworks-p1.json"
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/goa-brewing-co/beers",
+      "startedAt": "2026-09-18T10:43:22.547089+00:00",
+      "slug": "goa-brewing-co",
+      "page": 1,
+      "status": "cached",
+      "rows": 2,
+      "new": 2,
+      "total": 2,
+      "source_sha256": "22f70855e9a6deaafe6f3e63ed4132bef7e87788a883eeb4763e2e70b540d0af",
+      "fetched_at": "2026-09-18T10:41:07.590573+00:00",
+      "http_status": 200,
+      "source_bytes": 104234,
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 2
+      },
+      "rawHtml": "research/beertasting-regions-2026-09-18/china-india/raw/goa-brewing-co-p1.html",
+      "parsedJson": "research/beertasting-regions-2026-09-18/china-india/pages/goa-brewing-co-p1.json"
+    },
+    {
+      "url": "https://www.beertasting.com/en/brewery/the-white-owl/beers",
+      "startedAt": "2026-09-18T10:43:22.554157+00:00",
+      "slug": "the-white-owl",
+      "page": 1,
+      "status": "cached",
+      "rows": 5,
+      "new": 4,
+      "total": 5,
+      "source_sha256": "c5b97c303dcced1ba5f08569984860cf9071ea2ac95e1684f7dc1894d625f1ca",
+      "fetched_at": "2026-09-18T10:41:13.099970+00:00",
+      "http_status": 200,
+      "source_bytes": 123772,
+      "meta": {
+        "current_page": 1,
+        "last_page": 1,
+        "per_page": 15,
+        "total": 5
+      },
+      "rawHtml": "research/beertasting-regions-2026-09-18/china-india/raw/the-white-owl-p1.html",
+      "parsedJson": "research/beertasting-regions-2026-09-18/china-india/pages/the-white-owl-p1.json"
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "5dad358b-3c28-47be-a2da-0c61d3f90523",
+      "reason": "explicit_non_beer_style",
+      "style": "Cider (other Fruits)",
+      "source_url": "https://www.beertasting.com/en/brewery/the-white-owl/beers"
+    }
+  ],
+  "records": 115
+}

@@ -1,0 +1,30 @@
+{
+  "fetchedAt": "2026-09-18T11:13:34.105781+00:00",
+  "queryUrl": "https://api.openstreetmap.org/api/0.6/node/3049741757.json",
+  "requestedTitles": null,
+  "response": {
+    "version": "0.6",
+    "generator": "openstreetmap-cgimap 2.1.0 (2942791 spike-08.openstreetmap.org)",
+    "copyright": "OpenStreetMap and contributors",
+    "attribution": "http://www.openstreetmap.org/copyright",
+    "license": "http://opendatacommons.org/licenses/odbl/1-0/",
+    "elements": [
+      {
+        "type": "node",
+        "id": 3049741757,
+        "lat": -13.2783131,
+        "lon": -72.2179847,
+        "timestamp": "2023-08-21T15:32:47Z",
+        "version": 2,
+        "changeset": 140188496,
+        "user": "murghdo",
+        "uid": 2418845,
+        "tags": {
+          "alt_name": "Pacchar",
+          "name": "Pachar",
+          "place": "village"
+        }
+      }
+    ]
+  }
+}

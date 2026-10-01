@@ -1,0 +1,165 @@
+{
+  "fetchedAt": "2026-09-18T11:42:09.810650+00:00",
+  "queryUrl": "https://en.wikipedia.org/w/api.php?action=query&prop=coordinates%7Cpageprops&coprimary=primary&colimit=max&format=json&redirects=1&titles=Minoh%7CSuyeong+District%7CJeju+City%7CMar+del+Plata%7CLauro+M%C3%BCller%7CYamanouchi%2C+Nagano%7CHangzhou%7CIzu%2C+Shizuoka",
+  "requestedTitles": [
+    "Minoh",
+    "Suyeong District",
+    "Jeju City",
+    "Mar del Plata",
+    "Lauro Müller",
+    "Yamanouchi, Nagano",
+    "Hangzhou",
+    "Izu, Shizuoka"
+  ],
+  "response": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "158185": {
+          "pageid": 158185,
+          "ns": 0,
+          "title": "Hangzhou",
+          "coordinates": [
+            {
+              "lat": 30.267,
+              "lon": 120.153,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "杭州钱江新城_4_(cropped).jpg",
+            "wikibase-shortdesc": "Capital of Zhejiang Province, China",
+            "wikibase_item": "Q4970"
+          }
+        },
+        "1413045": {
+          "pageid": 1413045,
+          "ns": 0,
+          "title": "Izu, Shizuoka",
+          "coordinates": [
+            {
+              "lat": 34.97652778,
+              "lon": 138.94680556,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Izu_city_hall_20100601.jpg",
+            "wikibase-shortdesc": "City in Chūbu, Japan",
+            "wikibase_item": "Q696840"
+          }
+        },
+        "892173": {
+          "pageid": 892173,
+          "ns": 0,
+          "title": "Jeju City",
+          "coordinates": [
+            {
+              "lat": 33.513,
+              "lon": 126.523,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Jeju_-_Hallasan.JPG",
+            "wikibase-shortdesc": "City in Jeju, South Korea",
+            "wikibase_item": "Q42142"
+          }
+        },
+        "9402436": {
+          "pageid": 9402436,
+          "ns": 0,
+          "title": "Lauro Müller",
+          "pageprops": {
+            "defaultsort": "Muller, Lauro",
+            "page_image_free": "Lauro_Müller_nos_Estados_Unidos.jpg",
+            "wikibase-shortdesc": "Brazilian politician, diplomat and military engineer",
+            "wikibase_item": "Q1128380"
+          }
+        },
+        "283975": {
+          "pageid": 283975,
+          "ns": 0,
+          "title": "Mar del Plata",
+          "coordinates": [
+            {
+              "lat": -38,
+              "lon": -57.55,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "defaultsort": "Mar del Plata",
+            "page_image_free": "PT_TORREON3.jpg",
+            "wikibase-shortdesc": "City in Buenos Aires Province, Argentina",
+            "wikibase_item": "Q52607"
+          }
+        },
+        "329220": {
+          "pageid": 329220,
+          "ns": 0,
+          "title": "Minoh",
+          "coordinates": [
+            {
+              "lat": 34.82694444,
+              "lon": 135.47055556,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Katsuo-ji2336.jpg",
+            "wikibase-shortdesc": "City in Kansai, Japan",
+            "wikibase_item": "Q665097"
+          }
+        },
+        "5583679": {
+          "pageid": 5583679,
+          "ns": 0,
+          "title": "Suyeong District",
+          "coordinates": [
+            {
+              "lat": 35.17194444,
+              "lon": 129.10972222,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Suyeong-gu_Gwanganli.jpg",
+            "wikibase-shortdesc": "District of Busan, South Korea",
+            "wikibase_item": "Q50417"
+          }
+        },
+        "624578": {
+          "pageid": 624578,
+          "ns": 0,
+          "title": "Yamanouchi, Nagano",
+          "coordinates": [
+            {
+              "lat": 36.74458333,
+              "lon": 138.41269444,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Shiga_Kogen_from_Nozoki05s4s4272.jpg",
+            "wikibase-shortdesc": "Town in Chūbu, Japan",
+            "wikibase_item": "Q1204468"
+          }
+        }
+      }
+    },
+    "limits": {
+      "coordinates": 500
+    }
+  }
+}

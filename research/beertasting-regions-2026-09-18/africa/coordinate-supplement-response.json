@@ -1,0 +1,50 @@
+{
+  "url": "https://en.wikipedia.org/w/api.php?action=query&prop=coordinates%7Cpageprops&coprimary=primary&format=json&redirects=1&titles=Maun%2C+Botswana%7CMoshi%2C+Tanzania&colimit=max",
+  "fetched_at": "2026-09-18T10:42:22.099447+00:00",
+  "response": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "963369": {
+          "pageid": 963369,
+          "ns": 0,
+          "title": "Maun, Botswana",
+          "coordinates": [
+            {
+              "lat": -19.98333333,
+              "lon": 23.41666667,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "MaunAirview1.jpg",
+            "wikibase-shortdesc": "Place in North-West District, Botswana",
+            "wikibase_item": "Q170732"
+          }
+        },
+        "870869": {
+          "pageid": 870869,
+          "ns": 0,
+          "title": "Moshi, Tanzania",
+          "coordinates": [
+            {
+              "lat": -3.33488333,
+              "lon": 37.34038056,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Moshi,_Tanzania_(photomontage).jpg",
+            "wikibase-shortdesc": "Town in Tanzania",
+            "wikibase_item": "Q271733"
+          }
+        }
+      }
+    },
+    "limits": {
+      "coordinates": 500
+    }
+  }
+}

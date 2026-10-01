@@ -1,0 +1,30 @@
+{
+  "format": "brew-atlas-data-snapshots",
+  "schemaVersion": 1,
+  "files": [
+    {
+      "path": "research/local-catalog/imported-snapshots.json",
+      "gzipPath": "research/local-catalog/imported-snapshots.json.gz",
+      "bytes": 133590937,
+      "gzipBytes": 17491361,
+      "sha256": "b6d61d95b546a265872953c1226dbd884d2088bf5d212f83c71aa6713d33394e",
+      "gzipSha256": "0e41f2a208ed4bd9be6a6eb0106dbdd8830b7aa861298f8f3e1e1d58dd26256f",
+      "counts": {
+        "beers": 173327,
+        "breweries": 8311
+      }
+    },
+    {
+      "path": "research/local-catalog/imported-additional.json",
+      "gzipPath": "research/local-catalog/imported-additional.json.gz",
+      "bytes": 21704833,
+      "gzipBytes": 824721,
+      "sha256": "98bdabb70655aa56f0acc3f8a82ef9df935093c8f511b21544bf35369e38216c",
+      "gzipSha256": "52d9ce746638f5d114939f6602159e60e8df774e5147e892eb2e066cefd71513",
+      "counts": {
+        "beers": 7800,
+        "breweries": 2095
+      }
+    }
+  ]
+}

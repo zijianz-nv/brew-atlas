@@ -1,0 +1,452 @@
+{
+  "fetchedAt": "2026-09-18T11:12:30.682208+00:00",
+  "queryUrl": "https://en.wikipedia.org/w/api.php?action=query&prop=coordinates%7Cpageprops&coprimary=primary&colimit=max&format=json&redirects=1&titles=Denver%7CAustin%2C+Texas%7CMinneapolis%7CChicago%7CSalt+Lake+City%7CCalgary%7CWinnipeg%7CMontreal%7CBras%C3%ADlia%7CBelo+Horizonte%7CPachar%7CQuito%7CMexico+City%7CAlbuquerque%7CTulsa%7CWhitehorse%7CMakhanda%7CRustenburg%7CRandburg%7CLusaka%7CHarare%7CAddis+Ababa",
+  "requestedTitles": [
+    "Denver",
+    "Austin, Texas",
+    "Minneapolis",
+    "Chicago",
+    "Salt Lake City",
+    "Calgary",
+    "Winnipeg",
+    "Montreal",
+    "Brasília",
+    "Belo Horizonte",
+    "Pachar",
+    "Quito",
+    "Mexico City",
+    "Albuquerque",
+    "Tulsa",
+    "Whitehorse",
+    "Makhanda",
+    "Rustenburg",
+    "Randburg",
+    "Lusaka",
+    "Harare",
+    "Addis Ababa"
+  ],
+  "response": {
+    "batchcomplete": "",
+    "query": {
+      "redirects": [
+        {
+          "from": "Tulsa",
+          "to": "Tulsa, Oklahoma"
+        },
+        {
+          "from": "Albuquerque",
+          "to": "Albuquerque, New Mexico"
+        },
+        {
+          "from": "Pachar",
+          "to": "Sikar district"
+        }
+      ],
+      "pages": {
+        "52593": {
+          "pageid": 52593,
+          "ns": 0,
+          "title": "Addis Ababa",
+          "coordinates": [
+            {
+              "lat": 9.03583333,
+              "lon": 38.7525,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Addis_in_night.jpg",
+            "wikibase-shortdesc": "Capital and largest city of Ethiopia",
+            "wikibase_item": "Q3624"
+          }
+        },
+        "1998": {
+          "pageid": 1998,
+          "ns": 0,
+          "title": "Austin, Texas",
+          "coordinates": [
+            {
+              "lat": 30.26722222,
+              "lon": -97.74305556,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Skyline_of_Austin,_Texas_(cropped).jpg",
+            "wikibase-shortdesc": "Capital city of Texas, United States",
+            "wikibase_item": "Q16559"
+          }
+        },
+        "82198": {
+          "pageid": 82198,
+          "ns": 0,
+          "title": "Belo Horizonte",
+          "coordinates": [
+            {
+              "lat": -19.91666667,
+              "lon": -43.93333333,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "nomediaviewercarousel": "",
+            "page_image_free": "Praca_do_Papa,_Belo_Horizonte_(cropped)2.jpg",
+            "wikibase-shortdesc": "Capital city of Minas Gerais, Brazil",
+            "wikibase_item": "Q42800"
+          }
+        },
+        "4752": {
+          "pageid": 4752,
+          "ns": 0,
+          "title": "Brasília",
+          "coordinates": [
+            {
+              "lat": -15.79388889,
+              "lon": -47.88277778,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "defaultsort": "Brasilia",
+            "kartographer_frames": "1",
+            "nomediaviewercarousel": "",
+            "page_image_free": "Planalto_Central_(cropped).jpg",
+            "wikibase-shortdesc": "Federal capital of Brazil",
+            "wikibase_item": "Q2844"
+          }
+        },
+        "15895358": {
+          "pageid": 15895358,
+          "ns": 0,
+          "title": "Calgary",
+          "coordinates": [
+            {
+              "lat": 51.0475,
+              "lon": -114.0625,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "nomediaviewercarousel": "",
+            "page_image_free": "Downtown_Calgary_2020-4.jpg",
+            "wikibase-shortdesc": "City in Alberta, Canada",
+            "wikibase_item": "Q36312"
+          }
+        },
+        "6886": {
+          "pageid": 6886,
+          "ns": 0,
+          "title": "Chicago",
+          "coordinates": [
+            {
+              "lat": 41.88194444,
+              "lon": -87.62777778,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Chicago_River_ferry_b.jpg",
+            "wikibase-shortdesc": "Most populous city in Illinois, US",
+            "wikibase_item": "Q1297"
+          }
+        },
+        "8522": {
+          "pageid": 8522,
+          "ns": 0,
+          "title": "Denver",
+          "coordinates": [
+            {
+              "lat": 39.74,
+              "lon": -104.99,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Denver,_Colorado_skyline_(cropped_3x5).jpg",
+            "wikibase-shortdesc": "Capital of Colorado, U.S.",
+            "wikibase_item": "Q16554"
+          }
+        },
+        "56680": {
+          "pageid": 56680,
+          "ns": 0,
+          "title": "Harare",
+          "coordinates": [
+            {
+              "lat": -17.82916667,
+              "lon": 31.05222222,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Crowne_Plaza,_Harare.png",
+            "wikibase-shortdesc": "Capital and largest city of Zimbabwe",
+            "wikibase_item": "Q3921"
+          }
+        },
+        "23149963": {
+          "pageid": 23149963,
+          "ns": 0,
+          "title": "Lusaka",
+          "coordinates": [
+            {
+              "lat": -15.41666667,
+              "lon": 28.28333333,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Downtown_Lusaka.JPG",
+            "wikibase-shortdesc": "Capital and largest city of Zambia",
+            "wikibase_item": "Q3881"
+          }
+        },
+        "2951683": {
+          "pageid": 2951683,
+          "ns": 0,
+          "title": "Makhanda",
+          "pageprops": {
+            "disambiguation": "",
+            "expectshortpage": "",
+            "wikibase-shortdesc": "Topics referred to by the same term",
+            "wikibase_item": "Q61646528"
+          }
+        },
+        "18987": {
+          "pageid": 18987,
+          "ns": 0,
+          "title": "Mexico City",
+          "coordinates": [
+            {
+              "lat": 19.43333333,
+              "lon": -99.13333333,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Sobrevuelos_CDMX_HJ2A4913_(25514321687)_(cropped).jpg",
+            "wikibase-shortdesc": "Capital and most populous city of Mexico",
+            "wikibase_item": "Q1489"
+          }
+        },
+        "6097240": {
+          "pageid": 6097240,
+          "ns": 0,
+          "title": "Minneapolis",
+          "coordinates": [
+            {
+              "lat": 44.98194444,
+              "lon": -93.26916667,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Minneapolis_Skyline_looking_south.jpg",
+            "wikibase-badge-Q17437796": "",
+            "wikibase-shortdesc": "City in Minnesota, United States",
+            "wikibase_item": "Q36091"
+          }
+        },
+        "7954681": {
+          "pageid": 7954681,
+          "ns": 0,
+          "title": "Montreal",
+          "coordinates": [
+            {
+              "lat": 45.50888889,
+              "lon": -73.55416667,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Montreal,_Quebec_skyline.jpg",
+            "wikibase-shortdesc": "Largest city in Quebec, Canada",
+            "wikibase_item": "Q340"
+          }
+        },
+        "209982": {
+          "pageid": 209982,
+          "ns": 0,
+          "title": "Quito",
+          "coordinates": [
+            {
+              "lat": -0.22,
+              "lon": -78.5125,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "FACHADA_ASAMBLEA_NACIONAL._QUITO,_20_DE_FEBRERO_2020._01.jpg",
+            "wikibase-shortdesc": "Capital city of Ecuador",
+            "wikibase_item": "Q2900"
+          }
+        },
+        "839947": {
+          "pageid": 839947,
+          "ns": 0,
+          "title": "Randburg",
+          "coordinates": [
+            {
+              "lat": -26.09361111,
+              "lon": 28.00638889,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "MotoPops_-_Beverley_Gardens,_Randburg,_South_Africa.jpg",
+            "wikibase-shortdesc": "Place in Gauteng, South Africa",
+            "wikibase_item": "Q2296366"
+          }
+        },
+        "1518440": {
+          "pageid": 1518440,
+          "ns": 0,
+          "title": "Rustenburg",
+          "coordinates": [
+            {
+              "lat": -25.66666667,
+              "lon": 27.24277778,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Kruger_Statue_-_Rustenburg.jpeg",
+            "wikibase-shortdesc": "Town in North West province, South Africa",
+            "wikibase_item": "Q182049"
+          }
+        },
+        "53837": {
+          "pageid": 53837,
+          "ns": 0,
+          "title": "Salt Lake City",
+          "coordinates": [
+            {
+              "lat": 40.76083333,
+              "lon": -111.89111111,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "SLC_Skyline_2024.jpg",
+            "wikibase-shortdesc": "State capital and largest city of Utah, U.S.",
+            "wikibase_item": "Q23337"
+          }
+        },
+        "33056": {
+          "pageid": 33056,
+          "ns": 0,
+          "title": "Whitehorse",
+          "coordinates": [
+            {
+              "lat": 60.72416667,
+              "lon": -135.05611111,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Yukon_River_at_Whitehorse_-b.jpg",
+            "wikibase-shortdesc": "Capital and largest city of Yukon, Canada",
+            "wikibase_item": "Q2055"
+          }
+        },
+        "100730": {
+          "pageid": 100730,
+          "ns": 0,
+          "title": "Winnipeg",
+          "coordinates": [
+            {
+              "lat": 49.89555556,
+              "lon": -97.13861111,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Winnipeg,_Manitoba.jpg",
+            "wikibase-badge-Q17437796": "",
+            "wikibase-shortdesc": "Capital city of Manitoba, Canada",
+            "wikibase_item": "Q2135"
+          }
+        },
+        "51278": {
+          "pageid": 51278,
+          "ns": 0,
+          "title": "Albuquerque, New Mexico",
+          "coordinates": [
+            {
+              "lat": 35.0844,
+              "lon": -106.6503,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Albuquerque,_New_Mexico_skyline.jpg",
+            "toc": "",
+            "wikibase-shortdesc": "City in New Mexico, United States",
+            "wikibase_item": "Q34804"
+          }
+        },
+        "3876401": {
+          "pageid": 3876401,
+          "ns": 0,
+          "title": "Sikar district",
+          "pageprops": {
+            "page_image_free": "Harshnath_Temple-Sikar-Rajasthan-DSC0011.jpg",
+            "wikibase-shortdesc": "District in Rajasthan, India",
+            "wikibase_item": "Q12945777"
+          }
+        },
+        "150969": {
+          "pageid": 150969,
+          "ns": 0,
+          "title": "Tulsa, Oklahoma",
+          "coordinates": [
+            {
+              "lat": 36.13138889,
+              "lon": -95.93722222,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "kartographer_frames": "1",
+            "page_image_free": "Tulsa_skyline_aerial,_April_2023.jpg",
+            "wikibase-shortdesc": "City in Oklahoma, United States",
+            "wikibase_item": "Q44989"
+          }
+        }
+      }
+    },
+    "limits": {
+      "coordinates": 500
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "fetchedAt": "2026-09-18T10:45:38.346230+00:00",
+  "queryUrl": "https://es.wikipedia.org/w/api.php?action=query&prop=coordinates%7Cpageprops&coprimary=primary&colimit=max&format=json&redirects=1&titles=Tsilkani",
+  "requestedTitles": [
+    "Tsilkani"
+  ],
+  "response": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "10677691": {
+          "pageid": 10677691,
+          "ns": 0,
+          "title": "Tsilkani",
+          "coordinates": [
+            {
+              "lat": 41.9496,
+              "lon": 44.658,
+              "primary": "",
+              "globe": "earth"
+            }
+          ],
+          "pageprops": {
+            "page_image_free": "Tsilkani_and_Mukhrani_valley_(Photo_A._Muhranoff)-1.jpg",
+            "wikibase_item": "Q4709733"
+          }
+        }
+      }
+    },
+    "limits": {
+      "coordinates": 500
+    }
+  }
+}
