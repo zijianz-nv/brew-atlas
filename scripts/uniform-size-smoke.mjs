@@ -11,7 +11,7 @@ const base=process.env.DEMO_URL||'http://127.0.0.1:4173',origin=new URL(base).or
 assert(['localhost','127.0.0.1','[::1]'].includes(new URL(base).hostname));
 const suffix=before?'before':'after',devices=(process.env.UNIFORM_DEVICES||'desktop,mobile,flat').split(',');
 const report={startedAt:new Date().toISOString(),base,baseline:before,complete:false,build:null,
- policy:'Real Chrome and public UI only, local resources. Same frame height and scale=1 for every visible beer button. Actual bottle content may retain source-image whitespace. Each animation frame follows one global zoom-size curve. Continuously visible geographic anchors and decoded DOM nodes remain stable; fully hidden >=700ms reentry is allowed. Full-frame land, controls, overlap and source truth checked when settled. No per-zoom count monotonicity or distant-island nonempty requirement.',
+ policy:'Real Chrome and public UI only, local resources. Same frame height and scale=1 for every visible beer button. Actual bottle content may retain source-image whitespace. Each animation frame follows one global zoom-size curve. Continuously visible geographic anchors and decoded DOM nodes remain stable; fully hidden >=700ms reentry is allowed. Land intersection, controls, overlap and source truth checked when settled. No per-zoom count monotonicity or distant-island nonempty requirement.',
  checks:[],states:[],phases:[],screenshots:[],findings:[],external:[],errors:[],localErrors:[]};
 let browser,page,beers,beerMap,breweryMap,active='initialize',baseZoom,compact;
 const overlap=(a,b)=>Math.max(0,Math.min(a.right,b.right)-Math.max(a.left,b.left))*Math.max(0,Math.min(a.bottom,b.bottom)-Math.max(a.top,b.top));
@@ -25,7 +25,7 @@ async function snapshot(name,{requirePhotos=false,screenshot=false}={}){
   const w=document.querySelector('.brew-globe-view'),wr=w.getBoundingClientRect(),shown=n=>n.checkVisibility({opacityProperty:true,visibilityProperty:true});
   const rect=n=>{const r=n.getBoundingClientRect();return{left:r.left-wr.left,right:r.right-wr.left,top:r.top-wr.top,bottom:r.bottom-wr.top,width:r.width,height:r.height}};
   return{zoom:Number(w.dataset.zoomScale),mode:w.dataset.mapMode,wrapper:{width:wr.width,height:wr.height},forbidden:w.querySelectorAll('.globe-bottle-count,.globe-site-dot,.globe-bottle-anchor').length,
-   photos:[...w.querySelectorAll('.globe-bottle')].filter(shown).map(n=>{const r=rect(n),im=n.querySelector('img');return{id:n.dataset.beerId,breweryId:n.dataset.sourceBreweryId,scale:Number(n.dataset.photoScale||1),lat:Number(n.dataset.displayLat),lng:Number(n.dataset.displayLng),sourceLat:Number(n.dataset.sourceLat),sourceLng:Number(n.dataset.sourceLng),rect:r,land:w._landMask.containsRect(r),src:im?.getAttribute('src'),ready:n.dataset.imageState==='ready'&&im?.complete&&im.naturalWidth>0,fit:im&&getComputedStyle(im).objectFit}}),
+   photos:[...w.querySelectorAll('.globe-bottle')].filter(shown).map(n=>{const r=rect(n),im=n.querySelector('img');return{id:n.dataset.beerId,breweryId:n.dataset.sourceBreweryId,scale:Number(n.dataset.photoScale||1),lat:Number(n.dataset.displayLat),lng:Number(n.dataset.displayLng),sourceLat:Number(n.dataset.sourceLat),sourceLng:Number(n.dataset.sourceLng),rect:r,land:w._landMask.intersectsRect(r),src:im?.getAttribute('src'),ready:n.dataset.imageState==='ready'&&im?.complete&&im.naturalWidth>0,fit:im&&getComputedStyle(im).objectFit}}),
    controls:[...document.querySelectorAll('.topbar,.map-summary,.globe-tools,.map-hint,.filter-dock,.inspector,.brewery-tray,.compare-dock')].filter(shown).map(n=>({name:n.className,...rect(n)}))};
  });
  s.photos.forEach(p=>{p.country=breweryMap.get(p.breweryId)?.country});
@@ -38,7 +38,7 @@ async function snapshot(name,{requirePhotos=false,screenshot=false}={}){
   check(p.scale===1,`${name}: local scale ${p.scale} remains on ${p.id}`);
   check(Math.abs(p.rect.height-row.expectedHeight)<=.1,`${name}: ${p.rect.height}px differs from global ${row.expectedHeight}px`);
   check(Math.abs(p.rect.width-p.rect.height*.52)<.04,`${name}: frame aspect changed`);
-  check(p.land,`${name}: full image frame crosses water`);check(p.ready&&p.fit==='contain',`${name}: image unreadied or cropped`);
+  check(p.land,`${name}: image frame has no land intersection`);check(p.ready&&p.fit==='contain',`${name}: image unreadied or cropped`);
   check(beer&&hasDescribedPhoto(beer)&&p.src===(beer.imageThumbnail||beer.image)&&p.src.startsWith('/'),`${name}: image not eligible/local/truthful`);
   check(br&&p.sourceLat===br.lat&&p.sourceLng===br.lng&&beer.breweryId===br.id,`${name}: source brewery/coordinates changed`);
   check(p.rect.left>=-.5&&p.rect.top>=-.5&&p.rect.right<=s.wrapper.width+.5&&p.rect.bottom<=s.wrapper.height+.5,`${name}: image leaves viewport`);

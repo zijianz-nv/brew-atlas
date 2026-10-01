@@ -70,7 +70,7 @@ async function snapshot(name, { duplicates = false, requirePhotos = true } = {})
       const lat = Number(node.dataset.displayLat), lng = Number(node.dataset.displayLng);
       return { id: node.dataset.beerId, identity: node.dataset.photoIdentity, breweryId: node.dataset.sourceBreweryId,
         lat, lng, sourceLat: Number(node.dataset.sourceLat), sourceLng: Number(node.dataset.sourceLng), rect: r,
-        projection: wrapper._projectGeo(lat, lng), land: wrapper._landMask.containsRect(r),
+        projection: wrapper._projectGeo(lat, lng), land: wrapper._landMask.intersectsRect(r),
         src: img?.getAttribute('src'), ready: node.dataset.imageState === 'ready' && img?.complete && img.naturalWidth > 0,
         clickable: node.contains(document.elementFromPoint(wr.left + (r.left + r.right) / 2, wr.top + (r.top + r.bottom) / 2)),
       };
@@ -108,7 +108,7 @@ async function snapshot(name, { duplicates = false, requirePhotos = true } = {})
     verify(photo.src === (beer?.imageThumbnail || beer?.image) && photo.src?.startsWith('/'), `${name}: nonlocal or incorrect image ${photo.id}`);
     verify(photo.breweryId === beer?.breweryId && photo.sourceLat === brewery?.lat && photo.sourceLng === brewery?.lng, `${name}: source geography changed ${photo.id}`);
     verify(Number.isFinite(photo.lat) && Number.isFinite(photo.lng), `${name}: missing display geography`);
-    verify(photo.land, `${name}: full image rectangle leaves land ${photo.id}`);
+    verify(photo.land, `${name}: image rectangle no longer intersects land ${photo.id}`);
     verify(photo.rect.left >= -.5 && photo.rect.top >= -.5 && photo.rect.right <= state.wrapper.width + .5 && photo.rect.bottom <= state.wrapper.height + .5, `${name}: image leaves viewport`);
     for (const control of state.controls) verify(area(photo.rect, control) <= 1, `${name}: image overlaps ${control.name}`);
   }
@@ -349,7 +349,7 @@ try {
     await check(`${config.name}: zoom preserves geographic placement and adds new photographs`, async () => {
       const before = await snapshot(`${config.name}-dense-base`, { requirePhotos: false });
       const additions = [];
-      // Narrow coastal land can require additional zoom before a full bottle
+      // Narrow coastal land can require additional zoom before a bottle
       // rectangle fits; keep the zero-photo states in the report as evidence.
       for (let i = 1; i <= 6; i++) {
         const result = await capturePhase(`${config.name}-zoom-in-${i}`, async () => {
@@ -364,7 +364,7 @@ try {
       const after = await snapshot(`${config.name}-dense-expanded`, { requirePhotos: false });
       verify(after.zoom > before.zoom, `${config.name}: zoom button did not change the camera`);
       verify(new Set(additions).size > 0, `${config.name}: no additional photos became visible during zoom`);
-      if (!after.photos.length) report.limitations.push(`${config.name}: the coastal brewery produced new photos at an intermediate zoom, but none remained at zoom ${after.zoom}; fixed source coordinates and full-land constraints take priority at extreme magnification. All intermediate counts, projections and empty final states are retained in this report.`);
+      if (!after.photos.length) report.limitations.push(`${config.name}: the coastal brewery produced new photos at an intermediate zoom, but none remained at zoom ${after.zoom}; fixed source coordinates and land-intersection constraints take priority at extreme magnification. All intermediate counts, projections and empty final states are retained in this report.`);
       await screenshot(`${config.name}-expanded`);
       await capturePhase(`${config.name}-zoom-out`, async () => {
         await page.waitForTimeout(120);

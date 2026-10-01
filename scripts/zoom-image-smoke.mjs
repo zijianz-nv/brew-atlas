@@ -19,7 +19,7 @@ async function state(name,{baseZoom,compact,requirePhotos=true}={}){
   const w=document.querySelector('.brew-globe-view'),wr=w.getBoundingClientRect(),mask=w._landMask;
   const shown=n=>{const r=n.getBoundingClientRect();if(!r.width||!r.height)return false;for(let p=n;p;p=p.parentElement){const c=getComputedStyle(p);if(c.display==='none'||c.visibility==='hidden'||+c.opacity===0)return false}return true};
   const rect=n=>{const r=n.getBoundingClientRect();return{left:r.left,top:r.top,right:r.right,bottom:r.bottom,width:r.width,height:r.height}};
-  const photos=[...w.querySelectorAll('.globe-bottle')].filter(shown).map(n=>{const r=rect(n),i=n.querySelector('img'),b={left:r.left-wr.left,right:r.right-wr.left,top:r.top-wr.top,bottom:r.bottom-wr.top};return{id:n.dataset.beerId,scale:Number(n.dataset.photoScale||1),rect:r,land:mask.containsRect(b),ready:n.dataset.imageState==='ready'&&i?.complete&&i.naturalWidth>0,src:i?.getAttribute('src'),fit:i&&getComputedStyle(i).objectFit,clickable:n.contains(document.elementFromPoint((r.left+r.right)/2,(r.top+r.bottom)/2))}});
+  const photos=[...w.querySelectorAll('.globe-bottle')].filter(shown).map(n=>{const r=rect(n),i=n.querySelector('img'),b={left:r.left-wr.left,right:r.right-wr.left,top:r.top-wr.top,bottom:r.bottom-wr.top};return{id:n.dataset.beerId,scale:Number(n.dataset.photoScale||1),rect:r,land:mask.intersectsRect(b),ready:n.dataset.imageState==='ready'&&i?.complete&&i.naturalWidth>0,src:i?.getAttribute('src'),fit:i&&getComputedStyle(i).objectFit,clickable:n.contains(document.elementFromPoint((r.left+r.right)/2,(r.top+r.bottom)/2))}});
   const obstacles=[...document.querySelectorAll('.topbar,.map-summary,.globe-tools,.map-hint,.filter-dock,.inspector,.brewery-tray,.compare-dock')].filter(shown).map(n=>({name:n.className,...rect(n)}));
   const badges=[...w.querySelectorAll('.globe-bottle-count,.globe-site-dot')].filter(shown).map(rect);
   return{allMapBeerIds:[...w.querySelectorAll('.globe-bottle')].map(n=>n.dataset.beerId),allImageSources:[...document.images].map(i=>i.getAttribute('src')),zoom:Number(w.dataset.zoomScale),mode:w.dataset.mapMode,photos,obstacles,badges,viewport:{width:innerWidth,height:innerHeight},wrapper:rect(w),cache:window.__zoomImage.audit()};
@@ -34,7 +34,7 @@ async function state(name,{baseZoom,compact,requirePhotos=true}={}){
   const expectedPhotoHeight=Math.round(Math.max(14,expected*p.scale)*100)/100;
   assert(Math.abs(p.rect.height-expectedPhotoHeight)<.1,`${name}: photo height ${p.rect.height} does not follow map zoom and local scale (${expectedPhotoHeight})`);
   assert(Math.abs(p.rect.width-p.rect.height*.52)<.03,'Photo frame aspect ratio changed');
-  assert(p.land,`${name}: photo crosses land`);assert(p.ready,`${name}: local image not decoded`);assert.equal(p.fit,'contain');
+  assert(p.land,`${name}: photo has no land intersection`);assert(p.ready,`${name}: local image not decoded`);assert.equal(p.fit,'contain');
   const beer=beerMap.get(p.id);assert(beer);assert.equal(p.src,beer.imageThumbnail||beer.image);assert(p.src.startsWith('/'));
   assert(p.rect.left>=Math.max(0,s.wrapper.left)-.5&&p.rect.right<=Math.min(s.viewport.width,s.wrapper.right)+.5&&p.rect.top>=Math.max(0,s.wrapper.top)-.5&&p.rect.bottom<=Math.min(s.viewport.height,s.wrapper.bottom)+.5,'Photo leaves viewport');
   for(const o of [...s.obstacles,...s.badges])assert(overlap(p.rect,o)<=1,`${name}: photo overlaps an interface control`);

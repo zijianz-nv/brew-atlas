@@ -70,7 +70,7 @@ async function state(name, { requirePhotos = true } = {}) {
         id: node.dataset.beerId, breweryId: node.dataset.sourceBreweryId, rect: r,
         sourceX: Number(node.dataset.sourceScreenX), sourceY: Number(node.dataset.sourceScreenY),
         src: image?.getAttribute('src'), ready: node.dataset.imageState === 'ready' && image?.complete && image.naturalWidth > 0,
-        land: wrapper._landMask.containsRect({ left: r.left - wr.left, top: r.top - wr.top, right: r.right - wr.left, bottom: r.bottom - wr.top }),
+        land: wrapper._landMask.intersectsRect({ left: r.left - wr.left, top: r.top - wr.top, right: r.right - wr.left, bottom: r.bottom - wr.top }),
         fit: image && getComputedStyle(image).objectFit,
         clickable: node.contains(document.elementFromPoint((r.left + r.right) / 2, (r.top + r.bottom) / 2)),
       };
@@ -96,7 +96,7 @@ async function state(name, { requirePhotos = true } = {}) {
     assert.equal(photo.src, beer.imageThumbnail || beer.image, `${name}: wrong source image`);
     assert(photo.src.startsWith('/'), `${name}: a map photo is not local`);
     assert(photo.ready, `${name}: photo is not decoded`);
-    assert(photo.land, `${name}: the entire image rectangle must remain on land`);
+    assert(photo.land, `${name}: the image rectangle must intersect land`);
     assert.equal(photo.fit, 'contain');
     assert(photo.rect.left >= Math.max(0, current.wrapper.left) - .5
       && photo.rect.right <= Math.min(current.viewport.width, current.wrapper.right) + .5

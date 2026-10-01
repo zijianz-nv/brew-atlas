@@ -141,14 +141,14 @@ async function inspectMap(device) {
     const nodes = [...wrapper.querySelectorAll('.globe-bottle')];
     return {allIds:nodes.map(node => node.dataset.beerId), shown:nodes.filter(visible).map(node => {
       const r = node.getBoundingClientRect(), image = node.querySelector('img');
-      return {id:node.dataset.beerId, src:image?.getAttribute('src'), ready:!!(image?.complete && image.naturalWidth), land:wrapper._landMask.containsRect({left:r.left-wr.left, right:r.right-wr.left, top:r.top-wr.top, bottom:r.bottom-wr.top})};
+      return {id:node.dataset.beerId, src:image?.getAttribute('src'), ready:!!(image?.complete && image.naturalWidth), land:wrapper._landMask.intersectsRect({left:r.left-wr.left, right:r.right-wr.left, top:r.top-wr.top, bottom:r.bottom-wr.top})};
     })};
   });
   for (const id of state.allIds) {
     const beer = byId.get(id);
     assert(beer && hasDescribedPhoto(beer) && located(breweries.get(beer.breweryId)), `Unverified map record ${id}`);
   }
-  for (const image of state.shown) assert(image.ready && image.src.startsWith('/') && image.land, `Map image unavailable or off land: ${image.id}`);
+  for (const image of state.shown) assert(image.ready && image.src.startsWith('/') && image.land, `Map image unavailable or entirely off land: ${image.id}`);
   assert(state.shown.length > 0, `${device}: empty default map`);
   report.states.push({device, scene:'map', visibleImages:state.shown.length, ...state});
   await noOverflow(device, 'map');

@@ -20,7 +20,7 @@ const fixtureNames = (process.env.COASTAL_FIXTURES || 'ellon,masterGao,newZealan
 const tag = process.env.COASTAL_TAG || ''; assert(!tag || /^[a-z0-9-]+$/.test(tag));
 const suffix = (before ? 'before' : 'after') + (edgeOnly ? '-edge' : '') + (diagnostic ? '-diagnostic' : '') + (tag ? `-${tag}` : '');
 const report = { startedAt: new Date().toISOString(), base, baseline: before, diagnostic, build: null, complete: false,
-  policy: 'Isolated real Chrome, ordinary country/brewery filters and zoom controls; external requests blocked. Before and after use the same real source coordinates. Every settled rectangle must be on land and avoid controls/other images. Visible anchors may not move; an image hidden for at least 700ms may reenter at a new safe location. Counts need not increase at every zoom, but specified coastal empty states must gain real images after the fix.',
+  policy: 'Isolated real Chrome, ordinary country/brewery filters and zoom controls; external requests blocked. Before and after use the same real source coordinates. Every settled rectangle must intersect land and avoid controls/other images. Visible anchors may not move; an image hidden for at least 700ms may reenter at a new safe location. Counts need not increase at every zoom, but specified coastal empty states must gain real images after the fix.',
   checks: [], states: [], phases: [], screenshots: [], external: [], errors: [], localErrors: [], findings: [],
 };
 let browser, page, active = 'initialize', beers, beerMap, breweryMap, identities;
@@ -66,7 +66,7 @@ async function state(name, brewery, { requirePhotos = false, screenshot = false 
         return { id: node.dataset.beerId, breweryId: node.dataset.sourceBreweryId, rect: r,
           sourceLat: Number(node.dataset.sourceLat), sourceLng: Number(node.dataset.sourceLng),
           lat: Number(node.dataset.displayLat), lng: Number(node.dataset.displayLng), photoScale: Number(node.dataset.photoScale || 1),
-          land: mask.containsRect(r), src: image?.getAttribute('src'), ready: node.dataset.imageState === 'ready' && image?.complete && image.naturalWidth > 0 };
+          land: mask.intersectsRect(r), src: image?.getAttribute('src'), ready: node.dataset.imageState === 'ready' && image?.complete && image.naturalWidth > 0 };
       }),
       markers: [...wrapper.querySelectorAll('[data-marker-id]')].map(node => ({ id: node.dataset.markerId, available: node._marker?.availablePhotoCount,
         assigned: node._marker?.photos.length, hidden: node._marker?.hiddenPhotoCount, visible: node._visible, layoutVisible: node._layoutVisible })),

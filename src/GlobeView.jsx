@@ -1,7 +1,7 @@
 import React, { Component, useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import Globe from 'react-globe.gl';
 import { AmbientLight, DirectionalLight, MeshPhongMaterial } from 'three';
-import { layoutMapMarkers, photoDimensions, photoLandBounds } from './marker-layout.mjs';
+import { layoutMapMarkers, photoDimensions, photoTouchesLand } from './marker-layout.mjs';
 import { hasDescribedPhoto } from './beer-photo-eligibility.mjs';
 import { photoReentryIds } from './photo-reentry.mjs';
 import { createBeerPhotoIdentityIndex } from './beer-photo-identity.mjs';
@@ -236,9 +236,9 @@ function cullMovingMarkers(entries, options) {
     const visible = [rect.left, rect.right, rect.top, rect.bottom].every(Number.isFinite) && rect.left >= options.leftMargin
       && rect.right <= options.width - options.rightMargin && rect.top >= options.topMargin
       && rect.bottom <= options.height - options.bottomMargin
-      // CSS2D transforms may round by a few hundredths of a pixel. Keep the
-      // actual DOM rectangle safely inside the sampled coast after rounding.
-      && (!photograph || options.landMask?.containsRect(photoLandBounds(rect)))
+      // Match the placement pass: a bottle may overhang the coast, but its
+      // actual frame must still touch land while following its map anchor.
+      && (!photograph || photoTouchesLand(options.landMask, rect))
       && !options.obstacles.some(overlaps) && occupied.canPlace(rect);
     if (visible) occupied.add(rect);
     return visible;

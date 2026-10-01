@@ -10,7 +10,7 @@ const sharp = runtime('sharp');
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const output = path.join(root, 'qa'), base = process.env.DEMO_URL || 'http://127.0.0.1:4173', origin = new URL(base).origin;
 const overlap = (a,b) => Math.max(0, Math.min(a.right,b.right)-Math.max(a.left,b.left))*Math.max(0, Math.min(a.bottom,b.bottom)-Math.max(a.top,b.top));
-const report = {startedAt:new Date().toISOString(), base, policy:'Every external request is blocked. No former photo-count quota is required: available land determines density. DOM rectangles are checked against the projected mask, and independent screenshots of the underlying rendered map are checked for definite ocean-coloured pixels.', checks:[], layouts:[], screenshots:[], underlays:[], external:[], pageErrors:[], localErrors:[], consoleErrors:[]};
+const report = {startedAt:new Date().toISOString(), base, policy:'Every external request is blocked. No former photo-count quota is required: available land determines density. Each DOM rectangle must intersect projected land. Independent screenshots of the underlying rendered map require confirmed land-coloured pixels under each photo; partial sea coverage is allowed.', checks:[], layouts:[], screenshots:[], underlays:[], external:[], pageErrors:[], localErrors:[], consoleErrors:[]};
 let browser, page, data, byBeer, byBrewery, activeCase='initialize';
 await mkdir(output,{recursive:true});
 
@@ -26,7 +26,7 @@ async function open(viewport,flat=false){
   await p.goto(`${base}/?collection=beertasting`,{waitUntil:'domcontentloaded'});await p.getByLabel('选择数据集',{exact:true}).waitFor();await settle(p);return p;
 }
 async function settle(p=page){
-  await p.waitForFunction(()=>!!document.querySelector('.brew-globe-view')?._landMask?.containsRect);
+  await p.waitForFunction(()=>!!document.querySelector('.brew-globe-view')?._landMask?.intersectsRect);
   await p.waitForTimeout(700);
   await p.waitForFunction(()=>[...document.querySelectorAll('.brew-globe-view .globe-bottle')].filter(n=>{const r=n.getBoundingClientRect();return r.width&&r.height&&getComputedStyle(n).visibility!=='hidden';}).every(n=>{const i=n.querySelector('img');return i?.complete&&i.naturalWidth>0&&n.dataset.imageState==='ready';}));
 }
@@ -44,7 +44,7 @@ async function snapshot(name,{wait=true,pixels=true,requirePhotos=false}={}){
     const rect=n=>{const r=n.getBoundingClientRect();return{left:r.left,top:r.top,right:r.right,bottom:r.bottom,width:r.width,height:r.height};};
     const shown=n=>{for(let a=n;a;a=a.parentElement){const c=getComputedStyle(a);if(c.display==='none'||c.visibility==='hidden'||Number(c.opacity)===0)return false;}return true;};
     const visible=n=>{const r=n.getBoundingClientRect();return r.width>0&&r.height>0&&shown(n);};
-    const photos=[...w.querySelectorAll('.globe-bottle')].filter(visible).map(n=>{const r=rect(n),i=n.querySelector('img'),bounds={left:r.left-wr.left,top:r.top-wr.top,right:r.right-wr.left,bottom:r.bottom-wr.top};return{beerId:n.dataset.beerId,breweryId:n.dataset.sourceBreweryId,lat:Number(n.dataset.sourceLat),lng:Number(n.dataset.sourceLng),sourceX:Number(n.dataset.sourceScreenX),sourceY:Number(n.dataset.sourceScreenY),offsetX:Number(n.dataset.displayOffsetX),offsetY:Number(n.dataset.displayOffsetY),src:i?.getAttribute('src'),complete:i?.complete,naturalWidth:i?.naturalWidth,naturalHeight:i?.naturalHeight,rect:r,bounds,onLand:!!mask?.containsRect(bounds),landComponent:mask?.componentAt((bounds.left+bounds.right)/2,(bounds.top+bounds.bottom)/2)};});
+    const photos=[...w.querySelectorAll('.globe-bottle')].filter(visible).map(n=>{const r=rect(n),i=n.querySelector('img'),bounds={left:r.left-wr.left,top:r.top-wr.top,right:r.right-wr.left,bottom:r.bottom-wr.top};return{beerId:n.dataset.beerId,breweryId:n.dataset.sourceBreweryId,lat:Number(n.dataset.sourceLat),lng:Number(n.dataset.sourceLng),sourceX:Number(n.dataset.sourceScreenX),sourceY:Number(n.dataset.sourceScreenY),offsetX:Number(n.dataset.displayOffsetX),offsetY:Number(n.dataset.displayOffsetY),src:i?.getAttribute('src'),complete:i?.complete,naturalWidth:i?.naturalWidth,naturalHeight:i?.naturalHeight,rect:r,bounds,onLand:!!mask?.intersectsRect(bounds),landComponent:mask?.componentAt((bounds.left+bounds.right)/2,(bounds.top+bounds.bottom)/2)};});
     const badges=[...w.querySelectorAll('.globe-bottle-count')].filter(visible).map(n=>({text:n.textContent,...rect(n)}));
     const obstacles=[...document.querySelectorAll('.topbar,.map-summary,.globe-tools,.map-hint,.filter-dock,.inspector,.brewery-tray,.compare-dock')].filter(visible).map(n=>({className:n.className,...rect(n)}));
     return{mode:w.dataset.mapMode,zoom:Number(w.dataset.zoomScale||1),viewport:[innerWidth,innerHeight],wrapper:rect(w),mask:mask?{width:mask.width,height:mask.height}:null,photos,badges,obstacles};
@@ -56,7 +56,7 @@ async function snapshot(name,{wait=true,pixels=true,requirePhotos=false}={}){
   const seen=new Set();
   for(const p of s.photos){
     const b=byBeer.get(p.beerId),br=byBrewery.get(p.breweryId);assert(b&&br);assert.equal(b.breweryId,br.id);assert.equal(p.src,b.imageThumbnail||b.image);assert.equal(p.lat,br.lat);assert.equal(p.lng,br.lng);assert(!seen.has(p.beerId));seen.add(p.beerId);
-    assert(p.onLand,`${name}: ${p.beerId} rectangle extends outside projected land`);
+    assert(p.onLand,`${name}: ${p.beerId} rectangle has no projected land intersection`);
     if(wait)assert(p.complete&&p.naturalWidth>0&&p.naturalHeight>0,`${name}: incomplete local thumbnail`);
     assert(p.rect.left>=Math.max(0,s.wrapper.left)-1&&p.rect.right<=Math.min(s.viewport[0],s.wrapper.right)+1&&p.rect.top>=Math.max(0,s.wrapper.top)-1&&p.rect.bottom<=Math.min(s.viewport[1],s.wrapper.bottom)+1,`${name}: clipped image rectangle`);
     for(const o of s.obstacles)assert(overlap(p.rect,o)<=1,`${name}: photo covers ${o.className}`);
@@ -75,16 +75,22 @@ async function independentPixels(name,row){
   try{await page.evaluate(()=>new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r))));png=await page.screenshot({animations:'disabled'});}finally{await hide.evaluate(n=>n.remove());}
   const file=path.join(output,`land-layout-${name}-underlay.png`);await writeFile(file,png);report.underlays.push(file);
   const {data:rgb,info}=await sharp(png).removeAlpha().raw().toBuffer({resolveWithObject:true});
-  const check={samples:0,landLike:0,ambiguous:0,definiteOcean:0,oceanExamples:[],rule:'Independent rendered screenshot pixels: definite ocean if blue >= green+5 and blue >= red+8; land-like if green >= blue+2 and green >= red+5. Ambiguous shading is reported, not assumed ocean. Raster samples every 2 CSS pixels inside each rectangle, including near its edges.'};
+  const check={samples:0,landLike:0,ambiguous:0,definiteOcean:0,oceanExamples:[],photos:[],rule:'Independent rendered screenshot pixels: definite ocean if blue >= green+5 and blue >= red+8; land-like if green >= blue+2 and green >= red+5. Every photo must have at least one confirmed land-like pixel; mixed land/ocean is allowed. Ambiguous shading does not count as confirmed land. Sample each pixel center inside each raw image rectangle.'};
   for(const p of row.photos){
-    const xs=[],ys=[];for(let x=p.rect.left+.75;x<p.rect.right-.75;x+=2)xs.push(x);xs.push(p.rect.right-.75);for(let y=p.rect.top+.75;y<p.rect.bottom-.75;y+=2)ys.push(y);ys.push(p.rect.bottom-.75);
-    for(const xf of xs)for(const yf of ys){const x=Math.min(info.width-1,Math.max(0,Math.round(xf))),y=Math.min(info.height-1,Math.max(0,Math.round(yf))),at=(y*info.width+x)*info.channels,[r,g,b]=[rgb[at],rgb[at+1],rgb[at+2]];check.samples++;
-      if(b>=g+5&&b>=r+8){check.definiteOcean++;if(check.oceanExamples.length<24)check.oceanExamples.push({beerId:p.beerId,x,y,rgb:[r,g,b]});}
-      else if(g>=b+2&&g>=r+5)check.landLike++;else check.ambiguous++;
+    const result={beerId:p.beerId,samples:0,landLike:0,ambiguous:0,definiteOcean:0};
+    for(let y=Math.max(0,Math.ceil(p.rect.top-.5));y<Math.min(info.height,p.rect.bottom-.5);y++){
+      for(let x=Math.max(0,Math.ceil(p.rect.left-.5));x<Math.min(info.width,p.rect.right-.5);x++){
+        const at=(y*info.width+x)*info.channels,[r,g,b]=[rgb[at],rgb[at+1],rgb[at+2]];
+        result.samples++;check.samples++;
+        if(b>=g+5&&b>=r+8){result.definiteOcean++;check.definiteOcean++;if(check.oceanExamples.length<24)check.oceanExamples.push({beerId:p.beerId,x,y,rgb:[r,g,b]});}
+        else if(g>=b+2&&g>=r+5){result.landLike++;check.landLike++;}
+        else{result.ambiguous++;check.ambiguous++;}
+      }
     }
+    check.photos.push(result);
   }
   row.independentPixels=check;
-  assert.equal(check.definiteOcean,0,`${name}: independent map screenshot contains ${check.definiteOcean} definite ocean pixels under image rectangles`);
+  for(const p of check.photos)assert(p.landLike>0,`${name}: independent map screenshot has no confirmed land pixel under image ${p.beerId} (${p.definiteOcean} ocean, ${p.ambiguous} ambiguous samples)`);
 }
 async function clickVisible(selector){
   for(let attempt=0;attempt<12;attempt++){
@@ -110,8 +116,8 @@ try{
   const r=await fetch(`${base}/data/beertasting.json`);assert(r.ok);data=await r.json();byBeer=new Map(data.beers.map(b=>[b.id,b]));byBrewery=new Map(data.breweries.map(b=>[b.id,b]));report.data={beers:data.beers.length,images:data.beers.filter(b=>b.image).length,breweries:data.breweries.length};assert(report.data.beers>0);assert(report.data.images>0);
   browser=await playwright.chromium.launch({executablePath:process.env.CHROME_PATH||'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',headless:true});
   page=await open({width:1440,height:900});
-  await check('Desktop compact beer rectangles stay inside rendered land and clear of controls',async()=>{const s=await snapshot('desktop-home',{requirePhotos:true});assert.equal(s.mode,'globe');assert(s.maxPhotoHeight<=36.5,'Desktop compact image boxes exceed 36px design height');await capture('desktop');});
-  await check('Zoom and rotation keep visible local images on land without image overlap',async()=>{await page.getByLabel('放大地球',{exact:true}).click();await snapshot('desktop-zoom');await capture('desktop-zoom');await dragMap();await snapshot('desktop-rotated');await capture('desktop-rotated');await page.getByLabel('重置地球视角',{exact:true}).click();await settle();});
+  await check('Desktop compact beer rectangles touch rendered land and remain clear of controls',async()=>{const s=await snapshot('desktop-home',{requirePhotos:true});assert.equal(s.mode,'globe');assert(s.maxPhotoHeight<=36.5,'Desktop compact image boxes exceed 36px design height');await capture('desktop');});
+  await check('Zoom and rotation keep visible local images touching land without image overlap',async()=>{await page.getByLabel('放大地球',{exact:true}).click();await snapshot('desktop-zoom');await capture('desktop-zoom');await dragMap();await snapshot('desktop-rotated');await capture('desktop-rotated');await page.getByLabel('重置地球视角',{exact:true}).click();await settle();});
   await check('Opening the original photo and brewery panel respects land and panel boundaries',async()=>{
     const clicked=await clickVisible('.brew-globe-view .globe-bottle');await page.locator('.inspector h2').waitFor();assert.equal((await page.locator('.inspector h2').innerText()).replace(/\s+/g,' ').trim(),byBeer.get(clicked.beerId).name.replace(/\s+/g,' ').trim());report.originalPhoto=await originalPhoto(clicked.beerId);await snapshot('desktop-detail');await capture('desktop-detail');await closeDetails();
     const br=data.breweries.find(b=>/Tree House/i.test(b.name))||data.breweries.find(b=>data.beers.some(x=>x.breweryId===b.id&&x.image));
@@ -120,10 +126,10 @@ try{
   });
   for(const device of[{name:'tablet',width:1024,height:768},{name:'mobile',width:390,height:844}]){
     await page.context().close();page=await open({width:device.width,height:device.height});
-    await check(`${device.name}: compact local images fit land and all main controls`,async()=>{const s=await snapshot(`${device.name}-home`,{requirePhotos:true});assert(s.maxPhotoHeight<=(device.name==='mobile'?34.5:36.5));await capture(device.name);await page.getByLabel('放大地球',{exact:true}).click();await snapshot(`${device.name}-zoom`);});
+    await check(`${device.name}: compact local images touch land and fit all main controls`,async()=>{const s=await snapshot(`${device.name}-home`,{requirePhotos:true});assert(s.maxPhotoHeight<=(device.name==='mobile'?34.5:36.5));await capture(device.name);await page.getByLabel('放大地球',{exact:true}).click();await snapshot(`${device.name}-zoom`);});
   }
   await page.context().close();page=await open({width:1440,height:900},true);
-  await check('Flat fallback and its zoom remain inside actual rendered continents',async()=>{assert.equal((await snapshot('flat-home',{requirePhotos:true})).mode,'flat');await capture('flat');await page.getByLabel('放大地球',{exact:true}).click();await snapshot('flat-zoom');await capture('flat-zoom');});
+  await check('Flat fallback and its zoom keep each photo touching a rendered continent',async()=>{assert.equal((await snapshot('flat-home',{requirePhotos:true})).mode,'flat');await capture('flat');await page.getByLabel('放大地球',{exact:true}).click();await snapshot('flat-zoom');await capture('flat-zoom');});
   await check('No external requests, failed local assets or uncaught browser errors',async()=>{assert.deepEqual(report.external,[]);assert.deepEqual(report.localErrors,[]);assert.deepEqual(report.pageErrors,[]);});
   report.passed=true;
 }catch(e){report.passed=false;report.failure={case:activeCase,message:e.message,stack:e.stack};report.checks.push({name:activeCase,passed:false,message:e.message});console.error(e);process.exitCode=1;if(page&&!page.isClosed())try{await capture('failure');}catch{}}

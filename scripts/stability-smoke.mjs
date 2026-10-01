@@ -82,7 +82,7 @@ try {
             const i = n.querySelector('img'), ready = n.dataset.imageState === 'ready' && i?.complete && i.naturalWidth > 0;
             visible.push({ id, node: idFor(n), x: r.left, y: r.top, ready });
             if (!ready) current.visibleNotReadySamples++;
-            if (!w._landMask?.containsRect(bounds)) { current.offLandSamples++; log('off-land', { id, bounds }); }
+            if (!w._landMask?.intersectsRect(bounds)) { current.offLandSamples++; log('off-land', { id, bounds }); }
             current.seenVisible.add(id);
           }
           if (k.lastVisible !== isVisible) {

@@ -78,7 +78,7 @@ async function mapState() {
       const r = rect(node), img = node.querySelector('img'), ir = img ? rect(img) : null;
       const localRect = { left: r.left - wr.left, right: r.right - wr.left, top: r.top - wr.top, bottom: r.bottom - wr.top };
       return { beerId: node.dataset.beerId, breweryId: node.dataset.sourceBreweryId, ...r,
-        land: Boolean(mask?.containsRect(localRect)), src: img?.getAttribute('src'),
+        land: Boolean(mask?.intersectsRect(localRect)), src: img?.getAttribute('src'),
         ready: node.dataset.imageState === 'ready' && Boolean(img?.complete && img.naturalWidth > 0),
         naturalWidth: img?.naturalWidth, naturalHeight: img?.naturalHeight,
         objectFit: img && getComputedStyle(img).objectFit, imageRect: ir,
@@ -108,7 +108,7 @@ async function geometry(name, { country, breweryId, requirePhoto = false } = {})
   for (const p of state.photos) {
     const beer = byBeer.get(p.beerId);
     assert.equal(p.breweryId, beer.breweryId, 'Map photo source brewery identity differs');
-    assert(p.land, `Photo rectangle crosses land mask: ${p.beerId}`);
+    assert(p.land, `Photo rectangle does not intersect land mask: ${p.beerId}`);
     assert(p.left >= state.wrapper.left - .5 && p.right <= state.wrapper.right + .5 && p.top >= state.wrapper.top - .5 && p.bottom <= state.wrapper.bottom + .5, 'Photo left map viewport');
     assert(p.left >= -.5 && p.right <= state.viewport.width + .5 && p.top >= -.5 && p.bottom <= state.viewport.height + .5, 'Photo left screen');
     assert(p.ready, `Local thumbnail not decoded: ${p.beerId}`);

@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { layoutMapMarkers, markerBounds, photoDimensions, photoLandBounds } from '../src/marker-layout.mjs';
+import { layoutMapMarkers, markerBounds, photoDimensions, photoLandBounds, photoTouchesLand } from '../src/marker-layout.mjs';
 import { createGeographicLandMask, createScreenLandMask } from '../src/land-mask.mjs';
 import { compareBeerPhotoRank } from '../src/beer-ranking.mjs';
 import { readFileSync } from 'node:fs';
@@ -66,9 +66,15 @@ function assertGeometry(result, input, opts = options) {
       assert.ok(Math.abs(photo.width - photo.height * .52) <= .006, 'the complete image frame keeps its aspect ratio when zoomed');
       assert.ok(Math.hypot(photo.displayOffsetX, photo.displayOffsetY) <= photo.maxDisplayDistance + 1e-8, 'visual expansion remains close to its own source brewery');
       if (opts.landMask) {
-        assert.ok(opts.landMask.containsRect(p), 'the entire photo must be inside land, not just its center');
-        assert.ok(opts.landMask.containsRect(photoLandBounds(p)), 'accepted placement must also pass the render-time 0.25px safety margin');
-        assert.equal(opts.landMask.componentAt(px, py), photo.landComponent);
+        assert.ok(photoTouchesLand(opts.landMask, p), 'the actual image frame must intersect land; padding cannot manufacture contact');
+        assert.ok(photo.landContactX >= p.left && photo.landContactX <= p.right && photo.landContactY >= p.top && photo.landContactY <= p.bottom);
+        const component = opts.landMask.componentAt(photo.landContactX, photo.landContactY);
+        assert.equal(component >= 0 ? component : null, photo.landComponent);
+        if (opts.landMask.geographicAt) {
+          const point = opts.landMask.geographicAt(photo.landContactX, photo.landContactY);
+          assert.ok(point && opts.landMask.geographicContains(point.lng, point.lat), 'routing support is actual land inside this frame');
+          assert.ok(opts.landMask.geographicAt(px, py), 'image center has a real display coordinate');
+        }
       }
       photoRects.push(p);
     }
@@ -460,7 +466,7 @@ test('shared land components cannot move photos across a broad sea, with paths o
     const opts = { width: 900, height: 600, landMask: mask, selectedId: 'north-coast' };
     const result = layoutMapMarkers(input, opts);
     assert.ok(result.markers[0].photos.length > 8);
-    assert.ok(result.markers[0].photos.every(photo => photo.sourceY + photo.displayOffsetY + photo.height / 2 < 280), 'no photos jump across the sea to the opposite coast');
+    assert.ok(result.markers[0].photos.every(photo => photo.landContactY <= 280 && photo.sourceY + photo.displayOffsetY < 300), 'photos may overhang the near coastline but cannot jump to the opposite coast');
     assertGeometry(result, input, opts);
   }
 });
@@ -832,7 +838,7 @@ test('a fixed nearby coastal correction remains valid when magnification makes i
     const opts = { ...options, zoom: pixelsPerKm, landMask, selectedId: 'coast' };
     const result = layoutMapMarkers(input, opts);
     assert.ok(renderedPhotos(result).length > 0, `the same 8km correction must work at ${pixelsPerKm}px/km`);
-    assert.ok(renderedPhotos(result).every(photo => photo.centerX > 200 + 8 * pixelsPerKm));
+    assert.ok(renderedPhotos(result).every(photo => photo.landContactX >= 200 + 8 * pixelsPerKm));
     assertGeometry(result, input, opts);
   }
 });
@@ -847,7 +853,8 @@ test('coastal correction rejects distant water origins and cannot bridge a sea f
   const landMask = metricCoastalMask(10, 5, true);
   assert.ok(landMask.componentAt(200, 350) >= 0, 'the original island is represented as actual land');
   const result = layoutMapMarkers(input, { ...options, zoom: 10, landMask, selectedId: 'p' });
-  assert.equal(renderedPhotos(result).length, 0, 'an on-land source cannot use the offshore correction to cross the 46px strait');
+  assert.ok(renderedPhotos(result).length > 0, 'the photograph may now overhang its original small island');
+  assert.ok(renderedPhotos(result).every(photo => photo.landContactX <= 204 && photo.centerX < 215), 'no photo may use the distant mainland across the 46px strait');
 });
 
 test('a visible safe old image survives when its brewery anchor leaves the viewport or faces away', () => {
@@ -928,8 +935,11 @@ test('a tiny real island lost only by screen sampling cannot use offshore snappi
   assert.equal(landMask.geographicContains(0, 0), true, 'the geographic source is on its own real island');
   assert.equal(landMask.componentAt(200, 350), -1, 'the island is too narrow for a complete conservative screen cell');
   const input = [place('island', 200, 350, { lat: 0, lng: 0 })];
-  assert.equal(renderedPhotos(layoutMapMarkers(input, { ...options, landMask, zoom: 10 })).length, 0,
-    'a 5km sea crossing is not a continuous geographic-land sampling correction');
+  const result = layoutMapMarkers(input, { ...options, landMask, zoom: 10 });
+  assert.ok(renderedPhotos(result).length > 0, 'an actual island sample inside the frame is sufficient even without a conservative path cell');
+  assert.ok(renderedPhotos(result).every(photo => Math.abs(photo.landContactX - 200) < .32 && Math.abs(photo.landContactY - 350) < .32),
+    'routing stays on the source island and does not cross 5km of water to mainland');
+  assertGeometry(result, input, { ...options, landMask, zoom: 10 });
 });
 
 
@@ -953,4 +963,48 @@ test('real Warkworth and Izu land routes survive narrow bridges split by conserv
     assert.ok(renderedPhotos(repeated).every(photo => photo.placementRetained));
     assertGeometry(repeated, input, opts);
   }
+});
+
+test('a coastal photo keeps its offshore center and DOM anchor when its raw frame still touches land', () => {
+  const degreesKm = Math.PI / 180 * 6371;
+  const landMask = createScreenLandMask({ width: 1000, height: 700, step: 2, padding: 2,
+    unproject: (x, y) => ({ lng: (x - 500) / 10 / degreesKm, lat: (350 - y) / 10 / degreesKm }),
+    geographicMask: { contains: lng => lng >= 0 } });
+  const input = [place('coast', 503, 350, { lat: 0, lng: .3 / degreesKm, photoBeers: photos('coast', 20) })];
+  const opts = { ...options, zoom: 2, landMask, preservePrevious: true,
+    previousPlacements: new Map([['coast-000', { x: 498, y: 350, maxDisplayDistance: 120 }]]) };
+  const result = layoutMapMarkers(input, opts), retained = renderedPhotos(result).find(photo => photo.beer.id === 'coast-000');
+  assert.ok(retained?.placementRetained);
+  assert.equal(retained.centerX, 498); assert.equal(retained.centerY, 350);
+  assert.equal(landMask.componentAt(retained.centerX, retained.centerY), -1, 'the unchanged photo center is in water');
+  assert.ok(retained.landContactX >= 500, 'a distinct routing support remains on the original shore');
+  assertGeometry(result, input, opts);
+  const whollyAtSea = layoutMapMarkers(input, { ...opts,
+    previousPlacements: new Map([['coast-000', { x: 480, y: 350, maxDisplayDistance: 120 }]]) });
+  assert.equal(renderedPhotos(whollyAtSea).some(photo => photo.beer.id === 'coast-000'), false, 'a wholly ocean old anchor must hide rather than jump');
+});
+
+test('contact-based geographic fallback cannot skip a narrow high-latitude water raster cell', () => {
+  const waterLeft = .3515625, waterRight = .3955078125;
+  const landMask = {
+    geographicWidth: 8192, geographicHeight: 4096,
+    geographicContains: lng => lng < waterLeft || lng >= waterRight,
+    geographicAt: (x, y) => ({ lng: (x - 300) / 10, lat: 80 + (350 - y) / 100 }),
+    componentAt: () => -1, containsPoint: () => false,
+    nearestLandPoint: () => null, distancesFrom: () => ({ distanceAt: () => Infinity }),
+    intersectsRect: rect => rect.left > 365 && rect.right < 400 && rect.top > 325 && rect.bottom < 375,
+    landPointInRect(rect) { return this.intersectsRect(rect) ? { x: (rect.left + rect.right) / 2, y: (rect.top + rect.bottom) / 2 } : null; },
+  };
+  const input = [place('polar', 300, 350, { lat: 80, lng: 0, photoBeers: photos('polar', 10) })];
+  const result = layoutMapMarkers(input, { ...options, zoom: 10, selectedId: 'polar', landMask });
+  assert.equal(renderedPhotos(result).length, 0, 'sub-kilometre water pixels cannot become a new straight-line land route');
+});
+
+test('intersection-only mask contract admits coastal overhang while invalid frames fail closed', () => {
+  const seen = [];
+  const mask = { intersectsRect(rect) { seen.push({ ...rect }); return rect.right > 100 && rect.left < 110; } };
+  const rect = { left: 98, right: 102, top: 5, bottom: 10 };
+  assert.equal(photoTouchesLand(mask, rect), true);
+  assert.deepEqual(seen, [rect], 'new API receives the exact unpadded image frame');
+  for (const invalid of [null, { ...rect, right: 98 }, { ...rect, left: NaN }]) assert.equal(photoTouchesLand(mask, invalid), false);
 });

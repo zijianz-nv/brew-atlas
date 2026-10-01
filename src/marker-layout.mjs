@@ -14,6 +14,17 @@ const rectAt = (x, y, width, height) => ({ left: x - width / 2, right: x + width
 export const photoLandBounds = rect => ({left:rect.left - 0.25,right:rect.right + 0.25,
   top:rect.top - 0.25,bottom:rect.bottom + 0.25});
 
+/** Shared by layout and culling; never enlarge a frame to manufacture contact. */
+export function photoTouchesLand(mask, rect) {
+  if (!rect || ![rect.left, rect.right, rect.top, rect.bottom].every(finite)
+    || rect.right <= rect.left || rect.bottom <= rect.top) return false;
+  if (typeof mask?.intersectsRect === 'function') return mask.intersectsRect(rect);
+  // Older consumers may provide only the original conservative mask contract.
+  return typeof mask?.containsRect === 'function' && mask.containsRect(photoLandBounds(rect));
+}
+const landSupport = cell => cell.landPoint || cell;
+
+
 export function markerBounds(marker) {
   return rectAt(marker.x + (marker.displayOffsetX || 0), marker.y + (marker.displayOffsetY || 0), marker.markerWidth, marker.markerHeight);
 }
@@ -39,12 +50,9 @@ function continuousGeographicLand(mask, from, to) {
   if (!finite(distance) || distance > 300) return false;
   const steps = Math.max(1, Math.ceil(distance), Math.ceil(Math.hypot(to.x - from.x, to.y - from.y) * 2));
   if (steps > 2048) return false;
-  const deltaLng = ((target.lng - from.lng + 540) % 360) - 180;
-  for (let step = 1; step <= steps; step++) {
-    const fraction = step / steps;
-    if (!mask.geographicContains(from.lng + deltaLng * fraction, from.lat + (target.lat - from.lat) * fraction)) return false;
-  }
-  return true;
+  // Reuse the raster supercover rather than kilometre-spaced probes: at high
+  // latitudes a real water pixel can be narrower than one kilometre.
+  return geographicLandSegment(mask, from, target);
 }
 
 // Test every geographic-raster cell intersected by a segment. Explicit corner
@@ -192,8 +200,10 @@ export function photoDimensions({ zoom = 1, photoZoomBase = 1, compact = false }
  * and no occupancy rectangles, so renderers must not create a fallback symbol.
  * markerWidth/Height enclose only photographs; empty portions of that enclosing
  * box may overlap other groups or controls and must not be culled.
- * Optional landMask.containsRect receives screen-space rectangles and must test
- * their whole area, including coastlines and holes. componentAt returns a
+ * Optional landMask.intersectsRect tests actual land inside the raw image frame.
+ * landPointInRect returns an interior land contact used only for path routing;
+ * the photo center can be offshore. Legacy containsRect remains supported.
+ * componentAt returns a
  * nonnegative land component ID, or -1/null for water.
  * Optional distancesFrom(x,y,maxDistance,{snapDistance}) returns distanceAt(x,y)
  * along land, with Infinity for unreachable cells. It takes precedence over the
@@ -206,7 +216,7 @@ export function photoDimensions({ zoom = 1, photoZoomBase = 1, compact = false }
  * new safe grid cell; a safe previous center always takes precedence. The caller
  * owns the hidden-time/settled-camera policy and the re-entry fade.
  * A caller may scale the prior, already validated reach with the projection;
- * this never relaxes full-rectangle land or local land-path checks. Photos may
+ * this never relaxes actual rectangle/land contact or local land-path checks. Photos may
  * partly overlap, with both pairwise and accumulated occlusion bounded.
  * All photos use the same dimensions at a given zoom, including retained ones.
  * A source without room waits for more map space. A retainOnly source keeps safe old
@@ -227,7 +237,7 @@ export function layoutMapMarkers(entries, {
   const reachReferenceHeight = compact ? 30 : 32;
   const { photoWidth, photoHeight } = photoDimensions({ zoom, photoZoomBase, compact });
   const previous = previousPlacements instanceof Map ? previousPlacements : new Map();
-  const landConstrained = typeof landMask?.containsRect === 'function';
+  const landConstrained = typeof landMask?.intersectsRect === 'function' || typeof landMask?.containsRect === 'function';
   // Preserve nearby-source grouping without reserving a visible badge or any
   // cells for it. Allocation and collision detection use photographs only.
   const gap = 1, groupingWidth = landConstrained ? 32 : 90, groupingHeight = landConstrained ? 14 : 22;
@@ -243,13 +253,20 @@ export function layoutMapMarkers(entries, {
   const fitsPhoto = rect => rect.left >= bounds.left && rect.right <= bounds.right
     && rect.top >= bounds.top && rect.bottom <= bounds.bottom
     && !blocked.some(obstacle => overlaps(rect, obstacle, gap))
-    && (!landConstrained || landMask.containsRect(photoLandBounds(rect)));
+    && (!landConstrained || photoTouchesLand(landMask, rect));
+  const photoCell = (x, y, rect) => {
+    if (!fitsPhoto(rect)) return null;
+    const landPoint = typeof landMask?.landPointInRect === 'function' ? landMask.landPointInRect(rect) : { x, y };
+    if (!landPoint) return null;
+    const component = componentAt(landPoint.x, landPoint.y);
+    // Real geographic land can be narrower than one conservative path cell.
+    if (hasComponents && component === null && typeof landMask?.landPointInRect !== 'function') return null;
+    return { x, y, rect, landPoint, component, scale: 1, photoWidth, photoHeight };
+  };
   const previousCell = beerId => {
     const point = previous.get(beerId);
     if (!point || !finite(point.x) || !finite(point.y)) return null;
-    const rect = rectAt(point.x, point.y, photoWidth, photoHeight), component = componentAt(point.x, point.y);
-    return fitsPhoto(rect) && (!hasComponents || component !== null)
-      ? { x: point.x, y: point.y, rect, component, scale: 1, photoWidth, photoHeight } : null;
+    return photoCell(point.x, point.y, rectAt(point.x, point.y, photoWidth, photoHeight));
   };
   const candidates = [], retainedOnlySources = new Set();
   for (const entry of entries) {
@@ -296,10 +313,8 @@ export function layoutMapMarkers(entries, {
     for (let row = 0, y = bounds.top + h / 2; y + h / 2 <= bounds.bottom; row++, y += pitchY) {
       for (let x = bounds.left + w / 2 + (row % 2) * pitchX / 2; x + w / 2 <= bounds.right; x += pitchX) {
         const rect = rectAt(x, y, w, h);
-        if (!fitsPhoto(rect)) continue;
-        const component = componentAt(x, y);
-        if (hasComponents && component === null) continue;
-        cells.push({ x, y, rect, component, index: cells.length, key: cells.length, scale: 1, photoWidth, photoHeight });
+        const cell = photoCell(x, y, rect);
+        if (cell) cells.push({ ...cell, index: cells.length, key: cells.length });
       }
     }
     return sharedCells = cells;
@@ -329,7 +344,8 @@ export function layoutMapMarkers(entries, {
         // A source outside this projection can only preserve already validated
         // geographic anchors. Its off-screen path cannot be sampled here.
         if (retainedOnlySources.has(place.id)) {
-          const policy = { cells: [], accepts: cell => Math.hypot(cell.x - place.x, cell.y - place.y) <= reach };
+          const policy = { cells: [], accepts: cell => Math.hypot(cell.x - place.x, cell.y - place.y) <= reach
+            && (typeof landMask?.geographicAt !== 'function' || geographicDistance(place, landMask.geographicAt(cell.x, cell.y)) <= 300) };
           policies.set(key, policy); return policy;
         }
         const nearby = [...layoutCells(), ...oldCells].map(cell => ({ cell, distance: Math.hypot(cell.x - place.x, cell.y - place.y) }))
@@ -349,22 +365,29 @@ export function layoutMapMarkers(entries, {
           shore?.x ?? place.x, shore?.y ?? place.y, pathBudget, { snapDistance: offshore ? 0 : 12 }) : null;
         let component = shore?.component ?? sourceComponent;
         let reaches = cell => offshore
-          ? !!shore && cell.component === shore.component && distances.distanceAt(cell.x, cell.y) <= pathBudget
-          : distances ? distances.distanceAt(cell.x, cell.y) <= reach
+          ? !!shore && cell.component === shore.component && distances.distanceAt(landSupport(cell).x, landSupport(cell).y) <= pathBudget
+          : distances ? distances.distanceAt(landSupport(cell).x, landSupport(cell).y) <= reach
             : (!hasComponents || (component !== null && cell.component === component))
-              && (!landConstrained || shortWaterConnection(landMask, place, cell));
+              && (!landConstrained || shortWaterConnection(landMask, place, landSupport(cell)));
+        if (actualLandSource && typeof landMask?.landPointInRect === 'function') {
+          const screenReaches = reaches;
+          // Routing stops at land within the frame, not at its possibly ocean
+          // center. Thin islands need no fully-land screen cell to support a photo.
+          reaches = cell => screenReaches(cell) || (Math.hypot(landSupport(cell).x - place.x, landSupport(cell).y - place.y) <= reach
+            && continuousGeographicLand(landMask, place, landSupport(cell)));
+        }
         if (!offshore && hasComponents && !nearby.some(candidate => reaches(candidate.cell))) {
           // Sources actually on an island/land retain the existing short-sea
           // policy. A large body of water never becomes a coastal correction.
           const coastalReach = Math.min(reach, reachReferenceHeight * 2);
-          const nearest = nearby.find(candidate => candidate.distance <= coastalReach && shortWaterConnection(landMask, place, candidate.cell));
+          const nearest = nearby.find(candidate => candidate.distance <= coastalReach && shortWaterConnection(landMask, place, landSupport(candidate.cell)));
           component = nearest?.cell.component ?? null;
           const remaining = nearest ? reach - nearest.distance : 0;
           const coastalDistances = nearest && hasPaths
-            ? landMask.distancesFrom(nearest.cell.x, nearest.cell.y, remaining, { snapDistance: 0 }) : null;
+            ? landMask.distancesFrom(landSupport(nearest.cell).x, landSupport(nearest.cell).y, remaining, { snapDistance: 0 }) : null;
           reaches = cell => !!nearest && cell.component === component && (coastalDistances
-            ? coastalDistances.distanceAt(cell.x, cell.y) <= remaining
-            : shortWaterConnection(landMask, place, cell));
+            ? coastalDistances.distanceAt(landSupport(cell).x, landSupport(cell).y) <= remaining
+            : shortWaterConnection(landMask, place, landSupport(cell)));
         }
         // New images must remain geographically local even when a large
         // continent offers thousands of kilometres within a few screen pixels.
@@ -374,7 +397,7 @@ export function layoutMapMarkers(entries, {
         const localCandidates = nearby.filter(candidate => localGeography(candidate.cell));
         if (actualLandSource && localCandidates.length && !localCandidates.some(candidate => reaches(candidate.cell))) {
           const route = geographicLandRoute(landMask, place), screenReaches = reaches;
-          if (route) reaches = cell => screenReaches(cell) || route.reaches(landMask.geographicAt(cell.x, cell.y));
+          if (route) reaches = cell => screenReaches(cell) || route.reaches(landMask.geographicAt(landSupport(cell).x, landSupport(cell).y));
         }
         let cells = nearby.filter(candidate => Number.isInteger(candidate.cell.index)
           && reaches(candidate.cell) && localGeography(candidate.cell)).map(candidate => candidate.cell);
@@ -382,9 +405,9 @@ export function layoutMapMarkers(entries, {
           // A narrower frame can still miss a small peninsula when the global
           // lattice changes phase. Only an otherwise empty actual-land source
           // gets a bounded local half-pitch search. The geographic land route,
-          // full padded rectangle, overlays and 300km limit are unchanged.
+          // actual rectangle/land contact, overlays and 300km limit are unchanged.
           const route = geographicLandRoute(landMask, place), screenReaches = reaches;
-          if (route) reaches = cell => screenReaches(cell) || route.reaches(landMask.geographicAt(cell.x, cell.y));
+          if (route) reaches = cell => screenReaches(cell) || route.reaches(landMask.geographicAt(landSupport(cell).x, landSupport(cell).y));
           const stepX = pitchX / 2, stepY = pitchY / 2;
           const cols = Math.ceil(reach / stepX), rows = Math.ceil(reach / stepY);
           const offsets = [];
@@ -396,15 +419,14 @@ export function layoutMapMarkers(entries, {
           for (const offset of offsets.slice(0, 4096)) {
             const x = place.x + offset.dx, y = place.y + offset.dy;
             const rect = rectAt(x, y, photoWidth, photoHeight);
-            if (!fitsPhoto(rect)) continue;
-            const component = componentAt(x, y);
-            if (hasComponents && component === null) continue;
-            const cell = { x, y, rect, component, index: layoutCells().length + cells.length,
-              key: `local:${place.id}:${offset.row}:${offset.col}`, scale: 1, photoWidth, photoHeight };
+            const contact = photoCell(x, y, rect);
+            if (!contact) continue;
+            const cell = { ...contact, index: layoutCells().length + cells.length,
+              key: `local:${place.id}:${offset.row}:${offset.col}` };
             if (localGeography(cell) && reaches(cell)) cells.push(cell);
           }
         }
-        const accepts = cell => Math.hypot(cell.x - place.x, cell.y - place.y) <= reach && reaches(cell);
+        const accepts = cell => Math.hypot(cell.x - place.x, cell.y - place.y) <= reach && localGeography(cell) && reaches(cell);
         const policy = { accepts, cells };
         policies.set(key, policy);
         return policy;
@@ -495,7 +517,7 @@ export function layoutMapMarkers(entries, {
       sourceId: place.id, sourceLat: place.lat, sourceLng: place.lng, sourceX: place.x, sourceY: place.y,
       x: cell.x - centerX, y: cell.y - centerY, width: cell.photoWidth, height: cell.photoHeight, scale: cell.scale,
       displayOffsetX: cell.x - place.x, displayOffsetY: cell.y - place.y,
-      landComponent: cell.component, sourceLandComponent: source.sourceComponent, maxDisplayDistance: reach, placementRetained,
+      landComponent: cell.component, landContactX: landSupport(cell).x, landContactY: landSupport(cell).y, sourceLandComponent: source.sourceComponent, maxDisplayDistance: reach, placementRetained,
     }));
     return { ...entry, anchorId: entry.id, representative: entry,
       id: members.length > 1 ? `cluster:${entry.id}` : entry.id,

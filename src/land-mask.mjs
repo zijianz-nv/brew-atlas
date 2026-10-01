@@ -109,6 +109,52 @@ function labelComponents(cells, columns, rows) {
 }
 
 /**
+ * Photo contact uses actual geographic land samples INSIDE the raw image frame,
+ * not padded cells. The same <=1 CSS-pixel lattice and interior probes are used
+ * by the full mask and the animation guard. Unlike conservative path cells, a
+ * single represented island pixel is enough; no neighbouring water is filled.
+ * This remains bounded by the displayed geographic raster/projection resolution.
+ */
+function createLandIntersectionSampler({ width, height, step, landAt, sparse = false }) {
+  const spacing = Math.min(1, step), columns = Math.ceil(width / spacing) + 1;
+  const rows = Math.ceil(height / spacing) + 1;
+  const samples = sparse ? new Map() : new Int8Array(columns * rows);
+  const sampled = (column, row) => {
+    const key = row * columns + column;
+    const cached = sparse ? samples.get(key) : samples[key];
+    if (cached) return cached === 1;
+    const value = landAt(column * spacing, row * spacing) ? 1 : -1;
+    if (sparse) samples.set(key, value); else samples[key] = value;
+    return value === 1;
+  };
+  const landPointInRect = rect => {
+    if (!rect || ![rect.left, rect.right, rect.top, rect.bottom].every(finite)
+      || rect.right <= rect.left || rect.bottom <= rect.top
+      || rect.left < 0 || rect.right > width || rect.top < 0 || rect.bottom > height) return null;
+    const cx = (rect.left + rect.right) / 2, cy = (rect.top + rect.bottom) / 2;
+    if (landAt(cx, cy)) return { x: cx, y: cy };
+    // Strictly interior probes avoid counting a neighbouring coastline that only
+    // touches the mathematical edge, including fractional CSS frame positions.
+    const ex = Math.min(.001, (rect.right - rect.left) / 4), ey = Math.min(.001, (rect.bottom - rect.top) / 4);
+    const xs = [rect.left + ex, cx, rect.right - ex], ys = [rect.top + ey, cy, rect.bottom - ey];
+    let best = null, nearest = Infinity;
+    const consider = (x, y) => {
+      const distance = (x - cx) ** 2 + (y - cy) ** 2;
+      if (distance < nearest) { nearest = distance; best = { x, y }; }
+    };
+    for (const y of ys) for (const x of xs) if ((x !== cx || y !== cy) && landAt(x, y)) consider(x, y);
+    const left = Math.floor(rect.left / spacing) + 1, right = Math.ceil(rect.right / spacing) - 1;
+    const top = Math.floor(rect.top / spacing) + 1, bottom = Math.ceil(rect.bottom / spacing) - 1;
+    for (let row = top; row <= bottom; row++) for (let column = left; column <= right; column++) {
+      const x = column * spacing, y = row * spacing;
+      if ((x - cx) ** 2 + (y - cy) ** 2 < nearest && sampled(column, row)) consider(x, y);
+    }
+    return best;
+  };
+  return { landPointInRect, intersectsRect: rect => landPointInRect(rect) !== null };
+}
+
+/**
  * Every cell checks four corners plus its centre through the actual projection.
  * A rectangle passes only when EVERY intersected cell is land (integral-image
  * query), with an additional 2px inward safety margin by default. This checks
@@ -159,6 +205,7 @@ export function createScreenLandMask({ width, height, unproject, geographicMask,
     // This distinguishes a real offshore source from a thin coastal land pixel.
     geographicContains: geographicMask.contains,
     geographicWidth: geographicMask.width, geographicHeight: geographicMask.height,
+    ...createLandIntersectionSampler({ width, height, step, landAt }),
     componentAt,
     containsPoint: (x, y) => componentAt(x, y) >= 0,
     containsRect(rect) {
@@ -315,6 +362,7 @@ export function createProjectedLandGuard({ width, height, unproject, geographicM
     && cellAt(Math.floor(x / step), Math.floor(y / step));
   return {
     width, height, step, padding,
+    ...createLandIntersectionSampler({ width, height, step, landAt, sparse: true }),
     containsPoint,
     componentAt: (x, y) => containsPoint(x, y) ? 0 : -1,
     containsRect(rect) {

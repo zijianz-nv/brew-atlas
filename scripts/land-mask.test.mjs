@@ -192,3 +192,45 @@ test('50m public asset has closed rings and no non-horizontal uncut date-line ed
     }
   }
 });
+
+test('photo contact permits coast overhang but does not borrow land from padding or a neighbouring cell', () => {
+  const mask = planar(x => x >= 20, { padding: 2 });
+  assert.equal(mask.intersectsRect({ left: 16, right: 22, top: 5, bottom: 15 }), true);
+  assert.equal(mask.containsRect({ left: 16, right: 22, top: 5, bottom: 15 }), false);
+  assert.equal(mask.intersectsRect({ left: 16, right: 19.99, top: 5, bottom: 15 }), false, 'padding touching the shore is not image/land contact');
+  assert.equal(mask.intersectsRect({ left: 16, right: 20, top: 5, bottom: 15 }), false, 'touching only the zero-area mathematical edge does not count');
+  const contact = mask.landPointInRect({ left: 16, right: 22, top: 5, bottom: 15 });
+  assert.ok(contact.x >= 20 && contact.x < 22 && contact.y > 5 && contact.y < 15);
+});
+
+test('intersection sees an interior small island, while wholly ocean and wholly lake frames stay hidden', () => {
+  const mask = planar((x, y) => Math.abs(x - 18) < .3 && Math.abs(y - 14) < .3);
+  const frame = { left: 10.4, right: 23.4, top: 5.3, bottom: 23.3 };
+  assert.equal(mask.componentAt(18, 14), -1, 'no full conservative path cell fits this island');
+  assert.equal(mask.intersectsRect(frame), true, 'an actual interior island sample suffices despite ocean center and corners');
+  assert.equal(mask.intersectsRect({ left: 2, right: 9, top: 2, bottom: 8 }), false);
+  const lake = planar((x, y) => !(x > 10 && x < 30 && y > 5 && y < 25));
+  assert.equal(lake.intersectsRect({ left: 12, right: 28, top: 7, bottom: 23 }), false);
+  assert.equal(lake.intersectsRect({ left: 9, right: 28, top: 7, bottom: 23 }), true);
+});
+
+test('full mask and current-frame guard agree on raw intersections at fractional positions and globe edges', () => {
+  const options = { width: 40, height: 30, step: 2, padding: 2,
+    unproject: (x, y) => (x - 20) ** 2 + (y - 15) ** 2 < 14 ** 2 ? { lng: x, lat: y } : null,
+    geographicMask: { contains: (x, y) => x >= 20 || Math.abs(x - 10) < .3 && Math.abs(y - 12) < .3 } };
+  const full = createScreenLandMask(options), guard = createProjectedLandGuard(options);
+  let successes = 0, failures = 0;
+  for (let y = .2; y < 25; y += 2.7) for (let x = .3; x < 34; x += 2.3) {
+    const rect = { left: x, right: x + 5, top: y, bottom: y + 4 };
+    const expected = full.intersectsRect(rect);
+    assert.equal(guard.intersectsRect(rect), expected);
+    assert.deepEqual(guard.landPointInRect(rect), full.landPointInRect(rect));
+    if (expected) successes++; else failures++;
+  }
+  assert.ok(successes > 0 && failures > 0);
+  for (const rect of [null, { left: NaN, right: 4, top: 2, bottom: 3 },
+    { left: -1, right: 23, top: 5, bottom: 8 }, { left: 1, right: 2, top: 4, bottom: 4 }]) {
+    assert.equal(full.intersectsRect(rect), false); assert.equal(guard.intersectsRect(rect), false);
+  }
+  assert.equal(guard.intersectsRect({ left: 0, right: 4, top: 0, bottom: 4 }), false, 'fully off-globe is not land');
+});
