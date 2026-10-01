@@ -2,6 +2,8 @@
 
 当前版本 **1.19.0**。恢复并合并已有酒款，不再要求获奖、畅销或代表资格。获奖和代表保留为可重合的筛选标签。支持 Mac 本地运行和 GitHub Pages 静态部署。
 
+[打开在线地图](https://zijianz-nv.github.io/brew-atlas/) · [浏览全部酒库](https://zijianz-nv.github.io/brew-atlas/?collection=all&view=library) · [查看日本](https://zijianz-nv.github.io/brew-atlas/?collection=all&view=globe&beer=curated-award-2953998)
+
 ## 本地数据
 
 | 项目 | 数量 |
