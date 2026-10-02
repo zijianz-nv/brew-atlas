@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "checkedAt": "2026-10-02",
+    "purpose": "Verified US-made Lagunitas IPA with product launch year 1995",
+    "breweries": 1,
+    "beers": 1
+  },
+  "breweries": [
+    {
+      "id": "openbeer-brewery-765",
+      "name": "Lagunitas Brewing Company",
+      "nameZh": "拉古尼塔斯",
+      "country": "United States",
+      "countryZh": "美国",
+      "countryCode": "US",
+      "city": "Petaluma",
+      "region": "California",
+      "lat": 38.24583333,
+      "lng": -122.63138889,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Petaluma",
+        "resolvedLocality": "Petaluma, California",
+        "countryCode": "US",
+        "lat": 38.24583333,
+        "lng": -122.63138889,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://lagunitas.com/taproom/petaluma/",
+        "identitySourceUrl": "https://lagunitas.com/taproom/petaluma/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Petaluma,_California",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Petaluma%2C_California&colimit=max",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/year-1995-lagunitas/coordinates.json",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://lagunitas.com/beer/ipa/",
+          "https://lagunitas.com/history/",
+          "https://lagunitas.com/taproom/petaluma/"
+        ],
+        "verificationNote": "官方现址为1280 N. McDowell Boulevard, Petaluma, California。此处使用Petaluma城市参考点，不声称1995首批生产在这一建筑，不把境外酿造版作为美国原产。"
+      },
+      "website": "https://lagunitas.com/",
+      "description": "美国加利福尼亚州 Petaluma 的 Lagunitas 旗舰酒厂；官方现址为 North McDowell Boulevard。",
+      "sourceUrls": [
+        "https://lagunitas.com/beer/ipa/",
+        "https://lagunitas.com/history/",
+        "https://lagunitas.com/taproom/petaluma/"
+      ],
+      "craftStatus": "industrial_reference"
+    }
+  ],
+  "beers": [
+    {
+      "id": "lagunitas-ipa-us",
+      "name": "Lagunitas IPA",
+      "breweryId": "openbeer-brewery-765",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "American IPA",
+      "styleZh": "美式IPA",
+      "abv": 6.2,
+      "ibu": 51,
+      "srm": null,
+      "description": "1995年推出的 Lagunitas 旗舰 IPA。焦糖麦芽带来的饱满度平衡酒花苦味，官方列出 Cascade、Centennial、Chinook 和 Simcoe 酒花，以及 Crystal、Caramel 与 Munich 麦芽。此条采用美国官网6.2%版本及标注 Petaluma, CA 的12盎司瓶装。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://lagunitas.com/beer/ipa/",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/year-1995-lagunitas/product.html",
+        "sourceSha256": "ab31f2778c87e681b418dddf2d4955d0a0c12c94b2da00251c6ecd78e43baadc",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_product_description",
+        "method": "faithful Chinese paraphrase of official product facts"
+      },
+      "flavors": [
+        "麦芽",
+        "焦糖"
+      ],
+      "flavorEvidence": [
+        {
+          "tag": "焦糖",
+          "sourceUrl": "https://lagunitas.com/beer/ipa/",
+          "basis": "Caramel Malt barley provides richness; explicit malt profile"
+        }
+      ],
+      "hops": [
+        "Cascade",
+        "Centennial",
+        "Chinook",
+        "Simcoe"
+      ],
+      "malts": [
+        "English Crystal",
+        "Caramel",
+        "Munich"
+      ],
+      "yeast": null,
+      "fermentation": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "launchYearEvidence": {
+        "beerId": "lagunitas-ipa-us",
+        "year": 1995,
+        "kind": "first_release",
+        "claim": "官网历史时间线的1995节标题为IPA is Born；官方2023产品资料另说明本款1995作为季节酒首次发布。",
+        "sourceUrl": "https://lagunitas.com/history/",
+        "sourceUrls": [
+          "https://lagunitas.com/history/",
+          "https://lagunitas.com/wp-content/uploads/2023/10/NACS_2023-1.pdf"
+        ],
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/year-1995-lagunitas/history.html",
+        "sourceSha256": "171d38642c5d4225e566ac04e767a1009c34c328c73d65170aac0853ba189bce",
+        "checkedAt": "2026-10-02"
+      },
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://lagunitas.com/beer/ipa/",
+        "https://lagunitas.com/history/",
+        "https://lagunitas.com/taproom/petaluma/"
+      ],
+      "sourceNote": "美国官网产品与Petaluma瓶标核对。官网明确另在英国、荷兰与巴西开展酿造，本条不代表这些境外版本，也不将产地不明的瑞典零售SKU强行改为美国产。1995是此酒款发布年，非酒厂成立年1993。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Petaluma",
+        "resolvedLocality": "Petaluma, California",
+        "countryCode": "US",
+        "lat": 38.24583333,
+        "lng": -122.63138889,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://lagunitas.com/taproom/petaluma/",
+        "identitySourceUrl": "https://lagunitas.com/taproom/petaluma/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Petaluma,_California",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Petaluma%2C_California&colimit=max",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/year-1995-lagunitas/coordinates.json",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://lagunitas.com/beer/ipa/",
+          "https://lagunitas.com/history/",
+          "https://lagunitas.com/taproom/petaluma/"
+        ],
+        "verificationNote": "官方现址为1280 N. McDowell Boulevard, Petaluma, California。此处使用Petaluma城市参考点，不声称1995首批生产在这一建筑，不把境外酿造版作为美国原产。"
+      },
+      "image": "/images/year-1995-lagunitas/ipa-us-card.webp",
+      "imageThumbnail": "/images/year-1995-lagunitas/ipa-us-map.webp",
+      "imageOriginal": "/images/year-1995-lagunitas/ipa-us-original.png",
+      "imageKind": "product_packshot",
+      "imageCacheStatus": "cached",
+      "imageSource": "https://lagunitas.com/beer/ipa/",
+      "imageDownloadUrl": "https://lagunitas.com/wp-content/uploads/2021/05/lagunitas-beer-can-template-v2_IPA.12ozBOTTLE-675x1024.png",
+      "imageCredit": "Lagunitas官方产品实物图；保留原图，仅裁去透明留白并缩放。",
+      "imageLicense": null,
+      "imageEvidence": {
+        "sourceClass": "official_product_packshot",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "c7fccac330a8710a8fa9823a88b72a5e53a8f031cd3e95d37e6fcd15b478ce93",
+        "mapSha256": "d9b7ac5d9e5acc9a95051c140842b1703a0ca641186b359d249bafa0ad2cf963",
+        "mapBytes": 4398,
+        "mapDimensions": [
+          53,
+          160
+        ],
+        "cardDimensions": [
+          216,
+          650
+        ],
+        "method": "native transparent image; crop transparent padding and resize; no synthesized packaging",
+        "originalRGBPreserved": true
+      },
+      "imageContentBounds": {
+        "width": 216,
+        "height": 650,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 216,
+          "height": 650
+        },
+        "method": "native alpha body crop"
+      }
+    }
+  ]
+}

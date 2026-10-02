@@ -1,11 +1,21 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {filterCatalog,countFacets,EMPTY_FACETS,FILTER_DIMENSIONS,matchesFilters,valuesFor} from '../src/catalog-filters.mjs';
+import {filterCatalog,countFacets,EMPTY_FACETS,FILTER_DIMENSIONS,matchesFilters,valuesFor,beerSearchText} from '../src/catalog-filters.mjs';
 
 const beers=[{id:'a',breweryId:'one',abv:0},{id:'b',breweryId:'two',abv:null},{id:'c',breweryId:'two',abv:6}];
 const breweries={one:{country:'A'},two:{country:'B'}};
 const taxonomy={a:{family:'ipa',substyle:{id:'hazy'},taste:['sweet'],aroma:['citrus','tropical']},b:{family:'lager-bock',substyle:{id:'pils'},taste:[],aroma:[]},c:{family:'ipa',substyle:{id:'american'},taste:['bitter'],aroma:['citrus']}};
 const base={...EMPTY_FACETS,country:'all',strength:'all'};
+test('city, region and supplied native aliases locate the same beer without changing its origin',()=>{
+  const beer={name:'Local IPA',nameAliases:['Местный IPA'],style:'IPA',flavors:['柑橘']};
+  const brewery={name:'Local Brewery',city:'Almaty',cityZh:'阿拉木图',cityAliases:['Алматы','Alma-Ata'],
+    region:'Almaty Region',regionZh:'阿拉木图州',country:'Kazakhstan',countryZh:'哈萨克斯坦'};
+  const before=structuredClone({beer,brewery}),text=beerSearchText(beer,brewery);
+  for(const term of ['Almaty','阿拉木图','Алматы','Alma-Ata','哈萨克斯坦','Местный IPA','柑橘'])assert.ok(text.includes(term.toLowerCase()),term);
+  assert.ok(!text.includes('bishkek'));
+  assert.deepEqual({beer,brewery},before);
+  assert.equal(beerSearchText({name:'Only a name'},undefined),'only a name');
+});
 test('unknown is distinct from zero ABV and absent facets remain searchable',()=>{
   assert.deepEqual(filterCatalog(beers,taxonomy,breweries,{...base,strength:'light'}).map(b=>b.id),['a']);
   assert.deepEqual(filterCatalog(beers,taxonomy,breweries,{...base,strength:'unknown',aroma:'unknown'}).map(b=>b.id),['b']);

@@ -1,0 +1,2384 @@
+{
+  "metadata": {
+    "createdAt": "2026-10-02",
+    "status": "reviewed_batch",
+    "beerCount": 19,
+    "countryCount": 19,
+    "targetCountryCount": 38,
+    "importedBeerSubstitutions": 0,
+    "historicalCountries": [
+      "Gambia"
+    ],
+    "mapThumbnailMaxBytes": 9688,
+    "sourcePolicy": "Actual local manufacture only. Official producers preferred; public product catalogues for exact real packaging. Historical local beer explicitly marked. No invented labels, country coordinates, ratings or sales rankings.",
+    "notGlobalCompletion": true
+  },
+  "breweries": [
+    {
+      "id": "global-africa-brewery-cuca",
+      "name": "CUCA / Grupo Castel Angola",
+      "city": "Luanda",
+      "cityZh": "罗安达",
+      "country": "Angola",
+      "countryZh": "安哥拉",
+      "countryCode": "AO",
+      "countryBasis": "documented_local_producer",
+      "lat": -8.83833333,
+      "lng": 13.23444444,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://grupocastelangola.com/grupo-castel/fabricas-2/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Luanda",
+      "locationNote": "城市参考点，非精确厂房或逐批产品生产位置。",
+      "sourceUrls": [
+        "https://grupocastelangola.com/grupo-castel/fabricas-2/",
+        "https://en.wikipedia.org/wiki/Luanda"
+      ],
+      "locationEvidence": {
+        "identitySourceUrl": "https://grupocastelangola.com/grupo-castel/fabricas-2/",
+        "identityEvidenceFile": "research/global-coverage-africa/cuca-factory.html",
+        "identitySha256": "77e719202da06af288fcab3a80d7a55f87d113e8b6e392e0f14fd80d5e295698",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Luanda",
+        "coordinateEvidenceFile": "research/global-coverage-africa/coordinates.json",
+        "coordinateSha256": "9ad0893dd27594059fbad06c640fb36b64b352becc2cda4f0ecb94cd93fdc071",
+        "coordinatePlaceTitle": "Luanda",
+        "verifiedAt": "2026-10-02"
+      },
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference"
+    },
+    {
+      "id": "global-africa-brewery-kankpe",
+      "name": "SOBEBRA",
+      "city": "Cotonou",
+      "cityZh": "科托努",
+      "country": "Benin",
+      "countryZh": "贝宁",
+      "countryCode": "BJ",
+      "countryBasis": "documented_local_producer",
+      "lat": 6.36666667,
+      "lng": 2.43333333,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://www.sobebra.bj/notre-histoire/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Cotonou",
+      "locationNote": "城市参考点，非精确厂房或逐批产品生产位置。",
+      "sourceUrls": [
+        "https://www.sobebra.bj/notre-histoire/",
+        "https://en.wikipedia.org/wiki/Cotonou"
+      ],
+      "locationEvidence": {
+        "identitySourceUrl": "https://www.sobebra.bj/notre-histoire/",
+        "identityEvidenceFile": "research/global-coverage-africa/kankpe-web-evidence.json",
+        "identitySha256": "b77c1241f5727869ee18609338c7ead90adc71ded1f14f16e7ea075681a9d7fc",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Cotonou",
+        "coordinateEvidenceFile": "research/global-coverage-africa/coordinates.json",
+        "coordinateSha256": "9ad0893dd27594059fbad06c640fb36b64b352becc2cda4f0ecb94cd93fdc071",
+        "coordinatePlaceTitle": "Cotonou",
+        "verifiedAt": "2026-10-02"
+      },
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference"
+    },
+    {
+      "id": "global-africa-brewery-brakina",
+      "name": "BRAKINA",
+      "city": "Ouagadougou",
+      "cityZh": "瓦加杜古",
+      "country": "Burkina Faso",
+      "countryZh": "布基纳法索",
+      "countryCode": "BF",
+      "countryBasis": "documented_local_producer",
+      "lat": 12.36861111,
+      "lng": -1.5275,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://www.brakina-bf.com/actualite/les-actionnaires-de-brakina-en-visite-a-lusine-de-ouagadougou/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Ouagadougou",
+      "locationNote": "城市参考点，非精确厂房或逐批产品生产位置。",
+      "sourceUrls": [
+        "https://www.brakina-bf.com/actualite/les-actionnaires-de-brakina-en-visite-a-lusine-de-ouagadougou/",
+        "https://en.wikipedia.org/wiki/Ouagadougou"
+      ],
+      "locationEvidence": {
+        "identitySourceUrl": "https://www.brakina-bf.com/actualite/les-actionnaires-de-brakina-en-visite-a-lusine-de-ouagadougou/",
+        "identityEvidenceFile": "research/global-coverage-africa/brakina-web-evidence.json",
+        "identitySha256": "d62cb114d3465d47f983133e4e23174e878e247903cb7dae80bd4f94b8db11e5",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Ouagadougou",
+        "coordinateEvidenceFile": "research/global-coverage-africa/coordinates.json",
+        "coordinateSha256": "9ad0893dd27594059fbad06c640fb36b64b352becc2cda4f0ecb94cd93fdc071",
+        "coordinatePlaceTitle": "Ouagadougou",
+        "verifiedAt": "2026-10-02"
+      },
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference"
+    },
+    {
+      "id": "global-africa-brewery-mocaf",
+      "name": "MOCAF",
+      "city": "Bimbo",
+      "cityZh": "宾博",
+      "country": "Central African Republic",
+      "countryZh": "中非共和国",
+      "countryCode": "CF",
+      "countryBasis": "documented_local_producer",
+      "lat": 4.25583333,
+      "lng": 18.40416667,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://www.mocafrca.com/blog/la-biere-mocaf-fete-ses-70-ans/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Bimbo,_Central_African_Republic",
+      "locationNote": "城市参考点，非精确厂房或逐批产品生产位置。",
+      "sourceUrls": [
+        "https://www.mocafrca.com/blog/la-biere-mocaf-fete-ses-70-ans/",
+        "https://en.wikipedia.org/wiki/Bimbo,_Central_African_Republic"
+      ],
+      "locationEvidence": {
+        "identitySourceUrl": "https://www.mocafrca.com/blog/la-biere-mocaf-fete-ses-70-ans/",
+        "identityEvidenceFile": "research/global-coverage-africa/mocaf-web-evidence.json",
+        "identitySha256": "d2b08f98f60c6c2663891c1f9a29e8b6274155845bb7be2dc258b2649498dd75",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Bimbo,_Central_African_Republic",
+        "coordinateEvidenceFile": "research/global-coverage-africa/coordinates.json",
+        "coordinateSha256": "9ad0893dd27594059fbad06c640fb36b64b352becc2cda4f0ecb94cd93fdc071",
+        "coordinatePlaceTitle": "Bimbo, Central African Republic",
+        "verifiedAt": "2026-10-02"
+      },
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference"
+    },
+    {
+      "id": "global-africa-brewery-gala",
+      "name": "Brasseries du Tchad",
+      "city": "Moundou",
+      "cityZh": "蒙杜",
+      "country": "Chad",
+      "countryZh": "乍得",
+      "countryCode": "TD",
+      "countryBasis": "documented_local_producer",
+      "lat": 8.59138889,
+      "lng": 16.07555556,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://bdt-td.com/entreprise",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Moundou",
+      "locationNote": "城市参考点，非精确厂房或逐批产品生产位置。",
+      "sourceUrls": [
+        "https://bdt-td.com/entreprise",
+        "https://en.wikipedia.org/wiki/Moundou"
+      ],
+      "locationEvidence": {
+        "identitySourceUrl": "https://bdt-td.com/entreprise",
+        "identityEvidenceFile": "research/global-coverage-africa/gala-location.html",
+        "identitySha256": "0f1bfd8fb627919f717a3fff85860b32ef6f2c371ab4afbd125f8198702c01dc",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Moundou",
+        "coordinateEvidenceFile": "research/global-coverage-africa/coordinates.json",
+        "coordinateSha256": "9ad0893dd27594059fbad06c640fb36b64b352becc2cda4f0ecb94cd93fdc071",
+        "coordinatePlaceTitle": "Moundou",
+        "verifiedAt": "2026-10-02"
+      },
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference"
+    },
+    {
+      "id": "global-africa-brewery-guiluxe",
+      "name": "SOBRAGUI",
+      "city": "Conakry",
+      "cityZh": "科纳克里",
+      "country": "Guinea",
+      "countryZh": "几内亚",
+      "countryCode": "GN",
+      "countryBasis": "documented_local_producer",
+      "lat": 9.50916667,
+      "lng": -13.71222222,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://sobragui.com/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Conakry",
+      "locationNote": "城市参考点，非精确厂房或逐批产品生产位置。",
+      "sourceUrls": [
+        "https://sobragui.com/",
+        "https://en.wikipedia.org/wiki/Conakry"
+      ],
+      "locationEvidence": {
+        "identitySourceUrl": "https://sobragui.com/",
+        "identityEvidenceFile": "research/global-coverage-africa/guiluxe-web-evidence.json",
+        "identitySha256": "c15cef74aac807962ea732425a3b0beeb4deff33ff4f6d1dc5be2c87c8781d5c",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Conakry",
+        "coordinateEvidenceFile": "research/global-coverage-africa/coordinates.json",
+        "coordinateSha256": "9ad0893dd27594059fbad06c640fb36b64b352becc2cda4f0ecb94cd93fdc071",
+        "coordinatePlaceTitle": "Conakry",
+        "verifiedAt": "2026-10-02"
+      },
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference"
+    },
+    {
+      "id": "global-africa-brewery-kuche",
+      "name": "Castel Malawi",
+      "city": "Blantyre",
+      "cityZh": "布兰太尔",
+      "country": "Malawi",
+      "countryZh": "马拉维",
+      "countryCode": "MW",
+      "countryBasis": "documented_local_producer",
+      "lat": -15.78611111,
+      "lng": 35.00583333,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://castelmalawi.com/contact-us/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Blantyre",
+      "locationNote": "城市参考点，非精确厂房或逐批产品生产位置。",
+      "sourceUrls": [
+        "https://castelmalawi.com/contact-us/",
+        "https://en.wikipedia.org/wiki/Blantyre"
+      ],
+      "locationEvidence": {
+        "identitySourceUrl": "https://castelmalawi.com/contact-us/",
+        "identityEvidenceFile": "research/global-coverage-africa/kuche-contact.html",
+        "identitySha256": "f26ede7bc8b57ba81907a9a7e2496483c370067b25a7eecba11f1e2463192b8a",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Blantyre",
+        "coordinateEvidenceFile": "research/global-coverage-africa/coordinates.json",
+        "coordinateSha256": "9ad0893dd27594059fbad06c640fb36b64b352becc2cda4f0ecb94cd93fdc071",
+        "coordinatePlaceTitle": "Blantyre",
+        "verifiedAt": "2026-10-02"
+      },
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference"
+    },
+    {
+      "id": "global-africa-brewery-manawa",
+      "name": "Manawa Craft Brewery / Phoenix Beverages",
+      "city": "Vacoas-Phoenix",
+      "cityZh": "瓦科阿-菲尼克斯",
+      "country": "Mauritius",
+      "countryZh": "毛里求斯",
+      "countryCode": "MU",
+      "countryBasis": "documented_local_producer",
+      "lat": -20.30004722,
+      "lng": 57.47450833,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://phoenixbeveragesgroup.mu/operations-structure/phoenix-bev",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Vacoas-Phoenix",
+      "locationNote": "城市参考点，非精确厂房或逐批产品生产位置。",
+      "sourceUrls": [
+        "https://phoenixbeveragesgroup.mu/operations-structure/phoenix-bev",
+        "https://en.wikipedia.org/wiki/Vacoas-Phoenix"
+      ],
+      "locationEvidence": {
+        "identitySourceUrl": "https://phoenixbeveragesgroup.mu/operations-structure/phoenix-bev",
+        "identityEvidenceFile": "research/global-coverage-africa/phoenix-location.html",
+        "identitySha256": "7565eb8975ea76dadb99fa1fb1aee85ee96074805c6d74d15db9da167a60398d",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Vacoas-Phoenix",
+        "coordinateEvidenceFile": "research/global-coverage-africa/coordinates.json",
+        "coordinateSha256": "9ad0893dd27594059fbad06c640fb36b64b352becc2cda4f0ecb94cd93fdc071",
+        "coordinatePlaceTitle": "Vacoas-Phoenix",
+        "verifiedAt": "2026-10-02"
+      },
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference"
+    },
+    {
+      "id": "global-africa-brewery-2m",
+      "name": "Cervejas de Moçambique (CDM)",
+      "city": "Maputo",
+      "cityZh": "马普托",
+      "country": "Mozambique",
+      "countryZh": "莫桑比克",
+      "countryCode": "MZ",
+      "countryBasis": "documented_local_producer",
+      "lat": -25.96888889,
+      "lng": 32.57333333,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://cdm.co.mz/as-marcas-cdm/2m/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Maputo",
+      "locationNote": "城市参考点，非精确厂房或逐批产品生产位置。",
+      "sourceUrls": [
+        "https://cdm.co.mz/as-marcas-cdm/2m/",
+        "https://en.wikipedia.org/wiki/Maputo"
+      ],
+      "locationEvidence": {
+        "identitySourceUrl": "https://cdm.co.mz/as-marcas-cdm/2m/",
+        "identityEvidenceFile": "research/global-coverage-africa/2m.html",
+        "identitySha256": "746c50a435a5ac89e3bae05ee12719dae5218c8aace7b85741c502bae39346b5",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Maputo",
+        "coordinateEvidenceFile": "research/global-coverage-africa/coordinates.json",
+        "coordinateSha256": "9ad0893dd27594059fbad06c640fb36b64b352becc2cda4f0ecb94cd93fdc071",
+        "coordinatePlaceTitle": "Maputo",
+        "verifiedAt": "2026-10-02"
+      },
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference"
+    },
+    {
+      "id": "global-africa-brewery-julbrew",
+      "name": "Banjul Breweries",
+      "city": "Kanifing",
+      "cityZh": "卡尼芬",
+      "country": "Gambia",
+      "countryZh": "冈比亚",
+      "countryCode": "GM",
+      "countryBasis": "documented_local_producer",
+      "lat": 13.4475,
+      "lng": -16.6725,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://accessgambia.com/information/julbrew.html",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Kanifing",
+      "locationNote": "城市参考点，非精确厂房或逐批产品生产位置。",
+      "sourceUrls": [
+        "https://accessgambia.com/information/julbrew.html",
+        "https://en.wikipedia.org/wiki/Kanifing"
+      ],
+      "locationEvidence": {
+        "identitySourceUrl": "https://accessgambia.com/information/julbrew.html",
+        "identityEvidenceFile": "research/global-coverage-africa/julbrew-local.html",
+        "identitySha256": "dbb554c78f24ebc305af22415db5579a57130c386b29e56967df2f5d39fadff4",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Kanifing",
+        "coordinateEvidenceFile": "research/global-coverage-africa/coordinates.json",
+        "coordinateSha256": "9ad0893dd27594059fbad06c640fb36b64b352becc2cda4f0ecb94cd93fdc071",
+        "coordinatePlaceTitle": "Kanifing",
+        "verifiedAt": "2026-10-02"
+      },
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference"
+    },
+    {
+      "id": "global-africa-brewery-asmara-product",
+      "name": "Asmara Brewery",
+      "city": "Asmara",
+      "cityZh": "阿斯马拉",
+      "country": "Eritrea",
+      "countryZh": "厄立特里亚",
+      "countryCode": "ER",
+      "countryBasis": "documented_local_producer",
+      "lat": 15.33583333,
+      "lng": 38.94111111,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://asmarabrewery.com/products/beer/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Asmara",
+      "locationNote": "城市参考点，非精确厂房或逐批产品生产位置。",
+      "sourceUrls": [
+        "https://asmarabrewery.com/products/beer/",
+        "https://en.wikipedia.org/wiki/Asmara"
+      ],
+      "locationEvidence": {
+        "identitySourceUrl": "https://asmarabrewery.com/products/beer/",
+        "identityEvidenceFile": "research/global-coverage-africa/asmara.html",
+        "identitySha256": "28d70868a41ca0fd5eb77369356e53a1f134eb76c15edf562b26e1d34fed3ffb",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Asmara",
+        "coordinateEvidenceFile": "research/global-coverage-africa/coordinates.json",
+        "coordinateSha256": "9ad0893dd27594059fbad06c640fb36b64b352becc2cda4f0ecb94cd93fdc071",
+        "coordinatePlaceTitle": "Asmara",
+        "verifiedAt": "2026-10-02"
+      },
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference"
+    },
+    {
+      "id": "global-africa-brewery-celtia",
+      "name": "SFBT",
+      "city": "Tunis",
+      "cityZh": "突尼斯市",
+      "country": "Tunisia",
+      "countryZh": "突尼斯",
+      "countryCode": "TN",
+      "countryBasis": "documented_local_producer",
+      "lat": 36.80638889,
+      "lng": 10.18166667,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://www.beertasting.com/en/brewery/societe-de-frigorifrique-et-brasserie-de-tunis-sfbt",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Tunis",
+      "locationNote": "城市参考点，非精确厂房或逐批产品生产位置。",
+      "sourceUrls": [
+        "https://www.beertasting.com/en/brewery/societe-de-frigorifrique-et-brasserie-de-tunis-sfbt",
+        "https://en.wikipedia.org/wiki/Tunis"
+      ],
+      "locationEvidence": {
+        "identitySourceUrl": "https://www.beertasting.com/en/brewery/societe-de-frigorifrique-et-brasserie-de-tunis-sfbt",
+        "identityEvidenceFile": "research/global-coverage-africa/celtia-web-evidence.json",
+        "identitySha256": "e2d1a1b8446c04278a00a1ade8e7cbdb8c2d318a7c1789949f19cf7616c47efa",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Tunis",
+        "coordinateEvidenceFile": "research/global-coverage-africa/coordinates.json",
+        "coordinateSha256": "9ad0893dd27594059fbad06c640fb36b64b352becc2cda4f0ecb94cd93fdc071",
+        "coordinatePlaceTitle": "Tunis",
+        "verifiedAt": "2026-10-02"
+      },
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference"
+    },
+    {
+      "id": "global-africa-brewery-maluti",
+      "name": "Maluti Mountain Brewery",
+      "city": "Maseru",
+      "cityZh": "马塞卢",
+      "country": "Lesotho",
+      "countryZh": "莱索托",
+      "countryCode": "LS",
+      "countryBasis": "documented_local_producer",
+      "lat": -29.31,
+      "lng": 27.48,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://www.africaoutlookmag.com/company-profiles/1525-maluti-mountain-brewery",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Maseru",
+      "locationNote": "城市参考点，非精确厂房或逐批产品生产位置。",
+      "sourceUrls": [
+        "https://www.africaoutlookmag.com/company-profiles/1525-maluti-mountain-brewery",
+        "https://en.wikipedia.org/wiki/Maseru"
+      ],
+      "locationEvidence": {
+        "identitySourceUrl": "https://www.africaoutlookmag.com/company-profiles/1525-maluti-mountain-brewery",
+        "identityEvidenceFile": "research/global-coverage-africa/maluti-web-evidence.json",
+        "identitySha256": "0ca79d89f98e9105a48e62804ad3cfeb478768b6b5ccd84e505ba663917449ac",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Maseru",
+        "coordinateEvidenceFile": "research/global-coverage-africa/coordinates.json",
+        "coordinateSha256": "9ad0893dd27594059fbad06c640fb36b64b352becc2cda4f0ecb94cd93fdc071",
+        "coordinatePlaceTitle": "Maseru",
+        "verifiedAt": "2026-10-02"
+      },
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference"
+    },
+    {
+      "id": "global-africa-brewery-nkoyi",
+      "name": "BRACONGO",
+      "city": "Kinshasa",
+      "cityZh": "金沙萨",
+      "country": "Democratic Republic of the Congo",
+      "countryZh": "刚果（金）",
+      "countryCode": "CD",
+      "countryBasis": "documented_local_producer",
+      "lat": -4.32194444,
+      "lng": 15.31194444,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://bracongo.cd/faq/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Kinshasa",
+      "locationNote": "城市参考点，非精确厂房或逐批产品生产位置。",
+      "sourceUrls": [
+        "https://bracongo.cd/faq/",
+        "https://en.wikipedia.org/wiki/Kinshasa"
+      ],
+      "locationEvidence": {
+        "identitySourceUrl": "https://bracongo.cd/faq/",
+        "identityEvidenceFile": "research/global-coverage-africa/nkoyi-location.html",
+        "identitySha256": "23f1d836374e7abef7ac4a6b0bb64c11e34ed97177fcc06d77b203cf1882cd26",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Kinshasa",
+        "coordinateEvidenceFile": "research/global-coverage-africa/coordinates.json",
+        "coordinateSha256": "9ad0893dd27594059fbad06c640fb36b64b352becc2cda4f0ecb94cd93fdc071",
+        "coordinatePlaceTitle": "Kinshasa",
+        "verifiedAt": "2026-10-02"
+      },
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference"
+    },
+    {
+      "id": "global-africa-brewery-beaufort-gq",
+      "name": "SOEGUIBE",
+      "city": "Bata",
+      "cityZh": "巴塔",
+      "country": "Equatorial Guinea",
+      "countryZh": "赤道几内亚",
+      "countryCode": "GQ",
+      "countryBasis": "documented_local_producer",
+      "lat": 1.865,
+      "lng": 9.77,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://www.soeguibe.com/actualidad/una-inmersion-en-el-interior-de-soeguibe-para-los-alumnos-de-la-escuela-francesa-de-bata/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Bata,_Equatorial_Guinea",
+      "locationNote": "城市参考点，非精确厂房或逐批产品生产位置。",
+      "sourceUrls": [
+        "https://www.soeguibe.com/actualidad/una-inmersion-en-el-interior-de-soeguibe-para-los-alumnos-de-la-escuela-francesa-de-bata/",
+        "https://en.wikipedia.org/wiki/Bata,_Equatorial_Guinea"
+      ],
+      "locationEvidence": {
+        "identitySourceUrl": "https://www.soeguibe.com/actualidad/una-inmersion-en-el-interior-de-soeguibe-para-los-alumnos-de-la-escuela-francesa-de-bata/",
+        "identityEvidenceFile": "research/global-coverage-africa/beaufort-gq-brewery.html",
+        "identitySha256": "82f00ceac0c13803b508114d0e7b4b054c11d57568acfba944961db98440df9f",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Bata,_Equatorial_Guinea",
+        "coordinateEvidenceFile": "research/global-coverage-africa/coordinates.json",
+        "coordinateSha256": "9ad0893dd27594059fbad06c640fb36b64b352becc2cda4f0ecb94cd93fdc071",
+        "coordinatePlaceTitle": "Bata, Equatorial Guinea",
+        "verifiedAt": "2026-10-02"
+      },
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference"
+    },
+    {
+      "id": "global-africa-brewery-gazelle",
+      "name": "SOBOA",
+      "city": "Dakar",
+      "cityZh": "达喀尔",
+      "country": "Senegal",
+      "countryZh": "塞内加尔",
+      "countryCode": "SN",
+      "countryBasis": "documented_local_producer",
+      "lat": 14.69277778,
+      "lng": -17.44666667,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://soboa.sn/project/gazelle-biere/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Dakar",
+      "locationNote": "城市参考点，非精确厂房或逐批产品生产位置。",
+      "sourceUrls": [
+        "https://soboa.sn/project/gazelle-biere/",
+        "https://en.wikipedia.org/wiki/Dakar"
+      ],
+      "locationEvidence": {
+        "identitySourceUrl": "https://soboa.sn/project/gazelle-biere/",
+        "identityEvidenceFile": "research/global-coverage-africa/gazelle.html",
+        "identitySha256": "b1f4c97a74e02a442262e91e0a566e21e064afe42a03f3511dde44f3391976af",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Dakar",
+        "coordinateEvidenceFile": "research/global-coverage-africa/coordinates.json",
+        "coordinateSha256": "9ad0893dd27594059fbad06c640fb36b64b352becc2cda4f0ecb94cd93fdc071",
+        "coordinatePlaceTitle": "Dakar",
+        "verifiedAt": "2026-10-02"
+      },
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference"
+    },
+    {
+      "id": "global-africa-brewery-thb-official",
+      "name": "Brasseries STAR Madagascar",
+      "city": "Antsirabe",
+      "cityZh": "安齐拉贝",
+      "country": "Madagascar",
+      "countryZh": "马达加斯加",
+      "countryCode": "MG",
+      "countryBasis": "documented_local_producer",
+      "lat": -19.86666667,
+      "lng": 47.03333333,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://www.star.mg/star/histoire/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Antsirabe",
+      "locationNote": "城市参考点，非精确厂房或逐批产品生产位置。",
+      "sourceUrls": [
+        "https://www.star.mg/star/histoire/",
+        "https://en.wikipedia.org/wiki/Antsirabe"
+      ],
+      "locationEvidence": {
+        "identitySourceUrl": "https://www.star.mg/star/histoire/",
+        "identityEvidenceFile": "research/global-coverage-africa/star-history.html",
+        "identitySha256": "dd36be092051b074b64bd0de1d88d649f759e1aff05ced5cfa01b9d154142d5b",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Antsirabe",
+        "coordinateEvidenceFile": "research/global-coverage-africa/coordinates.json",
+        "coordinateSha256": "9ad0893dd27594059fbad06c640fb36b64b352becc2cda4f0ecb94cd93fdc071",
+        "coordinatePlaceTitle": "Antsirabe",
+        "verifiedAt": "2026-10-02"
+      },
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference"
+    },
+    {
+      "id": "global-africa-brewery-strela",
+      "name": "CERIS",
+      "city": "Praia",
+      "cityZh": "普拉亚",
+      "country": "Cabo Verde",
+      "countryZh": "佛得角",
+      "countryCode": "CV",
+      "countryBasis": "documented_local_producer",
+      "lat": 14.918,
+      "lng": -23.509,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://www.eccbc.com/equatorial-coca-cola-invests-9me-to-produce-strela-cape-verde/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Praia",
+      "locationNote": "城市参考点，非精确厂房或逐批产品生产位置。",
+      "sourceUrls": [
+        "https://www.eccbc.com/equatorial-coca-cola-invests-9me-to-produce-strela-cape-verde/",
+        "https://en.wikipedia.org/wiki/Praia"
+      ],
+      "locationEvidence": {
+        "identitySourceUrl": "https://www.eccbc.com/equatorial-coca-cola-invests-9me-to-produce-strela-cape-verde/",
+        "identityEvidenceFile": "research/global-coverage-africa/strela-local.html",
+        "identitySha256": "6ea2956cb06c8ff67fbf2549702ed3aeac252134734f97677aa89c87c732f5f2",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Praia",
+        "coordinateEvidenceFile": "research/global-coverage-africa/coordinates.json",
+        "coordinateSha256": "9ad0893dd27594059fbad06c640fb36b64b352becc2cda4f0ecb94cd93fdc071",
+        "coordinatePlaceTitle": "Praia",
+        "verifiedAt": "2026-10-02"
+      },
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference"
+    },
+    {
+      "id": "global-africa-brewery-ngok",
+      "name": "Brasseries du Congo (BRASCO)",
+      "city": "Brazzaville",
+      "cityZh": "布拉柴维尔",
+      "country": "Republic of the Congo",
+      "countryZh": "刚果（布）",
+      "countryCode": "CG",
+      "countryBasis": "documented_local_producer",
+      "lat": -4.26666667,
+      "lng": 15.26666667,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://industrie.gouv.cg/industries/brasseries-du-congo-brasco",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Brazzaville",
+      "locationNote": "城市参考点，非精确厂房或逐批产品生产位置。",
+      "sourceUrls": [
+        "https://industrie.gouv.cg/industries/brasseries-du-congo-brasco",
+        "https://en.wikipedia.org/wiki/Brazzaville"
+      ],
+      "locationEvidence": {
+        "identitySourceUrl": "https://industrie.gouv.cg/industries/brasseries-du-congo-brasco",
+        "identityEvidenceFile": "research/global-coverage-africa/ngok-location.html",
+        "identitySha256": "b457668218179a811c5341d1b27a00696c13e30fd8212fdfe9731ea89ae18d89",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Brazzaville",
+        "coordinateEvidenceFile": "research/global-coverage-africa/coordinates.json",
+        "coordinateSha256": "9ad0893dd27594059fbad06c640fb36b64b352becc2cda4f0ecb94cd93fdc071",
+        "coordinatePlaceTitle": "Brazzaville",
+        "verifiedAt": "2026-10-02"
+      },
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference"
+    }
+  ],
+  "beers": [
+    {
+      "id": "global-africa-cuca",
+      "name": "Cuca",
+      "breweryId": "global-africa-brewery-cuca",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": 4.5,
+      "ibu": null,
+      "description": "安哥拉本土生产的 Cuca 金色啤酒。官网标示酒精度 4.5%，描述其香气柔和；地图采用 CUCA 罗安达酒厂所在城市的参考点。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://grupocastelangola.com/produto/cervejas/cuca/cuca/",
+        "sourceFile": "research/global-coverage-africa/cuca.html",
+        "sourceSha256": "e0f3b133c7b1039e660c78a5408f308694e096804c15348f9fce51f39e0f4f96",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_product_description",
+        "method": "short_faithful_summary; no individual customer reviews copied"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://grupocastelangola.com/grupo-castel/fabricas-2/",
+        "https://grupocastelangola.com/produto/cervejas/cuca/cuca/"
+      ],
+      "sourceNote": "真实当地生产商与同款实物包装经核对。以工业品牌或集团旗下系列参考收录，不声称为独立精酿；未核得的风味、工艺、酒花品种与苦度不猜填。",
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference",
+      "image": "/images/global-coverage-africa/cuca-card.webp",
+      "imageOriginal": "/images/global-coverage-africa/cuca-cutout.png",
+      "sourceImage": "/images/global-coverage-africa/cuca-original.jpg",
+      "imageThumbnail": "/images/global-coverage-africa/cuca-map.webp",
+      "imageContentBounds": {
+        "width": 274,
+        "height": 720,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 274,
+          "height": 720
+        },
+        "originalSha256": "8c0bfbf1b9dfefb4ffbc22ee0bc8fb98e4d07e006841062b846214d0d47fb852",
+        "method": "alpha_body_cropped_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 2
+      },
+      "imageKind": "product_packshot",
+      "imageDownloadUrl": "https://grupocastelangola.com/wp-content/uploads/2017/10/CUCA_Garrafa-31cl-1.jpg",
+      "imageSource": "https://grupocastelangola.com/produto/cervejas/cuca/cuca/",
+      "imageLicense": "Copyright holder; no open licence for product image stated",
+      "imageEvidence": {
+        "slug": "cuca",
+        "sourceUrl": "https://grupocastelangola.com/produto/cervejas/cuca/cuca/",
+        "downloadUrl": "https://grupocastelangola.com/wp-content/uploads/2017/10/CUCA_Garrafa-31cl-1.jpg",
+        "sourceImage": "/images/global-coverage-africa/cuca-original.jpg",
+        "sourceSha256": "ef632dbff21d688e262a3cb59ec0afb05d9616416b5079eeb823d1cf148c779f",
+        "originalSha256": "ef632dbff21d688e262a3cb59ec0afb05d9616416b5079eeb823d1cf148c779f",
+        "sha256": "8c0bfbf1b9dfefb4ffbc22ee0bc8fb98e4d07e006841062b846214d0d47fb852",
+        "fullSha256": "2f360e425e1a9903047f87878b8f2611e4fea5c3ec5dcdeff2a9c55577fe9f30",
+        "thumbnailSha256": "644f93524769178cd6db0607e8c19597e82f68b81476f4365d6a89fd93690c60",
+        "thumbnailBytes": 8944,
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "reviewed_single_bottle_scanline_silhouette_alpha_only",
+        "crop": [
+          64,
+          147,
+          717,
+          1861
+        ],
+        "originalRGBunchanged": true,
+        "derivative": {
+          "cardMax": 720,
+          "mapMax": [
+            180,
+            280
+          ],
+          "mapMaxBytes": 10000,
+          "format": "webp"
+        },
+        "reviewNote": "Named complete bottle/can reviewed on contact sheet. Original preserved. Alpha-only background removal; no generated labels or guessed package reconstruction."
+      }
+    },
+    {
+      "id": "global-africa-kankpe",
+      "name": "La Béninoise Kankpé",
+      "breweryId": "global-africa-brewery-kankpe",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Amber Beer",
+      "abv": null,
+      "ibu": null,
+      "description": "贝宁 SOBEBRA 的 La Béninoise Kankpé 琥珀啤酒。官网说明以轻度烘烤谷物形成铜红色，并提供 33cl 与 65cl 回收玻璃瓶；这里保留本土玻璃瓶版本。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.sobebra.bj/produits/la-beninoise-kankpe/",
+        "sourceFile": "research/global-coverage-africa/kankpe-web-evidence.json",
+        "sourceSha256": "b77c1241f5727869ee18609338c7ead90adc71ded1f14f16e7ea075681a9d7fc",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_product_description",
+        "method": "short_faithful_summary; no individual customer reviews copied"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://www.sobebra.bj/notre-histoire/",
+        "https://www.sobebra.bj/produits/la-beninoise-kankpe/",
+        "https://www.sobebra.bj/notre-histoire/"
+      ],
+      "sourceNote": "真实当地生产商与同款实物包装经核对。以工业品牌或集团旗下系列参考收录，不声称为独立精酿；未核得的风味、工艺、酒花品种与苦度不猜填。",
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference",
+      "image": "/images/global-coverage-africa/kankpe-card.webp",
+      "imageOriginal": "/images/global-coverage-africa/kankpe-cutout.png",
+      "sourceImage": "/images/global-coverage-africa/kankpe-original.png",
+      "imageThumbnail": "/images/global-coverage-africa/kankpe-map.webp",
+      "imageContentBounds": {
+        "width": 199,
+        "height": 720,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 199,
+          "height": 720
+        },
+        "originalSha256": "5a9891e3cec65d3211b0b4a6ca2316c7b3c88064877be2c0a51d9394330de49d",
+        "method": "alpha_body_cropped_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 2
+      },
+      "imageKind": "product_packshot",
+      "imageDownloadUrl": "https://www.sobebra.bj/app/uploads/2026/01/Kankpe%E2%95%A0u-format-350-x-880-pxel-%402x-611x1536.png",
+      "imageSource": "https://www.sobebra.bj/produits/la-beninoise-kankpe/",
+      "imageLicense": "Copyright holder; no open licence for product image stated",
+      "imageEvidence": {
+        "slug": "kankpe",
+        "sourceUrl": "https://www.sobebra.bj/produits/la-beninoise-kankpe/",
+        "downloadUrl": "https://www.sobebra.bj/app/uploads/2026/01/Kankpe%E2%95%A0u-format-350-x-880-pxel-%402x-611x1536.png",
+        "sourceImage": "/images/global-coverage-africa/kankpe-original.png",
+        "sourceSha256": "726dd8fb6c28bb756627c7056defaabb7997cb89d75ec94032eaccd479acd8bd",
+        "originalSha256": "726dd8fb6c28bb756627c7056defaabb7997cb89d75ec94032eaccd479acd8bd",
+        "sha256": "5a9891e3cec65d3211b0b4a6ca2316c7b3c88064877be2c0a51d9394330de49d",
+        "fullSha256": "b2f958bd917c2b4fcce16a75a14d1116a0266bc3d955ca8e68ba2f878d3c73bc",
+        "thumbnailSha256": "a5dd53b5c8b2a93223393e8fd6e06be67a286adc61d68f4874d4ccd6a0e40b57",
+        "thumbnailBytes": 7382,
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "manually_reviewed_original_bottle_polygon_alpha_only",
+        "crop": [
+          266,
+          214,
+          515,
+          1115
+        ],
+        "originalRGBunchanged": true,
+        "derivative": {
+          "cardMax": 720,
+          "mapMax": [
+            180,
+            280
+          ],
+          "mapMaxBytes": 10000,
+          "format": "webp"
+        },
+        "reviewNote": "Named complete bottle/can reviewed on contact sheet. Original preserved. Alpha-only background removal; no generated labels or guessed package reconstruction."
+      }
+    },
+    {
+      "id": "global-africa-brakina",
+      "name": "Brakina",
+      "breweryId": "global-africa-brewery-brakina",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": 4.2,
+      "ibu": null,
+      "description": "布基纳法索 BRAKINA 本土生产的金色啤酒，酒精度 4.2%。官网提供 33cl 和 65cl 玻璃瓶；这张图为官方周年纪念包装。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.brakina-bf.com/produit/la-biere-brakina/",
+        "sourceFile": "research/global-coverage-africa/brakina-web-evidence.json",
+        "sourceSha256": "d62cb114d3465d47f983133e4e23174e878e247903cb7dae80bd4f94b8db11e5",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_product_description",
+        "method": "short_faithful_summary; no individual customer reviews copied"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://www.brakina-bf.com/actualite/les-actionnaires-de-brakina-en-visite-a-lusine-de-ouagadougou/",
+        "https://www.brakina-bf.com/produit/la-biere-brakina/",
+        "https://www.brakina-bf.com/actualite/les-actionnaires-de-brakina-en-visite-a-lusine-de-ouagadougou/"
+      ],
+      "sourceNote": "真实当地生产商与同款实物包装经核对。以工业品牌或集团旗下系列参考收录，不声称为独立精酿；未核得的风味、工艺、酒花品种与苦度不猜填。",
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference",
+      "image": "/images/global-coverage-africa/brakina-card.webp",
+      "imageOriginal": "/images/global-coverage-africa/brakina-cutout.png",
+      "sourceImage": "/images/global-coverage-africa/brakina-original.webp",
+      "imageThumbnail": "/images/global-coverage-africa/brakina-map.webp",
+      "imageContentBounds": {
+        "width": 202,
+        "height": 720,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 202,
+          "height": 720
+        },
+        "originalSha256": "e8006a15aa165e7c3c66c981e3e9c354c778d7669ca02b26e43ee04375894b09",
+        "method": "alpha_body_cropped_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 2
+      },
+      "imageKind": "product_packshot",
+      "imageDownloadUrl": "https://www.brakina-bf.com/app/uploads/2026/03/Bouteille-Brakina-independance-2026-scaled.webp",
+      "imageSource": "https://www.brakina-bf.com/produit/la-biere-brakina/",
+      "imageLicense": "Copyright holder; no open licence for product image stated",
+      "imageEvidence": {
+        "slug": "brakina",
+        "sourceUrl": "https://www.brakina-bf.com/produit/la-biere-brakina/",
+        "downloadUrl": "https://www.brakina-bf.com/app/uploads/2026/03/Bouteille-Brakina-independance-2026-scaled.webp",
+        "sourceImage": "/images/global-coverage-africa/brakina-original.webp",
+        "sourceSha256": "62c0f3500003c63c1f469e645f36677140a56f7f64f32f9c8040cb553c2ee7a7",
+        "originalSha256": "62c0f3500003c63c1f469e645f36677140a56f7f64f32f9c8040cb553c2ee7a7",
+        "sha256": "e8006a15aa165e7c3c66c981e3e9c354c778d7669ca02b26e43ee04375894b09",
+        "fullSha256": "1443b56fe3518ff9c118da5088c3718fea406c67ff62a6b99c3603df3da99e14",
+        "thumbnailSha256": "73cb3152cbb6f1b4039279eb4e0048d590ca1db9414529fa201c45fa0d6a2b33",
+        "thumbnailBytes": 6832,
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_alpha_preserved",
+        "crop": [
+          78,
+          28,
+          773,
+          2510
+        ],
+        "originalRGBunchanged": true,
+        "derivative": {
+          "cardMax": 720,
+          "mapMax": [
+            180,
+            280
+          ],
+          "mapMaxBytes": 10000,
+          "format": "webp"
+        },
+        "reviewNote": "Named complete bottle/can reviewed on contact sheet. Original preserved. Alpha-only background removal; no generated labels or guessed package reconstruction."
+      }
+    },
+    {
+      "id": "global-africa-mocaf",
+      "name": "MOCAF",
+      "breweryId": "global-africa-brewery-mocaf",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": 4.5,
+      "ibu": null,
+      "description": "中非共和国 MOCAF 的本土啤酒，酒精度 4.5%。官网介绍以麦芽、糖和酒花酿造，带麦芽香气；厂区在班吉近郊宾博，地图使用宾博城市参考点。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.mocafrca.com/produit/mocaf/",
+        "sourceFile": "research/global-coverage-africa/mocaf-web-evidence.json",
+        "sourceSha256": "d2b08f98f60c6c2663891c1f9a29e8b6274155845bb7be2dc258b2649498dd75",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_product_description",
+        "method": "short_faithful_summary; no individual customer reviews copied"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://www.mocafrca.com/blog/la-biere-mocaf-fete-ses-70-ans/",
+        "https://www.mocafrca.com/produit/mocaf/",
+        "https://www.mocafrca.com/blog/la-biere-mocaf-fete-ses-70-ans/",
+        "https://www.mocafrca.com/blog/mocaf-la-biere-de-chez-nous/"
+      ],
+      "sourceNote": "真实当地生产商与同款实物包装经核对。以工业品牌或集团旗下系列参考收录，不声称为独立精酿；未核得的风味、工艺、酒花品种与苦度不猜填。",
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference",
+      "image": "/images/global-coverage-africa/mocaf-card.webp",
+      "imageOriginal": "/images/global-coverage-africa/mocaf-cutout.png",
+      "sourceImage": "/images/global-coverage-africa/mocaf-original.webp",
+      "imageThumbnail": "/images/global-coverage-africa/mocaf-map.webp",
+      "imageContentBounds": {
+        "width": 129,
+        "height": 490,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 129,
+          "height": 490
+        },
+        "originalSha256": "86aae0048562494efdeaf8ca9b1ac9667a201a78ee20d977e5875a6c4a05a32c",
+        "method": "alpha_body_cropped_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 2
+      },
+      "imageKind": "product_packshot",
+      "imageDownloadUrl": "https://www.mocafrca.com/app/uploads/2025/11/bout-mocaf01-min.webp",
+      "imageSource": "https://www.mocafrca.com/produit/mocaf/",
+      "imageLicense": "Copyright holder; no open licence for product image stated",
+      "imageEvidence": {
+        "slug": "mocaf",
+        "sourceUrl": "https://www.mocafrca.com/produit/mocaf/",
+        "downloadUrl": "https://www.mocafrca.com/app/uploads/2025/11/bout-mocaf01-min.webp",
+        "sourceImage": "/images/global-coverage-africa/mocaf-original.webp",
+        "sourceSha256": "b4f425ddfa62d60ebd2252006bb33f6a17f4f0c594673a1d951d40c2b145ab15",
+        "originalSha256": "b4f425ddfa62d60ebd2252006bb33f6a17f4f0c594673a1d951d40c2b145ab15",
+        "sha256": "86aae0048562494efdeaf8ca9b1ac9667a201a78ee20d977e5875a6c4a05a32c",
+        "fullSha256": "5c3fde743b051bf5a99d29ee5363aab630f66f17874fbeb526861b4eebb75a62",
+        "thumbnailSha256": "26975f95902a5eed6911c6563cbcb28100d54f2b743500281d58bde5a07470ae",
+        "thumbnailBytes": 8818,
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_alpha_preserved",
+        "crop": [
+          0,
+          0,
+          129,
+          490
+        ],
+        "originalRGBunchanged": true,
+        "derivative": {
+          "cardMax": 720,
+          "mapMax": [
+            180,
+            280
+          ],
+          "mapMaxBytes": 10000,
+          "format": "webp"
+        },
+        "reviewNote": "Named complete bottle/can reviewed on contact sheet. Original preserved. Alpha-only background removal; no generated labels or guessed package reconstruction."
+      }
+    },
+    {
+      "id": "global-africa-gala",
+      "name": "Gala",
+      "breweryId": "global-africa-brewery-gala",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": 5,
+      "ibu": null,
+      "description": "乍得 Brasseries du Tchad 的 Gala 啤酒。官网确认它在蒙杜开始生产，并列出酒精度 5% 与 33cl、50cl、65cl 玻璃瓶规格。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://bdt-td.com/biere/gala",
+        "sourceFile": "research/global-coverage-africa/gala.html",
+        "sourceSha256": "785c2692b569f420406afa0a99d00ed3ddaacc20969ebb5cedb072cd59941ab8",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_product_description",
+        "method": "short_faithful_summary; no individual customer reviews copied"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://bdt-td.com/entreprise",
+        "https://bdt-td.com/biere/gala"
+      ],
+      "sourceNote": "真实当地生产商与同款实物包装经核对。以工业品牌或集团旗下系列参考收录，不声称为独立精酿；未核得的风味、工艺、酒花品种与苦度不猜填。",
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference",
+      "image": "/images/global-coverage-africa/gala-card.webp",
+      "imageOriginal": "/images/global-coverage-africa/gala-cutout.png",
+      "sourceImage": "/images/global-coverage-africa/gala-original.png",
+      "imageThumbnail": "/images/global-coverage-africa/gala-map.webp",
+      "imageContentBounds": {
+        "width": 147,
+        "height": 565,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 147,
+          "height": 565
+        },
+        "originalSha256": "a8d427715cc2691aa2cb55f39dbf02b6e142f559901dc97e7812f34d54656094",
+        "method": "alpha_body_cropped_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 2
+      },
+      "imageKind": "product_packshot",
+      "imageDownloadUrl": "https://bdt-td.com/images/M_GALA_NEW1.png",
+      "imageSource": "https://bdt-td.com/biere/gala",
+      "imageLicense": "Copyright holder; no open licence for product image stated",
+      "imageEvidence": {
+        "slug": "gala",
+        "sourceUrl": "https://bdt-td.com/biere/gala",
+        "downloadUrl": "https://bdt-td.com/images/M_GALA_NEW1.png",
+        "sourceImage": "/images/global-coverage-africa/gala-original.png",
+        "sourceSha256": "45f569f793cd8d739b5797f0cafd965076606f26cbc1e6165746c95229ea8898",
+        "originalSha256": "45f569f793cd8d739b5797f0cafd965076606f26cbc1e6165746c95229ea8898",
+        "sha256": "a8d427715cc2691aa2cb55f39dbf02b6e142f559901dc97e7812f34d54656094",
+        "fullSha256": "46d860e412591f610be33888168a88859a50ff7321a711d61957b5d2d8188146",
+        "thumbnailSha256": "a0c76f243bb32438889f9221cf8f19a8b38e8fc6275ca0acc27bfcf2965911f8",
+        "thumbnailBytes": 7944,
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_alpha_preserved",
+        "crop": [
+          10,
+          0,
+          157,
+          565
+        ],
+        "originalRGBunchanged": true,
+        "derivative": {
+          "cardMax": 720,
+          "mapMax": [
+            180,
+            280
+          ],
+          "mapMaxBytes": 10000,
+          "format": "webp"
+        },
+        "reviewNote": "Named complete bottle/can reviewed on contact sheet. Original preserved. Alpha-only background removal; no generated labels or guessed package reconstruction."
+      }
+    },
+    {
+      "id": "global-africa-guiluxe",
+      "name": "Guiluxe",
+      "breweryId": "global-africa-brewery-guiluxe",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": 5.2,
+      "ibu": null,
+      "description": "几内亚 SOBRAGUI 的 Guiluxe 淡色拉格，名称来自“几内亚豪华啤酒”。公共酒款目录记录这个包装版本酒精度 5.2%；与后来 5% 的大瓶版本分开看待。",
+      "descriptionBasis": "public_product_catalogue",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.beertasting.com/en/beers/guiluxe",
+        "sourceFile": "research/global-coverage-africa/bt-guiluxe.html",
+        "sourceSha256": "5b7100cceff5dda13817cf73ed57e31f140facd44776b1f07321a95d9a89553b",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "public_product_catalogue",
+        "method": "short_faithful_summary; no individual customer reviews copied"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://sobragui.com/",
+        "https://www.beertasting.com/en/beers/guiluxe",
+        "https://www.monde-selection.com/product/guiluxe/",
+        "https://mediaguinee.com/2024/09/conakry-la-sobragui-presente-son-nouveau-format-de-guiluxe-de-65-cl-a-10-000-gnf/"
+      ],
+      "sourceNote": "真实当地生产商与同款实物包装经核对。以工业品牌或集团旗下系列参考收录，不声称为独立精酿；未核得的风味、工艺、酒花品种与苦度不猜填。",
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference",
+      "sourceConflicts": [
+        {
+          "field": "abv",
+          "catalogueCan": 5.2,
+          "new65clBottle": 5,
+          "resolution": "retain catalogue can variant; do not transplant new bottle ABV"
+        }
+      ],
+      "image": "/images/global-coverage-africa/guiluxe-card.webp",
+      "imageOriginal": "/images/global-coverage-africa/guiluxe-cutout.png",
+      "sourceImage": "/images/global-coverage-africa/guiluxe-original.png",
+      "imageThumbnail": "/images/global-coverage-africa/guiluxe-map.webp",
+      "imageContentBounds": {
+        "width": 157,
+        "height": 375,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 157,
+          "height": 375
+        },
+        "originalSha256": "a0403382be841fabf3c5d715c9f452a2c1c204f6c3f55a585f549f7dba7af9b2",
+        "method": "alpha_body_cropped_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 2
+      },
+      "imageKind": "product_packshot",
+      "imageDownloadUrl": "https://beertasting.app/storage/media/8ae8a69e97af181bfe26d021035e3e50/upload_1682776453-removebg-preview.png",
+      "imageSource": "https://www.beertasting.com/en/beers/guiluxe",
+      "imageLicense": "Copyright holder; no open licence for product image stated",
+      "imageEvidence": {
+        "slug": "guiluxe",
+        "sourceUrl": "https://www.beertasting.com/en/beers/guiluxe",
+        "downloadUrl": "https://beertasting.app/storage/media/8ae8a69e97af181bfe26d021035e3e50/upload_1682776453-removebg-preview.png",
+        "sourceImage": "/images/global-coverage-africa/guiluxe-original.png",
+        "sourceSha256": "b833734859b7b99e8d1c8e1ea995947282d8343f819e09e32b8e613d9bc0661f",
+        "originalSha256": "b833734859b7b99e8d1c8e1ea995947282d8343f819e09e32b8e613d9bc0661f",
+        "sha256": "a0403382be841fabf3c5d715c9f452a2c1c204f6c3f55a585f549f7dba7af9b2",
+        "fullSha256": "9d6b32ab288614f7a954d678bb84ed42d0da0ef4bedd686d4bb8fd5c6a8ec042",
+        "thumbnailSha256": "438ee83195d1b18ca124b697d60c933c5bef214223eb95b1b387471901a517ad",
+        "thumbnailBytes": 8682,
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_alpha_preserved",
+        "crop": [
+          103,
+          95,
+          260,
+          470
+        ],
+        "originalRGBunchanged": true,
+        "derivative": {
+          "cardMax": 720,
+          "mapMax": [
+            180,
+            280
+          ],
+          "mapMaxBytes": 10000,
+          "format": "webp"
+        },
+        "reviewNote": "Named complete bottle/can reviewed on contact sheet. Original preserved. Alpha-only background removal; no generated labels or guessed package reconstruction."
+      }
+    },
+    {
+      "id": "global-africa-kuche",
+      "name": "Kuche Kuche",
+      "breweryId": "global-africa-brewery-kuche",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": 3.7,
+      "ibu": null,
+      "description": "马拉维 Castel Malawi 的 Kuche Kuche，官网标示酒精度 3.7%、330ml 玻璃瓶。酒厂官网联系地图指向布兰太尔酿造厂，这里使用城市参考位置。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://castelmalawi.com/kuche-kuche/",
+        "sourceFile": "research/global-coverage-africa/kuche.html",
+        "sourceSha256": "ffa491c1f9a7684c518092438485d4127f70a96b69d239c68070ed2429ccbc9d",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_product_description",
+        "method": "short_faithful_summary; no individual customer reviews copied"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://castelmalawi.com/contact-us/",
+        "https://castelmalawi.com/kuche-kuche/"
+      ],
+      "sourceNote": "真实当地生产商与同款实物包装经核对。以工业品牌或集团旗下系列参考收录，不声称为独立精酿；未核得的风味、工艺、酒花品种与苦度不猜填。",
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference",
+      "image": "/images/global-coverage-africa/kuche-card.webp",
+      "imageOriginal": "/images/global-coverage-africa/kuche-cutout.png",
+      "sourceImage": "/images/global-coverage-africa/kuche-original.png",
+      "imageThumbnail": "/images/global-coverage-africa/kuche-map.webp",
+      "imageContentBounds": {
+        "width": 143,
+        "height": 547,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 143,
+          "height": 547
+        },
+        "originalSha256": "c048a8498c31fd8400d4c723236b820d8449de7d8d2bd860e83c9f791643ddd8",
+        "method": "alpha_body_cropped_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 2
+      },
+      "imageKind": "product_packshot",
+      "imageDownloadUrl": "https://castelmalawi.com/wp-content/uploads/2025/02/Packshot-KK-1.png",
+      "imageSource": "https://castelmalawi.com/kuche-kuche/",
+      "imageLicense": "Copyright holder; no open licence for product image stated",
+      "imageEvidence": {
+        "slug": "kuche",
+        "sourceUrl": "https://castelmalawi.com/kuche-kuche/",
+        "downloadUrl": "https://castelmalawi.com/wp-content/uploads/2025/02/Packshot-KK-1.png",
+        "sourceImage": "/images/global-coverage-africa/kuche-original.png",
+        "sourceSha256": "e78798abec12ff9818922cbdeadf5639056ed40b4f4991ca74ad1458d332418a",
+        "originalSha256": "e78798abec12ff9818922cbdeadf5639056ed40b4f4991ca74ad1458d332418a",
+        "sha256": "c048a8498c31fd8400d4c723236b820d8449de7d8d2bd860e83c9f791643ddd8",
+        "fullSha256": "03916c772d3fa03655a9763fb0cdd906f612b7bd53e6e8ab834c3bcccd998e23",
+        "thumbnailSha256": "9e6b236969ad0b88c25ed950174a2b4eae87fd7fe70c5e36b23d48478ec7ac88",
+        "thumbnailBytes": 8260,
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_alpha_preserved",
+        "crop": [
+          37,
+          0,
+          180,
+          547
+        ],
+        "originalRGBunchanged": true,
+        "derivative": {
+          "cardMax": 720,
+          "mapMax": [
+            180,
+            280
+          ],
+          "mapMaxBytes": 10000,
+          "format": "webp"
+        },
+        "reviewNote": "Named complete bottle/can reviewed on contact sheet. Original preserved. Alpha-only background removal; no generated labels or guessed package reconstruction."
+      }
+    },
+    {
+      "id": "global-africa-manawa",
+      "name": "Manawa Mauritian Pale Ale",
+      "breweryId": "global-africa-brewery-manawa",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pale Ale",
+      "abv": 5.5,
+      "ibu": 27,
+      "description": "毛里求斯 Manawa 的淡色艾尔，酒精度 5.5%，公共产品目录标示 27 IBU。生产商确认 Manawa 微型酒厂设于 Pont Fer、Phoenix；属于大型饮料集团旗下的本地精酿系列。",
+      "descriptionBasis": "public_product_catalogue",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.beertasting.com/en/beers/phoenix-manawa-mauritian-pale-ale",
+        "sourceFile": "research/global-coverage-africa/bt-manawa.html",
+        "sourceSha256": "f2fb83bc53ff6e0bf9694a40e53b5ebbaa91adddafc9871d3f62145e645bb912",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "public_product_catalogue",
+        "method": "short_faithful_summary; no individual customer reviews copied"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://phoenixbeveragesgroup.mu/operations-structure/phoenix-bev",
+        "https://www.beertasting.com/en/beers/phoenix-manawa-mauritian-pale-ale"
+      ],
+      "sourceNote": "真实当地生产商与同款实物包装经核对。以工业品牌或集团旗下系列参考收录，不声称为独立精酿；未核得的风味、工艺、酒花品种与苦度不猜填。",
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference",
+      "image": "/images/global-coverage-africa/manawa-card.webp",
+      "imageOriginal": "/images/global-coverage-africa/manawa-cutout.png",
+      "sourceImage": "/images/global-coverage-africa/manawa-original.png",
+      "imageThumbnail": "/images/global-coverage-africa/manawa-map.webp",
+      "imageContentBounds": {
+        "width": 183,
+        "height": 720,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 183,
+          "height": 720
+        },
+        "originalSha256": "bcf11779b6d63d1fe891910383fa61d6f6a3c3c6d97391d9c70eb15cd5194453",
+        "method": "alpha_body_cropped_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 2
+      },
+      "imageKind": "product_packshot",
+      "imageDownloadUrl": "https://beertasting.app/storage/media/52eb4146f4d1736927bcde9b7d071c40/grafik-removebg-preview(1406).png",
+      "imageSource": "https://www.beertasting.com/en/beers/phoenix-manawa-mauritian-pale-ale",
+      "imageLicense": "Copyright holder; no open licence for product image stated",
+      "imageEvidence": {
+        "slug": "manawa",
+        "sourceUrl": "https://www.beertasting.com/en/beers/phoenix-manawa-mauritian-pale-ale",
+        "downloadUrl": "https://beertasting.app/storage/media/52eb4146f4d1736927bcde9b7d071c40/grafik-removebg-preview(1406).png",
+        "sourceImage": "/images/global-coverage-africa/manawa-original.png",
+        "sourceSha256": "9e30a7e435b9aa2efa7e777096dae1cd921cd3f89e5105de623dbac877e43874",
+        "originalSha256": "9e30a7e435b9aa2efa7e777096dae1cd921cd3f89e5105de623dbac877e43874",
+        "sha256": "bcf11779b6d63d1fe891910383fa61d6f6a3c3c6d97391d9c70eb15cd5194453",
+        "fullSha256": "587571ef746b6b5e6c8a16425ca786c83024b4ed936ad59a417a4828f75e3e28",
+        "thumbnailSha256": "fd1b1c742482c152dd1b4be02981f73604f371d75dc5c4277cbf53cfa64da8e1",
+        "thumbnailBytes": 7162,
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_alpha_preserved",
+        "crop": [
+          7,
+          0,
+          259,
+          992
+        ],
+        "originalRGBunchanged": true,
+        "derivative": {
+          "cardMax": 720,
+          "mapMax": [
+            180,
+            280
+          ],
+          "mapMaxBytes": 10000,
+          "format": "webp"
+        },
+        "reviewNote": "Named complete bottle/can reviewed on contact sheet. Original preserved. Alpha-only background removal; no generated labels or guessed package reconstruction."
+      }
+    },
+    {
+      "id": "global-africa-2m",
+      "name": "2M",
+      "breweryId": "global-africa-brewery-2m",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": null,
+      "ibu": null,
+      "description": "莫桑比克 CDM 的 2M 啤酒。官方品牌史记载它于 1965 年开始在马普托生产，并以清爽、易饮为产品特点；展示从官方多规格图中分离的完整玻璃瓶。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://cdm.co.mz/as-marcas-cdm/2m/",
+        "sourceFile": "research/global-coverage-africa/2m.html",
+        "sourceSha256": "746c50a435a5ac89e3bae05ee12719dae5218c8aace7b85741c502bae39346b5",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_product_description",
+        "method": "short_faithful_summary; no individual customer reviews copied"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://cdm.co.mz/as-marcas-cdm/2m/"
+      ],
+      "sourceNote": "真实当地生产商与同款实物包装经核对。以工业品牌或集团旗下系列参考收录，不声称为独立精酿；未核得的风味、工艺、酒花品种与苦度不猜填。",
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference",
+      "image": "/images/global-coverage-africa/2m-card.webp",
+      "imageOriginal": "/images/global-coverage-africa/2m-cutout.png",
+      "sourceImage": "/images/global-coverage-africa/2m-original.png",
+      "imageThumbnail": "/images/global-coverage-africa/2m-map.webp",
+      "imageContentBounds": {
+        "width": 114,
+        "height": 344,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 114,
+          "height": 344
+        },
+        "originalSha256": "f5753ad5542e3462976df17eb736123f85f5a6579f016200e19f686ae9c3e26f",
+        "method": "alpha_body_cropped_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 2
+      },
+      "imageKind": "product_packshot",
+      "imageDownloadUrl": "https://cdm.co.mz/wp-content/uploads/2018/10/2M-3.png",
+      "imageSource": "https://cdm.co.mz/as-marcas-cdm/2m/",
+      "imageLicense": "Copyright holder; no open licence for product image stated",
+      "imageEvidence": {
+        "slug": "2m",
+        "sourceUrl": "https://cdm.co.mz/as-marcas-cdm/2m/",
+        "downloadUrl": "https://cdm.co.mz/wp-content/uploads/2018/10/2M-3.png",
+        "sourceImage": "/images/global-coverage-africa/2m-original.png",
+        "sourceSha256": "837bf0497b0f5d0000bebaa9dfdd8a45d0570733cb7dc9b66ba2b3be5f1f9820",
+        "originalSha256": "837bf0497b0f5d0000bebaa9dfdd8a45d0570733cb7dc9b66ba2b3be5f1f9820",
+        "sha256": "f5753ad5542e3462976df17eb736123f85f5a6579f016200e19f686ae9c3e26f",
+        "fullSha256": "ef683fb07cf1671f8ca1d019b41c49ec71f6250d1ecdeec124208720b7079ccc",
+        "thumbnailSha256": "0333b8a57e383503f7ab25b79684d300572a52dc02cc10cc83f5def174bdc501",
+        "thumbnailBytes": 9354,
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_alpha_preserved;isolated_largest_complete_bottle_from_official_multi_packshot",
+        "crop": [
+          8,
+          8,
+          122,
+          352
+        ],
+        "originalRGBunchanged": true,
+        "derivative": {
+          "cardMax": 720,
+          "mapMax": [
+            180,
+            280
+          ],
+          "mapMaxBytes": 10000,
+          "format": "webp"
+        },
+        "reviewNote": "Named complete bottle/can reviewed on contact sheet. Original preserved. Alpha-only background removal; no generated labels or guessed package reconstruction."
+      }
+    },
+    {
+      "id": "global-africa-julbrew",
+      "name": "JulBrew Lager (historical local brew)",
+      "breweryId": "global-africa-brewery-julbrew",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": 4.7,
+      "ibu": null,
+      "description": "历史本土酒款：冈比亚 Banjul Breweries 的 JulBrew Lager，原酒厂在 2020 年停止当地业务，非现售保证。公共产品目录记载酒精度 4.7%，以浅色麦芽和草本酒花气息为特点。",
+      "descriptionBasis": "public_product_catalogue",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.beertasting.com/en/beers/banjul-julbrew-lager",
+        "sourceFile": "research/global-coverage-africa/bt-julbrew.html",
+        "sourceSha256": "74fda6b7830ff8919c8cc053d88058ea36feb8d189a83601505217386f9721e7",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "public_product_catalogue",
+        "method": "short_faithful_summary; no individual customer reviews copied"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://accessgambia.com/information/julbrew.html",
+        "https://www.beertasting.com/en/beers/banjul-julbrew-lager",
+        "https://standard.gm/banjul-breweries-closure-tabled-at-assembly/"
+      ],
+      "sourceNote": "历史本土酿造，原冈比亚酒厂 2020 年停产；非现售保证。真实当地生产商与同款实物包装经核对。以工业品牌或集团旗下系列参考收录，不声称为独立精酿；未核得的风味、工艺、酒花品种与苦度不猜填。",
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference",
+      "productionStatus": "historical_local_brew",
+      "historical": true,
+      "discontinuedYear": 2020,
+      "image": "/images/global-coverage-africa/julbrew-card.webp",
+      "imageOriginal": "/images/global-coverage-africa/julbrew-cutout.png",
+      "sourceImage": "/images/global-coverage-africa/julbrew-original.png",
+      "imageThumbnail": "/images/global-coverage-africa/julbrew-map.webp",
+      "imageContentBounds": {
+        "width": 186,
+        "height": 720,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 186,
+          "height": 720
+        },
+        "originalSha256": "165740e09eadd74bd9cb01bb5d2ecd74f2fb9764559f8a791a1cc789df124ddc",
+        "method": "alpha_body_cropped_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 2
+      },
+      "imageKind": "product_packshot",
+      "imageDownloadUrl": "https://beertasting.app/storage/media/a13b67038bf890dd1e4a2d31778d98cd/g8azd2zpxvrboglzx8lu.png",
+      "imageSource": "https://www.beertasting.com/en/beers/banjul-julbrew-lager",
+      "imageLicense": "Copyright holder; no open licence for product image stated",
+      "imageEvidence": {
+        "slug": "julbrew",
+        "sourceUrl": "https://www.beertasting.com/en/beers/banjul-julbrew-lager",
+        "downloadUrl": "https://beertasting.app/storage/media/a13b67038bf890dd1e4a2d31778d98cd/g8azd2zpxvrboglzx8lu.png",
+        "sourceImage": "/images/global-coverage-africa/julbrew-original.png",
+        "sourceSha256": "07f7e53e45a47dfe46195c618647a6364fe0637b1789d65dc4fe431ce8f9dac6",
+        "originalSha256": "07f7e53e45a47dfe46195c618647a6364fe0637b1789d65dc4fe431ce8f9dac6",
+        "sha256": "165740e09eadd74bd9cb01bb5d2ecd74f2fb9764559f8a791a1cc789df124ddc",
+        "fullSha256": "922c798a285fefb1cf83ef21f0febbf1dbf384a810adc3c35810d4e0b0e51181",
+        "thumbnailSha256": "32c1d26dde78473b67d6d84f3880f454facbe627f405f02c210d12923f222dba",
+        "thumbnailBytes": 7244,
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_alpha_preserved",
+        "crop": [
+          3,
+          2,
+          227,
+          871
+        ],
+        "originalRGBunchanged": true,
+        "derivative": {
+          "cardMax": 720,
+          "mapMax": [
+            180,
+            280
+          ],
+          "mapMaxBytes": 10000,
+          "format": "webp"
+        },
+        "reviewNote": "Named complete bottle/can reviewed on contact sheet. Original preserved. Alpha-only background removal; no generated labels or guessed package reconstruction."
+      }
+    },
+    {
+      "id": "global-africa-asmara-product",
+      "name": "Asmara Lager Beer",
+      "breweryId": "global-africa-brewery-asmara-product",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": 5,
+      "ibu": null,
+      "description": "厄立特里亚 Asmara Brewery 在阿斯马拉生产的拉格，公共产品目录标示酒精度 5%。酒厂官网介绍本地糖化、发酵、熟成与玻璃瓶灌装流程。",
+      "descriptionBasis": "public_product_catalogue",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.beertasting.com/en/beers/asmara-lager-beer",
+        "sourceFile": "research/global-coverage-africa/bt-asmara-product.html",
+        "sourceSha256": "747558761907cfbeb916616e3eacfd10d46bd1f8f1da8475aad5b0a48ea1aaf6",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "public_product_catalogue",
+        "method": "short_faithful_summary; no individual customer reviews copied"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://asmarabrewery.com/products/beer/",
+        "https://www.beertasting.com/en/beers/asmara-lager-beer"
+      ],
+      "sourceNote": "真实当地生产商与同款实物包装经核对。以工业品牌或集团旗下系列参考收录，不声称为独立精酿；未核得的风味、工艺、酒花品种与苦度不猜填。",
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference",
+      "image": "/images/global-coverage-africa/asmara-product-card.webp",
+      "imageOriginal": "/images/global-coverage-africa/asmara-product-cutout.png",
+      "sourceImage": "/images/global-coverage-africa/asmara-product-original.png",
+      "imageThumbnail": "/images/global-coverage-africa/asmara-product-map.webp",
+      "imageContentBounds": {
+        "width": 232,
+        "height": 598,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 232,
+          "height": 598
+        },
+        "originalSha256": "3232e340f07c110db42acd624acf1de94efc16cc89e5386b8c4576345200df11",
+        "method": "alpha_body_cropped_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 2
+      },
+      "imageKind": "product_packshot",
+      "imageDownloadUrl": "https://beertasting.app/storage/media/1cdef3d324a7dfb7916efa2a8e3aa5ec/fzkrbmncfm8yicszplks.png",
+      "imageSource": "https://www.beertasting.com/en/beers/asmara-lager-beer",
+      "imageLicense": "Copyright holder; no open licence for product image stated",
+      "imageEvidence": {
+        "slug": "asmara-product",
+        "sourceUrl": "https://www.beertasting.com/en/beers/asmara-lager-beer",
+        "downloadUrl": "https://beertasting.app/storage/media/1cdef3d324a7dfb7916efa2a8e3aa5ec/fzkrbmncfm8yicszplks.png",
+        "sourceImage": "/images/global-coverage-africa/asmara-product-original.png",
+        "sourceSha256": "0c74f795cd46185d5e69c1b34b6a2a0ca07eeb4e22ebec512fe411d82dd6a8c9",
+        "originalSha256": "0c74f795cd46185d5e69c1b34b6a2a0ca07eeb4e22ebec512fe411d82dd6a8c9",
+        "sha256": "3232e340f07c110db42acd624acf1de94efc16cc89e5386b8c4576345200df11",
+        "fullSha256": "3066e5ce5b490525c7663853b86b2899082e2bce58b0b81b59973a20c2b48d0b",
+        "thumbnailSha256": "34176c13b7570e9bbd4fbdd488fc4b7eb5f5da58de8027fdbe2f74bd7085c109",
+        "thumbnailBytes": 9390,
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_alpha_preserved",
+        "crop": [
+          20,
+          0,
+          252,
+          598
+        ],
+        "originalRGBunchanged": true,
+        "derivative": {
+          "cardMax": 720,
+          "mapMax": [
+            180,
+            280
+          ],
+          "mapMaxBytes": 10000,
+          "format": "webp"
+        },
+        "reviewNote": "Named complete bottle/can reviewed on contact sheet. Original preserved. Alpha-only background removal; no generated labels or guessed package reconstruction."
+      }
+    },
+    {
+      "id": "global-africa-celtia",
+      "name": "Celtia Bière de Luxe",
+      "breweryId": "global-africa-brewery-celtia",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": 5,
+      "ibu": null,
+      "description": "突尼斯 SFBT 的 Celtia 淡色拉格，酒精度 5%。官方产品资料将其归为下层发酵的金色啤酒；本图为实际绿色玻璃瓶包装。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.groupe-sfbt.com/celtia",
+        "sourceFile": "research/global-coverage-africa/celtia-web-evidence.json",
+        "sourceSha256": "e2d1a1b8446c04278a00a1ade8e7cbdb8c2d318a7c1789949f19cf7616c47efa",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_product_description",
+        "method": "short_faithful_summary; no individual customer reviews copied"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://www.beertasting.com/en/brewery/societe-de-frigorifrique-et-brasserie-de-tunis-sfbt",
+        "https://www.groupe-sfbt.com/celtia",
+        "https://www.beertasting.com/en/brewery/societe-de-frigorifrique-et-brasserie-de-tunis-sfbt"
+      ],
+      "sourceNote": "真实当地生产商与同款实物包装经核对。以工业品牌或集团旗下系列参考收录，不声称为独立精酿；未核得的风味、工艺、酒花品种与苦度不猜填。",
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference",
+      "image": "/images/global-coverage-africa/celtia-card.webp",
+      "imageOriginal": "/images/global-coverage-africa/celtia-cutout.png",
+      "sourceImage": "/images/global-coverage-africa/celtia-original.png",
+      "imageThumbnail": "/images/global-coverage-africa/celtia-map.webp",
+      "imageContentBounds": {
+        "width": 113,
+        "height": 374,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 113,
+          "height": 374
+        },
+        "originalSha256": "8d09e2069a97085a150ca922c27c6c769034c53ba77a7f4760d3bcd18068383e",
+        "method": "alpha_body_cropped_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 2
+      },
+      "imageKind": "product_packshot",
+      "imageDownloadUrl": "https://beertasting.app/storage/media/4aff93646ecad78072cac1416de7a653/irc54zyfqoldbzamj1kr.png",
+      "imageSource": "https://www.groupe-sfbt.com/celtia",
+      "imageLicense": "Copyright holder; no open licence for product image stated",
+      "imageEvidence": {
+        "slug": "celtia",
+        "sourceUrl": "https://www.groupe-sfbt.com/celtia",
+        "downloadUrl": "https://beertasting.app/storage/media/4aff93646ecad78072cac1416de7a653/irc54zyfqoldbzamj1kr.png",
+        "sourceImage": "/images/global-coverage-africa/celtia-original.png",
+        "sourceSha256": "8e0cb1a6d71ffe11c77bdf348a3443152db3fa26a7e3dad578655f65e35cde87",
+        "originalSha256": "8e0cb1a6d71ffe11c77bdf348a3443152db3fa26a7e3dad578655f65e35cde87",
+        "sha256": "8d09e2069a97085a150ca922c27c6c769034c53ba77a7f4760d3bcd18068383e",
+        "fullSha256": "d47e159c03138d1a6a4ff834429a4c32dcfe6fe08091fbd5ff3cfea59c5e3ebc",
+        "thumbnailSha256": "53df9a41f1f92cf50f556aca522fa2146c58ae456afd71b16f55cf7a4908d932",
+        "thumbnailBytes": 8842,
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_alpha_preserved",
+        "crop": [
+          20,
+          10,
+          133,
+          384
+        ],
+        "originalRGBunchanged": true,
+        "derivative": {
+          "cardMax": 720,
+          "mapMax": [
+            180,
+            280
+          ],
+          "mapMaxBytes": 10000,
+          "format": "webp"
+        },
+        "reviewNote": "Named complete bottle/can reviewed on contact sheet. Original preserved. Alpha-only background removal; no generated labels or guessed package reconstruction."
+      }
+    },
+    {
+      "id": "global-africa-maluti",
+      "name": "Maluti Premium Lager",
+      "breweryId": "global-africa-brewery-maluti",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": 4.8,
+      "ibu": null,
+      "description": "莱索托马塞卢 Maluti Mountain Brewery 本土酿造的 Maluti Premium Lager。当地国家通讯社确认其本土生产身份；产品目录标示酒精度 4.8%，展示完整易拉罐实物图。",
+      "descriptionBasis": "public_product_catalogue",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.beertasting.com/en/beers/maluti-premium-lager",
+        "sourceFile": "research/global-coverage-africa/bt-maluti.html",
+        "sourceSha256": "ca73bf1a7b94f7ed4c37d7bd4e96aca515259621d2e345af368d9d481b75f5c3",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "public_product_catalogue",
+        "method": "short_faithful_summary; no individual customer reviews copied"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://www.africaoutlookmag.com/company-profiles/1525-maluti-mountain-brewery",
+        "https://www.beertasting.com/en/beers/maluti-premium-lager",
+        "https://www.africaoutlookmag.com/company-profiles/1525-maluti-mountain-brewery",
+        "https://lestimes.com/?p=5536"
+      ],
+      "sourceNote": "真实当地生产商与同款实物包装经核对。以工业品牌或集团旗下系列参考收录，不声称为独立精酿；未核得的风味、工艺、酒花品种与苦度不猜填。",
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference",
+      "image": "/images/global-coverage-africa/maluti-card.webp",
+      "imageOriginal": "/images/global-coverage-africa/maluti-cutout.png",
+      "sourceImage": "/images/global-coverage-africa/maluti-original.png",
+      "imageThumbnail": "/images/global-coverage-africa/maluti-map.webp",
+      "imageContentBounds": {
+        "width": 260,
+        "height": 470,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 260,
+          "height": 470
+        },
+        "originalSha256": "11c85811617627d93bed0e4fd7e910c1686840be2de4c3ddcb727ee5c481ec81",
+        "method": "alpha_body_cropped_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 2
+      },
+      "imageKind": "product_packshot",
+      "imageDownloadUrl": "https://beertasting.app/storage/media/497892a84b5d990c7e2a16b0c95d6bb2/upload_1676881810-removebg-preview.png",
+      "imageSource": "https://www.beertasting.com/en/beers/maluti-premium-lager",
+      "imageLicense": "Copyright holder; no open licence for product image stated",
+      "imageEvidence": {
+        "slug": "maluti",
+        "sourceUrl": "https://www.beertasting.com/en/beers/maluti-premium-lager",
+        "downloadUrl": "https://beertasting.app/storage/media/497892a84b5d990c7e2a16b0c95d6bb2/upload_1676881810-removebg-preview.png",
+        "sourceImage": "/images/global-coverage-africa/maluti-original.png",
+        "sourceSha256": "f2e099828f048092c75e366d45f06fc0f248018f1ad248a62a09151c0e31e8a0",
+        "originalSha256": "f2e099828f048092c75e366d45f06fc0f248018f1ad248a62a09151c0e31e8a0",
+        "sha256": "11c85811617627d93bed0e4fd7e910c1686840be2de4c3ddcb727ee5c481ec81",
+        "fullSha256": "fcef3a8cb0c71a73bb89de0a68d4c873766b415fc9b92633d800f3dec6a993c3",
+        "thumbnailSha256": "a69027df7ade7bcd43ca4912cee84f268915c46e8b014444bea22e0f2099f315",
+        "thumbnailBytes": 9348,
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_alpha_preserved",
+        "crop": [
+          0,
+          0,
+          260,
+          470
+        ],
+        "originalRGBunchanged": true,
+        "derivative": {
+          "cardMax": 720,
+          "mapMax": [
+            180,
+            280
+          ],
+          "mapMaxBytes": 10000,
+          "format": "webp"
+        },
+        "reviewNote": "Named complete bottle/can reviewed on contact sheet. Original preserved. Alpha-only background removal; no generated labels or guessed package reconstruction."
+      }
+    },
+    {
+      "id": "global-africa-nkoyi",
+      "name": "Nkoyi Blonde",
+      "breweryId": "global-africa-brewery-nkoyi",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": 5,
+      "ibu": null,
+      "description": "刚果（金）金沙萨 BRACONGO 生产的 Nkoyi Blonde，自 2010 年推出。官网列明酒精度 5%，原料包括水、麦芽、酒花和谷物，采用回收玻璃瓶。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://bracongo.cd/Boisson/nkoyi-blonde",
+        "sourceFile": "research/global-coverage-africa/nkoyi.html",
+        "sourceSha256": "fc17e091b96735830fd0e5e4c53a3772dc1cdee12f6d737e53de65fdff6213f9",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_product_description",
+        "method": "short_faithful_summary; no individual customer reviews copied"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://bracongo.cd/faq/",
+        "https://bracongo.cd/Boisson/nkoyi-blonde"
+      ],
+      "sourceNote": "真实当地生产商与同款实物包装经核对。以工业品牌或集团旗下系列参考收录，不声称为独立精酿；未核得的风味、工艺、酒花品种与苦度不猜填。",
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference",
+      "image": "/images/global-coverage-africa/nkoyi-card.webp",
+      "imageOriginal": "/images/global-coverage-africa/nkoyi-cutout.png",
+      "sourceImage": "/images/global-coverage-africa/nkoyi-original.webp",
+      "imageThumbnail": "/images/global-coverage-africa/nkoyi-map.webp",
+      "imageContentBounds": {
+        "width": 187,
+        "height": 720,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 187,
+          "height": 720
+        },
+        "originalSha256": "ade1185ca2c998cbce43f81cab702c4002d32602fbd5576b0bf5c6df24192450",
+        "method": "alpha_body_cropped_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 2
+      },
+      "imageKind": "product_packshot",
+      "imageDownloadUrl": "https://bracongo.cd/img/blonde.webp",
+      "imageSource": "https://bracongo.cd/Boisson/nkoyi-blonde",
+      "imageLicense": "Copyright holder; no open licence for product image stated",
+      "imageEvidence": {
+        "slug": "nkoyi",
+        "sourceUrl": "https://bracongo.cd/Boisson/nkoyi-blonde",
+        "downloadUrl": "https://bracongo.cd/img/blonde.webp",
+        "sourceImage": "/images/global-coverage-africa/nkoyi-original.webp",
+        "sourceSha256": "df5606347f55e2f14b23cbbc71adc771d4f0b96f3b451e694a35cf7e188dbe8f",
+        "originalSha256": "df5606347f55e2f14b23cbbc71adc771d4f0b96f3b451e694a35cf7e188dbe8f",
+        "sha256": "ade1185ca2c998cbce43f81cab702c4002d32602fbd5576b0bf5c6df24192450",
+        "fullSha256": "f50d5e5c1ff1d4a4e1eb6609750a55c017ed7388e348ec31581ebf71c11cd8f5",
+        "thumbnailSha256": "655aaee830801d241a529873d3eb5b6a8ae800d2101ac0563df511335902adac",
+        "thumbnailBytes": 8624,
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_alpha_preserved",
+        "crop": [
+          0,
+          0,
+          1064,
+          4096
+        ],
+        "originalRGBunchanged": true,
+        "derivative": {
+          "cardMax": 720,
+          "mapMax": [
+            180,
+            280
+          ],
+          "mapMaxBytes": 10000,
+          "format": "webp"
+        },
+        "reviewNote": "Named complete bottle/can reviewed on contact sheet. Original preserved. Alpha-only background removal; no generated labels or guessed package reconstruction."
+      }
+    },
+    {
+      "id": "global-africa-beaufort-gq",
+      "name": "Beaufort Lager (Equatorial Guinea)",
+      "breweryId": "global-africa-brewery-beaufort-gq",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": null,
+      "ibu": null,
+      "description": "赤道几内亚 SOEGUIBE 本土生产的 Beaufort Lager。政府新闻记录 2011 年当地新品发布，酒厂官网提供 50cl 玻璃瓶；与其他国家同品牌版本分开收录。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.soeguibe.com/producto/beaufort/",
+        "sourceFile": "research/global-coverage-africa/beaufort-gq.html",
+        "sourceSha256": "75bcf3cfcbfe2a5b22698376826a1775e003a7c223f16d7b5f4cc21483d533f7",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_product_description",
+        "method": "short_faithful_summary; no individual customer reviews copied"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://www.soeguibe.com/actualidad/una-inmersion-en-el-interior-de-soeguibe-para-los-alumnos-de-la-escuela-francesa-de-bata/",
+        "https://www.soeguibe.com/producto/beaufort/"
+      ],
+      "sourceNote": "真实当地生产商与同款实物包装经核对。以工业品牌或集团旗下系列参考收录，不声称为独立精酿；未核得的风味、工艺、酒花品种与苦度不猜填。",
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference",
+      "image": "/images/global-coverage-africa/beaufort-gq-card.webp",
+      "imageOriginal": "/images/global-coverage-africa/beaufort-gq-cutout.png",
+      "sourceImage": "/images/global-coverage-africa/beaufort-gq-original.png",
+      "imageThumbnail": "/images/global-coverage-africa/beaufort-gq-map.webp",
+      "imageContentBounds": {
+        "width": 140,
+        "height": 510,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 140,
+          "height": 510
+        },
+        "originalSha256": "5ea6fa7ef8bbce3160f40bc35a02507d00c79734913d3998f16adebb83c6c4ad",
+        "method": "alpha_body_cropped_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 2
+      },
+      "imageKind": "product_packshot",
+      "imageDownloadUrl": "https://www.soeguibe.com/app/uploads/2026/02/bf800-copie1.png",
+      "imageSource": "https://www.soeguibe.com/producto/beaufort/",
+      "imageLicense": "Copyright holder; no open licence for product image stated",
+      "imageEvidence": {
+        "slug": "beaufort-gq",
+        "sourceUrl": "https://www.soeguibe.com/producto/beaufort/",
+        "downloadUrl": "https://www.soeguibe.com/app/uploads/2026/02/bf800-copie1.png",
+        "sourceImage": "/images/global-coverage-africa/beaufort-gq-original.png",
+        "sourceSha256": "7a2d182f4a99a020f7954e1558159234f6e1d88771da11a50a4b90da94ef5405",
+        "originalSha256": "7a2d182f4a99a020f7954e1558159234f6e1d88771da11a50a4b90da94ef5405",
+        "sha256": "5ea6fa7ef8bbce3160f40bc35a02507d00c79734913d3998f16adebb83c6c4ad",
+        "fullSha256": "5e07eb75ce78fdc60098031a4da5eb8e3c5f4357dfdc8ad417ea6d9d57c0b6f4",
+        "thumbnailSha256": "ff07d187f6f4e4d5122949b10f150732351df7a790253ad2dbad81924a37cb79",
+        "thumbnailBytes": 9688,
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_alpha_preserved",
+        "crop": [
+          130,
+          13,
+          270,
+          523
+        ],
+        "originalRGBunchanged": true,
+        "derivative": {
+          "cardMax": 720,
+          "mapMax": [
+            180,
+            280
+          ],
+          "mapMaxBytes": 10000,
+          "format": "webp"
+        },
+        "reviewNote": "Named complete bottle/can reviewed on contact sheet. Original preserved. Alpha-only background removal; no generated labels or guessed package reconstruction."
+      }
+    },
+    {
+      "id": "global-africa-gazelle",
+      "name": "Bière La Gazelle",
+      "breweryId": "global-africa-brewery-gazelle",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": 4.2,
+      "ibu": null,
+      "description": "塞内加尔 SOBOA 在达喀尔 Bel-Air 酒厂酿造的 Gazelle。官网记载品牌始于 1929 年，酒精度 4.2%，配料包括水、玉米、麦芽和酒花。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://soboa.sn/project/gazelle-biere/",
+        "sourceFile": "research/global-coverage-africa/gazelle.html",
+        "sourceSha256": "b1f4c97a74e02a442262e91e0a566e21e064afe42a03f3511dde44f3391976af",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_product_description",
+        "method": "short_faithful_summary; no individual customer reviews copied"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://soboa.sn/project/gazelle-biere/"
+      ],
+      "sourceNote": "真实当地生产商与同款实物包装经核对。以工业品牌或集团旗下系列参考收录，不声称为独立精酿；未核得的风味、工艺、酒花品种与苦度不猜填。",
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference",
+      "image": "/images/global-coverage-africa/gazelle-card.webp",
+      "imageOriginal": "/images/global-coverage-africa/gazelle-cutout.png",
+      "sourceImage": "/images/global-coverage-africa/gazelle-original.png",
+      "imageThumbnail": "/images/global-coverage-africa/gazelle-map.webp",
+      "imageContentBounds": {
+        "width": 236,
+        "height": 720,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 236,
+          "height": 720
+        },
+        "originalSha256": "3453751902d45b36ca3dbd90d3b462cfcd4a738cdc547ac915101ad323f45bff",
+        "method": "alpha_body_cropped_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 2
+      },
+      "imageKind": "product_packshot",
+      "imageDownloadUrl": "https://beertasting.app/storage/media/80ba62b86e88bce326e76266f3a3365f/gxmpfdpdv8wkfks3rfxw.png",
+      "imageSource": "https://soboa.sn/project/gazelle-biere/",
+      "imageLicense": "Copyright holder; no open licence for product image stated",
+      "imageEvidence": {
+        "slug": "gazelle",
+        "sourceUrl": "https://soboa.sn/project/gazelle-biere/",
+        "downloadUrl": "https://beertasting.app/storage/media/80ba62b86e88bce326e76266f3a3365f/gxmpfdpdv8wkfks3rfxw.png",
+        "sourceImage": "/images/global-coverage-africa/gazelle-original.png",
+        "sourceSha256": "55994a74e47999a91b37131c9317215ee7cab44153379733ceddd67f574a5f52",
+        "originalSha256": "55994a74e47999a91b37131c9317215ee7cab44153379733ceddd67f574a5f52",
+        "sha256": "3453751902d45b36ca3dbd90d3b462cfcd4a738cdc547ac915101ad323f45bff",
+        "fullSha256": "c6207f5fd33e2d45f3394286986a3ce2c3703c09f427999569219bc24d1467cc",
+        "thumbnailSha256": "8de0f60fea0042dadc46509c80e16e418e01d1046d32a6089e670567134d85ee",
+        "thumbnailBytes": 9120,
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_alpha_preserved",
+        "crop": [
+          4,
+          10,
+          260,
+          792
+        ],
+        "originalRGBunchanged": true,
+        "derivative": {
+          "cardMax": 720,
+          "mapMax": [
+            180,
+            280
+          ],
+          "mapMaxBytes": 10000,
+          "format": "webp"
+        },
+        "reviewNote": "Named complete bottle/can reviewed on contact sheet. Original preserved. Alpha-only background removal; no generated labels or guessed package reconstruction."
+      }
+    },
+    {
+      "id": "global-africa-thb-official",
+      "name": "Three Horses Beer Pilsener",
+      "breweryId": "global-africa-brewery-thb-official",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pilsner",
+      "abv": 5.4,
+      "ibu": null,
+      "description": "马达加斯加 STAR 的 Three Horses Beer Pilsener，简称 THB。官方品牌史确认当地生产与安齐拉贝的罐装线；这里采用官网完整玻璃瓶，目录标示酒精度 5.4%。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.star.mg/produit/thb/",
+        "sourceFile": "research/global-coverage-africa/thb-official.html",
+        "sourceSha256": "dd904815125244ff565d0ed5e46cbb01c54b15fe9c2b20927e9b9f0496b32708",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_product_description",
+        "method": "short_faithful_summary; no individual customer reviews copied"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://www.star.mg/star/histoire/",
+        "https://www.star.mg/produit/thb/"
+      ],
+      "sourceNote": "真实当地生产商与同款实物包装经核对。以工业品牌或集团旗下系列参考收录，不声称为独立精酿；未核得的风味、工艺、酒花品种与苦度不猜填。",
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference",
+      "image": "/images/global-coverage-africa/thb-official-card.webp",
+      "imageOriginal": "/images/global-coverage-africa/thb-official-cutout.png",
+      "sourceImage": "/images/global-coverage-africa/thb-official-original.png",
+      "imageThumbnail": "/images/global-coverage-africa/thb-official-map.webp",
+      "imageContentBounds": {
+        "width": 190,
+        "height": 684,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 190,
+          "height": 684
+        },
+        "originalSha256": "b27e9cb60c24f24cb71e8193fc5f93a6369523fad743a00f232725a0a03abe8d",
+        "method": "alpha_body_cropped_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 2
+      },
+      "imageKind": "product_packshot",
+      "imageDownloadUrl": "https://www.star.mg/wp-content/uploads/2024/07/THB_65cl_simul-etq_2020-1.png",
+      "imageSource": "https://www.star.mg/produit/thb/",
+      "imageLicense": "Copyright holder; no open licence for product image stated",
+      "imageEvidence": {
+        "slug": "thb-official",
+        "sourceUrl": "https://www.star.mg/produit/thb/",
+        "downloadUrl": "https://www.star.mg/wp-content/uploads/2024/07/THB_65cl_simul-etq_2020-1.png",
+        "sourceImage": "/images/global-coverage-africa/thb-official-original.png",
+        "sourceSha256": "7943fdd6b416f86170a63e5cf67bc53523b9899d3d2aebe625bf8a5ba135c7ea",
+        "originalSha256": "7943fdd6b416f86170a63e5cf67bc53523b9899d3d2aebe625bf8a5ba135c7ea",
+        "sha256": "b27e9cb60c24f24cb71e8193fc5f93a6369523fad743a00f232725a0a03abe8d",
+        "fullSha256": "52476ceb132c2ba001b2597798997ac3d3875887b07be04d754079e7c51180cb",
+        "thumbnailSha256": "cf5a46d226d343d7ee550f8418fdba38e183f84369f57841a857fea2984cdd76",
+        "thumbnailBytes": 8962,
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_alpha_preserved",
+        "crop": [
+          87,
+          7,
+          277,
+          691
+        ],
+        "originalRGBunchanged": true,
+        "derivative": {
+          "cardMax": 720,
+          "mapMax": [
+            180,
+            280
+          ],
+          "mapMaxBytes": 10000,
+          "format": "webp"
+        },
+        "reviewNote": "Named complete bottle/can reviewed on contact sheet. Original preserved. Alpha-only background removal; no generated labels or guessed package reconstruction."
+      }
+    },
+    {
+      "id": "global-africa-strela",
+      "name": "Strela Classic",
+      "breweryId": "global-africa-brewery-strela",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Amber Lager",
+      "abv": 5.6,
+      "ibu": null,
+      "description": "佛得角 CERIS 的 Strela Classic 琥珀拉格，公共产品目录标示酒精度 5.6%。母公司确认 Strela 在普拉亚的本地酒厂生产，非葡萄牙进口品牌。",
+      "descriptionBasis": "public_product_catalogue",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.beertasting.com/en/beers/ceris-strela-classic",
+        "sourceFile": "research/global-coverage-africa/bt-strela.html",
+        "sourceSha256": "90fe745bb5a2ce78d3ded9970d989be42d7cfd50fa7e9fac3622e15a6b625fe1",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "public_product_catalogue",
+        "method": "short_faithful_summary; no individual customer reviews copied"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://www.eccbc.com/equatorial-coca-cola-invests-9me-to-produce-strela-cape-verde/",
+        "https://www.beertasting.com/en/beers/ceris-strela-classic"
+      ],
+      "sourceNote": "真实当地生产商与同款实物包装经核对。以工业品牌或集团旗下系列参考收录，不声称为独立精酿；未核得的风味、工艺、酒花品种与苦度不猜填。",
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference",
+      "image": "/images/global-coverage-africa/strela-card.webp",
+      "imageOriginal": "/images/global-coverage-africa/strela-cutout.png",
+      "sourceImage": "/images/global-coverage-africa/strela-original.png",
+      "imageThumbnail": "/images/global-coverage-africa/strela-map.webp",
+      "imageContentBounds": {
+        "width": 188,
+        "height": 720,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 188,
+          "height": 720
+        },
+        "originalSha256": "1bc8aed506fedb8e977b8e325167819857ea6bc0bef986e6ef8997e0109a3b2e",
+        "method": "alpha_body_cropped_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 2
+      },
+      "imageKind": "product_packshot",
+      "imageDownloadUrl": "https://beertasting.app/storage/media/79cd30e25ca5797c9ed085bbe3572ed5/cfztxmcabxjev81z0yhk.png",
+      "imageSource": "https://www.beertasting.com/en/beers/ceris-strela-classic",
+      "imageLicense": "Copyright holder; no open licence for product image stated",
+      "imageEvidence": {
+        "slug": "strela",
+        "sourceUrl": "https://www.beertasting.com/en/beers/ceris-strela-classic",
+        "downloadUrl": "https://beertasting.app/storage/media/79cd30e25ca5797c9ed085bbe3572ed5/cfztxmcabxjev81z0yhk.png",
+        "sourceImage": "/images/global-coverage-africa/strela-original.png",
+        "sourceSha256": "a20e9987805a84ea98fac95246a5e7a3e7c9f83154c8e11a6ce65567a7e1b463",
+        "originalSha256": "a20e9987805a84ea98fac95246a5e7a3e7c9f83154c8e11a6ce65567a7e1b463",
+        "sha256": "1bc8aed506fedb8e977b8e325167819857ea6bc0bef986e6ef8997e0109a3b2e",
+        "fullSha256": "35f21d12f351bb95e4605e66c4650a1ab687c6e0b71926fa751ca89430bef27c",
+        "thumbnailSha256": "f67d4ed4010dea3ef6e1eec9ef4f2b824e5821d66058e692c0067b454700636f",
+        "thumbnailBytes": 7466,
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_alpha_preserved",
+        "crop": [
+          7,
+          15,
+          260,
+          982
+        ],
+        "originalRGBunchanged": true,
+        "derivative": {
+          "cardMax": 720,
+          "mapMax": [
+            180,
+            280
+          ],
+          "mapMaxBytes": 10000,
+          "format": "webp"
+        },
+        "reviewNote": "Named complete bottle/can reviewed on contact sheet. Original preserved. Alpha-only background removal; no generated labels or guessed package reconstruction."
+      }
+    },
+    {
+      "id": "global-africa-ngok",
+      "name": "Ngok’",
+      "breweryId": "global-africa-brewery-ngok",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": null,
+      "ibu": null,
+      "description": "刚果（布）BRASCO 的 Ngok’ 金色啤酒，采用鳄鱼标志。国家工业部门列明当地生产商；获奖机构页面提供同款完整瓶图，其国家栏将两刚果混写，已依据政府生产商资料纠正。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.monde-selection.com/product/ngok/",
+        "sourceFile": "research/global-coverage-africa/ngok-award.html",
+        "sourceSha256": "7971dbf34acdaf0d2e54375b40b3832c04bfc873587af66a444018db68ec4edd",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_product_description",
+        "method": "short_faithful_summary; no individual customer reviews copied"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://industrie.gouv.cg/industries/brasseries-du-congo-brasco",
+        "https://www.monde-selection.com/product/ngok/"
+      ],
+      "sourceNote": "真实当地生产商与同款实物包装经核对。以工业品牌或集团旗下系列参考收录，不声称为独立精酿；未核得的风味、工艺、酒花品种与苦度不猜填。",
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference",
+      "sourceConflicts": [
+        {
+          "field": "country",
+          "sourceUrl": "https://www.monde-selection.com/product/ngok/",
+          "sourceValue": "Democratic Republic Of The Congo",
+          "resolution": "Rejected award-page country field; government producer identity confirms BRASCO is in Republic of the Congo"
+        }
+      ],
+      "image": "/images/global-coverage-africa/ngok-card.webp",
+      "imageOriginal": "/images/global-coverage-africa/ngok-cutout.png",
+      "sourceImage": "/images/global-coverage-africa/ngok-original.png",
+      "imageThumbnail": "/images/global-coverage-africa/ngok-map.webp",
+      "imageContentBounds": {
+        "width": 152,
+        "height": 553,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 152,
+          "height": 553
+        },
+        "originalSha256": "49b35892333f86834206cf96ad52079f618fdc1b6a65881b50c4212ada4db0a2",
+        "method": "alpha_body_cropped_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 2
+      },
+      "imageKind": "product_packshot",
+      "imageDownloadUrl": "https://media.monde-selection.com/2023/04/1039362-768x768.png",
+      "imageSource": "https://www.monde-selection.com/product/ngok/",
+      "imageLicense": "Copyright holder; no open licence for product image stated",
+      "imageEvidence": {
+        "slug": "ngok",
+        "sourceUrl": "https://www.monde-selection.com/product/ngok/",
+        "downloadUrl": "https://media.monde-selection.com/2023/04/1039362-768x768.png",
+        "sourceImage": "/images/global-coverage-africa/ngok-original.png",
+        "sourceSha256": "57d2ffd7bafcdec90a49fc320de163521eed55cbd05eb8eea5fae89560b81c9a",
+        "originalSha256": "57d2ffd7bafcdec90a49fc320de163521eed55cbd05eb8eea5fae89560b81c9a",
+        "sha256": "49b35892333f86834206cf96ad52079f618fdc1b6a65881b50c4212ada4db0a2",
+        "fullSha256": "c25607252aa39823d7163126eb1a831b61db9f750abfdcb0176d78baf91a5da6",
+        "thumbnailSha256": "557412115d2e3a32bc7ee07ff3c25e647b83e60804a45203e6076a5d2ef42d7e",
+        "thumbnailBytes": 8418,
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_alpha_preserved",
+        "crop": [
+          308,
+          107,
+          460,
+          660
+        ],
+        "originalRGBunchanged": true,
+        "derivative": {
+          "cardMax": 720,
+          "mapMax": [
+            180,
+            280
+          ],
+          "mapMaxBytes": 10000,
+          "format": "webp"
+        },
+        "reviewNote": "Named complete bottle/can reviewed on contact sheet. Original preserved. Alpha-only background removal; no generated labels or guessed package reconstruction."
+      }
+    }
+  ]
+}

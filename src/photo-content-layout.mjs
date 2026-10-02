@@ -1,7 +1,7 @@
 /**
- * Fit a verified alpha-content rectangle inside an unchanged image frame.
+ * Fit a measured product-content rectangle inside an unchanged image frame.
  * containerAspect is the frame's width / height, not the source image ratio.
- * The parent must be positioned; overflow:hidden discards transparent margins.
+ * The parent must be positioned; overflow:hidden clips the measured margins.
  * No source pixels are stretched: both rendered dimensions use the same scale.
  */
 export function contentImageStyle(beer, containerAspect) {

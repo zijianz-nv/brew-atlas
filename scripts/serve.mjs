@@ -65,7 +65,8 @@ const server = http.createServer(async (req, res) => {
     if (!info.isFile()) return plain(res, 404, 'Not found');
     const extension = extname(resolvedFile).toLowerCase();
     let encoding;
-    if (extension === '.json' && /(?:^|[,\s])gzip(?:[,\s;]|$)/.test(req.headers['accept-encoding'] || '')) {
+    const compressible=['.json','.geojson','.js','.mjs','.css','.svg'].includes(extension);
+    if (compressible && /(?:^|[,\s])gzip(?:[,\s;]|$)/.test(req.headers['accept-encoding'] || '')) {
       try {
         const compressed = await realpath(resolvedFile + '.gz');
         const compressedInfo = await stat(compressed);
@@ -77,7 +78,7 @@ const server = http.createServer(async (req, res) => {
     res.writeHead(200, {
       'Content-Type': mime[extension] || 'application/octet-stream',
       'Content-Length': info.size,
-      ...(extension === '.json' ? { 'Vary': 'Accept-Encoding' } : {}),
+      ...(compressible ? { 'Vary': 'Accept-Encoding' } : {}),
       ...(encoding ? { 'Content-Encoding': encoding } : {}),
       'Cache-Control': ['.html', '.json', '.geojson'].includes(extension) ? 'no-cache' : 'public, max-age=3600',
     });

@@ -1,10 +1,10 @@
-# Active local catalogue — 2026-10-01
+# Active local catalogue — 2026-10-02
 
-The sole active catalogue is `/data/catalog.json`. At the user's request, it now
+The runtime catalogue is `/data/catalog.manifest.json` and its complete set of JSON chunks. At the user's request, it now
 combines all previously obtained local beer data: the award/representative seed
 catalogue, BeerTasting, Open Food Facts, the world reference collection, DIY Dog
 historical recipes, Open Beer Database, KKCP, Hold My Beer, Luca, HopCity,
-Systembolaget's 2025 beer sales articles, and BeerRepublic product samples.
+Systembolaget's 2025 beer sales articles, BeerRepublic product samples, and reviewed regional brewery products. Regional additions have separate attribution in `data-sources/central-asia/NOTICE.md` and `data-sources/regional/NOTICE.md`. Egyptian industrial brands are labelled separately and are not presented as independently certified craft products.
 Awards and representative membership are optional labels, not admission gates.
 Records are not all verified independent craft beers or currently sold products.
 Exact IDs, reviewed products and barcodes are merged; remaining source records

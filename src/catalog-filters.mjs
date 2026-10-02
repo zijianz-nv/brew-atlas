@@ -1,12 +1,26 @@
+import {countrySelectionValues} from './country-selection.mjs';
 export const EMPTY_FACETS = Object.freeze({family:'all', substyle:'all', taste:'all', mouthfeel:'all', aroma:'all', process:'all', ingredient:'all', brewery:'all'});
 export const FILTER_DIMENSIONS = [...Object.keys(EMPTY_FACETS), 'country', 'strength'];
+
+// Keep local place names searchable alongside their English catalogue names.
+// Only supplied aliases are used; no place or product identity is inferred.
+export function beerSearchText(beer, brewery) {
+  const aliases = value => Array.isArray(value) ? value : [];
+  return [beer.name, ...aliases(beer.nameAliases), beer.style, beer.styleZh,
+    beer.description, ...aliases(beer.flavors), brewery?.name, brewery?.nameZh,
+    ...aliases(brewery?.nameAliases), brewery?.city, brewery?.cityZh,
+    ...aliases(brewery?.cityAliases), brewery?.region, brewery?.regionZh, ...aliases(brewery?.regionAliases),
+    ...aliases(brewery?.locationAliases), brewery?.country, brewery?.countryZh,
+    ...aliases(brewery?.countryAliases)].filter(value => typeof value === 'string')
+    .join(' ').toLowerCase();
+}
 
 export function valuesFor(beer, taxonomy, breweryMap, dimension) {
   const record = taxonomy[beer.id] || {};
   if (dimension === 'family') return [record.family || 'unknown'];
   if (dimension === 'substyle') return [record.substyle?.id || 'unknown'];
   if (dimension === 'brewery') return [beer.breweryId || 'unknown'];
-  if (dimension === 'country') return [breweryMap[beer.breweryId]?.country || 'unknown'];
+  if (dimension === 'country') return countrySelectionValues(breweryMap[beer.breweryId]?.country || 'unknown');
   if (dimension === 'strength') return [Number.isFinite(beer.abv) ? (beer.abv <= 4.5 ? 'light' : beer.abv <= 7 ? 'balanced' : 'strong') : 'unknown'];
   return record[dimension]?.length ? record[dimension] : ['unknown'];
 }

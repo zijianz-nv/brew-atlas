@@ -1,0 +1,311 @@
+{
+  "metadata": {
+    "checkedAt": "2026-10-02",
+    "purpose": "Two locally originated US 1995 white beers with primary-source launch evidence; Blue Moon is a historical Denver birthplace reference",
+    "breweries": 2,
+    "beers": 2
+  },
+  "breweries": [
+    {
+      "id": "year1995-allagash-portland",
+      "name": "Allagash Brewing Company",
+      "country": "United States",
+      "countryZh": "美国",
+      "countryCode": "US",
+      "city": "Portland, Maine",
+      "lat": 43.7031,
+      "lng": -70.3178,
+      "locationVerified": true,
+      "locationPrecision": "brewery",
+      "locationRole": "brewery_city_reference",
+      "locationEvidence": {
+        "city": "Portland, Maine",
+        "countryCode": "US",
+        "lat": 43.7031,
+        "lng": -70.3178,
+        "locationPrecision": "brewery",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://www.allagash.com/about/our-story/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Allagash_Brewing_Company",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "官网说明自1995年一直在Portland同一地块酿造所有Allagash啤酒。使用公开酒厂坐标参考，不是缅因州行政区域中心。"
+      },
+      "website": "https://www.allagash.com/",
+      "description": "官网说明自1995年一直在Portland同一地块酿造所有Allagash啤酒。使用公开酒厂坐标参考，不是缅因州行政区域中心。",
+      "sourceUrls": [
+        "https://www.allagash.com/about/our-story/",
+        "https://www.allagash.com/beer/wheat/white/"
+      ],
+      "craftStatus": "craft_brewery_reference"
+    },
+    {
+      "id": "year1995-blue-moon-denver-birthplace",
+      "name": "Blue Moon — Sandlot Brewery historical birthplace",
+      "country": "United States",
+      "countryZh": "美国",
+      "countryCode": "US",
+      "city": "Denver, Colorado",
+      "lat": 39.74,
+      "lng": -104.99,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "historical_birthplace_reference",
+      "locationEvidence": {
+        "city": "Denver, Colorado",
+        "countryCode": "US",
+        "lat": 39.74,
+        "lng": -104.99,
+        "locationPrecision": "city",
+        "locationRole": "historical_birthplace_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://www.bluemoonbrewingcompany.com/en-GB/story",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Denver",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "Denver为有官方证据的1995历史本土首酿城市参考点，不是所有现售产品的唯一生产地；不修改原有共享Coors Golden酒厂的坐标。"
+      },
+      "website": "https://www.bluemoonbrewingcompany.com/",
+      "description": "Denver为有官方证据的1995历史本土首酿城市参考点，不是所有现售产品的唯一生产地；不修改原有共享Coors Golden酒厂的坐标。",
+      "sourceUrls": [
+        "https://www.bluemoonbrewingcompany.com/en-GB/story",
+        "https://www.molsoncoors.com/brands/our-brands/blue-moon?region=951",
+        "https://www.bluemoonbrewingcompany.com/es-ES/drink-menu",
+        "https://www.molsoncoorsblog.com/blue-moon-bellyslide-wit-baseball"
+      ],
+      "craftStatus": "industrial_reference"
+    }
+  ],
+  "beers": [
+    {
+      "id": "openbeer-4282",
+      "name": "Allagash White",
+      "breweryId": "year1995-allagash-portland",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Belgian Witbier",
+      "styleZh": "比利时小麦白啤",
+      "abv": 5.2,
+      "ibu": null,
+      "srm": null,
+      "description": "1995年在美国缅因州 Portland 首酿的比利时风格小麦白啤。官方现配方使用麦芽、红白小麦与燕麦，加入芫荽籽和库拉索橙皮，呈朦胧酒色和清爽柑橘、香料气息。此条采用官网当前5.2%版本。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.allagash.com/beer/wheat/white/",
+        "sourceType": "official_product_description",
+        "retrievedAt": "2026-10-02",
+        "method": "faithful Chinese paraphrase of official product and history facts"
+      },
+      "flavors": [
+        "柑橘",
+        "香料"
+      ],
+      "flavorEvidence": [
+        {
+          "tag": "柑橘",
+          "sourceUrl": "https://www.allagash.com/beer/wheat/white/",
+          "basis": "official product orange peel/coriander description"
+        },
+        {
+          "tag": "香料",
+          "sourceUrl": "https://www.allagash.com/beer/wheat/white/",
+          "basis": "official product orange peel/coriander description"
+        }
+      ],
+      "hops": [
+        "Nugget",
+        "Crystal",
+        "Czech Saaz"
+      ],
+      "malts": [
+        "Allagash 2-Row Malted Barley Blend",
+        "Local Pale Malt",
+        "Red Wheat Malt",
+        "Raw White Wheat",
+        "Oats",
+        "Carapils"
+      ],
+      "yeast": "Allagash House Yeast",
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "craftStatus": "craft_brewery_reference",
+      "catalogRole": "craft_brewery_reference",
+      "locationEvidence": {
+        "city": "Portland, Maine",
+        "countryCode": "US",
+        "lat": 43.7031,
+        "lng": -70.3178,
+        "locationPrecision": "brewery",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://www.allagash.com/about/our-story/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Allagash_Brewing_Company",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "官网说明自1995年一直在Portland同一地块酿造所有Allagash啤酒。使用公开酒厂坐标参考，不是缅因州行政区域中心。"
+      },
+      "launchYearEvidence": {
+        "beerId": "openbeer-4282",
+        "year": 1995,
+        "kind": "first_brewed",
+        "sourceUrl": "https://www.allagash.com/about/our-story/",
+        "claim": "Allagash官方历史在1995年条目明确首批试酿Allagash White；1998为后续获奖年，未当作诞生年。",
+        "checkedAt": "2026-10-02"
+      },
+      "sourceUrls": [
+        "https://www.allagash.com/about/our-story/",
+        "https://www.allagash.com/beer/wheat/white/"
+      ],
+      "sourceNote": "官网说明自1995年一直在Portland同一地块酿造所有Allagash啤酒。使用公开酒厂坐标参考，不是缅因州行政区域中心。",
+      "image": "/images/year-1995-american-whites/allagash-white-card.webp",
+      "imageThumbnail": "/images/year-1995-american-whites/allagash-white-map.webp",
+      "imageOriginal": "/images/year-1995-american-whites/allagash-white-original.webp",
+      "imageKind": "product_packshot",
+      "imageCacheStatus": "cached",
+      "imageSource": "https://cavedirect.com/cans-sjh88g/crafted-exports-inc-white-4",
+      "imageDownloadUrl": "https://images.shopcdn.co.uk/fe/7a/fe7a901adb6f71635f8a8f4f77137c76/512x512/webp/fit?compression=80&force=true&quality=80",
+      "imageCredit": "Allagash实物罐图：Cave Direct；保留原图、只裁透明留白。",
+      "imageLicense": null,
+      "imageEvidence": {
+        "sourceClass": "retailer_product_packshot",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "bcad6145566622146c9b789d7392e7196b34088b8a8f942c9882aaded7f71ece",
+        "mapSha256": "688a1f1ff558fc1cdc11c6b21460c53e877bb37d9617c738a43e71569b447e61",
+        "mapBytes": 4904,
+        "mapDimensions": [
+          74,
+          180
+        ],
+        "method": "native transparent photo; crop alpha padding and resize; no synthesized packaging",
+        "originalRGBPreserved": true
+      },
+      "imageContentBounds": {
+        "width": 192,
+        "height": 464,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 192,
+          "height": 464
+        },
+        "method": "native alpha body crop"
+      }
+    },
+    {
+      "id": "openbeer-3839",
+      "name": "Blue Moon Belgian White",
+      "breweryId": "year1995-blue-moon-denver-birthplace",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Belgian Witbier",
+      "styleZh": "比利时小麦白啤",
+      "abv": 5.4,
+      "ibu": 9,
+      "srm": null,
+      "description": "1995年在美国Denver的Coors Field球场Sandlot Brewery首酿，当时称Bellyslide Belgian Wit，后来成为Blue Moon Belgian White。官方描述为加入Valencia橙皮的小麦啤酒，带柔和甜味和明亮柑橘香。地图标记历史首酿城市；不表示所有现售批次都在Denver生产。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.molsoncoors.com/brands/our-brands/blue-moon?region=951",
+        "sourceType": "official_product_description",
+        "retrievedAt": "2026-10-02",
+        "method": "faithful Chinese paraphrase of official product and history facts"
+      },
+      "flavors": [
+        "柑橘"
+      ],
+      "flavorEvidence": [
+        {
+          "tag": "柑橘",
+          "sourceUrl": "https://www.molsoncoors.com/brands/our-brands/blue-moon?region=951",
+          "basis": "official product orange peel/coriander description"
+        }
+      ],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Denver, Colorado",
+        "countryCode": "US",
+        "lat": 39.74,
+        "lng": -104.99,
+        "locationPrecision": "city",
+        "locationRole": "historical_birthplace_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://www.bluemoonbrewingcompany.com/en-GB/story",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Denver",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "Denver为有官方证据的1995历史本土首酿城市参考点，不是所有现售产品的唯一生产地；不修改原有共享Coors Golden酒厂的坐标。"
+      },
+      "launchYearEvidence": {
+        "beerId": "openbeer-3839",
+        "year": 1995,
+        "kind": "first_brewed",
+        "sourceUrl": "https://www.bluemoonbrewingcompany.com/en-GB/story",
+        "claim": "Blue Moon官方品牌故事明确1995年于Denver球场Sandlot Brewery酿制Bellyslide Belgian Wit，其后命名为Blue Moon Belgian White。",
+        "checkedAt": "2026-10-02"
+      },
+      "sourceUrls": [
+        "https://www.bluemoonbrewingcompany.com/en-GB/story",
+        "https://www.molsoncoors.com/brands/our-brands/blue-moon?region=951",
+        "https://www.bluemoonbrewingcompany.com/es-ES/drink-menu",
+        "https://www.molsoncoorsblog.com/blue-moon-bellyslide-wit-baseball"
+      ],
+      "sourceNote": "Denver为有官方证据的1995历史本土首酿城市参考点，不是所有现售产品的唯一生产地；不修改原有共享Coors Golden酒厂的坐标。",
+      "image": "/images/year-1995-american-whites/blue-moon-belgian-white-card.webp",
+      "imageThumbnail": "/images/year-1995-american-whites/blue-moon-belgian-white-map.webp",
+      "imageOriginal": "/images/year-1995-american-whites/blue-moon-belgian-white-original.png",
+      "imageKind": "product_packshot",
+      "imageCacheStatus": "cached",
+      "imageSource": "https://www.molsoncoors.com/brands/our-brands/blue-moon?region=951",
+      "imageDownloadUrl": "https://www.molsoncoors.com/sites/molsonco/files/styles/beer_detail_180x/public/2024-01/BMBW_V2_237x480.png?itok=mGpBFXQB",
+      "imageCredit": "Molson Coors官方Blue Moon实物瓶图；保留原图、只裁透明留白。",
+      "imageLicense": null,
+      "imageEvidence": {
+        "sourceClass": "official_product_packshot",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "1ae80847b32137fef833934a7e81fcf19c042eb9d1a1ca335803cfebd8f1f876",
+        "mapSha256": "6675d9d37f176b303755ba4e35448f058d0204c034ad14a1ab271c73d987f361",
+        "mapBytes": 2892,
+        "mapDimensions": [
+          47,
+          180
+        ],
+        "method": "native transparent photo; crop alpha padding and resize; no synthesized packaging",
+        "originalRGBPreserved": true
+      },
+      "imageContentBounds": {
+        "width": 92,
+        "height": 353,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 92,
+          "height": 353
+        },
+        "method": "native alpha body crop"
+      }
+    }
+  ]
+}

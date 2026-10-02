@@ -10,7 +10,7 @@ export const FACETS = Object.freeze({
   taste: options([['bitter', '苦感'], ['sweet', '甜感'], ['sour', '酸感']]),
   mouthfeel: options([['light', '轻盈'], ['full', '饱满'], ['smooth', '顺滑'], ['crisp', '清爽'], ['lively', '气泡活跃']]),
   aroma: options([
-    ['citrus', '柑橘'], ['tropical', '热带水果'], ['berry', '莓果 / 樱桃'], ['stone-fruit', '核果'],
+    ['citrus', '柑橘'], ['tropical', '热带水果'], ['guava', '芭乐 / 番石榴'], ['berry', '莓果 / 樱桃'], ['stone-fruit', '核果'], ['peach', '桃子'],
     ['fruit', '果香'], ['banana', '香蕉'], ['dried-fruit', '果干'], ['coffee', '咖啡'], ['chocolate', '巧克力'],
     ['caramel', '焦糖'], ['floral', '花香'], ['malt', '麦香'], ['resin', '松针 / 树脂'], ['hoppy', '酒花'],
     ['spice', '香料'], ['roast', '烘烤'], ['smoke', '烟熏'], ['vanilla', '香草'], ['honey', '蜂蜜'],
@@ -112,7 +112,9 @@ const labelRules = {
   taste: { bitter: ['苦感', '苦味'], sweet: ['甜润', '甜感', '甜味'], sour: ['酸爽', '酸感', '酸味'] },
   mouthfeel: { light: ['轻盈'], full: ['饱满', '醇厚'], smooth: ['顺滑', '丝滑'], crisp: ['清爽', '干爽'], lively: ['气泡活跃', '细密气泡'] },
   aroma: {
-    citrus: ['柑橘'], tropical: ['热带水果'], berry: ['莓果', '樱桃'], 'stone-fruit': ['核果'], fruit: ['果香'], banana: ['香蕉'],
+    citrus: ['柑橘'], tropical: ['热带水果', '芭乐', '番石榴', 'guava'], guava: ['芭乐', '番石榴', 'guava'],
+    berry: ['莓果', '樱桃'], 'stone-fruit': ['核果', '桃', '桃子', '蜜桃', '水蜜桃', '白桃', 'peach', 'peaches'],
+    peach: ['桃', '桃子', '蜜桃', '水蜜桃', '白桃', 'peach', 'peaches'], fruit: ['果香'], banana: ['香蕉'],
     'dried-fruit': ['果干'], coffee: ['咖啡'], chocolate: ['巧克力'], caramel: ['焦糖'], floral: ['花香'], malt: ['麦香'],
     resin: ['松针', '树脂'], hoppy: ['酒花'], spice: ['香料', '丁香'], roast: ['烘烤'], smoke: ['烟熏'], vanilla: ['香草'],
     honey: ['蜂蜜'], nut: ['坚果', '杏仁'], coconut: ['椰子'], wood: ['木质', '木桶'], earth: ['泥土'], molasses: ['糖蜜'],
@@ -133,6 +135,18 @@ const sensoryRules = {
     lively: /\b(?:high|lively|bright) carbonation\b|\beffervescent\b|气泡活跃|细密气泡/i,
   },
 };
+
+// These detailed fruit notes need an explicit sensory assertion in a source
+// description. A recipe addition, beer name or food pairing alone is not one.
+const fruitAromaRules = [
+  { id: 'guava', parent: 'tropical', pattern: /\bguavas?\b|芭乐|番石榴/i },
+  { id: 'peach', parent: 'stone-fruit', pattern: /\bpeach(?:es)?\b|水蜜桃|蜜桃|白桃|桃子|桃香/i },
+];
+const aromaContext = /\b(?:aromas?|flavou?rs?|notes?)\b|香气|香味|风味|果香|气息|调性|桃香/i;
+const servingContext = /\b(?:pair(?:s|ed|ing)?|serv(?:e[sd]?|ing)|desserts?|recipes?|recommend\w*|foods?)\b|搭配|佐餐|食谱|推荐/i;
+function fruitAromaClauses(description) {
+  return clauses(description).filter(clause => affirmative(clause) && !servingContext.test(clause) && aromaContext.test(clause));
+}
 
 const processRules = {
   'dry-hop': /\bdry[ -]hopp(?:ed|ing)\b|\bdry[ -]hop(?:ped)? (?:with|using|addition)\b|干投酒花|酒花干投/i,
@@ -171,6 +185,22 @@ export function classifyBeer(input) {
   };
   if (style.family !== 'unknown') add('family', style.family, style.sourceText);
   if (style.substyle) add('substyle', style.substyle.id, style.sourceText);
+  // Curated supplements are assertions about this exact product, reviewed
+  // against an attributed product page. They never infer ingredients from an
+  // aroma, and cannot change style/family or invent a new browsing facet.
+  // Prefer this precise evidence to a legacy keyword tag for the same facet.
+  for (const fact of list(beer.sensoryFacts)) {
+    if (!fact || fact.reviewStatus !== 'reviewed_product_evidence') continue;
+    if (!Object.hasOwn(FACETS, fact.dimension) || !FACETS[fact.dimension].some(option => option.id === fact.id)) continue;
+    const text = str(fact.text), excerpt = str(fact.sourceExcerpt), url = str(fact.sourceUrl);
+    if (fact.sourceExcerpt != null && typeof fact.sourceExcerpt !== 'string') continue;
+    if (!text || !affirmative(text) || (excerpt && !affirmative(excerpt))) continue;
+    const day = str(fact.verifiedAt), timestamp = Date.parse(day);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(day) || !Number.isFinite(timestamp) || new Date(timestamp).toISOString().slice(0, 10) !== day) continue;
+    try { const parsed = new URL(url); if (parsed.protocol !== 'https:' || !parsed.hostname || parsed.username || parsed.password) continue; }
+    catch { continue; }
+    add(fact.dimension, fact.id, text, url);
+  }
   // A style explicitly named "Barrel Aged" or "Dry Hopped Lager" is a source
   // assertion. A broad source category (or a suggestive beer name) is not.
   if (style.declaredStyle && affirmative(style.declaredStyle)) {
@@ -189,7 +219,7 @@ export function classifyBeer(input) {
     const text = supporting ? `来源${supporting.field}：${supporting.excerpt}` : `来源风味标签：${flavor}`;
     for (const [dimension, rules] of Object.entries(labelRules)) {
       for (const [id, aliases] of Object.entries(rules)) {
-        if (!aliases.includes(flavor)) continue;
+        if (!aliases.includes(normalize(flavor))) continue;
         // Earlier keyword tags such as "smooth molasses" cannot by themselves
         // prove a smooth mouthfeel; require sensory wording in the excerpt.
         if (supporting && dimension !== 'aroma' && !sensoryRules[dimension]?.[id]?.test(str(supporting.excerpt))) continue;
@@ -199,9 +229,16 @@ export function classifyBeer(input) {
   }
 
   const raw = beer.sourceRecord && typeof beer.sourceRecord === 'object' ? beer.sourceRecord : {};
-  // Aroma stays tied to the existing curated/evidenced tags. Do not mine serving
-  // suggestions, beer names, style names, recipes or food pairings for aromas.
+  // Broad aromas stay tied to curated/evidenced tags. The two detailed fruit
+  // notes also accept explicit source sensory wording, never names or recipes.
   const descriptions = [...new Set([str(raw.description), str(beer.originalDescription)].filter(Boolean))];
+  for (const description of descriptions) for (const clause of fruitAromaClauses(description)) {
+    for (const { id, parent, pattern } of fruitAromaRules) {
+      if (!pattern.test(clause)) continue;
+      add('aroma', parent, `来源描述：${clause}`);
+      add('aroma', id, `来源描述：${clause}`);
+    }
+  }
   for (const description of descriptions) for (const clause of clauses(description)) {
     if (!affirmative(clause) || /\b(?:pair|serve|dessert|recipe|recommend|food)\b/i.test(clause)) continue;
     for (const [dimension, rules] of Object.entries(sensoryRules)) {

@@ -1,0 +1,1481 @@
+{
+  "metadata": {
+    "id": "award-americas-products-20261002",
+    "partial": true,
+    "scope": "9 exact existing award products; not a complete American awards catalogue"
+  },
+  "beers": [
+    {
+      "id": "curated-award-5804095",
+      "name": "Pils Boutique",
+      "breweryId": "curated-award-brewery-ffc9c08eaff00275",
+      "style": "Pilsner - Other",
+      "styleZh": "西海岸皮尔森",
+      "abv": 5,
+      "ibu": null,
+      "srm": null,
+      "description": "官方标为西海岸皮尔森，包装强调酒花特点；采用酒厂目录中 Pils Boutique 红白配色罐装实物图。",
+      "originalDescription": null,
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/awards-americas/5804095-card.webp",
+      "imageOriginal": "/images/awards-americas/5804095-cutout.png",
+      "imageThumbnail": "/images/awards-americas/5804095-map.webp",
+      "imageCredit": "Product image: Melvin Brewing via cited public product catalogue; cached for local research demo. No added reuse rights.",
+      "imageSource": "https://melvinbrewing.com/",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/united-states/",
+        "https://awards.untappd.com/beers/5804095/",
+        "https://melvinbrewing.com/",
+        "https://www.melvinbrewing.com/beer-finder"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://awards.untappd.com/region/united-states/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:39:02.032Z",
+          "ratingText": "3.71 in 2025",
+          "sha256": "c23f4b78cffaf7adbcf5739089aa0395f7e0808c477a64a3f7416f09b2bdc4ba",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": true
+        },
+        {
+          "url": "https://melvinbrewing.com/",
+          "role": "official_product_identity_and_packshot",
+          "sourceFile": "research/award-country-expansion-2026-10-02/americas/melvin.html",
+          "sha256": "87b980c338ae778022e0e1c5d46571a002bff2b64e0b9ee85f745887e1c7cbf5",
+          "retrievedAt": "2026-10-02"
+        }
+      ],
+      "sourceNote": "Untappd 获奖身份和评分年度沿用原记录；本轮补齐来源实物图、产品资料与城市参考位置。独立精酿属性和评分年度的同批次包装未全面核实。",
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [
+        {
+          "ratingYear": 2025,
+          "ceremonyYear": null,
+          "region": "United States",
+          "regionCode": "US",
+          "scope": "country",
+          "type": "unknown",
+          "medal": "Gold",
+          "rating": 3.71,
+          "ratingCount": null,
+          "style": "Pilsner - Other",
+          "sourceUrl": "https://awards.untappd.com/region/united-states/",
+          "detailUrl": "https://awards.untappd.com/beers/5804095/",
+          "observedAt": "2026-09-21T02:39:02.032Z"
+        }
+      ],
+      "representativeReason": null,
+      "representativeStatus": null,
+      "craftStatus": "not_verified",
+      "untappdId": "5804095",
+      "collection": "awards",
+      "collections": [
+        "awards"
+      ],
+      "imageBeforeCutout": "/images/awards-americas/5804095-source.png",
+      "imageDownloadUrl": "https://melvinbrewing.com/cms/uploads/images/661130283d3f7c5c42492de38431359e.png",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageContentBounds": {
+        "width": 412,
+        "height": 640,
+        "bounds": {
+          "x": 61,
+          "y": 60,
+          "width": 289,
+          "height": 539
+        },
+        "fullAlphaBounds": {
+          "x": 66,
+          "y": 65,
+          "width": 279,
+          "height": 529
+        },
+        "bodyAlphaBounds": {
+          "x": 66,
+          "y": 65,
+          "width": 279,
+          "height": 529
+        },
+        "alphaThreshold": 64,
+        "paddingPixels": 5,
+        "sourceMode": "RGBA",
+        "method": "decoded_alpha_body_with_padding",
+        "originalSha256": "5250d31018c086d64c91c09d085dcc68c1979609887ab15250566bcecfa175af",
+        "note": "Display framing excludes faint remote shadows; original image bytes are unchanged."
+      },
+      "imageEvidence": {
+        "individuallyVerified": true,
+        "verifiedAt": "2026-10-02",
+        "sourceUrl": "https://melvinbrewing.com/",
+        "sha256": "5250d31018c086d64c91c09d085dcc68c1979609887ab15250566bcecfa175af",
+        "originalSha256": "e76a4590918ca7958f06bf6a2bbfa83297c391fd75bfd8ea5afe1bd709581a4b",
+        "derivative": true,
+        "cacheStatus": "cached",
+        "identity": "Exact producer and product in cited public catalogue; packaging reference, award-year packaging unverified."
+      },
+      "imageDerivation": {
+        "method": "local-alpha-only-remove-official-soft-drop-shadow",
+        "sourceImage": "/images/awards-americas/5804095-source.png",
+        "fullResolutionCutout": "/images/awards-americas/5804095-cutout.png",
+        "rgbPixelsUnchanged": true,
+        "sourceSha256": "e76a4590918ca7958f06bf6a2bbfa83297c391fd75bfd8ea5afe1bd709581a4b"
+      }
+    },
+    {
+      "id": "curated-award-9259",
+      "name": "Lions Winter Ale",
+      "breweryId": "curated-award-brewery-881cbcebf8099dc3",
+      "style": "Winter Ale",
+      "styleZh": "冬季艾尔",
+      "abv": 5.5,
+      "ibu": null,
+      "srm": null,
+      "description": "Granville Island 的冬季艾尔。品牌官方描述焦糖、白巧克力与香草风味；图片采用品牌母公司目录中的同名罐装。",
+      "originalDescription": null,
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/awards-americas/9259-card.webp",
+      "imageOriginal": "/images/awards-americas/9259-cutout.png",
+      "imageThumbnail": "/images/awards-americas/9259-map.webp",
+      "imageCredit": "Product image: Granville Island Brewing via cited public product catalogue; cached for local research demo. No added reuse rights.",
+      "imageSource": "https://www.molsoncoors.com/ca/brands/our-brands/granville-island-brewing?region=931",
+      "sourceUrls": [
+        "https://www.granvilleislandbrewing.ca/en-CA/our-beers/seasonal/lions-winter-ale",
+        "https://awards.untappd.com/region/canada/",
+        "https://awards.untappd.com/beers/9259/",
+        "https://www.molsoncoors.com/ca/brands/our-brands/granville-island-brewing?region=931"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.granvilleislandbrewing.ca/en-CA/our-beers/seasonal/lions-winter-ale",
+          "role": "official_product",
+          "retrievedAt": "2026-09-21T11:53:15.900106+00:00",
+          "readMethod": "public_web_index"
+        },
+        {
+          "url": "https://awards.untappd.com/region/canada/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:37:24.729Z",
+          "ratingText": "3.84 in 2025",
+          "sha256": "10f885de939f6d1429276314283057589a9a51242a75d3e916cfa58e53a41e59",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": true
+        },
+        {
+          "url": "https://www.molsoncoors.com/ca/brands/our-brands/granville-island-brewing?region=931",
+          "role": "official_product_identity_and_packshot",
+          "sourceFile": "research/award-country-expansion-2026-10-02/americas/gib.html",
+          "sha256": "3f9c9db21e64c418c2b74945e0331a749c04672a8540a42b2d98c17c6d2cb882",
+          "retrievedAt": "2026-10-02"
+        }
+      ],
+      "sourceNote": "Untappd 获奖身份和评分年度沿用原记录；本轮补齐来源实物图、产品资料与城市参考位置。独立精酿属性和评分年度的同批次包装未全面核实。 品牌属于 Molson Coors；地图定位为品牌起源城市，不宣称本款当前生产厂址。",
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [
+        {
+          "ratingYear": 2025,
+          "ceremonyYear": null,
+          "region": "Canada",
+          "regionCode": "CA",
+          "scope": "country",
+          "type": "unknown",
+          "medal": "Silver",
+          "rating": 3.84,
+          "ratingCount": null,
+          "style": "Winter Ale",
+          "sourceUrl": "https://awards.untappd.com/region/canada/",
+          "detailUrl": "https://awards.untappd.com/beers/9259/",
+          "observedAt": "2026-09-21T02:37:24.729Z"
+        }
+      ],
+      "representativeReason": null,
+      "representativeStatus": null,
+      "craftStatus": "corporate_owned_brand",
+      "collection": "awards",
+      "collections": [
+        "awards"
+      ],
+      "untappdId": "9259",
+      "imageEvidence": {
+        "individuallyVerified": true,
+        "verifiedAt": "2026-10-02",
+        "sourceUrl": "https://www.molsoncoors.com/ca/brands/our-brands/granville-island-brewing?region=931",
+        "sha256": "225e7c83d66e729f5852ad2510f4734700e5080704abc19c6f35f8ad0eb708bc",
+        "originalSha256": "046450510f343fd621de9dfa1d6ccfd7ec3e5c50e8a1fc3cc53dbe98292ea97a",
+        "derivative": true,
+        "cacheStatus": "cached",
+        "identity": "Exact producer and product in cited public catalogue; packaging reference, award-year packaging unverified."
+      },
+      "imageKind": "product_packshot",
+      "imageContentBounds": {
+        "width": 180,
+        "height": 348,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 180,
+          "height": 348
+        },
+        "fullAlphaBounds": {
+          "x": 0,
+          "y": 0,
+          "width": 180,
+          "height": 348
+        },
+        "bodyAlphaBounds": {
+          "x": 0,
+          "y": 0,
+          "width": 180,
+          "height": 348
+        },
+        "alphaThreshold": 64,
+        "paddingPixels": 3,
+        "sourceMode": "RGBA",
+        "method": "decoded_alpha_body_with_padding",
+        "originalSha256": "225e7c83d66e729f5852ad2510f4734700e5080704abc19c6f35f8ad0eb708bc",
+        "note": "Display framing excludes faint remote shadows; original image bytes are unchanged."
+      },
+      "officialProductName": "Lions Winter Ale",
+      "fieldEvidence": {
+        "productPageFile": null,
+        "productPageSha256": null,
+        "indexedEvidenceFile": "research/curated-catalog/award-enrichment-americas-evidence/indexed-product-facts.json",
+        "readLimitation": "HTTP Error 403: Forbidden"
+      },
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/9259/",
+          "https://www.granvilleislandbrewing.ca/en-CA/our-beers/seasonal/lions-winter-ale"
+        ],
+        "basis": "获奖规范酒名与酒厂名称对照官网同款产品标题及风格；无年份、过桶或特别版本后缀冲突。"
+      },
+      "descriptionMethod": "faithful_short_paraphrase_of_official_product_page",
+      "imageBeforeCutout": "/images/awards-americas/9259-source.png",
+      "imageDownloadUrl": "https://www.molsoncoors.com/ca/sites/molsonco/files/styles/beer_detail_180x/public/2022-09/Lions%20Winter%20Ale%20-%20granville.png?itok=f3-_4v3w",
+      "imageCacheStatus": "cached",
+      "imageDerivation": {
+        "method": "original-official-transparent-packshot",
+        "sourceImage": "/images/awards-americas/9259-source.png",
+        "fullResolutionCutout": "/images/awards-americas/9259-cutout.png",
+        "rgbPixelsUnchanged": true,
+        "sourceSha256": "046450510f343fd621de9dfa1d6ccfd7ec3e5c50e8a1fc3cc53dbe98292ea97a"
+      }
+    },
+    {
+      "id": "curated-award-4809541",
+      "name": "APA",
+      "breweryId": "curated-award-brewery-796131f46866b8f1",
+      "style": "Pale Ale - American",
+      "styleZh": "美式淡色艾尔",
+      "abv": 5.4,
+      "ibu": 34,
+      "srm": null,
+      "description": "来自阿根廷巴里洛切的美式淡色艾尔。官方介绍包含柑橘、花香和松针香，酒体中等至中轻，口感柔和，收口偏干。官方名 Born & Released APA，对应相同酒厂、5.4% ABV、34 IBU 与 Citra/Cascade/Simcoe 酒花的获奖 APA。",
+      "originalDescription": null,
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/awards-americas/4809541-card.webp",
+      "imageOriginal": "/images/awards-americas/4809541-cutout.png",
+      "imageThumbnail": "/images/awards-americas/4809541-map.webp",
+      "imageCredit": "Product image: Manush via cited public product catalogue; cached for local research demo. No added reuse rights.",
+      "imageSource": "https://cervezamanush.com.ar/cervezas/born-released-apa/",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/argentina/",
+        "https://awards.untappd.com/beers/4809541/",
+        "https://cervezamanush.com.ar/cervezas/born-released-apa/"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://awards.untappd.com/region/argentina/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:39:02.193Z",
+          "ratingText": "3.70 in 2025",
+          "sha256": "fc8cea862a19542cb27d6b0384bd4ff4b1a28fc18bf7b7770fcbaf42fadf245d",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": false
+        },
+        {
+          "url": "https://cervezamanush.com.ar/cervezas/born-released-apa/",
+          "role": "official_product_identity_and_packshot",
+          "sourceFile": "research/award-country-expansion-2026-10-02/americas/manush.html",
+          "sha256": "598b87b83e2195a8629893dc67c04c70a1e32d49d9194e38597f78420d0b400f",
+          "retrievedAt": "2026-10-02"
+        }
+      ],
+      "sourceNote": "Untappd 获奖身份和评分年度沿用原记录；本轮补齐来源实物图、产品资料与城市参考位置。独立精酿属性和评分年度的同批次包装未全面核实。",
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [
+        {
+          "ratingYear": 2025,
+          "ceremonyYear": null,
+          "region": "Argentina",
+          "regionCode": "AR",
+          "scope": "country",
+          "type": "unknown",
+          "medal": "Silver",
+          "rating": 3.7,
+          "ratingCount": null,
+          "style": "Pale Ale - American",
+          "sourceUrl": "https://awards.untappd.com/region/argentina/",
+          "detailUrl": "https://awards.untappd.com/beers/4809541/",
+          "observedAt": "2026-09-21T02:39:02.193Z"
+        }
+      ],
+      "representativeReason": null,
+      "representativeStatus": null,
+      "craftStatus": "not_verified",
+      "untappdId": "4809541",
+      "collection": "awards",
+      "collections": [
+        "awards"
+      ],
+      "imageBeforeCutout": "/images/awards-americas/4809541-source.jpg",
+      "imageDownloadUrl": "https://cervezamanush.com.ar/2020/wp-content/uploads/2020/09/2024-apa.jpg",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageContentBounds": {
+        "width": 800,
+        "height": 800,
+        "bounds": {
+          "x": 296,
+          "y": 124,
+          "width": 209,
+          "height": 530
+        },
+        "fullAlphaBounds": {
+          "x": 298,
+          "y": 127,
+          "width": 204,
+          "height": 525
+        },
+        "bodyAlphaBounds": {
+          "x": 301,
+          "y": 129,
+          "width": 199,
+          "height": 520
+        },
+        "alphaThreshold": 64,
+        "paddingPixels": 5,
+        "sourceMode": "RGBA",
+        "method": "decoded_alpha_body_with_padding",
+        "originalSha256": "a80bfbd61827d509123d0b3699dd37bca7310fb85ffa29ab041c8c10093c5bbd",
+        "note": "Display framing excludes faint remote shadows; original image bytes are unchanged."
+      },
+      "imageEvidence": {
+        "individuallyVerified": true,
+        "verifiedAt": "2026-10-02",
+        "sourceUrl": "https://cervezamanush.com.ar/cervezas/born-released-apa/",
+        "sha256": "a80bfbd61827d509123d0b3699dd37bca7310fb85ffa29ab041c8c10093c5bbd",
+        "originalSha256": "c130092be450775442074dfd4030f117d794fa78e12ccfbebb99fe68ef9a4a2d",
+        "derivative": true,
+        "cacheStatus": "cached",
+        "identity": "Exact producer and product in cited public catalogue; packaging reference, award-year packaging unverified."
+      },
+      "imageDerivation": {
+        "method": "local-alpha-only-reviewed-white-envelope-and-base",
+        "sourceImage": "/images/awards-americas/4809541-source.jpg",
+        "fullResolutionCutout": "/images/awards-americas/4809541-cutout.png",
+        "rgbPixelsUnchanged": true,
+        "sourceSha256": "c130092be450775442074dfd4030f117d794fa78e12ccfbebb99fe68ef9a4a2d"
+      }
+    },
+    {
+      "id": "curated-award-4757146",
+      "name": "Blanche de Mooca",
+      "breweryId": "curated-award-brewery-409b5cf5b480a63e",
+      "style": "Wheat Beer - Witbier / Blanche",
+      "styleZh": "比利时小麦啤酒",
+      "abv": 4.7,
+      "ibu": null,
+      "srm": null,
+      "description": "向圣保罗 Mooca 街区致意的比利时风格小麦啤酒。酒厂介绍使用橙皮与芫荽籽，呈现柑橘和香料气息。",
+      "originalDescription": null,
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/awards-americas/4757146-card.webp",
+      "imageOriginal": "/images/awards-americas/4757146-cutout.png",
+      "imageThumbnail": "/images/awards-americas/4757146-map.webp",
+      "imageCredit": "Product image: Cervejaria Dogma via cited public product catalogue; cached for local research demo. No added reuse rights.",
+      "imageSource": "https://cervejariadogma.com.br/products/blanche-de-mooca",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/brazil/",
+        "https://awards.untappd.com/beers/4757146/",
+        "https://cervejariadogma.com.br/products/blanche-de-mooca"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://awards.untappd.com/region/brazil/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:37:24.729Z",
+          "ratingText": "3.73 in 2025",
+          "sha256": "10f885de939f6d1429276314283057589a9a51242a75d3e916cfa58e53a41e59",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": false
+        },
+        {
+          "url": "https://cervejariadogma.com.br/products/blanche-de-mooca",
+          "role": "official_product_identity_and_packshot",
+          "sourceFile": "research/award-country-expansion-2026-10-02/americas/dogma.json",
+          "sha256": "86062d6fcebc8e6106caabf27b10e1cfcb25f8c6a4b0fd1ff4bcf0d18735dd7d",
+          "retrievedAt": "2026-10-02"
+        }
+      ],
+      "sourceNote": "Untappd 获奖身份和评分年度沿用原记录；本轮补齐来源实物图、产品资料与城市参考位置。独立精酿属性和评分年度的同批次包装未全面核实。",
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [
+        {
+          "ratingYear": 2025,
+          "ceremonyYear": null,
+          "region": "Brazil",
+          "regionCode": "BR",
+          "scope": "country",
+          "type": "unknown",
+          "medal": "Bronze",
+          "rating": 3.73,
+          "ratingCount": null,
+          "style": "Wheat Beer - Witbier / Blanche",
+          "sourceUrl": "https://awards.untappd.com/region/brazil/",
+          "detailUrl": "https://awards.untappd.com/beers/4757146/",
+          "observedAt": "2026-09-21T02:37:24.729Z"
+        }
+      ],
+      "representativeReason": null,
+      "representativeStatus": null,
+      "craftStatus": "not_verified",
+      "untappdId": "4757146",
+      "collection": "awards",
+      "collections": [
+        "awards"
+      ],
+      "imageBeforeCutout": "/images/awards-americas/4757146-source.png",
+      "imageDownloadUrl": "https://cdn.shopify.com/s/files/1/0572/9989/4405/files/CERVEJAS_-_DE-LINHA_BLANCHE_-1_5f0deeee-de42-4477-b9b5-ac8435d12fea.png?v=1760997289",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageContentBounds": {
+        "width": 800,
+        "height": 800,
+        "bounds": {
+          "x": 93,
+          "y": 17,
+          "width": 302,
+          "height": 767
+        },
+        "fullAlphaBounds": {
+          "x": 99,
+          "y": 22,
+          "width": 291,
+          "height": 756
+        },
+        "bodyAlphaBounds": {
+          "x": 101,
+          "y": 25,
+          "width": 286,
+          "height": 751
+        },
+        "alphaThreshold": 64,
+        "paddingPixels": 8,
+        "sourceMode": "RGBA",
+        "method": "decoded_alpha_body_with_padding",
+        "originalSha256": "b850d823c77a5c9c0a932ed19bcbfdd80a61dabf143c9c0b66f0a19acdb630f5",
+        "note": "Display framing excludes faint remote shadows; original image bytes are unchanged."
+      },
+      "imageEvidence": {
+        "individuallyVerified": true,
+        "verifiedAt": "2026-10-02",
+        "sourceUrl": "https://cervejariadogma.com.br/products/blanche-de-mooca",
+        "sha256": "b850d823c77a5c9c0a932ed19bcbfdd80a61dabf143c9c0b66f0a19acdb630f5",
+        "originalSha256": "9c58ab0bda066f2af3033f438a597b8f9ca2e9e2be194503472846ff99b2d330",
+        "derivative": true,
+        "cacheStatus": "cached",
+        "identity": "Exact producer and product in cited public catalogue; packaging reference, award-year packaging unverified."
+      },
+      "imageDerivation": {
+        "method": "local-alpha-only-extract-front-can-from-official-two-sided-photo",
+        "sourceImage": "/images/awards-americas/4757146-source.png",
+        "fullResolutionCutout": "/images/awards-americas/4757146-cutout.png",
+        "rgbPixelsUnchanged": true,
+        "sourceSha256": "9c58ab0bda066f2af3033f438a597b8f9ca2e9e2be194503472846ff99b2d330"
+      }
+    },
+    {
+      "id": "curated-award-1573915",
+      "name": "Blanche Tête et les 7 Grains",
+      "breweryId": "curated-award-brewery-84818a71839f6e97",
+      "style": "Wheat Beer - Witbier / Blanche",
+      "styleZh": "七谷小麦白啤",
+      "abv": 7,
+      "ibu": null,
+      "srm": null,
+      "description": "魁北克 Tête d’Allumette 的七谷白啤，官方介绍含印度香米。酒厂描述花香、香蕉和丁香气息，并带轻微咸鲜感；采用同名瓶装实物图。",
+      "originalDescription": null,
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/awards-americas/1573915-card.webp",
+      "imageOriginal": "/images/awards-americas/1573915-cutout.png",
+      "imageThumbnail": "/images/awards-americas/1573915-map.webp",
+      "imageCredit": "Product image: Tête d'Allumette via cited public product catalogue; cached for local research demo. No added reuse rights.",
+      "imageSource": "https://boutique.tetedallumette.com/products/blanche-tete-et-les-sept-grains",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/canada/",
+        "https://awards.untappd.com/beers/1573915/",
+        "https://boutique.tetedallumette.com/products/blanche-tete-et-les-sept-grains"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://awards.untappd.com/region/canada/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:37:24.729Z",
+          "ratingText": "3.94 in 2025",
+          "sha256": "10f885de939f6d1429276314283057589a9a51242a75d3e916cfa58e53a41e59",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": false
+        },
+        {
+          "url": "https://boutique.tetedallumette.com/products/blanche-tete-et-les-sept-grains",
+          "role": "official_product_identity_and_packshot",
+          "sourceFile": "research/award-country-expansion-2026-10-02/americas/tete-shop.html",
+          "sha256": "26fddd96e4f2c1a3776ba6ff0bd2846fb4347fa2af2db6c940ab3d06d74c8a82",
+          "retrievedAt": "2026-10-02"
+        }
+      ],
+      "sourceNote": "Untappd 获奖身份和评分年度沿用原记录；本轮补齐来源实物图、产品资料与城市参考位置。独立精酿属性和评分年度的同批次包装未全面核实。 来源雪景照片的瓶底有轻微积雪遮挡；仅去外部背景，不补画被遮挡像素。",
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [
+        {
+          "ratingYear": 2025,
+          "ceremonyYear": null,
+          "region": "Canada",
+          "regionCode": "CA",
+          "scope": "country",
+          "type": "unknown",
+          "medal": "Silver",
+          "rating": 3.94,
+          "ratingCount": null,
+          "style": "Wheat Beer - Witbier / Blanche",
+          "sourceUrl": "https://awards.untappd.com/region/canada/",
+          "detailUrl": "https://awards.untappd.com/beers/1573915/",
+          "observedAt": "2026-09-21T02:37:24.729Z"
+        }
+      ],
+      "representativeReason": null,
+      "representativeStatus": null,
+      "craftStatus": "not_verified",
+      "untappdId": "1573915",
+      "collection": "awards",
+      "collections": [
+        "awards"
+      ],
+      "imageBeforeCutout": "/images/awards-americas/1573915-source.png",
+      "imageDownloadUrl": "https://cdn.shopify.com/s/files/1/0291/9687/7908/products/BlancheTete.png?v=1612960987",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageContentBounds": {
+        "width": 550,
+        "height": 415,
+        "bounds": {
+          "x": 164,
+          "y": 53,
+          "width": 98,
+          "height": 346
+        },
+        "fullAlphaBounds": {
+          "x": 167,
+          "y": 56,
+          "width": 93,
+          "height": 340
+        },
+        "bodyAlphaBounds": {
+          "x": 167,
+          "y": 56,
+          "width": 92,
+          "height": 340
+        },
+        "alphaThreshold": 64,
+        "paddingPixels": 3,
+        "sourceMode": "RGBA",
+        "method": "decoded_alpha_body_with_padding",
+        "originalSha256": "8759b204b0d2012cc95188cc177d5d04f3a6074aefa4e95461d4918fec46d752",
+        "note": "Display framing excludes faint remote shadows; original image bytes are unchanged."
+      },
+      "imageEvidence": {
+        "individuallyVerified": true,
+        "verifiedAt": "2026-10-02",
+        "sourceUrl": "https://boutique.tetedallumette.com/products/blanche-tete-et-les-sept-grains",
+        "sha256": "8759b204b0d2012cc95188cc177d5d04f3a6074aefa4e95461d4918fec46d752",
+        "originalSha256": "5c2b64ce31c8304b608030a23ee3df0611a242ebc05714cc957454747cf04bac",
+        "derivative": true,
+        "cacheStatus": "cached",
+        "identity": "Exact producer and product in cited public catalogue; packaging reference, award-year packaging unverified."
+      },
+      "imageDerivation": {
+        "method": "local-alpha-only-reviewed-product-silhouette",
+        "sourceImage": "/images/awards-americas/1573915-source.png",
+        "fullResolutionCutout": "/images/awards-americas/1573915-cutout.png",
+        "rgbPixelsUnchanged": true,
+        "sourceSha256": "5c2b64ce31c8304b608030a23ee3df0611a242ebc05714cc957454747cf04bac"
+      }
+    },
+    {
+      "id": "curated-award-231860",
+      "name": "Pilsen",
+      "breweryId": "curated-award-brewery-31ec7ee18abf201b",
+      "style": "Pilsner - Other",
+      "styleZh": "皮尔森",
+      "abv": 5,
+      "ibu": null,
+      "srm": null,
+      "description": "阿根廷乌斯怀亚的 Cape Horn 皮尔森。零售商描述为金黄色酒液、白色泡沫，收口略带苦味；火地岛省生产部门资料确认其为当地获认证品牌。",
+      "originalDescription": null,
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/awards-americas/231860-card.webp",
+      "imageOriginal": "/images/awards-americas/231860-cutout.png",
+      "imageThumbnail": "/images/awards-americas/231860-map.webp",
+      "imageCredit": "Product image: Cervecería Cape Horn via cited public product catalogue; cached for local research demo. No added reuse rights.",
+      "imageSource": "https://www.tresciudades.com.ar/shop/cerveza-capehorn-pilsen-botella-500ml-23974",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/argentina/",
+        "https://awards.untappd.com/beers/231860/",
+        "https://www.tresciudades.com.ar/shop/cerveza-capehorn-pilsen-botella-500ml-23974"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://awards.untappd.com/region/argentina/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:39:02.193Z",
+          "ratingText": "3.45 in 2025",
+          "sha256": "fc8cea862a19542cb27d6b0384bd4ff4b1a28fc18bf7b7770fcbaf42fadf245d",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": false
+        },
+        {
+          "url": "https://www.tresciudades.com.ar/shop/cerveza-capehorn-pilsen-botella-500ml-23974",
+          "role": "retailer_product_identity_and_packshot",
+          "sourceFile": "research/award-country-expansion-2026-10-02/americas/capehorn.html",
+          "sha256": "0ae8d1b01394b2355cefc56acce73a6fc3f281d6f961292d8642b9353470d68b",
+          "retrievedAt": "2026-10-02"
+        }
+      ],
+      "sourceNote": "Untappd 获奖身份和评分年度沿用原记录；本轮补齐来源实物图、产品资料与城市参考位置。独立精酿属性和评分年度的同批次包装未全面核实。",
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [
+        {
+          "ratingYear": 2025,
+          "ceremonyYear": null,
+          "region": "Argentina",
+          "regionCode": "AR",
+          "scope": "country",
+          "type": "unknown",
+          "medal": "Gold",
+          "rating": 3.45,
+          "ratingCount": null,
+          "style": "Pilsner - Other",
+          "sourceUrl": "https://awards.untappd.com/region/argentina/",
+          "detailUrl": "https://awards.untappd.com/beers/231860/",
+          "observedAt": "2026-09-21T02:39:02.193Z"
+        }
+      ],
+      "representativeReason": null,
+      "representativeStatus": null,
+      "craftStatus": "not_verified",
+      "untappdId": "231860",
+      "collection": "awards",
+      "collections": [
+        "awards"
+      ],
+      "imageBeforeCutout": "/images/awards-americas/231860-source.png",
+      "imageDownloadUrl": "https://www.tresciudades.com.ar/web/image/product.template/23974/image_1024?unique=3023f37",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageContentBounds": {
+        "width": 451,
+        "height": 800,
+        "bounds": {
+          "x": 111,
+          "y": 134,
+          "width": 228,
+          "height": 636
+        },
+        "fullAlphaBounds": {
+          "x": 115,
+          "y": 138,
+          "width": 220,
+          "height": 632
+        },
+        "bodyAlphaBounds": {
+          "x": 117,
+          "y": 140,
+          "width": 216,
+          "height": 624
+        },
+        "alphaThreshold": 64,
+        "paddingPixels": 6,
+        "sourceMode": "RGBA",
+        "method": "decoded_alpha_body_with_padding",
+        "originalSha256": "141e2303694b6298d0b70bc480a959fc015dcee1b0ced418122c68bee4e90e3a",
+        "note": "Display framing excludes faint remote shadows; original image bytes are unchanged."
+      },
+      "imageEvidence": {
+        "individuallyVerified": true,
+        "verifiedAt": "2026-10-02",
+        "sourceUrl": "https://www.tresciudades.com.ar/shop/cerveza-capehorn-pilsen-botella-500ml-23974",
+        "sha256": "141e2303694b6298d0b70bc480a959fc015dcee1b0ced418122c68bee4e90e3a",
+        "originalSha256": "67cfd1e8a236b6b29dae60407b1517a0520695bc4ee5f51b15c4b69811c8cd3c",
+        "derivative": true,
+        "cacheStatus": "cached",
+        "identity": "Exact producer and product in cited public catalogue; packaging reference, award-year packaging unverified."
+      },
+      "imageDerivation": {
+        "method": "original-retailer-transparent-packshot",
+        "sourceImage": "/images/awards-americas/231860-source.png",
+        "fullResolutionCutout": "/images/awards-americas/231860-cutout.png",
+        "rgbPixelsUnchanged": true,
+        "sourceSha256": "67cfd1e8a236b6b29dae60407b1517a0520695bc4ee5f51b15c4b69811c8cd3c"
+      }
+    },
+    {
+      "id": "curated-award-1816194",
+      "name": "Winter",
+      "breweryId": "curated-award-brewery-6c9a3d64515de766",
+      "style": "Winter Warmer",
+      "styleZh": "冬季艾尔",
+      "abv": 7,
+      "ibu": null,
+      "srm": null,
+      "description": "加拿大安大略省伦敦的 Anderson 冬季艾尔。LCBO 介绍有姜、肉桂与橙子的香气，以及太妃糖、蜂蜜和烤麦芽风味，收口带香料感；图中为 473ml、7% 罐装。",
+      "originalDescription": null,
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/awards-americas/1816194-card.webp",
+      "imageOriginal": "/images/awards-americas/1816194-cutout.png",
+      "imageThumbnail": "/images/awards-americas/1816194-map.webp",
+      "imageCredit": "Product image: Anderson Craft Ales via cited public product catalogue; cached for local research demo. No added reuse rights.",
+      "imageSource": "https://www.lcbo.com/en/anderson-brewing-winter-ale-46966",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/canada/",
+        "https://awards.untappd.com/beers/1816194/",
+        "https://www.lcbo.com/en/anderson-brewing-winter-ale-46966"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://awards.untappd.com/region/canada/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:37:24.729Z",
+          "ratingText": "3.62 in 2025",
+          "sha256": "10f885de939f6d1429276314283057589a9a51242a75d3e916cfa58e53a41e59",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": false
+        },
+        {
+          "url": "https://www.lcbo.com/en/anderson-brewing-winter-ale-46966",
+          "role": "provincial_retailer_product_identity_and_packshot",
+          "sourceFile": "research/award-country-expansion-2026-10-02/americas/anderson-lcbo.html",
+          "sha256": "06914141be8f7ffc8fe5ee0249d9357517bac70a7a50ddd39867ec260d60db9b",
+          "retrievedAt": "2026-10-02"
+        }
+      ],
+      "sourceNote": "Untappd 获奖身份和评分年度沿用原记录；本轮补齐来源实物图、产品资料与城市参考位置。独立精酿属性和评分年度的同批次包装未全面核实。",
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [
+        {
+          "ratingYear": 2025,
+          "ceremonyYear": null,
+          "region": "Canada",
+          "regionCode": "CA",
+          "scope": "country",
+          "type": "unknown",
+          "medal": "Bronze",
+          "rating": 3.62,
+          "ratingCount": null,
+          "style": "Winter Warmer",
+          "sourceUrl": "https://awards.untappd.com/region/canada/",
+          "detailUrl": "https://awards.untappd.com/beers/1816194/",
+          "observedAt": "2026-09-21T02:37:24.729Z"
+        }
+      ],
+      "representativeReason": null,
+      "representativeStatus": null,
+      "craftStatus": "not_verified",
+      "untappdId": "1816194",
+      "collection": "awards",
+      "collections": [
+        "awards"
+      ],
+      "imageBeforeCutout": "/images/awards-americas/1816194-source.png",
+      "imageDownloadUrl": "https://aem.lcbo.com/content/dam/lcbo/products/0/4/6/9/046966.jpg.thumb.319.319.png",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageContentBounds": {
+        "width": 239,
+        "height": 319,
+        "bounds": {
+          "x": 63,
+          "y": 23,
+          "width": 115,
+          "height": 278
+        },
+        "fullAlphaBounds": {
+          "x": 65,
+          "y": 26,
+          "width": 110,
+          "height": 272
+        },
+        "bodyAlphaBounds": {
+          "x": 66,
+          "y": 26,
+          "width": 109,
+          "height": 272
+        },
+        "alphaThreshold": 64,
+        "paddingPixels": 3,
+        "sourceMode": "RGBA",
+        "method": "decoded_alpha_body_with_padding",
+        "originalSha256": "19714976efcd28e2d339e12bbf013ebdd16b0fcad2a9ab59d2b38dc29c86d1f2",
+        "note": "Display framing excludes faint remote shadows; original image bytes are unchanged."
+      },
+      "imageEvidence": {
+        "individuallyVerified": true,
+        "verifiedAt": "2026-10-02",
+        "sourceUrl": "https://www.lcbo.com/en/anderson-brewing-winter-ale-46966",
+        "sha256": "19714976efcd28e2d339e12bbf013ebdd16b0fcad2a9ab59d2b38dc29c86d1f2",
+        "originalSha256": "5c4b76ec0b9e9d4b134dc74528ae76d234d7cd6cd3b177fc0a2115a0e94f657a",
+        "derivative": true,
+        "cacheStatus": "cached",
+        "identity": "Exact producer and product in cited public catalogue; packaging reference, award-year packaging unverified."
+      },
+      "imageDerivation": {
+        "method": "local-alpha-only-reviewed-product-silhouette",
+        "sourceImage": "/images/awards-americas/1816194-source.png",
+        "fullResolutionCutout": "/images/awards-americas/1816194-cutout.png",
+        "rgbPixelsUnchanged": true,
+        "sourceSha256": "5c4b76ec0b9e9d4b134dc74528ae76d234d7cd6cd3b177fc0a2115a0e94f657a"
+      }
+    },
+    {
+      "id": "curated-award-4044001",
+      "name": "SOBERBIA",
+      "breweryId": "curated-award-brewery-87ec87ef34c23aca",
+      "style": "Stout - Russian Imperial",
+      "styleZh": "帝国世涛",
+      "abv": null,
+      "ibu": null,
+      "srm": null,
+      "description": "墨西哥瓜达拉哈拉 Capital Pecado 的 SOBERBIA 帝国世涛，瓶身明确标注 Imperial Stout。官网同页的浅色小麦啤酒描述及 4.2% 参数与瓶身和获奖风格冲突，暂不采用这些口味、原料和酒精度数据。",
+      "originalDescription": null,
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/awards-americas/4044001-card.webp",
+      "imageOriginal": "/images/awards-americas/4044001-cutout.png",
+      "imageThumbnail": "/images/awards-americas/4044001-map.webp",
+      "imageCredit": "Product image: Capital Pecado via cited public product catalogue; cached for local research demo. No added reuse rights.",
+      "imageSource": "https://capitalpecado.com/soberbia/",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/mexico/",
+        "https://awards.untappd.com/beers/4044001/",
+        "https://capitalpecado.com/soberbia/"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://awards.untappd.com/region/mexico/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:39:02.193Z",
+          "ratingText": "3.68 in 2025",
+          "sha256": "fc8cea862a19542cb27d6b0384bd4ff4b1a28fc18bf7b7770fcbaf42fadf245d",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": true
+        },
+        {
+          "url": "https://capitalpecado.com/soberbia/",
+          "role": "official_product_identity_and_packshot",
+          "sourceFile": "research/award-country-expansion-2026-10-02/americas/soberbia.html",
+          "sha256": "7db20a680145c4f5a2733ed6bdc19c57b7cd9bd400aca6cffb8c9a3fc970cf04",
+          "retrievedAt": "2026-10-02"
+        }
+      ],
+      "sourceNote": "Untappd 获奖身份和评分年度沿用原记录；本轮补齐来源实物图、产品资料与城市参考位置。独立精酿属性和评分年度的同批次包装未全面核实。",
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [
+        {
+          "ratingYear": 2025,
+          "ceremonyYear": null,
+          "region": "Mexico",
+          "regionCode": "MX",
+          "scope": "country",
+          "type": "unknown",
+          "medal": "Bronze",
+          "rating": 3.68,
+          "ratingCount": null,
+          "style": "Stout - Russian Imperial",
+          "sourceUrl": "https://awards.untappd.com/region/mexico/",
+          "detailUrl": "https://awards.untappd.com/beers/4044001/",
+          "observedAt": "2026-09-21T02:39:02.193Z"
+        }
+      ],
+      "representativeReason": null,
+      "representativeStatus": null,
+      "craftStatus": "not_verified",
+      "untappdId": "4044001",
+      "collection": "awards",
+      "collections": [
+        "awards"
+      ],
+      "imageBeforeCutout": "/images/awards-americas/4044001-source.png",
+      "imageDownloadUrl": "https://capitalpecado.com/wp-content/uploads/2021/03/soberbia-botella.png",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageContentBounds": {
+        "width": 152,
+        "height": 590,
+        "bounds": {
+          "x": 0,
+          "y": 1,
+          "width": 152,
+          "height": 589
+        },
+        "fullAlphaBounds": {
+          "x": 0,
+          "y": 7,
+          "width": 151,
+          "height": 583
+        },
+        "bodyAlphaBounds": {
+          "x": 0,
+          "y": 7,
+          "width": 151,
+          "height": 583
+        },
+        "alphaThreshold": 64,
+        "paddingPixels": 6,
+        "sourceMode": "RGBA",
+        "method": "decoded_alpha_body_with_padding",
+        "originalSha256": "216e8968ce738f9ab6565023b2ca50479a50a574b6bbd9ddc3ee5ab76563a1e2",
+        "note": "Display framing excludes faint remote shadows; original image bytes are unchanged."
+      },
+      "imageEvidence": {
+        "individuallyVerified": true,
+        "verifiedAt": "2026-10-02",
+        "sourceUrl": "https://capitalpecado.com/soberbia/",
+        "sha256": "216e8968ce738f9ab6565023b2ca50479a50a574b6bbd9ddc3ee5ab76563a1e2",
+        "originalSha256": "c80b157133f776904ff5684a4c71930ce0246da9d52f76d076deb516c91db3a0",
+        "derivative": true,
+        "cacheStatus": "cached",
+        "identity": "Exact producer and product in cited public catalogue; packaging reference, award-year packaging unverified."
+      },
+      "imageDerivation": {
+        "method": "original-official-transparent-packshot",
+        "sourceImage": "/images/awards-americas/4044001-source.png",
+        "fullResolutionCutout": "/images/awards-americas/4044001-cutout.png",
+        "rgbPixelsUnchanged": true,
+        "sourceSha256": "c80b157133f776904ff5684a4c71930ce0246da9d52f76d076deb516c91db3a0"
+      },
+      "sourceConflicts": [
+        {
+          "sourceUrl": "https://capitalpecado.com/soberbia/",
+          "fields": [
+            "abv",
+            "ibu",
+            "description",
+            "ingredients"
+          ],
+          "reason": "Official page body appears copied from a pale wheat beer; contradicts its own Imperial Stout bottle and exact award style. Conflicting facts not imported."
+        }
+      ]
+    },
+    {
+      "id": "curated-award-6150444",
+      "name": "Woolly Winter Ale",
+      "breweryId": "curated-award-brewery-6ef25ce16e326da4",
+      "style": "Winter Ale",
+      "styleZh": "冬季香料艾尔",
+      "abv": 5.6,
+      "ibu": 20,
+      "srm": null,
+      "description": "加拿大德拉姆黑勒的冬季香料艾尔，深棕色、酒体轻至中等。官方列出姜、香草、肉桂与橙皮，描述烘烤、巧克力和坚果风味，收口略甜而略干。",
+      "originalDescription": null,
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/awards-americas/6150444-card.webp",
+      "imageOriginal": "/images/awards-americas/6150444-cutout.png",
+      "imageThumbnail": "/images/awards-americas/6150444-map.webp",
+      "imageCredit": "Product image: Valley Brewing via cited public product catalogue; cached for local research demo. No added reuse rights.",
+      "imageSource": "https://www.valleybrewing.ca/woolly-winter-ale-info",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/canada/",
+        "https://awards.untappd.com/beers/6150444/",
+        "https://www.valleybrewing.ca/woolly-winter-ale-info"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://awards.untappd.com/region/canada/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:37:24.729Z",
+          "ratingText": "3.81 in 2025",
+          "sha256": "10f885de939f6d1429276314283057589a9a51242a75d3e916cfa58e53a41e59",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": false
+        },
+        {
+          "url": "https://www.valleybrewing.ca/woolly-winter-ale-info",
+          "role": "official_product_identity_and_packshot",
+          "sourceFile": "research/award-country-expansion-2026-10-02/americas/valley.html",
+          "sha256": "3c4f020087ea43aafd9de50618470b9d27660e8fee5a21dcd6c32f1f3de1f6c2",
+          "retrievedAt": "2026-10-02"
+        }
+      ],
+      "sourceNote": "Untappd 获奖身份和评分年度沿用原记录；本轮补齐来源实物图、产品资料与城市参考位置。独立精酿属性和评分年度的同批次包装未全面核实。",
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [
+        {
+          "ratingYear": 2025,
+          "ceremonyYear": null,
+          "region": "Canada",
+          "regionCode": "CA",
+          "scope": "country",
+          "type": "unknown",
+          "medal": "Bronze",
+          "rating": 3.81,
+          "ratingCount": null,
+          "style": "Winter Ale",
+          "sourceUrl": "https://awards.untappd.com/region/canada/",
+          "detailUrl": "https://awards.untappd.com/beers/6150444/",
+          "observedAt": "2026-09-21T02:37:24.729Z"
+        }
+      ],
+      "representativeReason": null,
+      "representativeStatus": null,
+      "craftStatus": "not_verified",
+      "untappdId": "6150444",
+      "collection": "awards",
+      "collections": [
+        "awards"
+      ],
+      "imageBeforeCutout": "/images/awards-americas/6150444-source.png",
+      "imageDownloadUrl": "https://images.squarespace-cdn.com/content/v1/5e9ca5ff88532d74bddbb93f/440fb79b-41ec-4274-9641-9615fb9176c5/Woolly-2025.png",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageContentBounds": {
+        "width": 600,
+        "height": 722,
+        "bounds": {
+          "x": 159,
+          "y": 3,
+          "width": 283,
+          "height": 718
+        },
+        "fullAlphaBounds": {
+          "x": 165,
+          "y": 10,
+          "width": 270,
+          "height": 704
+        },
+        "bodyAlphaBounds": {
+          "x": 166,
+          "y": 10,
+          "width": 269,
+          "height": 704
+        },
+        "alphaThreshold": 64,
+        "paddingPixels": 7,
+        "sourceMode": "RGBA",
+        "method": "decoded_alpha_body_with_padding",
+        "originalSha256": "5f0fa8f31bb34e6260f4fd2fa9cf289d20850e7362ca5640238278d5088a0a38",
+        "note": "Display framing excludes faint remote shadows; original image bytes are unchanged."
+      },
+      "imageEvidence": {
+        "individuallyVerified": true,
+        "verifiedAt": "2026-10-02",
+        "sourceUrl": "https://www.valleybrewing.ca/woolly-winter-ale-info",
+        "sha256": "5f0fa8f31bb34e6260f4fd2fa9cf289d20850e7362ca5640238278d5088a0a38",
+        "originalSha256": "4575ce204fab611a7be72bb2a1c0914aef404144b177283f4824310523ae1a5f",
+        "derivative": true,
+        "cacheStatus": "cached",
+        "identity": "Exact producer and product in cited public catalogue; packaging reference, award-year packaging unverified."
+      },
+      "imageDerivation": {
+        "method": "local-alpha-only-reviewed-product-silhouette",
+        "sourceImage": "/images/awards-americas/6150444-source.png",
+        "fullResolutionCutout": "/images/awards-americas/6150444-cutout.png",
+        "rgbPixelsUnchanged": true,
+        "sourceSha256": "4575ce204fab611a7be72bb2a1c0914aef404144b177283f4824310523ae1a5f"
+      }
+    }
+  ],
+  "breweries": [
+    {
+      "id": "curated-award-brewery-ffc9c08eaff00275",
+      "name": "Melvin Brewing",
+      "nameZh": null,
+      "countryCode": "US",
+      "country": "United States",
+      "countryZh": "美国",
+      "countryBasis": "award_region",
+      "city": "Alpine",
+      "lat": 43.161111111111,
+      "lng": -111.01777777778,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://untappd.com/MelvinBrewing",
+      "coordinateSourceUrl": "https://www.wikidata.org/wiki/Q1028044",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/united-states/",
+        "https://untappd.com/MelvinBrewing",
+        "https://www.wikidata.org/wiki/Q1028044"
+      ],
+      "coordinateSourcePageId": "Q1028044",
+      "locationNote": "公开酒厂profile给出城市和地址，地理来源给出同名市镇参考点；非精确厂址。",
+      "locationEvidence": {
+        "identitySourceUrl": "https://untappd.com/MelvinBrewing",
+        "identityEvidenceFile": ".runtime/award-country-evidence/brewery-1920224.html",
+        "identitySha256": "641c6a90add9932d994454fafe0d1a93190b225685f2f5a2136b0337f49bd670",
+        "coordinateSourceUrl": "https://www.wikidata.org/wiki/Q1028044",
+        "coordinateEvidenceFile": ".runtime/award-country-evidence/alpine-coordinate.json",
+        "coordinateSha256": "be0da5b382a6c99dd2160e02dcb9fec24fda683db6046c99952132f06246bacd",
+        "coordinateSourcePageId": "Q1028044",
+        "coordinatePlaceTitle": "Alpine",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    {
+      "id": "curated-award-brewery-881cbcebf8099dc3",
+      "name": "Granville Island Brewing",
+      "nameZh": null,
+      "countryCode": "CA",
+      "country": "Canada",
+      "countryZh": "加拿大",
+      "countryBasis": "official_brewery_location",
+      "city": "Vancouver",
+      "lat": 49.26083333,
+      "lng": -123.11388889,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brand_origin_city_reference",
+      "locationSourceUrl": "https://granvilleisland.com/directory/granville-island-brewing-co",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Vancouver",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://granvilleisland.com/directory/granville-island-brewing-co",
+        "https://en.wikipedia.org/wiki/Vancouver"
+      ],
+      "locationNote": "品牌起源与公开酒厂所在城市参考点，不代表本款当前逐批生产厂址。",
+      "coordinateSourcePageId": null,
+      "coordinateSourceSha256": null,
+      "cityZh": "温哥华",
+      "locationEvidence": {
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://granvilleisland.com/directory/granville-island-brewing-co",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Vancouver",
+        "coordinateSourcePageId": 32706,
+        "coordinateEvidenceFile": "research/award-country-expansion-2026-10-02/americas/coordinates.json",
+        "coordinateSha256": "bb8a2d8bdf56ec2fd6b348130c1c8bf73e49481ed60551fef03f455291ef880b",
+        "productionLocationVerified": false
+      }
+    },
+    {
+      "id": "curated-award-brewery-796131f46866b8f1",
+      "name": "Manush",
+      "nameZh": null,
+      "countryCode": "AR",
+      "country": "Argentina",
+      "countryZh": "阿根廷",
+      "countryBasis": "award_region",
+      "city": "Bariloche",
+      "lat": -41.15,
+      "lng": -71.3,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://cervezamanush.com.ar/fabrica/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Bariloche",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/argentina/",
+        "https://cervezamanush.com.ar/fabrica/",
+        "https://en.wikipedia.org/wiki/Bariloche"
+      ],
+      "cityZh": "巴里洛切",
+      "locationNote": "公开资料给出的酒厂所在城市参考点；不代表精确厂址。",
+      "locationEvidence": {
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://cervezamanush.com.ar/fabrica/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Bariloche",
+        "coordinateSourcePageId": 738749,
+        "coordinateEvidenceFile": "research/award-country-expansion-2026-10-02/americas/coordinates.json",
+        "coordinateSha256": "bb8a2d8bdf56ec2fd6b348130c1c8bf73e49481ed60551fef03f455291ef880b",
+        "productionLocationVerified": false
+      }
+    },
+    {
+      "id": "curated-award-brewery-409b5cf5b480a63e",
+      "name": "Cervejaria Dogma",
+      "nameZh": null,
+      "countryCode": "BR",
+      "country": "Brazil",
+      "countryZh": "巴西",
+      "countryBasis": "award_region",
+      "city": "São Paulo",
+      "lat": -23.55,
+      "lng": -46.63333333,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://cervejariadogma.com.br/products/blanche-de-mooca",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/São_Paulo",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/brazil/",
+        "https://cervejariadogma.com.br/products/blanche-de-mooca",
+        "https://en.wikipedia.org/wiki/São_Paulo"
+      ],
+      "cityZh": "圣保罗",
+      "locationNote": "公开资料给出的酒厂所在城市参考点；不代表精确厂址。",
+      "locationEvidence": {
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://cervejariadogma.com.br/products/blanche-de-mooca",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/São_Paulo",
+        "coordinateSourcePageId": 390875,
+        "coordinateEvidenceFile": "research/award-country-expansion-2026-10-02/americas/coordinates.json",
+        "coordinateSha256": "bb8a2d8bdf56ec2fd6b348130c1c8bf73e49481ed60551fef03f455291ef880b",
+        "productionLocationVerified": false
+      }
+    },
+    {
+      "id": "curated-award-brewery-84818a71839f6e97",
+      "name": "Tête d'Allumette",
+      "nameZh": null,
+      "countryCode": "CA",
+      "country": "Canada",
+      "countryZh": "加拿大",
+      "countryBasis": "award_region",
+      "city": "Saint-André-de-Kamouraska",
+      "lat": 47.68333333,
+      "lng": -69.73333333,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://tetedallumette.com/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Saint-André-de-Kamouraska",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/canada/",
+        "https://tetedallumette.com/",
+        "https://en.wikipedia.org/wiki/Saint-André-de-Kamouraska"
+      ],
+      "cityZh": "圣安德烈-德卡穆拉斯卡",
+      "locationNote": "公开资料给出的酒厂所在城市参考点；不代表精确厂址。",
+      "locationEvidence": {
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://tetedallumette.com/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Saint-André-de-Kamouraska",
+        "coordinateSourcePageId": 16853393,
+        "coordinateEvidenceFile": "research/award-country-expansion-2026-10-02/americas/extra-coordinates.json",
+        "coordinateSha256": "1a701084c5000e7f4826c83eb438cfa5bb2adb12a6a8f373ef1bdb9379812510",
+        "productionLocationVerified": false
+      }
+    },
+    {
+      "id": "curated-award-brewery-31ec7ee18abf201b",
+      "name": "Cervecería Cape Horn",
+      "nameZh": null,
+      "countryCode": "AR",
+      "country": "Argentina",
+      "countryZh": "阿根廷",
+      "countryBasis": "award_region",
+      "city": "Ushuaia",
+      "lat": -54.80722222,
+      "lng": -68.30805556,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://prodyambiente.tierradelfuego.gob.ar/fuegian-beverage-company-s-a-cerveza-beagle/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Ushuaia",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/argentina/",
+        "https://prodyambiente.tierradelfuego.gob.ar/fuegian-beverage-company-s-a-cerveza-beagle/",
+        "https://en.wikipedia.org/wiki/Ushuaia"
+      ],
+      "cityZh": "乌斯怀亚",
+      "locationNote": "公开资料给出的酒厂所在城市参考点；不代表精确厂址。",
+      "locationEvidence": {
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://prodyambiente.tierradelfuego.gob.ar/fuegian-beverage-company-s-a-cerveza-beagle/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Ushuaia",
+        "coordinateSourcePageId": 352107,
+        "coordinateEvidenceFile": "research/award-country-expansion-2026-10-02/americas/extra-coordinates.json",
+        "coordinateSha256": "1a701084c5000e7f4826c83eb438cfa5bb2adb12a6a8f373ef1bdb9379812510",
+        "productionLocationVerified": false
+      }
+    },
+    {
+      "id": "curated-award-brewery-6c9a3d64515de766",
+      "name": "Anderson Craft Ales",
+      "nameZh": null,
+      "countryCode": "CA",
+      "country": "Canada",
+      "countryZh": "加拿大",
+      "countryBasis": "award_region",
+      "city": "London, Ontario",
+      "lat": 42.985,
+      "lng": -81.24527778,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://www.andersoncraftales.ca/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/London,_Ontario",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/canada/",
+        "https://www.andersoncraftales.ca/",
+        "https://en.wikipedia.org/wiki/London,_Ontario"
+      ],
+      "cityZh": "伦敦（安大略）",
+      "locationNote": "公开资料给出的酒厂所在城市参考点；不代表精确厂址。",
+      "locationEvidence": {
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://www.andersoncraftales.ca/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/London,_Ontario",
+        "coordinateSourcePageId": 40353,
+        "coordinateEvidenceFile": "research/award-country-expansion-2026-10-02/americas/extra-coordinates.json",
+        "coordinateSha256": "1a701084c5000e7f4826c83eb438cfa5bb2adb12a6a8f373ef1bdb9379812510",
+        "productionLocationVerified": false
+      }
+    },
+    {
+      "id": "curated-award-brewery-87ec87ef34c23aca",
+      "name": "Capital Pecado",
+      "nameZh": null,
+      "countryCode": "MX",
+      "country": "Mexico",
+      "countryZh": "墨西哥",
+      "countryBasis": "award_region",
+      "city": "Guadalajara",
+      "lat": 20.67666667,
+      "lng": -103.3475,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://capitalpecado.com/soberbia/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Guadalajara",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/mexico/",
+        "https://capitalpecado.com/soberbia/",
+        "https://en.wikipedia.org/wiki/Guadalajara"
+      ],
+      "cityZh": "瓜达拉哈拉",
+      "locationNote": "公开资料给出的酒厂所在城市参考点；不代表精确厂址。",
+      "locationEvidence": {
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://capitalpecado.com/soberbia/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Guadalajara",
+        "coordinateSourcePageId": 73209,
+        "coordinateEvidenceFile": "research/award-country-expansion-2026-10-02/americas/extra-coordinates.json",
+        "coordinateSha256": "1a701084c5000e7f4826c83eb438cfa5bb2adb12a6a8f373ef1bdb9379812510",
+        "productionLocationVerified": false
+      }
+    },
+    {
+      "id": "curated-award-brewery-6ef25ce16e326da4",
+      "name": "Valley Brewing",
+      "nameZh": null,
+      "countryCode": "CA",
+      "country": "Canada",
+      "countryZh": "加拿大",
+      "countryBasis": "award_region",
+      "city": "Drumheller",
+      "lat": 51.46361111,
+      "lng": -112.71944444,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://www.valleybrewing.ca/woolly-winter-ale-info",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Drumheller",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/canada/",
+        "https://www.valleybrewing.ca/woolly-winter-ale-info",
+        "https://en.wikipedia.org/wiki/Drumheller"
+      ],
+      "cityZh": "德拉姆黑勒",
+      "locationNote": "公开资料给出的酒厂所在城市参考点；不代表精确厂址。",
+      "locationEvidence": {
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://www.valleybrewing.ca/woolly-winter-ale-info",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Drumheller",
+        "coordinateSourcePageId": 414326,
+        "coordinateEvidenceFile": "research/award-country-expansion-2026-10-02/americas/extra-coordinates.json",
+        "coordinateSha256": "1a701084c5000e7f4826c83eb438cfa5bb2adb12a6a8f373ef1bdb9379812510",
+        "productionLocationVerified": false
+      }
+    }
+  ]
+}

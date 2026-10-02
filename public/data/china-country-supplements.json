@@ -1,0 +1,2005 @@
+{
+  "metadata": {
+    "createdAt": "2026-10-02",
+    "scope": "China: six city references, 10 reviewed products",
+    "newRecords": 5,
+    "exactExistingRecordEnrichments": 5,
+    "cities": [
+      "Chengdu",
+      "Wuhan",
+      "Shangri-La",
+      "Guangzhou",
+      "Ürümqi",
+      "Benxi"
+    ],
+    "regions": [
+      "Sichuan",
+      "Hubei",
+      "Yunnan",
+      "Guangdong",
+      "Xinjiang",
+      "Liaoning"
+    ],
+    "industrialReferenceRecords": 4,
+    "status": "ready",
+    "images": "five new packshots and one exact-existing alpha-only cutout; originals retained",
+    "excluded": [
+      {
+        "id": "beertasting-b1f43f58-fd70-43ca-ae14-4130a89dd546",
+        "reason": "Soyala record image reads YALASO; version not reliably matched, no enrichment applied"
+      },
+      {
+        "products": [
+          "Wusu Draft",
+          "Wusu Green",
+          "Longshanquan official White/Ale images"
+        ],
+        "reason": "official image URLs returned 403; stopped, selected other individually verified products instead"
+      }
+    ]
+  },
+  "breweries": [
+    {
+      "id": "beertasting-brewery-f24380b4-7b02-471e-a09a-9747b6e8887a",
+      "name": "Dao Brewing (丰收道酿)",
+      "nameZh": "Dao Brewing (丰收道酿)",
+      "country": "China",
+      "countryZh": "中国",
+      "countryCode": "CN",
+      "city": "Chengdu",
+      "region": "Sichuan",
+      "lat": 30.66,
+      "lng": 104.06333333,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "year": null,
+      "website": null,
+      "description": "Chengdu 的城市级参考位置，不是精确厂址，也不代表每款酒的实际生产地点。",
+      "sourceUrls": [
+        "https://www.beertasting.com/en/brewery/dao-brewing/beers",
+        "https://en.wikipedia.org/wiki/Chengdu"
+      ],
+      "sourceNote": "公开列表的酒厂 ID、城市 Chengdu 与国家 CN 已核对；城市/聚落坐标取自 Chengdu，非精确厂址或逐款生产地。",
+      "sourceIds": [
+        "f24380b4-7b02-471e-a09a-9747b6e8887a"
+      ],
+      "locationEvidence": {
+        "sourceBreweryId": "f24380b4-7b02-471e-a09a-9747b6e8887a",
+        "sourceBrewerySlug": "dao-brewing",
+        "breweryName": "Dao Brewing (丰收道酿)",
+        "city": "Chengdu",
+        "region": "Sichuan",
+        "countryCode": "CN",
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-09-18",
+        "sourceListingUrl": "https://www.beertasting.com/en/brewery/dao-brewing/beers",
+        "lat": 30.66,
+        "lng": 104.06333333,
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Chengdu",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&prop=coordinates%7Cpageprops&coprimary=primary&format=json&redirects=1&titles=Seattle%7CEnsenada%7CCuracav%C3%AD%7CAkureyri%7CR%C3%A9duit%2C+Mauritius%7CHo+Chi+Minh+City%7CSeoul%7CZamrudpur%7CSingapore%7CStavanger%7CNew+Taipei+City%7CAvlonari%7CPerth%7CNairobi%7CSan+Juan%2C+Puerto+Rico%7CKathu%7CAnchorage%2C+Alaska%7CKihei%2C+Hawaii%7CVictoria%2C+British+Columbia%7CUshuaia%7CStockholm%7CSan+Carlos+de+Bariloche%7CChengdu%7CBeijing%7CKyalami%7CKikuyu%2C+Kenya&colimit=max",
+        "coordinateSourcePageId": 170375,
+        "coordinatePlaceTitle": "Chengdu",
+        "coordinateScope": "city_or_settlement_reference",
+        "identitySourceUrl": "https://www.beertasting.com/en/brewery/dao-brewing/beers",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "公开列表的酒厂 ID、城市 Chengdu 与国家 CN 已核对；城市/聚落坐标取自 Chengdu，非精确厂址或逐款生产地。",
+        "sourceUrls": [
+          "https://www.beertasting.com/en/brewery/dao-brewing/beers",
+          "https://en.wikipedia.org/wiki/Chengdu"
+        ]
+      },
+      "sourceRecord": {
+        "id": "f24380b4-7b02-471e-a09a-9747b6e8887a",
+        "name": "Dao Brewing (丰收道酿)",
+        "slug": "dao-brewing",
+        "city": "Chengdu",
+        "region": "Sichuan",
+        "country": "CN",
+        "country_name": "China",
+        "street": null,
+        "zip": "n/a",
+        "beers_count": 7,
+        "homepage_link": null
+      },
+      "craftStatus": "unknown",
+      "operatingStatus": "unknown",
+      "locationVerified": true,
+      "cityZh": "成都",
+      "regionZh": "四川",
+      "cityAliases": [
+        "成都",
+        "Chengdu"
+      ]
+    },
+    {
+      "id": "beertasting-brewery-369ef6bd-f26c-4a11-bd5d-57704576034c",
+      "name": "Shangri-La Highland Craft Brewery",
+      "nameZh": "Shangri-La Highland Craft Brewery",
+      "country": "China",
+      "countryZh": "中国",
+      "countryCode": "CN",
+      "city": "Shangri-La, Yunnan",
+      "region": "Yunnan",
+      "lat": 27.825,
+      "lng": 99.7025,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "year": null,
+      "website": "http://shangrilabeer.cn/",
+      "description": "目录城市 Shangri-La City，酒厂官网 CSR 叙述其香格里拉城市起源。坐标词条与国家相符，为云南香格里拉；目录原 region=Tibet 不作为行政区定位依据。只标城市参考，非青口工业园厂址。",
+      "sourceUrls": [
+        "https://www.beertasting.com/en/brewery/shangri-la-highland-craft-brewery/beers",
+        "https://shangrilabeer.cn/csr/",
+        "https://en.wikipedia.org/wiki/Shangri-La,_Yunnan"
+      ],
+      "sourceNote": "目录城市 Shangri-La City，酒厂官网 CSR 叙述其香格里拉城市起源。坐标词条与国家相符，为云南香格里拉；目录原 region=Tibet 不作为行政区定位依据。只标城市参考，非青口工业园厂址。",
+      "sourceIds": [
+        "369ef6bd-f26c-4a11-bd5d-57704576034c"
+      ],
+      "locationEvidence": {
+        "sourceBreweryId": "369ef6bd-f26c-4a11-bd5d-57704576034c",
+        "sourceBrewerySlug": "shangri-la-highland-craft-brewery",
+        "breweryName": "Shangri-La Highland Craft Brewery",
+        "city": "Shangri-La City",
+        "region": "Tibet",
+        "reviewedCity": "Shangri-La, Yunnan",
+        "reviewedCityZh": "香格里拉",
+        "reviewedRegion": "Yunnan",
+        "countryCode": "CN",
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-09-18",
+        "sourceListingUrl": "https://www.beertasting.com/en/brewery/shangri-la-highland-craft-brewery/beers",
+        "lat": 27.825,
+        "lng": 99.7025,
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Shangri-La,_Yunnan",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&prop=coordinates%7Cpageprops&coprimary=primary&format=json&redirects=1&titles=Shanghai%7CNanjing%7CShangri-La%2C+Yunnan%7CWuhan%7CBangalore%7CPune%7CSangolda%7CMumbai&colimit=max",
+        "coordinateSourcePageId": 1718061,
+        "coordinatePlaceTitle": "Shangri-La, Yunnan",
+        "coordinateScope": "city_reference",
+        "coordinateEvidenceFile": "research/beertasting-regions-2026-09-18/china-india/coordinate-response.json",
+        "identitySourceUrl": "https://shangrilabeer.cn/csr/",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "目录城市 Shangri-La City，酒厂官网 CSR 叙述其香格里拉城市起源。坐标词条与国家相符，为云南香格里拉；目录原 region=Tibet 不作为行政区定位依据。只标城市参考，非青口工业园厂址。",
+        "operatingStatus": "not_verified",
+        "operatingStatusSourceUrl": null,
+        "sourceUrls": [
+          "https://www.beertasting.com/en/brewery/shangri-la-highland-craft-brewery/beers",
+          "https://shangrilabeer.cn/csr/",
+          "https://en.wikipedia.org/wiki/Shangri-La,_Yunnan"
+        ]
+      },
+      "sourceRecord": {
+        "id": "369ef6bd-f26c-4a11-bd5d-57704576034c",
+        "name": "Shangri-La Highland Craft Brewery",
+        "slug": "shangri-la-highland-craft-brewery",
+        "city": "Shangri-La City",
+        "region": "Tibet",
+        "country": "CN",
+        "country_name": "China",
+        "street": null,
+        "zip": "0000",
+        "beers_count": 10,
+        "homepage_link": "http://shangrilabeer.cn/"
+      },
+      "craftStatus": "unknown",
+      "operatingStatus": "not_verified",
+      "locationVerified": true,
+      "cityZh": "香格里拉",
+      "regionZh": "云南",
+      "cityAliases": [
+        "香格里拉",
+        "迪庆",
+        "Shangri-La",
+        "Gyalthang"
+      ]
+    },
+    {
+      "id": "beertasting-brewery-3a587329-854f-4989-833d-b6af37465563",
+      "name": "No.18 Brewing & Co. (拾捌精酿)",
+      "nameZh": "No.18 Brewing & Co. (拾捌精酿)",
+      "country": "China",
+      "countryZh": "中国",
+      "countryCode": "CN",
+      "city": "Wuhan",
+      "region": "Hubei",
+      "lat": 30.595,
+      "lng": 114.2975,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "year": null,
+      "website": null,
+      "description": "目录 Wu Han Shi / Hu Bei Sheng / CN 与展会主办方的参展商资料中武汉江岸区办公地址一致。取武汉城市参考点，不将公开办公地址认作逐款生产厂。",
+      "sourceUrls": [
+        "https://www.beertasting.com/en/brewery/no18-brewing-co/beers",
+        "https://www.bjbrew.com/en/exDetail.aspx?exid=26",
+        "https://en.wikipedia.org/wiki/Wuhan"
+      ],
+      "sourceNote": "目录 Wu Han Shi / Hu Bei Sheng / CN 与展会主办方的参展商资料中武汉江岸区办公地址一致。取武汉城市参考点，不将公开办公地址认作逐款生产厂。",
+      "sourceIds": [
+        "3a587329-854f-4989-833d-b6af37465563"
+      ],
+      "locationEvidence": {
+        "sourceBreweryId": "3a587329-854f-4989-833d-b6af37465563",
+        "sourceBrewerySlug": "no18-brewing-co",
+        "breweryName": "No.18 Brewing & Co. (拾捌精酿)",
+        "city": "Wu Han Shi",
+        "region": "Hu Bei Sheng",
+        "reviewedCity": "Wuhan",
+        "reviewedCityZh": "武汉",
+        "reviewedRegion": "Hubei",
+        "countryCode": "CN",
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-09-18",
+        "sourceListingUrl": "https://www.beertasting.com/en/brewery/no18-brewing-co/beers",
+        "lat": 30.595,
+        "lng": 114.2975,
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Wuhan",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&prop=coordinates%7Cpageprops&coprimary=primary&format=json&redirects=1&titles=Shanghai%7CNanjing%7CShangri-La%2C+Yunnan%7CWuhan%7CBangalore%7CPune%7CSangolda%7CMumbai&colimit=max",
+        "coordinateSourcePageId": 82138,
+        "coordinatePlaceTitle": "Wuhan",
+        "coordinateScope": "city_reference",
+        "coordinateEvidenceFile": "research/beertasting-regions-2026-09-18/china-india/coordinate-response.json",
+        "identitySourceUrl": "https://www.bjbrew.com/en/exDetail.aspx?exid=26",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "目录 Wu Han Shi / Hu Bei Sheng / CN 与展会主办方的参展商资料中武汉江岸区办公地址一致。取武汉城市参考点，不将公开办公地址认作逐款生产厂。",
+        "operatingStatus": "not_verified",
+        "operatingStatusSourceUrl": null,
+        "sourceUrls": [
+          "https://www.beertasting.com/en/brewery/no18-brewing-co/beers",
+          "https://www.bjbrew.com/en/exDetail.aspx?exid=26",
+          "https://en.wikipedia.org/wiki/Wuhan"
+        ]
+      },
+      "sourceRecord": {
+        "id": "3a587329-854f-4989-833d-b6af37465563",
+        "name": "No.18 Brewing & Co. (拾捌精酿)",
+        "slug": "no18-brewing-co",
+        "city": "Wu Han Shi",
+        "region": "Hu Bei Sheng",
+        "country": "CN",
+        "country_name": "China",
+        "street": "n/a",
+        "zip": "n/a",
+        "beers_count": 12,
+        "homepage_link": null
+      },
+      "craftStatus": "unknown",
+      "operatingStatus": "not_verified",
+      "locationVerified": true,
+      "cityZh": "武汉",
+      "regionZh": "湖北",
+      "cityAliases": [
+        "武汉",
+        "Wuhan",
+        "Wu Han Shi"
+      ]
+    },
+    {
+      "id": "beertasting-brewery-3aad9cdd-c684-4ade-bc11-d3aff619d78d",
+      "name": "Bravo Brewing Co. (保霖精酿)",
+      "city": "Guangzhou",
+      "cityZh": "广州",
+      "cityAliases": [
+        "Guangzhou",
+        "广州"
+      ],
+      "region": "Guangdong",
+      "regionZh": "广东",
+      "country": "China",
+      "countryZh": "中国",
+      "countryCode": "CN",
+      "countryBasis": "documented_local_producer",
+      "lat": 23.13,
+      "lng": 113.26,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://www.beertasting.com/en/brewery/bravo-brewing-co/beers",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Guangzhou",
+      "locationEvidence": {
+        "identitySourceUrl": "https://www.beertasting.com/en/brewery/bravo-brewing-co/beers",
+        "identityEvidenceFile": ".runtime/china-country-evidence/bravo.html",
+        "identitySha256": "3f1ecc20ef72d10673493c53a47d1efb3f965b2597d59a18b37ab55f32720810",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Guangzhou",
+        "coordinateEvidenceFile": ".runtime/china-country-evidence/coordinates.json",
+        "coordinateSha256": "919f49518e657411ffd7fd45ab3149f9a9465bb47b5e517f5f3b3a8adc5c3bee",
+        "coordinateSourcePageId": 12537,
+        "coordinatePlaceTitle": "Guangzhou",
+        "verifiedAt": "2026-10-02"
+      },
+      "locationNote": "公开资料确认酒厂所在城市；坐标为城市参考，不是逐批产品生产厂址。",
+      "sourceUrls": [
+        "https://www.beertasting.com/en/brewery/bravo-brewing-co/beers",
+        "https://en.wikipedia.org/wiki/Guangzhou",
+        "https://untappd.com/w/bravo-brewing-co-a-e-c2-e/290538"
+      ],
+      "craftStatus": "craft_brewery_reference",
+      "catalog_role": "brewery_reference"
+    },
+    {
+      "id": "beertasting-brewery-40f68d5c-2091-4545-b61f-891ec18b290f",
+      "name": "Wusu Brewery (乌苏啤酒)",
+      "city": "Ürümqi",
+      "cityZh": "乌鲁木齐",
+      "cityAliases": [
+        "Ürümqi",
+        "乌鲁木齐",
+        "Urumqi",
+        "Wulumuqi",
+        "乌鲁木齐"
+      ],
+      "region": "Xinjiang",
+      "regionZh": "新疆",
+      "country": "China",
+      "countryZh": "中国",
+      "countryCode": "CN",
+      "countryBasis": "documented_local_producer",
+      "lat": 43.8225,
+      "lng": 87.6125,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://carlsbergchina.com.cn/zh/新闻发布/2025稳健开局/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Ürümqi",
+      "locationEvidence": {
+        "identitySourceUrl": "https://carlsbergchina.com.cn/zh/新闻发布/2025稳健开局/",
+        "identityEvidenceFile": ".runtime/china-country-evidence/wusu-location.html",
+        "identitySha256": "6be3f07cdce2b35d298aef7f35a8ef27ffba7a8205978d8008d21601cc37325b",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Ürümqi",
+        "coordinateEvidenceFile": ".runtime/china-country-evidence/wusu-coordinate.json",
+        "coordinateSha256": "1461e568288714f76a8976431123169af15a0b471e683805f2c6ba7de1adf76d",
+        "coordinateSourcePageId": 199155,
+        "coordinatePlaceTitle": "Ürümqi",
+        "verifiedAt": "2026-10-02"
+      },
+      "locationNote": "公开资料确认酒厂所在城市；坐标为城市参考，不是逐批产品生产厂址。 嘉士伯官网确认乌鲁木齐酒厂；品牌也有其他工厂，不假定每瓶都在该城生产。",
+      "sourceUrls": [
+        "https://carlsbergchina.com.cn/zh/新闻发布/2025稳健开局/",
+        "https://en.wikipedia.org/wiki/Ürümqi"
+      ],
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference"
+    },
+    {
+      "id": "china-longshanquan-benxi",
+      "name": "Longshanquan Beer (龙山泉啤酒)",
+      "city": "Benxi",
+      "cityZh": "本溪",
+      "cityAliases": [
+        "Benxi",
+        "本溪"
+      ],
+      "region": "Liaoning",
+      "regionZh": "辽宁",
+      "country": "China",
+      "countryZh": "中国",
+      "countryCode": "CN",
+      "countryBasis": "documented_local_producer",
+      "lat": 41.3039,
+      "lng": 123.7649,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://www.lsqbeer.com/product/DaLian_651.html",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Benxi",
+      "locationEvidence": {
+        "identitySourceUrl": "https://www.lsqbeer.com/product/DaLian_651.html",
+        "identityEvidenceFile": ".runtime/china-country-evidence/dalian-white.html",
+        "identitySha256": "b265da23b3533726ebb4eda37ec484172a0cd80c65e8354c7f63d54144521563",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Benxi",
+        "coordinateEvidenceFile": ".runtime/china-country-evidence/coordinates.json",
+        "coordinateSha256": "919f49518e657411ffd7fd45ab3149f9a9465bb47b5e517f5f3b3a8adc5c3bee",
+        "coordinateSourcePageId": 1257619,
+        "coordinatePlaceTitle": "Benxi",
+        "verifiedAt": "2026-10-02"
+      },
+      "locationNote": "公开资料确认酒厂所在城市；坐标为城市参考，不是逐批产品生产厂址。 官方页面虽有大连SEO前缀，公司地址明确为辽宁本溪市明山区；不把该前缀认作酒厂城市。",
+      "sourceUrls": [
+        "https://www.lsqbeer.com/product/DaLian_651.html",
+        "https://en.wikipedia.org/wiki/Benxi"
+      ],
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference"
+    }
+  ],
+  "beers": [
+    {
+      "id": "beertasting-af61de68-349f-4e63-bfdc-81a102a81873",
+      "name": "Dao Brewing - Tui Na",
+      "breweryId": "beertasting-brewery-f24380b4-7b02-471e-a09a-9747b6e8887a",
+      "collection": "beertasting",
+      "style": "New England IPA (NEIPA)",
+      "styleZh": "New England IPA (NEIPA)",
+      "sourceCategory": "India Pale Ale",
+      "abv": 4.59,
+      "ibu": null,
+      "srm": null,
+      "description": "丰收道酿的“东方秘术·推拿”社交型浑浊 IPA。酒名取自推拿主题，罐身标示酒精度 4.6%；旧目录的 4.59% 读值保留为来源差异。",
+      "originalDescription": "",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "fermentation": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/china-country/tuina-card.webp",
+      "imageThumbnail": "/images/china-country/tuina-map.webp",
+      "imageOriginal": "/images/china-country/tuina-cutout.png",
+      "imageCacheStatus": "cached",
+      "imageDownloadUrl": "https://beertasting.app/storage/media/4cfcd100f4288450f37cd17d462391da/upload_1733654045.jpg",
+      "imageSource": "https://www.beertasting.com/en/beers/dao-brewing-tui-na",
+      "imageCredit": "BeerTasting 来源候选图片；本地缓存不代表身份或再利用许可已核实。",
+      "imageLicenseUrl": null,
+      "imageEvidence": {
+        "sourceUrl": "https://www.beertasting.com/en/beers/dao-brewing-tui-na",
+        "downloadUrl": "https://beertasting.app/storage/media/4cfcd100f4288450f37cd17d462391da/upload_1733654045.jpg",
+        "sourceImage": "/images/beertasting/original/9b7734abbb6b65708c0af5c5.jpg",
+        "sourceSha256": "60903036ed7152f2379a19cfe1956fba04d39f1d8f6234cc77b32da6b7e81a54",
+        "originalSha256": "60903036ed7152f2379a19cfe1956fba04d39f1d8f6234cc77b32da6b7e81a54",
+        "sha256": "1c2245aed604e55d27ccb2db0f331ee9d1288235dea9a677c778073bdef8b1aa",
+        "fullSha256": "1b29892835154b603f2351b23967be37f38208abcfc75cd1944a0d6a3a327533",
+        "method": "local_python_reviewed_silhouette_alpha_only",
+        "parameters": {
+          "silhouetteSpansYLeftRight": [
+            [
+              1189.44,
+              1698.48,
+              1728.72
+            ],
+            [
+              1199.52,
+              1617.84,
+              1753.92
+            ],
+            [
+              1224.72,
+              1552.32,
+              1758.96
+            ],
+            [
+              1249.92,
+              1486.8,
+              1728.72
+            ],
+            [
+              1260.0,
+              876.96,
+              2041.2
+            ],
+            [
+              1295.28,
+              866.88,
+              2051.28
+            ],
+            [
+              1335.6,
+              892.08,
+              2026.08
+            ],
+            [
+              1391.04,
+              876.96,
+              2031.12
+            ],
+            [
+              1522.08,
+              806.4,
+              2101.68
+            ],
+            [
+              1643.04,
+              756.0,
+              2167.2
+            ],
+            [
+              1814.4,
+              761.04,
+              2167.2
+            ],
+            [
+              2318.4,
+              781.2,
+              2157.12
+            ],
+            [
+              2822.4,
+              816.48,
+              2131.92
+            ],
+            [
+              3225.6,
+              851.76,
+              2106.72
+            ],
+            [
+              3432.24,
+              892.08,
+              2061.36
+            ],
+            [
+              3538.08,
+              962.64,
+              2000.88
+            ],
+            [
+              3618.72,
+              1073.52,
+              1915.2
+            ],
+            [
+              3694.32,
+              1214.64,
+              1799.28
+            ],
+            [
+              3734.64,
+              1355.76,
+              1658.16
+            ],
+            [
+              3744.72,
+              1446.48,
+              1552.32
+            ],
+            [
+              3749.76,
+              1506.96,
+              1512.0
+            ]
+          ],
+          "maskSupersampling": 4,
+          "exifTranspose": true,
+          "sourceCanvasPreservedAfterExifOrientation": true,
+          "rgbOperation": "none; pixel position follows original EXIF orientation"
+        },
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "originalRGBunchanged": true,
+        "derivative": {
+          "mapMax": 320,
+          "cardMax": 800,
+          "format": "lossless_webp"
+        }
+      },
+      "rating": 3.08,
+      "ratingsCount": 2,
+      "isRetired": false,
+      "isDraught": false,
+      "sourceUrls": [
+        "https://www.beertasting.com/en/beers/dao-brewing-tui-na",
+        "https://www.beertasting.com/en/brewery/dao-brewing/beers",
+        "https://untappd.com/b/daobrew-ipa-daobrew-oriental-mystery-tuina-session-hazy-ipa/6018504"
+      ],
+      "sourceNote": "BeerTasting 普通公开酒厂列表 HTML 地理扩采；未使用 Instant Data Scraper。ID、酒厂关系、评分与评分人数、参数和候选图均来自该页面结构化数据。未提供的风味、酒花和工艺留空；IBU=0 显示未知；地图仅为城市级参考。图片本地缓存不等于身份或再利用授权已经核实。 2026-10-02 精确同款公开产品介绍补充，不取用户评论；原身份与城市参考不变。",
+      "collectionMethod": "direct_public_html",
+      "collectionBatch": "geographic_public_html_20260918",
+      "sourceIds": [
+        "af61de68-349f-4e63-bfdc-81a102a81873"
+      ],
+      "sourceRecord": {
+        "id": "af61de68-349f-4e63-bfdc-81a102a81873",
+        "name": "Tui Na",
+        "display_name": "Dao Brewing - Tui Na",
+        "url": "https://www.beertasting.com/en/beers/dao-brewing-tui-na",
+        "brewery_name": "Dao Brewing (丰收道酿)",
+        "secondary_brewery_name": null,
+        "brewery_id": "f24380b4-7b02-471e-a09a-9747b6e8887a",
+        "brewery_city": "Chengdu",
+        "brewery_region": "Sichuan",
+        "brewery_country_code": "CN",
+        "country_code": "CN",
+        "country_name": "China",
+        "abv_percent": 4.59,
+        "ibu_raw": null,
+        "style_family": "India Pale Ale",
+        "style": "New England IPA (NEIPA)",
+        "ean_raw": "6975289811569",
+        "rating": 3.08,
+        "ratings_count": 2,
+        "is_retired": false,
+        "is_draught": false,
+        "image_url": "https://beertasting.app/storage/media/4cfcd100f4288450f37cd17d462391da/upload_1733654045.jpg",
+        "image_class": "candidate",
+        "image_media_id": "09cfe993-5291-4d05-b7ec-7ab9ae1a66be",
+        "image_declared_mime": "image/jpeg",
+        "source_url": "https://www.beertasting.com/en/brewery/dao-brewing/beers",
+        "listing_brewery_id": "f24380b4-7b02-471e-a09a-9747b6e8887a",
+        "fermentation": null,
+        "hops": null,
+        "malts": null,
+        "flavor_tags": null,
+        "latitude": null,
+        "longitude": null,
+        "sampling_continent": "Asia",
+        "collection_method": "direct_public_html",
+        "collection_batch": "geographic_public_html_20260918",
+        "captured_at": "2026-09-18T10:23:39.211945+00:00",
+        "source_page_sha256": "0b1f092e5e45852726ba38e58cd6079abe361052e3537ee73956b6a134029809",
+        "field_provenance": "Stable ID, maker relationship, numerical ratings/counts and candidate image URL read from the exact public brewery-list Nuxt data; no IDS extension used for this expansion."
+      },
+      "sourceDataUrl": "/data-sources/beertasting/source-records.json",
+      "locationEvidence": {
+        "sourceBreweryId": "f24380b4-7b02-471e-a09a-9747b6e8887a",
+        "sourceBrewerySlug": "dao-brewing",
+        "breweryName": "Dao Brewing (丰收道酿)",
+        "city": "Chengdu",
+        "region": "Sichuan",
+        "countryCode": "CN",
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-09-18",
+        "sourceListingUrl": "https://www.beertasting.com/en/brewery/dao-brewing/beers",
+        "lat": 30.66,
+        "lng": 104.06333333,
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Chengdu",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&prop=coordinates%7Cpageprops&coprimary=primary&format=json&redirects=1&titles=Seattle%7CEnsenada%7CCuracav%C3%AD%7CAkureyri%7CR%C3%A9duit%2C+Mauritius%7CHo+Chi+Minh+City%7CSeoul%7CZamrudpur%7CSingapore%7CStavanger%7CNew+Taipei+City%7CAvlonari%7CPerth%7CNairobi%7CSan+Juan%2C+Puerto+Rico%7CKathu%7CAnchorage%2C+Alaska%7CKihei%2C+Hawaii%7CVictoria%2C+British+Columbia%7CUshuaia%7CStockholm%7CSan+Carlos+de+Bariloche%7CChengdu%7CBeijing%7CKyalami%7CKikuyu%2C+Kenya&colimit=max",
+        "coordinateSourcePageId": 170375,
+        "coordinatePlaceTitle": "Chengdu",
+        "coordinateScope": "city_or_settlement_reference",
+        "identitySourceUrl": "https://www.beertasting.com/en/brewery/dao-brewing/beers",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "公开列表的酒厂 ID、城市 Chengdu 与国家 CN 已核对；城市/聚落坐标取自 Chengdu，非精确厂址或逐款生产地。",
+        "sourceUrls": [
+          "https://www.beertasting.com/en/brewery/dao-brewing/beers",
+          "https://en.wikipedia.org/wiki/Chengdu"
+        ]
+      },
+      "craftStatus": "unknown",
+      "operatingStatus": "unknown",
+      "dataLicense": null,
+      "dataQualityFlags": [
+        "craft_status_unknown",
+        "brewery_city_reference",
+        "flavors_not_provided",
+        "ingredients_not_provided",
+        "fermentation_not_provided",
+        "image_rights_unverified",
+        "local_candidate_image_identity_unverified"
+      ],
+      "collections": [
+        "beertasting"
+      ],
+      "awards": [],
+      "descriptionBasis": "public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://untappd.com/b/daobrew-ipa-daobrew-oriental-mystery-tuina-session-hazy-ipa/6018504",
+        "sourceFile": ".runtime/china-country-evidence/dao-tuina.html",
+        "sourceSha256": "54f5b8448664c734978db4132ae151176a3a9901d68fe763fc7cf4ad34d3ca71",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "public_product_description",
+        "method": "faithful_short_summary_of_product_information_not_user_reviews"
+      },
+      "imageContentBounds": {
+        "width": 600,
+        "height": 800,
+        "bounds": {
+          "x": 142,
+          "y": 228,
+          "width": 296,
+          "height": 524
+        },
+        "originalSha256": "1c2245aed604e55d27ccb2db0f331ee9d1288235dea9a677c778073bdef8b1aa",
+        "method": "decoded_alpha_body_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 8
+      },
+      "sourceImage": "/images/beertasting/original/9b7734abbb6b65708c0af5c5.jpg",
+      "imageKind": "product_packshot",
+      "imageLicense": "Copyright holder; no open image licence stated",
+      "sourceConflicts": [
+        {
+          "field": "abv",
+          "existingValue": 4.59,
+          "packageValue": 4.6,
+          "resolution": "existing numeric value retained; can value recorded as rounding difference"
+        }
+      ]
+    },
+    {
+      "id": "beertasting-e95de910-9e9b-47bc-9034-18b935b07c12",
+      "name": "Dao Brewing - ELIXIR WEST COAST IPA（长生)",
+      "breweryId": "beertasting-brewery-f24380b4-7b02-471e-a09a-9747b6e8887a",
+      "collection": "beertasting",
+      "style": "West Coast IPA",
+      "styleZh": "West Coast IPA",
+      "sourceCategory": "India Pale Ale",
+      "abv": 6.8,
+      "ibu": null,
+      "srm": null,
+      "description": "丰收道酿“长生”西海岸 IPA，酒精度 6.8%。公开产品介绍描述其酒体柔软，带有西柚、蓝莓与百香果的香气。",
+      "originalDescription": "",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "fermentation": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/beertasting/card/5385ba292d899056b4eca28d.webp",
+      "imageThumbnail": "/images/beertasting/map/5385ba292d899056b4eca28d.webp",
+      "imageOriginal": "/images/beertasting/original/5385ba292d899056b4eca28d.png",
+      "imageCacheStatus": "cached",
+      "imageDownloadUrl": "https://beertasting.app/storage/media/12c9cf4a8944959b9da7adc181dc1fc3/WhatsApp_Image_2024-12-25_at_17.07.11-removebg-preview.png",
+      "imageSource": "https://www.beertasting.com/en/beers/dao-brewing-elixir-west-coast-ipa",
+      "imageCredit": "BeerTasting 来源候选图片；本地缓存不代表身份或再利用许可已核实。",
+      "imageLicenseUrl": null,
+      "imageEvidence": {
+        "sourceClass": "candidate",
+        "mediaId": "1fc685e9-794d-4c89-9685-58124ca1fe95",
+        "declaredMime": "image/png",
+        "downloadedForDemo": true,
+        "individuallyVerified": false,
+        "reuseRightsVerified": false,
+        "cacheStatus": "cached",
+        "cacheManifestUrl": "/data-sources/beertasting/image-cache.json",
+        "originalSha256": "2d85d2f10442c86f54835ca677c290aabd382719b5736aa47ee8c3756247478b",
+        "mapDimensions": [
+          87,
+          160
+        ],
+        "cardDimensions": [
+          218,
+          400
+        ]
+      },
+      "rating": 3.14,
+      "ratingsCount": 6,
+      "isRetired": false,
+      "isDraught": false,
+      "sourceUrls": [
+        "https://www.beertasting.com/en/beers/dao-brewing-elixir-west-coast-ipa",
+        "https://www.beertasting.com/en/brewery/dao-brewing/beers",
+        "https://untappd.com/b/daobrew-daobrew-elixir-west-coast-ipa-ipa/5800609"
+      ],
+      "sourceNote": "BeerTasting 普通公开酒厂列表 HTML 地理扩采；未使用 Instant Data Scraper。ID、酒厂关系、评分与评分人数、参数和候选图均来自该页面结构化数据。未提供的风味、酒花和工艺留空；IBU=0 显示未知；地图仅为城市级参考。图片本地缓存不等于身份或再利用授权已经核实。 2026-10-02 精确同款公开产品介绍补充，不取用户评论；原身份与城市参考不变。",
+      "collectionMethod": "direct_public_html",
+      "collectionBatch": "geographic_public_html_20260918",
+      "sourceIds": [
+        "e95de910-9e9b-47bc-9034-18b935b07c12"
+      ],
+      "sourceRecord": {
+        "id": "e95de910-9e9b-47bc-9034-18b935b07c12",
+        "name": "ELIXIR WEST COAST IPA（长生)",
+        "display_name": "Dao Brewing - ELIXIR WEST COAST IPA（长生)",
+        "url": "https://www.beertasting.com/en/beers/dao-brewing-elixir-west-coast-ipa",
+        "brewery_name": "Dao Brewing (丰收道酿)",
+        "secondary_brewery_name": null,
+        "brewery_id": "f24380b4-7b02-471e-a09a-9747b6e8887a",
+        "brewery_city": "Chengdu",
+        "brewery_region": "Sichuan",
+        "brewery_country_code": "CN",
+        "country_code": "CN",
+        "country_name": "China",
+        "abv_percent": 6.8,
+        "ibu_raw": null,
+        "style_family": "India Pale Ale",
+        "style": "West Coast IPA",
+        "ean_raw": "6975289811446",
+        "rating": 3.14,
+        "ratings_count": 6,
+        "is_retired": false,
+        "is_draught": false,
+        "image_url": "https://beertasting.app/storage/media/12c9cf4a8944959b9da7adc181dc1fc3/WhatsApp_Image_2024-12-25_at_17.07.11-removebg-preview.png",
+        "image_class": "candidate",
+        "image_media_id": "1fc685e9-794d-4c89-9685-58124ca1fe95",
+        "image_declared_mime": "image/png",
+        "source_url": "https://www.beertasting.com/en/brewery/dao-brewing/beers",
+        "listing_brewery_id": "f24380b4-7b02-471e-a09a-9747b6e8887a",
+        "fermentation": null,
+        "hops": null,
+        "malts": null,
+        "flavor_tags": null,
+        "latitude": null,
+        "longitude": null,
+        "sampling_continent": "Asia",
+        "collection_method": "direct_public_html",
+        "collection_batch": "geographic_public_html_20260918",
+        "captured_at": "2026-09-18T10:23:39.211945+00:00",
+        "source_page_sha256": "0b1f092e5e45852726ba38e58cd6079abe361052e3537ee73956b6a134029809",
+        "field_provenance": "Stable ID, maker relationship, numerical ratings/counts and candidate image URL read from the exact public brewery-list Nuxt data; no IDS extension used for this expansion."
+      },
+      "sourceDataUrl": "/data-sources/beertasting/source-records.json",
+      "locationEvidence": {
+        "sourceBreweryId": "f24380b4-7b02-471e-a09a-9747b6e8887a",
+        "sourceBrewerySlug": "dao-brewing",
+        "breweryName": "Dao Brewing (丰收道酿)",
+        "city": "Chengdu",
+        "region": "Sichuan",
+        "countryCode": "CN",
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-09-18",
+        "sourceListingUrl": "https://www.beertasting.com/en/brewery/dao-brewing/beers",
+        "lat": 30.66,
+        "lng": 104.06333333,
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Chengdu",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&prop=coordinates%7Cpageprops&coprimary=primary&format=json&redirects=1&titles=Seattle%7CEnsenada%7CCuracav%C3%AD%7CAkureyri%7CR%C3%A9duit%2C+Mauritius%7CHo+Chi+Minh+City%7CSeoul%7CZamrudpur%7CSingapore%7CStavanger%7CNew+Taipei+City%7CAvlonari%7CPerth%7CNairobi%7CSan+Juan%2C+Puerto+Rico%7CKathu%7CAnchorage%2C+Alaska%7CKihei%2C+Hawaii%7CVictoria%2C+British+Columbia%7CUshuaia%7CStockholm%7CSan+Carlos+de+Bariloche%7CChengdu%7CBeijing%7CKyalami%7CKikuyu%2C+Kenya&colimit=max",
+        "coordinateSourcePageId": 170375,
+        "coordinatePlaceTitle": "Chengdu",
+        "coordinateScope": "city_or_settlement_reference",
+        "identitySourceUrl": "https://www.beertasting.com/en/brewery/dao-brewing/beers",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "公开列表的酒厂 ID、城市 Chengdu 与国家 CN 已核对；城市/聚落坐标取自 Chengdu，非精确厂址或逐款生产地。",
+        "sourceUrls": [
+          "https://www.beertasting.com/en/brewery/dao-brewing/beers",
+          "https://en.wikipedia.org/wiki/Chengdu"
+        ]
+      },
+      "craftStatus": "unknown",
+      "operatingStatus": "unknown",
+      "dataLicense": null,
+      "dataQualityFlags": [
+        "craft_status_unknown",
+        "brewery_city_reference",
+        "flavors_not_provided",
+        "ingredients_not_provided",
+        "fermentation_not_provided",
+        "image_rights_unverified",
+        "local_candidate_image_identity_unverified"
+      ],
+      "collections": [
+        "beertasting"
+      ],
+      "awards": [],
+      "descriptionBasis": "public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://untappd.com/b/daobrew-daobrew-elixir-west-coast-ipa-ipa/5800609",
+        "sourceFile": ".runtime/china-country-evidence/dao-elixir.html",
+        "sourceSha256": "ab729defe7a4a63c1e07aeedd7443d20b617ae354769a9b49fbfb00c16e70639",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "public_product_description",
+        "method": "faithful_short_summary_of_product_information_not_user_reviews"
+      },
+      "imageContentBounds": {
+        "width": 218,
+        "height": 400,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 218,
+          "height": 393
+        },
+        "originalSha256": "1e85d1ed070b1e4c3c3e793432675995415f79edf06d04b8a91fab29eb6bb0d7",
+        "method": "decoded_alpha_body_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 4
+      }
+    },
+    {
+      "id": "beertasting-954dfa22-46cd-4b45-8c66-88c1ac5b0142",
+      "name": "Shangri-La - Gyalthang",
+      "breweryId": "beertasting-brewery-369ef6bd-f26c-4a11-bd5d-57704576034c",
+      "collection": "beertasting",
+      "style": "Unclassified Beer",
+      "styleZh": "风格待核对",
+      "sourceCategory": "Pale Lager",
+      "abv": 2.8,
+      "ibu": null,
+      "srm": null,
+      "description": "香格里拉“建塘”拉格。Gyalthang 是香格里拉的藏语地名，酒款以家乡为主题；这里展示的罐装版本标示酒精度 2.8%。",
+      "originalDescription": "",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "fermentation": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/beertasting/card/11d0de0bdb32fcf35eb320ca.webp",
+      "imageThumbnail": "/images/beertasting/map/11d0de0bdb32fcf35eb320ca.webp",
+      "imageOriginal": "/images/beertasting/original/11d0de0bdb32fcf35eb320ca.png",
+      "imageCacheStatus": "cached",
+      "imageDownloadUrl": "https://beertasting.app/storage/media/e31cb91531d07500b61dd94b68cc0f75/WhatsApp_Bild_2025-02-17_um_21.00.24_7a1679c3-removebg-preview.png",
+      "imageSource": "https://www.beertasting.com/en/beers/shangri-la-gyalthang",
+      "imageCredit": "BeerTasting 来源候选图片；本地缓存不代表身份或再利用许可已核实。",
+      "imageLicenseUrl": null,
+      "imageEvidence": {
+        "sourceClass": "candidate",
+        "mediaId": "d08cbc05-bdba-4bdf-8ecd-c32f43882303",
+        "declaredMime": "image/png",
+        "downloadedForDemo": true,
+        "individuallyVerified": false,
+        "reuseRightsVerified": false,
+        "cacheStatus": "cached",
+        "cacheManifestUrl": "/data-sources/beertasting/image-cache.json",
+        "originalSha256": "cd4a08b17baf93b2feb7cd42708a8b6f753a25dff4fa8ad4db1831fafd86d3b3",
+        "mapDimensions": [
+          87,
+          160
+        ],
+        "cardDimensions": [
+          218,
+          400
+        ]
+      },
+      "rating": 1.98,
+      "ratingsCount": 7,
+      "isRetired": false,
+      "isDraught": false,
+      "sourceUrls": [
+        "https://www.beertasting.com/en/beers/shangri-la-gyalthang",
+        "https://www.beertasting.com/en/brewery/shangri-la-highland-craft-brewery/beers",
+        "https://untappd.com/b/shangri-la-beer-gyalthang/1387134"
+      ],
+      "sourceNote": "BeerTasting 普通公开酒厂列表 HTML 地理扩采；未使用 Instant Data Scraper。ID、酒厂关系、评分与评分人数、参数和候选图均来自该页面结构化数据。未提供的风味、酒花和工艺留空；IBU=0 显示未知；地图仅为城市级参考。图片本地缓存不等于身份或再利用授权已经核实。 2026-10-02 精确同款公开产品介绍补充，不取用户评论；原身份与城市参考不变。",
+      "collectionMethod": "direct_public_html",
+      "collectionBatch": "regions-20260918-china-india",
+      "sourceIds": [
+        "954dfa22-46cd-4b45-8c66-88c1ac5b0142"
+      ],
+      "sourceRecord": {
+        "id": "954dfa22-46cd-4b45-8c66-88c1ac5b0142",
+        "name": "Gyalthang",
+        "display_name": "Shangri-La - Gyalthang",
+        "url": "https://www.beertasting.com/en/beers/shangri-la-gyalthang",
+        "brewery_name": "Shangri-La Highland Craft Brewery",
+        "secondary_brewery_name": null,
+        "brewery_id": "369ef6bd-f26c-4a11-bd5d-57704576034c",
+        "brewery_city": "Shangri-La City",
+        "brewery_region": "Tibet",
+        "brewery_country_code": "CN",
+        "country_code": "CN",
+        "country_name": "China",
+        "abv_percent": 2.8,
+        "ibu_raw": null,
+        "style_family": "Pale Lager",
+        "style": null,
+        "ean_raw": "6939299120172",
+        "rating": 1.98,
+        "ratings_count": 7,
+        "is_retired": false,
+        "is_draught": false,
+        "image_url": "https://beertasting.app/storage/media/e31cb91531d07500b61dd94b68cc0f75/WhatsApp_Bild_2025-02-17_um_21.00.24_7a1679c3-removebg-preview.png",
+        "image_class": "candidate",
+        "image_media_id": "d08cbc05-bdba-4bdf-8ecd-c32f43882303",
+        "image_declared_mime": "image/png",
+        "source_url": "https://www.beertasting.com/en/brewery/shangri-la-highland-craft-brewery/beers",
+        "listing_brewery_id": "369ef6bd-f26c-4a11-bd5d-57704576034c",
+        "fermentation": null,
+        "hops": null,
+        "malts": null,
+        "flavor_tags": null,
+        "latitude": null,
+        "longitude": null,
+        "collection_batch": "regions-20260918-china-india",
+        "sampling_continent": "Asia",
+        "collection_method": "direct_public_html",
+        "captured_at": "2026-09-18T10:40:43.147181+00:00",
+        "source_page_sha256": "181daca01e0c25776aa65ea49b3bc3d25e5ddfff3bfee223516fb96275d4765a",
+        "field_provenance": "Exact public brewery-list Nuxt fields; original ratings_count, never cheers_count. Image URL is a candidate, not independently licensed or verified here. No description, flavor, process or production-coordinate inference."
+      },
+      "sourceDataUrl": "/data-sources/beertasting/source-records.json",
+      "locationEvidence": {
+        "sourceBreweryId": "369ef6bd-f26c-4a11-bd5d-57704576034c",
+        "sourceBrewerySlug": "shangri-la-highland-craft-brewery",
+        "breweryName": "Shangri-La Highland Craft Brewery",
+        "city": "Shangri-La City",
+        "region": "Tibet",
+        "reviewedCity": "Shangri-La, Yunnan",
+        "reviewedCityZh": "香格里拉",
+        "reviewedRegion": "Yunnan",
+        "countryCode": "CN",
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-09-18",
+        "sourceListingUrl": "https://www.beertasting.com/en/brewery/shangri-la-highland-craft-brewery/beers",
+        "lat": 27.825,
+        "lng": 99.7025,
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Shangri-La,_Yunnan",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&prop=coordinates%7Cpageprops&coprimary=primary&format=json&redirects=1&titles=Shanghai%7CNanjing%7CShangri-La%2C+Yunnan%7CWuhan%7CBangalore%7CPune%7CSangolda%7CMumbai&colimit=max",
+        "coordinateSourcePageId": 1718061,
+        "coordinatePlaceTitle": "Shangri-La, Yunnan",
+        "coordinateScope": "city_reference",
+        "coordinateEvidenceFile": "research/beertasting-regions-2026-09-18/china-india/coordinate-response.json",
+        "identitySourceUrl": "https://shangrilabeer.cn/csr/",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "目录城市 Shangri-La City，酒厂官网 CSR 叙述其香格里拉城市起源。坐标词条与国家相符，为云南香格里拉；目录原 region=Tibet 不作为行政区定位依据。只标城市参考，非青口工业园厂址。",
+        "operatingStatus": "not_verified",
+        "operatingStatusSourceUrl": null,
+        "sourceUrls": [
+          "https://www.beertasting.com/en/brewery/shangri-la-highland-craft-brewery/beers",
+          "https://shangrilabeer.cn/csr/",
+          "https://en.wikipedia.org/wiki/Shangri-La,_Yunnan"
+        ]
+      },
+      "craftStatus": "unknown",
+      "operatingStatus": "unknown",
+      "dataLicense": null,
+      "dataQualityFlags": [
+        "craft_status_unknown",
+        "brewery_city_reference",
+        "flavors_not_provided",
+        "ingredients_not_provided",
+        "fermentation_not_provided",
+        "image_rights_unverified",
+        "local_candidate_image_identity_unverified",
+        "style_unknown"
+      ],
+      "collections": [
+        "beertasting"
+      ],
+      "awards": [],
+      "descriptionBasis": "public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://untappd.com/b/shangri-la-beer-gyalthang/1387134",
+        "sourceFile": ".runtime/china-country-evidence/gyalthang.html",
+        "sourceSha256": "ef790fc6f0fbd50727cc727dc4852c3eb3ec3f1d9901df423b1bd3c058b728ec",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "public_product_description",
+        "method": "faithful_short_summary_of_product_information_not_user_reviews"
+      },
+      "imageContentBounds": {
+        "width": 218,
+        "height": 400,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 218,
+          "height": 399
+        },
+        "originalSha256": "7ce8d40172d3b2ab9178fc5a2d335e67e06f76353c1d78100e7daeb2e234a2d8",
+        "method": "decoded_alpha_body_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 4
+      },
+      "sourceConflicts": [
+        {
+          "field": "version/abv",
+          "existingValue": 2.8,
+          "publicOlderProductAbv": 3.1,
+          "sourceUrl": "https://untappd.com/b/shangri-la-beer-gyalthang/1387134",
+          "resolution": "use only product-name origin; retain photographed 2.8% can; do not assign older Untappd ID or retirement status"
+        }
+      ]
+    },
+    {
+      "id": "beertasting-b052f1b1-bf95-4079-9b76-4040661c2e52",
+      "name": "No.18 Brewing - Tiao Dong Who IPA Into East Lake",
+      "breweryId": "beertasting-brewery-3a587329-854f-4989-833d-b6af37465563",
+      "collection": "beertasting",
+      "style": "West Coast IPA",
+      "styleZh": "West Coast IPA",
+      "sourceCategory": "India Pale Ale",
+      "abv": 6.2,
+      "ibu": 60,
+      "srm": null,
+      "description": "拾捌精酿“跳东湖”IPA，酒精度 6.2%、苦度 60 IBU。产品介绍将名字联系到武汉人骑车相聚、跃入东湖的夏日活动。",
+      "originalDescription": "",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "fermentation": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/beertasting/card/23d9e1398065c598d097e784.webp",
+      "imageThumbnail": "/images/beertasting/map/23d9e1398065c598d097e784.webp",
+      "imageOriginal": "/images/beertasting/original/23d9e1398065c598d097e784.png",
+      "imageCacheStatus": "cached",
+      "imageDownloadUrl": "https://beertasting.app/storage/media/badbc65766cbe7950ebaa162cc98d572/20231002_214554-removebg-preview.png",
+      "imageSource": "https://www.beertasting.com/en/beers/tiao-dong-who-ipa-into-east-lake",
+      "imageCredit": "BeerTasting 来源候选图片；本地缓存不代表身份或再利用许可已核实。",
+      "imageLicenseUrl": null,
+      "imageEvidence": {
+        "sourceClass": "candidate",
+        "mediaId": "5cee45a8-fcf4-4dc7-a1f0-18ac15c58e0d",
+        "declaredMime": "image/png",
+        "downloadedForDemo": true,
+        "individuallyVerified": false,
+        "reuseRightsVerified": false,
+        "cacheStatus": "cached",
+        "cacheManifestUrl": "/data-sources/beertasting/image-cache.json",
+        "originalSha256": "a831e72aa60f2d6165ebd332a4661cfa925220a821d148327ef3fbc494f68d93",
+        "mapDimensions": [
+          90,
+          160
+        ],
+        "cardDimensions": [
+          224,
+          400
+        ]
+      },
+      "rating": 2.96,
+      "ratingsCount": 5,
+      "isRetired": false,
+      "isDraught": false,
+      "sourceUrls": [
+        "https://www.beertasting.com/en/beers/tiao-dong-who-ipa-into-east-lake",
+        "https://www.beertasting.com/en/brewery/no18-brewing-co/beers",
+        "https://www.jiuhuar.com/craftbeer/5a65a2538ba5b0f7078b456f.html"
+      ],
+      "sourceNote": "BeerTasting 普通公开酒厂列表 HTML 地理扩采；未使用 Instant Data Scraper。ID、酒厂关系、评分与评分人数、参数和候选图均来自该页面结构化数据。未提供的风味、酒花和工艺留空；IBU=0 显示未知；地图仅为城市级参考。图片本地缓存不等于身份或再利用授权已经核实。 2026-10-02 精确同款公开产品介绍补充，不取用户评论；原身份与城市参考不变。",
+      "collectionMethod": "direct_public_html",
+      "collectionBatch": "regions-20260918-china-india",
+      "sourceIds": [
+        "b052f1b1-bf95-4079-9b76-4040661c2e52"
+      ],
+      "sourceRecord": {
+        "id": "b052f1b1-bf95-4079-9b76-4040661c2e52",
+        "name": "Tiao Dong Who IPA Into East Lake",
+        "display_name": "No.18 Brewing - Tiao Dong Who IPA Into East Lake",
+        "url": "https://www.beertasting.com/en/beers/tiao-dong-who-ipa-into-east-lake",
+        "brewery_name": "No.18 Brewing & Co. (拾捌精酿)",
+        "secondary_brewery_name": null,
+        "brewery_id": "3a587329-854f-4989-833d-b6af37465563",
+        "brewery_city": "Wu Han Shi",
+        "brewery_region": "Hu Bei Sheng",
+        "brewery_country_code": "CN",
+        "country_code": "CN",
+        "country_name": "China",
+        "abv_percent": 6.2,
+        "ibu_raw": 60,
+        "style_family": "India Pale Ale",
+        "style": "West Coast IPA",
+        "ean_raw": "6971813230004",
+        "rating": 2.96,
+        "ratings_count": 5,
+        "is_retired": false,
+        "is_draught": false,
+        "image_url": "https://beertasting.app/storage/media/badbc65766cbe7950ebaa162cc98d572/20231002_214554-removebg-preview.png",
+        "image_class": "candidate",
+        "image_media_id": "5cee45a8-fcf4-4dc7-a1f0-18ac15c58e0d",
+        "image_declared_mime": "image/png",
+        "source_url": "https://www.beertasting.com/en/brewery/no18-brewing-co/beers",
+        "listing_brewery_id": "3a587329-854f-4989-833d-b6af37465563",
+        "fermentation": null,
+        "hops": null,
+        "malts": null,
+        "flavor_tags": null,
+        "latitude": null,
+        "longitude": null,
+        "collection_batch": "regions-20260918-china-india",
+        "sampling_continent": "Asia",
+        "collection_method": "direct_public_html",
+        "captured_at": "2026-09-18T10:40:48.070730+00:00",
+        "source_page_sha256": "b9ca4aca008c92c80ba5386cf28330dfa36cc07491ea791adc45f4dbf207a692",
+        "field_provenance": "Exact public brewery-list Nuxt fields; original ratings_count, never cheers_count. Image URL is a candidate, not independently licensed or verified here. No description, flavor, process or production-coordinate inference."
+      },
+      "sourceDataUrl": "/data-sources/beertasting/source-records.json",
+      "locationEvidence": {
+        "sourceBreweryId": "3a587329-854f-4989-833d-b6af37465563",
+        "sourceBrewerySlug": "no18-brewing-co",
+        "breweryName": "No.18 Brewing & Co. (拾捌精酿)",
+        "city": "Wu Han Shi",
+        "region": "Hu Bei Sheng",
+        "reviewedCity": "Wuhan",
+        "reviewedCityZh": "武汉",
+        "reviewedRegion": "Hubei",
+        "countryCode": "CN",
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-09-18",
+        "sourceListingUrl": "https://www.beertasting.com/en/brewery/no18-brewing-co/beers",
+        "lat": 30.595,
+        "lng": 114.2975,
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Wuhan",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&prop=coordinates%7Cpageprops&coprimary=primary&format=json&redirects=1&titles=Shanghai%7CNanjing%7CShangri-La%2C+Yunnan%7CWuhan%7CBangalore%7CPune%7CSangolda%7CMumbai&colimit=max",
+        "coordinateSourcePageId": 82138,
+        "coordinatePlaceTitle": "Wuhan",
+        "coordinateScope": "city_reference",
+        "coordinateEvidenceFile": "research/beertasting-regions-2026-09-18/china-india/coordinate-response.json",
+        "identitySourceUrl": "https://www.bjbrew.com/en/exDetail.aspx?exid=26",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "目录 Wu Han Shi / Hu Bei Sheng / CN 与展会主办方的参展商资料中武汉江岸区办公地址一致。取武汉城市参考点，不将公开办公地址认作逐款生产厂。",
+        "operatingStatus": "not_verified",
+        "operatingStatusSourceUrl": null,
+        "sourceUrls": [
+          "https://www.beertasting.com/en/brewery/no18-brewing-co/beers",
+          "https://www.bjbrew.com/en/exDetail.aspx?exid=26",
+          "https://en.wikipedia.org/wiki/Wuhan"
+        ]
+      },
+      "craftStatus": "unknown",
+      "operatingStatus": "unknown",
+      "dataLicense": null,
+      "dataQualityFlags": [
+        "craft_status_unknown",
+        "brewery_city_reference",
+        "flavors_not_provided",
+        "ingredients_not_provided",
+        "fermentation_not_provided",
+        "image_rights_unverified",
+        "local_candidate_image_identity_unverified"
+      ],
+      "collections": [
+        "beertasting"
+      ],
+      "awards": [],
+      "descriptionBasis": "public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.jiuhuar.com/craftbeer/5a65a2538ba5b0f7078b456f.html",
+        "sourceFile": ".runtime/china-country-evidence/no18-jump.html",
+        "sourceSha256": "91b85b51fdd21b894176b558c95578be96b13b5fe91a2ecfc4a30dd6d53b787e",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "public_product_description",
+        "method": "faithful_short_summary_of_product_information_not_user_reviews"
+      },
+      "imageContentBounds": {
+        "width": 224,
+        "height": 400,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 224,
+          "height": 399
+        },
+        "originalSha256": "8748d8630ed8e2e042e8031bad598ff890da7c075287419a3cc42b59638995c3",
+        "method": "decoded_alpha_body_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 4
+      }
+    },
+    {
+      "id": "beertasting-f81bfe1d-6189-4e01-bbf1-6a7075175f14",
+      "name": "No.18 Brewing - No to Criticism",
+      "breweryId": "beertasting-brewery-3a587329-854f-4989-833d-b6af37465563",
+      "collection": "beertasting",
+      "style": "Session IPA",
+      "styleZh": "Session IPA",
+      "sourceCategory": "India Pale Ale",
+      "abv": 4.5,
+      "ibu": 30,
+      "srm": null,
+      "description": "拾捌精酿“不接受批评”社交型 IPA，酒精度 4.5%、苦度 30 IBU。产品资料列有 Maris Otter 麦芽与 Mosaic 酒花，并描述柑橘、柚子、菠萝和松针香气。",
+      "originalDescription": "",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "fermentation": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/beertasting/card/9444cd5943b22270b4406512.webp",
+      "imageThumbnail": "/images/beertasting/map/9444cd5943b22270b4406512.webp",
+      "imageOriginal": "/images/beertasting/original/9444cd5943b22270b4406512.png",
+      "imageCacheStatus": "cached",
+      "imageDownloadUrl": "https://beertasting.app/storage/media/ce7583eb1330aef7d591683dc61deada/beynw0cufsr5fk2txeo2.png",
+      "imageSource": "https://www.beertasting.com/en/beers/no-to-criticism",
+      "imageCredit": "BeerTasting 来源候选图片；本地缓存不代表身份或再利用许可已核实。",
+      "imageLicenseUrl": null,
+      "imageEvidence": {
+        "sourceClass": "candidate",
+        "mediaId": "2ab11501-50c1-4bab-9989-854eeffe912d",
+        "declaredMime": "image/png",
+        "downloadedForDemo": true,
+        "individuallyVerified": false,
+        "reuseRightsVerified": false,
+        "cacheStatus": "cached",
+        "cacheManifestUrl": "/data-sources/beertasting/image-cache.json",
+        "originalSha256": "8b57409bb7be8035218a01e1a9dc49dbbdd419f32fcd551a23219aebcb6af3f7",
+        "mapDimensions": [
+          93,
+          160
+        ],
+        "cardDimensions": [
+          233,
+          400
+        ]
+      },
+      "rating": 3.06,
+      "ratingsCount": 5,
+      "isRetired": false,
+      "isDraught": false,
+      "sourceUrls": [
+        "https://www.beertasting.com/en/beers/no-to-criticism",
+        "https://www.beertasting.com/en/brewery/no18-brewing-co/beers",
+        "https://www.jiuhuar.com/craftbeer/5ba1b2278ba5b050218b4567.html"
+      ],
+      "sourceNote": "BeerTasting 普通公开酒厂列表 HTML 地理扩采；未使用 Instant Data Scraper。ID、酒厂关系、评分与评分人数、参数和候选图均来自该页面结构化数据。未提供的风味、酒花和工艺留空；IBU=0 显示未知；地图仅为城市级参考。图片本地缓存不等于身份或再利用授权已经核实。 2026-10-02 精确同款公开产品介绍补充，不取用户评论；原身份与城市参考不变。",
+      "collectionMethod": "direct_public_html",
+      "collectionBatch": "regions-20260918-china-india",
+      "sourceIds": [
+        "f81bfe1d-6189-4e01-bbf1-6a7075175f14"
+      ],
+      "sourceRecord": {
+        "id": "f81bfe1d-6189-4e01-bbf1-6a7075175f14",
+        "name": "No to Criticism",
+        "display_name": "No.18 Brewing - No to Criticism",
+        "url": "https://www.beertasting.com/en/beers/no-to-criticism",
+        "brewery_name": "No.18 Brewing & Co. (拾捌精酿)",
+        "secondary_brewery_name": null,
+        "brewery_id": "3a587329-854f-4989-833d-b6af37465563",
+        "brewery_city": "Wu Han Shi",
+        "brewery_region": "Hu Bei Sheng",
+        "brewery_country_code": "CN",
+        "country_code": "CN",
+        "country_name": "China",
+        "abv_percent": 4.5,
+        "ibu_raw": 30,
+        "style_family": "India Pale Ale",
+        "style": "Session IPA",
+        "ean_raw": "6971813230035",
+        "rating": 3.06,
+        "ratings_count": 5,
+        "is_retired": false,
+        "is_draught": false,
+        "image_url": "https://beertasting.app/storage/media/ce7583eb1330aef7d591683dc61deada/beynw0cufsr5fk2txeo2.png",
+        "image_class": "candidate",
+        "image_media_id": "2ab11501-50c1-4bab-9989-854eeffe912d",
+        "image_declared_mime": "image/png",
+        "source_url": "https://www.beertasting.com/en/brewery/no18-brewing-co/beers",
+        "listing_brewery_id": "3a587329-854f-4989-833d-b6af37465563",
+        "fermentation": null,
+        "hops": null,
+        "malts": null,
+        "flavor_tags": null,
+        "latitude": null,
+        "longitude": null,
+        "collection_batch": "regions-20260918-china-india",
+        "sampling_continent": "Asia",
+        "collection_method": "direct_public_html",
+        "captured_at": "2026-09-18T10:40:48.070730+00:00",
+        "source_page_sha256": "b9ca4aca008c92c80ba5386cf28330dfa36cc07491ea791adc45f4dbf207a692",
+        "field_provenance": "Exact public brewery-list Nuxt fields; original ratings_count, never cheers_count. Image URL is a candidate, not independently licensed or verified here. No description, flavor, process or production-coordinate inference."
+      },
+      "sourceDataUrl": "/data-sources/beertasting/source-records.json",
+      "locationEvidence": {
+        "sourceBreweryId": "3a587329-854f-4989-833d-b6af37465563",
+        "sourceBrewerySlug": "no18-brewing-co",
+        "breweryName": "No.18 Brewing & Co. (拾捌精酿)",
+        "city": "Wu Han Shi",
+        "region": "Hu Bei Sheng",
+        "reviewedCity": "Wuhan",
+        "reviewedCityZh": "武汉",
+        "reviewedRegion": "Hubei",
+        "countryCode": "CN",
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-09-18",
+        "sourceListingUrl": "https://www.beertasting.com/en/brewery/no18-brewing-co/beers",
+        "lat": 30.595,
+        "lng": 114.2975,
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Wuhan",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&prop=coordinates%7Cpageprops&coprimary=primary&format=json&redirects=1&titles=Shanghai%7CNanjing%7CShangri-La%2C+Yunnan%7CWuhan%7CBangalore%7CPune%7CSangolda%7CMumbai&colimit=max",
+        "coordinateSourcePageId": 82138,
+        "coordinatePlaceTitle": "Wuhan",
+        "coordinateScope": "city_reference",
+        "coordinateEvidenceFile": "research/beertasting-regions-2026-09-18/china-india/coordinate-response.json",
+        "identitySourceUrl": "https://www.bjbrew.com/en/exDetail.aspx?exid=26",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "目录 Wu Han Shi / Hu Bei Sheng / CN 与展会主办方的参展商资料中武汉江岸区办公地址一致。取武汉城市参考点，不将公开办公地址认作逐款生产厂。",
+        "operatingStatus": "not_verified",
+        "operatingStatusSourceUrl": null,
+        "sourceUrls": [
+          "https://www.beertasting.com/en/brewery/no18-brewing-co/beers",
+          "https://www.bjbrew.com/en/exDetail.aspx?exid=26",
+          "https://en.wikipedia.org/wiki/Wuhan"
+        ]
+      },
+      "craftStatus": "unknown",
+      "operatingStatus": "unknown",
+      "dataLicense": null,
+      "dataQualityFlags": [
+        "craft_status_unknown",
+        "brewery_city_reference",
+        "flavors_not_provided",
+        "ingredients_not_provided",
+        "fermentation_not_provided",
+        "image_rights_unverified",
+        "local_candidate_image_identity_unverified"
+      ],
+      "collections": [
+        "beertasting"
+      ],
+      "awards": [],
+      "descriptionBasis": "public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.jiuhuar.com/craftbeer/5ba1b2278ba5b050218b4567.html",
+        "sourceFile": ".runtime/china-country-evidence/no18-critic.html",
+        "sourceSha256": "09462a8297850fda784875a4209c3f48df32fd0788b40114d9cf264a09415045",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "public_product_description",
+        "method": "faithful_short_summary_of_product_information_not_user_reviews"
+      },
+      "imageContentBounds": {
+        "width": 233,
+        "height": 400,
+        "bounds": {
+          "x": 16,
+          "y": 13,
+          "width": 200,
+          "height": 374
+        },
+        "originalSha256": "398299ad12e4ab2528011011f51b2490a22311f69b273528fef2c60b0fddd356",
+        "method": "decoded_alpha_body_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 4
+      }
+    },
+    {
+      "id": "beertasting-08ebd372-e2f6-45cd-8870-ce194a4f6377",
+      "name": "重启 1.2 酸 IPA · Reset 1.2 Sour IPA",
+      "breweryId": "beertasting-brewery-3aad9cdd-c684-4ade-bc11-d3aff619d78d",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Sour IPA",
+      "abv": 4.5,
+      "ibu": null,
+      "description": "保霖精酿“重启 1.2”酸印度淡色艾尔，广州酒厂公开目录标示酒精度 4.5%；实罐为 330mL。尚未核得独立风味正文，因此仅展示已验证的产品规格。",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.beertasting.com/en/beers/reset-12-sour-ipa",
+        "sourceFile": ".runtime/china-country-evidence/bravo-product.html",
+        "sourceSha256": "1738d466df98cf103710986d9a650fe83bd5f33925bf8015c88a36528efeabcb",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "public_product_description",
+        "method": "faithful_short_summary_of_product_information_not_user_reviews"
+      },
+      "descriptionBasis": "verified_product_specification",
+      "flavorDescriptionVerified": false,
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": 3.44,
+      "ratingsCount": 4,
+      "awards": [],
+      "imageCredit": "Public product catalogue, original photographer not identified",
+      "sourceUrls": [
+        "https://www.beertasting.com/en/beers/reset-12-sour-ipa",
+        "https://beertasting.app/storage/media/f7f78ce257ac3df679e1348d35dd84f2/IMG_20230925_171703.png",
+        "https://www.beertasting.com/en/brewery/bravo-brewing-co/beers"
+      ],
+      "sourceNote": "公开产品目录人工核对名称与实物包装；介绍来自产品正文，不使用用户评论。城市为酒厂参考，不是逐批生产定位。",
+      "craftStatus": "craft_brewery_reference",
+      "catalog_role": "brewery_reference",
+      "image": "/images/china-country/bravo-reset-card.webp",
+      "imageThumbnail": "/images/china-country/bravo-reset-map.webp",
+      "imageOriginal": "/images/china-country/bravo-reset-original.png",
+      "sourceImage": "/images/china-country/bravo-reset-original.png",
+      "imageKind": "product_packshot",
+      "imageDownloadUrl": "https://beertasting.app/storage/media/f7f78ce257ac3df679e1348d35dd84f2/IMG_20230925_171703.png",
+      "imageSource": "https://www.beertasting.com/en/beers/reset-12-sour-ipa",
+      "imageContentBounds": {
+        "width": 260,
+        "height": 481,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 260,
+          "height": 481
+        },
+        "originalSha256": "919aac4b5f082d6afe02b84c770a594c12e3e7ee2da091beb0f3e65354b4a54a",
+        "method": "decoded_alpha_body_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 5
+      },
+      "imageLicense": "Copyright holder; no open image licence stated",
+      "imageEvidence": {
+        "sourceUrl": "https://www.beertasting.com/en/beers/reset-12-sour-ipa",
+        "downloadUrl": "https://beertasting.app/storage/media/f7f78ce257ac3df679e1348d35dd84f2/IMG_20230925_171703.png",
+        "sourceImage": "/images/china-country/bravo-reset-original.png",
+        "sourceSha256": "ae89674b36a870ba57634477060622e18e97dc84d722f2671df4b0d213c2fae2",
+        "originalSha256": "ae89674b36a870ba57634477060622e18e97dc84d722f2671df4b0d213c2fae2",
+        "sha256": "919aac4b5f082d6afe02b84c770a594c12e3e7ee2da091beb0f3e65354b4a54a",
+        "fullSha256": "ae89674b36a870ba57634477060622e18e97dc84d722f2671df4b0d213c2fae2",
+        "method": "original_transparent_packshot_preserved",
+        "parameters": {},
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "originalRGBunchanged": true,
+        "derivative": {
+          "mapMax": 320,
+          "cardMax": 800,
+          "format": "lossless_webp"
+        }
+      },
+      "sourceRecord": {
+        "id": "08ebd372-e2f6-45cd-8870-ce194a4f6377",
+        "ibu": null,
+        "style": "IPA",
+        "style_family": "India Pale Ale",
+        "source_url": "https://www.beertasting.com/en/brewery/bravo-brewing-co/beers"
+      }
+    },
+    {
+      "id": "beertasting-ef13ee0f-3f49-4306-a1bd-83df99078e86",
+      "name": "乌苏红标 · Wusu Red",
+      "breweryId": "beertasting-brewery-40f68d5c-2091-4545-b61f-891ec18b290f",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": 4.0,
+      "ibu": null,
+      "description": "乌苏红标拉格，公开目录标示酒精度 4%。产品简介描述麦芽甜香、轻微焦糖与草本酒花气息，收尾略苦。该品牌属于工业啤酒参考，不标作独立精酿。",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.beertasting.com/en/beers/xinjiang-wusu-red",
+        "sourceFile": ".runtime/china-country-evidence/wusu-red-description.html",
+        "sourceSha256": "ca9c6512e002f22f985cdaa69eeb103d57dbb40d058b25b7a872653f7c580749",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "public_product_description",
+        "method": "faithful_short_summary_of_product_information_not_user_reviews"
+      },
+      "descriptionBasis": "public_product_description",
+      "flavorDescriptionVerified": true,
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": 2.81,
+      "ratingsCount": 80,
+      "awards": [],
+      "imageCredit": "Public product catalogue, original photographer not identified",
+      "sourceUrls": [
+        "https://www.beertasting.com/en/beers/xinjiang-wusu-red",
+        "https://beertasting.app/storage/media/bcc9d97f3fb16ad7958b3c42f73fd7b3/qfenwoutlovsnn6qebkx.png",
+        "https://www.beertasting.com/en/brewery/wusu-brewery/beers"
+      ],
+      "sourceNote": "公开产品目录人工核对名称与实物包装；介绍来自产品正文，不使用用户评论。城市为酒厂参考，不是逐批生产定位。 工业品牌参考，不声称独立精酿。",
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference",
+      "image": "/images/china-country/wusu-red-card.webp",
+      "imageThumbnail": "/images/china-country/wusu-red-map.webp",
+      "imageOriginal": "/images/china-country/wusu-red-original.png",
+      "sourceImage": "/images/china-country/wusu-red-original.png",
+      "imageKind": "product_packshot",
+      "imageDownloadUrl": "https://beertasting.app/storage/media/bcc9d97f3fb16ad7958b3c42f73fd7b3/qfenwoutlovsnn6qebkx.png",
+      "imageSource": "https://www.beertasting.com/en/beers/xinjiang-wusu-red",
+      "imageContentBounds": {
+        "width": 180,
+        "height": 663,
+        "bounds": {
+          "x": 2,
+          "y": 5,
+          "width": 165,
+          "height": 652
+        },
+        "originalSha256": "4a875574c50aefc347c39f7b3932ab2692ffd56c7865048307011b6f454594d0",
+        "method": "decoded_alpha_body_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 7
+      },
+      "imageLicense": "Copyright holder; no open image licence stated",
+      "imageEvidence": {
+        "sourceUrl": "https://www.beertasting.com/en/beers/xinjiang-wusu-red",
+        "downloadUrl": "https://beertasting.app/storage/media/bcc9d97f3fb16ad7958b3c42f73fd7b3/qfenwoutlovsnn6qebkx.png",
+        "sourceImage": "/images/china-country/wusu-red-original.png",
+        "sourceSha256": "d5d5f74352e74603f563ed51254ad5cbbddaff106a30e23bdd17a84719a492cd",
+        "originalSha256": "d5d5f74352e74603f563ed51254ad5cbbddaff106a30e23bdd17a84719a492cd",
+        "sha256": "4a875574c50aefc347c39f7b3932ab2692ffd56c7865048307011b6f454594d0",
+        "fullSha256": "d5d5f74352e74603f563ed51254ad5cbbddaff106a30e23bdd17a84719a492cd",
+        "method": "original_transparent_packshot_preserved",
+        "parameters": {},
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "originalRGBunchanged": true,
+        "derivative": {
+          "mapMax": 320,
+          "cardMax": 800,
+          "format": "lossless_webp"
+        }
+      },
+      "sourceRecord": {
+        "id": "ef13ee0f-3f49-4306-a1bd-83df99078e86",
+        "ibu": 0,
+        "style": "Lager / Helles",
+        "style_family": "Pale Lager",
+        "source_url": "https://www.beertasting.com/en/brewery/wusu-brewery/beers"
+      }
+    },
+    {
+      "id": "beertasting-079d4a27-e1ff-4ef2-bd47-88744aa0053d",
+      "name": "乌苏白啤 · Wusu White Beer",
+      "breweryId": "beertasting-brewery-40f68d5c-2091-4545-b61f-891ec18b290f",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Wheat Beer",
+      "abv": 4.5,
+      "ibu": null,
+      "description": "乌苏白啤以小麦酿造，公开产品介绍记载酒液呈金黄色，酒精度 4.5%。这里展示 500mL 白蓝色罐装；属于工业品牌参考。",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.jiuhuar.com/craftbeer/6592827b526c603174115d95.html",
+        "sourceFile": ".runtime/china-country-evidence/wusu-white-description.html",
+        "sourceSha256": "153a267cd3d88c7942203a4187e6567568f1806075d4dfc1909c76ce2e8f0e9b",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "public_product_description",
+        "method": "faithful_short_summary_of_product_information_not_user_reviews"
+      },
+      "descriptionBasis": "public_product_description",
+      "flavorDescriptionVerified": true,
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": 2.97,
+      "ratingsCount": 10,
+      "awards": [],
+      "imageCredit": "Public product catalogue, original photographer not identified",
+      "sourceUrls": [
+        "https://www.jiuhuar.com/craftbeer/6592827b526c603174115d95.html",
+        "https://beertasting.app/storage/media/d61a1961f86e2de7fbef9fe59c84f4af/WhatsApp_Bild_2025-02-16_um_08.52.14_57cb0177-removebg-preview.png",
+        "https://www.beertasting.com/en/brewery/wusu-brewery/beers"
+      ],
+      "sourceNote": "公开产品目录人工核对名称与实物包装；介绍来自产品正文，不使用用户评论。城市为酒厂参考，不是逐批生产定位。 工业品牌参考，不声称独立精酿。",
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference",
+      "image": "/images/china-country/wusu-white-card.webp",
+      "imageThumbnail": "/images/china-country/wusu-white-map.webp",
+      "imageOriginal": "/images/china-country/wusu-white-original.png",
+      "sourceImage": "/images/china-country/wusu-white-original.png",
+      "imageKind": "product_packshot",
+      "imageDownloadUrl": "https://beertasting.app/storage/media/d61a1961f86e2de7fbef9fe59c84f4af/WhatsApp_Bild_2025-02-16_um_08.52.14_57cb0177-removebg-preview.png",
+      "imageSource": "https://www.jiuhuar.com/craftbeer/6592827b526c603174115d95.html",
+      "imageContentBounds": {
+        "width": 260,
+        "height": 661,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 260,
+          "height": 661
+        },
+        "originalSha256": "c9329fda9549eca1eb2405db4ba072b7657302bcbf601936a9b5c89f59c07a74",
+        "method": "decoded_alpha_body_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 7
+      },
+      "imageLicense": "Copyright holder; no open image licence stated",
+      "imageEvidence": {
+        "sourceUrl": "https://www.jiuhuar.com/craftbeer/6592827b526c603174115d95.html",
+        "downloadUrl": "https://beertasting.app/storage/media/d61a1961f86e2de7fbef9fe59c84f4af/WhatsApp_Bild_2025-02-16_um_08.52.14_57cb0177-removebg-preview.png",
+        "sourceImage": "/images/china-country/wusu-white-original.png",
+        "sourceSha256": "aeeaa4461135c63aa0ff71664ab8a046df2d19795cea5b1905b2bc2b96ede4c9",
+        "originalSha256": "aeeaa4461135c63aa0ff71664ab8a046df2d19795cea5b1905b2bc2b96ede4c9",
+        "sha256": "c9329fda9549eca1eb2405db4ba072b7657302bcbf601936a9b5c89f59c07a74",
+        "fullSha256": "aeeaa4461135c63aa0ff71664ab8a046df2d19795cea5b1905b2bc2b96ede4c9",
+        "method": "original_transparent_packshot_preserved",
+        "parameters": {},
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "originalRGBunchanged": true,
+        "derivative": {
+          "mapMax": 320,
+          "cardMax": 800,
+          "format": "lossless_webp"
+        }
+      },
+      "sourceRecord": {
+        "id": "079d4a27-e1ff-4ef2-bd47-88744aa0053d",
+        "ibu": null,
+        "style": "Pale Hefeweizen",
+        "style_family": "Wheat Beer",
+        "source_url": "https://www.beertasting.com/en/brewery/wusu-brewery/beers"
+      }
+    },
+    {
+      "id": "china-longshanquan-original-witbier",
+      "name": "龙山泉原浆白啤 · Original Witbier",
+      "breweryId": "china-longshanquan-benxi",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Witbier",
+      "abv": 3.7,
+      "ibu": null,
+      "description": "来自本溪龙山泉的原浆白啤，酒精度 3.7%。产品介绍列有加拿大与澳大利亚大麦芽、欧洲小麦芽和萨兹酒花，采用上层发酵，酒液浑浊、苦味较低。",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.jiuhuar.com/craftbeer/5d42cb048ba5b0d53a8b456a.html",
+        "sourceFile": ".runtime/china-country-evidence/benxi-jiuhuar.html",
+        "sourceSha256": "671f75a2e175c6907aacb8af5133bc5f2b333464df3e355dc2494cf8995aae4f",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "public_product_description",
+        "method": "faithful_short_summary_of_product_information_not_user_reviews"
+      },
+      "descriptionBasis": "public_product_description",
+      "flavorDescriptionVerified": true,
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "imageCredit": "Public product catalogue, original photographer not identified",
+      "sourceUrls": [
+        "https://www.jiuhuar.com/craftbeer/5d42cb048ba5b0d53a8b456a.html",
+        "https://file1.jiuhuar.com/bg-Fv0y5X95MzMGpmQTYax_xGrkqXkg"
+      ],
+      "sourceNote": "公开产品目录人工核对名称与实物包装；介绍来自产品正文，不使用用户评论。城市为酒厂参考，不是逐批生产定位。 工业品牌参考，不声称独立精酿。",
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference",
+      "image": "/images/china-country/benxi-wit-card.webp",
+      "imageThumbnail": "/images/china-country/benxi-wit-map.webp",
+      "imageOriginal": "/images/china-country/benxi-wit-cutout.png",
+      "sourceImage": "/images/china-country/benxi-wit-original.png",
+      "imageKind": "product_packshot",
+      "imageDownloadUrl": "https://file1.jiuhuar.com/bg-Fv0y5X95MzMGpmQTYax_xGrkqXkg",
+      "imageSource": "https://www.jiuhuar.com/craftbeer/5d42cb048ba5b0d53a8b456a.html",
+      "imageContentBounds": {
+        "width": 300,
+        "height": 300,
+        "bounds": {
+          "x": 130,
+          "y": 45,
+          "width": 63,
+          "height": 231
+        },
+        "originalSha256": "22475e969c26a397dc138a856dbe0b6f257679c78a5cd0517840549c2151ab9e",
+        "method": "decoded_alpha_body_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 3
+      },
+      "imageLicense": "Copyright holder; no open image licence stated",
+      "imageEvidence": {
+        "sourceUrl": "https://www.jiuhuar.com/craftbeer/5d42cb048ba5b0d53a8b456a.html",
+        "downloadUrl": "https://file1.jiuhuar.com/bg-Fv0y5X95MzMGpmQTYax_xGrkqXkg",
+        "sourceImage": "/images/china-country/benxi-wit-original.png",
+        "sourceSha256": "de8aa01847a2313bf0f83ba0c2c354c7cb3d34c68c461e7295fc8e7bd63b337c",
+        "originalSha256": "de8aa01847a2313bf0f83ba0c2c354c7cb3d34c68c461e7295fc8e7bd63b337c",
+        "sha256": "22475e969c26a397dc138a856dbe0b6f257679c78a5cd0517840549c2151ab9e",
+        "fullSha256": "f3bdfce00d99cc8401736b4f1ef7c9effb5cd3ab0544bebd0797d75b6c27986a",
+        "method": "local_python_reviewed_silhouette_alpha_only",
+        "parameters": {
+          "silhouetteSpansYLeftRight": [
+            [
+              48,
+              157,
+              166
+            ],
+            [
+              49,
+              153,
+              172
+            ],
+            [
+              52,
+              150,
+              174
+            ],
+            [
+              56,
+              150,
+              174
+            ],
+            [
+              60,
+              153,
+              171
+            ],
+            [
+              65,
+              153,
+              171
+            ],
+            [
+              89,
+              150,
+              173
+            ],
+            [
+              111,
+              148,
+              176
+            ],
+            [
+              126,
+              145,
+              179
+            ],
+            [
+              135,
+              138,
+              185
+            ],
+            [
+              145,
+              134,
+              189
+            ],
+            [
+              165,
+              133,
+              190
+            ],
+            [
+              240,
+              134,
+              189
+            ],
+            [
+              263,
+              137,
+              188
+            ],
+            [
+              270,
+              146,
+              182
+            ],
+            [
+              272,
+              157,
+              172
+            ]
+          ],
+          "maskSupersampling": 4,
+          "exifTranspose": false,
+          "sourceCanvasPreservedAfterExifOrientation": true,
+          "rgbOperation": "none; pixel position follows original EXIF orientation"
+        },
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "originalRGBunchanged": true,
+        "derivative": {
+          "mapMax": 320,
+          "cardMax": 800,
+          "format": "lossless_webp"
+        }
+      }
+    },
+    {
+      "id": "china-longshanquan-dry-lager",
+      "name": "龙山泉干啤 · Dry Beer",
+      "breweryId": "china-longshanquan-benxi",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pale Lager",
+      "abv": 3.5,
+      "ibu": null,
+      "description": "龙山泉干啤，酒精度 3.5%。公开产品资料列有泉水、澳大利亚麦芽、大米与进口酒花，描述其收口偏干；酒厂官网地址位于辽宁本溪。",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.jiuhuar.com/craftbeer/5b7fe6617901124e0fd9fc0d.html",
+        "sourceFile": ".runtime/china-country-evidence/benxi-dry.html",
+        "sourceSha256": "5af46c1bc79d0ac9f8190946675f92d95d0248b91b3993fb10810a49dac53019",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "public_product_description",
+        "method": "faithful_short_summary_of_product_information_not_user_reviews"
+      },
+      "descriptionBasis": "public_product_description",
+      "flavorDescriptionVerified": true,
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "imageCredit": "Public product catalogue, original photographer not identified",
+      "sourceUrls": [
+        "https://www.jiuhuar.com/craftbeer/5b7fe6617901124e0fd9fc0d.html",
+        "https://file1.jiuhuar.com/bg-FjCHU1BKjnVnAtQbKaWbRS0bAByP"
+      ],
+      "sourceNote": "公开产品目录人工核对名称与实物包装；介绍来自产品正文，不使用用户评论。城市为酒厂参考，不是逐批生产定位。 工业品牌参考，不声称独立精酿。",
+      "craftStatus": "industrial_reference",
+      "catalog_role": "industrial_reference",
+      "image": "/images/china-country/benxi-dry-card.webp",
+      "imageThumbnail": "/images/china-country/benxi-dry-map.webp",
+      "imageOriginal": "/images/china-country/benxi-dry-cutout.png",
+      "sourceImage": "/images/china-country/benxi-dry-original.png",
+      "imageKind": "product_packshot",
+      "imageDownloadUrl": "https://file1.jiuhuar.com/bg-FjCHU1BKjnVnAtQbKaWbRS0bAByP",
+      "imageSource": "https://www.jiuhuar.com/craftbeer/5b7fe6617901124e0fd9fc0d.html",
+      "imageContentBounds": {
+        "width": 300,
+        "height": 300,
+        "bounds": {
+          "x": 136,
+          "y": 68,
+          "width": 48,
+          "height": 184
+        },
+        "originalSha256": "137582d53704873324dec2e1514cb5d3776387eb361bac5fb14234eddfe52ae0",
+        "method": "decoded_alpha_body_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 3
+      },
+      "imageLicense": "Copyright holder; no open image licence stated",
+      "imageEvidence": {
+        "sourceUrl": "https://www.jiuhuar.com/craftbeer/5b7fe6617901124e0fd9fc0d.html",
+        "downloadUrl": "https://file1.jiuhuar.com/bg-FjCHU1BKjnVnAtQbKaWbRS0bAByP",
+        "sourceImage": "/images/china-country/benxi-dry-original.png",
+        "sourceSha256": "5903c5a17fad3afb2148ecdf051e2fddb2a9d400caf3275073fe9c4918b3a790",
+        "originalSha256": "5903c5a17fad3afb2148ecdf051e2fddb2a9d400caf3275073fe9c4918b3a790",
+        "sha256": "137582d53704873324dec2e1514cb5d3776387eb361bac5fb14234eddfe52ae0",
+        "fullSha256": "ae6b79bdfd21138c7410d5209397b689de2dd22474d4ceb7cca1ffbb629969cd",
+        "method": "local_python_reviewed_silhouette_alpha_only",
+        "parameters": {
+          "silhouetteSpansYLeftRight": [
+            [
+              71,
+              157,
+              166
+            ],
+            [
+              73,
+              151,
+              171
+            ],
+            [
+              77,
+              150,
+              172
+            ],
+            [
+              81,
+              152,
+              170
+            ],
+            [
+              86,
+              153,
+              169
+            ],
+            [
+              112,
+              150,
+              172
+            ],
+            [
+              132,
+              146,
+              175
+            ],
+            [
+              145,
+              140,
+              179
+            ],
+            [
+              153,
+              139,
+              180
+            ],
+            [
+              174,
+              139,
+              180
+            ],
+            [
+              217,
+              139,
+              179
+            ],
+            [
+              238,
+              142,
+              177
+            ],
+            [
+              245,
+              148,
+              173
+            ],
+            [
+              248,
+              158,
+              165
+            ]
+          ],
+          "maskSupersampling": 4,
+          "exifTranspose": false,
+          "sourceCanvasPreservedAfterExifOrientation": true,
+          "rgbOperation": "none; pixel position follows original EXIF orientation"
+        },
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "originalRGBunchanged": true,
+        "derivative": {
+          "mapMax": 320,
+          "cardMax": 800,
+          "format": "lossless_webp"
+        }
+      }
+    }
+  ]
+}

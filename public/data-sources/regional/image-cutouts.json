@@ -1,0 +1,6530 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-10-02",
+  "method": "User-authorized local Python alpha separation. Original assets and RGB pixels retained; no generated or redrawn product labels.",
+  "images": [
+    {
+      "beerId": "regional-usa-bells-hazy",
+      "sourceImage": "/images/regional/usa-bells-hazy.png",
+      "sourceSha256": "bf7b7180561a8a5484b7975473ccdb8b2d2d3f2d62ac3345507a7a3741e4466a",
+      "image": "/images/regional/cutouts/usa-bells-hazy-cutout.png",
+      "imageSha256": "88feabc3f8a0875245bdb1f63733f24a232f224147096fae07b3ff38b13a8382",
+      "width": 550,
+      "height": 736,
+      "alphaBounds": {
+        "x": 89,
+        "y": 251,
+        "width": 230,
+        "height": 454
+      },
+      "method": "reviewed_container_outline_alpha_mask",
+      "parameters": {
+        "polygon": [
+          [
+            110,
+            270
+          ],
+          [
+            113,
+            263
+          ],
+          [
+            128,
+            259
+          ],
+          [
+            155,
+            256
+          ],
+          [
+            191,
+            253
+          ],
+          [
+            228,
+            254
+          ],
+          [
+            261,
+            257
+          ],
+          [
+            282,
+            261
+          ],
+          [
+            292,
+            266
+          ],
+          [
+            295,
+            272
+          ],
+          [
+            294,
+            282
+          ],
+          [
+            298,
+            293
+          ],
+          [
+            305,
+            307
+          ],
+          [
+            312,
+            318
+          ],
+          [
+            316,
+            326
+          ],
+          [
+            316,
+            666
+          ],
+          [
+            310,
+            677
+          ],
+          [
+            301,
+            686
+          ],
+          [
+            289,
+            694
+          ],
+          [
+            272,
+            699
+          ],
+          [
+            247,
+            702
+          ],
+          [
+            169,
+            702
+          ],
+          [
+            140,
+            700
+          ],
+          [
+            119,
+            696
+          ],
+          [
+            108,
+            691
+          ],
+          [
+            98,
+            682
+          ],
+          [
+            90,
+            667
+          ],
+          [
+            90,
+            326
+          ],
+          [
+            92,
+            318
+          ],
+          [
+            99,
+            304
+          ],
+          [
+            105,
+            291
+          ],
+          [
+            110,
+            280
+          ]
+        ],
+        "supersampling": 4,
+        "sourceAlphaPreserved": true
+      },
+      "rgbPixelsUnchanged": true,
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-02",
+      "script": "scripts/extract-regional-front-products.py",
+      "reviewNote": "Compared full-resolution source and dark-background contact sheet; complete front container, no glass or second bottle, RGB pixels unchanged.",
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/usa-bells-hazy-cutout-card.webp",
+          "sha256": "1341faec8a10397917b8f1acf48cf248b30a400fb9cf42030374b6c7ba68b038",
+          "bytes": 76774,
+          "width": 550,
+          "height": 736
+        },
+        "map": {
+          "path": "/images/regional/cutouts/usa-bells-hazy-cutout-map.webp",
+          "sha256": "da50feaa4d1c59a7b8fc52a3fde1ed186731aa0b79609bd780c1bc4c95004924",
+          "bytes": 67444,
+          "width": 391,
+          "height": 523
+        }
+      }
+    },
+    {
+      "beerId": "regional-usa-bells-cold",
+      "sourceImage": "/images/regional/usa-bells-cold.png",
+      "sourceSha256": "aa63687dba6fbcb2858f50ef7077e550bde29151e17dcfbbef66a1a57d904605",
+      "image": "/images/regional/cutouts/usa-bells-cold-cutout.png",
+      "imageSha256": "d70121adf0173740e816d59f8581eea7ebe09b223fe142b7e2238f40084b6766",
+      "width": 550,
+      "height": 736,
+      "alphaBounds": {
+        "x": 90,
+        "y": 265,
+        "width": 225,
+        "height": 442
+      },
+      "method": "reviewed_container_outline_alpha_mask",
+      "parameters": {
+        "polygon": [
+          [
+            111,
+            284
+          ],
+          [
+            116,
+            276
+          ],
+          [
+            135,
+            272
+          ],
+          [
+            163,
+            269
+          ],
+          [
+            198,
+            267
+          ],
+          [
+            230,
+            268
+          ],
+          [
+            256,
+            271
+          ],
+          [
+            276,
+            275
+          ],
+          [
+            288,
+            282
+          ],
+          [
+            289,
+            293
+          ],
+          [
+            296,
+            309
+          ],
+          [
+            306,
+            327
+          ],
+          [
+            312,
+            338
+          ],
+          [
+            312,
+            672
+          ],
+          [
+            306,
+            683
+          ],
+          [
+            293,
+            694
+          ],
+          [
+            281,
+            700
+          ],
+          [
+            258,
+            704
+          ],
+          [
+            159,
+            704
+          ],
+          [
+            135,
+            702
+          ],
+          [
+            117,
+            697
+          ],
+          [
+            104,
+            686
+          ],
+          [
+            93,
+            675
+          ],
+          [
+            91,
+            667
+          ],
+          [
+            92,
+            339
+          ],
+          [
+            99,
+            326
+          ],
+          [
+            106,
+            310
+          ],
+          [
+            112,
+            294
+          ]
+        ],
+        "supersampling": 4,
+        "sourceAlphaPreserved": true
+      },
+      "rgbPixelsUnchanged": true,
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-02",
+      "script": "scripts/extract-regional-front-products.py",
+      "reviewNote": "Compared full-resolution source and dark-background contact sheet; complete front container, no glass or second bottle, RGB pixels unchanged.",
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/usa-bells-cold-cutout-card.webp",
+          "sha256": "eb553947fd9b80577d0a33672b4fcf4f8db5bf9bb0a2a80f456d1b782f925c8e",
+          "bytes": 64452,
+          "width": 550,
+          "height": 736
+        },
+        "map": {
+          "path": "/images/regional/cutouts/usa-bells-cold-cutout-map.webp",
+          "sha256": "6d4ede30f1a22cd65c57d2352248389ae6d270516ba46b550d60c8fc2a38f737",
+          "bytes": 63424,
+          "width": 402,
+          "height": 538
+        }
+      }
+    },
+    {
+      "beerId": "regional-usa-bells-big",
+      "sourceImage": "/images/regional/usa-bells-big.png",
+      "sourceSha256": "b7b8d0654796ae52bc390e4297b65acc3ac323e1a29eea1b681c5f4a8e13d458",
+      "image": "/images/regional/cutouts/usa-bells-big-cutout.png",
+      "imageSha256": "7c245285b0b8f95b649b229a0c229d782b9916b86efea8bc317fe2c6817bbf2c",
+      "width": 287,
+      "height": 510,
+      "alphaBounds": {
+        "x": 2,
+        "y": 163,
+        "width": 176,
+        "height": 345
+      },
+      "method": "reviewed_container_outline_alpha_mask",
+      "parameters": {
+        "polygon": [
+          [
+            19,
+            179
+          ],
+          [
+            24,
+            173
+          ],
+          [
+            42,
+            169
+          ],
+          [
+            68,
+            166
+          ],
+          [
+            103,
+            166
+          ],
+          [
+            128,
+            168
+          ],
+          [
+            150,
+            172
+          ],
+          [
+            158,
+            178
+          ],
+          [
+            159,
+            187
+          ],
+          [
+            164,
+            198
+          ],
+          [
+            172,
+            211
+          ],
+          [
+            175,
+            222
+          ],
+          [
+            175,
+            486
+          ],
+          [
+            170,
+            493
+          ],
+          [
+            158,
+            500
+          ],
+          [
+            140,
+            504
+          ],
+          [
+            54,
+            505
+          ],
+          [
+            32,
+            503
+          ],
+          [
+            19,
+            497
+          ],
+          [
+            8,
+            490
+          ],
+          [
+            3,
+            482
+          ],
+          [
+            3,
+            220
+          ],
+          [
+            10,
+            207
+          ],
+          [
+            17,
+            191
+          ]
+        ],
+        "supersampling": 4,
+        "sourceAlphaPreserved": true
+      },
+      "rgbPixelsUnchanged": true,
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-02",
+      "script": "scripts/extract-regional-front-products.py",
+      "reviewNote": "Compared full-resolution source and dark-background contact sheet; complete front container, no glass or second bottle, RGB pixels unchanged.",
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/usa-bells-big-cutout-card.webp",
+          "sha256": "19ac72fbd0c0ff6807e8bca6d552d159c8944f3a2433d4560c1b8b9afdcf59f7",
+          "bytes": 25888,
+          "width": 287,
+          "height": 510
+        },
+        "map": {
+          "path": "/images/regional/cutouts/usa-bells-big-cutout-map.webp",
+          "sha256": "9f6ac7e08560ce7628ab6fc07571eb5c8ad16a88d6d53c3688b75e5fffbd05b8",
+          "bytes": 69008,
+          "width": 271,
+          "height": 481
+        }
+      }
+    },
+    {
+      "beerId": "regional-usa-bells-eclipse",
+      "sourceImage": "/images/regional/usa-bells-eclipse.png",
+      "sourceSha256": "cd06a33cca58f5630206700beed657a5ce5925aa35c02635427e02405c5f1e20",
+      "image": "/images/regional/cutouts/usa-bells-eclipse-cutout.png",
+      "imageSha256": "185e8c36661b06c076d9b0d7743f388bd367c557adef9182b20c4f99b328da96",
+      "width": 329,
+      "height": 600,
+      "alphaBounds": {
+        "x": 137,
+        "y": 170,
+        "width": 184,
+        "height": 364
+      },
+      "method": "reviewed_container_outline_alpha_mask",
+      "parameters": {
+        "polygon": [
+          [
+            155,
+            189
+          ],
+          [
+            159,
+            181
+          ],
+          [
+            177,
+            177
+          ],
+          [
+            203,
+            173
+          ],
+          [
+            233,
+            173
+          ],
+          [
+            263,
+            175
+          ],
+          [
+            286,
+            179
+          ],
+          [
+            301,
+            185
+          ],
+          [
+            305,
+            191
+          ],
+          [
+            304,
+            198
+          ],
+          [
+            308,
+            210
+          ],
+          [
+            316,
+            225
+          ],
+          [
+            320,
+            236
+          ],
+          [
+            321,
+            506
+          ],
+          [
+            315,
+            514
+          ],
+          [
+            302,
+            523
+          ],
+          [
+            284,
+            530
+          ],
+          [
+            202,
+            531
+          ],
+          [
+            178,
+            529
+          ],
+          [
+            162,
+            524
+          ],
+          [
+            149,
+            516
+          ],
+          [
+            140,
+            507
+          ],
+          [
+            140,
+            237
+          ],
+          [
+            143,
+            228
+          ],
+          [
+            149,
+            215
+          ],
+          [
+            155,
+            201
+          ]
+        ],
+        "supersampling": 4,
+        "sourceAlphaPreserved": true
+      },
+      "rgbPixelsUnchanged": true,
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-02",
+      "script": "scripts/extract-regional-front-products.py",
+      "reviewNote": "Compared full-resolution source and dark-background contact sheet; complete front container, no glass or second bottle, RGB pixels unchanged.",
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/usa-bells-eclipse-cutout-card.webp",
+          "sha256": "a12c538a63dc882e8596fc75f8628d43f56d1671364db218fb451b54dd89e760",
+          "bytes": 29278,
+          "width": 329,
+          "height": 600
+        },
+        "map": {
+          "path": "/images/regional/cutouts/usa-bells-eclipse-cutout-map.webp",
+          "sha256": "3d3289ccd5490e5232b96a26ae414af8ad9965e08bf0d6dbe21d184353fa585b",
+          "bytes": 75154,
+          "width": 294,
+          "height": 536
+        }
+      }
+    },
+    {
+      "beerId": "regional-meister-max",
+      "sourceImage": "/images/regional/meister-max-bottle.png",
+      "sourceSha256": "edb31f758c58ad8be47cfa4516567ff2de8b9a436dd015de3b127d0018417e18",
+      "image": "/images/regional/cutouts/meister-max-bottle-cutout.png",
+      "imageSha256": "02a5199067a324944511959609371578d077234f022cb0ca3f85c56dba5265ae",
+      "width": 638,
+      "height": 539,
+      "alphaBounds": {
+        "x": 218,
+        "y": 99,
+        "width": 110,
+        "height": 385
+      },
+      "method": "reviewed_container_outline_alpha_mask",
+      "parameters": {
+        "polygon": [
+          [
+            253,
+            106
+          ],
+          [
+            257,
+            102
+          ],
+          [
+            272,
+            101
+          ],
+          [
+            287,
+            102
+          ],
+          [
+            295,
+            107
+          ],
+          [
+            298,
+            116
+          ],
+          [
+            296,
+            126
+          ],
+          [
+            293,
+            133
+          ],
+          [
+            293,
+            151
+          ],
+          [
+            299,
+            178
+          ],
+          [
+            303,
+            199
+          ],
+          [
+            303,
+            219
+          ],
+          [
+            308,
+            240
+          ],
+          [
+            318,
+            265
+          ],
+          [
+            322,
+            284
+          ],
+          [
+            325,
+            310
+          ],
+          [
+            325,
+            451
+          ],
+          [
+            322,
+            468
+          ],
+          [
+            316,
+            476
+          ],
+          [
+            305,
+            480
+          ],
+          [
+            248,
+            481
+          ],
+          [
+            234,
+            478
+          ],
+          [
+            226,
+            472
+          ],
+          [
+            222,
+            461
+          ],
+          [
+            221,
+            315
+          ],
+          [
+            225,
+            290
+          ],
+          [
+            233,
+            267
+          ],
+          [
+            240,
+            245
+          ],
+          [
+            243,
+            223
+          ],
+          [
+            242,
+            205
+          ],
+          [
+            245,
+            181
+          ],
+          [
+            248,
+            163
+          ],
+          [
+            251,
+            142
+          ],
+          [
+            252,
+            127
+          ],
+          [
+            249,
+            117
+          ]
+        ],
+        "supersampling": 4,
+        "sourceAlphaPreserved": true
+      },
+      "rgbPixelsUnchanged": true,
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-02",
+      "script": "scripts/extract-regional-front-products.py",
+      "reviewNote": "Compared full-resolution source and dark-background contact sheet; complete front container, no glass or second bottle, RGB pixels unchanged.",
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/meister-max-bottle-cutout-card.webp",
+          "sha256": "21d1465a8f1db2a77edfd74b540e74bfb1acdf11192faacf918aa921dcaa0928",
+          "bytes": 59952,
+          "width": 638,
+          "height": 539
+        },
+        "map": {
+          "path": "/images/regional/cutouts/meister-max-bottle-cutout-map.webp",
+          "sha256": "4403beb7f4470e60f3bc3c70be12dec821d5983ca2337434759263f8d745fdde",
+          "bytes": 45218,
+          "width": 537,
+          "height": 454
+        }
+      }
+    },
+    {
+      "beerId": "regional-cabesas-scottish",
+      "sourceImage": "/images/regional/cabesas-scottish.jpg",
+      "sourceSha256": "b6210ec09f80efdf8b24dd1fb68e3999c03bf7f1ce3392249b80c6fe3860bb27",
+      "image": "/images/regional/cutouts/cabesas-scottish-cutout.png",
+      "imageSha256": "a05c591f9abe68963df666a8f1785edf3ecfd96d82f3bb3d568d9936914cabdd",
+      "width": 1080,
+      "height": 1080,
+      "alphaBounds": {
+        "x": 398,
+        "y": 100,
+        "width": 308,
+        "height": 900
+      },
+      "method": "manually_reviewed_alpha_contour",
+      "parameters": {
+        "referenceSize": [
+          1080,
+          1080
+        ],
+        "rowProfileYLeftRight": [
+          [
+            103,
+            529,
+            565
+          ],
+          [
+            105,
+            513,
+            579
+          ],
+          [
+            110,
+            501,
+            590
+          ],
+          [
+            118,
+            494,
+            598
+          ],
+          [
+            134,
+            489,
+            602
+          ],
+          [
+            150,
+            489,
+            601
+          ],
+          [
+            163,
+            493,
+            598
+          ],
+          [
+            171,
+            498,
+            594
+          ],
+          [
+            196,
+            493,
+            599
+          ],
+          [
+            230,
+            486,
+            606
+          ],
+          [
+            282,
+            476,
+            616
+          ],
+          [
+            341,
+            470,
+            625
+          ],
+          [
+            389,
+            463,
+            634
+          ],
+          [
+            408,
+            454,
+            646
+          ],
+          [
+            433,
+            435,
+            667
+          ],
+          [
+            461,
+            419,
+            683
+          ],
+          [
+            492,
+            406,
+            695
+          ],
+          [
+            523,
+            401,
+            700
+          ],
+          [
+            572,
+            402,
+            702
+          ],
+          [
+            898,
+            404,
+            703
+          ],
+          [
+            945,
+            409,
+            700
+          ],
+          [
+            969,
+            418,
+            692
+          ],
+          [
+            984,
+            435,
+            679
+          ],
+          [
+            993,
+            461,
+            652
+          ],
+          [
+            997,
+            506,
+            608
+          ]
+        ],
+        "supersampling": 4,
+        "resampling": "LANCZOS",
+        "rgbModification": false
+      },
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-02",
+      "rgbPreserved": true,
+      "sourceCanvasPreserved": true,
+      "alphaAudit": {
+        "visibleThreshold": 16,
+        "detachedForegroundPixels": 0,
+        "transparentPixels": 953090,
+        "opaquePixels": 206101
+      },
+      "limitations": [],
+      "sourceTouchesCanvasEdge": false,
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/cabesas-scottish-cutout-card.webp",
+          "sha256": "27d8eb85771f9b2beb99579ec0cdf74b7b17f3ee1b3d91f782f7e3d390edd387",
+          "bytes": 288092,
+          "width": 965,
+          "height": 965
+        },
+        "map": {
+          "path": "/images/regional/cutouts/cabesas-scottish-cutout-map.webp",
+          "sha256": "f0c5fdcf46d9bca684cc61c7b288b7fcfb59e68413c5ae6908dfd4d7750d338a",
+          "bytes": 59478,
+          "width": 386,
+          "height": 386
+        }
+      }
+    },
+    {
+      "beerId": "regional-cabesas-atomica",
+      "sourceImage": "/images/regional/cabesas-atomica.jpg",
+      "sourceSha256": "5e755500cc51d25819a4dcadfa46bc228b434ef78ec622dec999a0e396285b32",
+      "image": "/images/regional/cutouts/cabesas-atomica-cutout.png",
+      "imageSha256": "9811a80f8f65f2d390080863d79c1092784a8f2361ea0a5acdfaf814323f0a0a",
+      "width": 1200,
+      "height": 1200,
+      "alphaBounds": {
+        "x": 438,
+        "y": 95,
+        "width": 346,
+        "height": 1009
+      },
+      "method": "manually_reviewed_alpha_contour",
+      "parameters": {
+        "referenceSize": [
+          1200,
+          1200
+        ],
+        "rowProfileYLeftRight": [
+          [
+            98,
+            588,
+            620
+          ],
+          [
+            100,
+            571,
+            639
+          ],
+          [
+            106,
+            557,
+            652
+          ],
+          [
+            118,
+            546,
+            662
+          ],
+          [
+            135,
+            540,
+            666
+          ],
+          [
+            150,
+            539,
+            668
+          ],
+          [
+            161,
+            543,
+            665
+          ],
+          [
+            176,
+            551,
+            659
+          ],
+          [
+            200,
+            546,
+            664
+          ],
+          [
+            242,
+            538,
+            673
+          ],
+          [
+            299,
+            529,
+            683
+          ],
+          [
+            350,
+            523,
+            689
+          ],
+          [
+            399,
+            516,
+            697
+          ],
+          [
+            427,
+            510,
+            703
+          ],
+          [
+            450,
+            493,
+            720
+          ],
+          [
+            474,
+            476,
+            739
+          ],
+          [
+            504,
+            457,
+            759
+          ],
+          [
+            540,
+            445,
+            773
+          ],
+          [
+            569,
+            441,
+            778
+          ],
+          [
+            595,
+            442,
+            779
+          ],
+          [
+            1031,
+            450,
+            781
+          ],
+          [
+            1067,
+            458,
+            775
+          ],
+          [
+            1085,
+            476,
+            758
+          ],
+          [
+            1095,
+            500,
+            737
+          ],
+          [
+            1101,
+            541,
+            700
+          ]
+        ],
+        "supersampling": 4,
+        "resampling": "LANCZOS",
+        "rgbModification": false
+      },
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-02",
+      "rgbPreserved": true,
+      "sourceCanvasPreserved": true,
+      "alphaAudit": {
+        "visibleThreshold": 16,
+        "detachedForegroundPixels": 0,
+        "transparentPixels": 1173159,
+        "opaquePixels": 258785
+      },
+      "limitations": [],
+      "sourceTouchesCanvasEdge": false,
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/cabesas-atomica-cutout-card.webp",
+          "sha256": "9b261d8a7c7d934a9c76ce211af8cffa8598da755c9cf4bd1865165e263f3517",
+          "bytes": 274430,
+          "width": 956,
+          "height": 956
+        },
+        "map": {
+          "path": "/images/regional/cutouts/cabesas-atomica-cutout-map.webp",
+          "sha256": "956c4bf3f7019503adf23d32eaf6832cf046c1ba2ab676bc6387b5c1583e2dc9",
+          "bytes": 58202,
+          "width": 382,
+          "height": 382
+        }
+      }
+    },
+    {
+      "beerId": "regional-cabesas-sabotaje",
+      "sourceImage": "/images/regional/cabesas-sabotaje.jpg",
+      "sourceSha256": "3d9b5fdd25149259f4bc8c4539f164cf3cdfad12268b717f75d8614b73b611f0",
+      "image": "/images/regional/cutouts/cabesas-sabotaje-cutout.png",
+      "imageSha256": "a6e4c2ec24c13697951d874bdabba4db337b0af0ad3524bceac53039ca1f6bd0",
+      "width": 2560,
+      "height": 2560,
+      "alphaBounds": {
+        "x": 938,
+        "y": 220,
+        "width": 718,
+        "height": 2125
+      },
+      "method": "manually_reviewed_alpha_contour",
+      "parameters": {
+        "referenceSize": [
+          1600,
+          1600
+        ],
+        "rowProfileYLeftRight": [
+          [
+            139,
+            781,
+            826
+          ],
+          [
+            142,
+            753,
+            853
+          ],
+          [
+            150,
+            733,
+            869
+          ],
+          [
+            166,
+            721,
+            881
+          ],
+          [
+            184,
+            716,
+            888
+          ],
+          [
+            201,
+            715,
+            887
+          ],
+          [
+            216,
+            722,
+            881
+          ],
+          [
+            236,
+            731,
+            873
+          ],
+          [
+            267,
+            725,
+            879
+          ],
+          [
+            313,
+            716,
+            890
+          ],
+          [
+            375,
+            704,
+            903
+          ],
+          [
+            447,
+            693,
+            913
+          ],
+          [
+            508,
+            688,
+            922
+          ],
+          [
+            566,
+            679,
+            929
+          ],
+          [
+            593,
+            670,
+            938
+          ],
+          [
+            620,
+            652,
+            956
+          ],
+          [
+            651,
+            631,
+            979
+          ],
+          [
+            683,
+            611,
+            999
+          ],
+          [
+            715,
+            598,
+            1017
+          ],
+          [
+            747,
+            590,
+            1026
+          ],
+          [
+            792,
+            588,
+            1030
+          ],
+          [
+            1331,
+            591,
+            1033
+          ],
+          [
+            1384,
+            598,
+            1028
+          ],
+          [
+            1421,
+            615,
+            1011
+          ],
+          [
+            1444,
+            641,
+            988
+          ],
+          [
+            1456,
+            673,
+            955
+          ],
+          [
+            1464,
+            723,
+            904
+          ]
+        ],
+        "supersampling": 4,
+        "resampling": "LANCZOS",
+        "rgbModification": false
+      },
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-02",
+      "rgbPreserved": true,
+      "sourceCanvasPreserved": true,
+      "alphaAudit": {
+        "visibleThreshold": 16,
+        "detachedForegroundPixels": 0,
+        "transparentPixels": 5378864,
+        "opaquePixels": 1157758
+      },
+      "limitations": [],
+      "sourceTouchesCanvasEdge": false,
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/cabesas-sabotaje-cutout-card.webp",
+          "sha256": "cf93e7a7f2b7965cb6d956f99afcfa34c660b9c209b7f84ffd580c38bfcae854",
+          "bytes": 289456,
+          "width": 966,
+          "height": 966
+        },
+        "map": {
+          "path": "/images/regional/cutouts/cabesas-sabotaje-cutout-map.webp",
+          "sha256": "283f84a0447076a791e56426332ccf97f06d7f5cb74f617214e4aa9e58c12f2d",
+          "bytes": 53508,
+          "width": 386,
+          "height": 386
+        }
+      }
+    },
+    {
+      "beerId": "regional-sierra-andina-inti",
+      "sourceImage": "/images/regional/sierra-andina-inti.webp",
+      "sourceSha256": "9ab8a2673041d670e84ec645025190f64ba0b29e756a3f0d72e60ca352e9de5c",
+      "image": "/images/regional/cutouts/sierra-andina-inti-cutout.png",
+      "imageSha256": "4af7429761b10aeb14cce8289bacc2c6832251f12696c07702b0196f4b7960b2",
+      "width": 1200,
+      "height": 1200,
+      "alphaBounds": {
+        "x": 478,
+        "y": 144,
+        "width": 241,
+        "height": 740
+      },
+      "method": "white_background_roi_scanline_silhouette",
+      "parameters": {
+        "roi": [
+          470,
+          140,
+          730,
+          890
+        ],
+        "backgroundThreshold": 240,
+        "minForegroundPixelsPerRow": 3,
+        "boundaryMedianRows": 3,
+        "supersampling": 4,
+        "scanlineCount": 735,
+        "rgbModification": false
+      },
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-02",
+      "rgbPreserved": true,
+      "sourceCanvasPreserved": true,
+      "alphaAudit": {
+        "visibleThreshold": 16,
+        "detachedForegroundPixels": 0,
+        "transparentPixels": 1299923,
+        "opaquePixels": 133645
+      },
+      "limitations": [],
+      "sourceTouchesCanvasEdge": false,
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/sierra-andina-inti-cutout-card.webp",
+          "sha256": "3885c6d6e5d8157f0a7410fcc602ac730e938a8f47ebccea8f6f27cf2383e2fe",
+          "bytes": 173092,
+          "width": 1200,
+          "height": 1200
+        },
+        "map": {
+          "path": "/images/regional/cutouts/sierra-andina-inti-cutout-map.webp",
+          "sha256": "bd7012a1c8abf52fd66aa7f401bfef6921b4ebc6813d4410e3cc7dfdf7e7798c",
+          "bytes": 48110,
+          "width": 522,
+          "height": 522
+        }
+      }
+    },
+    {
+      "beerId": "regional-sierra-andina-huaracina",
+      "sourceImage": "/images/regional/sierra-andina-huaracina.webp",
+      "sourceSha256": "51f92bdd99b3a0a58cbaff266ff876e9c106c741ee6b05576976bf3a6e357ef6",
+      "image": "/images/regional/cutouts/sierra-andina-huaracina-cutout.png",
+      "imageSha256": "b3c4e121e3b50225b52b8dd4549a9efe5c729ee1948a10df4b821de124a3f1ee",
+      "width": 1200,
+      "height": 1200,
+      "alphaBounds": {
+        "x": 467,
+        "y": 104,
+        "width": 261,
+        "height": 799
+      },
+      "method": "white_background_roi_scanline_silhouette",
+      "parameters": {
+        "roi": [
+          460,
+          95,
+          735,
+          910
+        ],
+        "backgroundThreshold": 240,
+        "minForegroundPixelsPerRow": 3,
+        "boundaryMedianRows": 3,
+        "supersampling": 4,
+        "scanlineCount": 794,
+        "rgbModification": false
+      },
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-02",
+      "rgbPreserved": true,
+      "sourceCanvasPreserved": true,
+      "alphaAudit": {
+        "visibleThreshold": 16,
+        "detachedForegroundPixels": 0,
+        "transparentPixels": 1275860,
+        "opaquePixels": 157240
+      },
+      "limitations": [],
+      "sourceTouchesCanvasEdge": false,
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/sierra-andina-huaracina-cutout-card.webp",
+          "sha256": "6ef3c65c90b36c2925db10cd5047ec14faa4e7521169aa5ad1a3d9cc2777d8dd",
+          "bytes": 181794,
+          "width": 1200,
+          "height": 1200
+        },
+        "map": {
+          "path": "/images/regional/cutouts/sierra-andina-huaracina-cutout-map.webp",
+          "sha256": "df7eae32ba80bce93f21d8e109be1d33b8667b5e930375341e15b70c5feab7d5",
+          "bytes": 45840,
+          "width": 484,
+          "height": 484
+        }
+      }
+    },
+    {
+      "beerId": "regional-maui-light",
+      "sourceImage": "/images/regional/maui-light.jpg",
+      "sourceSha256": "ee2f442228fb70345c1f69346d16f3226630e6a0708285a6163672b7b5605606",
+      "image": "/images/regional/cutouts/maui-light-cutout.png",
+      "imageSha256": "4711b734544f4fd8b98ba60494648d5556ada94b49738b74031821a354c887b1",
+      "width": 980,
+      "height": 1318,
+      "alphaBounds": {
+        "x": 305,
+        "y": 17,
+        "width": 675,
+        "height": 1243
+      },
+      "method": "manually_reviewed_alpha_contour",
+      "parameters": {
+        "referenceSize": [
+          980,
+          1318
+        ],
+        "rowProfileYLeftRight": [
+          [
+            20,
+            378,
+            910
+          ],
+          [
+            21,
+            373,
+            915
+          ],
+          [
+            25,
+            369,
+            918
+          ],
+          [
+            31,
+            367,
+            920
+          ],
+          [
+            44,
+            367,
+            919
+          ],
+          [
+            50,
+            374,
+            913
+          ],
+          [
+            52,
+            371,
+            916
+          ],
+          [
+            72,
+            371,
+            916
+          ],
+          [
+            84,
+            364,
+            922
+          ],
+          [
+            105,
+            351,
+            936
+          ],
+          [
+            131,
+            335,
+            953
+          ],
+          [
+            157,
+            319,
+            969
+          ],
+          [
+            175,
+            311,
+            977
+          ],
+          [
+            189,
+            308,
+            979
+          ],
+          [
+            1186,
+            309,
+            979
+          ],
+          [
+            1196,
+            317,
+            971
+          ],
+          [
+            1206,
+            335,
+            953
+          ],
+          [
+            1220,
+            362,
+            925
+          ],
+          [
+            1233,
+            378,
+            910
+          ],
+          [
+            1247,
+            390,
+            897
+          ],
+          [
+            1254,
+            401,
+            886
+          ],
+          [
+            1257,
+            447,
+            842
+          ]
+        ],
+        "supersampling": 4,
+        "resampling": "LANCZOS",
+        "rgbModification": false
+      },
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-02",
+      "rgbPreserved": true,
+      "sourceCanvasPreserved": true,
+      "alphaAudit": {
+        "visibleThreshold": 16,
+        "detachedForegroundPixels": 0,
+        "transparentPixels": 476583,
+        "opaquePixels": 804165
+      },
+      "limitations": [
+        "Source can reaches right canvas boundary; possibly clipped thin right edge is retained as supplied, never reconstructed. Top, bottom and front label remain visible."
+      ],
+      "sourceTouchesCanvasEdge": true,
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/maui-light-cutout-card.webp",
+          "sha256": "001a1724f9b7cbaf03eb68cfbbbb5ca8e5d87d56287f6dff9034f76b9874aa8a",
+          "bytes": 210674,
+          "width": 633,
+          "height": 852
+        },
+        "map": {
+          "path": "/images/regional/cutouts/maui-light-cutout-map.webp",
+          "sha256": "3441629f9f52852a4666e46a32f8c09fbca7b812277698b799e02f892be395e0",
+          "bytes": 49274,
+          "width": 253,
+          "height": 341
+        }
+      }
+    },
+    {
+      "beerId": "regional-maui-omg",
+      "sourceImage": "/images/regional/maui-omg.jpg",
+      "sourceSha256": "9072b7e41f75f2097072172ca6ba852708a802a5c9fa6a8d94c840fc96d95591",
+      "image": "/images/regional/cutouts/maui-omg-cutout.png",
+      "imageSha256": "5713718597923cea636084fe3c86db4076d19cee5781e5cebba44272e5e33033",
+      "width": 980,
+      "height": 1318,
+      "alphaBounds": {
+        "x": 304,
+        "y": 23,
+        "width": 676,
+        "height": 1239
+      },
+      "method": "manually_reviewed_alpha_contour",
+      "parameters": {
+        "referenceSize": [
+          980,
+          1318
+        ],
+        "rowProfileYLeftRight": [
+          [
+            26,
+            377,
+            909
+          ],
+          [
+            28,
+            371,
+            916
+          ],
+          [
+            33,
+            368,
+            918
+          ],
+          [
+            49,
+            368,
+            918
+          ],
+          [
+            55,
+            374,
+            913
+          ],
+          [
+            58,
+            371,
+            916
+          ],
+          [
+            78,
+            371,
+            916
+          ],
+          [
+            92,
+            362,
+            925
+          ],
+          [
+            116,
+            347,
+            941
+          ],
+          [
+            141,
+            331,
+            957
+          ],
+          [
+            165,
+            316,
+            972
+          ],
+          [
+            181,
+            309,
+            978
+          ],
+          [
+            192,
+            307,
+            979
+          ],
+          [
+            1188,
+            309,
+            978
+          ],
+          [
+            1198,
+            318,
+            969
+          ],
+          [
+            1210,
+            339,
+            951
+          ],
+          [
+            1225,
+            369,
+            921
+          ],
+          [
+            1240,
+            384,
+            905
+          ],
+          [
+            1253,
+            399,
+            890
+          ],
+          [
+            1259,
+            447,
+            842
+          ]
+        ],
+        "supersampling": 4,
+        "resampling": "LANCZOS",
+        "rgbModification": false
+      },
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-02",
+      "rgbPreserved": true,
+      "sourceCanvasPreserved": true,
+      "alphaAudit": {
+        "visibleThreshold": 16,
+        "detachedForegroundPixels": 0,
+        "transparentPixels": 479381,
+        "opaquePixels": 801175
+      },
+      "limitations": [
+        "Source can reaches right canvas boundary; possibly clipped thin right edge is retained as supplied, never reconstructed. Top, bottom and front label remain visible."
+      ],
+      "sourceTouchesCanvasEdge": true,
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/maui-omg-cutout-card.webp",
+          "sha256": "64d2e9eb0cbfbfa7af35d5ee602827c4fff16a8c687990e27b113d7a2707d00f",
+          "bytes": 224842,
+          "width": 635,
+          "height": 854
+        },
+        "map": {
+          "path": "/images/regional/cutouts/maui-omg-cutout-map.webp",
+          "sha256": "270d99e72acf959cace54ee243383c10d1d1a0330c6fdc6747c1e63f1b9bf8b1",
+          "bytes": 51224,
+          "width": 254,
+          "height": 342
+        }
+      }
+    },
+    {
+      "beerId": "regional-maui-rainbows",
+      "sourceImage": "/images/regional/maui-rainbows.png",
+      "sourceSha256": "9d661bb9a86a1df8faa1854ece351442689195eb1a5bf6407d040d2653e88128",
+      "image": "/images/regional/cutouts/maui-rainbows-cutout.png",
+      "imageSha256": "60b7eec8968a91ed0ecbaef73f8d1c2b49de28eebc67f5c33cbb7a22df052bcc",
+      "width": 235,
+      "height": 316,
+      "alphaBounds": {
+        "x": 68,
+        "y": 4,
+        "width": 167,
+        "height": 300
+      },
+      "method": "manually_reviewed_alpha_contour",
+      "parameters": {
+        "referenceSize": [
+          235,
+          316
+        ],
+        "rowProfileYLeftRight": [
+          [
+            4,
+            90,
+            217
+          ],
+          [
+            5,
+            88,
+            220
+          ],
+          [
+            10,
+            87,
+            220
+          ],
+          [
+            13,
+            89,
+            219
+          ],
+          [
+            16,
+            86,
+            222
+          ],
+          [
+            23,
+            82,
+            227
+          ],
+          [
+            32,
+            76,
+            232
+          ],
+          [
+            41,
+            72,
+            234
+          ],
+          [
+            47,
+            71,
+            234
+          ],
+          [
+            285,
+            72,
+            234
+          ],
+          [
+            290,
+            77,
+            230
+          ],
+          [
+            294,
+            84,
+            225
+          ],
+          [
+            299,
+            90,
+            218
+          ],
+          [
+            303,
+            97,
+            212
+          ],
+          [
+            305,
+            113,
+            196
+          ]
+        ],
+        "supersampling": 4,
+        "resampling": "LANCZOS",
+        "rgbModification": false
+      },
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-02",
+      "rgbPreserved": true,
+      "sourceCanvasPreserved": true,
+      "alphaAudit": {
+        "visibleThreshold": 16,
+        "detachedForegroundPixels": 0,
+        "transparentPixels": 26061,
+        "opaquePixels": 46269
+      },
+      "limitations": [
+        "Source can reaches right canvas boundary; possibly clipped thin right edge is retained as supplied, never reconstructed. Top, bottom and front label remain visible."
+      ],
+      "sourceTouchesCanvasEdge": true,
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/maui-rainbows-cutout-card.webp",
+          "sha256": "92c6d6a61c74c7d2f93e304861e2a26a70a509dd09746338e00e270daf35e02e",
+          "bytes": 34756,
+          "width": 235,
+          "height": 316
+        },
+        "map": {
+          "path": "/images/regional/cutouts/maui-rainbows-cutout-map.webp",
+          "sha256": "92c6d6a61c74c7d2f93e304861e2a26a70a509dd09746338e00e270daf35e02e",
+          "bytes": 34756,
+          "width": 235,
+          "height": 316
+        }
+      }
+    },
+    {
+      "beerId": "regional-sakara-gold",
+      "sourceImage": "/images/regional/sakara-gold.jpg",
+      "sourceSha256": "b9d515667797ead3ce64aa567db4dcc82d0f79d27baa3aa825b0ab36dc6fd647",
+      "image": "/images/regional/cutouts/sakara-gold-cutout.png",
+      "imageSha256": "200fc06186734b9e4ae92099285b1f9ef73ca44f8de07d90ac1a347a10f48ac0",
+      "width": 640,
+      "height": 410,
+      "alphaBounds": {
+        "x": 351,
+        "y": 5,
+        "width": 103,
+        "height": 398
+      },
+      "method": "manually_reviewed_alpha_contour",
+      "parameters": {
+        "referenceSize": [
+          640,
+          410
+        ],
+        "rowProfileYLeftRight": [
+          [
+            8,
+            396,
+            412
+          ],
+          [
+            9,
+            390,
+            418
+          ],
+          [
+            12,
+            384,
+            422
+          ],
+          [
+            18,
+            383,
+            423
+          ],
+          [
+            24,
+            386,
+            420
+          ],
+          [
+            29,
+            387,
+            418
+          ],
+          [
+            43,
+            384,
+            420
+          ],
+          [
+            63,
+            380,
+            422
+          ],
+          [
+            89,
+            377,
+            426
+          ],
+          [
+            114,
+            373,
+            430
+          ],
+          [
+            137,
+            369,
+            435
+          ],
+          [
+            156,
+            362,
+            443
+          ],
+          [
+            179,
+            356,
+            449
+          ],
+          [
+            198,
+            354,
+            451
+          ],
+          [
+            369,
+            354,
+            451
+          ],
+          [
+            387,
+            355,
+            450
+          ],
+          [
+            396,
+            362,
+            446
+          ],
+          [
+            400,
+            376,
+            433
+          ]
+        ],
+        "supersampling": 4,
+        "resampling": "LANCZOS",
+        "rgbModification": false
+      },
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-02",
+      "rgbPreserved": true,
+      "sourceCanvasPreserved": true,
+      "alphaAudit": {
+        "visibleThreshold": 16,
+        "detachedForegroundPixels": 0,
+        "transparentPixels": 230153,
+        "opaquePixels": 29128
+      },
+      "limitations": [],
+      "sourceTouchesCanvasEdge": false,
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/sakara-gold-cutout-card.webp",
+          "sha256": "a3700519e08f9eba04e976b09f65918e3a654ae29598683fc42358cea6cb6b30",
+          "bytes": 65566,
+          "width": 640,
+          "height": 410
+        },
+        "map": {
+          "path": "/images/regional/cutouts/sakara-gold-cutout-map.webp",
+          "sha256": "2b9f73dcac27761bccce926f857fa1960e40b7fb222563389fd619b76600fab4",
+          "bytes": 44158,
+          "width": 521,
+          "height": 334
+        }
+      }
+    },
+    {
+      "beerId": "regional-japan-abashiri-premium",
+      "sourceImage": "/images/regional/japan-abashiri-premium.jpg",
+      "sourceSha256": "1b133bcf6b9d9d129f1e6f638803ec7b95fc9e5664f0fa52efaff2a544573443",
+      "image": "/images/regional/cutouts/japan-abashiri-premium-cutout.png",
+      "imageSha256": "32535247d9ce4597285f72cbe81c631aa3844efd833e04c86d331519feb68397",
+      "width": 250,
+      "height": 340,
+      "alphaBounds": {
+        "x": 39,
+        "y": 51,
+        "width": 74,
+        "height": 245
+      },
+      "method": "manual_product_contour_alpha_mask",
+      "parameters": {
+        "contour": [
+          [
+            61,
+            54
+          ],
+          [
+            62,
+            52
+          ],
+          [
+            68,
+            51.5
+          ],
+          [
+            85,
+            51.3
+          ],
+          [
+            91,
+            52.8
+          ],
+          [
+            92.5,
+            56
+          ],
+          [
+            92.5,
+            65
+          ],
+          [
+            91,
+            68
+          ],
+          [
+            90,
+            70
+          ],
+          [
+            90.5,
+            77
+          ],
+          [
+            92,
+            87
+          ],
+          [
+            95,
+            108
+          ],
+          [
+            97,
+            126
+          ],
+          [
+            97,
+            140
+          ],
+          [
+            98.5,
+            145
+          ],
+          [
+            106,
+            153
+          ],
+          [
+            110,
+            160
+          ],
+          [
+            112,
+            168
+          ],
+          [
+            112.5,
+            184
+          ],
+          [
+            112.2,
+            210
+          ],
+          [
+            112.5,
+            252
+          ],
+          [
+            112.5,
+            283
+          ],
+          [
+            111,
+            289
+          ],
+          [
+            106,
+            292
+          ],
+          [
+            96,
+            294
+          ],
+          [
+            81,
+            295
+          ],
+          [
+            64,
+            294.5
+          ],
+          [
+            50,
+            293
+          ],
+          [
+            42,
+            291
+          ],
+          [
+            40,
+            287
+          ],
+          [
+            39.6,
+            268
+          ],
+          [
+            39.5,
+            239
+          ],
+          [
+            39.8,
+            209
+          ],
+          [
+            39.8,
+            183
+          ],
+          [
+            40,
+            169
+          ],
+          [
+            42,
+            161
+          ],
+          [
+            46,
+            155
+          ],
+          [
+            51,
+            149
+          ],
+          [
+            55,
+            145
+          ],
+          [
+            56,
+            139
+          ],
+          [
+            56,
+            122
+          ],
+          [
+            57,
+            106
+          ],
+          [
+            59,
+            90
+          ],
+          [
+            61,
+            79
+          ],
+          [
+            61.8,
+            69
+          ],
+          [
+            60.5,
+            66
+          ],
+          [
+            60.3,
+            61
+          ],
+          [
+            61,
+            58
+          ]
+        ],
+        "coordinateSpace": "original_canvas_pixels",
+        "antialiasSupersample": 8,
+        "downsample": "Pillow BOX coverage",
+        "alphaCombination": "original_alpha * coverage_mask / 255",
+        "rgbProcessing": "none; decoded source RGB copied at every original-canvas pixel",
+        "fullCanvasRetained": true,
+        "feathering": "none",
+        "backgroundAndGlassRemoved": true
+      },
+      "validation": {
+        "rgbByteValuesEqualDecodedSource": true,
+        "alphaNeverIncreased": true,
+        "nonzeroAlphaPixels": 14179,
+        "nonRectangularAlpha": true
+      },
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-02",
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/japan-abashiri-premium-cutout-card.webp",
+          "sha256": "1c603d230dee1a05c93c76285b388dddfd9c25bb42170a1015ab7d0c785f77fa",
+          "bytes": 25440,
+          "width": 250,
+          "height": 340
+        },
+        "map": {
+          "path": "/images/regional/cutouts/japan-abashiri-premium-cutout-map.webp",
+          "sha256": "1c603d230dee1a05c93c76285b388dddfd9c25bb42170a1015ab7d0c785f77fa",
+          "bytes": 25440,
+          "width": 250,
+          "height": 340
+        }
+      }
+    },
+    {
+      "beerId": "regional-japan-abashiri-stout",
+      "sourceImage": "/images/regional/japan-abashiri-stout.jpg",
+      "sourceSha256": "aa7ac2b3edf4fb7adcbd9fdbae6bedfb8888145e81b1582927bf7919747c3fb8",
+      "image": "/images/regional/cutouts/japan-abashiri-stout-cutout.png",
+      "imageSha256": "f5195f6d08a80e7277509aaba7b31b4b35c9ea74b17964e72d58b3df2255e8f3",
+      "width": 250,
+      "height": 340,
+      "alphaBounds": {
+        "x": 131,
+        "y": 46,
+        "width": 83,
+        "height": 270
+      },
+      "method": "manual_product_contour_alpha_mask",
+      "parameters": {
+        "contour": [
+          [
+            157,
+            51
+          ],
+          [
+            158.5,
+            48
+          ],
+          [
+            164,
+            47
+          ],
+          [
+            178,
+            46.5
+          ],
+          [
+            188,
+            47
+          ],
+          [
+            191,
+            51
+          ],
+          [
+            191,
+            59
+          ],
+          [
+            190,
+            62
+          ],
+          [
+            189,
+            64
+          ],
+          [
+            190,
+            75
+          ],
+          [
+            192,
+            91
+          ],
+          [
+            195,
+            112
+          ],
+          [
+            196.2,
+            137
+          ],
+          [
+            197,
+            147
+          ],
+          [
+            200,
+            151
+          ],
+          [
+            204,
+            156
+          ],
+          [
+            209,
+            163
+          ],
+          [
+            211,
+            172
+          ],
+          [
+            212.5,
+            187
+          ],
+          [
+            213.5,
+            216
+          ],
+          [
+            213.5,
+            270
+          ],
+          [
+            213,
+            294
+          ],
+          [
+            211,
+            305
+          ],
+          [
+            207,
+            310
+          ],
+          [
+            199,
+            313
+          ],
+          [
+            187,
+            315
+          ],
+          [
+            176,
+            315.8
+          ],
+          [
+            159,
+            315
+          ],
+          [
+            146,
+            312
+          ],
+          [
+            138,
+            309
+          ],
+          [
+            135,
+            305
+          ],
+          [
+            133.5,
+            292
+          ],
+          [
+            132.4,
+            259
+          ],
+          [
+            131.8,
+            212
+          ],
+          [
+            132,
+            183
+          ],
+          [
+            133.8,
+            170
+          ],
+          [
+            138,
+            160
+          ],
+          [
+            145,
+            152
+          ],
+          [
+            149.5,
+            147
+          ],
+          [
+            150.5,
+            139
+          ],
+          [
+            150.5,
+            114
+          ],
+          [
+            152,
+            96
+          ],
+          [
+            155,
+            78
+          ],
+          [
+            157,
+            65
+          ],
+          [
+            155.8,
+            62
+          ],
+          [
+            155.8,
+            55
+          ]
+        ],
+        "coordinateSpace": "original_canvas_pixels",
+        "antialiasSupersample": 8,
+        "downsample": "Pillow BOX coverage",
+        "alphaCombination": "original_alpha * coverage_mask / 255",
+        "rgbProcessing": "none; decoded source RGB copied at every original-canvas pixel",
+        "fullCanvasRetained": true,
+        "feathering": "none",
+        "backgroundAndGlassRemoved": true
+      },
+      "validation": {
+        "rgbByteValuesEqualDecodedSource": true,
+        "alphaNeverIncreased": true,
+        "nonzeroAlphaPixels": 17349,
+        "nonRectangularAlpha": true
+      },
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-02",
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/japan-abashiri-stout-cutout-card.webp",
+          "sha256": "c64ab8718fab19ec731899c3f299435d26f234422c1a19d001ddb0ad695305ae",
+          "bytes": 31048,
+          "width": 250,
+          "height": 340
+        },
+        "map": {
+          "path": "/images/regional/cutouts/japan-abashiri-stout-cutout-map.webp",
+          "sha256": "c64ab8718fab19ec731899c3f299435d26f234422c1a19d001ddb0ad695305ae",
+          "bytes": 31048,
+          "width": 250,
+          "height": 340
+        }
+      }
+    },
+    {
+      "beerId": "regional-japan-abashiri-golden",
+      "sourceImage": "/images/regional/japan-abashiri-golden.jpg",
+      "sourceSha256": "88487a80361a8789db757dac48606c4f273721ca6bd33c8091a1033184b9b67f",
+      "image": "/images/regional/cutouts/japan-abashiri-golden-cutout.png",
+      "imageSha256": "72626302e5efd40e83c3e880e780db99a0900e20df5c5c8fcf768af9cef26285",
+      "width": 250,
+      "height": 340,
+      "alphaBounds": {
+        "x": 137,
+        "y": 130,
+        "width": 87,
+        "height": 165
+      },
+      "method": "manual_product_contour_alpha_mask",
+      "parameters": {
+        "contour": [
+          [
+            143,
+            131
+          ],
+          [
+            149,
+            130.5
+          ],
+          [
+            210,
+            130.5
+          ],
+          [
+            219,
+            131
+          ],
+          [
+            219,
+            134.5
+          ],
+          [
+            218,
+            135.5
+          ],
+          [
+            217.8,
+            141
+          ],
+          [
+            220,
+            147
+          ],
+          [
+            222.5,
+            152
+          ],
+          [
+            223,
+            161
+          ],
+          [
+            223,
+            276
+          ],
+          [
+            221.7,
+            282
+          ],
+          [
+            219,
+            286
+          ],
+          [
+            215,
+            289
+          ],
+          [
+            207,
+            292
+          ],
+          [
+            195,
+            294
+          ],
+          [
+            175,
+            294.7
+          ],
+          [
+            159,
+            293.5
+          ],
+          [
+            148,
+            290
+          ],
+          [
+            141,
+            286
+          ],
+          [
+            138.5,
+            282
+          ],
+          [
+            138,
+            273
+          ],
+          [
+            137.5,
+            240
+          ],
+          [
+            137,
+            206
+          ],
+          [
+            137,
+            172
+          ],
+          [
+            137,
+            152
+          ],
+          [
+            139,
+            146
+          ],
+          [
+            141.5,
+            140
+          ],
+          [
+            142,
+            135
+          ],
+          [
+            141,
+            134
+          ],
+          [
+            141,
+            132.5
+          ]
+        ],
+        "coordinateSpace": "original_canvas_pixels",
+        "antialiasSupersample": 8,
+        "downsample": "Pillow BOX coverage",
+        "alphaCombination": "original_alpha * coverage_mask / 255",
+        "rgbProcessing": "none; decoded source RGB copied at every original-canvas pixel",
+        "fullCanvasRetained": true,
+        "feathering": "none",
+        "backgroundAndGlassRemoved": true
+      },
+      "validation": {
+        "rgbByteValuesEqualDecodedSource": true,
+        "alphaNeverIncreased": true,
+        "nonzeroAlphaPixels": 13923,
+        "nonRectangularAlpha": true
+      },
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-02",
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/japan-abashiri-golden-cutout-card.webp",
+          "sha256": "25787d73563fb0244b9262a6afeede220890782a1071cc3419aacfc7e8a3687f",
+          "bytes": 26302,
+          "width": 250,
+          "height": 340
+        },
+        "map": {
+          "path": "/images/regional/cutouts/japan-abashiri-golden-cutout-map.webp",
+          "sha256": "25787d73563fb0244b9262a6afeede220890782a1071cc3419aacfc7e8a3687f",
+          "bytes": 26302,
+          "width": 250,
+          "height": 340
+        }
+      }
+    },
+    {
+      "beerId": "regional-japan-abashiri-artisan",
+      "sourceImage": "/images/regional/japan-abashiri-artisan.jpg",
+      "sourceSha256": "c39a1ba2c43d430c680c36f13004cc824308d063fbd86f84a20f45aae304e84c",
+      "image": "/images/regional/cutouts/japan-abashiri-artisan-cutout.png",
+      "imageSha256": "82a9c4aa7e8913b7e1e5b4e00857e94f806df403881d677acaa7fa8e5180b829",
+      "width": 250,
+      "height": 340,
+      "alphaBounds": {
+        "x": 132,
+        "y": 123,
+        "width": 98,
+        "height": 185
+      },
+      "method": "manual_product_contour_alpha_mask",
+      "parameters": {
+        "contour": [
+          [
+            139,
+            126
+          ],
+          [
+            145,
+            124.5
+          ],
+          [
+            178,
+            123.6
+          ],
+          [
+            211,
+            123.8
+          ],
+          [
+            221,
+            124.7
+          ],
+          [
+            224,
+            126.5
+          ],
+          [
+            224,
+            129
+          ],
+          [
+            222.5,
+            130
+          ],
+          [
+            222.5,
+            134
+          ],
+          [
+            224,
+            140
+          ],
+          [
+            228,
+            147
+          ],
+          [
+            229,
+            153
+          ],
+          [
+            229,
+            291
+          ],
+          [
+            227.5,
+            295
+          ],
+          [
+            223,
+            299
+          ],
+          [
+            218,
+            302
+          ],
+          [
+            211,
+            305
+          ],
+          [
+            198,
+            307.5
+          ],
+          [
+            177,
+            307.7
+          ],
+          [
+            159,
+            306.5
+          ],
+          [
+            148,
+            304
+          ],
+          [
+            141,
+            300.7
+          ],
+          [
+            136,
+            297
+          ],
+          [
+            134.5,
+            292
+          ],
+          [
+            134,
+            265
+          ],
+          [
+            133.5,
+            227
+          ],
+          [
+            133.3,
+            195
+          ],
+          [
+            132.5,
+            158
+          ],
+          [
+            133,
+            148
+          ],
+          [
+            136,
+            141
+          ],
+          [
+            139,
+            135
+          ],
+          [
+            139.5,
+            130
+          ],
+          [
+            138.2,
+            129
+          ],
+          [
+            138.2,
+            127
+          ]
+        ],
+        "coordinateSpace": "original_canvas_pixels",
+        "antialiasSupersample": 8,
+        "downsample": "Pillow BOX coverage",
+        "alphaCombination": "original_alpha * coverage_mask / 255",
+        "rgbProcessing": "none; decoded source RGB copied at every original-canvas pixel",
+        "fullCanvasRetained": true,
+        "feathering": "none",
+        "backgroundAndGlassRemoved": true
+      },
+      "validation": {
+        "rgbByteValuesEqualDecodedSource": true,
+        "alphaNeverIncreased": true,
+        "nonzeroAlphaPixels": 17369,
+        "nonRectangularAlpha": true
+      },
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-02",
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/japan-abashiri-artisan-cutout-card.webp",
+          "sha256": "73d63f2fca6ad43cfac7b673440fa28e05c8231ea88efb0fe311c737de0a354d",
+          "bytes": 28766,
+          "width": 250,
+          "height": 340
+        },
+        "map": {
+          "path": "/images/regional/cutouts/japan-abashiri-artisan-cutout-map.webp",
+          "sha256": "73d63f2fca6ad43cfac7b673440fa28e05c8231ea88efb0fe311c737de0a354d",
+          "bytes": 28766,
+          "width": 250,
+          "height": 340
+        }
+      }
+    },
+    {
+      "beerId": "regional-japan-baeren-classic",
+      "sourceImage": "/images/regional/japan-baeren-classic.jpg",
+      "sourceSha256": "f8ac48ff151a6e3cf9b673fcbfa582dd80c48a056f1c968de9604769f49e9071",
+      "image": "/images/regional/cutouts/japan-baeren-classic-cutout.png",
+      "imageSha256": "e28c62b09d8cef43baaf8403f0fb96bf01410554ff7d5ca3676562fd5c1a705e",
+      "width": 1000,
+      "height": 1000,
+      "alphaBounds": {
+        "x": 223,
+        "y": 12,
+        "width": 368,
+        "height": 965
+      },
+      "method": "manual_product_contour_alpha_mask",
+      "parameters": {
+        "contour": [
+          [
+            345,
+            14
+          ],
+          [
+            380,
+            12.5
+          ],
+          [
+            427,
+            13
+          ],
+          [
+            454,
+            16
+          ],
+          [
+            468,
+            22
+          ],
+          [
+            473,
+            33
+          ],
+          [
+            474,
+            48
+          ],
+          [
+            471,
+            52
+          ],
+          [
+            471,
+            59
+          ],
+          [
+            474,
+            74
+          ],
+          [
+            478,
+            91
+          ],
+          [
+            477,
+            105
+          ],
+          [
+            473,
+            115
+          ],
+          [
+            472,
+            129
+          ],
+          [
+            473,
+            156
+          ],
+          [
+            475,
+            183
+          ],
+          [
+            480,
+            202
+          ],
+          [
+            490,
+            223
+          ],
+          [
+            503,
+            248
+          ],
+          [
+            516,
+            273
+          ],
+          [
+            522,
+            297
+          ],
+          [
+            525,
+            325
+          ],
+          [
+            525,
+            345
+          ],
+          [
+            529,
+            365
+          ],
+          [
+            538,
+            383
+          ],
+          [
+            551,
+            399
+          ],
+          [
+            564,
+            417
+          ],
+          [
+            575,
+            438
+          ],
+          [
+            583,
+            460
+          ],
+          [
+            587,
+            482
+          ],
+          [
+            588,
+            513
+          ],
+          [
+            588,
+            546
+          ],
+          [
+            589,
+            599
+          ],
+          [
+            590,
+            710
+          ],
+          [
+            590,
+            830
+          ],
+          [
+            588,
+            896
+          ],
+          [
+            584,
+            922
+          ],
+          [
+            574,
+            940
+          ],
+          [
+            560,
+            952
+          ],
+          [
+            544,
+            960
+          ],
+          [
+            520,
+            967
+          ],
+          [
+            481,
+            973
+          ],
+          [
+            434,
+            976
+          ],
+          [
+            377,
+            976
+          ],
+          [
+            338,
+            974
+          ],
+          [
+            303,
+            970
+          ],
+          [
+            277,
+            964
+          ],
+          [
+            257,
+            955
+          ],
+          [
+            242,
+            943
+          ],
+          [
+            232,
+            927
+          ],
+          [
+            226,
+            907
+          ],
+          [
+            224,
+            886
+          ],
+          [
+            224,
+            791
+          ],
+          [
+            224,
+            641
+          ],
+          [
+            224,
+            529
+          ],
+          [
+            223,
+            491
+          ],
+          [
+            225,
+            467
+          ],
+          [
+            233,
+            443
+          ],
+          [
+            244,
+            423
+          ],
+          [
+            260,
+            401
+          ],
+          [
+            272,
+            382
+          ],
+          [
+            280,
+            365
+          ],
+          [
+            283,
+            345
+          ],
+          [
+            283,
+            321
+          ],
+          [
+            284,
+            297
+          ],
+          [
+            290,
+            273
+          ],
+          [
+            300,
+            246
+          ],
+          [
+            310,
+            222
+          ],
+          [
+            321,
+            202
+          ],
+          [
+            327,
+            181
+          ],
+          [
+            331,
+            154
+          ],
+          [
+            332,
+            129
+          ],
+          [
+            332,
+            116
+          ],
+          [
+            327,
+            106
+          ],
+          [
+            325,
+            92
+          ],
+          [
+            328,
+            76
+          ],
+          [
+            334,
+            59
+          ],
+          [
+            334,
+            53
+          ],
+          [
+            327,
+            51
+          ],
+          [
+            327,
+            43
+          ],
+          [
+            330,
+            30
+          ],
+          [
+            334,
+            20
+          ]
+        ],
+        "coordinateSpace": "original_canvas_pixels",
+        "antialiasSupersample": 8,
+        "downsample": "Pillow BOX coverage",
+        "alphaCombination": "original_alpha * coverage_mask / 255",
+        "rgbProcessing": "none; decoded source RGB copied at every original-canvas pixel",
+        "fullCanvasRetained": true,
+        "feathering": "none",
+        "backgroundAndGlassRemoved": true
+      },
+      "validation": {
+        "rgbByteValuesEqualDecodedSource": true,
+        "alphaNeverIncreased": true,
+        "nonzeroAlphaPixels": 277368,
+        "nonRectangularAlpha": true
+      },
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-02",
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/japan-baeren-classic-cutout-card.webp",
+          "sha256": "f16c00d441b3718f64eb9854fa9932284d6105fcf7c4f1310d3d77233ff89254",
+          "bytes": 216962,
+          "width": 830,
+          "height": 830
+        },
+        "map": {
+          "path": "/images/regional/cutouts/japan-baeren-classic-cutout-map.webp",
+          "sha256": "ee6abe8aee56a37fc51a43db4c4d62cb6cca53c5876a0f1452557c3041f93e51",
+          "bytes": 47004,
+          "width": 332,
+          "height": 332
+        }
+      }
+    },
+    {
+      "beerId": "regional-japan-baeren-schwarz",
+      "sourceImage": "/images/regional/japan-baeren-schwarz.jpg",
+      "sourceSha256": "d4b3e6b0fa366e3eaed08fc85892eaf459ee647819ee6a065fab0f362ba56c09",
+      "image": "/images/regional/cutouts/japan-baeren-schwarz-cutout.png",
+      "imageSha256": "e741244f29f233ac47022825d3bf6fad5f78af9c6730df607ab2909777da3338",
+      "width": 1000,
+      "height": 1000,
+      "alphaBounds": {
+        "x": 223,
+        "y": 16,
+        "width": 367,
+        "height": 959
+      },
+      "method": "manual_product_contour_alpha_mask",
+      "parameters": {
+        "contour": [
+          [
+            347,
+            18
+          ],
+          [
+            382,
+            16
+          ],
+          [
+            422,
+            17
+          ],
+          [
+            455,
+            20
+          ],
+          [
+            466,
+            26
+          ],
+          [
+            472,
+            38
+          ],
+          [
+            473,
+            54
+          ],
+          [
+            470,
+            58
+          ],
+          [
+            471,
+            67
+          ],
+          [
+            475,
+            83
+          ],
+          [
+            477,
+            99
+          ],
+          [
+            475,
+            112
+          ],
+          [
+            472,
+            122
+          ],
+          [
+            472,
+            146
+          ],
+          [
+            473,
+            174
+          ],
+          [
+            478,
+            196
+          ],
+          [
+            486,
+            216
+          ],
+          [
+            501,
+            242
+          ],
+          [
+            513,
+            268
+          ],
+          [
+            521,
+            293
+          ],
+          [
+            524,
+            322
+          ],
+          [
+            525,
+            348
+          ],
+          [
+            530,
+            368
+          ],
+          [
+            539,
+            385
+          ],
+          [
+            552,
+            401
+          ],
+          [
+            566,
+            420
+          ],
+          [
+            576,
+            442
+          ],
+          [
+            583,
+            465
+          ],
+          [
+            586,
+            488
+          ],
+          [
+            587,
+            524
+          ],
+          [
+            588,
+            597
+          ],
+          [
+            589,
+            713
+          ],
+          [
+            589,
+            831
+          ],
+          [
+            587,
+            894
+          ],
+          [
+            583,
+            920
+          ],
+          [
+            574,
+            939
+          ],
+          [
+            560,
+            951
+          ],
+          [
+            540,
+            960
+          ],
+          [
+            513,
+            966
+          ],
+          [
+            477,
+            971
+          ],
+          [
+            432,
+            974
+          ],
+          [
+            383,
+            974
+          ],
+          [
+            339,
+            972
+          ],
+          [
+            305,
+            969
+          ],
+          [
+            280,
+            963
+          ],
+          [
+            259,
+            955
+          ],
+          [
+            242,
+            943
+          ],
+          [
+            232,
+            927
+          ],
+          [
+            226,
+            906
+          ],
+          [
+            224,
+            883
+          ],
+          [
+            224,
+            787
+          ],
+          [
+            224,
+            638
+          ],
+          [
+            224,
+            530
+          ],
+          [
+            223,
+            490
+          ],
+          [
+            225,
+            467
+          ],
+          [
+            232,
+            445
+          ],
+          [
+            242,
+            425
+          ],
+          [
+            257,
+            403
+          ],
+          [
+            271,
+            383
+          ],
+          [
+            280,
+            363
+          ],
+          [
+            283,
+            342
+          ],
+          [
+            283,
+            318
+          ],
+          [
+            285,
+            294
+          ],
+          [
+            291,
+            270
+          ],
+          [
+            301,
+            244
+          ],
+          [
+            311,
+            220
+          ],
+          [
+            321,
+            200
+          ],
+          [
+            327,
+            179
+          ],
+          [
+            331,
+            152
+          ],
+          [
+            332,
+            129
+          ],
+          [
+            332,
+            119
+          ],
+          [
+            328,
+            110
+          ],
+          [
+            325,
+            96
+          ],
+          [
+            327,
+            81
+          ],
+          [
+            332,
+            64
+          ],
+          [
+            334,
+            59
+          ],
+          [
+            327,
+            57
+          ],
+          [
+            327,
+            45
+          ],
+          [
+            331,
+            30
+          ],
+          [
+            337,
+            23
+          ]
+        ],
+        "coordinateSpace": "original_canvas_pixels",
+        "antialiasSupersample": 8,
+        "downsample": "Pillow BOX coverage",
+        "alphaCombination": "original_alpha * coverage_mask / 255",
+        "rgbProcessing": "none; decoded source RGB copied at every original-canvas pixel",
+        "fullCanvasRetained": true,
+        "feathering": "none",
+        "backgroundAndGlassRemoved": true
+      },
+      "validation": {
+        "rgbByteValuesEqualDecodedSource": true,
+        "alphaNeverIncreased": true,
+        "nonzeroAlphaPixels": 275568,
+        "nonRectangularAlpha": true
+      },
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-02",
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/japan-baeren-schwarz-cutout-card.webp",
+          "sha256": "260fc1f54e20bad03dd86f8e1d220754de99ba4feb45e948c86d88a545ce0ff5",
+          "bytes": 219732,
+          "width": 835,
+          "height": 835
+        },
+        "map": {
+          "path": "/images/regional/cutouts/japan-baeren-schwarz-cutout-map.webp",
+          "sha256": "8cb79d6535ee27692459e962ccf54552d3a7d51a4ebd5597085714b379357c51",
+          "bytes": 46040,
+          "width": 334,
+          "height": 334
+        }
+      }
+    },
+    {
+      "beerId": "regional-japan-baeren-alt",
+      "sourceImage": "/images/regional/japan-baeren-alt.jpg",
+      "sourceSha256": "2c000c565de61b551cea180b70f8c2e3b4a5835fe763e98c65f844f3cec4de18",
+      "image": "/images/regional/cutouts/japan-baeren-alt-cutout.png",
+      "imageSha256": "739d267a554a4c355e7659f953f145bee4b889e7ab79192d5d13e26bdcb362d6",
+      "width": 1000,
+      "height": 1000,
+      "alphaBounds": {
+        "x": 224,
+        "y": 25,
+        "width": 367,
+        "height": 959
+      },
+      "method": "manual_product_contour_alpha_mask",
+      "parameters": {
+        "contour": [
+          [
+            349,
+            27
+          ],
+          [
+            382,
+            25
+          ],
+          [
+            421,
+            26
+          ],
+          [
+            454,
+            29
+          ],
+          [
+            467,
+            34
+          ],
+          [
+            473,
+            45
+          ],
+          [
+            474,
+            61
+          ],
+          [
+            470,
+            66
+          ],
+          [
+            470,
+            74
+          ],
+          [
+            474,
+            91
+          ],
+          [
+            477,
+            105
+          ],
+          [
+            477,
+            117
+          ],
+          [
+            473,
+            129
+          ],
+          [
+            473,
+            151
+          ],
+          [
+            474,
+            177
+          ],
+          [
+            479,
+            199
+          ],
+          [
+            490,
+            224
+          ],
+          [
+            503,
+            250
+          ],
+          [
+            514,
+            276
+          ],
+          [
+            521,
+            301
+          ],
+          [
+            524,
+            330
+          ],
+          [
+            525,
+            351
+          ],
+          [
+            530,
+            373
+          ],
+          [
+            540,
+            391
+          ],
+          [
+            553,
+            408
+          ],
+          [
+            567,
+            428
+          ],
+          [
+            577,
+            450
+          ],
+          [
+            583,
+            472
+          ],
+          [
+            587,
+            496
+          ],
+          [
+            588,
+            532
+          ],
+          [
+            589,
+            606
+          ],
+          [
+            590,
+            719
+          ],
+          [
+            590,
+            838
+          ],
+          [
+            588,
+            901
+          ],
+          [
+            583,
+            930
+          ],
+          [
+            574,
+            948
+          ],
+          [
+            559,
+            960
+          ],
+          [
+            539,
+            968
+          ],
+          [
+            512,
+            975
+          ],
+          [
+            476,
+            980
+          ],
+          [
+            432,
+            983
+          ],
+          [
+            382,
+            983
+          ],
+          [
+            340,
+            981
+          ],
+          [
+            306,
+            977
+          ],
+          [
+            279,
+            971
+          ],
+          [
+            257,
+            962
+          ],
+          [
+            241,
+            950
+          ],
+          [
+            232,
+            934
+          ],
+          [
+            227,
+            915
+          ],
+          [
+            225,
+            889
+          ],
+          [
+            225,
+            795
+          ],
+          [
+            224,
+            647
+          ],
+          [
+            224,
+            543
+          ],
+          [
+            224,
+            501
+          ],
+          [
+            226,
+            477
+          ],
+          [
+            233,
+            453
+          ],
+          [
+            244,
+            432
+          ],
+          [
+            258,
+            411
+          ],
+          [
+            272,
+            391
+          ],
+          [
+            280,
+            371
+          ],
+          [
+            284,
+            350
+          ],
+          [
+            285,
+            324
+          ],
+          [
+            287,
+            300
+          ],
+          [
+            294,
+            276
+          ],
+          [
+            304,
+            251
+          ],
+          [
+            314,
+            228
+          ],
+          [
+            324,
+            208
+          ],
+          [
+            330,
+            187
+          ],
+          [
+            334,
+            162
+          ],
+          [
+            336,
+            142
+          ],
+          [
+            336,
+            132
+          ],
+          [
+            332,
+            123
+          ],
+          [
+            329,
+            110
+          ],
+          [
+            330,
+            96
+          ],
+          [
+            335,
+            78
+          ],
+          [
+            338,
+            69
+          ],
+          [
+            331,
+            66
+          ],
+          [
+            331,
+            56
+          ],
+          [
+            334,
+            42
+          ],
+          [
+            340,
+            32
+          ]
+        ],
+        "coordinateSpace": "original_canvas_pixels",
+        "antialiasSupersample": 8,
+        "downsample": "Pillow BOX coverage",
+        "alphaCombination": "original_alpha * coverage_mask / 255",
+        "rgbProcessing": "none; decoded source RGB copied at every original-canvas pixel",
+        "fullCanvasRetained": true,
+        "feathering": "none",
+        "backgroundAndGlassRemoved": true
+      },
+      "validation": {
+        "rgbByteValuesEqualDecodedSource": true,
+        "alphaNeverIncreased": true,
+        "nonzeroAlphaPixels": 275300,
+        "nonRectangularAlpha": true
+      },
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-02",
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/japan-baeren-alt-cutout-card.webp",
+          "sha256": "84e9936045a42385fd32b27f72c5ee2332df2f7f2f91d983c75afe8b93f6fe92",
+          "bytes": 224798,
+          "width": 835,
+          "height": 835
+        },
+        "map": {
+          "path": "/images/regional/cutouts/japan-baeren-alt-cutout-map.webp",
+          "sha256": "e73288441d8d65bd651be3b0a2e6756abeb904515a9fb00c9b33b2888f117a68",
+          "bytes": 46934,
+          "width": 334,
+          "height": 334
+        }
+      }
+    },
+    {
+      "beerId": "regional-gap-bature-black",
+      "sourceImage": "/images/regional/gap-bature-black.png",
+      "sourceSha256": "3388607b4b98993f01b52dc926118f5c6a7fddc885aab99b21f72f427c40fdf6",
+      "image": "/images/regional/cutouts/gap-bature-black-cutout.png",
+      "imageSha256": "836deaac575578b651a25b5bc7d621908db4f918aa10a28aabb96546ce84dfbd",
+      "width": 1000,
+      "height": 1000,
+      "alphaBounds": {
+        "x": 349,
+        "y": 337,
+        "width": 306,
+        "height": 591
+      },
+      "method": "manual_product_contour_alpha_mask",
+      "parameters": {
+        "contour": [
+          [
+            405,
+            341
+          ],
+          [
+            389,
+            344
+          ],
+          [
+            378,
+            348
+          ],
+          [
+            373,
+            353
+          ],
+          [
+            373,
+            364
+          ],
+          [
+            377,
+            369
+          ],
+          [
+            380,
+            372
+          ],
+          [
+            377,
+            381
+          ],
+          [
+            367,
+            394
+          ],
+          [
+            357,
+            410
+          ],
+          [
+            352,
+            421
+          ],
+          [
+            350,
+            434
+          ],
+          [
+            349,
+            876
+          ],
+          [
+            351,
+            889
+          ],
+          [
+            359,
+            901
+          ],
+          [
+            374,
+            913
+          ],
+          [
+            393,
+            920
+          ],
+          [
+            424,
+            924
+          ],
+          [
+            472,
+            927
+          ],
+          [
+            529,
+            927
+          ],
+          [
+            574,
+            925
+          ],
+          [
+            606,
+            920
+          ],
+          [
+            624,
+            913
+          ],
+          [
+            637,
+            904
+          ],
+          [
+            647,
+            891
+          ],
+          [
+            653,
+            879
+          ],
+          [
+            654,
+            437
+          ],
+          [
+            653,
+            423
+          ],
+          [
+            648,
+            411
+          ],
+          [
+            640,
+            399
+          ],
+          [
+            628,
+            382
+          ],
+          [
+            624,
+            373
+          ],
+          [
+            627,
+            368
+          ],
+          [
+            632,
+            364
+          ],
+          [
+            632,
+            353
+          ],
+          [
+            627,
+            348
+          ],
+          [
+            616,
+            344
+          ],
+          [
+            600,
+            341
+          ],
+          [
+            560,
+            338
+          ],
+          [
+            517,
+            337
+          ],
+          [
+            465,
+            338
+          ]
+        ],
+        "coordinateSpace": "original_canvas_pixels",
+        "antialiasSupersample": 8,
+        "downsample": "Pillow BOX coverage",
+        "alphaCombination": "original_alpha * coverage_mask / 255",
+        "rgbProcessing": "none; decoded source RGB copied at every original-canvas pixel",
+        "fullCanvasRetained": true,
+        "feathering": "none",
+        "backgroundAndGlassRemoved": true
+      },
+      "validation": {
+        "rgbByteValuesEqualDecodedSource": true,
+        "alphaNeverIncreased": true,
+        "nonzeroAlphaPixels": 173957,
+        "nonRectangularAlpha": true
+      },
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-02",
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/gap-bature-black-cutout-card.webp",
+          "sha256": "48d5225218a16615564e60971e2a57a5cd68e07f50f211344aa52a59e830b13b",
+          "bytes": 158464,
+          "width": 1000,
+          "height": 1000
+        },
+        "map": {
+          "path": "/images/regional/cutouts/gap-bature-black-cutout-map.webp",
+          "sha256": "248747eb9ebb27b9d820a32c9b5a9046f7b2c046b2dbb275fe65f44120e58401",
+          "bytes": 58512,
+          "width": 542,
+          "height": 542
+        }
+      }
+    },
+    {
+      "beerId": "regional-gap-bature-lager",
+      "sourceImage": "/images/regional/gap-bature-lager.png",
+      "sourceSha256": "45ad8fd10a6b5be3e5da4eec55700f47aaf711f65a00f3c0022ebf45d4839aae",
+      "image": "/images/regional/cutouts/gap-bature-lager-cutout.png",
+      "imageSha256": "0372a3d7058a2d658d7ea19feec23cf0b5f7cee7929950707686ca2bec2b82fc",
+      "width": 1000,
+      "height": 1000,
+      "alphaBounds": {
+        "x": 349,
+        "y": 337,
+        "width": 306,
+        "height": 591
+      },
+      "method": "manual_product_contour_alpha_mask",
+      "parameters": {
+        "contour": [
+          [
+            405,
+            341
+          ],
+          [
+            389,
+            344
+          ],
+          [
+            378,
+            348
+          ],
+          [
+            373,
+            353
+          ],
+          [
+            373,
+            364
+          ],
+          [
+            377,
+            369
+          ],
+          [
+            380,
+            372
+          ],
+          [
+            377,
+            381
+          ],
+          [
+            367,
+            394
+          ],
+          [
+            357,
+            410
+          ],
+          [
+            352,
+            421
+          ],
+          [
+            350,
+            434
+          ],
+          [
+            349,
+            876
+          ],
+          [
+            351,
+            889
+          ],
+          [
+            359,
+            901
+          ],
+          [
+            374,
+            913
+          ],
+          [
+            393,
+            920
+          ],
+          [
+            424,
+            924
+          ],
+          [
+            472,
+            927
+          ],
+          [
+            529,
+            927
+          ],
+          [
+            574,
+            925
+          ],
+          [
+            606,
+            920
+          ],
+          [
+            624,
+            913
+          ],
+          [
+            637,
+            904
+          ],
+          [
+            647,
+            891
+          ],
+          [
+            653,
+            879
+          ],
+          [
+            654,
+            437
+          ],
+          [
+            653,
+            423
+          ],
+          [
+            648,
+            411
+          ],
+          [
+            640,
+            399
+          ],
+          [
+            628,
+            382
+          ],
+          [
+            624,
+            373
+          ],
+          [
+            627,
+            368
+          ],
+          [
+            632,
+            364
+          ],
+          [
+            632,
+            353
+          ],
+          [
+            627,
+            348
+          ],
+          [
+            616,
+            344
+          ],
+          [
+            600,
+            341
+          ],
+          [
+            560,
+            338
+          ],
+          [
+            517,
+            337
+          ],
+          [
+            465,
+            338
+          ]
+        ],
+        "coordinateSpace": "original_canvas_pixels",
+        "antialiasSupersample": 8,
+        "downsample": "Pillow BOX coverage",
+        "alphaCombination": "original_alpha * coverage_mask / 255",
+        "rgbProcessing": "none; decoded source RGB copied at every original-canvas pixel",
+        "fullCanvasRetained": true,
+        "feathering": "none",
+        "backgroundAndGlassRemoved": true
+      },
+      "validation": {
+        "rgbByteValuesEqualDecodedSource": true,
+        "alphaNeverIncreased": true,
+        "nonzeroAlphaPixels": 173957,
+        "nonRectangularAlpha": true
+      },
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-02",
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/gap-bature-lager-cutout-card.webp",
+          "sha256": "6e8113d9ba4f7f515612168e5ef300e5cee58af7f9d9cb1b8020cbe61e1badc5",
+          "bytes": 158478,
+          "width": 1000,
+          "height": 1000
+        },
+        "map": {
+          "path": "/images/regional/cutouts/gap-bature-lager-cutout-map.webp",
+          "sha256": "ab049bedd60b5934c547b3edb3df7e18d490c4c178f882b95865dcac496a5a83",
+          "bytes": 58144,
+          "width": 542,
+          "height": 542
+        }
+      }
+    },
+    {
+      "beerId": "regional-gap-bature-haze",
+      "sourceImage": "/images/regional/gap-bature-haze.png",
+      "sourceSha256": "1a44f1809f91f956be01bc919f5c40fee855fdf48bb657b769fa326aad10e152",
+      "image": "/images/regional/cutouts/gap-bature-haze-cutout.png",
+      "imageSha256": "f0ed4cd8b44840653e34a720e64ca90b5493853b601a9bb619ea7a74505a3fb9",
+      "width": 1000,
+      "height": 1000,
+      "alphaBounds": {
+        "x": 349,
+        "y": 337,
+        "width": 306,
+        "height": 591
+      },
+      "method": "manual_product_contour_alpha_mask",
+      "parameters": {
+        "contour": [
+          [
+            405,
+            341
+          ],
+          [
+            389,
+            344
+          ],
+          [
+            378,
+            348
+          ],
+          [
+            373,
+            353
+          ],
+          [
+            373,
+            364
+          ],
+          [
+            377,
+            369
+          ],
+          [
+            380,
+            372
+          ],
+          [
+            377,
+            381
+          ],
+          [
+            367,
+            394
+          ],
+          [
+            357,
+            410
+          ],
+          [
+            352,
+            421
+          ],
+          [
+            350,
+            434
+          ],
+          [
+            349,
+            876
+          ],
+          [
+            351,
+            889
+          ],
+          [
+            359,
+            901
+          ],
+          [
+            374,
+            913
+          ],
+          [
+            393,
+            920
+          ],
+          [
+            424,
+            924
+          ],
+          [
+            472,
+            927
+          ],
+          [
+            529,
+            927
+          ],
+          [
+            574,
+            925
+          ],
+          [
+            606,
+            920
+          ],
+          [
+            624,
+            913
+          ],
+          [
+            637,
+            904
+          ],
+          [
+            647,
+            891
+          ],
+          [
+            653,
+            879
+          ],
+          [
+            654,
+            437
+          ],
+          [
+            653,
+            423
+          ],
+          [
+            648,
+            411
+          ],
+          [
+            640,
+            399
+          ],
+          [
+            628,
+            382
+          ],
+          [
+            624,
+            373
+          ],
+          [
+            627,
+            368
+          ],
+          [
+            632,
+            364
+          ],
+          [
+            632,
+            353
+          ],
+          [
+            627,
+            348
+          ],
+          [
+            616,
+            344
+          ],
+          [
+            600,
+            341
+          ],
+          [
+            560,
+            338
+          ],
+          [
+            517,
+            337
+          ],
+          [
+            465,
+            338
+          ]
+        ],
+        "coordinateSpace": "original_canvas_pixels",
+        "antialiasSupersample": 8,
+        "downsample": "Pillow BOX coverage",
+        "alphaCombination": "original_alpha * coverage_mask / 255",
+        "rgbProcessing": "none; decoded source RGB copied at every original-canvas pixel",
+        "fullCanvasRetained": true,
+        "feathering": "none",
+        "backgroundAndGlassRemoved": true
+      },
+      "validation": {
+        "rgbByteValuesEqualDecodedSource": true,
+        "alphaNeverIncreased": true,
+        "nonzeroAlphaPixels": 173957,
+        "nonRectangularAlpha": true
+      },
+      "reviewStatus": "approved",
+      "reviewedAt": "2026-10-02",
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/gap-bature-haze-cutout-card.webp",
+          "sha256": "918fb3c65b264b7b1dad0c94f3f4fc4abad13406c1468f6674aa6289b0d489b5",
+          "bytes": 339298,
+          "width": 1000,
+          "height": 1000
+        },
+        "map": {
+          "path": "/images/regional/cutouts/gap-bature-haze-cutout-map.webp",
+          "sha256": "07d361beb15601b151e1596f141f40f8ceccbf95b12dc097767bb4731c9c0d88",
+          "bytes": 109254,
+          "width": 542,
+          "height": 542
+        }
+      }
+    },
+    {
+      "beerId": "regional-saldens-tears-of-liberty",
+      "sourceImage": "/images/regional/saldens-tears-of-liberty.jpg",
+      "sourceSha256": "07ed8bdc3d768cc8c26f31a83c750ec4fa053c6770ddb5372f336b5d9fb04d1e",
+      "image": "/images/regional/cutouts/saldens-tears-of-liberty-cutout.png",
+      "imageSha256": "ad1b7b9653ba2bc285c6db59c774cf26094033c6f99fe7bc55ef3c79d27316b7",
+      "width": 1500,
+      "height": 1501,
+      "alphaBounds": {
+        "x": 540,
+        "y": 247,
+        "width": 397,
+        "height": 1037
+      },
+      "method": "manual-reviewed-silhouette-alpha-only",
+      "parameters": {
+        "silhouetteSpansYLeftRight": [
+          [
+            247,
+            736,
+            737
+          ],
+          [
+            249,
+            633,
+            846
+          ],
+          [
+            252,
+            593,
+            882
+          ],
+          [
+            256,
+            577,
+            898
+          ],
+          [
+            265,
+            576,
+            900
+          ],
+          [
+            276,
+            579,
+            897
+          ],
+          [
+            286,
+            575,
+            900
+          ],
+          [
+            301,
+            566,
+            909
+          ],
+          [
+            321,
+            554,
+            921
+          ],
+          [
+            338,
+            544,
+            932
+          ],
+          [
+            349,
+            541,
+            936
+          ],
+          [
+            400,
+            541,
+            936
+          ],
+          [
+            600,
+            541,
+            936
+          ],
+          [
+            800,
+            541,
+            936
+          ],
+          [
+            1000,
+            541,
+            936
+          ],
+          [
+            1160,
+            542,
+            936
+          ],
+          [
+            1198,
+            544,
+            934
+          ],
+          [
+            1214,
+            551,
+            926
+          ],
+          [
+            1231,
+            566,
+            912
+          ],
+          [
+            1248,
+            588,
+            890
+          ],
+          [
+            1263,
+            619,
+            859
+          ],
+          [
+            1275,
+            655,
+            826
+          ],
+          [
+            1281,
+            698,
+            787
+          ],
+          [
+            1283,
+            742,
+            743
+          ]
+        ],
+        "interpolation": "shape-preserving cubic Hermite",
+        "maskSupersampling": 4,
+        "maskDownsampling": "BOX",
+        "rgbOperation": "none; decoded source RGB retained pixel-for-pixel",
+        "canvasOperation": "none; source dimensions retained",
+        "alphaOnly": true
+      },
+      "reviewStatus": "approved",
+      "verification": {
+        "rgbPixelEquality": true,
+        "originalSha256Unchanged": true,
+        "alphaMin": 0,
+        "alphaMax": 255
+      },
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/saldens-tears-of-liberty-cutout-card.webp",
+          "sha256": "678a347d91ff7beed755d0c8f3f682b1058dcba33dbf0f2f6694a7f4b30aa6ec",
+          "bytes": 205006,
+          "width": 1157,
+          "height": 1158
+        },
+        "map": {
+          "path": "/images/regional/cutouts/saldens-tears-of-liberty-cutout-map.webp",
+          "sha256": "78bd5677f69352a7ec4b663d0b1e885cae21ac18c8387c2221cc7ce691c16617",
+          "bytes": 38980,
+          "width": 463,
+          "height": 463
+        }
+      }
+    },
+    {
+      "beerId": "regional-saldens-aipa-4c",
+      "sourceImage": "/images/regional/saldens-aipa-4c.jpg",
+      "sourceSha256": "c6b7586e3878107ae938c71a33bacc9e8757c27be64a36cc942421e39a9f07cb",
+      "image": "/images/regional/cutouts/saldens-aipa-4c-cutout.png",
+      "imageSha256": "f499725b83f5728d9ba857e07f255dff1fdafc1e000f820279a4bf611e0e1633",
+      "width": 1500,
+      "height": 1501,
+      "alphaBounds": {
+        "x": 536,
+        "y": 251,
+        "width": 397,
+        "height": 1020
+      },
+      "method": "manual-reviewed-silhouette-alpha-only",
+      "parameters": {
+        "silhouetteSpansYLeftRight": [
+          [
+            251,
+            736,
+            737
+          ],
+          [
+            253,
+            620,
+            858
+          ],
+          [
+            256,
+            582,
+            888
+          ],
+          [
+            260,
+            578,
+            898
+          ],
+          [
+            270,
+            578,
+            898
+          ],
+          [
+            279,
+            580,
+            896
+          ],
+          [
+            290,
+            575,
+            900
+          ],
+          [
+            304,
+            566,
+            907
+          ],
+          [
+            321,
+            555,
+            917
+          ],
+          [
+            340,
+            544,
+            928
+          ],
+          [
+            350,
+            543,
+            932
+          ],
+          [
+            400,
+            543,
+            932
+          ],
+          [
+            600,
+            540,
+            931
+          ],
+          [
+            800,
+            539,
+            929
+          ],
+          [
+            1000,
+            537,
+            927
+          ],
+          [
+            1160,
+            537,
+            925
+          ],
+          [
+            1193,
+            540,
+            922
+          ],
+          [
+            1210,
+            548,
+            913
+          ],
+          [
+            1227,
+            564,
+            897
+          ],
+          [
+            1242,
+            586,
+            875
+          ],
+          [
+            1255,
+            615,
+            846
+          ],
+          [
+            1264,
+            654,
+            810
+          ],
+          [
+            1269,
+            699,
+            767
+          ],
+          [
+            1270,
+            730,
+            731
+          ]
+        ],
+        "interpolation": "shape-preserving cubic Hermite",
+        "maskSupersampling": 4,
+        "maskDownsampling": "BOX",
+        "rgbOperation": "none; decoded source RGB retained pixel-for-pixel",
+        "canvasOperation": "none; source dimensions retained",
+        "alphaOnly": true
+      },
+      "reviewStatus": "approved",
+      "verification": {
+        "rgbPixelEquality": true,
+        "originalSha256Unchanged": true,
+        "alphaMin": 0,
+        "alphaMax": 255
+      },
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/saldens-aipa-4c-cutout-card.webp",
+          "sha256": "820efa312a0089b716398b90b02c8328843f607500825aeb6c5432b64daf3ff8",
+          "bytes": 198090,
+          "width": 1176,
+          "height": 1177
+        },
+        "map": {
+          "path": "/images/regional/cutouts/saldens-aipa-4c-cutout-map.webp",
+          "sha256": "0f53f6786182a74cc83dc9fc483bffb22d00c90f23a3ffb2d014624284e2d9ad",
+          "bytes": 37804,
+          "width": 471,
+          "height": 471
+        }
+      }
+    },
+    {
+      "beerId": "regional-saldens-six-hops",
+      "sourceImage": "/images/regional/saldens-six-hops.jpg",
+      "sourceSha256": "ed79ec421502d5c22975b3e0fb2e5a5f6f845ba0f483d9e7a8281efe2c356451",
+      "image": "/images/regional/cutouts/saldens-six-hops-cutout.png",
+      "imageSha256": "96855d9b6fcc95162900ce419c9862610fbda700917a851d22f325504b1f4421",
+      "width": 1500,
+      "height": 1500,
+      "alphaBounds": {
+        "x": 540,
+        "y": 247,
+        "width": 398,
+        "height": 1023
+      },
+      "method": "manual-reviewed-silhouette-alpha-only",
+      "parameters": {
+        "silhouetteSpansYLeftRight": [
+          [
+            247,
+            744,
+            745
+          ],
+          [
+            250,
+            599,
+            853
+          ],
+          [
+            254,
+            585,
+            892
+          ],
+          [
+            259,
+            582,
+            902
+          ],
+          [
+            271,
+            584,
+            901
+          ],
+          [
+            280,
+            582,
+            901
+          ],
+          [
+            295,
+            574,
+            908
+          ],
+          [
+            313,
+            563,
+            918
+          ],
+          [
+            332,
+            551,
+            929
+          ],
+          [
+            348,
+            548,
+            937
+          ],
+          [
+            400,
+            548,
+            936
+          ],
+          [
+            600,
+            545,
+            935
+          ],
+          [
+            800,
+            544,
+            933
+          ],
+          [
+            1000,
+            541,
+            931
+          ],
+          [
+            1165,
+            541,
+            929
+          ],
+          [
+            1194,
+            544,
+            925
+          ],
+          [
+            1210,
+            555,
+            914
+          ],
+          [
+            1227,
+            573,
+            896
+          ],
+          [
+            1243,
+            598,
+            872
+          ],
+          [
+            1256,
+            630,
+            841
+          ],
+          [
+            1264,
+            668,
+            805
+          ],
+          [
+            1268,
+            708,
+            766
+          ],
+          [
+            1269,
+            737,
+            738
+          ]
+        ],
+        "interpolation": "shape-preserving cubic Hermite",
+        "maskSupersampling": 4,
+        "maskDownsampling": "BOX",
+        "rgbOperation": "none; decoded source RGB retained pixel-for-pixel",
+        "canvasOperation": "none; source dimensions retained",
+        "alphaOnly": true
+      },
+      "reviewStatus": "approved",
+      "verification": {
+        "rgbPixelEquality": true,
+        "originalSha256Unchanged": true,
+        "alphaMin": 0,
+        "alphaMax": 255
+      },
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/saldens-six-hops-cutout-card.webp",
+          "sha256": "104f14bfcf364e80c504546d36841bdb5726910a98d863a339e328c475a4a299",
+          "bytes": 206166,
+          "width": 1173,
+          "height": 1173
+        },
+        "map": {
+          "path": "/images/regional/cutouts/saldens-six-hops-cutout-map.webp",
+          "sha256": "09a61461177aa84ca6db10f76621d6da1c77a216302e38a06d9c2806a6f66ee9",
+          "bytes": 39010,
+          "width": 469,
+          "height": 469
+        }
+      }
+    },
+    {
+      "beerId": "regional-saldens-grapefruit-dipa",
+      "sourceImage": "/images/regional/saldens-grapefruit-dipa.jpg",
+      "sourceSha256": "156e350c4be180978b532b44912328bb0cf1bf9c72dc0d8fe6cec59599622d73",
+      "image": "/images/regional/cutouts/saldens-grapefruit-dipa-cutout.png",
+      "imageSha256": "8d86f78c1137523766049fd1a8bcb28ade0633d336182e62afb48343e7883fae",
+      "width": 1500,
+      "height": 1500,
+      "alphaBounds": {
+        "x": 545,
+        "y": 251,
+        "width": 398,
+        "height": 1023
+      },
+      "method": "manual-reviewed-silhouette-alpha-only",
+      "parameters": {
+        "silhouetteSpansYLeftRight": [
+          [
+            251,
+            748,
+            749
+          ],
+          [
+            254,
+            615,
+            870
+          ],
+          [
+            257,
+            591,
+            899
+          ],
+          [
+            262,
+            589,
+            909
+          ],
+          [
+            271,
+            590,
+            910
+          ],
+          [
+            280,
+            590,
+            907
+          ],
+          [
+            296,
+            581,
+            914
+          ],
+          [
+            317,
+            569,
+            925
+          ],
+          [
+            337,
+            557,
+            937
+          ],
+          [
+            350,
+            553,
+            942
+          ],
+          [
+            400,
+            552,
+            942
+          ],
+          [
+            600,
+            550,
+            941
+          ],
+          [
+            800,
+            548,
+            939
+          ],
+          [
+            1000,
+            546,
+            937
+          ],
+          [
+            1162,
+            545,
+            935
+          ],
+          [
+            1193,
+            548,
+            931
+          ],
+          [
+            1211,
+            558,
+            921
+          ],
+          [
+            1228,
+            576,
+            903
+          ],
+          [
+            1244,
+            601,
+            878
+          ],
+          [
+            1258,
+            634,
+            846
+          ],
+          [
+            1267,
+            674,
+            809
+          ],
+          [
+            1272,
+            713,
+            771
+          ],
+          [
+            1273,
+            743,
+            744
+          ]
+        ],
+        "interpolation": "shape-preserving cubic Hermite",
+        "maskSupersampling": 4,
+        "maskDownsampling": "BOX",
+        "rgbOperation": "none; decoded source RGB retained pixel-for-pixel",
+        "canvasOperation": "none; source dimensions retained",
+        "alphaOnly": true
+      },
+      "reviewStatus": "approved",
+      "verification": {
+        "rgbPixelEquality": true,
+        "originalSha256Unchanged": true,
+        "alphaMin": 0,
+        "alphaMax": 255
+      },
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/saldens-grapefruit-dipa-cutout-card.webp",
+          "sha256": "02debd2065ab91f1f306b184ec59e34a6729e66b5af87cc2f271fd49d81d24a1",
+          "bytes": 205962,
+          "width": 1173,
+          "height": 1173
+        },
+        "map": {
+          "path": "/images/regional/cutouts/saldens-grapefruit-dipa-cutout-map.webp",
+          "sha256": "2ce4e374e71bb1080bc44e813fe747478777f418a6284399212908b4d92f87ba",
+          "bytes": 39396,
+          "width": 469,
+          "height": 469
+        }
+      }
+    },
+    {
+      "beerId": "regional-saldens-citra-mosaic-dipa",
+      "sourceImage": "/images/regional/saldens-citra-mosaic-dipa.jpg",
+      "sourceSha256": "e324b64b193aad123f18a82da2a4e29404bf6b7908c06395cbda48eda918bfe7",
+      "image": "/images/regional/cutouts/saldens-citra-mosaic-dipa-cutout.png",
+      "imageSha256": "3a6ffbf633dec14b6940eba8718f9a29482767a47d10c8f08fbb1f86dec68248",
+      "width": 1500,
+      "height": 1500,
+      "alphaBounds": {
+        "x": 539,
+        "y": 251,
+        "width": 397,
+        "height": 1022
+      },
+      "method": "manual-reviewed-silhouette-alpha-only",
+      "parameters": {
+        "silhouetteSpansYLeftRight": [
+          [
+            251,
+            741,
+            742
+          ],
+          [
+            254,
+            620,
+            862
+          ],
+          [
+            257,
+            587,
+            891
+          ],
+          [
+            262,
+            581,
+            901
+          ],
+          [
+            272,
+            581,
+            901
+          ],
+          [
+            281,
+            583,
+            899
+          ],
+          [
+            296,
+            574,
+            906
+          ],
+          [
+            315,
+            563,
+            917
+          ],
+          [
+            336,
+            549,
+            929
+          ],
+          [
+            349,
+            545,
+            935
+          ],
+          [
+            400,
+            545,
+            935
+          ],
+          [
+            600,
+            543,
+            934
+          ],
+          [
+            800,
+            541,
+            932
+          ],
+          [
+            1000,
+            540,
+            930
+          ],
+          [
+            1160,
+            540,
+            928
+          ],
+          [
+            1194,
+            543,
+            924
+          ],
+          [
+            1210,
+            553,
+            914
+          ],
+          [
+            1227,
+            570,
+            897
+          ],
+          [
+            1243,
+            594,
+            873
+          ],
+          [
+            1257,
+            625,
+            842
+          ],
+          [
+            1266,
+            665,
+            806
+          ],
+          [
+            1271,
+            707,
+            765
+          ],
+          [
+            1272,
+            736,
+            737
+          ]
+        ],
+        "interpolation": "shape-preserving cubic Hermite",
+        "maskSupersampling": 4,
+        "maskDownsampling": "BOX",
+        "rgbOperation": "none; decoded source RGB retained pixel-for-pixel",
+        "canvasOperation": "none; source dimensions retained",
+        "alphaOnly": true
+      },
+      "reviewStatus": "approved",
+      "verification": {
+        "rgbPixelEquality": true,
+        "originalSha256Unchanged": true,
+        "alphaMin": 0,
+        "alphaMax": 255
+      },
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/saldens-citra-mosaic-dipa-cutout-card.webp",
+          "sha256": "6b9ee9000bf2a5aac13775635f5897ee39843a5a60a2efbb6e0f3032bfcedc78",
+          "bytes": 201930,
+          "width": 1174,
+          "height": 1174
+        },
+        "map": {
+          "path": "/images/regional/cutouts/saldens-citra-mosaic-dipa-cutout-map.webp",
+          "sha256": "7e31084d76efe3bd892e8ff8de4f2efeeca53de5d446c10dcdb83568f8823abe",
+          "bytes": 38682,
+          "width": 470,
+          "height": 470
+        }
+      }
+    },
+    {
+      "beerId": "regional-epica-eolo",
+      "sourceImage": "/images/regional/epica-eolo.jpg",
+      "sourceSha256": "5f175191de29d83776e91120b08b705b29ac178e5a4e917c55a03c4f7218883c",
+      "image": "/images/regional/cutouts/epica-eolo-cutout.png",
+      "imageSha256": "16e94d6904d9a44659edfae2588d96dc0a9a1853ba7160401f6a25c6527fbfa0",
+      "width": 1085,
+      "height": 1180,
+      "alphaBounds": {
+        "x": 411,
+        "y": 142,
+        "width": 253,
+        "height": 950
+      },
+      "method": "manual-reviewed-silhouette-alpha-only",
+      "parameters": {
+        "silhouetteSpansYLeftRight": [
+          [
+            142,
+            538.0,
+            539.0
+          ],
+          [
+            144,
+            514.0,
+            569.0
+          ],
+          [
+            150,
+            499.0,
+            584.0
+          ],
+          [
+            157,
+            490.0,
+            591.0
+          ],
+          [
+            168,
+            486.0,
+            595.0
+          ],
+          [
+            181,
+            488.0,
+            594.0
+          ],
+          [
+            187,
+            491.0,
+            591.0
+          ],
+          [
+            194,
+            490.8,
+            592.6
+          ],
+          [
+            207,
+            490.28,
+            591.72
+          ],
+          [
+            250,
+            486.0,
+            593.0
+          ],
+          [
+            300,
+            481.0,
+            597.0
+          ],
+          [
+            350,
+            475.0,
+            601.0
+          ],
+          [
+            400,
+            469.0,
+            604.0
+          ],
+          [
+            450,
+            462.0,
+            608.0
+          ],
+          [
+            482,
+            457.64,
+            612.0
+          ],
+          [
+            507,
+            450.0,
+            618.0
+          ],
+          [
+            530,
+            440.0,
+            627.0
+          ],
+          [
+            553,
+            428.88,
+            638.0
+          ],
+          [
+            578,
+            419.88,
+            649.0
+          ],
+          [
+            604,
+            414.84,
+            656.08
+          ],
+          [
+            634,
+            412.64,
+            660.68
+          ],
+          [
+            690,
+            411.2,
+            662.8
+          ],
+          [
+            800,
+            411.0,
+            663.0
+          ],
+          [
+            900,
+            412.0,
+            663.0
+          ],
+          [
+            990,
+            413.0,
+            661.0
+          ],
+          [
+            1025,
+            414.375,
+            658.625
+          ],
+          [
+            1050,
+            416.6,
+            655.0
+          ],
+          [
+            1067,
+            422.0,
+            648.057
+          ],
+          [
+            1077,
+            433.0,
+            637.343
+          ],
+          [
+            1084,
+            452.0,
+            618.543
+          ],
+          [
+            1089,
+            483.0,
+            586.686
+          ],
+          [
+            1091,
+            536.0,
+            536.743
+          ]
+        ],
+        "interpolation": "shape-preserving cubic Hermite",
+        "maskSupersampling": 4,
+        "maskDownsampling": "BOX",
+        "rgbOperation": "none; decoded source RGB retained pixel-for-pixel",
+        "canvasOperation": "none; source dimensions retained",
+        "alphaOnly": true
+      },
+      "reviewStatus": "approved",
+      "verification": {
+        "rgbPixelEquality": true,
+        "originalSha256Unchanged": true,
+        "alphaMin": 0,
+        "alphaMax": 255
+      },
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/epica-eolo-cutout-card.webp",
+          "sha256": "cb44f6299b89de7cf99108d39d67033192167dd6e963d96a8ca3a1f2159914d9",
+          "bytes": 120812,
+          "width": 915,
+          "height": 995
+        },
+        "map": {
+          "path": "/images/regional/cutouts/epica-eolo-cutout-map.webp",
+          "sha256": "4b8c6e6f6b39f26bd4394d11508edf36955a5c24709a65f9dd0405063270a139",
+          "bytes": 27336,
+          "width": 366,
+          "height": 398
+        }
+      }
+    },
+    {
+      "beerId": "regional-epica-cerere",
+      "sourceImage": "/images/regional/epica-cerere.jpg",
+      "sourceSha256": "333e27c5fbd6c06945ce8e055ff55cc66278f5890f2bc9b28dde645f66fa5779",
+      "image": "/images/regional/cutouts/epica-cerere-cutout.png",
+      "imageSha256": "8a984aae7351c3d4413445251a32b07db15ca926c99f7afa05e64e3d4ca3253e",
+      "width": 1085,
+      "height": 1180,
+      "alphaBounds": {
+        "x": 409,
+        "y": 143,
+        "width": 255,
+        "height": 948
+      },
+      "method": "manual-reviewed-silhouette-alpha-only",
+      "parameters": {
+        "silhouetteSpansYLeftRight": [
+          [
+            143,
+            537.0,
+            538.0
+          ],
+          [
+            145,
+            512.0,
+            569.0
+          ],
+          [
+            151,
+            496.0,
+            584.0
+          ],
+          [
+            159,
+            488.0,
+            591.0
+          ],
+          [
+            172,
+            483.0,
+            596.0
+          ],
+          [
+            182,
+            486.0,
+            594.0
+          ],
+          [
+            190,
+            489.0,
+            590.0
+          ],
+          [
+            197,
+            489.4,
+            590.74
+          ],
+          [
+            215,
+            489.6,
+            588.4
+          ],
+          [
+            260,
+            484.4,
+            591.0
+          ],
+          [
+            310,
+            480.0,
+            595.0
+          ],
+          [
+            360,
+            474.0,
+            600.818
+          ],
+          [
+            410,
+            467.0,
+            604.8
+          ],
+          [
+            460,
+            461.2,
+            609.0
+          ],
+          [
+            490,
+            455.8,
+            614.0
+          ],
+          [
+            514,
+            447.0,
+            622.0
+          ],
+          [
+            537,
+            436.0,
+            632.0
+          ],
+          [
+            559,
+            425.64,
+            643.0
+          ],
+          [
+            584,
+            417.64,
+            652.0
+          ],
+          [
+            612,
+            412.52,
+            658.24
+          ],
+          [
+            650,
+            411.0,
+            662.0
+          ],
+          [
+            750,
+            410.0,
+            663.0
+          ],
+          [
+            850,
+            410.0,
+            663.0
+          ],
+          [
+            950,
+            411.0,
+            662.0
+          ],
+          [
+            1015,
+            412.625,
+            660.375
+          ],
+          [
+            1045,
+            414.8,
+            657.0
+          ],
+          [
+            1065,
+            420.0,
+            649.0
+          ],
+          [
+            1076,
+            430.0,
+            637.314
+          ],
+          [
+            1083,
+            449.0,
+            614.514
+          ],
+          [
+            1088,
+            481.0,
+            580.657
+          ],
+          [
+            1090,
+            535.0,
+            535.714
+          ]
+        ],
+        "interpolation": "shape-preserving cubic Hermite",
+        "maskSupersampling": 4,
+        "maskDownsampling": "BOX",
+        "rgbOperation": "none; decoded source RGB retained pixel-for-pixel",
+        "canvasOperation": "none; source dimensions retained",
+        "alphaOnly": true
+      },
+      "reviewStatus": "approved",
+      "verification": {
+        "rgbPixelEquality": true,
+        "originalSha256Unchanged": true,
+        "alphaMin": 0,
+        "alphaMax": 255
+      },
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/epica-cerere-cutout-card.webp",
+          "sha256": "0a96b74bdb4345c0aaf0efafdc2c7abb4f4284f8f6f6368d561e7a26d803b474",
+          "bytes": 127202,
+          "width": 917,
+          "height": 997
+        },
+        "map": {
+          "path": "/images/regional/cutouts/epica-cerere-cutout-map.webp",
+          "sha256": "6ea0683cb5f17ec5488b1e7808e94f9cd68937de80fa594dc978f082fc6db6c2",
+          "bytes": 28980,
+          "width": 367,
+          "height": 399
+        }
+      }
+    },
+    {
+      "beerId": "regional-epica-polifemo",
+      "sourceImage": "/images/regional/epica-polifemo.jpg",
+      "sourceSha256": "261b27089747c0565e53e1351417fbe98fa5a89ffc39c7e97e2e6a8ceae1e01d",
+      "image": "/images/regional/cutouts/epica-polifemo-cutout.png",
+      "imageSha256": "e6223d9efc156f5524e212b4e664e30e5988218e3a79592c8c3b3b37e054512f",
+      "width": 1085,
+      "height": 1180,
+      "alphaBounds": {
+        "x": 411,
+        "y": 148,
+        "width": 254,
+        "height": 946
+      },
+      "method": "manual-reviewed-silhouette-alpha-only",
+      "parameters": {
+        "silhouetteSpansYLeftRight": [
+          [
+            148,
+            543.0,
+            544.0
+          ],
+          [
+            150,
+            517.0,
+            572.0
+          ],
+          [
+            156,
+            500.0,
+            590.0
+          ],
+          [
+            164,
+            491.0,
+            598.0
+          ],
+          [
+            177,
+            487.0,
+            602.0
+          ],
+          [
+            188,
+            491.0,
+            599.0
+          ],
+          [
+            195,
+            495.0,
+            595.5
+          ],
+          [
+            203,
+            494.18,
+            596.423
+          ],
+          [
+            240,
+            492.4,
+            593.4
+          ],
+          [
+            290,
+            486.6,
+            597.0
+          ],
+          [
+            340,
+            481.0,
+            601.0
+          ],
+          [
+            390,
+            474.0,
+            605.0
+          ],
+          [
+            440,
+            468.0,
+            607.2
+          ],
+          [
+            480,
+            462.6,
+            611.0
+          ],
+          [
+            511,
+            454.0,
+            618.7
+          ],
+          [
+            536,
+            442.0,
+            631.533
+          ],
+          [
+            559,
+            431.64,
+            643.0
+          ],
+          [
+            585,
+            421.322,
+            653.0
+          ],
+          [
+            614,
+            415.84,
+            659.28
+          ],
+          [
+            650,
+            413.0,
+            663.0
+          ],
+          [
+            750,
+            412.0,
+            664.0
+          ],
+          [
+            850,
+            412.0,
+            664.0
+          ],
+          [
+            950,
+            413.0,
+            662.0
+          ],
+          [
+            1020,
+            414.5,
+            660.5
+          ],
+          [
+            1050,
+            417.6,
+            656.0
+          ],
+          [
+            1068,
+            424.0,
+            648.086
+          ],
+          [
+            1079,
+            436.0,
+            634.4
+          ],
+          [
+            1086,
+            457.0,
+            611.6
+          ],
+          [
+            1091,
+            488.0,
+            580.743
+          ],
+          [
+            1093,
+            538.0,
+            538.8
+          ]
+        ],
+        "interpolation": "shape-preserving cubic Hermite",
+        "maskSupersampling": 4,
+        "maskDownsampling": "BOX",
+        "rgbOperation": "none; decoded source RGB retained pixel-for-pixel",
+        "canvasOperation": "none; source dimensions retained",
+        "alphaOnly": true
+      },
+      "reviewStatus": "approved",
+      "verification": {
+        "rgbPixelEquality": true,
+        "originalSha256Unchanged": true,
+        "alphaMin": 0,
+        "alphaMax": 255
+      },
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/epica-polifemo-cutout-card.webp",
+          "sha256": "4614b9e5533e92eaf93dbc7ec7b5b5be8e6568efc65d58906ac76a909707ab48",
+          "bytes": 124612,
+          "width": 918,
+          "height": 998
+        },
+        "map": {
+          "path": "/images/regional/cutouts/epica-polifemo-cutout-map.webp",
+          "sha256": "8684e70160cf076d9c92292c2f68b23807270547b007ae98f9b720110b722fc1",
+          "bytes": 28128,
+          "width": 367,
+          "height": 399
+        }
+      }
+    },
+    {
+      "beerId": "regional-epica-ares",
+      "sourceImage": "/images/regional/epica-ares.jpg",
+      "sourceSha256": "a4bc8f3b350291450e6ee4fe060ba1ad11a1e1547ee461148ac4a3815fff406d",
+      "image": "/images/regional/cutouts/epica-ares-cutout.png",
+      "imageSha256": "5e723d630cc0e712bf2c724ac5b87adb4e6fe83adc7cbd98f38159bda36e9a8f",
+      "width": 1085,
+      "height": 1180,
+      "alphaBounds": {
+        "x": 410,
+        "y": 154,
+        "width": 255,
+        "height": 940
+      },
+      "method": "manual-reviewed-silhouette-alpha-only",
+      "parameters": {
+        "silhouetteSpansYLeftRight": [
+          [
+            154,
+            539.0,
+            540.0
+          ],
+          [
+            156,
+            513.0,
+            571.0
+          ],
+          [
+            162,
+            498.0,
+            586.0
+          ],
+          [
+            171,
+            488.0,
+            593.0
+          ],
+          [
+            185,
+            482.0,
+            598.0
+          ],
+          [
+            195,
+            487.0,
+            593.5
+          ],
+          [
+            202,
+            492.08,
+            589.92
+          ],
+          [
+            211,
+            490.44,
+            591.56
+          ],
+          [
+            255,
+            486.3,
+            593.0
+          ],
+          [
+            305,
+            483.0,
+            597.0
+          ],
+          [
+            355,
+            476.0,
+            601.0
+          ],
+          [
+            405,
+            470.0,
+            604.9
+          ],
+          [
+            455,
+            463.1,
+            609.0
+          ],
+          [
+            488,
+            458.76,
+            613.0
+          ],
+          [
+            516,
+            449.84,
+            621.0
+          ],
+          [
+            539,
+            438.61,
+            633.0
+          ],
+          [
+            563,
+            426.85,
+            645.0
+          ],
+          [
+            589,
+            418.55,
+            654.0
+          ],
+          [
+            617,
+            413.32,
+            660.34
+          ],
+          [
+            660,
+            410.8,
+            663.2
+          ],
+          [
+            760,
+            410.0,
+            664.0
+          ],
+          [
+            860,
+            411.0,
+            664.0
+          ],
+          [
+            960,
+            412.0,
+            662.0
+          ],
+          [
+            1020,
+            413.5,
+            660.5
+          ],
+          [
+            1050,
+            416.6,
+            656.0
+          ],
+          [
+            1068,
+            423.0,
+            648.086
+          ],
+          [
+            1079,
+            435.0,
+            634.4
+          ],
+          [
+            1086,
+            455.0,
+            610.6
+          ],
+          [
+            1091,
+            487.0,
+            579.743
+          ],
+          [
+            1093,
+            536.0,
+            536.8
+          ]
+        ],
+        "interpolation": "shape-preserving cubic Hermite",
+        "maskSupersampling": 4,
+        "maskDownsampling": "BOX",
+        "rgbOperation": "none; decoded source RGB retained pixel-for-pixel",
+        "canvasOperation": "none; source dimensions retained",
+        "alphaOnly": true
+      },
+      "reviewStatus": "approved",
+      "verification": {
+        "rgbPixelEquality": true,
+        "originalSha256Unchanged": true,
+        "alphaMin": 0,
+        "alphaMax": 255
+      },
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/epica-ares-cutout-card.webp",
+          "sha256": "f9beaf54b74d16359ac46b36fe37170f9d4cead0047fa17e6e888897cb803ce2",
+          "bytes": 103848,
+          "width": 923,
+          "height": 1004
+        },
+        "map": {
+          "path": "/images/regional/cutouts/epica-ares-cutout-map.webp",
+          "sha256": "67a4631abf76bf599daf750f4499ab3eaa956125adc1b23a4b117fd7271fe4a4",
+          "bytes": 25986,
+          "width": 369,
+          "height": 402
+        }
+      }
+    },
+    {
+      "beerId": "regional-epica-apollo",
+      "sourceImage": "/images/regional/epica-apollo.jpg",
+      "sourceSha256": "4bb5921976996286620f8c0c0544749344f25145212ff70918881d4b77f7bbae",
+      "image": "/images/regional/cutouts/epica-apollo-cutout.png",
+      "imageSha256": "3f6566a619fed181cd2c8b99ba23ffe481d977ff2ffa20e7016e5636ffdc35d9",
+      "width": 1085,
+      "height": 1180,
+      "alphaBounds": {
+        "x": 411,
+        "y": 154,
+        "width": 255,
+        "height": 939
+      },
+      "method": "manual-reviewed-silhouette-alpha-only",
+      "parameters": {
+        "silhouetteSpansYLeftRight": [
+          [
+            154,
+            544.0,
+            545.0
+          ],
+          [
+            156,
+            517.0,
+            575.0
+          ],
+          [
+            162,
+            501.0,
+            590.0
+          ],
+          [
+            171,
+            492.0,
+            598.0
+          ],
+          [
+            184,
+            487.0,
+            602.0
+          ],
+          [
+            195,
+            492.0,
+            598.5
+          ],
+          [
+            202,
+            497.12,
+            593.57
+          ],
+          [
+            211,
+            495.66,
+            594.76
+          ],
+          [
+            255,
+            492.2,
+            595.0
+          ],
+          [
+            305,
+            488.0,
+            599.0
+          ],
+          [
+            355,
+            482.0,
+            602.0
+          ],
+          [
+            405,
+            475.0,
+            605.9
+          ],
+          [
+            455,
+            468.1,
+            609.0
+          ],
+          [
+            486,
+            462.72,
+            613.0
+          ],
+          [
+            515,
+            454.0,
+            620.1
+          ],
+          [
+            540,
+            442.0,
+            632.6
+          ],
+          [
+            563,
+            430.48,
+            645.06
+          ],
+          [
+            589,
+            422.44,
+            654.58
+          ],
+          [
+            616,
+            417.2,
+            661.32
+          ],
+          [
+            660,
+            414.2,
+            664.2
+          ],
+          [
+            760,
+            412.0,
+            665.0
+          ],
+          [
+            860,
+            412.0,
+            664.0
+          ],
+          [
+            960,
+            413.0,
+            662.0
+          ],
+          [
+            1020,
+            413.5,
+            660.5
+          ],
+          [
+            1049,
+            416.64,
+            656.0
+          ],
+          [
+            1067,
+            423.0,
+            648.057
+          ],
+          [
+            1078,
+            435.0,
+            634.371
+          ],
+          [
+            1085,
+            455.0,
+            610.571
+          ],
+          [
+            1090,
+            487.0,
+            579.714
+          ],
+          [
+            1092,
+            537.0,
+            537.771
+          ]
+        ],
+        "interpolation": "shape-preserving cubic Hermite",
+        "maskSupersampling": 4,
+        "maskDownsampling": "BOX",
+        "rgbOperation": "none; decoded source RGB retained pixel-for-pixel",
+        "canvasOperation": "none; source dimensions retained",
+        "alphaOnly": true
+      },
+      "reviewStatus": "approved",
+      "verification": {
+        "rgbPixelEquality": true,
+        "originalSha256Unchanged": true,
+        "alphaMin": 0,
+        "alphaMax": 255
+      },
+      "displayVariants": {
+        "card": {
+          "path": "/images/regional/cutouts/epica-apollo-cutout-card.webp",
+          "sha256": "7e089e50aa3477ef6995fc1a023ca473d3a7ad975fdd7c226830d8fdceb7f7e2",
+          "bytes": 124900,
+          "width": 924,
+          "height": 1005
+        },
+        "map": {
+          "path": "/images/regional/cutouts/epica-apollo-cutout-map.webp",
+          "sha256": "0fff802322e493eeb4ce5e57938ceddea0e687b30eb958833523ec4ff4946ee3",
+          "bytes": 28186,
+          "width": 370,
+          "height": 402
+        }
+      }
+    }
+  ],
+  "displayBytes": {
+    "fullResolution": 35071324,
+    "cards": 5046862,
+    "map": 1574730
+  }
+}

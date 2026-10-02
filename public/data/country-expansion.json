@@ -1,0 +1,509 @@
+{
+  "metadata": {
+    "createdAt": "2026-10-02",
+    "method": "reviewed_public_product_pages",
+    "countries": [
+      "PT",
+      "PA",
+      "LB",
+      "AM"
+    ],
+    "locationPrecision": "city reference, not exact production facility",
+    "status": "ready"
+  },
+  "breweries": [
+    {
+      "id": "country-expansion-musa-born-brewery",
+      "name": "Cerveja Musa",
+      "country": "Portugal",
+      "countryZh": "葡萄牙",
+      "countryCode": "PT",
+      "countryBasis": "public_brewery_identity",
+      "city": "Lisbon",
+      "cityZh": "里斯本",
+      "cityAliases": [
+        "Lisboa"
+      ],
+      "lat": 38.72527778,
+      "lng": -9.15,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://cervejamusa.com/pages/a-musa",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Lisbon",
+      "coordinateSourcePageId": 18091,
+      "locationEvidence": {
+        "identitySourceUrl": "https://cervejamusa.com/pages/a-musa",
+        "identityEvidenceFile": ".runtime/award-country-evidence/musa-location.html",
+        "identitySha256": "8d53255b6f057a990ed74641569cae61d2adf98f5dfd1512039c8bdc14657621",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Lisbon",
+        "coordinateEvidenceFile": ".runtime/award-country-evidence/coordinates.json",
+        "coordinateSourcePageId": 18091,
+        "coordinatePlaceTitle": "Lisbon",
+        "coordinateSha256": "9d23e250abb7889afafd96012ef5b3660f8af8d7bb7589cd44ed39ecf19d2ac5",
+        "verifiedAt": "2026-10-02",
+        "precisionNote": "城市参考坐标，不是逐款生产或厂房位置。"
+      },
+      "sourceUrls": [
+        "https://cervejamusa.com/pages/a-musa",
+        "https://en.wikipedia.org/wiki/Lisbon"
+      ],
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ]
+    },
+    {
+      "id": "country-expansion-casa-fula-brewery",
+      "name": "Casa Bruja Brewing Co.",
+      "country": "Panama",
+      "countryZh": "巴拿马",
+      "countryCode": "PA",
+      "countryBasis": "public_brewery_identity",
+      "city": "Panama City",
+      "cityZh": "巴拿马城",
+      "cityAliases": [
+        "Ciudad de Panamá",
+        "Panamá"
+      ],
+      "lat": 8.9711,
+      "lng": -79.5347,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://casabruja.com/cervezas/fula/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Panama_City",
+      "coordinateSourcePageId": 57361,
+      "locationEvidence": {
+        "identitySourceUrl": "https://casabruja.com/cervezas/fula/",
+        "identityEvidenceFile": ".runtime/award-country-evidence/casabruja.html",
+        "identitySha256": "715649c51ff4804dfb47755a191f192d649ff9df2764d656f7744030baf40d43",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Panama_City",
+        "coordinateEvidenceFile": ".runtime/award-country-evidence/coordinates.json",
+        "coordinateSourcePageId": 57361,
+        "coordinatePlaceTitle": "Panama City",
+        "coordinateSha256": "9d23e250abb7889afafd96012ef5b3660f8af8d7bb7589cd44ed39ecf19d2ac5",
+        "verifiedAt": "2026-10-02",
+        "precisionNote": "城市参考坐标，不是逐款生产或厂房位置。"
+      },
+      "sourceUrls": [
+        "https://casabruja.com/cervezas/fula/",
+        "https://en.wikipedia.org/wiki/Panama_City"
+      ],
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ]
+    },
+    {
+      "id": "country-expansion-colonel-lager-brewery",
+      "name": "Colonel Brewery & Distillery",
+      "country": "Lebanon",
+      "countryZh": "黎巴嫩",
+      "countryCode": "LB",
+      "countryBasis": "public_brewery_identity",
+      "city": "Batroun",
+      "cityZh": "拜特龙",
+      "cityAliases": [
+        "البترون"
+      ],
+      "lat": 34.25,
+      "lng": 35.65,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://colonelbnd.com/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Batroun",
+      "coordinateSourcePageId": 381098,
+      "locationEvidence": {
+        "identitySourceUrl": "https://colonelbnd.com/",
+        "identityEvidenceFile": ".runtime/award-country-evidence/colonel.html",
+        "identitySha256": "0e846d6ceb8f7a355e901c4735bdde3e7929bf3baaf2877d89826b0f12f16dbc",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Batroun",
+        "coordinateEvidenceFile": ".runtime/award-country-evidence/coordinates.json",
+        "coordinateSourcePageId": 381098,
+        "coordinatePlaceTitle": "Batroun",
+        "coordinateSha256": "9d23e250abb7889afafd96012ef5b3660f8af8d7bb7589cd44ed39ecf19d2ac5",
+        "verifiedAt": "2026-10-02",
+        "precisionNote": "城市参考坐标，不是逐款生产或厂房位置。"
+      },
+      "sourceUrls": [
+        "https://colonelbnd.com/",
+        "https://en.wikipedia.org/wiki/Batroun"
+      ],
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ]
+    },
+    {
+      "id": "country-expansion-dargett-pale-brewery",
+      "name": "Dargett Brewery",
+      "country": "Armenia",
+      "countryZh": "亚美尼亚",
+      "countryCode": "AM",
+      "countryBasis": "public_brewery_identity",
+      "city": "Yerevan",
+      "cityZh": "埃里温",
+      "cityAliases": [
+        "Երևան",
+        "Ереван"
+      ],
+      "lat": 40.17777778,
+      "lng": 44.51277778,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewpub_city_reference",
+      "locationSourceUrl": "https://visitarmenia.travel/en/entertainment/257",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Yerevan",
+      "coordinateSourcePageId": 34352,
+      "locationEvidence": {
+        "identitySourceUrl": "https://visitarmenia.travel/en/entertainment/257",
+        "identityEvidenceFile": ".runtime/award-country-evidence/dargett-location.html",
+        "identitySha256": "cf0bd5dc888069be607fd42249c183621c3732f6974e46aaa38407cf3bbe0144",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Yerevan",
+        "coordinateEvidenceFile": ".runtime/award-country-evidence/coordinates.json",
+        "coordinateSourcePageId": 34352,
+        "coordinatePlaceTitle": "Yerevan",
+        "coordinateSha256": "9d23e250abb7889afafd96012ef5b3660f8af8d7bb7589cd44ed39ecf19d2ac5",
+        "verifiedAt": "2026-10-02",
+        "precisionNote": "城市参考坐标，不是逐款生产或厂房位置。Dargett采用埃里温官方旅游目录所列72 Arami brewpub参考，瓶装生产厂不保证同址。"
+      },
+      "sourceUrls": [
+        "https://visitarmenia.travel/en/entertainment/257",
+        "https://en.wikipedia.org/wiki/Yerevan"
+      ],
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ]
+    }
+  ],
+  "beers": [
+    {
+      "id": "country-expansion-musa-born",
+      "name": "Born in the IPA",
+      "breweryId": "country-expansion-musa-born-brewery",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "India Pale Ale",
+      "abv": 6.5,
+      "ibu": 70,
+      "description": "Musa 的印度淡色艾尔，呈略浑浊的橙色。酒厂描述其苦味平衡，并带有葡萄柚、芒果与蜜瓜香气。",
+      "originalDescription": null,
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "imageKind": "product_packshot",
+      "sourceUrls": [
+        "https://cervejamusa.com/en/products/born-in-the-ipa",
+        "https://cervejamusa.com/cdn/shop/products/garra1_born.jpg?v=1769797161&width=1946"
+      ],
+      "sourceNote": "按缺少可展示瓶图的国家补充真实产品。公开商品原图保留，展示衍生图仅本地确定性alpha分离和等比缩小；无独立精酿/销量排名推断。",
+      "descriptionEvidence": {
+        "sourceUrl": "https://cervejamusa.com/en/products/born-in-the-ipa",
+        "sourceFile": ".runtime/award-country-evidence/musa.html",
+        "sourceSha256": "f36a6ff57fe7b73fbd721683c9c2111abcbe0d3c1fc6c96e6e061ccc859d04ca",
+        "retrievedAt": "2026-10-02",
+        "method": "faithful_short_summary_of_public_product_information"
+      },
+      "image": "/images/country-expansion/musa-born-card.webp",
+      "imageThumbnail": "/images/country-expansion/musa-born-map.webp",
+      "imageOriginal": "/images/country-expansion/musa-born-cutout.png",
+      "sourceImage": "/images/country-expansion/musa-born.jpg",
+      "imageContentBounds": {
+        "width": 640,
+        "height": 800,
+        "bounds": {
+          "x": 205,
+          "y": 39,
+          "width": 221,
+          "height": 720
+        },
+        "originalSha256": "a5006eacadc459feed1e0095d538b5a091cf9332926cab914b5c6d3be0c24820",
+        "method": "decoded_alpha_body_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 8
+      },
+      "imageEvidence": {
+        "sha256": "a5006eacadc459feed1e0095d538b5a091cf9332926cab914b5c6d3be0c24820",
+        "originalSha256": "8991d88b44b6ea53dc094cf7462a20580d1f961f9b147d69fe31cd07f5210321",
+        "fullSha256": "e31f6bfdd6b1af06efd04ff4b0e8df251a722bece57e7bf09e6adc3383c7fa67",
+        "method": "local_python_alpha_only_row_outer_envelope",
+        "parameters": {
+          "roi": [
+            320,
+            78,
+            744,
+            1277
+          ],
+          "whiteThreshold": 247,
+          "edgePad": 1,
+          "RGBUnchanged": true,
+          "note": "Manually restricted to exact single bottle; label interior remains opaque."
+        },
+        "originalRGBunchanged": true,
+        "retrievedAt": "2026-10-02",
+        "individuallyVerified": true,
+        "visualReview": "完整单瓶品牌和酒名已目视核验；原图保留，仅背景alpha分离，不重画标签。",
+        "derivative": {
+          "mapMax": 320,
+          "cardMax": 800,
+          "format": "lossless_webp"
+        },
+        "sourceUrl": "https://cervejamusa.com/en/products/born-in-the-ipa",
+        "downloadUrl": "https://cervejamusa.com/cdn/shop/products/garra1_born.jpg?v=1769797161&width=1946"
+      },
+      "imageSource": "https://cervejamusa.com/en/products/born-in-the-ipa",
+      "imageDownloadUrl": "https://cervejamusa.com/cdn/shop/products/garra1_born.jpg?v=1769797161&width=1946",
+      "imageCredit": "Cerveja Musa official product catalogue",
+      "imageLicense": "Copyright holder; no open image licence stated"
+    },
+    {
+      "id": "country-expansion-casa-fula",
+      "name": "Fula",
+      "breweryId": "country-expansion-casa-fula-brewery",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Blonde Ale",
+      "abv": 4.7,
+      "ibu": 14,
+      "description": "Casa Bruja 的金色艾尔，以 Pale 和 Pilsner 麦芽酿造。酒厂描述其酒体柔和、味道均衡，酵母带来轻微果香。",
+      "originalDescription": null,
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "imageKind": "product_packshot",
+      "sourceUrls": [
+        "https://casabruja.com/cervezas/fula/",
+        "https://casabruja.com/wp-content/uploads/2020/07/Fula.jpg"
+      ],
+      "sourceNote": "按缺少可展示瓶图的国家补充真实产品。公开商品原图保留，展示衍生图仅本地确定性alpha分离和等比缩小；无独立精酿/销量排名推断。",
+      "descriptionEvidence": {
+        "sourceUrl": "https://casabruja.com/cervezas/fula/",
+        "sourceFile": ".runtime/award-country-evidence/casabruja.html",
+        "sourceSha256": "715649c51ff4804dfb47755a191f192d649ff9df2764d656f7744030baf40d43",
+        "retrievedAt": "2026-10-02",
+        "method": "faithful_short_summary_of_public_product_information"
+      },
+      "image": "/images/country-expansion/casa-fula-card.webp",
+      "imageThumbnail": "/images/country-expansion/casa-fula-map.webp",
+      "imageOriginal": "/images/country-expansion/casa-fula-cutout.png",
+      "sourceImage": "/images/country-expansion/casa-fula.jpg",
+      "imageContentBounds": {
+        "width": 450,
+        "height": 450,
+        "bounds": {
+          "x": 162,
+          "y": 10,
+          "width": 129,
+          "height": 414
+        },
+        "originalSha256": "0070da186bc1801581bb7d9ffe3efea5fcb03eaed16874f5af9e3f938768bc1a",
+        "method": "decoded_alpha_body_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 4
+      },
+      "imageEvidence": {
+        "sha256": "0070da186bc1801581bb7d9ffe3efea5fcb03eaed16874f5af9e3f938768bc1a",
+        "originalSha256": "e0da98958c6e634cfd31706a7f9b3f665844f32889d0a8d7988d0d956e5c09eb",
+        "fullSha256": "7d8d9f93c64cc46c6c8026856d75021409f351cb217289559ccc4984777ef368",
+        "method": "local_python_alpha_only_row_outer_envelope",
+        "parameters": {
+          "roi": [
+            155,
+            13,
+            291,
+            420
+          ],
+          "whiteThreshold": 247,
+          "edgePad": 1,
+          "RGBUnchanged": true,
+          "note": "Manually restricted to exact single bottle; label interior remains opaque."
+        },
+        "originalRGBunchanged": true,
+        "retrievedAt": "2026-10-02",
+        "individuallyVerified": true,
+        "visualReview": "完整单瓶品牌和酒名已目视核验；原图保留，仅背景alpha分离，不重画标签。",
+        "derivative": {
+          "mapMax": 320,
+          "cardMax": 800,
+          "format": "lossless_webp"
+        },
+        "sourceUrl": "https://casabruja.com/cervezas/fula/",
+        "downloadUrl": "https://casabruja.com/wp-content/uploads/2020/07/Fula.jpg"
+      },
+      "imageSource": "https://casabruja.com/cervezas/fula/",
+      "imageDownloadUrl": "https://casabruja.com/wp-content/uploads/2020/07/Fula.jpg",
+      "imageCredit": "Casa Bruja Brewing Co. official product catalogue",
+      "imageLicense": "Copyright holder; no open image licence stated"
+    },
+    {
+      "id": "country-expansion-colonel-lager",
+      "name": "Colonel Lager",
+      "breweryId": "country-expansion-colonel-lager-brewery",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": null,
+      "ibu": null,
+      "description": "来自黎巴嫩拜特龙的 Colonel 拉格，官网介绍采用捷克拉格传统。公开页面的酒精度范围表述不清，本次保留空值，不将麦汁浓度当成酒精度。",
+      "originalDescription": null,
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "imageKind": "product_packshot",
+      "sourceUrls": [
+        "https://colonelbnd.com/",
+        "https://colonelbnd.com/wp-content/uploads/2025/04/The-colonel-beer.png"
+      ],
+      "sourceNote": "按缺少可展示瓶图的国家补充真实产品。公开商品原图保留，展示衍生图仅本地确定性alpha分离和等比缩小；无独立精酿/销量排名推断。",
+      "descriptionEvidence": {
+        "sourceUrl": "https://colonelbnd.com/",
+        "sourceFile": ".runtime/award-country-evidence/colonel.html",
+        "sourceSha256": "0e846d6ceb8f7a355e901c4735bdde3e7929bf3baaf2877d89826b0f12f16dbc",
+        "retrievedAt": "2026-10-02",
+        "method": "faithful_short_summary_of_public_product_information"
+      },
+      "image": "/images/country-expansion/colonel-lager-card.webp",
+      "imageThumbnail": "/images/country-expansion/colonel-lager-map.webp",
+      "imageOriginal": "/images/country-expansion/colonel-lager.png",
+      "sourceImage": "/images/country-expansion/colonel-lager.png",
+      "imageContentBounds": {
+        "width": 200,
+        "height": 550,
+        "bounds": {
+          "x": 26,
+          "y": 14,
+          "width": 144,
+          "height": 526
+        },
+        "originalSha256": "f198b9e637bf041f21aa2848aa9524340c41dbe6c4d1d9c4c5caf4c2a4f10cd8",
+        "method": "decoded_alpha_body_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 6
+      },
+      "imageEvidence": {
+        "sha256": "f198b9e637bf041f21aa2848aa9524340c41dbe6c4d1d9c4c5caf4c2a4f10cd8",
+        "originalSha256": "b24dc2a98abc30e32cb02ade9e4c48080819817165875d1512c0c26e1023a62e",
+        "fullSha256": "b24dc2a98abc30e32cb02ade9e4c48080819817165875d1512c0c26e1023a62e",
+        "method": "original_transparent_packshot",
+        "parameters": {},
+        "originalRGBunchanged": true,
+        "retrievedAt": "2026-10-02",
+        "individuallyVerified": true,
+        "visualReview": "完整单瓶品牌和酒名已目视核验；原图保留，仅背景alpha分离，不重画标签。",
+        "derivative": {
+          "mapMax": 320,
+          "cardMax": 800,
+          "format": "lossless_webp"
+        },
+        "sourceUrl": "https://colonelbnd.com/",
+        "downloadUrl": "https://colonelbnd.com/wp-content/uploads/2025/04/The-colonel-beer.png"
+      },
+      "imageSource": "https://colonelbnd.com/",
+      "imageDownloadUrl": "https://colonelbnd.com/wp-content/uploads/2025/04/The-colonel-beer.png",
+      "imageCredit": "Colonel Brewery & Distillery official product catalogue",
+      "imageLicense": "Copyright holder; no open image licence stated"
+    },
+    {
+      "id": "country-expansion-dargett-pale",
+      "name": "Pale Ale (Coney Island)",
+      "breweryId": "country-expansion-dargett-pale-brewery",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "American Pale Ale",
+      "abv": 5.5,
+      "ibu": 40,
+      "description": "Dargett 的淡色艾尔，瓶身列明 5.5% 酒精度与 40 IBU。亚美尼亚零售目录描述它带有热带水果香气，苦味柔和而平衡。",
+      "originalDescription": null,
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "imageKind": "product_packshot",
+      "sourceUrls": [
+        "https://www.sas.am/en/catalog/armyanskoe/135536/",
+        "https://www.sas.am/upload/iblock/61a/268433.png"
+      ],
+      "sourceNote": "按缺少可展示瓶图的国家补充真实产品。公开商品原图保留，展示衍生图仅本地确定性alpha分离和等比缩小；无独立精酿/销量排名推断。",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.sas.am/en/catalog/armyanskoe/135536/",
+        "sourceFile": ".runtime/award-country-evidence/dargett-sas.html",
+        "sourceSha256": "427992a69a6db93f59443c2c70f41eda0a97505a99b65188d5e77eac339405fc",
+        "retrievedAt": "2026-10-02",
+        "method": "faithful_short_summary_of_public_product_information"
+      },
+      "image": "/images/country-expansion/dargett-pale-card.webp",
+      "imageThumbnail": "/images/country-expansion/dargett-pale-map.webp",
+      "imageOriginal": "/images/country-expansion/dargett-pale-cutout.png",
+      "sourceImage": "/images/country-expansion/dargett-pale.png",
+      "imageContentBounds": {
+        "width": 800,
+        "height": 800,
+        "bounds": {
+          "x": 299,
+          "y": 36,
+          "width": 202,
+          "height": 728
+        },
+        "originalSha256": "4bec853e80c8aa5bba366c945455a5d45ffa246f335a57ef72e183a16ff0907a",
+        "method": "decoded_alpha_body_with_padding",
+        "alphaThreshold": 64,
+        "paddingPixels": 8
+      },
+      "imageEvidence": {
+        "sha256": "4bec853e80c8aa5bba366c945455a5d45ffa246f335a57ef72e183a16ff0907a",
+        "originalSha256": "d3320f93b495dc9ff11fbf68c0b4a13e5738fc55c6bb994f6be0ac8bc45aad08",
+        "fullSha256": "b8eaa3a1077a2d233a5b7e4146a7a37fa2006f7b342185f120840014662e7692",
+        "method": "local_python_alpha_only_row_outer_envelope",
+        "parameters": {
+          "roi": [
+            440,
+            65,
+            758,
+            1137
+          ],
+          "whiteThreshold": 247,
+          "edgePad": 1,
+          "RGBUnchanged": true,
+          "note": "Manually restricted to exact single bottle; label interior remains opaque."
+        },
+        "originalRGBunchanged": true,
+        "retrievedAt": "2026-10-02",
+        "individuallyVerified": true,
+        "visualReview": "完整单瓶品牌和酒名已目视核验；原图保留，仅背景alpha分离，不重画标签。",
+        "derivative": {
+          "mapMax": 320,
+          "cardMax": 800,
+          "format": "lossless_webp"
+        },
+        "sourceUrl": "https://www.sas.am/en/catalog/armyanskoe/135536/",
+        "downloadUrl": "https://www.sas.am/upload/iblock/61a/268433.png"
+      },
+      "imageSource": "https://www.sas.am/en/catalog/armyanskoe/135536/",
+      "imageDownloadUrl": "https://www.sas.am/upload/iblock/61a/268433.png",
+      "imageCredit": "Dargett Brewery / SAS retail product catalogue",
+      "imageLicense": "Copyright holder; no open image licence stated"
+    }
+  ]
+}

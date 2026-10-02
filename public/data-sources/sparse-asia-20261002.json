@@ -1,0 +1,812 @@
+{
+  "metadata": {
+    "checkedAt": "2026-10-02",
+    "purpose": "Official-source locally brewed bottle/can additions for sparse Siberia, Mongolia and Russian Far East",
+    "breweries": 3,
+    "beers": 7
+  },
+  "breweries": [
+    {
+      "id": "sparse-asia-apu",
+      "name": "APU Company",
+      "country": "Mongolia",
+      "countryZh": "蒙古",
+      "countryCode": "MN",
+      "city": "Ulaanbaatar",
+      "lat": 47.92194444,
+      "lng": 106.91527778,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Ulaanbaatar",
+        "countryCode": "MN",
+        "lat": 47.92194444,
+        "lng": 106.91527778,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://www.apu.mn/contact?lang=en",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Ulaanbaatar",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/sparse-asia-20261002/coordinates.json",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "蒙古本土生产者；官方产品页与蒙古工商会确认Altan Gobi、Sengur、Borgio为本地生产啤酒。标记乌兰巴托城市参考，不当作每条生产线的厂门坐标。"
+      },
+      "website": "https://www.apu.mn/",
+      "description": "蒙古本土生产者；官方产品页与蒙古工商会确认Altan Gobi、Sengur、Borgio为本地生产啤酒。标记乌兰巴托城市参考，不当作每条生产线的厂门坐标。",
+      "sourceUrls": [
+        "https://www.apu.mn/contact?lang=en"
+      ],
+      "craftStatus": "industrial_reference"
+    },
+    {
+      "id": "sparse-asia-kolchak",
+      "name": "Admiral Kolchak Brewery",
+      "country": "Russia",
+      "countryZh": "俄罗斯",
+      "countryCode": "RU",
+      "city": "Irkutsk",
+      "lat": 52.2892,
+      "lng": 104.28,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Irkutsk",
+        "countryCode": "RU",
+        "lat": 52.2892,
+        "lng": 104.28,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://kolchak.net/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Irkutsk",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/sparse-asia-20261002/coordinates.json",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "官网明确自2005年在伊尔库茨克酿造，地址为Melnikovo 25；使用城市参考点，不移动到酒名提到的其他城市。"
+      },
+      "website": "https://kolchak.net/",
+      "description": "官网明确自2005年在伊尔库茨克酿造，地址为Melnikovo 25；使用城市参考点，不移动到酒名提到的其他城市。",
+      "sourceUrls": [
+        "https://kolchak.net/"
+      ],
+      "craftStatus": "regional_brewery_reference"
+    },
+    {
+      "id": "sparse-asia-vikbeer",
+      "name": "Vikbeer Brewery",
+      "country": "Russia",
+      "countryZh": "俄罗斯",
+      "countryCode": "RU",
+      "city": "Artyom, Russia",
+      "lat": 43.36666667,
+      "lng": 132.2,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Artyom, Russia",
+        "countryCode": "RU",
+        "lat": 43.36666667,
+        "lng": 132.2,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://vikbeer.ru/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Artyom,_Russia",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/sparse-asia-20261002/coordinates.json",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "官网生产地址为滨海边疆区Artyom，1-ya Zapadnaya 26；页面页脚写Vladivostok但实际地址是Artyom，所以按Artyom城市参考定位。"
+      },
+      "website": "https://vikbeer.ru/",
+      "description": "官网生产地址为滨海边疆区Artyom，1-ya Zapadnaya 26；页面页脚写Vladivostok但实际地址是Artyom，所以按Artyom城市参考定位。",
+      "sourceUrls": [
+        "https://vikbeer.ru/"
+      ],
+      "craftStatus": "regional_brewery_reference"
+    }
+  ],
+  "beers": [
+    {
+      "id": "sparse-asia-apu-sengur",
+      "name": "Sengur / Сэнгүр",
+      "breweryId": "sparse-asia-apu",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pale Lager",
+      "styleZh": "淡色拉格",
+      "abv": 4.8,
+      "ibu": null,
+      "srm": null,
+      "description": "蒙古本土Sengur品牌，官方记载2007年上市、酒精度4.8%，有玻璃瓶、罐和桶装。官方称由当地Tiger啤酒厂的德国酿酒师开发；此条为蒙古本土酿造产品，并非进口Tiger品牌。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.apu.mn/products-item/sengur?lang=en",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/sparse-asia-20261002/apu-sengur.html",
+        "sourceSha256": "a4472b814ba1f0ea7b341c4990ab74585a4bb7761c7eddf05724d59d80d53c8a",
+        "sourceType": "official_product_description",
+        "retrievedAt": "2026-10-02"
+      },
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://www.apu.mn/products-item/sengur?lang=en",
+        "https://www.apu.mn/",
+        "https://www.mongolchamber.mn/a/1883",
+        "https://www.apu.mn/contact?lang=en"
+      ],
+      "sourceNote": "蒙古本土生产者；官方产品页与蒙古工商会确认Altan Gobi、Sengur、Borgio为本地生产啤酒。标记乌兰巴托城市参考，不当作每条生产线的厂门坐标。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Ulaanbaatar",
+        "countryCode": "MN",
+        "lat": 47.92194444,
+        "lng": 106.91527778,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://www.apu.mn/contact?lang=en",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Ulaanbaatar",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/sparse-asia-20261002/coordinates.json",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "蒙古本土生产者；官方产品页与蒙古工商会确认Altan Gobi、Sengur、Borgio为本地生产啤酒。标记乌兰巴托城市参考，不当作每条生产线的厂门坐标。"
+      },
+      "image": "/images/sparse-asia-20261002/apu-sengur-card.webp",
+      "imageThumbnail": "/images/sparse-asia-20261002/apu-sengur-map.webp",
+      "imageOriginal": "/images/sparse-asia-20261002/apu-sengur-original.png",
+      "imageKind": "product_packshot",
+      "imageCacheStatus": "cached",
+      "imageSource": "https://www.apu.mn/products-item/sengur?lang=en",
+      "imageDownloadUrl": "https://admin.apu.mn/wp-content/uploads/2021/04/Beer_pics_bottlecan10-1.png",
+      "imageCredit": "酒厂官网同款实物瓶罐图；原图另存，仅处理透明背景和缩放。",
+      "imageLicense": null,
+      "imageEvidence": {
+        "sourceClass": "official_product_packshot",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "fd3be4a0c64a1d1c09178f8d22d7a5d586e880245d39095556f21ff77ecbf0fb",
+        "mapSha256": "c7fad61e092267630dca2ef09d3399b15dfdaba07ddf7968ab1d33b9f4947022",
+        "mapBytes": 5542,
+        "mapDimensions": [
+          87,
+          180
+        ],
+        "method": "native alpha crop and resize; no synthesized packaging",
+        "originalRGBPreserved": true
+      },
+      "imageContentBounds": {
+        "width": 313,
+        "height": 650,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 313,
+          "height": 650
+        },
+        "method": "native alpha crop and resize; no synthesized packaging"
+      },
+      "launchYearEvidence": {
+        "beerId": "sparse-asia-apu-sengur",
+        "year": 2007,
+        "kind": "first_release",
+        "sourceUrl": "https://www.apu.mn/products-item/sengur?lang=en",
+        "claim": "官方Sengur产品页明确该品牌2007年开始上市，不是酒厂成立年。",
+        "checkedAt": "2026-10-02"
+      }
+    },
+    {
+      "id": "sparse-asia-apu-borgio",
+      "name": "Borgio / Боргио",
+      "breweryId": "sparse-asia-apu",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "International Lager",
+      "styleZh": "国际淡色拉格",
+      "abv": 5.5,
+      "ibu": null,
+      "srm": null,
+      "description": "蒙古APU酿造的本土拉格。官网追溯首酿至1927年，Borgio现名始于1940年代，2019年更新包装与配方。World Beer Awards 2020授予其银奖，评语提及草本、柠檬、饼干和啤酒花气息。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.apu.mn/products-item/borgio?lang=en",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/sparse-asia-20261002/apu-borgio.html",
+        "sourceSha256": "13e772678d573599affe7a97ca94999729f7c872604b936660a57387003808f2",
+        "sourceType": "official_product_description",
+        "retrievedAt": "2026-10-02"
+      },
+      "flavors": [
+        "柠檬",
+        "饼干",
+        "草本"
+      ],
+      "flavorEvidence": [
+        {
+          "tag": "柠檬",
+          "sourceUrl": "https://www.worldbeerawards.com/winner-beer/silver-183-world-beer-awards-2020",
+          "basis": "explicit source tasting note"
+        },
+        {
+          "tag": "饼干",
+          "sourceUrl": "https://www.worldbeerawards.com/winner-beer/silver-183-world-beer-awards-2020",
+          "basis": "explicit source tasting note"
+        },
+        {
+          "tag": "草本",
+          "sourceUrl": "https://www.worldbeerawards.com/winner-beer/silver-183-world-beer-awards-2020",
+          "basis": "explicit source tasting note"
+        }
+      ],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [
+        {
+          "competition": "World Beer Awards",
+          "year": 2020,
+          "medal": "Silver",
+          "award": "Silver",
+          "category": "International Lager",
+          "country": "Mongolia",
+          "sourceUrl": "https://www.worldbeerawards.com/winner-beer/silver-183-world-beer-awards-2020"
+        }
+      ],
+      "sourceUrls": [
+        "https://www.apu.mn/products-item/borgio?lang=en",
+        "https://www.apu.mn/",
+        "https://www.mongolchamber.mn/a/1883",
+        "https://www.apu.mn/contact?lang=en",
+        "https://www.worldbeerawards.com/winner-beer/silver-183-world-beer-awards-2020"
+      ],
+      "sourceNote": "蒙古本土生产者；官方产品页与蒙古工商会确认Altan Gobi、Sengur、Borgio为本地生产啤酒。标记乌兰巴托城市参考，不当作每条生产线的厂门坐标。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Ulaanbaatar",
+        "countryCode": "MN",
+        "lat": 47.92194444,
+        "lng": 106.91527778,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://www.apu.mn/contact?lang=en",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Ulaanbaatar",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/sparse-asia-20261002/coordinates.json",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "蒙古本土生产者；官方产品页与蒙古工商会确认Altan Gobi、Sengur、Borgio为本地生产啤酒。标记乌兰巴托城市参考，不当作每条生产线的厂门坐标。"
+      },
+      "image": "/images/sparse-asia-20261002/apu-borgio-card.webp",
+      "imageThumbnail": "/images/sparse-asia-20261002/apu-borgio-map.webp",
+      "imageOriginal": "/images/sparse-asia-20261002/apu-borgio-original.png",
+      "imageKind": "product_packshot",
+      "imageCacheStatus": "cached",
+      "imageSource": "https://www.apu.mn/products-item/borgio?lang=en",
+      "imageDownloadUrl": "https://admin.apu.mn/wp-content/uploads/2021/04/Beer_pics_bottlecan5-1.png",
+      "imageCredit": "酒厂官网同款实物瓶罐图；原图另存，仅处理透明背景和缩放。",
+      "imageLicense": null,
+      "imageEvidence": {
+        "sourceClass": "official_product_packshot",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "631f2d9ca75600b2c8ac5a6c14806355bf63c9ff8eda97db31ecbf6949d07cb2",
+        "mapSha256": "b67644de6e9a0ffb519d12b51087480f7e4f8d044ec1470587b8bf4dd4bbee72",
+        "mapBytes": 5738,
+        "mapDimensions": [
+          87,
+          180
+        ],
+        "method": "native alpha crop and resize; no synthesized packaging",
+        "originalRGBPreserved": true
+      },
+      "imageContentBounds": {
+        "width": 314,
+        "height": 650,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 314,
+          "height": 650
+        },
+        "method": "native alpha crop and resize; no synthesized packaging"
+      }
+    },
+    {
+      "id": "sparse-asia-apu-gobi",
+      "name": "Altan Gobi / Алтан Говь",
+      "breweryId": "sparse-asia-apu",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pilsner",
+      "styleZh": "皮尔森",
+      "abv": null,
+      "ibu": null,
+      "srm": null,
+      "description": "APU官方介绍为蒙古本土的高端皮尔森啤酒，采用德国1516年纯净法原则酿造，以精选原料、酵母和柔和口感为特点。官网此页未提供可核验酒精度，保留未知。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.apu.mn/products-item/goldengobi?lang=en",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/sparse-asia-20261002/apu-gobi.html",
+        "sourceSha256": "d66a854567e79bec3032fbb7506653457ee51cda260fa1b4f27436c7024960d9",
+        "sourceType": "official_product_description",
+        "retrievedAt": "2026-10-02"
+      },
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://www.apu.mn/products-item/goldengobi?lang=en",
+        "https://www.apu.mn/",
+        "https://www.mongolchamber.mn/a/1883",
+        "https://www.apu.mn/contact?lang=en"
+      ],
+      "sourceNote": "蒙古本土生产者；官方产品页与蒙古工商会确认Altan Gobi、Sengur、Borgio为本地生产啤酒。标记乌兰巴托城市参考，不当作每条生产线的厂门坐标。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Ulaanbaatar",
+        "countryCode": "MN",
+        "lat": 47.92194444,
+        "lng": 106.91527778,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://www.apu.mn/contact?lang=en",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Ulaanbaatar",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/sparse-asia-20261002/coordinates.json",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "蒙古本土生产者；官方产品页与蒙古工商会确认Altan Gobi、Sengur、Borgio为本地生产啤酒。标记乌兰巴托城市参考，不当作每条生产线的厂门坐标。"
+      },
+      "image": "/images/sparse-asia-20261002/apu-gobi-card.webp",
+      "imageThumbnail": "/images/sparse-asia-20261002/apu-gobi-map.webp",
+      "imageOriginal": "/images/sparse-asia-20261002/apu-gobi-original.png",
+      "imageKind": "product_packshot",
+      "imageCacheStatus": "cached",
+      "imageSource": "https://www.apu.mn/products-item/goldengobi?lang=en",
+      "imageDownloadUrl": "https://admin.apu.mn/wp-content/uploads/2021/04/Beer_pics_bottlecan-1.png",
+      "imageCredit": "酒厂官网同款实物瓶罐图；原图另存，仅处理透明背景和缩放。",
+      "imageLicense": null,
+      "imageEvidence": {
+        "sourceClass": "official_product_packshot",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "808c9f314e27f0b7706da016b08d5e21422b026e28d8cf53a29c42545545711a",
+        "mapSha256": "bb798c5128483eb9150132254013e1cecdd79b7f67330fb5987dbe6d5b292c2f",
+        "mapBytes": 5096,
+        "mapDimensions": [
+          87,
+          180
+        ],
+        "method": "native alpha crop and resize; no synthesized packaging",
+        "originalRGBPreserved": true
+      },
+      "imageContentBounds": {
+        "width": 315,
+        "height": 650,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 315,
+          "height": 650
+        },
+        "method": "native alpha crop and resize; no synthesized packaging"
+      }
+    },
+    {
+      "id": "sparse-asia-irkutsk-classic",
+      "name": "Irkutskaya Istoriya Klassicheskoe",
+      "breweryId": "sparse-asia-kolchak",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pale Lager",
+      "styleZh": "淡色拉格",
+      "abv": 4.5,
+      "ibu": null,
+      "srm": null,
+      "description": "伊尔库茨克Admiral Kolchak酒厂的经典淡色拉格，过滤但不经巴氏杀菌。官方描述为金黄色、香气饱满，带轻柔甜味收尾；此款玻璃瓶规格0.5升。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://kolchak.net/butylochnoe-pivo",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/sparse-asia-20261002/irkutsk-bottles.html",
+        "sourceSha256": "6cb59da595655b5a2ddd9ea2119cd87d86ff59d9c748bf0a79b4cde4bf5c858c",
+        "sourceType": "official_product_description",
+        "retrievedAt": "2026-10-02"
+      },
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://kolchak.net/butylochnoe-pivo",
+        "https://kolchak.net/"
+      ],
+      "sourceNote": "官网明确自2005年在伊尔库茨克酿造，地址为Melnikovo 25；使用城市参考点，不移动到酒名提到的其他城市。",
+      "craftStatus": "regional_brewery_reference",
+      "catalogRole": "regional_brewery_reference",
+      "locationEvidence": {
+        "city": "Irkutsk",
+        "countryCode": "RU",
+        "lat": 52.2892,
+        "lng": 104.28,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://kolchak.net/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Irkutsk",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/sparse-asia-20261002/coordinates.json",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "官网明确自2005年在伊尔库茨克酿造，地址为Melnikovo 25；使用城市参考点，不移动到酒名提到的其他城市。"
+      },
+      "image": "/images/sparse-asia-20261002/irkutsk-classic-card.webp",
+      "imageThumbnail": "/images/sparse-asia-20261002/irkutsk-classic-map.webp",
+      "imageOriginal": "/images/sparse-asia-20261002/irkutsk-classic-original.png",
+      "imageKind": "product_packshot",
+      "imageCacheStatus": "cached",
+      "imageSource": "https://kolchak.net/butylochnoe-pivo",
+      "imageDownloadUrl": "https://static.tildacdn.com/tild3065-6331-4630-a662-343033383462/1.png",
+      "imageCredit": "酒厂官网同款实物瓶罐图；原图另存，仅处理透明背景和缩放。",
+      "imageLicense": null,
+      "imageEvidence": {
+        "sourceClass": "official_product_packshot",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "4ab81d9f031ed703c98995e9b9e8139a50d80a97f8b7d0f45e860d221bd2d9de",
+        "mapSha256": "58f4540630c5c0a1b090e2708a95f7c2e69f08252aac2f676712f1ea02af87fc",
+        "mapBytes": 3134,
+        "mapDimensions": [
+          45,
+          180
+        ],
+        "method": "native alpha crop and resize; no synthesized packaging",
+        "originalRGBPreserved": true
+      },
+      "imageContentBounds": {
+        "width": 154,
+        "height": 610,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 154,
+          "height": 610
+        },
+        "method": "native alpha crop and resize; no synthesized packaging"
+      }
+    },
+    {
+      "id": "sparse-asia-irkutsk-original",
+      "name": "Admiral Kolchak Originalnoe",
+      "breweryId": "sparse-asia-kolchak",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pale Lager",
+      "styleZh": "淡色拉格",
+      "abv": 4.5,
+      "ibu": null,
+      "srm": null,
+      "description": "伊尔库茨克Admiral Kolchak酒厂按自家配方酿造的淡色拉格，过滤处理、0.5升玻璃瓶装。官网列出明显的啤酒花苦味，并有焦糖、坚果和干果风味。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://kolchak.net/butylochnoe-pivo",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/sparse-asia-20261002/irkutsk-bottles.html",
+        "sourceSha256": "6cb59da595655b5a2ddd9ea2119cd87d86ff59d9c748bf0a79b4cde4bf5c858c",
+        "sourceType": "official_product_description",
+        "retrievedAt": "2026-10-02"
+      },
+      "flavors": [
+        "焦糖",
+        "坚果",
+        "干果"
+      ],
+      "flavorEvidence": [
+        {
+          "tag": "焦糖",
+          "sourceUrl": "https://kolchak.net/butylochnoe-pivo",
+          "basis": "explicit source tasting note"
+        },
+        {
+          "tag": "坚果",
+          "sourceUrl": "https://kolchak.net/butylochnoe-pivo",
+          "basis": "explicit source tasting note"
+        },
+        {
+          "tag": "干果",
+          "sourceUrl": "https://kolchak.net/butylochnoe-pivo",
+          "basis": "explicit source tasting note"
+        }
+      ],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://kolchak.net/butylochnoe-pivo",
+        "https://kolchak.net/"
+      ],
+      "sourceNote": "官网明确自2005年在伊尔库茨克酿造，地址为Melnikovo 25；使用城市参考点，不移动到酒名提到的其他城市。",
+      "craftStatus": "regional_brewery_reference",
+      "catalogRole": "regional_brewery_reference",
+      "locationEvidence": {
+        "city": "Irkutsk",
+        "countryCode": "RU",
+        "lat": 52.2892,
+        "lng": 104.28,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://kolchak.net/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Irkutsk",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/sparse-asia-20261002/coordinates.json",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "官网明确自2005年在伊尔库茨克酿造，地址为Melnikovo 25；使用城市参考点，不移动到酒名提到的其他城市。"
+      },
+      "image": "/images/sparse-asia-20261002/irkutsk-original-card.webp",
+      "imageThumbnail": "/images/sparse-asia-20261002/irkutsk-original-map.webp",
+      "imageOriginal": "/images/sparse-asia-20261002/irkutsk-original-original.png",
+      "imageKind": "product_packshot",
+      "imageCacheStatus": "cached",
+      "imageSource": "https://kolchak.net/butylochnoe-pivo",
+      "imageDownloadUrl": "https://static.tildacdn.com/tild3235-6630-4165-b938-393161383138/4.png",
+      "imageCredit": "酒厂官网同款实物瓶罐图；原图另存，仅处理透明背景和缩放。",
+      "imageLicense": null,
+      "imageEvidence": {
+        "sourceClass": "official_product_packshot",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "363ae0d1697b9ebd501e6c07b38c5ac79e8c4b99c2b8bb8cbd3d780453080f9b",
+        "mapSha256": "ce0866ab9f2557c27c1adb7d4c9c1281c452e564e36f66c430681e180f959532",
+        "mapBytes": 3460,
+        "mapDimensions": [
+          44,
+          180
+        ],
+        "method": "native alpha crop and resize; no synthesized packaging",
+        "originalRGBPreserved": true
+      },
+      "imageContentBounds": {
+        "width": 150,
+        "height": 610,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 150,
+          "height": 610
+        },
+        "method": "native alpha crop and resize; no synthesized packaging"
+      }
+    },
+    {
+      "id": "sparse-asia-vik-atua",
+      "name": "Atua Krasnoe Temnoe",
+      "breweryId": "sparse-asia-vikbeer",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Dark Beer",
+      "styleZh": "深色啤酒",
+      "abv": 4.4,
+      "ibu": null,
+      "srm": null,
+      "description": "俄罗斯远东Artyom的Vikbeer酒厂酿造，官方列为深色啤酒，经过过滤和巴氏杀菌，酒精度4.4%，采用1.5升PET瓶装。未据酒名推断红艾尔，也未把品牌名误作外国原产。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://vikbeer.ru/product/watermelon-ale/",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/sparse-asia-20261002/vik-atua.html",
+        "sourceSha256": "8903ff2bb1a0126fdbdd196c73ae22ffaa42062a1b0c465fbc6b11d8a84a84b8",
+        "sourceType": "official_product_description",
+        "retrievedAt": "2026-10-02"
+      },
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://vikbeer.ru/product/watermelon-ale/",
+        "https://vikbeer.ru/"
+      ],
+      "sourceNote": "官网生产地址为滨海边疆区Artyom，1-ya Zapadnaya 26；页面页脚写Vladivostok但实际地址是Artyom，所以按Artyom城市参考定位。",
+      "craftStatus": "regional_brewery_reference",
+      "catalogRole": "regional_brewery_reference",
+      "locationEvidence": {
+        "city": "Artyom, Russia",
+        "countryCode": "RU",
+        "lat": 43.36666667,
+        "lng": 132.2,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://vikbeer.ru/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Artyom,_Russia",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/sparse-asia-20261002/coordinates.json",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "官网生产地址为滨海边疆区Artyom，1-ya Zapadnaya 26；页面页脚写Vladivostok但实际地址是Artyom，所以按Artyom城市参考定位。"
+      },
+      "image": "/images/sparse-asia-20261002/vik-atua-card.webp",
+      "imageThumbnail": "/images/sparse-asia-20261002/vik-atua-map.webp",
+      "imageOriginal": "/images/sparse-asia-20261002/vik-atua-original.jpg",
+      "imageKind": "product_packshot",
+      "imageCacheStatus": "cached",
+      "imageSource": "https://vikbeer.ru/product/watermelon-ale/",
+      "imageDownloadUrl": "https://vikbeer.ru/wp-content/uploads/2017/05/atya_krasnoe_dark-600x600.jpg",
+      "imageCredit": "酒厂官网同款实物瓶罐图；原图另存，仅处理透明背景和缩放。",
+      "imageLicense": null,
+      "imageEvidence": {
+        "sourceClass": "official_product_packshot",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "291d16cba18a816628acefba32a3fd7b3daa09ed33196bf669b0cea0510ab72c",
+        "mapSha256": "dcde34c2cb28980b6f31969a646c69c2ee20e07df5efcf5c94a95b53cd421c79",
+        "mapBytes": 3418,
+        "mapDimensions": [
+          51,
+          180
+        ],
+        "method": "manually reviewed original bottle outline alpha mask; original RGB retained; reflection/shadow removed; no bottle redraw",
+        "originalRGBPreserved": true
+      },
+      "imageContentBounds": {
+        "width": 124,
+        "height": 434,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 124,
+          "height": 434
+        },
+        "method": "manually reviewed original bottle outline alpha mask; original RGB retained; reflection/shadow removed; no bottle redraw"
+      }
+    },
+    {
+      "id": "sparse-asia-vik-primorskoe",
+      "name": "Primorskoe Zhigulevskoe",
+      "breweryId": "sparse-asia-vikbeer",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pale Beer",
+      "styleZh": "淡色啤酒",
+      "abv": 4.0,
+      "ibu": null,
+      "srm": null,
+      "description": "滨海边疆区Artyom的Vikbeer酒厂淡色啤酒，官方产品页描述为浅金色、轻柔酒花香和柔和口感，过滤但不经巴氏杀菌，1.5升PET瓶装。产品页标4.0%，首页曾标4.3%，暂采用同款产品页并保留差异说明。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://vikbeer.ru/product/%D0%BF%D1%80%D0%B8%D0%BC%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B5-%D0%B6%D0%B8%D0%B3%D1%83%D0%BB%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B5/",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/sparse-asia-20261002/vik-primorskoe.html",
+        "sourceSha256": "421b80bdc0d15639fee42fbe0b1eb332cccced69539b73cd984c35bf8f348c3f",
+        "sourceType": "official_product_description",
+        "retrievedAt": "2026-10-02"
+      },
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://vikbeer.ru/product/%D0%BF%D1%80%D0%B8%D0%BC%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B5-%D0%B6%D0%B8%D0%B3%D1%83%D0%BB%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B5/",
+        "https://vikbeer.ru/"
+      ],
+      "sourceNote": "官网生产地址为滨海边疆区Artyom，1-ya Zapadnaya 26；页面页脚写Vladivostok但实际地址是Artyom，所以按Artyom城市参考定位。 官方首页4.3%与此产品页4.0%冲突；ABV使用产品页4.0%，不把差异隐藏。",
+      "craftStatus": "regional_brewery_reference",
+      "catalogRole": "regional_brewery_reference",
+      "locationEvidence": {
+        "city": "Artyom, Russia",
+        "countryCode": "RU",
+        "lat": 43.36666667,
+        "lng": 132.2,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://vikbeer.ru/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Artyom,_Russia",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/sparse-asia-20261002/coordinates.json",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "官网生产地址为滨海边疆区Artyom，1-ya Zapadnaya 26；页面页脚写Vladivostok但实际地址是Artyom，所以按Artyom城市参考定位。"
+      },
+      "image": "/images/sparse-asia-20261002/vik-primorskoe-card.webp",
+      "imageThumbnail": "/images/sparse-asia-20261002/vik-primorskoe-map.webp",
+      "imageOriginal": "/images/sparse-asia-20261002/vik-primorskoe-original.jpg",
+      "imageKind": "product_packshot",
+      "imageCacheStatus": "cached",
+      "imageSource": "https://vikbeer.ru/product/%D0%BF%D1%80%D0%B8%D0%BC%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B5-%D0%B6%D0%B8%D0%B3%D1%83%D0%BB%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B5/",
+      "imageDownloadUrl": "https://vikbeer.ru/wp-content/uploads/2020/03/Primorskoe_jigulevskoe-600x600.jpg",
+      "imageCredit": "酒厂官网同款实物瓶罐图；原图另存，仅处理透明背景和缩放。",
+      "imageLicense": null,
+      "imageEvidence": {
+        "sourceClass": "official_product_packshot",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "b78fab923932c0671a93f5fef7f5939f0bb309577d5a8faebffa4b690f2df28b",
+        "mapSha256": "fd5423620a52f99c1c511d66f5e21233fa4794c3d7041a94353913553db35e9e",
+        "mapBytes": 4280,
+        "mapDimensions": [
+          58,
+          180
+        ],
+        "method": "manually reviewed original bottle outline alpha mask; original RGB retained; reflection/shadow removed; no bottle redraw",
+        "originalRGBPreserved": true
+      },
+      "imageContentBounds": {
+        "width": 150,
+        "height": 465,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 150,
+          "height": 465
+        },
+        "method": "manually reviewed original bottle outline alpha mask; original RGB retained; reflection/shadow removed; no bottle redraw"
+      }
+    }
+  ]
+}

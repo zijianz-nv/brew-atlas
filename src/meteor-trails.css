@@ -1,0 +1,13 @@
+.meteor-trails{position:absolute;inset:0;overflow:hidden;pointer-events:none;contain:layout paint;user-select:none}
+.meteor-trail{position:absolute;display:block;left:12%;top:12%;width:94px;height:1px;border-radius:50%;background:linear-gradient(90deg,transparent,rgba(189,212,216,.22) 55%,rgba(224,235,226,.82));opacity:0;pointer-events:none;transform-origin:100% 50%;animation:celestial-meteor-flight 23s linear 2s infinite}
+.meteor-trail::after{content:"";position:absolute;right:0;top:-1px;width:3px;height:3px;border-radius:50%;background:#dce7df;opacity:.9}
+.meteor-trail:nth-child(2){left:57%;top:9%;width:70px;animation-duration:29s;animation-delay:11s}
+.meteor-trail:nth-child(3){left:24%;top:46%;width:56px;animation-duration:37s;animation-delay:20s}
+@keyframes celestial-meteor-flight{
+  0%{opacity:0;transform:translate3d(-90px,-55px,0) rotate(31deg)}
+  1%{opacity:.5;transform:translate3d(-60px,-37px,0) rotate(31deg)}
+  4%{opacity:.68;transform:translate3d(140px,84px,0) rotate(31deg)}
+  7%,100%{opacity:0;transform:translate3d(335px,201px,0) rotate(31deg)}
+}
+@media(max-width:600px){.meteor-trail{width:64px}.meteor-trail:nth-child(2){width:48px}.meteor-trail:nth-child(3){display:none}}
+@media(prefers-reduced-motion:reduce){.meteor-trails{display:none}.meteor-trail{animation:none}}

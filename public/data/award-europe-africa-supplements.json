@@ -1,0 +1,2421 @@
+{
+  "metadata": {
+    "id": "award-europe-africa-products-20261002",
+    "updatedAt": "2026-10-02",
+    "partial": true,
+    "scope": "12 exact existing award products from a 23-product researched queue; not a complete Europe/Africa catalogue",
+    "counts": {
+      "reviewedQueue": 23,
+      "beers": 12,
+      "breweries": 11,
+      "productImages": 12,
+      "locatedProducts": 9
+    },
+    "sourceAudit": "research/award-country-expansion-2026-10-02/europe-africa/search-audit.json",
+    "imageProcessingScript": "research/award-country-expansion-2026-10-02/europe-africa/process-images.py",
+    "rights": "Source copyrights remain with photographers, producers and retailers. This cache adds no redistribution/commercial licence. City reference data attributed to linked Wikipedia pages (CC BY-SA)."
+  },
+  "breweries": [
+    {
+      "id": "curated-award-brewery-9a9d25362ee7ac0c",
+      "name": "South African Breweries",
+      "nameZh": null,
+      "countryCode": "ZA",
+      "country": "South Africa",
+      "countryZh": "南非",
+      "countryBasis": "award_region",
+      "city": null,
+      "lat": null,
+      "lng": null,
+      "locationVerified": false,
+      "locationPrecision": null,
+      "locationRole": null,
+      "locationSourceUrl": null,
+      "coordinateSourceUrl": null,
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/south-africa/",
+        "https://awards.untappd.com/region/south-africa/page/2/"
+      ],
+      "locationNote": "本轮图与产品身份已核，未获得足以指明生产者所在城市的证据；没有套用集团总部、合作酒厂或消费场所坐标。",
+      "craftStatus": "industrial",
+      "catalog_role": "industrial_reference"
+    },
+    {
+      "id": "curated-award-brewery-5a37cb676a0d3bca",
+      "name": "De Struise Brouwers",
+      "nameZh": null,
+      "countryCode": "BE",
+      "country": "Belgium",
+      "countryZh": "比利时",
+      "countryBasis": "verified_public_brewery_location",
+      "city": "Vleteren",
+      "lat": 50.933,
+      "lng": 2.733,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://www.struisebeershop.com/en/terms-and-conditions/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Vleteren",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/belgium/",
+        "https://www.struisebeershop.com/en/terms-and-conditions/",
+        "https://en.wikipedia.org/wiki/Vleteren"
+      ],
+      "cityZh": "弗莱特伦",
+      "locationNote": "Oostvleteren 位于 Vleteren；使用市镇参考点，不代表工厂或合作方厂址。",
+      "locationEvidence": {
+        "identitySourceUrl": "https://www.struisebeershop.com/en/terms-and-conditions/",
+        "identityEvidenceFile": "research/award-country-expansion-2026-10-02/europe-africa/struise-contact.html",
+        "identitySha256": "a425f0623b488eb2bd368ca9490ddbb881f8b483fe7f39526da8a2bb8eaeb9e2",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Vleteren",
+        "coordinateEvidenceFile": "research/award-country-expansion-2026-10-02/europe-africa/coordinate-Vleteren.html",
+        "coordinateSha256": "7d3cb5a43ca57bb901f4c2317f683ad1d593d6a39a6d1bd91c08b58fbdd0cee2",
+        "coordinatePlaceTitle": "Vleteren",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    {
+      "id": "curated-award-brewery-03c34f21de48214a",
+      "name": "Blockbräu",
+      "nameZh": null,
+      "countryCode": "DE",
+      "country": "Germany",
+      "countryZh": "德国",
+      "countryBasis": "verified_public_brewery_location",
+      "city": "Hamburg",
+      "lat": 53.55,
+      "lng": 10.0,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://www.block-braeu.de/unser-bier/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Hamburg",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/germany/",
+        "https://www.block-braeu.de/unser-bier/",
+        "https://en.wikipedia.org/wiki/Hamburg"
+      ],
+      "cityZh": "汉堡",
+      "locationNote": "官网明确在汉堡港 Landungsbrücken 酿造；使用城市参考点，非精确厂址。",
+      "locationEvidence": {
+        "identitySourceUrl": "https://www.block-braeu.de/unser-bier/",
+        "identityEvidenceFile": "research/award-country-expansion-2026-10-02/europe-africa/503586.html",
+        "identitySha256": "7774d1dc78fffef2a77274369ddd892be9aa41eed1f96539d1bcab6f5ebef3fd",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Hamburg",
+        "coordinateEvidenceFile": "research/award-country-expansion-2026-10-02/europe-africa/coordinate-Hamburg.html",
+        "coordinateSha256": "3228881d4b29dfa0de28eeacab14bfb7903ded1b05cac11efa63e8ad9afe9cec",
+        "coordinatePlaceTitle": "Hamburg",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    {
+      "id": "curated-award-brewery-f22d0c83bd2bb884",
+      "name": "Kemker Kultuur (Brauerei J. Kemker)",
+      "nameZh": null,
+      "countryCode": "DE",
+      "country": "Germany",
+      "countryZh": "德国",
+      "countryBasis": "verified_public_brewery_location",
+      "city": "Everswinkel",
+      "lat": 51.925,
+      "lng": 7.84778,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://www.brauerei-kemker.de/en/i/contact",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Everswinkel",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/germany/",
+        "https://www.brauerei-kemker.de/en/i/contact",
+        "https://en.wikipedia.org/wiki/Everswinkel"
+      ],
+      "cityZh": "埃弗斯温克尔",
+      "locationNote": "官网给出 Wettendorf 1, Everswinkel；使用市镇参考点，非精确厂址。",
+      "locationEvidence": {
+        "identitySourceUrl": "https://www.brauerei-kemker.de/en/i/contact",
+        "identityEvidenceFile": "research/award-country-expansion-2026-10-02/europe-africa/kemker-contact.html",
+        "identitySha256": "e72b7b95b64f8922fe257ab02ac36b4cc20b63c30aae2ee859d8e9fec96ebd36",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Everswinkel",
+        "coordinateEvidenceFile": "research/award-country-expansion-2026-10-02/europe-africa/coordinate-Everswinkel.html",
+        "coordinateSha256": "f01a1370b4095dc5e6530c0536d4af04b978555966116f25b6572a467fb02f32",
+        "coordinatePlaceTitle": "Everswinkel",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    {
+      "id": "curated-award-brewery-200002dc56e7849e",
+      "name": "Kasteel Brouwerij Vanhonsebrouck",
+      "nameZh": null,
+      "countryCode": "BE",
+      "country": "Belgium",
+      "countryZh": "比利时",
+      "countryBasis": "verified_public_brewery_location",
+      "city": "Izegem",
+      "lat": 50.917,
+      "lng": 3.2,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://www.vanhonsebrouck.be/en-us/contact/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Izegem",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://www.vanhonsebrouck.be/en-us/contact/",
+        "https://en.wikipedia.org/wiki/Izegem"
+      ],
+      "locationNote": "官网给出 Emelgem (Izegem)；使用 Izegem 城市参考点，非精确厂址或美国办事处。",
+      "coordinateSourcePageId": null,
+      "coordinateSourceSha256": null,
+      "cityZh": "伊泽海姆",
+      "locationEvidence": {
+        "identitySourceUrl": "https://www.vanhonsebrouck.be/en-us/contact/",
+        "identityEvidenceFile": "research/award-country-expansion-2026-10-02/europe-africa/kasteel-contact.html",
+        "identitySha256": "e0bde6b3ee51e28702955aa693e28e82225a685599fb540a75a7dfa551082a0f",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Izegem",
+        "coordinateEvidenceFile": "research/award-country-expansion-2026-10-02/europe-africa/coordinate-Izegem.html",
+        "coordinateSha256": "0f7b6329ff4c97d7d770d66919528bb68ca820567f1b09957cab95f4356b5062",
+        "coordinatePlaceTitle": "Izegem",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    {
+      "id": "curated-award-brewery-32f29f7f03527085",
+      "name": "Jump Brewing",
+      "nameZh": null,
+      "countryCode": "ZA",
+      "country": "South Africa",
+      "countryZh": "南非",
+      "countryBasis": "award_region",
+      "city": null,
+      "lat": null,
+      "lng": null,
+      "locationVerified": false,
+      "locationPrecision": null,
+      "locationRole": null,
+      "locationSourceUrl": null,
+      "coordinateSourceUrl": null,
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/south-africa/",
+        "https://awards.untappd.com/region/south-africa/page/2/"
+      ],
+      "locationNote": "本轮图与产品身份已核，未获得足以指明生产者所在城市的证据；没有套用集团总部、合作酒厂或消费场所坐标。"
+    },
+    {
+      "id": "curated-award-brewery-ef633271341ebae7",
+      "name": "Brasserie Fantôme",
+      "nameZh": null,
+      "countryCode": "BE",
+      "country": "Belgium",
+      "countryZh": "比利时",
+      "countryBasis": "verified_public_brewery_location",
+      "city": "Érezée",
+      "lat": 50.2917,
+      "lng": 5.5583,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://www.fantome.be/fr/contact.htm",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/%C3%89rez%C3%A9e",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/belgium/",
+        "https://www.fantome.be/fr/contact.htm",
+        "https://en.wikipedia.org/wiki/%C3%89rez%C3%A9e"
+      ],
+      "cityZh": "埃雷泽",
+      "locationNote": "官网给出 Soy 村，属于 Érezée 市镇；使用市镇参考点，非精确厂址。",
+      "locationEvidence": {
+        "identitySourceUrl": "https://www.fantome.be/fr/contact.htm",
+        "identityEvidenceFile": "research/award-country-expansion-2026-10-02/europe-africa/fantome-contact.html",
+        "identitySha256": "f7830eb69595f3d0fd2ad4eea8bcfe35608ec9a58e0c766b212576f0982a29e4",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/%C3%89rez%C3%A9e",
+        "coordinateEvidenceFile": "research/award-country-expansion-2026-10-02/europe-africa/coordinate-Erezee.html",
+        "coordinateSha256": "14ae46efd734d5f9893e7ad38174d7cb5c18690e18a1ee94724f19760718607c",
+        "coordinatePlaceTitle": "Érezée",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    {
+      "id": "curated-award-brewery-5fac437064d03abc",
+      "name": "Lost Horizon Farm",
+      "nameZh": null,
+      "countryCode": "DE",
+      "country": "Germany",
+      "countryZh": "德国",
+      "countryBasis": "verified_public_brewery_location",
+      "city": "Frelsdorf",
+      "lat": 53.49306,
+      "lng": 8.90056,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://hhopcast.de/das-ist-unser-lebensprojekt-farmhouse-brewery/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Frelsdorf",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/germany/",
+        "https://hhopcast.de/das-ist-unser-lebensprojekt-farmhouse-brewery/",
+        "https://en.wikipedia.org/wiki/Frelsdorf"
+      ],
+      "cityZh": "弗雷尔斯多夫",
+      "locationNote": "公开采访确认项目农场位于 Frelsdorf（Beverstedt 市镇）；使用村庄参考点，不证明本年份酒液全部在农场生产。",
+      "locationEvidence": {
+        "identitySourceUrl": "https://hhopcast.de/das-ist-unser-lebensprojekt-farmhouse-brewery/",
+        "identityEvidenceFile": "research/award-country-expansion-2026-10-02/europe-africa/lost-farm-location.html",
+        "identitySha256": "ff84726ed816406522e4783a9160691a7bbc0c6dcf3deffe73b03daa42ce65ec",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Frelsdorf",
+        "coordinateEvidenceFile": "research/award-country-expansion-2026-10-02/europe-africa/coordinate-Frelsdorf.html",
+        "coordinateSha256": "0e810531f4776187926d0aaeace1607db900e0abd8fba87ed8d21ea37e24c6e1",
+        "coordinatePlaceTitle": "Frelsdorf",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    {
+      "id": "curated-award-brewery-f4e78004d965ed4b",
+      "name": "Black Forest Brewing",
+      "nameZh": null,
+      "countryCode": "DE",
+      "country": "Germany",
+      "countryZh": "德国",
+      "countryBasis": "verified_public_brewery_location",
+      "city": "Hornberg",
+      "lat": 48.21333,
+      "lng": 8.23083,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://www.honest-rare.de/en/protobeer-quince-wheat-ale/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Hornberg",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/germany/",
+        "https://www.honest-rare.de/en/protobeer-quince-wheat-ale/",
+        "https://en.wikipedia.org/wiki/Hornberg"
+      ],
+      "cityZh": "霍恩贝格",
+      "locationNote": "零售生产者资料明确 Hornberg；使用城市参考点，非精确生产设施。",
+      "locationEvidence": {
+        "identitySourceUrl": "https://www.honest-rare.de/en/protobeer-quince-wheat-ale/",
+        "identityEvidenceFile": "research/award-country-expansion-2026-10-02/europe-africa/6271965-product.html",
+        "identitySha256": "5f00b5475e6fd4e20330cf41fe1ffe889c8ef2c07cb4a465d77cf1877b4644c6",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Hornberg",
+        "coordinateEvidenceFile": "research/award-country-expansion-2026-10-02/europe-africa/coordinate-Hornberg.html",
+        "coordinateSha256": "7c78cc0c1bfe79edbe41393a0db1a94716f45d2c41ef4df5b91a2d5d728ab0d0",
+        "coordinatePlaceTitle": "Hornberg",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    {
+      "id": "curated-award-brewery-7d730645572b6e97",
+      "name": "Brouwerij De Halve Maan",
+      "nameZh": null,
+      "countryCode": "BE",
+      "country": "Belgium",
+      "countryZh": "比利时",
+      "countryBasis": "verified_public_brewery_location",
+      "city": "Bruges",
+      "lat": 51.20889,
+      "lng": 3.22417,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://www.halvemaan.be/nl/contact",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Bruges",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/belgium/",
+        "https://www.halvemaan.be/nl/contact",
+        "https://en.wikipedia.org/wiki/Bruges"
+      ],
+      "cityZh": "布鲁日",
+      "locationNote": "官网给出 Walplein 26, Brugge；使用城市参考点，非精确厂址。",
+      "locationEvidence": {
+        "identitySourceUrl": "https://www.halvemaan.be/nl/contact",
+        "identityEvidenceFile": "research/award-country-expansion-2026-10-02/europe-africa/halve-contact.html",
+        "identitySha256": "24877a5c156e6630d6515fb0a1026f65bfee3497d7e2bfd10f3fea40251c944d",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Bruges",
+        "coordinateEvidenceFile": "research/award-country-expansion-2026-10-02/europe-africa/coordinate-Bruges.html",
+        "coordinateSha256": "c157cf77de4635790907af76fa166e1001d31f5dc4529f814f9bc6bae6ad3025",
+        "coordinatePlaceTitle": "Bruges",
+        "verifiedAt": "2026-10-02"
+      }
+    },
+    {
+      "id": "curated-award-brewery-0b6da729b372cb46",
+      "name": "Brasserie Dubuisson",
+      "nameZh": null,
+      "countryCode": "BE",
+      "country": "Belgium",
+      "countryZh": "比利时",
+      "countryBasis": "verified_public_brewery_location",
+      "city": "Pipaix",
+      "lat": 50.583,
+      "lng": 3.567,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://www.dubuisson.com/en/contact/?v=910955a907e7",
+      "coordinateSourceUrl": "https://fr.wikipedia.org/wiki/Pipaix",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/belgium/",
+        "https://www.dubuisson.com/en/contact/?v=910955a907e7",
+        "https://fr.wikipedia.org/wiki/Pipaix"
+      ],
+      "cityZh": "皮派",
+      "locationNote": "官网给出 Chaussée de Mons 28, Pipaix；使用村庄参考点，非精确厂址。",
+      "locationEvidence": {
+        "identitySourceUrl": "https://www.dubuisson.com/en/contact/?v=910955a907e7",
+        "identityEvidenceFile": "research/award-country-expansion-2026-10-02/europe-africa/dubuisson-contact.html",
+        "identitySha256": "93df41393158271df4828a0fc354a3484b5d2f6fe24fc1f5854cdd86e78a019f",
+        "coordinateSourceUrl": "https://fr.wikipedia.org/wiki/Pipaix",
+        "coordinateEvidenceFile": "research/award-country-expansion-2026-10-02/europe-africa/coordinate-Pipaix-fr.html",
+        "coordinateSha256": "399fd4bba25cb1dc8771c9a6f373c7158a2418b10e3b45652ab8166725e57299",
+        "coordinatePlaceTitle": "Pipaix",
+        "verifiedAt": "2026-10-02"
+      }
+    }
+  ],
+  "beers": [
+    {
+      "id": "curated-award-41555",
+      "name": "Castle Milk Stout",
+      "breweryId": "curated-award-brewery-9a9d25362ee7ac0c",
+      "style": "Stout - Milk / Sweet",
+      "styleZh": null,
+      "abv": 6,
+      "ibu": null,
+      "srm": null,
+      "description": "南非 Castle 的牛奶世涛。酒厂介绍其深色烘烤麦芽与乳糖带来饱满酒体，并带焦糖、咖啡和奶油糖般风味。属于大型酒业品牌，未将其标为独立精酿。",
+      "originalDescription": null,
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/awards-europe-africa/41555-card.webp",
+      "imageOriginal": "/images/awards-europe-africa/41555-cutout.png",
+      "imageThumbnail": "/images/awards-europe-africa/41555-map.webp",
+      "imageCredit": "Product image: South African Breweries / cited product source; cached for local research demo. No added reuse rights.",
+      "imageSource": "https://www.sab.co.za/our-brands/local-brands",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/south-africa/",
+        "https://awards.untappd.com/beers/41555/",
+        "https://awards.untappd.com/region/south-africa/page/2/",
+        "https://www.sab.co.za/our-brands/local-brands"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://awards.untappd.com/region/south-africa/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:37:24.219Z",
+          "ratingText": "3.33 in 2025",
+          "sha256": "a89fc45419300c51bca1074ef1f92f79101ec71d410f3d238d06fc00481f3098",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": true
+        },
+        {
+          "url": "https://awards.untappd.com/region/south-africa/page/2/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:39:01.717Z",
+          "ratingText": "3.33 in 2025",
+          "sha256": "835964bfc75272780a407ddfc0f395e6b52c0781a4c07e6f86263079c822e6af",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": true
+        },
+        {
+          "url": "https://www.sab.co.za/our-brands/local-brands",
+          "role": "reviewed_product_identity_and_description",
+          "sourceFile": "research/award-country-expansion-2026-10-02/europe-africa/41555.html",
+          "sha256": "c17cea9d78ab3a9c951cf3729afa3903441a51940c64bf5db4af042d724d1da2",
+          "retrievedAt": "2026-10-02"
+        },
+        {
+          "url": "https://untappd.com/b/41555",
+          "sourceFile": ".runtime/award-country-evidence/untappd-41555.html",
+          "sha256": "b54cb4f26704b50ebfe8cf1230720b988e1ba68dcbfcbea9e039bbed43830b06",
+          "role": "exact_uid_public_product_crosscheck",
+          "retrievedAt": "2026-10-02"
+        }
+      ],
+      "sourceNote": "保留 Untappd 获奖年份与年度评分；本轮单独核对官方或零售同款包装、简介。图片按来源权利仅作本地研究缓存；位置为有证据的城市参照，缺证据者保留空。",
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [
+        {
+          "ratingYear": 2025,
+          "ceremonyYear": null,
+          "region": "South Africa",
+          "regionCode": "ZA",
+          "scope": "country",
+          "type": "unknown",
+          "medal": "Silver",
+          "rating": 3.33,
+          "ratingCount": null,
+          "style": "Stout - Milk / Sweet",
+          "sourceUrl": "https://awards.untappd.com/region/south-africa/",
+          "detailUrl": "https://awards.untappd.com/beers/41555/",
+          "observedAt": "2026-09-21T02:37:24.219Z"
+        }
+      ],
+      "representativeReason": null,
+      "representativeStatus": null,
+      "craftStatus": "industrial",
+      "untappdId": "41555",
+      "collection": "awards",
+      "collections": [
+        "awards"
+      ],
+      "imageBeforeCutout": "/images/awards-europe-africa/41555-source.png",
+      "imageDownloadUrl": "https://www.sab.co.za/sites/g/files/seuoyk2041/files/sab/CBL%20PACKSHOT-1.png",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageContentBounds": {
+        "width": 408,
+        "height": 612,
+        "bounds": {
+          "x": 149,
+          "y": 138,
+          "width": 110,
+          "height": 372
+        },
+        "fullAlphaBounds": {
+          "x": 153,
+          "y": 142,
+          "width": 102,
+          "height": 364
+        },
+        "bodyAlphaBounds": {
+          "x": 153,
+          "y": 142,
+          "width": 102,
+          "height": 364
+        },
+        "alphaThreshold": 64,
+        "paddingPixels": 4,
+        "sourceMode": "RGBA",
+        "method": "decoded_alpha_body_with_padding",
+        "originalSha256": "857c9a6606677ffec81b220cf8c95c0d21cc6300e3d52ff6021a06cf3f494a07"
+      },
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/41555/",
+          "https://www.sab.co.za/our-brands/local-brands"
+        ],
+        "basis": "SAB 官方品牌页面明确 Castle Milk Stout，配图为同名完整瓶装；采用当前包装，不声称为获奖年份限定包装。"
+      },
+      "imageEvidence": {
+        "individuallyVerified": true,
+        "verifiedAt": "2026-10-02",
+        "sourceUrl": "https://www.sab.co.za/our-brands/local-brands",
+        "sha256": "857c9a6606677ffec81b220cf8c95c0d21cc6300e3d52ff6021a06cf3f494a07",
+        "originalSha256": "8c522183a9ae7a091903aef0f402083aa42ececd43cdd0b142f775cce333820a",
+        "derivative": true,
+        "cacheStatus": "cached",
+        "identity": "SAB 官方品牌页面明确 Castle Milk Stout，配图为同名完整瓶装；采用当前包装，不声称为获奖年份限定包装。"
+      },
+      "imageDerivation": {
+        "method": "local-alpha-only-manually-reviewed-silhouette",
+        "sourceImage": "/images/awards-europe-africa/41555-source.png",
+        "fullResolutionCutout": "/images/awards-europe-africa/41555-cutout.png",
+        "rgbPixelsUnchanged": true,
+        "sourceSha256": "8c522183a9ae7a091903aef0f402083aa42ececd43cdd0b142f775cce333820a",
+        "parameters": {
+          "supersampling": 4,
+          "profileYLeftRight": [
+            [
+              145,
+              199,
+              209
+            ],
+            [
+              147,
+              188,
+              221
+            ],
+            [
+              151,
+              182,
+              225
+            ],
+            [
+              157,
+              181,
+              226
+            ],
+            [
+              163,
+              185,
+              223
+            ],
+            [
+              170,
+              181,
+              225
+            ],
+            [
+              177,
+              184,
+              224
+            ],
+            [
+              205,
+              181,
+              226
+            ],
+            [
+              251,
+              175,
+              232
+            ],
+            [
+              265,
+              171,
+              235
+            ],
+            [
+              280,
+              162,
+              244
+            ],
+            [
+              296,
+              158,
+              249
+            ],
+            [
+              313,
+              157,
+              251
+            ],
+            [
+              458,
+              156,
+              252
+            ],
+            [
+              482,
+              157,
+              251
+            ],
+            [
+              491,
+              161,
+              248
+            ],
+            [
+              498,
+              170,
+              242
+            ],
+            [
+              503,
+              187,
+              227
+            ]
+          ]
+        }
+      },
+      "catalogRole": "industrial_reference",
+      "catalog_role": "industrial_reference"
+    },
+    {
+      "id": "curated-award-4393200",
+      "name": "Tora Tora",
+      "breweryId": "curated-award-brewery-5a37cb676a0d3bca",
+      "style": "Winter Warmer",
+      "styleZh": null,
+      "abv": 18,
+      "ibu": null,
+      "srm": null,
+      "description": "De Struise 与 Holy Beer House 合作的高酒精度帝国 IPA，经过 jenever 杜松子酒桶陈酿。零售商列明 330 毫升、18% ABV，并说明桶陈时间为两年。",
+      "originalDescription": null,
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/awards-europe-africa/4393200-card.webp",
+      "imageOriginal": "/images/awards-europe-africa/4393200-cutout.png",
+      "imageThumbnail": "/images/awards-europe-africa/4393200-map.webp",
+      "imageCredit": "Product image: De Struise Brouwers / cited product source; cached for local research demo. No added reuse rights.",
+      "imageSource": "https://shop.raynvillesuperstore.co.uk/products/tora-tora-de-struise-brouwers-genever-barrel-aged-imperial-ipa-18-330ml-bottle",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/belgium/",
+        "https://awards.untappd.com/beers/4393200/",
+        "https://shop.raynvillesuperstore.co.uk/products/tora-tora-de-struise-brouwers-genever-barrel-aged-imperial-ipa-18-330ml-bottle"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://awards.untappd.com/region/belgium/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:37:24.572Z",
+          "ratingText": "3.91 in 2025",
+          "sha256": "91c183fa57e6bc3084ec30408bdb937d4d3084799d38a9c94ad56011a3a22e72",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": false
+        },
+        {
+          "url": "https://shop.raynvillesuperstore.co.uk/products/tora-tora-de-struise-brouwers-genever-barrel-aged-imperial-ipa-18-330ml-bottle",
+          "role": "reviewed_product_identity_and_description",
+          "sourceFile": "research/award-country-expansion-2026-10-02/europe-africa/4393200.html",
+          "sha256": "a37d5b55d91b94223ec213c7cbb4b3d7a4e7a3cf24c7b56b8fa83da32bf6d7df",
+          "retrievedAt": "2026-10-02"
+        },
+        {
+          "url": "https://untappd.com/b/4393200",
+          "sourceFile": ".runtime/award-country-evidence/untappd-4393200.html",
+          "sha256": "702a1e25a5d5fbcef99c992f19877ea15429e693a215a5aa0a87316332606762",
+          "role": "exact_uid_public_product_crosscheck",
+          "retrievedAt": "2026-10-02"
+        }
+      ],
+      "sourceNote": "保留 Untappd 获奖年份与年度评分；本轮单独核对官方或零售同款包装、简介。图片按来源权利仅作本地研究缓存；位置为有证据的城市参照，缺证据者保留空。",
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [
+        {
+          "ratingYear": 2025,
+          "ceremonyYear": null,
+          "region": "Belgium",
+          "regionCode": "BE",
+          "scope": "country",
+          "type": "unknown",
+          "medal": "Bronze",
+          "rating": 3.91,
+          "ratingCount": null,
+          "style": "Winter Warmer",
+          "sourceUrl": "https://awards.untappd.com/region/belgium/",
+          "detailUrl": "https://awards.untappd.com/beers/4393200/",
+          "observedAt": "2026-09-21T02:37:24.572Z"
+        }
+      ],
+      "representativeReason": null,
+      "representativeStatus": null,
+      "craftStatus": "not_verified",
+      "untappdId": "4393200",
+      "collection": "awards",
+      "collections": [
+        "awards"
+      ],
+      "imageBeforeCutout": "/images/awards-europe-africa/4393200-source.jpg",
+      "imageDownloadUrl": "https://shop.raynvillesuperstore.co.uk/cdn/shop/products/struise-holy-beer-house-tora-tora_e111d02a-6dfd-429d-83b4-2165c3701255_1200x1200.jpg?v=1629302339",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageContentBounds": {
+        "width": 1000,
+        "height": 1000,
+        "bounds": {
+          "x": 369,
+          "y": 0,
+          "width": 263,
+          "height": 1000
+        },
+        "fullAlphaBounds": {
+          "x": 379,
+          "y": 7,
+          "width": 243,
+          "height": 986
+        },
+        "bodyAlphaBounds": {
+          "x": 379,
+          "y": 7,
+          "width": 243,
+          "height": 986
+        },
+        "alphaThreshold": 64,
+        "paddingPixels": 10,
+        "sourceMode": "RGBA",
+        "method": "decoded_alpha_body_with_padding",
+        "originalSha256": "b6fde7865a50b0ea2a9a91e69b882eb1af3db8f1ad2686aa5357b0d21939b959"
+      },
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/4393200/",
+          "https://shop.raynvillesuperstore.co.uk/products/tora-tora-de-struise-brouwers-genever-barrel-aged-imperial-ipa-18-330ml-bottle"
+        ],
+        "basis": "零售商品名、De Struise 厂名、18% ABV 与瓶身 Tora Tora 标签相符；不是相近的 Roger Roger。"
+      },
+      "imageEvidence": {
+        "individuallyVerified": true,
+        "verifiedAt": "2026-10-02",
+        "sourceUrl": "https://shop.raynvillesuperstore.co.uk/products/tora-tora-de-struise-brouwers-genever-barrel-aged-imperial-ipa-18-330ml-bottle",
+        "sha256": "b6fde7865a50b0ea2a9a91e69b882eb1af3db8f1ad2686aa5357b0d21939b959",
+        "originalSha256": "f45ee44c41aeefe30a7a9aa8e2b0a3d226e99da52cefbb6ae4c06e0acc690325",
+        "derivative": true,
+        "cacheStatus": "cached",
+        "identity": "零售商品名、De Struise 厂名、18% ABV 与瓶身 Tora Tora 标签相符；不是相近的 Roger Roger。"
+      },
+      "imageDerivation": {
+        "method": "local-alpha-only-border-connected-white-removal",
+        "sourceImage": "/images/awards-europe-africa/4393200-source.jpg",
+        "fullResolutionCutout": "/images/awards-europe-africa/4393200-cutout.png",
+        "rgbPixelsUnchanged": true,
+        "sourceSha256": "f45ee44c41aeefe30a7a9aa8e2b0a3d226e99da52cefbb6ae4c06e0acc690325",
+        "parameters": {
+          "minChannel": 235,
+          "maximumChannelSpread": 20,
+          "connectivity": 4
+        }
+      }
+    },
+    {
+      "id": "curated-award-503586",
+      "name": "Blockbräu Winter",
+      "breweryId": "curated-award-brewery-03c34f21de48214a",
+      "style": "Winter Ale",
+      "styleZh": null,
+      "abv": 5.2,
+      "ibu": null,
+      "srm": null,
+      "description": "汉堡 Blockbräu 的冬季上发酵啤酒，通常在 12 月与 1 月供应。官方描述其麦芽风味偏干，并有橙子和葡萄柚般酒花气息；酒精度 5.2%。",
+      "originalDescription": null,
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/awards-europe-africa/503586-card.webp",
+      "imageOriginal": "/images/awards-europe-africa/503586-cutout.png",
+      "imageThumbnail": "/images/awards-europe-africa/503586-map.webp",
+      "imageCredit": "Product image: Blockbräu / cited product source; cached for local research demo. No added reuse rights.",
+      "imageSource": "https://www.block-braeu.de/unser-bier/",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/germany/",
+        "https://awards.untappd.com/beers/503586/",
+        "https://www.block-braeu.de/unser-bier/"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://awards.untappd.com/region/germany/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:37:24.572Z",
+          "ratingText": "3.58 in 2025",
+          "sha256": "91c183fa57e6bc3084ec30408bdb937d4d3084799d38a9c94ad56011a3a22e72",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": false
+        },
+        {
+          "url": "https://www.block-braeu.de/unser-bier/",
+          "role": "reviewed_product_identity_and_description",
+          "sourceFile": "research/award-country-expansion-2026-10-02/europe-africa/503586.html",
+          "sha256": "7774d1dc78fffef2a77274369ddd892be9aa41eed1f96539d1bcab6f5ebef3fd",
+          "retrievedAt": "2026-10-02"
+        },
+        {
+          "url": "https://untappd.com/b/503586",
+          "sourceFile": ".runtime/award-country-evidence/untappd-503586.html",
+          "sha256": "c83565d7fbaed01e2430e9d6a51b56c9936a2412cfed02c457d9230940041efa",
+          "role": "exact_uid_public_product_crosscheck",
+          "retrievedAt": "2026-10-02"
+        }
+      ],
+      "sourceNote": "保留 Untappd 获奖年份与年度评分；本轮单独核对官方或零售同款包装、简介。图片按来源权利仅作本地研究缓存；位置为有证据的城市参照，缺证据者保留空。",
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [
+        {
+          "ratingYear": 2025,
+          "ceremonyYear": null,
+          "region": "Germany",
+          "regionCode": "DE",
+          "scope": "country",
+          "type": "unknown",
+          "medal": "Gold",
+          "rating": 3.58,
+          "ratingCount": null,
+          "style": "Winter Ale",
+          "sourceUrl": "https://awards.untappd.com/region/germany/",
+          "detailUrl": "https://awards.untappd.com/beers/503586/",
+          "observedAt": "2026-09-21T02:37:24.572Z"
+        }
+      ],
+      "representativeReason": null,
+      "representativeStatus": null,
+      "craftStatus": "not_verified",
+      "untappdId": "503586",
+      "collection": "awards",
+      "collections": [
+        "awards"
+      ],
+      "imageBeforeCutout": "/images/awards-europe-africa/503586-source.png",
+      "imageDownloadUrl": "https://www.block-braeu.de/fileadmin/_processed_/8/2/csm_bierkarussel-winterbier-145x620_c722993a68.png",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageContentBounds": {
+        "width": 145,
+        "height": 620,
+        "bounds": {
+          "x": 0,
+          "y": 25,
+          "width": 145,
+          "height": 564
+        },
+        "fullAlphaBounds": {
+          "x": 6,
+          "y": 31,
+          "width": 133,
+          "height": 552
+        },
+        "bodyAlphaBounds": {
+          "x": 6,
+          "y": 31,
+          "width": 133,
+          "height": 552
+        },
+        "alphaThreshold": 64,
+        "paddingPixels": 6,
+        "sourceMode": "RGBA",
+        "method": "decoded_alpha_body_with_padding",
+        "originalSha256": "19068fe3cf6422da7874b5e1b55b01f16687dcdee5678136236e8314032e3c66"
+      },
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/503586/",
+          "https://www.block-braeu.de/unser-bier/"
+        ],
+        "basis": "官方酒款轮播 Winterbier 的完整瓶装图，瓶标明确 WINTER Bier；对应获奖产品 Blockbräu Winter，非同厂 Stout 或 Senatsbock。"
+      },
+      "imageEvidence": {
+        "individuallyVerified": true,
+        "verifiedAt": "2026-10-02",
+        "sourceUrl": "https://www.block-braeu.de/unser-bier/",
+        "sha256": "19068fe3cf6422da7874b5e1b55b01f16687dcdee5678136236e8314032e3c66",
+        "originalSha256": "a43a5915e1076ca6808e0f8d59c0bfb84780f1697dd8305191d5badf8131e956",
+        "derivative": true,
+        "cacheStatus": "cached",
+        "identity": "官方酒款轮播 Winterbier 的完整瓶装图，瓶标明确 WINTER Bier；对应获奖产品 Blockbräu Winter，非同厂 Stout 或 Senatsbock。"
+      },
+      "imageDerivation": {
+        "method": "source-alpha-with-faint-shadow-removal",
+        "sourceImage": "/images/awards-europe-africa/503586-source.png",
+        "fullResolutionCutout": "/images/awards-europe-africa/503586-cutout.png",
+        "rgbPixelsUnchanged": true,
+        "sourceSha256": "a43a5915e1076ca6808e0f8d59c0bfb84780f1697dd8305191d5badf8131e956",
+        "parameters": {
+          "minimumAlpha": 64
+        }
+      }
+    },
+    {
+      "id": "curated-award-5142713",
+      "name": "Aoltbeer (05-2022) Sloeberries",
+      "breweryId": "curated-award-brewery-f22d0c83bd2bb884",
+      "style": "Wild Ale - Other",
+      "styleZh": null,
+      "abv": 6,
+      "ibu": null,
+      "srm": null,
+      "description": "05-2022 批次的黑刺李 Aoltbeer，采用混合发酵，并在波特酒桶和红葡萄酒桶中陈酿约 18 个月。官方描述其带深色水果与黑糖般风味；750 毫升、6% ABV。",
+      "originalDescription": null,
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/awards-europe-africa/5142713-card.webp",
+      "imageOriginal": "/images/awards-europe-africa/5142713-cutout.png",
+      "imageThumbnail": "/images/awards-europe-africa/5142713-map.webp",
+      "imageCredit": "Product image: Kemker Kultuur (Brauerei J. Kemker) / cited product source; cached for local research demo. No added reuse rights.",
+      "imageSource": "https://www.brauerei-kemker.de/en/p/aoltbeer-no-05-2022-sloe-berries-75cl",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/germany/",
+        "https://awards.untappd.com/beers/5142713/",
+        "https://www.brauerei-kemker.de/en/p/aoltbeer-no-05-2022-sloe-berries-75cl"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://awards.untappd.com/region/germany/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:37:24.572Z",
+          "ratingText": "3.92 in 2025",
+          "sha256": "91c183fa57e6bc3084ec30408bdb937d4d3084799d38a9c94ad56011a3a22e72",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": false
+        },
+        {
+          "url": "https://www.brauerei-kemker.de/en/p/aoltbeer-no-05-2022-sloe-berries-75cl",
+          "role": "reviewed_product_identity_and_description",
+          "sourceFile": "research/award-country-expansion-2026-10-02/europe-africa/5142713-official.html",
+          "sha256": "8ea4f08b863934dd824e1e7174ffdafb515857346ec48e8e9279fe67d07b918a",
+          "retrievedAt": "2026-10-02"
+        },
+        {
+          "url": "https://untappd.com/b/5142713",
+          "sourceFile": ".runtime/award-country-evidence/untappd-5142713.html",
+          "sha256": "d6e4f3e5f5d7be6164b3ae13f91fab90d57bc80879c30d78bfdb97f8cfd31233",
+          "role": "exact_uid_public_product_crosscheck",
+          "retrievedAt": "2026-10-02"
+        }
+      ],
+      "sourceNote": "保留 Untappd 获奖年份与年度评分；本轮单独核对官方或零售同款包装、简介。图片按来源权利仅作本地研究缓存；位置为有证据的城市参照，缺证据者保留空。",
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [
+        {
+          "ratingYear": 2025,
+          "ceremonyYear": null,
+          "region": "Germany",
+          "regionCode": "DE",
+          "scope": "country",
+          "type": "unknown",
+          "medal": "Bronze",
+          "rating": 3.92,
+          "ratingCount": null,
+          "style": "Wild Ale - Other",
+          "sourceUrl": "https://awards.untappd.com/region/germany/",
+          "detailUrl": "https://awards.untappd.com/beers/5142713/",
+          "observedAt": "2026-09-21T02:37:24.572Z"
+        }
+      ],
+      "representativeReason": null,
+      "representativeStatus": null,
+      "craftStatus": "not_verified",
+      "untappdId": "5142713",
+      "collection": "awards",
+      "collections": [
+        "awards"
+      ],
+      "imageBeforeCutout": "/images/awards-europe-africa/5142713-official-source.jpg",
+      "imageDownloadUrl": "https://www.brauerei-kemker.de/storage/images/image?remote=https%3A%2F%2Fwww.brauerei-kemker.de%2FWebRoot%2FStore29%2FShops%2F86003813%2F6739%2F023C%2F091C%2FFE98%2FC469%2F0A0C%2F6D0B%2F51CF%2FIMG-E2512.JPG&shop=86003813",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageContentBounds": {
+        "width": 648,
+        "height": 648,
+        "bounds": {
+          "x": 250,
+          "y": 67,
+          "width": 136,
+          "height": 461
+        },
+        "fullAlphaBounds": {
+          "x": 255,
+          "y": 72,
+          "width": 126,
+          "height": 451
+        },
+        "bodyAlphaBounds": {
+          "x": 255,
+          "y": 72,
+          "width": 126,
+          "height": 451
+        },
+        "alphaThreshold": 64,
+        "paddingPixels": 5,
+        "sourceMode": "RGBA",
+        "method": "decoded_alpha_body_with_padding",
+        "originalSha256": "bcb58725d394c4efcf113db1b2b266f7fb1cc90ee4654a14ff11f147d8729484"
+      },
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/5142713/",
+          "https://www.brauerei-kemker.de/en/p/aoltbeer-no-05-2022-sloe-berries-75cl"
+        ],
+        "basis": "官方商品页及瓶身 Blend no. 05-2022 明确批次与黑刺李；换用官网完整瓶图，未采用顶部截断的零售图片。"
+      },
+      "imageEvidence": {
+        "individuallyVerified": true,
+        "verifiedAt": "2026-10-02",
+        "sourceUrl": "https://www.brauerei-kemker.de/en/p/aoltbeer-no-05-2022-sloe-berries-75cl",
+        "sha256": "bcb58725d394c4efcf113db1b2b266f7fb1cc90ee4654a14ff11f147d8729484",
+        "originalSha256": "a74f4fdc730607cac6ead16b063f24285b5e582234ebfeddefd631346f5fc259",
+        "derivative": true,
+        "cacheStatus": "cached",
+        "identity": "官方商品页及瓶身 Blend no. 05-2022 明确批次与黑刺李；换用官网完整瓶图，未采用顶部截断的零售图片。"
+      },
+      "imageDerivation": {
+        "method": "local-alpha-only-manually-reviewed-silhouette",
+        "sourceImage": "/images/awards-europe-africa/5142713-official-source.jpg",
+        "fullResolutionCutout": "/images/awards-europe-africa/5142713-cutout.png",
+        "rgbPixelsUnchanged": true,
+        "sourceSha256": "a74f4fdc730607cac6ead16b063f24285b5e582234ebfeddefd631346f5fc259",
+        "parameters": {
+          "supersampling": 4,
+          "profileYLeftRight": [
+            [
+              75,
+              309,
+              325
+            ],
+            [
+              78,
+              300,
+              333
+            ],
+            [
+              83,
+              295,
+              337
+            ],
+            [
+              94,
+              294,
+              338
+            ],
+            [
+              102,
+              297,
+              336
+            ],
+            [
+              129,
+              297,
+              335
+            ],
+            [
+              169,
+              292,
+              340
+            ],
+            [
+              207,
+              284,
+              348
+            ],
+            [
+              254,
+              271,
+              362
+            ],
+            [
+              290,
+              262,
+              373
+            ],
+            [
+              324,
+              258,
+              378
+            ],
+            [
+              493,
+              258,
+              378
+            ],
+            [
+              507,
+              262,
+              373
+            ],
+            [
+              515,
+              276,
+              365
+            ],
+            [
+              520,
+              302,
+              346
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "curated-award-5561747",
+      "name": "Wit",
+      "breweryId": "curated-award-brewery-200002dc56e7849e",
+      "style": "Wheat Beer - Witbier / Blanche",
+      "styleZh": null,
+      "abv": 4.8,
+      "ibu": null,
+      "srm": null,
+      "description": "Kasteel 的小麦白啤，官方列为 4.8% ABV。柑橘和姜的清新香气，与麦芽、芫荽及香茅的风味相结合，收口清爽偏干。",
+      "originalDescription": null,
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/awards-europe-africa/5561747-card.webp",
+      "imageOriginal": "/images/awards-europe-africa/5561747-cutout.png",
+      "imageThumbnail": "/images/awards-europe-africa/5561747-map.webp",
+      "imageCredit": "Product image: Kasteel Brouwerij Vanhonsebrouck / cited product source; cached for local research demo. No added reuse rights.",
+      "imageSource": "https://www.vanhonsebrouck.be/en-us/downloads/",
+      "sourceUrls": [
+        "https://www.vanhonsebrouck.be/en-us/beer/kasteel/kasteel-wit/",
+        "https://awards.untappd.com/region/belgium/",
+        "https://awards.untappd.com/beers/5561747/",
+        "https://www.vanhonsebrouck.be/en-us/downloads/"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.vanhonsebrouck.be/en-us/beer/kasteel/kasteel-wit/",
+          "role": "official_product",
+          "retrievedAt": "2026-09-21T11:53:15.900106+00:00",
+          "readMethod": "public_search_index"
+        },
+        {
+          "url": "https://awards.untappd.com/region/belgium/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:37:24.572Z",
+          "ratingText": "3.74 in 2025",
+          "sha256": "91c183fa57e6bc3084ec30408bdb937d4d3084799d38a9c94ad56011a3a22e72",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": true
+        },
+        {
+          "url": "https://www.vanhonsebrouck.be/en-us/beer/kasteel/kasteel-wit/",
+          "role": "reviewed_product_identity_and_description",
+          "sourceFile": "research/award-country-expansion-2026-10-02/europe-africa/5561747-product.html",
+          "sha256": "e1b5cc05ac038ad4c07cdf101b46ff3cc5273ad272546cb9b09b5dec9e80c265",
+          "retrievedAt": "2026-10-02"
+        },
+        {
+          "url": "https://www.vanhonsebrouck.be/en-us/downloads/",
+          "role": "official_packshot_download",
+          "sourceFile": "research/award-country-expansion-2026-10-02/europe-africa/5561747.html",
+          "sha256": "331df7e0a808f8032c1ea3787fff193f5ed2832b70d8d96a09c61ea3d938be83",
+          "retrievedAt": "2026-10-02"
+        },
+        {
+          "url": "https://untappd.com/b/5561747",
+          "sourceFile": ".runtime/award-country-evidence/untappd-5561747.html",
+          "sha256": "05e54209590be70cc10e9c7c13c9a9f7d2bcf026fcb4e9ca306b7539efc25f2b",
+          "role": "exact_uid_public_product_crosscheck",
+          "retrievedAt": "2026-10-02"
+        }
+      ],
+      "sourceNote": "保留 Untappd 获奖年份与年度评分；本轮单独核对官方或零售同款包装、简介。图片按来源权利仅作本地研究缓存；位置为有证据的城市参照，缺证据者保留空。",
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [
+        {
+          "ratingYear": 2025,
+          "ceremonyYear": null,
+          "region": "Belgium",
+          "regionCode": "BE",
+          "scope": "country",
+          "type": "unknown",
+          "medal": "Bronze",
+          "rating": 3.74,
+          "ratingCount": null,
+          "style": "Wheat Beer - Witbier / Blanche",
+          "sourceUrl": "https://awards.untappd.com/region/belgium/",
+          "detailUrl": "https://awards.untappd.com/beers/5561747/",
+          "observedAt": "2026-09-21T02:37:24.572Z"
+        }
+      ],
+      "representativeReason": null,
+      "representativeStatus": null,
+      "craftStatus": "not_verified",
+      "collection": "awards",
+      "collections": [
+        "awards"
+      ],
+      "untappdId": "5561747",
+      "imageEvidence": {
+        "individuallyVerified": true,
+        "verifiedAt": "2026-10-02",
+        "sourceUrl": "https://www.vanhonsebrouck.be/en-us/downloads/",
+        "sha256": "99bae704d26f2e760253dd220012e2cb2df8bb62d46c0d203028d09bca77579c",
+        "originalSha256": "41825f5012b3b2acc97a6333538935473dd8865a92d1e7ae5ee45211aa1f87ff",
+        "derivative": true,
+        "cacheStatus": "cached",
+        "identity": "获奖 UID 的现有公开产品页正文以 Kasteel Wit 开头，4.8% ABV 与官网一致；官方媒体下载提供同款完整罐装。当前图片是美国市场罐装，不代表所有市场包装。"
+      },
+      "imageKind": "product_packshot",
+      "imageContentBounds": {
+        "width": 2000,
+        "height": 2000,
+        "bounds": {
+          "x": 644,
+          "y": 104,
+          "width": 714,
+          "height": 1800
+        },
+        "fullAlphaBounds": {
+          "x": 662,
+          "y": 122,
+          "width": 678,
+          "height": 1764
+        },
+        "bodyAlphaBounds": {
+          "x": 662,
+          "y": 122,
+          "width": 678,
+          "height": 1764
+        },
+        "alphaThreshold": 64,
+        "paddingPixels": 18,
+        "sourceMode": "RGBA",
+        "method": "decoded_alpha_body_with_padding",
+        "originalSha256": "99bae704d26f2e760253dd220012e2cb2df8bb62d46c0d203028d09bca77579c"
+      },
+      "officialProductName": "Kasteel Wit",
+      "fieldEvidence": {
+        "productPageFile": null,
+        "productPageSha256": null,
+        "indexedEvidenceFile": "research/curated-catalog/award-enrichment-americas-evidence/indexed-product-facts.json",
+        "readLimitation": null
+      },
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/5561747/",
+          "https://www.vanhonsebrouck.be/en-us/beer/kasteel/kasteel-wit/",
+          "https://www.vanhonsebrouck.be/en-us/downloads/"
+        ],
+        "basis": "获奖 UID 的现有公开产品页正文以 Kasteel Wit 开头，4.8% ABV 与官网一致；官方媒体下载提供同款完整罐装。当前图片是美国市场罐装，不代表所有市场包装。"
+      },
+      "descriptionMethod": "faithful_short_paraphrase_of_official_product_page",
+      "imageBeforeCutout": "/images/awards-europe-africa/5561747-source.png",
+      "imageDownloadUrl": "https://www.vanhonsebrouck.be/wp-content/uploads/2025/06/Kasteel-Wit-can.png",
+      "imageCacheStatus": "cached",
+      "imageDerivation": {
+        "method": "source-alpha-with-faint-shadow-removal",
+        "sourceImage": "/images/awards-europe-africa/5561747-source.png",
+        "fullResolutionCutout": "/images/awards-europe-africa/5561747-cutout.png",
+        "rgbPixelsUnchanged": true,
+        "sourceSha256": "41825f5012b3b2acc97a6333538935473dd8865a92d1e7ae5ee45211aa1f87ff",
+        "parameters": {
+          "minimumAlpha": 64
+        }
+      }
+    },
+    {
+      "id": "curated-award-5818713",
+      "name": "Galaxy Crush",
+      "breweryId": "curated-award-brewery-32f29f7f03527085",
+      "style": "Pale Ale - Other",
+      "styleZh": null,
+      "abv": 5,
+      "ibu": null,
+      "srm": null,
+      "description": "Jump Brewing 于 2024 年 5 月发布的 Galaxy Crush 淡色艾尔。酒厂描述其清爽易饮，有百香果、桃及柑橘风味；确切产品资料列为 5% ABV。",
+      "originalDescription": null,
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/awards-europe-africa/5818713-card.webp",
+      "imageOriginal": "/images/awards-europe-africa/5818713-cutout.png",
+      "imageThumbnail": "/images/awards-europe-africa/5818713-map.webp",
+      "imageCredit": "Product image: Jump Brewing / cited product source; cached for local research demo. No added reuse rights.",
+      "imageSource": "https://www.jumpbrewing.com/",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/south-africa/",
+        "https://awards.untappd.com/beers/5818713/",
+        "https://awards.untappd.com/region/south-africa/page/2/",
+        "https://www.jumpbrewing.com/"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://awards.untappd.com/region/south-africa/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:37:24.219Z",
+          "ratingText": "3.57 in 2025",
+          "sha256": "a89fc45419300c51bca1074ef1f92f79101ec71d410f3d238d06fc00481f3098",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": true
+        },
+        {
+          "url": "https://awards.untappd.com/region/south-africa/page/2/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:39:01.717Z",
+          "ratingText": "3.57 in 2025",
+          "sha256": "835964bfc75272780a407ddfc0f395e6b52c0781a4c07e6f86263079c822e6af",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": true
+        },
+        {
+          "url": "https://www.jumpbrewing.com/",
+          "role": "reviewed_product_identity_and_description",
+          "sourceFile": "research/award-country-expansion-2026-10-02/europe-africa/jump-official.html",
+          "sha256": "39c193cc88b86b022daff83935036814652b1784c0116944f88b55a03430907a",
+          "retrievedAt": "2026-10-02"
+        },
+        {
+          "url": "https://untappd.com/b/5818713",
+          "sourceFile": ".runtime/award-country-evidence/untappd-5818713.html",
+          "sha256": "0a4e34d67fc6dee746af9d7a047ae989578e10e10a25479b17ffe924ccd67a8d",
+          "role": "exact_uid_public_product_crosscheck",
+          "retrievedAt": "2026-10-02"
+        }
+      ],
+      "sourceNote": "保留 Untappd 获奖年份与年度评分；本轮单独核对官方或零售同款包装、简介。图片按来源权利仅作本地研究缓存；位置为有证据的城市参照，缺证据者保留空。",
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [
+        {
+          "ratingYear": 2025,
+          "ceremonyYear": null,
+          "region": "South Africa",
+          "regionCode": "ZA",
+          "scope": "country",
+          "type": "unknown",
+          "medal": "Gold",
+          "rating": 3.57,
+          "ratingCount": null,
+          "style": "Pale Ale - Other",
+          "sourceUrl": "https://awards.untappd.com/region/south-africa/",
+          "detailUrl": "https://awards.untappd.com/beers/5818713/",
+          "observedAt": "2026-09-21T02:37:24.219Z"
+        }
+      ],
+      "representativeReason": null,
+      "representativeStatus": null,
+      "craftStatus": "not_verified",
+      "untappdId": "5818713",
+      "collection": "awards",
+      "collections": [
+        "awards"
+      ],
+      "imageBeforeCutout": "/images/awards-europe-africa/5818713-source.png",
+      "imageDownloadUrl": "https://www.jumpbrewing.com/wp-content/uploads/2024/05/Galaxy-Crush_Can.png",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageContentBounds": {
+        "width": 2160,
+        "height": 2160,
+        "bounds": {
+          "x": 657,
+          "y": 297,
+          "width": 844,
+          "height": 1613
+        },
+        "fullAlphaBounds": {
+          "x": 673,
+          "y": 313,
+          "width": 812,
+          "height": 1581
+        },
+        "bodyAlphaBounds": {
+          "x": 673,
+          "y": 313,
+          "width": 812,
+          "height": 1581
+        },
+        "alphaThreshold": 64,
+        "paddingPixels": 16,
+        "sourceMode": "RGBA",
+        "method": "decoded_alpha_body_with_padding",
+        "originalSha256": "e021fcf44542a94c209464b70253767615c3d6c463dd5873caf8667dc34696f0"
+      },
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/5818713/",
+          "https://www.jumpbrewing.com/"
+        ],
+        "basis": "官网直接发布 Galaxy Crush 完整罐装包装图，罐名与官方介绍吻合；未用 Fierce 合作版本替换。图片为官方产品包装展示，不是本项目生成。"
+      },
+      "imageEvidence": {
+        "individuallyVerified": true,
+        "verifiedAt": "2026-10-02",
+        "sourceUrl": "https://www.jumpbrewing.com/",
+        "sha256": "e021fcf44542a94c209464b70253767615c3d6c463dd5873caf8667dc34696f0",
+        "originalSha256": "09268f96562434fc64838bc5d10ed03b215eea4b8ec568b88bc2e179f58757b8",
+        "derivative": true,
+        "cacheStatus": "cached",
+        "identity": "官网直接发布 Galaxy Crush 完整罐装包装图，罐名与官方介绍吻合；未用 Fierce 合作版本替换。图片为官方产品包装展示，不是本项目生成。"
+      },
+      "imageDerivation": {
+        "method": "source-alpha-with-faint-shadow-removal",
+        "sourceImage": "/images/awards-europe-africa/5818713-source.png",
+        "fullResolutionCutout": "/images/awards-europe-africa/5818713-cutout.png",
+        "rgbPixelsUnchanged": true,
+        "sourceSha256": "09268f96562434fc64838bc5d10ed03b215eea4b8ec568b88bc2e179f58757b8",
+        "parameters": {
+          "minimumAlpha": 64
+        }
+      }
+    },
+    {
+      "id": "curated-award-5916622",
+      "name": "Hermine",
+      "breweryId": "curated-award-brewery-ef633271341ebae7",
+      "style": "Wheat Beer - Witbier / Blanche",
+      "styleZh": null,
+      "abv": 4.5,
+      "ibu": null,
+      "srm": null,
+      "description": "比利时 Brasserie Fantôme 的 Hermine 小麦白啤，瓶身标示 Blanche D’ici，并使用白鼬图案。公开产品资料列为 4.5% ABV；本轮未补写没有来源支持的详细香气。",
+      "originalDescription": null,
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/awards-europe-africa/5916622-card.webp",
+      "imageOriginal": "/images/awards-europe-africa/5916622-cutout.png",
+      "imageThumbnail": "/images/awards-europe-africa/5916622-map.webp",
+      "imageCredit": "Product image: Brasserie Fantôme / cited product source; cached for local research demo. No added reuse rights.",
+      "imageSource": "https://windsorbottleshop.com/products/fantome-hermine-blache?variant=46042180157655",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/belgium/",
+        "https://awards.untappd.com/beers/5916622/",
+        "https://windsorbottleshop.com/products/fantome-hermine-blache?variant=46042180157655"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://awards.untappd.com/region/belgium/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:37:24.572Z",
+          "ratingText": "3.74 in 2025",
+          "sha256": "91c183fa57e6bc3084ec30408bdb937d4d3084799d38a9c94ad56011a3a22e72",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": false
+        },
+        {
+          "url": "https://windsorbottleshop.com/products/fantome-hermine-blache?variant=46042180157655",
+          "role": "reviewed_product_identity_and_description",
+          "sourceFile": "research/award-country-expansion-2026-10-02/europe-africa/5916622.html",
+          "sha256": "893c0721a507f3289903fa5e30c560d39bbceebfdf02d67a8ec1f75b3e3789ff",
+          "retrievedAt": "2026-10-02"
+        },
+        {
+          "url": "https://untappd.com/b/5916622",
+          "sourceFile": ".runtime/award-country-evidence/untappd-5916622.html",
+          "sha256": "90d9938fd0c33f69111a5bf8712841f7989bd7eae687266f01a7ab9c180a1070",
+          "role": "exact_uid_public_product_crosscheck",
+          "retrievedAt": "2026-10-02"
+        }
+      ],
+      "sourceNote": "保留 Untappd 获奖年份与年度评分；本轮单独核对官方或零售同款包装、简介。图片按来源权利仅作本地研究缓存；位置为有证据的城市参照，缺证据者保留空。",
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [
+        {
+          "ratingYear": 2025,
+          "ceremonyYear": null,
+          "region": "Belgium",
+          "regionCode": "BE",
+          "scope": "country",
+          "type": "unknown",
+          "medal": "Silver",
+          "rating": 3.74,
+          "ratingCount": null,
+          "style": "Wheat Beer - Witbier / Blanche",
+          "sourceUrl": "https://awards.untappd.com/region/belgium/",
+          "detailUrl": "https://awards.untappd.com/beers/5916622/",
+          "observedAt": "2026-09-21T02:37:24.572Z"
+        }
+      ],
+      "representativeReason": null,
+      "representativeStatus": null,
+      "craftStatus": "not_verified",
+      "untappdId": "5916622",
+      "collection": "awards",
+      "collections": [
+        "awards"
+      ],
+      "imageBeforeCutout": "/images/awards-europe-africa/5916622-source.jpg",
+      "imageDownloadUrl": "https://windsorbottleshop.com/cdn/shop/files/fantome-hermine-blanche-d-ici_1200x1200.jpg?v=1738639184",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageContentBounds": {
+        "width": 1000,
+        "height": 1000,
+        "bounds": {
+          "x": 361,
+          "y": 0,
+          "width": 277,
+          "height": 1000
+        },
+        "fullAlphaBounds": {
+          "x": 371,
+          "y": 9,
+          "width": 257,
+          "height": 982
+        },
+        "bodyAlphaBounds": {
+          "x": 371,
+          "y": 9,
+          "width": 257,
+          "height": 982
+        },
+        "alphaThreshold": 64,
+        "paddingPixels": 10,
+        "sourceMode": "RGBA",
+        "method": "decoded_alpha_body_with_padding",
+        "originalSha256": "0a1acca81f4fc03fdeb28c942128ec7f1b6cf03587bdb40879359b19460c884a"
+      },
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/5916622/",
+          "https://windsorbottleshop.com/products/fantome-hermine-blache?variant=46042180157655"
+        ],
+        "basis": "零售页标题拼作 Hermine Blache，瓶上 Hermine / Blanche D’ici 与 Fantôme 厂名可见，并与获奖 UID 对应；未使用 Lancelot 的 Blanche Hermine。"
+      },
+      "imageEvidence": {
+        "individuallyVerified": true,
+        "verifiedAt": "2026-10-02",
+        "sourceUrl": "https://windsorbottleshop.com/products/fantome-hermine-blache?variant=46042180157655",
+        "sha256": "0a1acca81f4fc03fdeb28c942128ec7f1b6cf03587bdb40879359b19460c884a",
+        "originalSha256": "e25a635300e52ab1bd048cc25364b6aba6a130df0755542e93d9b0713e0c96d4",
+        "derivative": true,
+        "cacheStatus": "cached",
+        "identity": "零售页标题拼作 Hermine Blache，瓶上 Hermine / Blanche D’ici 与 Fantôme 厂名可见，并与获奖 UID 对应；未使用 Lancelot 的 Blanche Hermine。"
+      },
+      "imageDerivation": {
+        "method": "local-alpha-only-border-connected-white-removal",
+        "sourceImage": "/images/awards-europe-africa/5916622-source.jpg",
+        "fullResolutionCutout": "/images/awards-europe-africa/5916622-cutout.png",
+        "rgbPixelsUnchanged": true,
+        "sourceSha256": "e25a635300e52ab1bd048cc25364b6aba6a130df0755542e93d9b0713e0c96d4",
+        "parameters": {
+          "minChannel": 235,
+          "maximumChannelSpread": 20,
+          "connectivity": 4
+        }
+      }
+    },
+    {
+      "id": "curated-award-6065240",
+      "name": "Pale Ale",
+      "breweryId": "curated-award-brewery-32f29f7f03527085",
+      "style": "Pale Ale - Other",
+      "styleZh": null,
+      "abv": 4.5,
+      "ibu": null,
+      "srm": null,
+      "description": "Jump Brewing 的 4.5% 淡色艾尔。零售商品页及罐身描述其具有菠萝、梨和西瓜糖般的热带水果风味；为限量批次产品。",
+      "originalDescription": null,
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/awards-europe-africa/6065240-card.webp",
+      "imageOriginal": "/images/awards-europe-africa/6065240-cutout.png",
+      "imageThumbnail": "/images/awards-europe-africa/6065240-map.webp",
+      "imageCredit": "Product image: Jump Brewing / cited product source; cached for local research demo. No added reuse rights.",
+      "imageSource": "https://www.beer52.com/shop/product/jump-brewing/pale-ale/6561",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/south-africa/",
+        "https://awards.untappd.com/beers/6065240/",
+        "https://awards.untappd.com/region/south-africa/page/2/",
+        "https://www.beer52.com/shop/product/jump-brewing/pale-ale/6561"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://awards.untappd.com/region/south-africa/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:37:24.219Z",
+          "ratingText": "3.46 in 2025",
+          "sha256": "a89fc45419300c51bca1074ef1f92f79101ec71d410f3d238d06fc00481f3098",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": true
+        },
+        {
+          "url": "https://awards.untappd.com/region/south-africa/page/2/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:39:01.717Z",
+          "ratingText": "3.46 in 2025",
+          "sha256": "835964bfc75272780a407ddfc0f395e6b52c0781a4c07e6f86263079c822e6af",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": true
+        },
+        {
+          "url": "https://www.beer52.com/shop/product/jump-brewing/pale-ale/6561",
+          "role": "reviewed_product_identity_and_description",
+          "sourceFile": "research/award-country-expansion-2026-10-02/europe-africa/6065240.html",
+          "sha256": "61067cfee4af06eead61a2645997810993565b27eaeff968839f90f252fa3f2b",
+          "retrievedAt": "2026-10-02"
+        },
+        {
+          "url": "https://untappd.com/b/6065240",
+          "sourceFile": ".runtime/award-country-evidence/untappd-6065240.html",
+          "sha256": "bda586f515e066f5c2676943967685067f58bdb814a72b2641758aa17f002cab",
+          "role": "exact_uid_public_product_crosscheck",
+          "retrievedAt": "2026-10-02"
+        }
+      ],
+      "sourceNote": "保留 Untappd 获奖年份与年度评分；本轮单独核对官方或零售同款包装、简介。图片按来源权利仅作本地研究缓存；位置为有证据的城市参照，缺证据者保留空。",
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [
+        {
+          "ratingYear": 2025,
+          "ceremonyYear": null,
+          "region": "South Africa",
+          "regionCode": "ZA",
+          "scope": "country",
+          "type": "unknown",
+          "medal": "Bronze",
+          "rating": 3.46,
+          "ratingCount": null,
+          "style": "Pale Ale - Other",
+          "sourceUrl": "https://awards.untappd.com/region/south-africa/",
+          "detailUrl": "https://awards.untappd.com/beers/6065240/",
+          "observedAt": "2026-09-21T02:37:24.219Z"
+        }
+      ],
+      "representativeReason": null,
+      "representativeStatus": null,
+      "craftStatus": "not_verified",
+      "untappdId": "6065240",
+      "collection": "awards",
+      "collections": [
+        "awards"
+      ],
+      "imageBeforeCutout": "/images/awards-europe-africa/6065240-source.png",
+      "imageDownloadUrl": "https://dth50iqs19w2y.cloudfront.net/bf/0a9d50fc9748d3ae37ed33dcd13358/Jump-Brewing-Pale-Ale.png",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageContentBounds": {
+        "width": 790,
+        "height": 790,
+        "bounds": {
+          "x": 238,
+          "y": 130,
+          "width": 313,
+          "height": 557
+        },
+        "fullAlphaBounds": {
+          "x": 243,
+          "y": 135,
+          "width": 303,
+          "height": 547
+        },
+        "bodyAlphaBounds": {
+          "x": 243,
+          "y": 135,
+          "width": 303,
+          "height": 547
+        },
+        "alphaThreshold": 64,
+        "paddingPixels": 5,
+        "sourceMode": "RGBA",
+        "method": "decoded_alpha_body_with_padding",
+        "originalSha256": "4ad53d65c7a0da48ebf59e29f4677b09fa5ddde6a3346cb7c829b08d83924d64"
+      },
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/6065240/",
+          "https://www.beer52.com/shop/product/jump-brewing/pale-ale/6561"
+        ],
+        "basis": "Beer52 的 Jump Brewing Pale Ale 名称、4.5% ABV 与确切 UID 一致，图上同名罐装可见。未将其生产地点推断为任何合作酒厂。"
+      },
+      "imageEvidence": {
+        "individuallyVerified": true,
+        "verifiedAt": "2026-10-02",
+        "sourceUrl": "https://www.beer52.com/shop/product/jump-brewing/pale-ale/6561",
+        "sha256": "4ad53d65c7a0da48ebf59e29f4677b09fa5ddde6a3346cb7c829b08d83924d64",
+        "originalSha256": "64e4d92058352a961b328152c1f14389fc77a5f9233f9fecaae3dc22034a02a6",
+        "derivative": true,
+        "cacheStatus": "cached",
+        "identity": "Beer52 的 Jump Brewing Pale Ale 名称、4.5% ABV 与确切 UID 一致，图上同名罐装可见。未将其生产地点推断为任何合作酒厂。"
+      },
+      "imageDerivation": {
+        "method": "source-alpha-with-faint-shadow-removal",
+        "sourceImage": "/images/awards-europe-africa/6065240-source.png",
+        "fullResolutionCutout": "/images/awards-europe-africa/6065240-cutout.png",
+        "rgbPixelsUnchanged": true,
+        "sourceSha256": "64e4d92058352a961b328152c1f14389fc77a5f9233f9fecaae3dc22034a02a6",
+        "parameters": {
+          "minimumAlpha": 64
+        }
+      }
+    },
+    {
+      "id": "curated-award-6092969",
+      "name": "Blaue Felder 2024",
+      "breweryId": "curated-award-brewery-5fac437064d03abc",
+      "style": "Wild Ale - Other",
+      "styleZh": null,
+      "abv": null,
+      "ibu": null,
+      "srm": null,
+      "description": "Blaue Felder 2024 将陈酿 3 至 5 年的野生艾尔混合，并加入 2023 年采收的蓝莓和金银忍冬果。来源对酒精度有 6.4% 与 6.7% 的冲突，暂不填数值。",
+      "originalDescription": null,
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/awards-europe-africa/6092969-card.webp",
+      "imageOriginal": "/images/awards-europe-africa/6092969-cutout.png",
+      "imageThumbnail": "/images/awards-europe-africa/6092969-map.webp",
+      "imageCredit": "Product image: Lost Horizon Farm / cited product source; cached for local research demo. No added reuse rights.",
+      "imageSource": "https://bierothek.de/online-shop/10024025-lost%2bhorizon%2bfarm%2bblaue%2bfelder%2b-%2bbuddelship.html",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/germany/",
+        "https://awards.untappd.com/beers/6092969/",
+        "https://bierothek.de/online-shop/10024025-lost%2bhorizon%2bfarm%2bblaue%2bfelder%2b-%2bbuddelship.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://awards.untappd.com/region/germany/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:37:24.572Z",
+          "ratingText": "3.95 in 2025",
+          "sha256": "91c183fa57e6bc3084ec30408bdb937d4d3084799d38a9c94ad56011a3a22e72",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": false
+        },
+        {
+          "url": "https://bierothek.de/online-shop/10024025-lost%2bhorizon%2bfarm%2bblaue%2bfelder%2b-%2bbuddelship.html",
+          "role": "reviewed_product_identity_and_description",
+          "sourceFile": "research/award-country-expansion-2026-10-02/europe-africa/6092969.html",
+          "sha256": "03947168852b26784a960ebf832eebafd7bbc2938739256adb354bfc6486f4b6",
+          "retrievedAt": "2026-10-02"
+        },
+        {
+          "url": "https://untappd.com/b/6092969",
+          "sourceFile": ".runtime/award-country-evidence/untappd-6092969.html",
+          "sha256": "d4bc4c461fd1206ab3c7228ecfca4ac002a93e72b2bfbe064ef73fbd483b7d1a",
+          "role": "exact_uid_public_product_crosscheck",
+          "retrievedAt": "2026-10-02"
+        }
+      ],
+      "sourceNote": "保留 Untappd 获奖年份与年度评分；本轮单独核对官方或零售同款包装、简介。图片按来源权利仅作本地研究缓存；位置为有证据的城市参照，缺证据者保留空。",
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [
+        {
+          "ratingYear": 2025,
+          "ceremonyYear": null,
+          "region": "Germany",
+          "regionCode": "DE",
+          "scope": "country",
+          "type": "unknown",
+          "medal": "Gold",
+          "rating": 3.95,
+          "ratingCount": null,
+          "style": "Wild Ale - Other",
+          "sourceUrl": "https://awards.untappd.com/region/germany/",
+          "detailUrl": "https://awards.untappd.com/beers/6092969/",
+          "observedAt": "2026-09-21T02:37:24.572Z"
+        }
+      ],
+      "representativeReason": null,
+      "representativeStatus": null,
+      "craftStatus": "not_verified",
+      "untappdId": "6092969",
+      "collection": "awards",
+      "collections": [
+        "awards"
+      ],
+      "imageBeforeCutout": "/images/awards-europe-africa/6092969-source.webp",
+      "imageDownloadUrl": "https://images.bierothek.de/storage/product_images/det/LostHorizonFarm_213249.webp",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageContentBounds": {
+        "width": 370,
+        "height": 555,
+        "bounds": {
+          "x": 113,
+          "y": 11,
+          "width": 141,
+          "height": 524
+        },
+        "fullAlphaBounds": {
+          "x": 118,
+          "y": 16,
+          "width": 131,
+          "height": 514
+        },
+        "bodyAlphaBounds": {
+          "x": 118,
+          "y": 16,
+          "width": 131,
+          "height": 514
+        },
+        "alphaThreshold": 64,
+        "paddingPixels": 5,
+        "sourceMode": "RGBA",
+        "method": "decoded_alpha_body_with_padding",
+        "originalSha256": "31fdc991f706c70d73a025e654fb94a7ce373001bf44d718be6e6d34605b63b8"
+      },
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/6092969/",
+          "https://bierothek.de/online-shop/10024025-lost%2bhorizon%2bfarm%2bblaue%2bfelder%2b-%2bbuddelship.html"
+        ],
+        "basis": "零售页明确 2024 年产品；瓶身可见 Blaue Felder 与 Blueberry Wild Ale 2024。未使用无年份或其他年份的通用 Lost Horizon 瓶图。"
+      },
+      "imageEvidence": {
+        "individuallyVerified": true,
+        "verifiedAt": "2026-10-02",
+        "sourceUrl": "https://bierothek.de/online-shop/10024025-lost%2bhorizon%2bfarm%2bblaue%2bfelder%2b-%2bbuddelship.html",
+        "sha256": "31fdc991f706c70d73a025e654fb94a7ce373001bf44d718be6e6d34605b63b8",
+        "originalSha256": "f1a1de4a42c91f1aa6498dd54b126eeb600c487e7ebad695677fb531d69ca1c7",
+        "derivative": true,
+        "cacheStatus": "cached",
+        "identity": "零售页明确 2024 年产品；瓶身可见 Blaue Felder 与 Blueberry Wild Ale 2024。未使用无年份或其他年份的通用 Lost Horizon 瓶图。"
+      },
+      "imageDerivation": {
+        "method": "source-alpha-with-faint-shadow-removal",
+        "sourceImage": "/images/awards-europe-africa/6092969-source.webp",
+        "fullResolutionCutout": "/images/awards-europe-africa/6092969-cutout.png",
+        "rgbPixelsUnchanged": true,
+        "sourceSha256": "f1a1de4a42c91f1aa6498dd54b126eeb600c487e7ebad695677fb531d69ca1c7",
+        "parameters": {
+          "minimumAlpha": 64
+        }
+      },
+      "fieldConflicts": [
+        {
+          "field": "abv",
+          "observations": [
+            {
+              "value": 6.4,
+              "sourceUrl": "https://untappd.com/b/lost-horizon-farm-blaue-felder-2024/6092969"
+            },
+            {
+              "value": 6.7,
+              "sourceUrl": "https://bierothek.de/online-shop/10024025-lost%2Bhorizon%2Bfarm%2Bblaue%2Bfelder%2B-%2Bbuddelship.html"
+            }
+          ],
+          "resolution": "not_resolved_value_left_null"
+        }
+      ]
+    },
+    {
+      "id": "curated-award-6271965",
+      "name": "ProtoBeer – Quince Wheat Ale",
+      "breweryId": "curated-award-brewery-f4e78004d965ed4b",
+      "style": "Wheat Beer - Fruited",
+      "styleZh": null,
+      "abv": 6,
+      "ibu": 18,
+      "srm": null,
+      "description": "Black Forest Brewing 的木梨小麦艾尔，使用木梨汁浓缩物、小麦麦芽与 Ariana 酒花。商品资料列为 6% ABV、18 IBU，描述有木梨、柑橘及香蕉气息。",
+      "originalDescription": null,
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/awards-europe-africa/6271965-card.webp",
+      "imageOriginal": "/images/awards-europe-africa/6271965-cutout.png",
+      "imageThumbnail": "/images/awards-europe-africa/6271965-map.webp",
+      "imageCredit": "Product image: Black Forest Brewing / cited product source; cached for local research demo. No added reuse rights.",
+      "imageSource": "https://www.honest-rare.de/en/protobeer-quince-wheat-ale/",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/germany/",
+        "https://awards.untappd.com/beers/6271965/",
+        "https://www.honest-rare.de/en/protobeer-quince-wheat-ale/"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://awards.untappd.com/region/germany/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:37:24.572Z",
+          "ratingText": "3.54 in 2025",
+          "sha256": "91c183fa57e6bc3084ec30408bdb937d4d3084799d38a9c94ad56011a3a22e72",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": false
+        },
+        {
+          "url": "https://www.honest-rare.de/en/protobeer-quince-wheat-ale/",
+          "role": "reviewed_product_identity_and_description",
+          "sourceFile": "research/award-country-expansion-2026-10-02/europe-africa/6271965-product.html",
+          "sha256": "5f00b5475e6fd4e20330cf41fe1ffe889c8ef2c07cb4a465d77cf1877b4644c6",
+          "retrievedAt": "2026-10-02"
+        },
+        {
+          "url": "https://untappd.com/b/6271965",
+          "sourceFile": ".runtime/award-country-evidence/untappd-6271965.html",
+          "sha256": "8b5c3b1313909fb777ed4d3ab946872bdd337491357838880cb48df0a386dc8f",
+          "role": "exact_uid_public_product_crosscheck",
+          "retrievedAt": "2026-10-02"
+        }
+      ],
+      "sourceNote": "保留 Untappd 获奖年份与年度评分；本轮单独核对官方或零售同款包装、简介。图片按来源权利仅作本地研究缓存；位置为有证据的城市参照，缺证据者保留空。",
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [
+        {
+          "ratingYear": 2025,
+          "ceremonyYear": null,
+          "region": "Germany",
+          "regionCode": "DE",
+          "scope": "country",
+          "type": "unknown",
+          "medal": "Bronze",
+          "rating": 3.54,
+          "ratingCount": null,
+          "style": "Wheat Beer - Fruited",
+          "sourceUrl": "https://awards.untappd.com/region/germany/",
+          "detailUrl": "https://awards.untappd.com/beers/6271965/",
+          "observedAt": "2026-09-21T02:37:24.572Z"
+        }
+      ],
+      "representativeReason": null,
+      "representativeStatus": null,
+      "craftStatus": "not_verified",
+      "untappdId": "6271965",
+      "collection": "awards",
+      "collections": [
+        "awards"
+      ],
+      "imageBeforeCutout": "/images/awards-europe-africa/6271965-source.png",
+      "imageDownloadUrl": "https://www.honest-rare.de/images/detailed/54/protobeer-quince-wheat-ale.png",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageContentBounds": {
+        "width": 719,
+        "height": 1390,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 719,
+          "height": 1390
+        },
+        "fullAlphaBounds": {
+          "x": 2,
+          "y": 2,
+          "width": 715,
+          "height": 1387
+        },
+        "bodyAlphaBounds": {
+          "x": 2,
+          "y": 2,
+          "width": 715,
+          "height": 1387
+        },
+        "alphaThreshold": 64,
+        "paddingPixels": 14,
+        "sourceMode": "RGBA",
+        "method": "decoded_alpha_body_with_padding",
+        "originalSha256": "e9662f412719f1724f8fc3da75b927cd481d3a4ff126ff8957fe10bc7a97e324"
+      },
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/6271965/",
+          "https://www.honest-rare.de/en/protobeer-quince-wheat-ale/"
+        ],
+        "basis": "零售商精确 Quince Wheat Ale 商品页提供此罐图，生产者与风格吻合；罐正面是该系列通用设计，未声称正面能读到 Quince。"
+      },
+      "imageEvidence": {
+        "individuallyVerified": true,
+        "verifiedAt": "2026-10-02",
+        "sourceUrl": "https://www.honest-rare.de/en/protobeer-quince-wheat-ale/",
+        "sha256": "e9662f412719f1724f8fc3da75b927cd481d3a4ff126ff8957fe10bc7a97e324",
+        "originalSha256": "1c310beb13962cac2cc126bf360e073eab82e4118a9ed47a796626719c6b2069",
+        "derivative": true,
+        "cacheStatus": "cached",
+        "identity": "零售商精确 Quince Wheat Ale 商品页提供此罐图，生产者与风格吻合；罐正面是该系列通用设计，未声称正面能读到 Quince。"
+      },
+      "imageDerivation": {
+        "method": "source-alpha-with-faint-shadow-removal",
+        "sourceImage": "/images/awards-europe-africa/6271965-source.png",
+        "fullResolutionCutout": "/images/awards-europe-africa/6271965-cutout.png",
+        "rgbPixelsUnchanged": true,
+        "sourceSha256": "1c310beb13962cac2cc126bf360e073eab82e4118a9ed47a796626719c6b2069",
+        "parameters": {
+          "minimumAlpha": 64
+        }
+      }
+    },
+    {
+      "id": "curated-award-6454973",
+      "name": "Straffe Hendrik Xmas Blend (2025)",
+      "breweryId": "curated-award-brewery-7d730645572b6e97",
+      "style": "Winter Ale",
+      "styleZh": null,
+      "abv": 11,
+      "ibu": null,
+      "srm": null,
+      "description": "2025 年的 Straffe Hendrik Xmas Blend，将年轻四料艾尔与橡木桶陈四料混合，并在瓶内继续发酵。酒精度 11%，包装为 750 毫升软木塞瓶。",
+      "originalDescription": null,
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/awards-europe-africa/6454973-card.webp",
+      "imageOriginal": "/images/awards-europe-africa/6454973-cutout.png",
+      "imageThumbnail": "/images/awards-europe-africa/6454973-map.webp",
+      "imageCredit": "Product image: Brouwerij De Halve Maan / cited product source; cached for local research demo. No added reuse rights.",
+      "imageSource": "https://www.thebelgianbeercompany.com/p/beers-to-share/straffe-xmas-blend-75cl/",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/belgium/",
+        "https://awards.untappd.com/beers/6454973/",
+        "https://www.thebelgianbeercompany.com/p/beers-to-share/straffe-xmas-blend-75cl/"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://awards.untappd.com/region/belgium/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:37:24.572Z",
+          "ratingText": "3.85 in 2025",
+          "sha256": "91c183fa57e6bc3084ec30408bdb937d4d3084799d38a9c94ad56011a3a22e72",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": false
+        },
+        {
+          "url": "https://www.thebelgianbeercompany.com/p/beers-to-share/straffe-xmas-blend-75cl/",
+          "role": "reviewed_product_identity_and_description",
+          "sourceFile": "research/award-country-expansion-2026-10-02/europe-africa/6454973.html",
+          "sha256": "fd79c4c17b63a58beccf6f3b1b8c030920d65c6373216684652e9ae07085f600",
+          "retrievedAt": "2026-10-02"
+        },
+        {
+          "url": "https://untappd.com/b/6454973",
+          "sourceFile": ".runtime/award-country-evidence/untappd-6454973.html",
+          "sha256": "9ce8ec2da691cd001c615a2ec29b0d6f6b63673977c178c007938bd85d104958",
+          "role": "exact_uid_public_product_crosscheck",
+          "retrievedAt": "2026-10-02"
+        }
+      ],
+      "sourceNote": "保留 Untappd 获奖年份与年度评分；本轮单独核对官方或零售同款包装、简介。图片按来源权利仅作本地研究缓存；位置为有证据的城市参照，缺证据者保留空。",
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [
+        {
+          "ratingYear": 2025,
+          "ceremonyYear": null,
+          "region": "Belgium",
+          "regionCode": "BE",
+          "scope": "country",
+          "type": "unknown",
+          "medal": "Bronze",
+          "rating": 3.85,
+          "ratingCount": null,
+          "style": "Winter Ale",
+          "sourceUrl": "https://awards.untappd.com/region/belgium/",
+          "detailUrl": "https://awards.untappd.com/beers/6454973/",
+          "observedAt": "2026-09-21T02:37:24.572Z"
+        }
+      ],
+      "representativeReason": null,
+      "representativeStatus": null,
+      "craftStatus": "not_verified",
+      "untappdId": "6454973",
+      "collection": "awards",
+      "collections": [
+        "awards"
+      ],
+      "imageBeforeCutout": "/images/awards-europe-africa/6454973-source.jpg",
+      "imageDownloadUrl": "https://www.thebelgianbeercompany.com/wp-content/uploads/2023/01/IMG-20251014-WA0001.jpg",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageContentBounds": {
+        "width": 600,
+        "height": 900,
+        "bounds": {
+          "x": 184,
+          "y": 5,
+          "width": 225,
+          "height": 876
+        },
+        "fullAlphaBounds": {
+          "x": 193,
+          "y": 14,
+          "width": 207,
+          "height": 858
+        },
+        "bodyAlphaBounds": {
+          "x": 193,
+          "y": 14,
+          "width": 207,
+          "height": 858
+        },
+        "alphaThreshold": 64,
+        "paddingPixels": 9,
+        "sourceMode": "RGBA",
+        "method": "decoded_alpha_body_with_padding",
+        "originalSha256": "10d81f6a244f73b88a2c70d512d7bd130bcd18e3c06ed3ad6fa4887f679a9d9a"
+      },
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/6454973/",
+          "https://www.thebelgianbeercompany.com/p/beers-to-share/straffe-xmas-blend-75cl/"
+        ],
+        "basis": "商品页明确 2025，实际瓶标可读 20 / 25；未拿旧年份 Xmas Blend 代替。"
+      },
+      "imageEvidence": {
+        "individuallyVerified": true,
+        "verifiedAt": "2026-10-02",
+        "sourceUrl": "https://www.thebelgianbeercompany.com/p/beers-to-share/straffe-xmas-blend-75cl/",
+        "sha256": "10d81f6a244f73b88a2c70d512d7bd130bcd18e3c06ed3ad6fa4887f679a9d9a",
+        "originalSha256": "0f5cd632879d402ee7e53f033ce3550167e0a5de5b2029be289ead570cf13dfc",
+        "derivative": true,
+        "cacheStatus": "cached",
+        "identity": "商品页明确 2025，实际瓶标可读 20 / 25；未拿旧年份 Xmas Blend 代替。"
+      },
+      "imageDerivation": {
+        "method": "local-alpha-only-border-connected-white-removal",
+        "sourceImage": "/images/awards-europe-africa/6454973-source.jpg",
+        "fullResolutionCutout": "/images/awards-europe-africa/6454973-cutout.png",
+        "rgbPixelsUnchanged": true,
+        "sourceSha256": "0f5cd632879d402ee7e53f033ce3550167e0a5de5b2029be289ead570cf13dfc",
+        "parameters": {
+          "minChannel": 235,
+          "maximumChannelSpread": 20,
+          "connectivity": 4
+        }
+      }
+    },
+    {
+      "id": "curated-award-6490375",
+      "name": "Bush De Noël 2025",
+      "breweryId": "curated-award-brewery-0b6da729b372cb46",
+      "style": "Winter Ale",
+      "styleZh": null,
+      "abv": 12,
+      "ibu": null,
+      "srm": null,
+      "description": "Brasserie Dubuisson 的 2025 年 Bush de Noël，零售商明确列为 12% ABV、330 毫升，属于深色高酒精度比利时冬季啤酒。保留本款瓶身，移除了原照片中的酒杯与室内背景。",
+      "originalDescription": null,
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "image": "/images/awards-europe-africa/6490375-card.webp",
+      "imageOriginal": "/images/awards-europe-africa/6490375-cutout.png",
+      "imageThumbnail": "/images/awards-europe-africa/6490375-map.webp",
+      "imageCredit": "Product image: Brasserie Dubuisson / cited product source; cached for local research demo. No added reuse rights.",
+      "imageSource": "https://guldendraak.pt/produto/bush-noel-2025-12-33cl/",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/belgium/",
+        "https://awards.untappd.com/beers/6490375/",
+        "https://guldendraak.pt/produto/bush-noel-2025-12-33cl/"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://awards.untappd.com/region/belgium/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:37:24.572Z",
+          "ratingText": "3.92 in 2025",
+          "sha256": "91c183fa57e6bc3084ec30408bdb937d4d3084799d38a9c94ad56011a3a22e72",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": false
+        },
+        {
+          "url": "https://guldendraak.pt/produto/bush-noel-2025-12-33cl/",
+          "role": "reviewed_product_identity_and_description",
+          "sourceFile": "research/award-country-expansion-2026-10-02/europe-africa/6490375.html",
+          "sha256": "52c28896fc442623a3e669729a37cd92db2eff93de9a8d797a170575f65da314",
+          "retrievedAt": "2026-10-02"
+        },
+        {
+          "url": "https://untappd.com/b/6490375",
+          "sourceFile": ".runtime/award-country-evidence/untappd-6490375.html",
+          "sha256": "f156d3e771f8222fd3f52783fe14ebefb79ef0fb5eac88856eee499a964cf0a2",
+          "role": "exact_uid_public_product_crosscheck",
+          "retrievedAt": "2026-10-02"
+        }
+      ],
+      "sourceNote": "保留 Untappd 获奖年份与年度评分；本轮单独核对官方或零售同款包装、简介。图片按来源权利仅作本地研究缓存；位置为有证据的城市参照，缺证据者保留空。",
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [
+        {
+          "ratingYear": 2025,
+          "ceremonyYear": null,
+          "region": "Belgium",
+          "regionCode": "BE",
+          "scope": "country",
+          "type": "unknown",
+          "medal": "Silver",
+          "rating": 3.92,
+          "ratingCount": null,
+          "style": "Winter Ale",
+          "sourceUrl": "https://awards.untappd.com/region/belgium/",
+          "detailUrl": "https://awards.untappd.com/beers/6490375/",
+          "observedAt": "2026-09-21T02:37:24.572Z"
+        }
+      ],
+      "representativeReason": null,
+      "representativeStatus": null,
+      "craftStatus": "not_verified",
+      "untappdId": "6490375",
+      "collection": "awards",
+      "collections": [
+        "awards"
+      ],
+      "imageBeforeCutout": "/images/awards-europe-africa/6490375-single-source.jpg",
+      "imageDownloadUrl": "https://guldendraak.pt/wp-content/uploads/2026/09/Bush-Noel-2025-12-33cl.jpg",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageContentBounds": {
+        "width": 1000,
+        "height": 1000,
+        "bounds": {
+          "x": 559,
+          "y": 296,
+          "width": 178,
+          "height": 637
+        },
+        "fullAlphaBounds": {
+          "x": 565,
+          "y": 302,
+          "width": 166,
+          "height": 625
+        },
+        "bodyAlphaBounds": {
+          "x": 565,
+          "y": 302,
+          "width": 166,
+          "height": 625
+        },
+        "alphaThreshold": 64,
+        "paddingPixels": 6,
+        "sourceMode": "RGBA",
+        "method": "decoded_alpha_body_with_padding",
+        "originalSha256": "370d3e30b3c20a9e33cc325b2e6a02d82f0418525a405c77255f2d6d726616cf"
+      },
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/6490375/",
+          "https://guldendraak.pt/produto/bush-noel-2025-12-33cl/"
+        ],
+        "basis": "零售商明确将该原图用于 Bush de Noel (2025) 产品页；瓶上同名及 12% 可辨，年份不能仅凭瓶标独立辨读。按该精确年份商品页面匹配，并保留这一限制。"
+      },
+      "imageEvidence": {
+        "individuallyVerified": true,
+        "verifiedAt": "2026-10-02",
+        "sourceUrl": "https://guldendraak.pt/produto/bush-noel-2025-12-33cl/",
+        "sha256": "370d3e30b3c20a9e33cc325b2e6a02d82f0418525a405c77255f2d6d726616cf",
+        "originalSha256": "c26f10828b7e2799dd4ef3b189d918ec98104ed3da77a3ff1609b03e2130de90",
+        "derivative": true,
+        "cacheStatus": "cached",
+        "identity": "零售商明确将该原图用于 Bush de Noel (2025) 产品页；瓶上同名及 12% 可辨，年份不能仅凭瓶标独立辨读。按该精确年份商品页面匹配，并保留这一限制。"
+      },
+      "imageDerivation": {
+        "method": "local-alpha-only-manually-reviewed-silhouette",
+        "sourceImage": "/images/awards-europe-africa/6490375-single-source.jpg",
+        "fullResolutionCutout": "/images/awards-europe-africa/6490375-cutout.png",
+        "rgbPixelsUnchanged": true,
+        "sourceSha256": "c26f10828b7e2799dd4ef3b189d918ec98104ed3da77a3ff1609b03e2130de90",
+        "parameters": {
+          "supersampling": 4,
+          "profileYLeftRight": [
+            [
+              305,
+              627,
+              670
+            ],
+            [
+              307,
+              618,
+              679
+            ],
+            [
+              312,
+              613,
+              684
+            ],
+            [
+              323,
+              612,
+              686
+            ],
+            [
+              332,
+              616,
+              681
+            ],
+            [
+              350,
+              615,
+              681
+            ],
+            [
+              405,
+              609,
+              686
+            ],
+            [
+              460,
+              603,
+              691
+            ],
+            [
+              511,
+              592,
+              703
+            ],
+            [
+              550,
+              581,
+              714
+            ],
+            [
+              592,
+              573,
+              723
+            ],
+            [
+              637,
+              570,
+              726
+            ],
+            [
+              814,
+              568,
+              728
+            ],
+            [
+              882,
+              571,
+              725
+            ],
+            [
+              905,
+              578,
+              719
+            ],
+            [
+              917,
+              592,
+              705
+            ],
+            [
+              924,
+              618,
+              684
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

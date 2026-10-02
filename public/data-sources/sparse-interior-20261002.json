@@ -1,0 +1,532 @@
+{
+  "metadata": {
+    "checkedAt": "2026-10-02",
+    "purpose": "Verified real locally brewed beer in additional sparse inland cities",
+    "breweries": 2,
+    "beers": 4,
+    "locations": [
+      "Sucre",
+      "N’Djamena"
+    ]
+  },
+  "breweries": [
+    {
+      "id": "interior-surena",
+      "name": "Cervecería Sureña / Sociedad Industrial del Sur",
+      "country": "Bolivia",
+      "countryZh": "玻利维亚",
+      "countryCode": "BO",
+      "city": "Sucre",
+      "region": "Chuquisaca",
+      "lat": -19.0475,
+      "lng": -65.26,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Sucre",
+        "resolvedLocality": "Sucre, Chuquisaca",
+        "countryCode": "BO",
+        "lat": -19.0475,
+        "lng": -65.26,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://sids.com.bo/",
+        "identitySourceUrl": "https://sids.com.bo/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Sucre",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "官网明确苏克雷工厂地址 Calle Mauri Núñez Nro 16, zona Quirpinchaca；当地报纸 Correo del Sur 的2021年工厂报道确认在本市酿造。地图为城市参考点。",
+        "sourceUrls": [
+          "https://sids.com.bo/",
+          "https://en.wikipedia.org/wiki/Sucre"
+        ]
+      },
+      "website": "https://sids.com.bo/",
+      "description": "官网明确苏克雷工厂地址 Calle Mauri Núñez Nro 16, zona Quirpinchaca；当地报纸 Correo del Sur 的2021年工厂报道确认在本市酿造。地图为城市参考点。",
+      "sourceUrls": [
+        "https://sids.com.bo/",
+        "https://en.wikipedia.org/wiki/Sucre"
+      ],
+      "craftStatus": "industrial_reference"
+    },
+    {
+      "id": "interior-bdt-ndjamena",
+      "name": "Brasseries du Tchad — N’Djamena",
+      "country": "Chad",
+      "countryZh": "乍得",
+      "countryCode": "TD",
+      "city": "N’Djamena",
+      "region": "N’Djamena",
+      "lat": 12.10528,
+      "lng": 15.04472,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "N’Djamena",
+        "resolvedLocality": "N’Djamena, N’Djamena",
+        "countryCode": "TD",
+        "lat": 12.10528,
+        "lng": 15.04472,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://bdt-td.com/entreprise",
+        "identitySourceUrl": "https://bdt-td.com/entreprise",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/N'Djamena",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "官网确认2005年建设恩贾梅纳啤酒厂，并列明 Route d’Abéché 的工厂地址及当地生产线；酒款为乍得 BDT 本土生产系列。地图使用城市参考点，不代表每个批次均在本市装瓶。",
+        "sourceUrls": [
+          "https://bdt-td.com/entreprise",
+          "https://en.wikipedia.org/wiki/N'Djamena"
+        ]
+      },
+      "website": "https://bdt-td.com/entreprise",
+      "description": "官网确认2005年建设恩贾梅纳啤酒厂，并列明 Route d’Abéché 的工厂地址及当地生产线；酒款为乍得 BDT 本土生产系列。地图使用城市参考点，不代表每个批次均在本市装瓶。",
+      "sourceUrls": [
+        "https://bdt-td.com/entreprise",
+        "https://en.wikipedia.org/wiki/N'Djamena"
+      ],
+      "craftStatus": "industrial_reference"
+    }
+  ],
+  "beers": [
+    {
+      "id": "interior-surena-especial",
+      "name": "Sureña Especial",
+      "breweryId": "interior-surena",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "German Pilsner",
+      "styleZh": "德式皮尔森",
+      "abv": 5.0,
+      "ibu": null,
+      "srm": null,
+      "description": "苏克雷 Sureña 本地酿造的 Especial。官网实物瓶图标明 German Pilsener、5%酒精度与青苹果风味描述；620ml瓶装。当地报纸工厂报道交叉核对酒精度与本土生产。",
+      "descriptionBasis": "source_backed_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://sids.com.bo/",
+        "sourceUrls": [
+          "https://sids.com.bo/",
+          "https://correodelsur.com/panorama/20211024/surena-50-anos-creando-buena-cerveza-y-empleos.html"
+        ],
+        "retrievedAt": "2026-10-02",
+        "method": "reviewed Chinese paraphrase; ABV and flavor only from product evidence"
+      },
+      "flavors": [
+        "青苹果"
+      ],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "fermentation": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://sids.com.bo/",
+        "https://correodelsur.com/panorama/20211024/surena-50-anos-creando-buena-cerveza-y-empleos.html"
+      ],
+      "sourceNote": "官网明确苏克雷工厂地址 Calle Mauri Núñez Nro 16, zona Quirpinchaca；当地报纸 Correo del Sur 的2021年工厂报道确认在本市酿造。地图为城市参考点。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Sucre",
+        "resolvedLocality": "Sucre, Chuquisaca",
+        "countryCode": "BO",
+        "lat": -19.0475,
+        "lng": -65.26,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://sids.com.bo/",
+        "identitySourceUrl": "https://sids.com.bo/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Sucre",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "官网明确苏克雷工厂地址 Calle Mauri Núñez Nro 16, zona Quirpinchaca；当地报纸 Correo del Sur 的2021年工厂报道确认在本市酿造。地图为城市参考点。",
+        "sourceUrls": [
+          "https://sids.com.bo/",
+          "https://en.wikipedia.org/wiki/Sucre"
+        ]
+      },
+      "image": "/images/sparse-interior-20261002/surena-especial-card.webp",
+      "imageThumbnail": "/images/sparse-interior-20261002/surena-especial-map.webp",
+      "imageOriginal": "/images/sparse-interior-20261002/surena-especial-card.webp",
+      "imageKind": "product_packshot",
+      "imageCacheStatus": "cached",
+      "imageSource": "https://sids.com.bo/",
+      "imageDownloadUrl": "https://sids.com.bo/images/cerveceria/botella-especial.jpg",
+      "imageCredit": "酒厂官网真实瓶装产品图；保留原件，本地透明背景处理。",
+      "imageLicense": null,
+      "imageEvidence": {
+        "sourceClass": "official_product_packshot",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "feebac509b8c9d6ae0bddca34b10417ef3619240cde85e797091939433f97965",
+        "mapSha256": "63086936d41d6a9fdf35a3bbd246e53149907bb30385a2691fc598d69c7d523a",
+        "mapBytes": 4752,
+        "mapDimensions": [
+          45,
+          170
+        ],
+        "cardDimensions": [
+          173,
+          650
+        ],
+        "method": "reviewed bottle silhouette mask from original official product photograph; original interior RGB retained; background marketing copy removed with local Python",
+        "originalRGBPreserved": true
+      },
+      "imageContentBounds": {
+        "width": 173,
+        "height": 650,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 173,
+          "height": 650
+        },
+        "method": "alpha body crop"
+      },
+      "imageDerivation": {
+        "original": "/images/sparse-interior-20261002/surena-especial-original.jpg",
+        "method": "reviewed bottle silhouette mask from original official product photograph; original interior RGB retained; background marketing copy removed with local Python",
+        "backgroundRemoved": true
+      }
+    },
+    {
+      "id": "interior-surena-sesqui",
+      "name": "Sureña Sesquicentenario",
+      "breweryId": "interior-surena",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "International Pilsner",
+      "styleZh": "国际皮尔森",
+      "abv": 6.0,
+      "ibu": null,
+      "srm": null,
+      "description": "苏克雷 Sureña 的 Sesquicentenario。官网绿色标签实物图标明 International Pilsener、6%酒精度及香蕉风味描述，展示300ml瓶装；当地工厂报道确认该系列由苏克雷酒厂生产。",
+      "descriptionBasis": "source_backed_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://sids.com.bo/",
+        "sourceUrls": [
+          "https://sids.com.bo/",
+          "https://correodelsur.com/panorama/20211024/surena-50-anos-creando-buena-cerveza-y-empleos.html"
+        ],
+        "retrievedAt": "2026-10-02",
+        "method": "reviewed Chinese paraphrase; ABV and flavor only from product evidence"
+      },
+      "flavors": [
+        "香蕉"
+      ],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "fermentation": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://sids.com.bo/",
+        "https://correodelsur.com/panorama/20211024/surena-50-anos-creando-buena-cerveza-y-empleos.html"
+      ],
+      "sourceNote": "官网明确苏克雷工厂地址 Calle Mauri Núñez Nro 16, zona Quirpinchaca；当地报纸 Correo del Sur 的2021年工厂报道确认在本市酿造。地图为城市参考点。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Sucre",
+        "resolvedLocality": "Sucre, Chuquisaca",
+        "countryCode": "BO",
+        "lat": -19.0475,
+        "lng": -65.26,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://sids.com.bo/",
+        "identitySourceUrl": "https://sids.com.bo/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Sucre",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "官网明确苏克雷工厂地址 Calle Mauri Núñez Nro 16, zona Quirpinchaca；当地报纸 Correo del Sur 的2021年工厂报道确认在本市酿造。地图为城市参考点。",
+        "sourceUrls": [
+          "https://sids.com.bo/",
+          "https://en.wikipedia.org/wiki/Sucre"
+        ]
+      },
+      "image": "/images/sparse-interior-20261002/surena-sesqui-card.webp",
+      "imageThumbnail": "/images/sparse-interior-20261002/surena-sesqui-map.webp",
+      "imageOriginal": "/images/sparse-interior-20261002/surena-sesqui-card.webp",
+      "imageKind": "product_packshot",
+      "imageCacheStatus": "cached",
+      "imageSource": "https://sids.com.bo/",
+      "imageDownloadUrl": "https://sids.com.bo/images/cerveceria/botella-sesquicentenario.jpg",
+      "imageCredit": "酒厂官网真实瓶装产品图；保留原件，本地透明背景处理。",
+      "imageLicense": null,
+      "imageEvidence": {
+        "sourceClass": "official_product_packshot",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "53d0293f92d2be588fa3fcd054d342903cd9205f3b2c62c430410aaf613403f3",
+        "mapSha256": "270dedac46721dfd519f9f5486596373619430cebfa281aa6a97cc2cdb5afad2",
+        "mapBytes": 4696,
+        "mapDimensions": [
+          46,
+          170
+        ],
+        "cardDimensions": [
+          174,
+          650
+        ],
+        "method": "reviewed bottle silhouette mask from original official product photograph; original interior RGB retained; background marketing copy removed with local Python",
+        "originalRGBPreserved": true
+      },
+      "imageContentBounds": {
+        "width": 174,
+        "height": 650,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 174,
+          "height": 650
+        },
+        "method": "alpha body crop"
+      },
+      "imageDerivation": {
+        "original": "/images/sparse-interior-20261002/surena-sesqui-original.jpg",
+        "method": "reviewed bottle silhouette mask from original official product photograph; original interior RGB retained; background marketing copy removed with local Python",
+        "backgroundRemoved": true
+      }
+    },
+    {
+      "id": "interior-chad-castel",
+      "name": "Castel Beer — Tchad",
+      "breweryId": "interior-bdt-ndjamena",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pale Lager",
+      "styleZh": "浅色拉格",
+      "abv": 5.0,
+      "ibu": null,
+      "srm": null,
+      "description": "乍得 Brasseries du Tchad 的当地生产 Castel Beer。官方产品页列明5%酒精度，提供50cl玻璃瓶与30L桶装；官网确认恩贾梅纳本地啤酒厂。此记录为乍得版本，不能与其他国家同名 Castel 的产地混同。",
+      "descriptionBasis": "source_backed_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://bdt-td.com/biere/castel",
+        "sourceUrls": [
+          "https://bdt-td.com/biere/castel",
+          "https://bdt-td.com/entreprise"
+        ],
+        "retrievedAt": "2026-10-02",
+        "method": "reviewed Chinese paraphrase; ABV and flavor only from product evidence"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "fermentation": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://bdt-td.com/biere/castel",
+        "https://bdt-td.com/entreprise"
+      ],
+      "sourceNote": "官网确认2005年建设恩贾梅纳啤酒厂，并列明 Route d’Abéché 的工厂地址及当地生产线；酒款为乍得 BDT 本土生产系列。地图使用城市参考点，不代表每个批次均在本市装瓶。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "N’Djamena",
+        "resolvedLocality": "N’Djamena, N’Djamena",
+        "countryCode": "TD",
+        "lat": 12.10528,
+        "lng": 15.04472,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://bdt-td.com/entreprise",
+        "identitySourceUrl": "https://bdt-td.com/entreprise",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/N'Djamena",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "官网确认2005年建设恩贾梅纳啤酒厂，并列明 Route d’Abéché 的工厂地址及当地生产线；酒款为乍得 BDT 本土生产系列。地图使用城市参考点，不代表每个批次均在本市装瓶。",
+        "sourceUrls": [
+          "https://bdt-td.com/entreprise",
+          "https://en.wikipedia.org/wiki/N'Djamena"
+        ]
+      },
+      "image": "/images/sparse-interior-20261002/chad-castel-card.webp",
+      "imageThumbnail": "/images/sparse-interior-20261002/chad-castel-map.webp",
+      "imageOriginal": "/images/sparse-interior-20261002/chad-castel-card.webp",
+      "imageKind": "product_packshot",
+      "imageCacheStatus": "cached",
+      "imageSource": "https://bdt-td.com/biere/castel",
+      "imageDownloadUrl": "https://bdt-td.com/images/castel_bouteille.png",
+      "imageCredit": "酒厂官网真实瓶装产品图；保留原件，本地透明背景处理。",
+      "imageLicense": null,
+      "imageEvidence": {
+        "sourceClass": "official_product_packshot",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "586b6dd8a690f0a8a6506788ee31c5770f4a3ab5fb7a8189b43f96ede0c59397",
+        "mapSha256": "8c41e0ba8d7a4c47579456e7a9090bb7e07a4ce8621b5997f7ca60fdc53643b0",
+        "mapBytes": 4506,
+        "mapDimensions": [
+          43,
+          170
+        ],
+        "cardDimensions": [
+          144,
+          565
+        ],
+        "method": "official transparent packshot; native alpha crop",
+        "originalRGBPreserved": true
+      },
+      "imageContentBounds": {
+        "width": 144,
+        "height": 565,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 144,
+          "height": 565
+        },
+        "method": "alpha body crop"
+      },
+      "imageDerivation": {
+        "original": "/images/sparse-interior-20261002/chad-castel-original.png",
+        "method": "official transparent packshot; native alpha crop",
+        "backgroundRemoved": true
+      }
+    },
+    {
+      "id": "interior-chad-light",
+      "name": "Beaufort Light — Tchad",
+      "breweryId": "interior-bdt-ndjamena",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Light Lager",
+      "styleZh": "轻盈拉格",
+      "abv": 3.8,
+      "ibu": null,
+      "srm": null,
+      "description": "BDT 官方称其为首款在乍得酿造的 Light 啤酒。酒精度3.8%，使用50cl玻璃瓶；归入当地工业啤酒参考资料。位置为恩贾梅纳酒厂所在城市参考点，具体瓶装批次的工厂不作推断。",
+      "descriptionBasis": "source_backed_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://bdt-td.com/biere/beaufort-light",
+        "sourceUrls": [
+          "https://bdt-td.com/biere/beaufort-light",
+          "https://bdt-td.com/entreprise"
+        ],
+        "retrievedAt": "2026-10-02",
+        "method": "reviewed Chinese paraphrase; ABV and flavor only from product evidence"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "fermentation": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://bdt-td.com/biere/beaufort-light",
+        "https://bdt-td.com/entreprise"
+      ],
+      "sourceNote": "官网确认2005年建设恩贾梅纳啤酒厂，并列明 Route d’Abéché 的工厂地址及当地生产线；酒款为乍得 BDT 本土生产系列。地图使用城市参考点，不代表每个批次均在本市装瓶。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "N’Djamena",
+        "resolvedLocality": "N’Djamena, N’Djamena",
+        "countryCode": "TD",
+        "lat": 12.10528,
+        "lng": 15.04472,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://bdt-td.com/entreprise",
+        "identitySourceUrl": "https://bdt-td.com/entreprise",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/N'Djamena",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "官网确认2005年建设恩贾梅纳啤酒厂，并列明 Route d’Abéché 的工厂地址及当地生产线；酒款为乍得 BDT 本土生产系列。地图使用城市参考点，不代表每个批次均在本市装瓶。",
+        "sourceUrls": [
+          "https://bdt-td.com/entreprise",
+          "https://en.wikipedia.org/wiki/N'Djamena"
+        ]
+      },
+      "image": "/images/sparse-interior-20261002/chad-light-card.webp",
+      "imageThumbnail": "/images/sparse-interior-20261002/chad-light-map.webp",
+      "imageOriginal": "/images/sparse-interior-20261002/chad-light-card.webp",
+      "imageKind": "product_packshot",
+      "imageCacheStatus": "cached",
+      "imageSource": "https://bdt-td.com/biere/beaufort-light",
+      "imageDownloadUrl": "https://bdt-td.com/images/beaufort_ligth.png",
+      "imageCredit": "酒厂官网真实瓶装产品图；保留原件，本地透明背景处理。",
+      "imageLicense": null,
+      "imageEvidence": {
+        "sourceClass": "official_product_packshot",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "3a8b426fe602ec2a53bfd9bdab30978954cf7ba72ab673b9f95b0435601c24b3",
+        "mapSha256": "3dbc81d959f3c6324022a1f17c920dfe1174fc4c35d6c529c448e3facb5a1ce0",
+        "mapBytes": 4264,
+        "mapDimensions": [
+          46,
+          170
+        ],
+        "cardDimensions": [
+          134,
+          490
+        ],
+        "method": "official transparent packshot; native alpha crop",
+        "originalRGBPreserved": true
+      },
+      "imageContentBounds": {
+        "width": 134,
+        "height": 490,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 134,
+          "height": 490
+        },
+        "method": "alpha body crop"
+      },
+      "imageDerivation": {
+        "original": "/images/sparse-interior-20261002/chad-light-original.png",
+        "method": "official transparent packshot; native alpha crop",
+        "backgroundRemoved": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+.search-box .search-country-chip{display:inline-flex;align-items:center;gap:5px;flex:0 1 auto;max-width:40%;min-width:0;padding:4px 7px;border:1px solid #d5b57765;border-radius:6px;background:#c4a76516;color:#efd5a2;font-size:11px;line-height:1.35;white-space:nowrap}
+.search-country-chip span{overflow:hidden;text-overflow:ellipsis}
+.search-country-chip svg,.search-box>svg,.search-box>button{flex-shrink:0}
+.search-box .search-country-chip:hover{background:#c4a76529;border-color:#e4c789}
+.search-box input{flex:1 1 80px;width:0}
+.country-outline-flat{pointer-events:none;animation:country-outline-enter 320ms ease-out both}
+@keyframes country-outline-enter{from{opacity:0}to{opacity:1}}
+@media(max-width:700px){.search-box:has(.search-country-chip){gap:6px}.search-box .search-country-chip{font-size:10px;max-width:40%;padding:3px 6px}}
+@media(prefers-reduced-motion:reduce){.country-outline-flat{animation:none}}

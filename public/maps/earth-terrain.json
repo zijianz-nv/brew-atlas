@@ -1,0 +1,42 @@
+{
+  "source": "Natural Earth Gray Earth with Shaded Relief, Hypsography, and Flat Water v3.2.0",
+  "sourceUrl": "https://naturalearth.s3.amazonaws.com/10m_raster/GRAY_LR_SR_W.zip",
+  "sourceSha256": "af2c4d658c2adc810df1339f46a1d3b5151bbd470e662671ce3ec5f87210570a",
+  "paletteGuide": {
+    "credit": "NASA Earth Observatory, Blue Marble Next Generation with Topography, July 2004",
+    "sourceUrl": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-topography/july/world.topo.200407.3x5400x2700.jpg",
+    "sha256": "85a24885616097b5e06532b7d8e30fa5d749a782e70ea55971dd8539a0899206",
+    "width": 5400,
+    "height": 2700
+  },
+  "projection": "equirectangular, longitude -180 to 180, latitude 90 to -90",
+  "processing": "Original Natural Earth relief recolored to a muted neutral atlas palette, with readable blue oceans. Smoothed historic land colors guide subtle sand and snow tints, not authoritative land-cover classification. No satellite photographic texture is displayed. Shaded raster, not 3D elevation or live weather.",
+  "license": "Natural Earth public domain; NASA Earth Observatory reuse policy for palette guide",
+  "outputs": [
+    {
+      "file": "earth-terrain-2048.webp",
+      "width": 2048,
+      "height": 1024,
+      "bytes": 117068,
+      "sha256": "500faa327b84cbfdbf8356bd965e7b91827548bc0847c4415fb93ed3663a26c4"
+    },
+    {
+      "file": "earth-terrain-4096.webp",
+      "width": 4096,
+      "height": 2048,
+      "bytes": 371782,
+      "sha256": "12a6862f157c07a431a8e11f2868203069e9e3602cd0d83666baadbd9d7d8ea9"
+    },
+    {
+      "file": "earth-terrain-8192.webp",
+      "width": 8192,
+      "height": 4096,
+      "bytes": 1286068,
+      "sha256": "6fc63b916ed5b654afeaeca29ec6cdef92338bdd3d781483019586a4f57aeaab"
+    }
+  ],
+  "sourceDimensions": {
+    "width": 16200,
+    "height": 8100
+  }
+}

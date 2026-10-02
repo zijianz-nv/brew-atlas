@@ -60,7 +60,7 @@ function assertGeometry(result, input, opts = options) {
       const p = { left: px - photo.width / 2, right: px + photo.width / 2, top: py - photo.height / 2, bottom: py + photo.height / 2 };
       assert.ok(p.left >= rect.left - 1e-8 && p.right <= rect.right + 1e-8 && p.top >= rect.top - 1e-8 && p.bottom <= rect.bottom + 1e-8);
       const maximumHeight = photoDimensions({ compact: opts.compact, zoom: 100 }).photoHeight;
-      assert.ok(photo.width >= 7.28 && photo.height >= 14 && photo.height <= maximumHeight, 'uniform frames stay within the device size range');
+      assert.ok(photo.width > 0 && photo.height > 0 && photo.height <= maximumHeight, 'uniform frames remain positive without a near-view minimum in the distant sky');
       assert.equal(photo.scale, 1, 'every visible photo must share the viewport zoom scale');
       assert.deepEqual({ photoWidth: photo.width, photoHeight: photo.height }, { photoWidth: marker.photoWidth, photoHeight: marker.photoHeight });
       assert.ok(Math.abs(photo.width - photo.height * .52) <= .006, 'the complete image frame keeps its aspect ratio when zoomed');
@@ -206,13 +206,13 @@ test('breweries with many recipes cannot crowd out other source breweries', () =
 test('pictures grow in proportion to relative zoom until the device size limit', () => {
   const input = [place('p', 500, 350, { beerCount: 800, photoBeers: photos('p', 800) })];
   for (const compact of [false, true]) {
-    const base = compact ? 14 : 16, maximum = compact ? 32 : 40;
+    const base = compact ? 14 : 26, maximum = compact ? 32 : 56;
     const photoZoomBase = compact ? 1.1562905994600432 : 1.5059591459777457;
-    const factors = [.5, 1, 1.25, 2, 4, 100];
+    const factors = [1, 1.25, 2, 4, 100];
     const opts = { ...options, compact, photoZoomBase };
     const layouts = factors.map(factor => layoutMapMarkers(input, { ...opts, zoom: photoZoomBase * factor }));
-    assert.deepEqual(layouts.map(l => l.markers[0].photoHeight), [base, base, base * 1.25, base * 2, maximum, maximum]);
-    assert.ok(layouts[1].markers[0].photos.length > 8, 'overview keeps its existing density, without a per-brewery cap');
+    assert.deepEqual(layouts.map(l => l.markers[0].photoHeight), [base, base * 1.25, base * 2, maximum, maximum]);
+    assert.ok(layouts[0].markers[0].photos.length > 8, 'overview keeps its existing density, without a per-brewery cap');
     for (const layout of layouts) {
       const marker = layout.markers[0];
       assert.equal(marker.availablePhotoCount, 800);
@@ -225,7 +225,7 @@ test('pictures grow in proportion to relative zoom until the device size limit',
 test('responsive zoom bases preserve the overview and invalid bases remain finite', () => {
   const input = [place('p', 500, 350)];
   for (const compact of [false, true]) {
-    const height = compact ? 14 : 16;
+    const height = compact ? 14 : 26;
     for (const home of [1, 1.1562905994600432, 1.5059591459777457, 2]) {
       const marker = layoutMapMarkers(input, { ...options, compact, zoom: home, photoZoomBase: home }).markers[0];
       assert.equal(marker.photoHeight, height);
@@ -253,7 +253,7 @@ test('larger images respect real control geometry even when fewer source images 
         const zooms = [2.2727272727272734, 2.990430622009571, 4, 8];
         const layouts = zooms.map(zoom => layoutMapMarkers(input, { ...opts, zoom, selectedId }));
         assert.ok(layouts[1].markers[0].photoHeight > layouts[0].markers[0].photoHeight);
-        assert.equal(layouts.at(-1).markers[0].photoHeight, compact ? 32 : 40);
+        assert.equal(layouts.at(-1).markers[0].photoHeight, compact ? 32 : 56);
         for (const layout of layouts) {
           assert.equal(layout.markers[0].beerCount, amount);
           assert.equal(layout.markers[0].availablePhotoCount, amount);
@@ -267,7 +267,7 @@ test('larger images respect real control geometry even when fewer source images 
 
 test('larger usable space and brewery selection expand capacity without a photo-count cap', () => {
   const layouts = [
-    { width: 390, height: 700, compact: true },
+    { width: 390, height: 700 },
     { width: 800, height: 700 },
     { width: 1400, height: 1000 },
   ].map(opts => {
@@ -523,6 +523,29 @@ test('the renderer and layout share proportional photo dimensions', () => {
     const opts = { ...options, zoom, compact, photoZoomBase: 1.506 };
     const { photoWidth, photoHeight } = layoutMapMarkers([place('p', 500, 350)], opts).markers[0];
     assert.deepEqual(photoDimensions(opts), { photoWidth, photoHeight });
+  }
+});
+
+test('solar-system distances shrink bottle frames with the Earth while retaining the home dimensions', () => {
+  assert.deepEqual(photoDimensions(), {photoHeight:26,photoWidth:13.52});
+  assert.deepEqual(photoDimensions({compact:true}), {photoHeight:14,photoWidth:7.28});
+  for (const compact of [false,true]) for (const homeAltitude of [1.5,2.5,3.648]) {
+    const base=compact?14:26,photoZoomBase=2.5/homeAltitude;
+    let previousHeight=base;
+    for (const altitude of [homeAltitude,homeAltitude*2,18,19]) {
+      const opts={...options,compact,zoom:2.5/altitude,photoZoomBase};
+      const dimensions=photoDimensions(opts);
+      const radiusRatio=Math.sqrt(homeAltitude*(homeAltitude+2)/(altitude*(altitude+2)));
+      assert.ok(Math.abs(dimensions.photoHeight-base*radiusRatio)<=.0051);
+      assert.ok(dimensions.photoHeight<=previousHeight);previousHeight=dimensions.photoHeight;
+      const input=[place('distant',500,350)],layout=layoutMapMarkers(input,opts);
+      const marker=layout.markers[0],photo=marker.photos[0];
+      assert.ok(photo,'far zoom keeps a real bottle rather than replacing it with a dot');
+      assert.deepEqual({photoWidth:photo.width,photoHeight:photo.height},dimensions);
+      assert.deepEqual({photoWidth:marker.photoWidth,photoHeight:marker.photoHeight},dimensions);
+      assertGeometry(layout,input,opts);
+    }
+    assert.ok(previousHeight<7,'the farthest bottle frame cannot keep a 14/26px near-view floor');
   }
 });
 

@@ -1,0 +1,617 @@
+{
+  "metadata": {
+    "createdAt": "2026-10-02",
+    "method": "official_public_product_pages",
+    "scope": "four products at two Siberian city references",
+    "status": "ready"
+  },
+  "breweries": [
+    {
+      "id": "siberia-gusi",
+      "name": "GUSI Brewery",
+      "country": "Russia",
+      "countryCode": "RU",
+      "countryZh": "俄罗斯",
+      "countryBasis": "official_brewery_location",
+      "city": "Novosibirsk",
+      "cityZh": "新西伯利亚",
+      "cityAliases": [
+        "Новосибирск",
+        "Akademgorodok",
+        "Академгородок",
+        "西伯利亚"
+      ],
+      "region": "Novosibirsk Oblast",
+      "regionZh": "西伯利亚",
+      "lat": 55.0288307,
+      "lng": 82.9226887,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationNote": "官网明确酒厂所在城市；地图采用同城 OSM 城市参考点，不是逐款精确生产厂房坐标。",
+      "locationSourceUrl": "https://beergusi.ru/",
+      "coordinateSourceUrl": "https://www.openstreetmap.org/node/54",
+      "locationEvidence": {
+        "identitySourceUrl": "https://beergusi.ru/",
+        "identityEvidenceFile": ".runtime/award-country-evidence/gusi.html",
+        "identitySha256": "26096ba4a608e9cf6dbc7cafc1d7b4816af802f0133028669a489ac8461543fa",
+        "coordinateSourceUrl": "https://www.openstreetmap.org/node/54",
+        "coordinateEvidenceFile": ".runtime/award-country-evidence/novosibirsk-osm.xml",
+        "coordinateSha256": "cc047447dd3aa9cb841a32048538c71ac3842c2da9d752ac2b852b105c89f023",
+        "coordinateSourcePageId": "54",
+        "coordinatePlaceTitle": "Novosibirsk",
+        "coordinateProvider": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors, ODbL",
+        "verifiedAt": "2026-10-02"
+      },
+      "sourceUrls": [
+        "https://beergusi.ru/",
+        "https://www.openstreetmap.org/node/54"
+      ],
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ]
+    },
+    {
+      "id": "siberia-salek",
+      "name": "SALEK Real Craft Brewery",
+      "country": "Russia",
+      "countryCode": "RU",
+      "countryZh": "俄罗斯",
+      "countryBasis": "official_brewery_location",
+      "city": "Krasnoyarsk",
+      "cityZh": "克拉斯诺亚尔斯克",
+      "cityAliases": [
+        "Красноярск",
+        "西伯利亚"
+      ],
+      "region": "Krasnoyarsk Krai",
+      "regionZh": "西伯利亚",
+      "lat": 56.0091173,
+      "lng": 92.872586,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationNote": "官网明确酒厂所在城市；地图采用同城 OSM 城市参考点，不是逐款精确生产厂房坐标。",
+      "locationSourceUrl": "https://salek.pro/oktoberfest",
+      "coordinateSourceUrl": "https://www.openstreetmap.org/node/178951928",
+      "locationEvidence": {
+        "identitySourceUrl": "https://salek.pro/oktoberfest",
+        "identityEvidenceFile": ".runtime/award-country-evidence/salek.html",
+        "identitySha256": "446704422110be6a54786af9de562592f8a4e91a901b442c74b196ef161ef93a",
+        "coordinateSourceUrl": "https://www.openstreetmap.org/node/178951928",
+        "coordinateEvidenceFile": ".runtime/award-country-evidence/krasnoyarsk-osm.xml",
+        "coordinateSha256": "cc56d14e2983a59f7ab0c8ab8f2f49d6d89255b08ee37512218a83ef3041b232",
+        "coordinateSourcePageId": "178951928",
+        "coordinatePlaceTitle": "Krasnoyarsk",
+        "coordinateProvider": "OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors, ODbL",
+        "verifiedAt": "2026-10-02"
+      },
+      "sourceUrls": [
+        "https://salek.pro/oktoberfest",
+        "https://www.openstreetmap.org/node/178951928"
+      ],
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ]
+    }
+  ],
+  "beers": [
+    {
+      "id": "siberia-gusi-rolling",
+      "name": "Rolling Waves",
+      "breweryId": "siberia-gusi",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Czech Lager",
+      "abv": 4.7,
+      "ibu": 19,
+      "description": "双煎煮法酿造的捷克风格拉格，官网描述为麦芽感、柔和苦味与萨兹酒花香气。",
+      "descriptionBasis": "official_product_description",
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "image": "/images/country-expansion/gusi-rolling-card.webp",
+      "imageOriginal": "/images/country-expansion/gusi-rolling-cutout.png",
+      "imageThumbnail": "/images/country-expansion/gusi-rolling-map.webp",
+      "sourceImage": "/images/country-expansion/gusi-rolling.png",
+      "imageKind": "product_packshot",
+      "imageSource": "https://beergusi.ru/",
+      "imageDownloadUrl": "https://static.tildacdn.com/tild3436-6538-4861-b739-663465326139/noroot.png",
+      "imageCredit": "GUSI official product catalogue",
+      "imageLicense": "Copyright holder; no open image licence stated",
+      "imageContentBounds": {
+        "width": 212,
+        "height": 540,
+        "bounds": {
+          "x": 3,
+          "y": 5,
+          "width": 206,
+          "height": 526
+        },
+        "originalSha256": "1490c8d4e344082de3632cd78365bc45bef02141a1902ec284dfe3663e9a4ca7",
+        "method": "decoded_alpha_body_with_padding",
+        "alphaThreshold": 64
+      },
+      "imageEvidence": {
+        "sourceUrl": "https://beergusi.ru/",
+        "downloadUrl": "https://static.tildacdn.com/tild3436-6538-4861-b739-663465326139/noroot.png",
+        "sourceImage": "/images/country-expansion/gusi-rolling.png",
+        "sourceSha256": "533d5675abb48eaf881173b2d2dee33399c328c4fa28e733adafcd451f5364c7",
+        "sha256": "1490c8d4e344082de3632cd78365bc45bef02141a1902ec284dfe3663e9a4ca7",
+        "fullSha256": "68ec7309125486b0e59dcd92065986e1dea0c0bfbaab62bcd3294d0734507750",
+        "method": "official_transparent_packshot",
+        "parameters": {},
+        "originalRGBunchanged": true,
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "derivative": {
+          "cardMax": 800,
+          "mapMax": 320,
+          "format": "lossless_webp"
+        }
+      },
+      "descriptionEvidence": {
+        "sourceUrl": "https://beergusi.ru/",
+        "sourceFile": ".runtime/award-country-evidence/gusi.html",
+        "sourceSha256": "26096ba4a608e9cf6dbc7cafc1d7b4816af802f0133028669a489ac8461543fa",
+        "retrievedAt": "2026-10-02"
+      },
+      "sourceUrls": [
+        "https://beergusi.ru/",
+        "https://static.tildacdn.com/tild3436-6538-4861-b739-663465326139/noroot.png",
+        "https://untappd.com/b/gusi-rolling-waves/1075136"
+      ],
+      "sourceNote": "西伯利亚真实城市的官网产品；原始照片保留，仅本地alpha背景分离及缩略，不推断销量或获奖。",
+      "untappdId": "1075136",
+      "identityEvidence": {
+        "status": "official_outbound_product_id",
+        "basis": "Official brewery product section directly links to this exact Untappd product ID.",
+        "sourceUrl": "https://beergusi.ru/"
+      }
+    },
+    {
+      "id": "siberia-gusi-dark",
+      "name": "Dark Island",
+      "breweryId": "siberia-gusi",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Oatmeal Milk Stout",
+      "abv": 5.9,
+      "ibu": null,
+      "description": "加入燕麦片、乳糖与马达加斯加香草荚的牛奶世涛，官网描述其口感柔和、奶油般顺滑。",
+      "descriptionBasis": "official_product_description",
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "image": "/images/country-expansion/gusi-dark-card.webp",
+      "imageOriginal": "/images/country-expansion/gusi-dark-cutout.png",
+      "imageThumbnail": "/images/country-expansion/gusi-dark-map.webp",
+      "sourceImage": "/images/country-expansion/gusi-dark.png",
+      "imageKind": "product_packshot",
+      "imageSource": "https://beergusi.ru/",
+      "imageDownloadUrl": "https://static.tildacdn.com/tild3834-6437-4935-b733-663531343066/noroot.png",
+      "imageCredit": "GUSI official product catalogue",
+      "imageLicense": "Copyright holder; no open image licence stated",
+      "imageContentBounds": {
+        "width": 208,
+        "height": 555,
+        "bounds": {
+          "x": 0,
+          "y": 13,
+          "width": 206,
+          "height": 528
+        },
+        "originalSha256": "21193855f7e6130fadce45a4c1d0483ac610f5804793d09f246ce0e1ff3ba2e2",
+        "method": "decoded_alpha_body_with_padding",
+        "alphaThreshold": 64
+      },
+      "imageEvidence": {
+        "sourceUrl": "https://beergusi.ru/",
+        "downloadUrl": "https://static.tildacdn.com/tild3834-6437-4935-b733-663531343066/noroot.png",
+        "sourceImage": "/images/country-expansion/gusi-dark.png",
+        "sourceSha256": "4eb4988ac42bb2ecbcf6edb20baaff49d73bde4b173b245ddb546bb87e13d5e9",
+        "sha256": "21193855f7e6130fadce45a4c1d0483ac610f5804793d09f246ce0e1ff3ba2e2",
+        "fullSha256": "157a7cd0dc203e59b320a6b07ce90fda264542b1d810c760243ca3f66045ab56",
+        "method": "official_transparent_packshot",
+        "parameters": {},
+        "originalRGBunchanged": true,
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "derivative": {
+          "cardMax": 800,
+          "mapMax": 320,
+          "format": "lossless_webp"
+        }
+      },
+      "descriptionEvidence": {
+        "sourceUrl": "https://beergusi.ru/",
+        "sourceFile": ".runtime/award-country-evidence/gusi.html",
+        "sourceSha256": "26096ba4a608e9cf6dbc7cafc1d7b4816af802f0133028669a489ac8461543fa",
+        "retrievedAt": "2026-10-02"
+      },
+      "sourceUrls": [
+        "https://beergusi.ru/",
+        "https://static.tildacdn.com/tild3834-6437-4935-b733-663531343066/noroot.png",
+        "https://untappd.com/b/gusi-dark-island/2974410"
+      ],
+      "sourceNote": "西伯利亚真实城市的官网产品；原始照片保留，仅本地alpha背景分离及缩略，不推断销量或获奖。 官网文字IBU19与原罐标22不一致，IBU留空，不混用版本。",
+      "untappdId": "2974410",
+      "identityEvidence": {
+        "status": "official_outbound_product_id",
+        "basis": "Official brewery product section directly links to this exact Untappd product ID.",
+        "sourceUrl": "https://beergusi.ru/"
+      },
+      "sourceConflicts": [
+        {
+          "field": "ibu",
+          "officialPageValue": 19,
+          "officialPackshotValue": 22,
+          "resolution": "null_until_version_confirmed",
+          "sourceUrl": "https://beergusi.ru/"
+        }
+      ]
+    },
+    {
+      "id": "siberia-salek-apa",
+      "name": "SALEK APA",
+      "breweryId": "siberia-salek",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "American Pale Ale",
+      "abv": 5.2,
+      "ibu": 30,
+      "description": "使用 Citra 与 Simcoe 酒花的美式淡色艾尔，酒厂描述其柑橘香气鲜明、苦味柔和。",
+      "descriptionBasis": "official_product_description",
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "image": "/images/country-expansion/salek-apa-card.webp",
+      "imageOriginal": "/images/country-expansion/salek-apa-cutout.png",
+      "imageThumbnail": "/images/country-expansion/salek-apa-map.webp",
+      "sourceImage": "/images/country-expansion/salek-apa.jpg",
+      "imageKind": "product_packshot",
+      "imageSource": "https://salek.pro/catalog/salek-apa",
+      "imageDownloadUrl": "https://static.tildacdn.com/tild6432-3663-4264-b365-636430383239/APA.jpg",
+      "imageCredit": "SALEK official product catalogue",
+      "imageLicense": "Copyright holder; no open image licence stated",
+      "imageContentBounds": {
+        "width": 800,
+        "height": 800,
+        "bounds": {
+          "x": 316,
+          "y": 56,
+          "width": 175,
+          "height": 670
+        },
+        "originalSha256": "09169f08dfda0556b875be3d84467ffa0bbb7ce5b083636c979e9421adcd1256",
+        "method": "decoded_alpha_body_with_padding",
+        "alphaThreshold": 64
+      },
+      "imageEvidence": {
+        "sourceUrl": "https://salek.pro/catalog/salek-apa",
+        "downloadUrl": "https://static.tildacdn.com/tild6432-3663-4264-b365-636430383239/APA.jpg",
+        "sourceImage": "/images/country-expansion/salek-apa.jpg",
+        "sourceSha256": "3db4fd6a6cb70a6f1d6b1cda0ef278da6ed3afac2f4c65678565347bb4d558e2",
+        "sha256": "09169f08dfda0556b875be3d84467ffa0bbb7ce5b083636c979e9421adcd1256",
+        "fullSha256": "171007dca603651953ee5eae0709d88514cae7ad768298ea6857f49ffa45cbe9",
+        "method": "local_python_alpha_only_reviewed_outline",
+        "parameters": {
+          "normalizedRowSpans": [
+            [
+              0.08,
+              0.49,
+              0.518
+            ],
+            [
+              0.083,
+              0.472,
+              0.541
+            ],
+            [
+              0.096,
+              0.465,
+              0.548
+            ],
+            [
+              0.102,
+              0.468,
+              0.546
+            ],
+            [
+              0.115,
+              0.467,
+              0.548
+            ],
+            [
+              0.131,
+              0.469,
+              0.547
+            ],
+            [
+              0.138,
+              0.472,
+              0.544
+            ],
+            [
+              0.2,
+              0.466,
+              0.551
+            ],
+            [
+              0.32,
+              0.452,
+              0.563
+            ],
+            [
+              0.37,
+              0.444,
+              0.567
+            ],
+            [
+              0.395,
+              0.43,
+              0.581
+            ],
+            [
+              0.42,
+              0.417,
+              0.594
+            ],
+            [
+              0.445,
+              0.409,
+              0.602
+            ],
+            [
+              0.474,
+              0.405,
+              0.604
+            ],
+            [
+              0.54,
+              0.406,
+              0.604
+            ],
+            [
+              0.84,
+              0.406,
+              0.604
+            ],
+            [
+              0.872,
+              0.409,
+              0.6
+            ],
+            [
+              0.892,
+              0.418,
+              0.592
+            ],
+            [
+              0.896,
+              0.443,
+              0.575
+            ],
+            [
+              0.897,
+              0.47,
+              0.54
+            ]
+          ]
+        },
+        "originalRGBunchanged": true,
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "derivative": {
+          "cardMax": 800,
+          "mapMax": 320,
+          "format": "lossless_webp"
+        }
+      },
+      "descriptionEvidence": {
+        "sourceUrl": "https://salek.pro/catalog/salek-apa",
+        "sourceFile": ".runtime/award-country-evidence/salek-apa.html",
+        "sourceSha256": "deee21bfc9210d3f5716b83bb61fa4a132a53bdd9ea1ca9b9a7bbc6a6ae06144",
+        "retrievedAt": "2026-10-02"
+      },
+      "sourceUrls": [
+        "https://salek.pro/catalog/salek-apa",
+        "https://static.tildacdn.com/tild6432-3663-4264-b365-636430383239/APA.jpg"
+      ],
+      "sourceNote": "西伯利亚真实城市的官网产品；原始照片保留，仅本地alpha背景分离及缩略，不推断销量或获奖。"
+    },
+    {
+      "id": "siberia-salek-ipa",
+      "name": "SALEK IPA",
+      "breweryId": "siberia-salek",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "India Pale Ale",
+      "abv": 5.8,
+      "ibu": 40,
+      "description": "酒厂介绍其带有焦糖与热带水果香气，包含葡萄柚、桃与百香果气息，收尾有明显苦味。",
+      "descriptionBasis": "official_product_description",
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "image": "/images/country-expansion/salek-ipa-card.webp",
+      "imageOriginal": "/images/country-expansion/salek-ipa-cutout.png",
+      "imageThumbnail": "/images/country-expansion/salek-ipa-map.webp",
+      "sourceImage": "/images/country-expansion/salek-ipa.jpg",
+      "imageKind": "product_packshot",
+      "imageSource": "https://salek.pro/catalog/salek-ipa",
+      "imageDownloadUrl": "https://static.tildacdn.com/tild6237-3165-4335-b233-623536326430/IPA.jpg",
+      "imageCredit": "SALEK official product catalogue",
+      "imageLicense": "Copyright holder; no open image licence stated",
+      "imageContentBounds": {
+        "width": 800,
+        "height": 800,
+        "bounds": {
+          "x": 316,
+          "y": 56,
+          "width": 175,
+          "height": 670
+        },
+        "originalSha256": "264452451958e24c4d176a17272074d51429b265de70e6b55f00ffd84705cdeb",
+        "method": "decoded_alpha_body_with_padding",
+        "alphaThreshold": 64
+      },
+      "imageEvidence": {
+        "sourceUrl": "https://salek.pro/catalog/salek-ipa",
+        "downloadUrl": "https://static.tildacdn.com/tild6237-3165-4335-b233-623536326430/IPA.jpg",
+        "sourceImage": "/images/country-expansion/salek-ipa.jpg",
+        "sourceSha256": "cf15e878c4424481c58aab8b665c644eb9c81da71f06f210f7e2532e6afe1561",
+        "sha256": "264452451958e24c4d176a17272074d51429b265de70e6b55f00ffd84705cdeb",
+        "fullSha256": "19369ecfee565c1a3cb4511013b374ae05176b4f8d387b2d8347e52cf7d3632c",
+        "method": "local_python_alpha_only_reviewed_outline",
+        "parameters": {
+          "normalizedRowSpans": [
+            [
+              0.08,
+              0.49,
+              0.518
+            ],
+            [
+              0.083,
+              0.472,
+              0.541
+            ],
+            [
+              0.096,
+              0.465,
+              0.548
+            ],
+            [
+              0.102,
+              0.468,
+              0.546
+            ],
+            [
+              0.115,
+              0.467,
+              0.548
+            ],
+            [
+              0.131,
+              0.469,
+              0.547
+            ],
+            [
+              0.138,
+              0.472,
+              0.544
+            ],
+            [
+              0.2,
+              0.466,
+              0.551
+            ],
+            [
+              0.32,
+              0.452,
+              0.563
+            ],
+            [
+              0.37,
+              0.444,
+              0.567
+            ],
+            [
+              0.395,
+              0.43,
+              0.581
+            ],
+            [
+              0.42,
+              0.417,
+              0.594
+            ],
+            [
+              0.445,
+              0.409,
+              0.602
+            ],
+            [
+              0.474,
+              0.405,
+              0.604
+            ],
+            [
+              0.54,
+              0.406,
+              0.604
+            ],
+            [
+              0.84,
+              0.406,
+              0.604
+            ],
+            [
+              0.872,
+              0.409,
+              0.6
+            ],
+            [
+              0.892,
+              0.418,
+              0.592
+            ],
+            [
+              0.896,
+              0.443,
+              0.575
+            ],
+            [
+              0.897,
+              0.47,
+              0.54
+            ]
+          ]
+        },
+        "originalRGBunchanged": true,
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "derivative": {
+          "cardMax": 800,
+          "mapMax": 320,
+          "format": "lossless_webp"
+        }
+      },
+      "descriptionEvidence": {
+        "sourceUrl": "https://salek.pro/catalog/salek-ipa",
+        "sourceFile": ".runtime/award-country-evidence/salek-ipa.html",
+        "sourceSha256": "808ba470f4bb07e918a87f75dba7353e361ce23ac7ded37768d537e70c8f20fb",
+        "retrievedAt": "2026-10-02"
+      },
+      "sourceUrls": [
+        "https://salek.pro/catalog/salek-ipa",
+        "https://static.tildacdn.com/tild6237-3165-4335-b233-623536326430/IPA.jpg"
+      ],
+      "sourceNote": "西伯利亚真实城市的官网产品；原始照片保留，仅本地alpha背景分离及缩略，不推断销量或获奖。"
+    }
+  ]
+}

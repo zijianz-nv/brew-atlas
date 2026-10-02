@@ -1,0 +1,83 @@
+.celestial-background{position:absolute;inset:0;pointer-events:none;overflow:hidden;contain:layout paint;user-select:none}
+.celestial-background figure{position:absolute;margin:0;pointer-events:none}
+.celestial-background svg{display:block;width:100%;height:auto;overflow:visible}
+.celestial-background .celestial-stars{position:absolute;inset:0;width:100%;height:100%}
+.celestial-background figcaption{text-align:center;color:#aebfbd;font-size:9px;letter-spacing:2px;line-height:1.5;opacity:.65;white-space:nowrap;font-weight:400}
+.celestial-system{position:absolute;inset:0;transform:scale(var(--celestial-system-scale,1));transform-origin:50% 50%;will-change:transform;pointer-events:none}
+.celestial-system figcaption,.celestial-earth-label{font-size:calc(9px / max(.5,var(--celestial-system-scale,1)));letter-spacing:calc(2px / max(.5,var(--celestial-system-scale,1)))}
+.celestial-moon{width:clamp(48px,5vw,76px);left:20%;top:1%;opacity:.83}
+.celestial-mars{width:clamp(30px,3.2vw,48px);right:9%;top:12%;opacity:.84}
+.celestial-sun{width:clamp(128px,14vw,206px);left:-3%;top:57%;opacity:.9}
+.celestial-sun figcaption{margin-top:-24px}
+.celestial-outer-planets{position:absolute;inset:0;opacity:0;visibility:hidden;transition:opacity .55s ease,visibility .55s}
+.brew-globe-view[data-solar-expanded="true"] .celestial-outer-planets{opacity:1;visibility:visible}
+.celestial-mercury{width:42px;left:-19%;top:35%;opacity:.8}
+.celestial-venus{width:68px;left:-8%;top:-9%;opacity:.84}
+.celestial-jupiter{width:clamp(86px,8vw,118px);left:114%;top:38%;opacity:.9}
+.celestial-saturn{width:clamp(132px,13vw,190px);left:97%;top:83%;opacity:.85}
+.celestial-uranus{width:70px;left:1%;top:88%;opacity:.8}
+.celestial-neptune{width:72px;left:107%;top:-21%;opacity:.88}
+.celestial-earth-label{position:absolute;left:50%;top:calc(50% + var(--celestial-earth-radius,300px) + 14px);transform:translateX(-50%);color:#aebfbd;opacity:.6;white-space:nowrap}
+.celestial-zodiac{position:absolute;inset:0;opacity:0;visibility:hidden;transform:scale(var(--celestial-zodiac-scale,1));transform-origin:50% 50%;will-change:transform;transition:opacity .4s ease,visibility .4s}
+.brew-globe-view[data-sky-expanded="true"] .celestial-zodiac{opacity:1;visibility:visible}
+.celestial-background .celestial-sky-atlas{width:100%;height:100%;overflow:visible}
+.constellation-art{opacity:.4}
+.celestial-bright-stars .constellation-art{opacity:.96}
+.constellation-name{fill:#819996;opacity:.6;font:400 8px sans-serif;letter-spacing:1.5px}
+@media(max-width:600px){
+ .celestial-moon{width:33px}.celestial-mars{width:26px}
+ .celestial-mercury{width:32px}.celestial-venus{width:46px}
+ .celestial-jupiter{width:72px}.celestial-saturn{width:110px}
+ .celestial-uranus{width:48px}.celestial-neptune{width:47px}
+ .celestial-system figcaption,.celestial-earth-label{font-size:calc(8px / max(.5,var(--celestial-system-scale,1)));letter-spacing:calc(1px / max(.5,var(--celestial-system-scale,1)))}
+ .constellation-name{font-size:8px;letter-spacing:0.7px}
+}
+@media(prefers-reduced-motion:reduce){.celestial-zodiac,.celestial-outer-planets{transition:none}}
+
+/* All bodies occupy a shared tilted orbital plane, with Earth on its orbit. */
+.celestial-background .celestial-body{left:0;top:0;right:auto;bottom:auto;transform:translate3d(calc(var(--planet-base-x) + (var(--planet-orbit-x) - var(--planet-base-x))*var(--celestial-orbit-progress,0)),calc(var(--planet-base-y) + (var(--planet-orbit-y) - var(--planet-base-y))*var(--celestial-orbit-progress,0)),0) translate(-50%,-50%) scale(calc(1 + (var(--planet-depth,1) - 1)*var(--celestial-orbit-progress,0)))}
+.celestial-background .celestial-orbits{position:absolute;inset:0;width:100%;height:100%;overflow:visible;opacity:var(--celestial-orbit-progress,0);pointer-events:none}
+.celestial-orbits path{fill:none;stroke-width:.7;vector-effect:non-scaling-stroke}
+.celestial-orbits .orbit-back{stroke:#93b4b2;stroke-opacity:.09;stroke-dasharray:3 6}
+.celestial-orbits .orbit-front{stroke:#b7c9bd;stroke-opacity:.24}
+
+/* The Sun is a large distant light source; only Moon and Mars share the near view. */
+.celestial-background .celestial-sun{width:clamp(210px,25vw,360px);opacity:.86}
+.celestial-sun figcaption{position:absolute;left:50%;top:72%;transform:translateX(-50%);margin:0;color:#b7a88a;opacity:.45}
+.celestial-outer-planets .celestial-body{opacity:.6;filter:saturate(.72)}
+.celestial-outer-planets .celestial-body figcaption{opacity:.45}
+.celestial-moon,.celestial-mars{opacity:.9}
+
+/* Keep the close-up focused on Earth; the Sun belongs to the solar overview. */
+.celestial-background .celestial-sun{opacity:0;visibility:hidden;transition:opacity .4s ease,visibility .4s}
+.brew-globe-view[data-solar-expanded="true"] .celestial-sun{opacity:.86;visibility:visible}
+.sky-filter-toggle{display:none;align-items:center;gap:5px;color:#b7c3ae;font-size:11px;padding:7px;border-radius:7px}
+.app:has(.brew-globe-view[data-sky-expanded="true"]) .sky-filter-toggle{display:flex}
+.app:has(.brew-globe-view[data-sky-expanded="true"]) .taxonomy-dock[data-overview-expanded="false"]>:not(.dock-main){display:none}
+.app:has(.brew-globe-view[data-sky-expanded="true"]) .map-summary p{opacity:.65}
+@media(max-width:600px){
+ .app:has(.brew-globe-view[data-sky-expanded="true"]) .taxonomy-dock .dock-main{display:flex;height:38px;gap:4px}
+ .app:has(.brew-globe-view[data-sky-expanded="true"]) .taxonomy-dock .search-box{min-width:0}
+ .app:has(.brew-globe-view[data-sky-expanded="true"]) .taxonomy-dock .dock-actions{gap:3px}
+ .app:has(.brew-globe-view[data-sky-expanded="true"]) .taxonomy-dock .dock-reset,
+ .app:has(.brew-globe-view[data-sky-expanded="true"]) .taxonomy-dock .random-button span,
+ .app:has(.brew-globe-view[data-sky-expanded="true"]) .taxonomy-dock .sky-filter-toggle span{display:none}
+ .app:has(.brew-globe-view[data-sky-expanded="true"]) .taxonomy-dock .random-button{padding:8px}
+}
+
+/* The overview can use the space freed by the collapsed search dock. */
+.brew-globe-view[data-sky-expanded="true"]{overflow:visible!important}
+.brew-globe-view[data-sky-expanded="true"] .celestial-background{overflow:visible;contain:layout}
+.celestial-zodiac{bottom:auto}
+
+@media(max-width:600px){
+ .celestial-background .celestial-sun{width:160px}
+ /* Keep the whole planet and its caption below the actual heading, even when
+    the shared system is zoomed in. The inverse scale preserves a 12px gap. */
+ .celestial-background .celestial-body{
+  --planet-safe-y:calc(var(--celestial-center-y) + (var(--celestial-title-bottom) - var(--celestial-center-y)) / var(--celestial-system-scale,1));
+  transform:translate3d(calc(var(--planet-base-x) + (var(--planet-orbit-x) - var(--planet-base-x))*var(--celestial-orbit-progress,0)),max(calc(var(--planet-base-y) + (var(--planet-orbit-y) - var(--planet-base-y))*var(--celestial-orbit-progress,0)),calc(var(--planet-safe-y) + 50%)),0) translate(-50%,-50%) scale(calc(1 + (var(--planet-depth,1) - 1)*var(--celestial-orbit-progress,0)));
+ }
+ .app:has(.brew-globe-view[data-sky-expanded="true"]) .globe-tools{top:auto;bottom:165px;right:14px;flex-direction:row;width:238px;justify-content:space-between;padding:5px;gap:2px}
+ .app:has(.brew-globe-view[data-sky-expanded="true"]) .globe-tools>span{display:none}
+}

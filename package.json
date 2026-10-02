@@ -1,13 +1,13 @@
 {
   "name": "brew-atlas-demo",
-  "version": "1.20.0",
+  "version": "1.24.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1 --port 4173",
     "build": "node scripts/restore-data-snapshots.mjs && node scripts/build-curated-catalog.mjs && node scripts/build-local-catalog.mjs && vite build && node scripts/package-curated-public.mjs",
     "preview": "vite preview --host 127.0.0.1 --port 4173",
-    "test": "node --test scripts/data.test.mjs scripts/free-catalog.test.mjs scripts/photo-catalog.test.mjs scripts/marker-layout.test.mjs scripts/beer-taxonomy.test.mjs scripts/catalog-filters.test.mjs scripts/beertasting-import.test.mjs scripts/map-projection.test.mjs scripts/land-mask.test.mjs scripts/beer-photo-eligibility.test.mjs scripts/beer-photo-identity.test.mjs scripts/photo-reentry.test.mjs scripts/curated-catalog.test.mjs scripts/untappd-awards-quality.test.mjs scripts/photo-content-layout.test.mjs scripts/local-catalog.test.mjs scripts/photo-focus.test.mjs scripts/photo-overlap.test.mjs scripts/catalog-loader.test.mjs scripts/catalog-chunks.test.mjs scripts/restore-data-snapshots.test.mjs",
+    "test": "node --test scripts/data.test.mjs scripts/free-catalog.test.mjs scripts/photo-catalog.test.mjs scripts/marker-layout.test.mjs scripts/beer-taxonomy.test.mjs scripts/catalog-filters.test.mjs scripts/beertasting-import.test.mjs scripts/map-projection.test.mjs scripts/land-mask.test.mjs scripts/beer-photo-eligibility.test.mjs scripts/beer-photo-identity.test.mjs scripts/photo-reentry.test.mjs scripts/curated-catalog.test.mjs scripts/untappd-awards-quality.test.mjs scripts/photo-content-layout.test.mjs scripts/local-catalog.test.mjs scripts/photo-focus.test.mjs scripts/photo-overlap.test.mjs scripts/catalog-loader.test.mjs scripts/catalog-chunks.test.mjs scripts/restore-data-snapshots.test.mjs scripts/regional-catalog.test.mjs scripts/random-beer.test.mjs scripts/image-cutouts.test.mjs scripts/static-map-loader.test.mjs scripts/weather-data.test.mjs scripts/ingredient-regions.test.mjs scripts/catalog-image-cutouts.test.mjs scripts/ingredient-gardens.test.mjs scripts/ingredient-weather-model.test.mjs scripts/abv-filter.test.mjs scripts/country-selection.test.mjs scripts/ingredient-recommendations.test.mjs scripts/camera-layout-scheduler.test.mjs scripts/geographic-land-codec.test.mjs scripts/photo-arrivals.test.mjs scripts/photo-prefetch.test.mjs scripts/sparse-photo-sizing.test.mjs scripts/map-thumbnails.test.mjs scripts/beer-launch-year.test.mjs scripts/world-photo-replacements.test.mjs scripts/celestial-body-placement.test.mjs scripts/celestial-orbits.test.mjs scripts/celestial-stars.test.mjs scripts/constellation-layout.test.mjs scripts/terrain-texture.test.mjs scripts/pages-package.test.mjs",
     "start": "node scripts/serve.mjs",
     "data:curated": "node scripts/build-curated-catalog.mjs",
     "data:local": "node scripts/build-curated-catalog.mjs && node scripts/build-local-catalog.mjs",

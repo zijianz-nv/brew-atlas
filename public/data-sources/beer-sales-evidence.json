@@ -1,0 +1,28 @@
+{
+  "entries": [
+    {
+      "beerId": "systembolaget-2025-article-299605",
+      "kind": "best_seller",
+      "claim": "BrewDog 官方商店列为畅销商品",
+      "scope": "producer_online_store",
+      "sourceUrl": "https://brewdog.com/",
+      "checkedAt": "2026-10-02"
+    },
+    {
+      "beerId": "systembolaget-2025-article-25245746",
+      "kind": "best_seller",
+      "claim": "BrewDog 官方商店列为畅销商品",
+      "scope": "producer_online_store",
+      "sourceUrl": "https://brewdog.com/",
+      "checkedAt": "2026-10-02"
+    },
+    {
+      "beerId": "systembolaget-2025-article-34996249",
+      "kind": "best_seller",
+      "claim": "BrewDog 官方商店列为畅销商品",
+      "scope": "producer_online_store",
+      "sourceUrl": "https://brewdog.com/",
+      "checkedAt": "2026-10-02"
+    }
+  ]
+}

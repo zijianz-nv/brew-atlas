@@ -6,11 +6,17 @@ Snapshot date: 2026-09-14. Project: Brew Atlas / 精酿地球。
 
 **软件许可不涵盖 `public/` 中的数据、瓶罐图片、品牌和其他素材。** 这些内容分别按以下来源记录处理：
 
+- `dist/data-sources/central-asia/NOTICE.md`：中亚本地酒款、瓶罐图片和城市级参考位置的逐款来源。
+- `dist/data-sources/regional/NOTICE.md`：俄罗斯、西澳、南意、西班牙、埃及、日本、美国及约旦、尼泊尔、尼日利亚、哥斯达黎加、乌拉圭、秘鲁和加拿大育空地方酒款的逐款来源、图片署名及城市/聚落参考点归属。
 - `research/WORLD-SOURCES.md`：全球精选酒厂、酒款与品牌图片。
 - `research/ARCHIVE-SOURCES.md`：BrewDog DIY Dog 历史配方及图片，包含非商业使用限制。
 - `research/MAP-SOURCES.md`：Natural Earth 地理数据及地图素材。
 - `research/OPENBEER-SOURCES.md`：Open Beer Database 历史目录，ODbL / DbCL。
 - `research/OFF-PHOTO-SOURCES.md` 与 `dist/data-sources/off/NOTICE.md`：Open Food Facts 商品数据及实物照片；数据 ODbL / DbCL，图片 CC BY-SA 3.0，逐张贡献者署名保留在记录中。
+
+本地版本 1.21.2 的地方酒款集合共 90 款、23 家酒厂、16 个国家；其中中亚部分另见对应声明。本轮数据与图片调整尚未部署。34 张透明产品图由本地确定性 alpha 蒙版处理，原图和原画布 RGB 像素保留；卡片/地图 WebP 为整画布等比缩小版本。处理不会产生对原图片的新授权。逐图原始/衍生 SHA、方法、限制和复核结果见 `dist/data-sources/regional/image-cutouts.json`，复现入口为 `scripts/apply-regional-image-cutouts.py` 及该声明列出的轮廓脚本。
+
+Kurintar（尼泊尔）聚落参考坐标来自 [OpenStreetMap node 279339376](https://www.openstreetmap.org/node/279339376)，© OpenStreetMap contributors，依 [Open Database Licence（ODbL）](https://www.openstreetmap.org/copyright) 署名；该坐标不是实测酒厂建筑位置。原始坐标来源与许可不因地图目录拆分、gzip 压缩或详情页隐藏来源面板而改变。完整目录及来源文件继续保留署名与证据。
 
 React、Three.js、react-globe.gl 等开源组件的 MIT/ISC 等软件许可，不能用于推导 BrewDog 或其他品牌数据和图片的商业授权。分发已构建网页时，请将本文件及上述来源记录一同保留。
 
@@ -6068,3 +6074,13 @@ Repository: https://github.com/sveltejs/zimmerframe
 > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 > SOFTWARE.
 ````
+
+## 原料产区、季节与地形（本地 1.23.0）
+
+原料产区为 38 个有出处的区域示意点；农业、季节和气候资料链接见 `dist/data-sources/ingredients/NOTICE.md`。未声称农场边界或酒厂供应关系。植物几何及其静态透明渲染为本项目原创。当前版本不请求实时天气。
+
+地形沿用公共领域 Natural Earth 灰度地形阴影并重新配色；NASA Earth Observatory 的 Blue Marble Next Generation with Topography（2004 年 7 月）仅用于平滑后的沙漠、冰雪配色参考，不作为当前卫星照片。NASA 来源依据 https://science.nasa.gov/earth/faq/ 标注；边界来自公共领域 Natural Earth。处理说明、出处和资产哈希见 `maps/earth-terrain.NOTICE.md` 与 `maps/earth-terrain.json`。8192×4096 海陆位图由同一 50m 几何精确生成；压缩不改变判定数据。手机和大屏均使用随应用打包的地形，无外部图砖服务。
+
+12 张旧库产品照片通过本地 alpha 蒙版处理；原图文件和标签 RGB 保留。Tui Na 的原始 JPEG 按其 EXIF 方向复位后仅改变 alpha。逐图来源、原图/衍生 SHA 及复核见 `dist/data-sources/image-cutouts/catalog-cutouts.json`。原地方酒款的 34 张处理登记单独保留。
+
+新补充的获奖和国家产品图分别保留完整源文件、透明衍生图与来源事实。图片仍归原摄影者、生产商或零售商；本地缓存不增加再分发或商业许可。美洲地区产品出处见 `dist/data-sources/award-products/NOTICE.md`，其他地区的逐条出处在相应补充记录与 research 审计文件中。

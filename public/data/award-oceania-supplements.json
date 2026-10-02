@@ -1,0 +1,1081 @@
+{
+  "metadata": {
+    "id": "award-oceania-packshots-2026-10-02",
+    "updatedAt": "2026-10-02",
+    "batchRequested": 18,
+    "searched": 18,
+    "verifiedPackshots": 9,
+    "breweries": 9,
+    "countries": [
+      "NZ"
+    ],
+    "note": "本oceania待补批次18款实际均为新西兰；独立精确UID补充，不增加或修改奖项、评分、评分人数。9款未取得可靠可导入图仍保留原记录。",
+    "imagePolicy": "原图保留；仅alpha蒙版去背景，cutout的RGB原像素未改。map320/card800仅整画布等比缩放；公开可读不等于图片已获再授权。",
+    "locationPolicy": "城市/附近城镇参考；Burkes为已核实品牌总部城镇，均不声称精确生产厂址。"
+  },
+  "breweries": [
+    {
+      "id": "curated-award-brewery-ccde086827b37b12",
+      "name": "Baylands Brewery",
+      "nameZh": null,
+      "countryCode": "NZ",
+      "country": "New Zealand",
+      "countryZh": "新西兰",
+      "countryBasis": "official_brewery_location",
+      "city": "Petone",
+      "lat": -41.225,
+      "lng": 174.878,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://baylands.beer/pages/contact-details",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Petone",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/new-zealand/page/8/",
+        "https://baylands.beer/pages/contact-details",
+        "https://en.wikipedia.org/wiki/Petone"
+      ],
+      "cityZh": "佩托尼",
+      "region": "Wellington",
+      "regionZh": "惠灵顿大区",
+      "locationNote": "使用官网或品牌参展资料核实的城市/附近城镇参考坐标，不是精确厂址，不证明每一批次的生产地点。",
+      "locationEvidence": {
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://baylands.beer/pages/contact-details",
+        "identityEvidenceFile": ".runtime/award-oceania-evidence/baylands-address.html",
+        "identityEvidenceSha256": "fccb9496f619cf535add9ff14afa04ebc664bf44e325b4e4fdf1c640522ee627",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Petone",
+        "coordinateSourcePageId": 470436,
+        "coordinatePlaceTitle": "Petone",
+        "coordinateEvidenceFile": ".runtime/award-oceania-evidence/coordinates.html",
+        "coordinateEvidenceSha256": "09939a01f094fac181aeb691f12a47a763e5b45e5c5d423105a6fae6cccce5d5",
+        "locationPrecision": "city",
+        "productionLocationVerified": false
+      }
+    },
+    {
+      "id": "curated-award-brewery-c596dfd2bfed185b",
+      "name": "Cassels Brewing Co.",
+      "nameZh": null,
+      "countryCode": "NZ",
+      "country": "New Zealand",
+      "countryZh": "新西兰",
+      "countryBasis": "official_brewery_location",
+      "city": "Christchurch",
+      "lat": -43.5311,
+      "lng": 172.6361,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://cassels.nz/product/triple-cream-milk-stout-copy/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Christchurch",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/new-zealand/page/2/",
+        "https://cassels.nz/product/triple-cream-milk-stout-copy/",
+        "https://en.wikipedia.org/wiki/Christchurch"
+      ],
+      "cityZh": "基督城",
+      "region": "Canterbury",
+      "regionZh": "坎特伯雷",
+      "locationNote": "使用官网或品牌参展资料核实的城市/附近城镇参考坐标，不是精确厂址，不证明每一批次的生产地点。",
+      "locationEvidence": {
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://cassels.nz/product/triple-cream-milk-stout-copy/",
+        "identityEvidenceFile": ".runtime/award-oceania-evidence/cassels-product.html",
+        "identityEvidenceSha256": "a76508f7a5c014a4f4f4c9416fe233f61ad36f23c040ad84a907d24d558c2db0",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Christchurch",
+        "coordinateSourcePageId": 628782,
+        "coordinatePlaceTitle": "Christchurch",
+        "coordinateEvidenceFile": ".runtime/award-oceania-evidence/coordinates.html",
+        "coordinateEvidenceSha256": "09939a01f094fac181aeb691f12a47a763e5b45e5c5d423105a6fae6cccce5d5",
+        "locationPrecision": "city",
+        "productionLocationVerified": false
+      }
+    },
+    {
+      "id": "curated-award-brewery-8d7d6643afd5a254",
+      "name": "Burkes Brewing Co",
+      "nameZh": null,
+      "countryCode": "NZ",
+      "country": "New Zealand",
+      "countryZh": "新西兰",
+      "countryBasis": "regional_tourism_brand_headquarters",
+      "city": "Lake Tekapo",
+      "lat": -44.005,
+      "lng": 170.4775,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brand_headquarters_city_reference",
+      "locationSourceUrl": "https://www.mackenzienz.com/visit/burkes-brewing-co/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Lake_Tekapo_%28town%29",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/new-zealand/page/8/",
+        "https://www.mackenzienz.com/visit/burkes-brewing-co/",
+        "https://en.wikipedia.org/wiki/Lake_Tekapo_%28town%29"
+      ],
+      "cityZh": "特卡波镇",
+      "region": "Canterbury",
+      "regionZh": "坎特伯雷",
+      "locationNote": "地域旅游机构核实品牌总部在Lake Tekapo；使用城镇中心参考坐标，实际酿造厂房及每批生产地点未核实。",
+      "locationEvidence": {
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://www.mackenzienz.com/visit/burkes-brewing-co/",
+        "identityEvidenceFile": ".runtime/award-oceania-evidence/burkes-location.html",
+        "identityEvidenceSha256": "651ed83158873e4cc0ec736f026cf3ec75dc2007f1674deb1bcc064318663a85",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Lake_Tekapo_%28town%29",
+        "coordinateSourcePageId": 1147302,
+        "coordinatePlaceTitle": "Lake Tekapo (town)",
+        "coordinateEvidenceFile": ".runtime/award-oceania-evidence/coordinates.html",
+        "coordinateEvidenceSha256": "09939a01f094fac181aeb691f12a47a763e5b45e5c5d423105a6fae6cccce5d5",
+        "locationPrecision": "city",
+        "productionLocationVerified": false
+      }
+    },
+    {
+      "id": "curated-award-brewery-b58a51da145c586f",
+      "name": "Heyday Beer Co.",
+      "nameZh": null,
+      "countryCode": "NZ",
+      "country": "New Zealand",
+      "countryZh": "新西兰",
+      "countryBasis": "official_brewery_location",
+      "city": "Wellington",
+      "lat": -41.28888889,
+      "lng": 174.77722222,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://www.heydaybeer.com/product-page/time-cat-hazy-ipa-440ml",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Wellington",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/new-zealand/page/8/",
+        "https://www.heydaybeer.com/product-page/time-cat-hazy-ipa-440ml",
+        "https://en.wikipedia.org/wiki/Wellington"
+      ],
+      "cityZh": "惠灵顿",
+      "region": "Wellington",
+      "regionZh": "惠灵顿大区",
+      "locationNote": "使用官网或品牌参展资料核实的城市/附近城镇参考坐标，不是精确厂址，不证明每一批次的生产地点。",
+      "locationEvidence": {
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://www.heydaybeer.com/product-page/time-cat-hazy-ipa-440ml",
+        "identityEvidenceFile": ".runtime/award-oceania-evidence/jeremiah.html",
+        "identityEvidenceSha256": "59eaa48fb9cb4035b43fc38c6125de6a617191cb4c42d2398095104fa4c7e58f",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Wellington",
+        "coordinateSourcePageId": 33804,
+        "coordinatePlaceTitle": "Wellington",
+        "coordinateEvidenceFile": ".runtime/award-oceania-evidence/coordinates.html",
+        "coordinateEvidenceSha256": "09939a01f094fac181aeb691f12a47a763e5b45e5c5d423105a6fae6cccce5d5",
+        "locationPrecision": "city",
+        "productionLocationVerified": false
+      }
+    },
+    {
+      "id": "curated-award-brewery-df03a73b05dc9398",
+      "name": "Bootleg Brewery Ltd",
+      "nameZh": null,
+      "countryCode": "NZ",
+      "country": "New Zealand",
+      "countryZh": "新西兰",
+      "countryBasis": "official_brewery_location",
+      "city": "Matangi",
+      "lat": -37.81666667,
+      "lng": 175.41666667,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://www.bootlegbrewery.co.nz/shop/p/t47m7xke45rk9ml22fvh9pcg9yncvh",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Matangi%2C_New_Zealand",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/new-zealand/",
+        "https://www.bootlegbrewery.co.nz/shop/p/t47m7xke45rk9ml22fvh9pcg9yncvh",
+        "https://en.wikipedia.org/wiki/Matangi%2C_New_Zealand"
+      ],
+      "cityZh": "马唐吉",
+      "region": "Waikato",
+      "regionZh": "怀卡托",
+      "locationNote": "使用官网或品牌参展资料核实的城市/附近城镇参考坐标，不是精确厂址，不证明每一批次的生产地点。",
+      "locationEvidence": {
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://www.bootlegbrewery.co.nz/shop/p/t47m7xke45rk9ml22fvh9pcg9yncvh",
+        "identityEvidenceFile": ".runtime/award-oceania-evidence/bootleg.html",
+        "identityEvidenceSha256": "86c02f111f5029745a1c39f1f51b2d4f0af6d894c8a31fed01a5428202161d82",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Matangi%2C_New_Zealand",
+        "coordinateSourcePageId": 48997922,
+        "coordinatePlaceTitle": "Matangi, New Zealand",
+        "coordinateEvidenceFile": ".runtime/award-oceania-evidence/coordinates-extra.html",
+        "coordinateEvidenceSha256": "79559054f890272602f2819233bc49d4b698283882bfb315bc1d4ff5a6f45b3b",
+        "locationPrecision": "city",
+        "productionLocationVerified": false
+      }
+    },
+    {
+      "id": "curated-award-brewery-a0f2ab37ce6c3b07",
+      "name": "BEERS by Bacon Bros",
+      "nameZh": null,
+      "countryCode": "NZ",
+      "country": "New Zealand",
+      "countryZh": "新西兰",
+      "countryBasis": "official_brewery_location",
+      "city": "Christchurch",
+      "lat": -43.5311,
+      "lng": 172.6361,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://beervana.co.nz/breweries/beers-by-bacon-bros",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Christchurch",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/new-zealand/",
+        "https://awards.untappd.com/region/new-zealand/page/2/",
+        "https://beervana.co.nz/breweries/beers-by-bacon-bros",
+        "https://en.wikipedia.org/wiki/Christchurch"
+      ],
+      "cityZh": "基督城",
+      "region": "Canterbury",
+      "regionZh": "坎特伯雷",
+      "locationNote": "使用官网或品牌参展资料核实的城市/附近城镇参考坐标，不是精确厂址，不证明每一批次的生产地点。",
+      "locationEvidence": {
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://beervana.co.nz/breweries/beers-by-bacon-bros",
+        "identityEvidenceFile": ".runtime/award-oceania-evidence/beers-event-address.html",
+        "identityEvidenceSha256": "b0915d08a9eac03dffdc1d14ea53a5ba3b5fca3c2dd15c9eaeae7a73f51f39b3",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Christchurch",
+        "coordinateSourcePageId": 628782,
+        "coordinatePlaceTitle": "Christchurch",
+        "coordinateEvidenceFile": ".runtime/award-oceania-evidence/coordinates.html",
+        "coordinateEvidenceSha256": "09939a01f094fac181aeb691f12a47a763e5b45e5c5d423105a6fae6cccce5d5",
+        "locationPrecision": "city",
+        "productionLocationVerified": false
+      }
+    },
+    {
+      "id": "curated-award-brewery-592f4488923ae65f",
+      "name": "Sunshine Brewery",
+      "nameZh": null,
+      "countryCode": "NZ",
+      "country": "New Zealand",
+      "countryZh": "新西兰",
+      "countryBasis": "official_brewery_location",
+      "city": "Gisborne",
+      "lat": -38.6625,
+      "lng": 178.01777778,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://sunshinebrewing.co.nz/online-shop/new-release-waves-of-dawn-belgian-wit-440ml/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Gisborne%2C_New_Zealand",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/new-zealand/",
+        "https://awards.untappd.com/region/new-zealand/page/2/",
+        "https://sunshinebrewing.co.nz/online-shop/new-release-waves-of-dawn-belgian-wit-440ml/",
+        "https://en.wikipedia.org/wiki/Gisborne%2C_New_Zealand"
+      ],
+      "cityZh": "吉斯伯恩",
+      "region": "Gisborne",
+      "regionZh": "吉斯伯恩",
+      "locationNote": "使用官网或品牌参展资料核实的城市/附近城镇参考坐标，不是精确厂址，不证明每一批次的生产地点。",
+      "locationEvidence": {
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://sunshinebrewing.co.nz/online-shop/new-release-waves-of-dawn-belgian-wit-440ml/",
+        "identityEvidenceFile": ".runtime/award-oceania-evidence/sunshine-product.html",
+        "identityEvidenceSha256": "76a6435d4ca86a4531d55220bf164ce26624d2a8736e79df886f845198614d49",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Gisborne%2C_New_Zealand",
+        "coordinateSourcePageId": 221602,
+        "coordinatePlaceTitle": "Gisborne, New Zealand",
+        "coordinateEvidenceFile": ".runtime/award-oceania-evidence/coordinates-extra.html",
+        "coordinateEvidenceSha256": "79559054f890272602f2819233bc49d4b698283882bfb315bc1d4ff5a6f45b3b",
+        "locationPrecision": "city",
+        "productionLocationVerified": false
+      }
+    },
+    {
+      "id": "curated-award-brewery-bd33800ca0ecb80d",
+      "name": "Alibi Brewing Co.",
+      "nameZh": null,
+      "countryCode": "NZ",
+      "country": "New Zealand",
+      "countryZh": "新西兰",
+      "countryBasis": "official_brewery_location",
+      "city": "Onetangi",
+      "lat": -36.788,
+      "lng": 175.081,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://alibibrewing.co.nz/beer/choco-stout/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Onetangi",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/new-zealand/page/2/",
+        "https://alibibrewing.co.nz/beer/choco-stout/",
+        "https://en.wikipedia.org/wiki/Onetangi"
+      ],
+      "cityZh": "奥内唐吉",
+      "region": "Auckland",
+      "regionZh": "奥克兰大区",
+      "locationNote": "官网地址位于Waiheke Island的Onetangi Road，使用附近Onetangi城镇参考点，不搬到奥克兰市中心，也不是精确厂址。",
+      "locationEvidence": {
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://alibibrewing.co.nz/beer/choco-stout/",
+        "identityEvidenceFile": ".runtime/award-oceania-evidence/alibi.html",
+        "identityEvidenceSha256": "2232e685a6eff855bceda74c6784a39c198f91650bbbb24c293b6ec67a5519f1",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Onetangi",
+        "coordinateSourcePageId": 65068641,
+        "coordinatePlaceTitle": "Onetangi",
+        "coordinateEvidenceFile": ".runtime/award-oceania-evidence/coordinates.html",
+        "coordinateEvidenceSha256": "09939a01f094fac181aeb691f12a47a763e5b45e5c5d423105a6fae6cccce5d5",
+        "locationPrecision": "city",
+        "productionLocationVerified": false
+      },
+      "cityAliases": [
+        "Waiheke Island",
+        "怀赫科岛"
+      ]
+    },
+    {
+      "id": "curated-award-brewery-eaf1c4153417828a",
+      "name": "Thief Brewing",
+      "nameZh": null,
+      "countryCode": "NZ",
+      "country": "New Zealand",
+      "countryZh": "新西兰",
+      "countryBasis": "official_brewery_location",
+      "city": "Tai Tapu",
+      "lat": -43.662,
+      "lng": 172.549,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://www.thiefbrewing.co.nz/terms-of-service",
+      "coordinateSourceUrl": "https://www.wikidata.org/wiki/Q17065644",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/new-zealand/page/2/",
+        "https://www.thiefbrewing.co.nz/terms-of-service",
+        "https://www.wikidata.org/wiki/Q17065644"
+      ],
+      "cityZh": "泰塔普",
+      "region": "Canterbury",
+      "regionZh": "坎特伯雷",
+      "locationNote": "使用官网或品牌参展资料核实的城市/附近城镇参考坐标，不是精确厂址，不证明每一批次的生产地点。",
+      "locationEvidence": {
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://www.thiefbrewing.co.nz/terms-of-service",
+        "identityEvidenceFile": ".runtime/award-oceania-evidence/thief-address.html",
+        "identityEvidenceSha256": "f106c864f20cbb48cb5b72408ff72e0c46041ef9db44340b1676ff1fbf7e02a4",
+        "coordinateSourceUrl": "https://www.wikidata.org/wiki/Q17065644",
+        "coordinateSourcePageId": "Q17065644",
+        "coordinatePlaceTitle": "Tai Tapu",
+        "coordinateEvidenceFile": ".runtime/award-oceania-evidence/taitapu-coordinate.html",
+        "coordinateEvidenceSha256": "c50f3073298510f7e19165671a5060dd52ac18ed9092e5cab089ab5b31e3ae9f",
+        "locationPrecision": "city",
+        "productionLocationVerified": false
+      }
+    }
+  ],
+  "beers": [
+    {
+      "id": "curated-award-1762989",
+      "name": "Typhoon Detector",
+      "breweryId": "curated-award-brewery-ccde086827b37b12",
+      "untappdId": "1762989",
+      "abv": 6,
+      "description": "Baylands 的美式红艾尔，本次核实为440mL罐装。零售页明确列出 Amarillo 与 Citra 酒花；酒精度6%与IBU 45沿用本款精确UID已有资料。",
+      "descriptionMethod": "faithful_short_paraphrase",
+      "descriptionBasis": "reviewed_public_product_information",
+      "image": "/images/awards-products/oceania-1762989-card.webp",
+      "imageThumbnail": "/images/awards-products/oceania-1762989-map.webp",
+      "imageOriginal": "/images/awards-products/oceania-1762989-cutout.png",
+      "imageRawOriginal": "/images/awards-products/oceania-1762989-original.png",
+      "imageKind": "product_packshot",
+      "imageCredit": "Licensed public retail product catalogue",
+      "imageSource": "https://beerandwine.co.nz/cdn/shop/products/baylands_typhoon_detector_1200x1200.png?v=1685773283",
+      "imageSourceUrl": "https://beerandwine.co.nz/cdn/shop/products/baylands_typhoon_detector_1200x1200.png?v=1685773283",
+      "sourceNote": "当前零售包装未证明对应2025获奖评分年度的同一生产批次。源正文将Amarillo重复列出，未擅自补第三种酒花。",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/new-zealand/page/8/",
+        "https://awards.untappd.com/beers/1762989/",
+        "https://untappd.com/b/baylands-brewery-typhoon-detector/1762989",
+        "https://raw.githubusercontent.com/kkcp-dsi/CraftBeerRatingsAnalysis/main/data/all_beers.csv",
+        "https://beerandwine.co.nz/products/baylands-typhoon-detector-red-ale-440ml",
+        "https://beerandwine.co.nz/cdn/shop/products/baylands_typhoon_detector_1200x1200.png?v=1685773283"
+      ],
+      "sourceEvidence": [
+        {
+          "role": "reviewed_product_description_and_packaging",
+          "url": "https://beerandwine.co.nz/products/baylands-typhoon-detector-red-ale-440ml",
+          "sourceFile": ".runtime/award-oceania-evidence/baylands-product.html",
+          "sha256": "c2b764fa508850047c5b563e1661bf2298966da36e505660d66831fd7babcf9c",
+          "retrievedAt": "2026-10-02",
+          "readMethod": "direct_public_html",
+          "summaryZh": "Baylands 的美式红艾尔，本次核实为440mL罐装。零售页明确列出 Amarillo 与 Citra 酒花；酒精度6%与IBU 45沿用本款精确UID已有资料。"
+        }
+      ],
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/1762989/",
+          "https://beerandwine.co.nz/products/baylands-typhoon-detector-red-ale-440ml"
+        ],
+        "basis": "获奖精确UID已有品牌、产品名与公开产品页/完整包装人工核对；版本限制单独保留。",
+        "reviewedAt": "2026-10-02",
+        "awardYearPackageVerified": false
+      },
+      "imageEvidence": {
+        "sourceUrl": "https://beerandwine.co.nz/cdn/shop/products/baylands_typhoon_detector_1200x1200.png?v=1685773283",
+        "sourcePageUrl": "https://beerandwine.co.nz/products/baylands-typhoon-detector-red-ale-440ml",
+        "sourceClass": "trusted_retail_packshot",
+        "originalSha256": "4974c994849d1c6c5c250bfc67ef224e6632ed8cb85fac631e37629e139738a6",
+        "rawOriginalImage": "/images/awards-products/oceania-1762989-original.png",
+        "rawOriginalUnmodified": true,
+        "individuallyVerified": true,
+        "reviewMethod": "manual_packaging_identity_and_full_silhouette_check",
+        "reviewedAt": "2026-10-02",
+        "reuseRightsVerified": false,
+        "cutoutSha256": "64acd9e4e2b7a3e9081515307584d5c311f25fc4c4eaca85fdbb3120d591d161",
+        "processingManifest": "research/award-country-expansion-2026-10-02/oceania-packshot-processing.json"
+      },
+      "imageContentBounds": {
+        "width": 300,
+        "height": 600,
+        "bounds": {
+          "x": 36,
+          "y": 5,
+          "width": 229,
+          "height": 593
+        },
+        "originalSha256": "64acd9e4e2b7a3e9081515307584d5c311f25fc4c4eaca85fdbb3120d591d161",
+        "method": "decoded_alpha_bbox"
+      }
+    },
+    {
+      "id": "curated-award-4366753",
+      "name": "Triple Cream Milk Stout",
+      "breweryId": "curated-award-brewery-c596dfd2bfed185b",
+      "untappdId": "4366753",
+      "abv": 9,
+      "description": "Cassels 的9%帝国牛奶世涛，口感绵密、酒体饱满，带苦甜交织的摩卡气息；官网列有 Moutere 和 Willamette 酒花以及乳糖。",
+      "descriptionMethod": "faithful_short_paraphrase",
+      "descriptionBasis": "reviewed_public_product_information",
+      "image": "/images/awards-products/oceania-4366753-card.webp",
+      "imageThumbnail": "/images/awards-products/oceania-4366753-map.webp",
+      "imageOriginal": "/images/awards-products/oceania-4366753-cutout.png",
+      "imageRawOriginal": "/images/awards-products/oceania-4366753-retail-original.jpg",
+      "imageKind": "product_packshot",
+      "imageCredit": "Liquorland NZ / Cassels",
+      "imageSource": "https://www.liquorland.co.nz/content/products/cassels-triple-cream-milk-stout-can-440ml-836358-35185.jpg?width=516",
+      "imageSourceUrl": "https://www.liquorland.co.nz/content/products/cassels-triple-cream-milk-stout-can-440ml-836358-35185.jpg?width=516",
+      "sourceNote": "展示Liquorland所列440mL罐装，其品牌、Triple Cream Milk Stout名称与螃蟹图案同官网原图互证；未证明是2025评分年度特定包装。",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/new-zealand/page/2/",
+        "https://awards.untappd.com/beers/4366753/",
+        "https://cassels.nz/product/triple-cream-milk-stout-copy/",
+        "https://www.liquorland.co.nz/content/products/cassels-triple-cream-milk-stout-can-440ml-836358-35185.jpg?width=516",
+        "https://www.liquorland.co.nz/cassels-triple-cream-milk-stout-can-440ml-836358"
+      ],
+      "sourceEvidence": [
+        {
+          "role": "reviewed_product_description_and_packaging",
+          "url": "https://cassels.nz/product/triple-cream-milk-stout-copy/",
+          "sourceFile": ".runtime/award-oceania-evidence/cassels-product.html",
+          "sha256": "a76508f7a5c014a4f4f4c9416fe233f61ad36f23c040ad84a907d24d558c2db0",
+          "retrievedAt": "2026-10-02",
+          "readMethod": "direct_public_html",
+          "summaryZh": "Cassels 的9%帝国牛奶世涛，口感绵密、酒体饱满，带苦甜交织的摩卡气息；官网列有 Moutere 和 Willamette 酒花以及乳糖。"
+        },
+        {
+          "role": "packaging_identity_corroboration",
+          "url": "https://www.liquorland.co.nz/cassels-triple-cream-milk-stout-can-440ml-836358",
+          "sourceFile": ".runtime/award-oceania-evidence/cassels-retail.html",
+          "sha256": "abc77f0949e213757b42b38caf64b6d8c8216ea783d38fc23407cd1484544825",
+          "retrievedAt": "2026-10-02",
+          "summaryZh": "440mL罐体顶部明确标示CASSELS及TRIPLE CREAM MILK STOUT，螃蟹与俄文字样是酒标美术设计；与官网原图一致。"
+        }
+      ],
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/4366753/",
+          "https://cassels.nz/product/triple-cream-milk-stout-copy/"
+        ],
+        "basis": "获奖精确UID已有品牌、产品名与公开产品页/完整包装人工核对；版本限制单独保留。",
+        "reviewedAt": "2026-10-02",
+        "awardYearPackageVerified": false
+      },
+      "imageEvidence": {
+        "sourceUrl": "https://www.liquorland.co.nz/content/products/cassels-triple-cream-milk-stout-can-440ml-836358-35185.jpg?width=516",
+        "sourcePageUrl": "https://www.liquorland.co.nz/cassels-triple-cream-milk-stout-can-440ml-836358",
+        "sourceClass": "trusted_retail_packshot",
+        "originalSha256": "29cc26bc6dd6eb95456a88f4270829a245f0a9fdd4c5b2320feba4cd4049861b",
+        "rawOriginalImage": "/images/awards-products/oceania-4366753-retail-original.jpg",
+        "rawOriginalUnmodified": true,
+        "individuallyVerified": true,
+        "reviewMethod": "manual_packaging_identity_and_full_silhouette_check",
+        "reviewedAt": "2026-10-02",
+        "reuseRightsVerified": false,
+        "cutoutSha256": "8b0046faeff877678afd4d8709b441c62ed66cd1e42266013fe1dd943b40fafb",
+        "processingManifest": "research/award-country-expansion-2026-10-02/oceania-packshot-processing.json"
+      },
+      "imageContentBounds": {
+        "width": 516,
+        "height": 516,
+        "bounds": {
+          "x": 154,
+          "y": 23,
+          "width": 216,
+          "height": 471
+        },
+        "originalSha256": "8b0046faeff877678afd4d8709b441c62ed66cd1e42266013fe1dd943b40fafb",
+        "method": "decoded_alpha_bbox"
+      }
+    },
+    {
+      "id": "curated-award-4390363",
+      "name": "Unforgiven Porter",
+      "breweryId": "curated-award-brewery-8d7d6643afd5a254",
+      "untappdId": "4390363",
+      "abv": 5.9,
+      "description": "Burkes 的5.9%波特。所核验零售页描述烘烤风味、甜味和苦味相互平衡，入口圆润；展示440mL罐装。",
+      "descriptionMethod": "faithful_short_paraphrase",
+      "descriptionBasis": "reviewed_public_product_information",
+      "image": "/images/awards-products/oceania-4390363-card.webp",
+      "imageThumbnail": "/images/awards-products/oceania-4390363-map.webp",
+      "imageOriginal": "/images/awards-products/oceania-4390363-cutout.png",
+      "imageRawOriginal": "/images/awards-products/oceania-4390363-original.jpg",
+      "imageKind": "product_packshot",
+      "imageCredit": "Licensed public retail product catalogue",
+      "imageSource": "https://beercellar.co.nz/cdn/shop/files/burkes-unforgiven-porter-440ml.jpg?v=1717477971",
+      "imageSourceUrl": "https://beercellar.co.nz/cdn/shop/files/burkes-unforgiven-porter-440ml.jpg?v=1717477971",
+      "sourceNote": "酒厂平台曾列Twizel；本次地域旅游机构明确将Lake Tekapo列作品牌总部，仅用总部城镇参考点，不声称当前具体生产厂房。",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/new-zealand/page/8/",
+        "https://awards.untappd.com/beers/4390363/",
+        "https://beercellar.co.nz/products/burkes-brewing-unforgiven-porter-440ml",
+        "https://beercellar.co.nz/cdn/shop/files/burkes-unforgiven-porter-440ml.jpg?v=1717477971"
+      ],
+      "sourceEvidence": [
+        {
+          "role": "reviewed_product_description_and_packaging",
+          "url": "https://beercellar.co.nz/products/burkes-brewing-unforgiven-porter-440ml",
+          "sourceFile": ".runtime/award-oceania-evidence/burkes-product.html",
+          "sha256": "2f78a4685422e0be5fa34ff158830082a7a395469c0aaab3044400d5af19ee9a",
+          "retrievedAt": "2026-10-02",
+          "readMethod": "direct_public_html",
+          "summaryZh": "Burkes 的5.9%波特。所核验零售页描述烘烤风味、甜味和苦味相互平衡，入口圆润；展示440mL罐装。"
+        }
+      ],
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/4390363/",
+          "https://beercellar.co.nz/products/burkes-brewing-unforgiven-porter-440ml"
+        ],
+        "basis": "获奖精确UID已有品牌、产品名与公开产品页/完整包装人工核对；版本限制单独保留。",
+        "reviewedAt": "2026-10-02",
+        "awardYearPackageVerified": false
+      },
+      "imageEvidence": {
+        "sourceUrl": "https://beercellar.co.nz/cdn/shop/files/burkes-unforgiven-porter-440ml.jpg?v=1717477971",
+        "sourcePageUrl": "https://beercellar.co.nz/products/burkes-brewing-unforgiven-porter-440ml",
+        "sourceClass": "trusted_retail_packshot",
+        "originalSha256": "16bf5a64c1d01daee7a41cef91d78c85b9666175ea9ba556a2199106267dc460",
+        "rawOriginalImage": "/images/awards-products/oceania-4390363-original.jpg",
+        "rawOriginalUnmodified": true,
+        "individuallyVerified": true,
+        "reviewMethod": "manual_packaging_identity_and_full_silhouette_check",
+        "reviewedAt": "2026-10-02",
+        "reuseRightsVerified": false,
+        "cutoutSha256": "0b6e3c820a2ceec5b439302cee681a19fedd765b6e95e4685dba91b13cd2090e",
+        "processingManifest": "research/award-country-expansion-2026-10-02/oceania-packshot-processing.json"
+      },
+      "imageContentBounds": {
+        "width": 517,
+        "height": 517,
+        "bounds": {
+          "x": 153,
+          "y": 12,
+          "width": 214,
+          "height": 496
+        },
+        "originalSha256": "0b6e3c820a2ceec5b439302cee681a19fedd765b6e95e4685dba91b13cd2090e",
+        "method": "decoded_alpha_bbox"
+      }
+    },
+    {
+      "id": "curated-award-4980769",
+      "name": "Jeremiah",
+      "breweryId": "curated-award-brewery-b58a51da145c586f",
+      "untappdId": "4980769",
+      "abv": 6.3,
+      "description": "Heyday 的6.3%帝国皮尔森，使用 Riwaka、Motueka 及少量 Nelson Sauvin 酒花干投。官网描述其青柠柑橘气息与轻微百香果香相互平衡，展示440mL罐装。",
+      "descriptionMethod": "faithful_short_paraphrase",
+      "descriptionBasis": "reviewed_public_product_information",
+      "image": "/images/awards-products/oceania-4980769-card.webp",
+      "imageThumbnail": "/images/awards-products/oceania-4980769-map.webp",
+      "imageOriginal": "/images/awards-products/oceania-4980769-cutout.png",
+      "imageRawOriginal": "/images/awards-products/oceania-4980769-original.png",
+      "imageKind": "product_packshot",
+      "imageCredit": "Official brewery product page",
+      "imageSource": "https://static.wixstatic.com/media/45a77e_9b5d1f7e8bff4d6a8f9f9b3c2c99ba66~mv2.png",
+      "imageSourceUrl": "https://static.wixstatic.com/media/45a77e_9b5d1f7e8bff4d6a8f9f9b3c2c99ba66~mv2.png",
+      "sourceNote": "官网URL仍含旧的Time Cat字样，但页面标题、正文、罐上Jeremiah名称与6.3%一致；不能仅按URL判断酒款。",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/new-zealand/page/8/",
+        "https://awards.untappd.com/beers/4980769/",
+        "https://www.heydaybeer.com/product-page/time-cat-hazy-ipa-440ml",
+        "https://static.wixstatic.com/media/45a77e_9b5d1f7e8bff4d6a8f9f9b3c2c99ba66~mv2.png"
+      ],
+      "sourceEvidence": [
+        {
+          "role": "reviewed_product_description_and_packaging",
+          "url": "https://www.heydaybeer.com/product-page/time-cat-hazy-ipa-440ml",
+          "sourceFile": ".runtime/award-oceania-evidence/jeremiah.html",
+          "sha256": "59eaa48fb9cb4035b43fc38c6125de6a617191cb4c42d2398095104fa4c7e58f",
+          "retrievedAt": "2026-10-02",
+          "readMethod": "direct_public_html",
+          "summaryZh": "Heyday 的6.3%帝国皮尔森，使用 Riwaka、Motueka 及少量 Nelson Sauvin 酒花干投。官网描述其青柠柑橘气息与轻微百香果香相互平衡，展示440mL罐装。"
+        }
+      ],
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/4980769/",
+          "https://www.heydaybeer.com/product-page/time-cat-hazy-ipa-440ml"
+        ],
+        "basis": "获奖精确UID已有品牌、产品名与公开产品页/完整包装人工核对；版本限制单独保留。",
+        "reviewedAt": "2026-10-02",
+        "awardYearPackageVerified": false
+      },
+      "imageEvidence": {
+        "sourceUrl": "https://static.wixstatic.com/media/45a77e_9b5d1f7e8bff4d6a8f9f9b3c2c99ba66~mv2.png",
+        "sourcePageUrl": "https://www.heydaybeer.com/product-page/time-cat-hazy-ipa-440ml",
+        "sourceClass": "official_product_packshot",
+        "originalSha256": "7c35731fc9fe4ea1d373d0c11de68a0f78df4e16351cfbedd90100bcde9de311",
+        "rawOriginalImage": "/images/awards-products/oceania-4980769-original.png",
+        "rawOriginalUnmodified": true,
+        "individuallyVerified": true,
+        "reviewMethod": "manual_packaging_identity_and_full_silhouette_check",
+        "reviewedAt": "2026-10-02",
+        "reuseRightsVerified": false,
+        "cutoutSha256": "8936092ed9bdc904ea90fc2397fc9830aa3fa54ffb0d7d6cb767f2034204fd7e",
+        "processingManifest": "research/award-country-expansion-2026-10-02/oceania-packshot-processing.json"
+      },
+      "imageContentBounds": {
+        "width": 800,
+        "height": 800,
+        "bounds": {
+          "x": 244,
+          "y": 37,
+          "width": 307,
+          "height": 737
+        },
+        "originalSha256": "8936092ed9bdc904ea90fc2397fc9830aa3fa54ffb0d7d6cb767f2034204fd7e",
+        "method": "decoded_alpha_bbox"
+      }
+    },
+    {
+      "id": "curated-award-4980827",
+      "name": "Hefeweizen",
+      "breweryId": "curated-award-brewery-df03a73b05dc9398",
+      "untappdId": "4980827",
+      "abv": 5,
+      "description": "Bootleg 的德式小麦啤酒，本次核验官网现售5%、500mL瓶装版本。图片从官方三瓶合照中仅保留中央完整酒瓶；未从风格推断其具体香气或酵母配方。",
+      "descriptionMethod": "faithful_short_paraphrase",
+      "descriptionBasis": "verified_product_specification",
+      "image": "/images/awards-products/oceania-4980827-card.webp",
+      "imageThumbnail": "/images/awards-products/oceania-4980827-map.webp",
+      "imageOriginal": "/images/awards-products/oceania-4980827-cutout.png",
+      "imageRawOriginal": "/images/awards-products/oceania-4980827-original.jpg",
+      "imageKind": "product_packshot",
+      "imageCredit": "Official brewery product page",
+      "imageSource": "https://images.squarespace-cdn.com/content/v1/5e7d428ed58040103726cc3d/6a6525ab-0987-4113-a1f7-3a2cd9d0f416/Hefeweizen+Bottles.jpg",
+      "imageSourceUrl": "https://images.squarespace-cdn.com/content/v1/5e7d428ed58040103726cc3d/6a6525ab-0987-4113-a1f7-3a2cd9d0f416/Hefeweizen+Bottles.jpg",
+      "sourceNote": "精确UID公开产品资料标4.7%，官网标题与图中当前瓶身标5%；此处5%仅对应展示包装，不断言其为2025获奖配方。",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/new-zealand/",
+        "https://awards.untappd.com/beers/4980827/",
+        "https://www.bootlegbrewery.co.nz/shop/p/t47m7xke45rk9ml22fvh9pcg9yncvh",
+        "https://images.squarespace-cdn.com/content/v1/5e7d428ed58040103726cc3d/6a6525ab-0987-4113-a1f7-3a2cd9d0f416/Hefeweizen+Bottles.jpg"
+      ],
+      "sourceEvidence": [
+        {
+          "role": "reviewed_product_description_and_packaging",
+          "url": "https://www.bootlegbrewery.co.nz/shop/p/t47m7xke45rk9ml22fvh9pcg9yncvh",
+          "sourceFile": ".runtime/award-oceania-evidence/bootleg.html",
+          "sha256": "86c02f111f5029745a1c39f1f51b2d4f0af6d894c8a31fed01a5428202161d82",
+          "retrievedAt": "2026-10-02",
+          "readMethod": "direct_public_html",
+          "summaryZh": "Bootleg 的德式小麦啤酒，本次核验官网现售5%、500mL瓶装版本。图片从官方三瓶合照中仅保留中央完整酒瓶；未从风格推断其具体香气或酵母配方。"
+        }
+      ],
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/4980827/",
+          "https://www.bootlegbrewery.co.nz/shop/p/t47m7xke45rk9ml22fvh9pcg9yncvh"
+        ],
+        "basis": "获奖精确UID已有品牌、产品名与公开产品页/完整包装人工核对；版本限制单独保留。",
+        "reviewedAt": "2026-10-02",
+        "awardYearPackageVerified": false
+      },
+      "imageEvidence": {
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/5e7d428ed58040103726cc3d/6a6525ab-0987-4113-a1f7-3a2cd9d0f416/Hefeweizen+Bottles.jpg",
+        "sourcePageUrl": "https://www.bootlegbrewery.co.nz/shop/p/t47m7xke45rk9ml22fvh9pcg9yncvh",
+        "sourceClass": "official_product_packshot",
+        "originalSha256": "31ed3042b1996d76673e764f54589fab4e9a2d73dd1270e6e37d7c4931122fb3",
+        "rawOriginalImage": "/images/awards-products/oceania-4980827-original.jpg",
+        "rawOriginalUnmodified": true,
+        "individuallyVerified": true,
+        "reviewMethod": "manual_packaging_identity_and_full_silhouette_check",
+        "reviewedAt": "2026-10-02",
+        "reuseRightsVerified": false,
+        "cutoutSha256": "6d71d347a6101a37094790ecf5e02767b303acc8ed1c5aa3b584b26f1478117b",
+        "processingManifest": "research/award-country-expansion-2026-10-02/oceania-packshot-processing.json"
+      },
+      "imageContentBounds": {
+        "width": 2500,
+        "height": 2500,
+        "bounds": {
+          "x": 928,
+          "y": 48,
+          "width": 553,
+          "height": 2383
+        },
+        "originalSha256": "6d71d347a6101a37094790ecf5e02767b303acc8ed1c5aa3b584b26f1478117b",
+        "method": "decoded_alpha_bbox"
+      },
+      "sourceConflicts": [
+        {
+          "field": "abv",
+          "values": [
+            {
+              "value": 4.7,
+              "sourceUrl": "https://untappd.com/b/bootleg-brewery-ltd-hefeweizen/4980827"
+            },
+            {
+              "value": 5,
+              "sourceUrl": "https://www.bootlegbrewery.co.nz/shop/p/t47m7xke45rk9ml22fvh9pcg9yncvh"
+            }
+          ],
+          "resolution": "展示ABV采用当前官网及瓶身的5%；获奖年度的配方/瓶装版本尚未核实，旧4.7%记录不作为当前包装参数。"
+        }
+      ]
+    },
+    {
+      "id": "curated-award-5845060",
+      "name": "Framboise Patisserie",
+      "breweryId": "curated-award-brewery-a0f2ab37ce6c3b07",
+      "untappdId": "5845060",
+      "abv": 6.8,
+      "description": "BEERS by Bacon Bros 的覆盆子甜点世涛，酒精度6.8%。所核验零售页描述浓郁巧克力、酸味覆盆子和柔和香草风味，展示440mL罐装。",
+      "descriptionMethod": "faithful_short_paraphrase",
+      "descriptionBasis": "reviewed_public_product_information",
+      "image": "/images/awards-products/oceania-5845060-card.webp",
+      "imageThumbnail": "/images/awards-products/oceania-5845060-map.webp",
+      "imageOriginal": "/images/awards-products/oceania-5845060-cutout.png",
+      "imageRawOriginal": "/images/awards-products/oceania-5845060-original.png",
+      "imageKind": "product_packshot",
+      "imageCredit": "Licensed public retail product catalogue",
+      "imageSource": "https://beerandwine.co.nz/cdn/shop/files/Beers_20Beer_20Framboise_20Patisserie_20440mL_7a752aa7-3318-43c2-82b7-4dfcb7ce8576_1200x1200.png?v=1732320332",
+      "imageSourceUrl": "https://beerandwine.co.nz/cdn/shop/files/Beers_20Beer_20Framboise_20Patisserie_20440mL_7a752aa7-3318-43c2-82b7-4dfcb7ce8576_1200x1200.png?v=1732320332",
+      "sourceNote": "风味描述不等于已逐项核验实际投料；当前包装不代表获奖年度指定批次。",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/new-zealand/",
+        "https://awards.untappd.com/beers/5845060/",
+        "https://awards.untappd.com/region/new-zealand/page/2/",
+        "https://beerandwine.co.nz/products/beers-beer-framboise-patisserie-440ml",
+        "https://beerandwine.co.nz/cdn/shop/files/Beers_20Beer_20Framboise_20Patisserie_20440mL_7a752aa7-3318-43c2-82b7-4dfcb7ce8576_1200x1200.png?v=1732320332"
+      ],
+      "sourceEvidence": [
+        {
+          "role": "reviewed_product_description_and_packaging",
+          "url": "https://beerandwine.co.nz/products/beers-beer-framboise-patisserie-440ml",
+          "sourceFile": ".runtime/award-oceania-evidence/framboise-product.html",
+          "sha256": "cd5b40b6d8cedc701c13e21aea5c8120ba9c954f8107b05fe1d30f9569c70c2f",
+          "retrievedAt": "2026-10-02",
+          "readMethod": "direct_public_html",
+          "summaryZh": "BEERS by Bacon Bros 的覆盆子甜点世涛，酒精度6.8%。所核验零售页描述浓郁巧克力、酸味覆盆子和柔和香草风味，展示440mL罐装。"
+        }
+      ],
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/5845060/",
+          "https://beerandwine.co.nz/products/beers-beer-framboise-patisserie-440ml"
+        ],
+        "basis": "获奖精确UID已有品牌、产品名与公开产品页/完整包装人工核对；版本限制单独保留。",
+        "reviewedAt": "2026-10-02",
+        "awardYearPackageVerified": false
+      },
+      "imageEvidence": {
+        "sourceUrl": "https://beerandwine.co.nz/cdn/shop/files/Beers_20Beer_20Framboise_20Patisserie_20440mL_7a752aa7-3318-43c2-82b7-4dfcb7ce8576_1200x1200.png?v=1732320332",
+        "sourcePageUrl": "https://beerandwine.co.nz/products/beers-beer-framboise-patisserie-440ml",
+        "sourceClass": "trusted_retail_packshot",
+        "originalSha256": "f9c14e4342fb4d7fcc57c4421337eaa04a5f40b46097d1a968c58e2264a2e2c4",
+        "rawOriginalImage": "/images/awards-products/oceania-5845060-original.png",
+        "rawOriginalUnmodified": true,
+        "individuallyVerified": true,
+        "reviewMethod": "manual_packaging_identity_and_full_silhouette_check",
+        "reviewedAt": "2026-10-02",
+        "reuseRightsVerified": false,
+        "cutoutSha256": "6a9b7c7e6ef9510bf20f1c3cf414cf2662ad0550089ab6feed1add432776f9fa",
+        "processingManifest": "research/award-country-expansion-2026-10-02/oceania-packshot-processing.json"
+      },
+      "imageContentBounds": {
+        "width": 1000,
+        "height": 1000,
+        "bounds": {
+          "x": 296,
+          "y": 22,
+          "width": 408,
+          "height": 956
+        },
+        "originalSha256": "6a9b7c7e6ef9510bf20f1c3cf414cf2662ad0550089ab6feed1add432776f9fa",
+        "method": "decoded_alpha_bbox"
+      }
+    },
+    {
+      "id": "curated-award-6220651",
+      "name": "Waves of Dawn Belgian Wit",
+      "breweryId": "curated-award-brewery-592f4488923ae65f",
+      "untappdId": "6220651",
+      "abv": 5,
+      "description": "Sunshine 的5%比利时小麦啤酒，官网明确列有 kawakawa、洛神花、覆盆子与番石榴，最初为2025年 Otto ExBEERimental Festival 酿制；展示440mL罐装。",
+      "descriptionMethod": "faithful_short_paraphrase",
+      "descriptionBasis": "reviewed_public_product_information",
+      "image": "/images/awards-products/oceania-6220651-card.webp",
+      "imageThumbnail": "/images/awards-products/oceania-6220651-map.webp",
+      "imageOriginal": "/images/awards-products/oceania-6220651-cutout.png",
+      "imageRawOriginal": "/images/awards-products/oceania-6220651-original.png",
+      "imageKind": "product_packshot",
+      "imageCredit": "Official brewery product page",
+      "imageSource": "https://sunshinebrewing.co.nz/wp-content/uploads/2025/05/Waves-of-dawn-03-scaled.png",
+      "imageSourceUrl": "https://sunshinebrewing.co.nz/wp-content/uploads/2025/05/Waves-of-dawn-03-scaled.png",
+      "sourceNote": "官方宣传图有伸出罐体的装饰，透明处理仅保留真实罐体轮廓内的原像素，不将周围插画带入地图。",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/new-zealand/",
+        "https://awards.untappd.com/beers/6220651/",
+        "https://awards.untappd.com/region/new-zealand/page/2/",
+        "https://sunshinebrewing.co.nz/online-shop/new-release-waves-of-dawn-belgian-wit-440ml/",
+        "https://sunshinebrewing.co.nz/wp-content/uploads/2025/05/Waves-of-dawn-03-scaled.png"
+      ],
+      "sourceEvidence": [
+        {
+          "role": "reviewed_product_description_and_packaging",
+          "url": "https://sunshinebrewing.co.nz/online-shop/new-release-waves-of-dawn-belgian-wit-440ml/",
+          "sourceFile": ".runtime/award-oceania-evidence/sunshine-product.html",
+          "sha256": "76a6435d4ca86a4531d55220bf164ce26624d2a8736e79df886f845198614d49",
+          "retrievedAt": "2026-10-02",
+          "readMethod": "direct_public_html",
+          "summaryZh": "Sunshine 的5%比利时小麦啤酒，官网明确列有 kawakawa、洛神花、覆盆子与番石榴，最初为2025年 Otto ExBEERimental Festival 酿制；展示440mL罐装。"
+        }
+      ],
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/6220651/",
+          "https://sunshinebrewing.co.nz/online-shop/new-release-waves-of-dawn-belgian-wit-440ml/"
+        ],
+        "basis": "获奖精确UID已有品牌、产品名与公开产品页/完整包装人工核对；版本限制单独保留。",
+        "reviewedAt": "2026-10-02",
+        "awardYearPackageVerified": false
+      },
+      "imageEvidence": {
+        "sourceUrl": "https://sunshinebrewing.co.nz/wp-content/uploads/2025/05/Waves-of-dawn-03-scaled.png",
+        "sourcePageUrl": "https://sunshinebrewing.co.nz/online-shop/new-release-waves-of-dawn-belgian-wit-440ml/",
+        "sourceClass": "official_product_packshot",
+        "originalSha256": "2edab69ac2e37d6c2ffead6f4cb7053d91c390341e8167706427547ca62140c7",
+        "rawOriginalImage": "/images/awards-products/oceania-6220651-original.png",
+        "rawOriginalUnmodified": true,
+        "individuallyVerified": true,
+        "reviewMethod": "manual_packaging_identity_and_full_silhouette_check",
+        "reviewedAt": "2026-10-02",
+        "reuseRightsVerified": false,
+        "cutoutSha256": "19eea6d56bac31a76d053292a4264d0d4309a70b46e6cb5f33b46eab10858f79",
+        "processingManifest": "research/award-country-expansion-2026-10-02/oceania-packshot-processing.json"
+      },
+      "imageContentBounds": {
+        "width": 2560,
+        "height": 2560,
+        "bounds": {
+          "x": 788,
+          "y": 203,
+          "width": 1007,
+          "height": 2293
+        },
+        "originalSha256": "19eea6d56bac31a76d053292a4264d0d4309a70b46e6cb5f33b46eab10858f79",
+        "method": "decoded_alpha_bbox"
+      }
+    },
+    {
+      "id": "curated-award-6270806",
+      "name": "Choco Stout",
+      "breweryId": "curated-award-brewery-bd33800ca0ecb80d",
+      "untappdId": "6270806",
+      "abv": 6.5,
+      "description": "Alibi 的 Choco Stout 于2025年5月发布，酒精度6.5%，440mL罐装。官网描述其顺滑、绵密，含巧克力麦芽与荷兰可可，并带烘烤和巧克力布丁般气息。",
+      "descriptionMethod": "faithful_short_paraphrase",
+      "descriptionBasis": "reviewed_public_product_information",
+      "image": "/images/awards-products/oceania-6270806-card.webp",
+      "imageThumbnail": "/images/awards-products/oceania-6270806-map.webp",
+      "imageOriginal": "/images/awards-products/oceania-6270806-cutout.png",
+      "imageRawOriginal": "/images/awards-products/oceania-6270806-original.png",
+      "imageKind": "product_packshot",
+      "imageCredit": "Official brewery product page",
+      "imageSource": "https://cdn.alibibrewing.co.nz/app/uploads/2025/05/13123110/ChocoStout-2D-Listing-v1a.png",
+      "imageSourceUrl": "https://cdn.alibibrewing.co.nz/app/uploads/2025/05/13123110/ChocoStout-2D-Listing-v1a.png",
+      "sourceNote": "官网公开产品罐图；发布时间明确，但未将当前在售状态等同于获奖年度批次核验。",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/new-zealand/page/2/",
+        "https://awards.untappd.com/beers/6270806/",
+        "https://alibibrewing.co.nz/beer/choco-stout/",
+        "https://cdn.alibibrewing.co.nz/app/uploads/2025/05/13123110/ChocoStout-2D-Listing-v1a.png"
+      ],
+      "sourceEvidence": [
+        {
+          "role": "reviewed_product_description_and_packaging",
+          "url": "https://alibibrewing.co.nz/beer/choco-stout/",
+          "sourceFile": ".runtime/award-oceania-evidence/alibi.html",
+          "sha256": "2232e685a6eff855bceda74c6784a39c198f91650bbbb24c293b6ec67a5519f1",
+          "retrievedAt": "2026-10-02",
+          "readMethod": "direct_public_html",
+          "summaryZh": "Alibi 的 Choco Stout 于2025年5月发布，酒精度6.5%，440mL罐装。官网描述其顺滑、绵密，含巧克力麦芽与荷兰可可，并带烘烤和巧克力布丁般气息。"
+        }
+      ],
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/6270806/",
+          "https://alibibrewing.co.nz/beer/choco-stout/"
+        ],
+        "basis": "获奖精确UID已有品牌、产品名与公开产品页/完整包装人工核对；版本限制单独保留。",
+        "reviewedAt": "2026-10-02",
+        "awardYearPackageVerified": false
+      },
+      "imageEvidence": {
+        "sourceUrl": "https://cdn.alibibrewing.co.nz/app/uploads/2025/05/13123110/ChocoStout-2D-Listing-v1a.png",
+        "sourcePageUrl": "https://alibibrewing.co.nz/beer/choco-stout/",
+        "sourceClass": "official_product_packshot",
+        "originalSha256": "594d307b2d0226c9edcb5c4e85b261126f98481472c11f57b626593df40ccd7c",
+        "rawOriginalImage": "/images/awards-products/oceania-6270806-original.png",
+        "rawOriginalUnmodified": true,
+        "individuallyVerified": true,
+        "reviewMethod": "manual_packaging_identity_and_full_silhouette_check",
+        "reviewedAt": "2026-10-02",
+        "reuseRightsVerified": false,
+        "cutoutSha256": "8ce7ef21a2125113e3c4ae39e0d3187183f94a5168df0609557506a75f624f29",
+        "processingManifest": "research/award-country-expansion-2026-10-02/oceania-packshot-processing.json"
+      },
+      "imageContentBounds": {
+        "width": 800,
+        "height": 800,
+        "bounds": {
+          "x": 239,
+          "y": 43,
+          "width": 326,
+          "height": 741
+        },
+        "originalSha256": "8ce7ef21a2125113e3c4ae39e0d3187183f94a5168df0609557506a75f624f29",
+        "method": "decoded_alpha_bbox"
+      }
+    },
+    {
+      "id": "curated-award-6280671",
+      "name": "The Disinformation Project – Thief X Test Lab Collab",
+      "breweryId": "curated-award-brewery-eaf1c4153417828a",
+      "untappdId": "6280671",
+      "abv": 6.2,
+      "description": "Thief 与 Test Lab 合作的6.2%世涛。零售产品页描述其酒体饱满、入口柔滑，带烘焙咖啡和黑巧克力般香气，苦味平衡甜味；展示440mL罐装。",
+      "descriptionMethod": "faithful_short_paraphrase",
+      "descriptionBasis": "reviewed_public_product_information",
+      "image": "/images/awards-products/oceania-6280671-card.webp",
+      "imageThumbnail": "/images/awards-products/oceania-6280671-map.webp",
+      "imageOriginal": "/images/awards-products/oceania-6280671-cutout.png",
+      "imageRawOriginal": "/images/awards-products/oceania-6280671-original.webp",
+      "imageKind": "product_packshot",
+      "imageCredit": "Licensed public retail product catalogue",
+      "imageSource": "https://beercellar.co.nz/cdn/shop/files/Thief_Brewing_Co_The_Disinformation_Project_Stout_440ml.webp?v=1760653591",
+      "imageSourceUrl": "https://beercellar.co.nz/cdn/shop/files/Thief_Brewing_Co_The_Disinformation_Project_Stout_440ml.webp?v=1760653591",
+      "sourceNote": "保留Thief x Test Lab联合标识与获奖精确UID；风味中的咖啡或巧克力不据此当作实际原料。",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/new-zealand/page/2/",
+        "https://awards.untappd.com/beers/6280671/",
+        "https://beercellar.co.nz/products/thief-brewing-co-the-disinformation-project-stout-440ml",
+        "https://beercellar.co.nz/cdn/shop/files/Thief_Brewing_Co_The_Disinformation_Project_Stout_440ml.webp?v=1760653591"
+      ],
+      "sourceEvidence": [
+        {
+          "role": "reviewed_product_description_and_packaging",
+          "url": "https://beercellar.co.nz/products/thief-brewing-co-the-disinformation-project-stout-440ml",
+          "sourceFile": ".runtime/award-oceania-evidence/thief-product.html",
+          "sha256": "a59b99113171e02a6c93e45ab0dd14d188fadc18bb52946f77b6461fa93cf187",
+          "retrievedAt": "2026-10-02",
+          "readMethod": "direct_public_html",
+          "summaryZh": "Thief 与 Test Lab 合作的6.2%世涛。零售产品页描述其酒体饱满、入口柔滑，带烘焙咖啡和黑巧克力般香气，苦味平衡甜味；展示440mL罐装。"
+        }
+      ],
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/6280671/",
+          "https://beercellar.co.nz/products/thief-brewing-co-the-disinformation-project-stout-440ml"
+        ],
+        "basis": "获奖精确UID已有品牌、产品名与公开产品页/完整包装人工核对；版本限制单独保留。",
+        "reviewedAt": "2026-10-02",
+        "awardYearPackageVerified": false
+      },
+      "imageEvidence": {
+        "sourceUrl": "https://beercellar.co.nz/cdn/shop/files/Thief_Brewing_Co_The_Disinformation_Project_Stout_440ml.webp?v=1760653591",
+        "sourcePageUrl": "https://beercellar.co.nz/products/thief-brewing-co-the-disinformation-project-stout-440ml",
+        "sourceClass": "trusted_retail_packshot",
+        "originalSha256": "6e37affb3965f8e0b76c4269f4fa3e658ea657132d31a77dad62de7d76d7b554",
+        "rawOriginalImage": "/images/awards-products/oceania-6280671-original.webp",
+        "rawOriginalUnmodified": true,
+        "individuallyVerified": true,
+        "reviewMethod": "manual_packaging_identity_and_full_silhouette_check",
+        "reviewedAt": "2026-10-02",
+        "reuseRightsVerified": false,
+        "cutoutSha256": "d247263960c7023b106186b5c25b3c37ecee6826a300834a9438477d047cba82",
+        "processingManifest": "research/award-country-expansion-2026-10-02/oceania-packshot-processing.json"
+      },
+      "imageContentBounds": {
+        "width": 600,
+        "height": 600,
+        "bounds": {
+          "x": 176,
+          "y": 7,
+          "width": 248,
+          "height": 589
+        },
+        "originalSha256": "d247263960c7023b106186b5c25b3c37ecee6826a300834a9438477d047cba82",
+        "method": "decoded_alpha_bbox"
+      }
+    }
+  ]
+}

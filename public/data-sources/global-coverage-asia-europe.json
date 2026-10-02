@@ -1,0 +1,2276 @@
+{
+  "metadata": {
+    "createdAt": "2026-10-02T07:57:29.122301+00:00",
+    "scope": "local_brewed_beer_country_gap_products",
+    "status": "frozen_sprint_batch",
+    "imported_beers_excluded": true,
+    "coordinates": "documented producer city references, not factory/batch claims",
+    "records": 22,
+    "countryCount": 17,
+    "countries": [
+      "Andorra",
+      "Azerbaijan",
+      "Belarus",
+      "Bosnia and Herzegovina",
+      "Bulgaria",
+      "Cambodia",
+      "Laos",
+      "Liechtenstein",
+      "Lithuania",
+      "Luxembourg",
+      "Malta",
+      "Montenegro",
+      "Myanmar",
+      "Serbia",
+      "Slovakia",
+      "Slovenia",
+      "Switzerland"
+    ],
+    "frozenAt": "2026-10-02T07:58:36.701948+00:00",
+    "scopeCountryCount": 51,
+    "scopeRemainingCountryCount": 34
+  },
+  "breweries": [
+    {
+      "id": "global-ae-brewery-bofferding",
+      "name": "Brasserie Nationale",
+      "country": "Luxembourg",
+      "countryZh": "卢森堡",
+      "countryCode": "LU",
+      "countryBasis": "documented_local_producer",
+      "city": "Bascharage",
+      "cityZh": null,
+      "lat": 49.5667,
+      "lng": 5.9167,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationNote": "采用经核实的当地酒厂所在城市参考坐标，不声称具体厂房或每一批产品生产坐标。",
+      "website": "https://www.bofferding.lu/entreprise/",
+      "sourceUrls": [
+        "https://www.bofferding.lu/entreprise/",
+        "https://en.wikipedia.org/wiki/Bascharage"
+      ],
+      "locationEvidence": {
+        "sourceUrl": "https://www.bofferding.lu/entreprise/",
+        "sourceFile": "research/global-coverage-asia-europe/bofferding-location.html",
+        "sourceSha256": "1b73c2d6c73cc06fce0eeba14d16a93cdb93c52fee07083fddf9e5dccf0855e3",
+        "retrievedAt": "2026-10-02T07:41:51.119819+00:00",
+        "sourceType": "official_producer",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Bascharage",
+        "coordinateSourcePageId": 2964359,
+        "coordinateEvidenceFile": "research/global-coverage-asia-europe/coordinates-wave1.json",
+        "coordinateSha256": "200434c3e073d2ae9badef6fb453509440eb4dcac94db8db850d1b2804931c99"
+      },
+      "craftStatus": "industrial_reference"
+    },
+    {
+      "id": "global-ae-brewery-farsons",
+      "name": "Simonds Farsons Cisk",
+      "country": "Malta",
+      "countryZh": "马耳他",
+      "countryCode": "MT",
+      "countryBasis": "documented_local_producer",
+      "city": "Birkirkara",
+      "cityZh": null,
+      "lat": 35.89666667,
+      "lng": 14.4625,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationNote": "采用经核实的当地酒厂所在城市参考坐标，不声称具体厂房或每一批产品生产坐标。",
+      "website": "https://www.cisk.com/our-story",
+      "sourceUrls": [
+        "https://www.cisk.com/our-story",
+        "https://en.wikipedia.org/wiki/Birkirkara"
+      ],
+      "locationEvidence": {
+        "sourceUrl": "https://www.cisk.com/our-story",
+        "sourceFile": "research/global-coverage-asia-europe/cisk-location.html",
+        "sourceSha256": "3492067ce77da14366a325cadec5e6abd9a6b1d58bc574247b7e288edaf6829c",
+        "retrievedAt": "2026-10-02T07:41:51.120357+00:00",
+        "sourceType": "official_producer",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Birkirkara",
+        "coordinateSourcePageId": 661357,
+        "coordinateEvidenceFile": "research/global-coverage-asia-europe/coordinates-wave1.json",
+        "coordinateSha256": "200434c3e073d2ae9badef6fb453509440eb4dcac94db8db850d1b2804931c99"
+      },
+      "craftStatus": "industrial_reference"
+    },
+    {
+      "id": "global-ae-brewery-liechtensteiner",
+      "name": "Liechtensteiner Brauhaus",
+      "country": "Liechtenstein",
+      "countryZh": "列支敦士登",
+      "countryCode": "LI",
+      "countryBasis": "documented_local_producer",
+      "city": "Schaan",
+      "cityZh": null,
+      "lat": 47.16666667,
+      "lng": 9.50972222,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationNote": "采用经核实的当地酒厂所在城市参考坐标，不声称具体厂房或每一批产品生产坐标。",
+      "website": "https://brauhaus.li/ueber-uns/",
+      "sourceUrls": [
+        "https://brauhaus.li/ueber-uns/",
+        "https://en.wikipedia.org/wiki/Schaan"
+      ],
+      "locationEvidence": {
+        "sourceUrl": "https://brauhaus.li/ueber-uns/",
+        "sourceFile": "research/global-coverage-asia-europe/brauhaus-about.html",
+        "sourceSha256": "884d717a3def59543f8c50cdfb1c02d46102a8adeab6d2850045b4e4fd5c357e",
+        "retrievedAt": "2026-10-02T07:38:10.798932+00:00",
+        "sourceType": "official_producer",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Schaan",
+        "coordinateSourcePageId": 1001154,
+        "coordinateEvidenceFile": "research/global-coverage-asia-europe/coordinates-wave1.json",
+        "coordinateSha256": "200434c3e073d2ae9badef6fb453509440eb4dcac94db8db850d1b2804931c99"
+      },
+      "craftStatus": "craft_brewery_reference"
+    },
+    {
+      "id": "global-ae-brewery-lao-brewery",
+      "name": "Lao Brewery Company",
+      "country": "Laos",
+      "countryZh": "老挝",
+      "countryCode": "LA",
+      "countryBasis": "documented_local_producer",
+      "city": "Vientiane",
+      "cityZh": null,
+      "lat": 17.98,
+      "lng": 102.63,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationNote": "采用经核实的当地酒厂所在城市参考坐标，不声称具体厂房或每一批产品生产坐标。",
+      "website": "https://www.beerlao.la/lao-brewery/production-facilities/",
+      "sourceUrls": [
+        "https://www.beerlao.la/lao-brewery/production-facilities/",
+        "https://en.wikipedia.org/wiki/Vientiane"
+      ],
+      "locationEvidence": {
+        "sourceUrl": "https://www.beerlao.la/lao-brewery/production-facilities/",
+        "sourceFile": "research/global-coverage-asia-europe/beerlao-production.html",
+        "sourceSha256": "cce1ec6777466dda1545f4418c6f25b7a1d0c5e98d744d51dc9d8b16b8fb7b76",
+        "retrievedAt": "2026-10-02T07:38:14.851440+00:00",
+        "sourceType": "official_producer",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Vientiane",
+        "coordinateSourcePageId": 23508076,
+        "coordinateEvidenceFile": "research/global-coverage-asia-europe/coordinates-wave1.json",
+        "coordinateSha256": "200434c3e073d2ae9badef6fb453509440eb4dcac94db8db850d1b2804931c99"
+      },
+      "craftStatus": "industrial_reference"
+    },
+    {
+      "id": "global-ae-brewery-boris",
+      "name": "Boris Craft Beer",
+      "country": "Andorra",
+      "countryZh": "安道尔",
+      "countryCode": "AD",
+      "countryBasis": "documented_local_producer",
+      "city": "La Cortinada",
+      "cityZh": null,
+      "lat": 42.56666667,
+      "lng": 1.51666667,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationNote": "采用经核实的当地酒厂所在城市参考坐标，不声称具体厂房或每一批产品生产坐标。",
+      "website": "https://boriscraftbeer.com/",
+      "sourceUrls": [
+        "https://boriscraftbeer.com/",
+        "https://en.wikipedia.org/wiki/La_Cortinada"
+      ],
+      "locationEvidence": {
+        "sourceUrl": "https://boriscraftbeer.com/",
+        "sourceFile": "research/global-coverage-asia-europe/boris.html",
+        "sourceSha256": "e0f2a9a0198550cc9ec470ca92bc604d2a600cae5ca55c90f60f72764403e412",
+        "retrievedAt": "2026-10-02T07:41:54.808768+00:00",
+        "sourceType": "official_producer",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/La_Cortinada",
+        "coordinateSourcePageId": 16199597,
+        "coordinateEvidenceFile": "research/global-coverage-asia-europe/coordinates-wave1.json",
+        "coordinateSha256": "200434c3e073d2ae9badef6fb453509440eb4dcac94db8db850d1b2804931c99"
+      },
+      "craftStatus": "craft_brewery_reference"
+    },
+    {
+      "id": "global-ae-brewery-lasko",
+      "name": "Pivovarna Laško",
+      "country": "Slovenia",
+      "countryZh": "斯洛文尼亚",
+      "countryCode": "SI",
+      "countryBasis": "documented_local_producer",
+      "city": "Laško",
+      "cityZh": null,
+      "lat": 46.15630278,
+      "lng": 15.23861667,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationNote": "采用经核实的当地酒厂所在城市参考坐标，不声称具体厂房或每一批产品生产坐标。",
+      "website": "https://www.lasko.eu/en/our-story",
+      "sourceUrls": [
+        "https://www.lasko.eu/en/our-story",
+        "https://en.wikipedia.org/wiki/Laško"
+      ],
+      "locationEvidence": {
+        "sourceUrl": "https://www.lasko.eu/en/our-story",
+        "sourceFile": "research/global-coverage-asia-europe/lasko-story.html",
+        "sourceSha256": "122223778972de85b22ad0f9230baeb7447c675cce1046c5072ecdeac6761dd0",
+        "retrievedAt": "2026-10-02T07:45:48.325540+00:00",
+        "sourceType": "official_producer",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Laško",
+        "coordinateSourcePageId": 2091755,
+        "coordinateEvidenceFile": "research/global-coverage-asia-europe/coordinates-wave1.json",
+        "coordinateSha256": "200434c3e073d2ae9badef6fb453509440eb4dcac94db8db850d1b2804931c99"
+      },
+      "craftStatus": "industrial_reference"
+    },
+    {
+      "id": "global-ae-brewery-rhombus",
+      "name": "Rhombus Craft Brewery",
+      "country": "Bulgaria",
+      "countryZh": "保加利亚",
+      "countryCode": "BG",
+      "countryBasis": "documented_local_producer",
+      "city": "Pazardzhik",
+      "cityZh": null,
+      "lat": 42.2,
+      "lng": 24.33333333,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationNote": "采用经核实的当地酒厂所在城市参考坐标，不声称具体厂房或每一批产品生产坐标。",
+      "website": "https://rhombusbrewery.com/",
+      "sourceUrls": [
+        "https://rhombusbrewery.com/",
+        "https://en.wikipedia.org/wiki/Pazardzhik"
+      ],
+      "locationEvidence": {
+        "sourceUrl": "https://rhombusbrewery.com/",
+        "sourceFile": "research/global-coverage-asia-europe/rhombus.html",
+        "sourceSha256": "6bce75599b0a1fb29692c4401a0b1aa824df93d5f72bf4333e64c28f4fbe07c7",
+        "retrievedAt": "2026-10-02T07:41:56.960133+00:00",
+        "sourceType": "official_producer",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Pazardzhik",
+        "coordinateSourcePageId": 2404835,
+        "coordinateEvidenceFile": "research/global-coverage-asia-europe/coordinates-wave2.json",
+        "coordinateSha256": "1c2cbccb396c8622d3e4fc1db60200a045c840835d4516f97a90299be0ba3031"
+      },
+      "craftStatus": "craft_brewery_reference"
+    },
+    {
+      "id": "global-ae-brewery-locher",
+      "name": "Brauerei Locher",
+      "country": "Switzerland",
+      "countryZh": "瑞士",
+      "countryCode": "CH",
+      "countryBasis": "documented_local_producer",
+      "city": "Appenzell",
+      "cityZh": null,
+      "lat": 47.3461,
+      "lng": 9.3419,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationNote": "采用经核实的当地酒厂所在城市参考坐标，不声称具体厂房或每一批产品生产坐标。",
+      "website": "https://appenzellerbier.ch/de/ueber-uns/portrait",
+      "sourceUrls": [
+        "https://appenzellerbier.ch/de/ueber-uns/portrait",
+        "https://en.wikipedia.org/wiki/Appenzell"
+      ],
+      "locationEvidence": {
+        "sourceUrl": "https://appenzellerbier.ch/de/ueber-uns/portrait",
+        "sourceFile": "research/global-coverage-asia-europe/swiss-about.html",
+        "sourceSha256": "24b68e7d83678743e30d2b50f1406ca55dbe79707208454f4754277a60a402bb",
+        "retrievedAt": "2026-10-02T07:45:15.255741+00:00",
+        "sourceType": "official_producer",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Appenzell",
+        "coordinateSourcePageId": 365171,
+        "coordinateEvidenceFile": "research/global-coverage-asia-europe/coordinates-wave2.json",
+        "coordinateSha256": "1c2cbccb396c8622d3e4fc1db60200a045c840835d4516f97a90299be0ba3031"
+      },
+      "craftStatus": "family_brewery_reference"
+    },
+    {
+      "id": "global-ae-brewery-myanmar",
+      "name": "Myanmar Brewery",
+      "country": "Myanmar",
+      "countryZh": "缅甸",
+      "countryCode": "MM",
+      "countryBasis": "documented_local_producer",
+      "city": "Yangon",
+      "cityZh": null,
+      "lat": 16.795,
+      "lng": 96.16,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationNote": "采用经核实的当地酒厂所在城市参考坐标，不声称具体厂房或每一批产品生产坐标。",
+      "website": "https://myanmar-brewery.com/mbr/story",
+      "sourceUrls": [
+        "https://myanmar-brewery.com/mbr/story",
+        "https://en.wikipedia.org/wiki/Yangon"
+      ],
+      "locationEvidence": {
+        "sourceUrl": "https://myanmar-brewery.com/mbr/story",
+        "sourceFile": "research/global-coverage-asia-europe/myanmar-story.html",
+        "sourceSha256": "078ad2493630e92912850da2e0f094b5cb14ba3f57e8261fd1adad698d82dc09",
+        "retrievedAt": "2026-10-02T07:43:26.961049+00:00",
+        "sourceType": "official_producer",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Yangon",
+        "coordinateSourcePageId": 57404,
+        "coordinateEvidenceFile": "research/global-coverage-asia-europe/coordinates-wave2.json",
+        "coordinateSha256": "1c2cbccb396c8622d3e4fc1db60200a045c840835d4516f97a90299be0ba3031"
+      },
+      "craftStatus": "industrial_reference"
+    },
+    {
+      "id": "global-ae-brewery-alivaria",
+      "name": "Alivaria Brewery",
+      "country": "Belarus",
+      "countryZh": "白俄罗斯",
+      "countryCode": "BY",
+      "countryBasis": "documented_local_producer",
+      "city": "Minsk",
+      "cityZh": null,
+      "lat": 53.90055556,
+      "lng": 27.55861111,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationNote": "采用经核实的当地酒厂所在城市参考坐标，不声称具体厂房或每一批产品生产坐标。",
+      "website": "https://alivaria.by/",
+      "sourceUrls": [
+        "https://alivaria.by/",
+        "https://en.wikipedia.org/wiki/Minsk"
+      ],
+      "locationEvidence": {
+        "sourceUrl": "https://alivaria.by/",
+        "sourceFile": "research/global-coverage-asia-europe/alivaria.html",
+        "sourceSha256": "d11d4716d56252feb0d6d7a02af5e2aea549c380b3157ab2e3b768e2b838c639",
+        "retrievedAt": "2026-10-02T07:43:28.912197+00:00",
+        "sourceType": "official_producer",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Minsk",
+        "coordinateSourcePageId": 51593,
+        "coordinateEvidenceFile": "research/global-coverage-asia-europe/coordinates-wave2.json",
+        "coordinateSha256": "1c2cbccb396c8622d3e4fc1db60200a045c840835d4516f97a90299be0ba3031"
+      },
+      "craftStatus": "industrial_reference"
+    },
+    {
+      "id": "global-ae-brewery-svyturys",
+      "name": "Švyturys-Utenos Alus",
+      "country": "Lithuania",
+      "countryZh": "立陶宛",
+      "countryCode": "LT",
+      "countryBasis": "documented_local_producer",
+      "city": "Klaipėda",
+      "cityZh": null,
+      "lat": 55.7125,
+      "lng": 21.135,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationNote": "坐标为 Švyturys 品牌原产地及酿酒城市克莱佩达参考点；生产商在立陶宛有两家酒厂，不代表每批酒的具体厂房坐标。",
+      "website": "https://www.carlsberggroup.com/who-we-are/about-the-carlsberg-group/global-presence/lithuania/",
+      "sourceUrls": [
+        "https://www.carlsberggroup.com/who-we-are/about-the-carlsberg-group/global-presence/lithuania/",
+        "https://en.wikipedia.org/wiki/Klaipėda"
+      ],
+      "locationEvidence": {
+        "sourceUrl": "https://www.carlsberggroup.com/who-we-are/about-the-carlsberg-group/global-presence/lithuania/",
+        "sourceFile": "research/global-coverage-asia-europe/svyturys-country.html",
+        "sourceSha256": "2856e9c5417ee46fcce7fb0ccb753110f41913c306b514eb45eb30e170961e27",
+        "retrievedAt": "2026-10-02T07:45:11.410555+00:00",
+        "sourceType": "official_producer",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Klaipėda",
+        "coordinateSourcePageId": 159649,
+        "coordinateEvidenceFile": "research/global-coverage-asia-europe/coordinates-wave2.json",
+        "coordinateSha256": "1c2cbccb396c8622d3e4fc1db60200a045c840835d4516f97a90299be0ba3031"
+      },
+      "craftStatus": "industrial_reference"
+    },
+    {
+      "id": "global-ae-brewery-xirdalan",
+      "name": "Carlsberg Azerbaijan",
+      "country": "Azerbaijan",
+      "countryZh": "阿塞拜疆",
+      "countryCode": "AZ",
+      "countryBasis": "documented_local_producer",
+      "city": "Khirdalan",
+      "cityZh": null,
+      "lat": 40.44861111,
+      "lng": 49.75638889,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationNote": "采用经核实的当地酒厂所在城市参考坐标，不声称具体厂房或每一批产品生产坐标。",
+      "website": "https://www.carlsberggroup.com/who-we-are/about-the-carlsberg-group/global-presence/azerbaijan/",
+      "sourceUrls": [
+        "https://www.carlsberggroup.com/who-we-are/about-the-carlsberg-group/global-presence/azerbaijan/",
+        "https://en.wikipedia.org/wiki/Khirdalan"
+      ],
+      "locationEvidence": {
+        "sourceUrl": "https://www.carlsberggroup.com/who-we-are/about-the-carlsberg-group/global-presence/azerbaijan/",
+        "sourceFile": "research/global-coverage-asia-europe/xirdalan-country.html",
+        "sourceSha256": "c188e934b703f0965ee893f5aa5a2423c7c693a6264a0a8427669e15b24e08a1",
+        "retrievedAt": "2026-10-02T07:45:13.249032+00:00",
+        "sourceType": "official_producer",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Khirdalan",
+        "coordinateSourcePageId": 9748665,
+        "coordinateEvidenceFile": "research/global-coverage-asia-europe/coordinates-wave2.json",
+        "coordinateSha256": "1c2cbccb396c8622d3e4fc1db60200a045c840835d4516f97a90299be0ba3031"
+      },
+      "craftStatus": "industrial_reference"
+    },
+    {
+      "id": "global-ae-brewery-cambrew",
+      "name": "Cambrew / Angkor Brewery",
+      "country": "Cambodia",
+      "countryZh": "柬埔寨",
+      "countryCode": "KH",
+      "countryBasis": "documented_local_producer",
+      "city": "Sihanoukville",
+      "cityZh": null,
+      "lat": 10.625,
+      "lng": 103.51861111,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationNote": "采用经核实的当地酒厂所在城市参考坐标，不声称具体厂房或每一批产品生产坐标。",
+      "website": "https://www.carlsberggroup.com/who-we-are/about-the-carlsberg-group/global-presence/cambodia/",
+      "sourceUrls": [
+        "https://www.carlsberggroup.com/who-we-are/about-the-carlsberg-group/global-presence/cambodia/",
+        "https://en.wikipedia.org/wiki/Sihanoukville"
+      ],
+      "locationEvidence": {
+        "sourceUrl": "https://www.carlsberggroup.com/who-we-are/about-the-carlsberg-group/global-presence/cambodia/",
+        "sourceFile": "research/global-coverage-asia-europe/angkor-country.html",
+        "sourceSha256": "c0eabc8d58e7449569b7681581015538d217db21e9333590c64f619e533a72ed",
+        "retrievedAt": "2026-10-02T07:45:13.248101+00:00",
+        "sourceType": "official_producer",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Sihanoukville",
+        "coordinateSourcePageId": 44060668,
+        "coordinateEvidenceFile": "research/global-coverage-asia-europe/coordinates-wave2.json",
+        "coordinateSha256": "1c2cbccb396c8622d3e4fc1db60200a045c840835d4516f97a90299be0ba3031"
+      },
+      "craftStatus": "industrial_reference"
+    },
+    {
+      "id": "global-ae-brewery-lav",
+      "name": "Carlsberg Srbija / Čelarevo Brewery",
+      "country": "Serbia",
+      "countryZh": "塞尔维亚",
+      "countryCode": "RS",
+      "countryBasis": "documented_local_producer",
+      "city": "Čelarevo",
+      "cityZh": null,
+      "lat": 45.26666667,
+      "lng": 19.53333333,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationNote": "采用经核实的当地酒厂所在城市参考坐标，不声称具体厂房或每一批产品生产坐标。",
+      "website": "https://www.carlsberggroup.com/who-we-are/about-the-carlsberg-group/global-presence/serbia/",
+      "sourceUrls": [
+        "https://www.carlsberggroup.com/who-we-are/about-the-carlsberg-group/global-presence/serbia/",
+        "https://en.wikipedia.org/wiki/Čelarevo"
+      ],
+      "locationEvidence": {
+        "sourceUrl": "https://www.carlsberggroup.com/who-we-are/about-the-carlsberg-group/global-presence/serbia/",
+        "sourceFile": "research/global-coverage-asia-europe/lav-location.html",
+        "sourceSha256": "e5df6c67d36f76116daba4a1b892248c65727e26659ce30f3f28a1a564a4cc07",
+        "retrievedAt": "2026-10-02T07:52:37.910875+00:00",
+        "sourceType": "official_producer",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Čelarevo",
+        "coordinateSourcePageId": 6044910,
+        "coordinateEvidenceFile": "research/global-coverage-asia-europe/coordinates-wave3.json",
+        "coordinateSha256": "fb4d78584b0506182172f33b50c7bcb4ffbf55a84ba2548025633db3286e487d"
+      },
+      "craftStatus": "industrial_reference"
+    },
+    {
+      "id": "global-ae-brewery-bazant",
+      "name": "Pivovar Hurbanovo",
+      "country": "Slovakia",
+      "countryZh": "斯洛伐克",
+      "countryCode": "SK",
+      "countryBasis": "documented_local_producer",
+      "city": "Hurbanovo",
+      "cityZh": null,
+      "lat": 47.88,
+      "lng": 18.19,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationNote": "采用经核实的当地酒厂所在城市参考坐标，不声称具体厂房或每一批产品生产坐标。",
+      "website": "https://zlatybazant.sk/en/brewery/history",
+      "sourceUrls": [
+        "https://zlatybazant.sk/en/brewery/history",
+        "https://en.wikipedia.org/wiki/Hurbanovo"
+      ],
+      "locationEvidence": {
+        "sourceUrl": "https://zlatybazant.sk/en/brewery/history",
+        "sourceFile": "research/global-coverage-asia-europe/bazant-location.html",
+        "sourceSha256": "d38fd789de9ac4e5eea5f4bac5dca1888deb67c52f27eaf8fef9854c99fb2a93",
+        "retrievedAt": "2026-10-02T07:52:37.909914+00:00",
+        "sourceType": "official_producer",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Hurbanovo",
+        "coordinateSourcePageId": 7482190,
+        "coordinateEvidenceFile": "research/global-coverage-asia-europe/coordinates-wave3.json",
+        "coordinateSha256": "fb4d78584b0506182172f33b50c7bcb4ffbf55a84ba2548025633db3286e487d"
+      },
+      "craftStatus": "industrial_reference"
+    },
+    {
+      "id": "global-ae-brewery-trebjesa",
+      "name": "Pivara Trebjesa",
+      "country": "Montenegro",
+      "countryZh": "黑山",
+      "countryCode": "ME",
+      "countryBasis": "documented_local_producer",
+      "city": "Nikšić",
+      "cityZh": null,
+      "lat": 42.77777778,
+      "lng": 18.95,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationNote": "采用经核实的当地酒厂所在城市参考坐标，不声称具体厂房或每一批产品生产坐标。",
+      "website": "https://mojposao.me/poslodavci/industrija-piva-i-sokova-trebjesa-doo/simple",
+      "sourceUrls": [
+        "https://mojposao.me/poslodavci/industrija-piva-i-sokova-trebjesa-doo/simple",
+        "https://en.wikipedia.org/wiki/Nikšić"
+      ],
+      "locationEvidence": {
+        "sourceUrl": "https://mojposao.me/poslodavci/industrija-piva-i-sokova-trebjesa-doo/simple",
+        "sourceFile": "research/global-coverage-asia-europe/niksicko-production.html",
+        "sourceSha256": "a36844bd4e794b90945506e15fd0a03c5f2fd7a3b8f01dab00a7d4270d4f1c5a",
+        "retrievedAt": "2026-10-02T07:55:43.184678+00:00",
+        "sourceType": "producer_authored_employer_profile",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Nikšić",
+        "coordinateSourcePageId": 283920,
+        "coordinateEvidenceFile": "research/global-coverage-asia-europe/coordinates-wave2.json",
+        "coordinateSha256": "1c2cbccb396c8622d3e4fc1db60200a045c840835d4516f97a90299be0ba3031"
+      },
+      "craftStatus": "industrial_reference"
+    },
+    {
+      "id": "global-ae-brewery-sarajevo",
+      "name": "Sarajevska Pivara",
+      "country": "Bosnia and Herzegovina",
+      "countryZh": "波斯尼亚和黑塞哥维那",
+      "countryCode": "BA",
+      "countryBasis": "documented_local_producer",
+      "city": "Sarajevo",
+      "cityZh": null,
+      "lat": 43.85638889,
+      "lng": 18.41305556,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationNote": "采用经核实的当地酒厂所在城市参考坐标，不声称具体厂房或每一批产品生产坐标。",
+      "website": "https://sarajevska-pivara.com/en/",
+      "sourceUrls": [
+        "https://sarajevska-pivara.com/en/",
+        "https://en.wikipedia.org/wiki/Sarajevo"
+      ],
+      "locationEvidence": {
+        "sourceUrl": "https://sarajevska-pivara.com/en/",
+        "sourceFile": "research/global-coverage-asia-europe/sarajevo.html",
+        "sourceSha256": "3a4b20d1cf237df1e280f14030a3a28cdd54796d9ed8df4ba76758153f3cbd8a",
+        "retrievedAt": "2026-10-02T07:52:42.599765+00:00",
+        "sourceType": "official_producer",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Sarajevo",
+        "coordinateSourcePageId": 26786,
+        "coordinateEvidenceFile": "research/global-coverage-asia-europe/coordinates-wave3.json",
+        "coordinateSha256": "fb4d78584b0506182172f33b50c7bcb4ffbf55a84ba2548025633db3286e487d"
+      },
+      "craftStatus": "industrial_reference"
+    }
+  ],
+  "beers": [
+    {
+      "id": "global-ae-bofferding-pils",
+      "name": "Bofferding Pils Tradition",
+      "breweryId": "global-ae-brewery-bofferding",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pilsner",
+      "styleZh": null,
+      "abv": 4.8,
+      "ibu": 21,
+      "description": "卢森堡巴沙拉日酿造的传统皮尔森，酒精度4.8%、苦度21 IBU。官网描述浅黄色酒液、细致的酒花香与轻盈口感。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.bofferding.lu/beer/bofferding-pils-tradition/",
+        "sourceFile": "research/global-coverage-asia-europe/bofferding.html",
+        "sourceSha256": "8e251e1adb187b6499bc8879f6cfcb8ffd6e6048282be33e2cf31101d8d897d9",
+        "retrievedAt": "2026-10-02T07:41:51.118217+00:00",
+        "sourceType": "official_producer"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "image": "/images/global-coverage-asia-europe/bofferding-pils-card.webp",
+      "imageOriginal": "/images/global-coverage-asia-europe/bofferding-pils-cutout.png",
+      "imageThumbnail": "/images/global-coverage-asia-europe/bofferding-pils-map.webp",
+      "imageSource": "https://www.bofferding.lu/beer/bofferding-pils-tradition/",
+      "imageDownloadUrl": "https://www.bofferding.lu/wp-content/uploads/2017/02/bofferding_pils_tradition-1.png",
+      "imageCredit": "Brasserie Nationale 官方产品照片",
+      "imageLicense": "Copyright holder; no open redistribution license stated",
+      "sourceUrls": [
+        "https://www.bofferding.lu/beer/bofferding-pils-tradition/",
+        "https://www.bofferding.lu/wp-content/uploads/2017/02/bofferding_pils_tradition-1.png",
+        "https://www.bofferding.lu/entreprise/",
+        "https://en.wikipedia.org/wiki/Bascharage"
+      ],
+      "sourceNote": "只收录来源可核实的当地酿造酒，不将进口酒或境外代工品牌放到销售国；未核实的参数留空。",
+      "imageEvidence": {
+        "sourceUrl": "https://www.bofferding.lu/beer/bofferding-pils-tradition/",
+        "downloadUrl": "https://www.bofferding.lu/wp-content/uploads/2017/02/bofferding_pils_tradition-1.png",
+        "sourceImage": "/images/global-coverage-asia-europe/bofferding-pils-original.png",
+        "originalSha256": "dbb57ad3bc11ce5650d1b259fee4b609a7dfcb7d93d6b8e3e8a530b6147301ea",
+        "sha256": "4518b8cc5a24757142c96550a9606c42490fea9ee2ac87ac1b2fb4742d1bb53e",
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "manual_alpha_only_bottle_isolation",
+        "originalRGBunchanged": true,
+        "derivative": {
+          "source": "/images/global-coverage-asia-europe/bofferding-pils-original.png",
+          "full": "/images/global-coverage-asia-europe/bofferding-pils-cutout.png",
+          "card": "/images/global-coverage-asia-europe/bofferding-pils-card.webp",
+          "thumbnail": "/images/global-coverage-asia-europe/bofferding-pils-map.webp",
+          "thumbnailBytes": 7308
+        }
+      },
+      "imageContentBounds": {
+        "width": 198,
+        "height": 774,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 198,
+          "height": 774
+        },
+        "method": "reviewed_transparent_body_crop"
+      }
+    },
+    {
+      "id": "global-ae-cisk-lager",
+      "name": "Cisk Lager",
+      "breweryId": "global-ae-brewery-farsons",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "styleZh": null,
+      "abv": 4.2,
+      "ibu": null,
+      "description": "马耳他 Farsons 的金色拉格，酒精度4.2%。品牌自1929年酿造，官网强调浓郁酒花香与适度苦味，提供瓶装和罐装。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.cisk.com/range/beers/cisk-lager",
+        "sourceFile": "research/global-coverage-asia-europe/cisk.html",
+        "sourceSha256": "119cad535aa64dd34bfc5e10200d952f816e1219e0c713fcff2957a4077d1df0",
+        "retrievedAt": "2026-10-02T07:41:51.119295+00:00",
+        "sourceType": "official_producer"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "image": "/images/global-coverage-asia-europe/cisk-lager-card.webp",
+      "imageOriginal": "/images/global-coverage-asia-europe/cisk-lager-cutout.png",
+      "imageThumbnail": "/images/global-coverage-asia-europe/cisk-lager-map.webp",
+      "imageSource": "https://www.cisk.com/range/beers/cisk-lager",
+      "imageDownloadUrl": "https://cdn.prod.website-files.com/654253b09ae4840edcb73817/661fdb2be9e1d625e0ae5c55_01%20Cisk%20Lager%20Bottle%2025cl%20LG%20v1.png",
+      "imageCredit": "Simonds Farsons Cisk 官方产品照片",
+      "imageLicense": "Copyright holder; no open redistribution license stated",
+      "sourceUrls": [
+        "https://www.cisk.com/range/beers/cisk-lager",
+        "https://cdn.prod.website-files.com/654253b09ae4840edcb73817/661fdb2be9e1d625e0ae5c55_01%20Cisk%20Lager%20Bottle%2025cl%20LG%20v1.png",
+        "https://www.cisk.com/our-story",
+        "https://en.wikipedia.org/wiki/Birkirkara"
+      ],
+      "sourceNote": "只收录来源可核实的当地酿造酒，不将进口酒或境外代工品牌放到销售国；未核实的参数留空。",
+      "imageEvidence": {
+        "sourceUrl": "https://www.cisk.com/range/beers/cisk-lager",
+        "downloadUrl": "https://cdn.prod.website-files.com/654253b09ae4840edcb73817/661fdb2be9e1d625e0ae5c55_01%20Cisk%20Lager%20Bottle%2025cl%20LG%20v1.png",
+        "sourceImage": "/images/global-coverage-asia-europe/cisk-lager-original.png",
+        "originalSha256": "8a400f7eb86173f954f3d260d58bd3d83c0455b41f15de184661b0de0148e7a0",
+        "sha256": "3ca47d76790b4eb524694c748e6c97ea6d8de64584d2a640cc0a21256646e8ec",
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_transparent_packshot",
+        "originalRGBunchanged": true,
+        "derivative": {
+          "source": "/images/global-coverage-asia-europe/cisk-lager-original.png",
+          "full": "/images/global-coverage-asia-europe/cisk-lager-cutout.png",
+          "card": "/images/global-coverage-asia-europe/cisk-lager-card.webp",
+          "thumbnail": "/images/global-coverage-asia-europe/cisk-lager-map.webp",
+          "thumbnailBytes": 6192
+        }
+      },
+      "imageContentBounds": {
+        "width": 208,
+        "height": 800,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 208,
+          "height": 800
+        },
+        "method": "reviewed_transparent_body_crop"
+      }
+    },
+    {
+      "id": "global-ae-brauhaus-alpagold",
+      "name": "Alpagold",
+      "breweryId": "global-ae-brewery-liechtensteiner",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "styleZh": null,
+      "abv": 4.8,
+      "ibu": 25,
+      "description": "列支敦士登沙恩酿造的 Alpagold 拉格，酒精度4.8%、苦度25 IBU。官网描述轻微柑橘、酒花香和少量麦芽甜味，酒体轻盈。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://brauhaus.li/product/alpagold-33cl/",
+        "sourceFile": "research/global-coverage-asia-europe/brauhaus-alpagold.html",
+        "sourceSha256": "88d2f352b1effdad4f97e2f23fde874c3de0ead0284f580da9a73a1afb1a5e4a",
+        "retrievedAt": "2026-10-02T07:38:13.290515+00:00",
+        "sourceType": "official_producer"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "craftStatus": "craft_brewery_reference",
+      "catalogRole": "craft_brewery_reference",
+      "image": "/images/global-coverage-asia-europe/brauhaus-alpagold-card.webp",
+      "imageOriginal": "/images/global-coverage-asia-europe/brauhaus-alpagold-cutout.png",
+      "imageThumbnail": "/images/global-coverage-asia-europe/brauhaus-alpagold-map.webp",
+      "imageSource": "https://brauhaus.li/product/alpagold-33cl/",
+      "imageDownloadUrl": "https://brauhaus.li/wp-content/uploads/2021/04/1016_Alpagold_33cl_Flasche_klein-e1787132165165.png",
+      "imageCredit": "Liechtensteiner Brauhaus 官方产品照片",
+      "imageLicense": "Copyright holder; no open redistribution license stated",
+      "sourceUrls": [
+        "https://brauhaus.li/product/alpagold-33cl/",
+        "https://brauhaus.li/wp-content/uploads/2021/04/1016_Alpagold_33cl_Flasche_klein-e1787132165165.png",
+        "https://brauhaus.li/ueber-uns/",
+        "https://en.wikipedia.org/wiki/Schaan"
+      ],
+      "sourceNote": "只收录来源可核实的当地酿造酒，不将进口酒或境外代工品牌放到销售国；未核实的参数留空。",
+      "imageEvidence": {
+        "sourceUrl": "https://brauhaus.li/product/alpagold-33cl/",
+        "downloadUrl": "https://brauhaus.li/wp-content/uploads/2021/04/1016_Alpagold_33cl_Flasche_klein-e1787132165165.png",
+        "sourceImage": "/images/global-coverage-asia-europe/brauhaus-alpagold-original.png",
+        "originalSha256": "24db62b0ba96aa4b0ecb9d8f8d352b21d6e61b14b7311d04aab7edcdaf0c7191",
+        "sha256": "7ba286039dbd2c6d5ed713b416404541bd4e6f05df46463762d09dffd58226a4",
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_transparent_packshot",
+        "originalRGBunchanged": true,
+        "derivative": {
+          "source": "/images/global-coverage-asia-europe/brauhaus-alpagold-original.png",
+          "full": "/images/global-coverage-asia-europe/brauhaus-alpagold-cutout.png",
+          "card": "/images/global-coverage-asia-europe/brauhaus-alpagold-card.webp",
+          "thumbnail": "/images/global-coverage-asia-europe/brauhaus-alpagold-map.webp",
+          "thumbnailBytes": 7648
+        }
+      },
+      "imageContentBounds": {
+        "width": 316,
+        "height": 800,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 316,
+          "height": 800
+        },
+        "method": "reviewed_transparent_body_crop"
+      }
+    },
+    {
+      "id": "global-ae-brauhaus-pale",
+      "name": "Club Bier 02 Alpen Pale Ale",
+      "breweryId": "global-ae-brewery-liechtensteiner",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "American Pale Ale",
+      "styleZh": null,
+      "abv": 5.4,
+      "ibu": 50,
+      "description": "列支敦士登的美式淡色艾尔，酒精度5.4%、苦度50 IBU。官方介绍包含木瓜、百香果、芒果和柑橘香气，以及轻微焦糖甜味。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://brauhaus.li/product/02-alpen-pale-ale/",
+        "sourceFile": "research/global-coverage-asia-europe/brauhaus-pale.html",
+        "sourceSha256": "6ea02a6d27f8fb8b5f319700f5d32374df7a0bcadae463571217535322c65d31",
+        "retrievedAt": "2026-10-02T07:38:13.110332+00:00",
+        "sourceType": "official_producer"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "craftStatus": "craft_brewery_reference",
+      "catalogRole": "craft_brewery_reference",
+      "image": "/images/global-coverage-asia-europe/brauhaus-pale-card.webp",
+      "imageOriginal": "/images/global-coverage-asia-europe/brauhaus-pale-cutout.png",
+      "imageThumbnail": "/images/global-coverage-asia-europe/brauhaus-pale-map.webp",
+      "imageSource": "https://brauhaus.li/product/02-alpen-pale-ale/",
+      "imageDownloadUrl": "https://brauhaus.li/wp-content/uploads/2024/11/1061_AlpenPaleAle_EW_033-e1696855744269.png",
+      "imageCredit": "Liechtensteiner Brauhaus 官方产品照片",
+      "imageLicense": "Copyright holder; no open redistribution license stated",
+      "sourceUrls": [
+        "https://brauhaus.li/product/02-alpen-pale-ale/",
+        "https://brauhaus.li/wp-content/uploads/2024/11/1061_AlpenPaleAle_EW_033-e1696855744269.png",
+        "https://brauhaus.li/ueber-uns/",
+        "https://en.wikipedia.org/wiki/Schaan"
+      ],
+      "sourceNote": "只收录来源可核实的当地酿造酒，不将进口酒或境外代工品牌放到销售国；未核实的参数留空。",
+      "imageEvidence": {
+        "sourceUrl": "https://brauhaus.li/product/02-alpen-pale-ale/",
+        "downloadUrl": "https://brauhaus.li/wp-content/uploads/2024/11/1061_AlpenPaleAle_EW_033-e1696855744269.png",
+        "sourceImage": "/images/global-coverage-asia-europe/brauhaus-pale-original.png",
+        "originalSha256": "76c6eb4ce83f57c313d15cec930d0eb0557b9f6467a377198bb70525a73b4999",
+        "sha256": "ebdb4a3e78c1c14f0f74d80a28fd25b348a2f7ff198628225576a2af0cfcefd2",
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_transparent_packshot",
+        "originalRGBunchanged": true,
+        "derivative": {
+          "source": "/images/global-coverage-asia-europe/brauhaus-pale-original.png",
+          "full": "/images/global-coverage-asia-europe/brauhaus-pale-cutout.png",
+          "card": "/images/global-coverage-asia-europe/brauhaus-pale-card.webp",
+          "thumbnail": "/images/global-coverage-asia-europe/brauhaus-pale-map.webp",
+          "thumbnailBytes": 7594
+        }
+      },
+      "imageContentBounds": {
+        "width": 316,
+        "height": 800,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 316,
+          "height": 800
+        },
+        "method": "reviewed_transparent_body_crop"
+      }
+    },
+    {
+      "id": "global-ae-beerlao-lager",
+      "name": "Beerlao Lager",
+      "breweryId": "global-ae-brewery-lao-brewery",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "styleZh": null,
+      "abv": 5,
+      "ibu": null,
+      "description": "老挝 Lao Brewery Company 的 Beerlao Lager，官方目录标为5%酒精度的拉格，产地为老挝，品牌始于1973年。地图使用其万象酒厂所在城市作为参考。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.beerlao.la/products/?p=1",
+        "sourceFile": "research/global-coverage-asia-europe/beerlao.html",
+        "sourceSha256": "335aa4b537b7d4a672c4cc6b6e92e679f77eeff313632e0c9c371baf879acbdb",
+        "retrievedAt": "2026-10-02T07:36:50.554586+00:00",
+        "sourceType": "official_producer"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "image": "/images/global-coverage-asia-europe/beerlao-lager-card.webp",
+      "imageOriginal": "/images/global-coverage-asia-europe/beerlao-lager-cutout.png",
+      "imageThumbnail": "/images/global-coverage-asia-europe/beerlao-lager-map.webp",
+      "imageSource": "https://www.beerlao.la/products/?p=1",
+      "imageDownloadUrl": "https://www.beerlao.la/media/czlj2at2/beerlao-640ml.png",
+      "imageCredit": "Lao Brewery Company 官方产品照片",
+      "imageLicense": "Copyright holder; no open redistribution license stated",
+      "sourceUrls": [
+        "https://www.beerlao.la/products/?p=1",
+        "https://www.beerlao.la/media/czlj2at2/beerlao-640ml.png",
+        "https://www.beerlao.la/lao-brewery/production-facilities/",
+        "https://en.wikipedia.org/wiki/Vientiane"
+      ],
+      "sourceNote": "只收录来源可核实的当地酿造酒，不将进口酒或境外代工品牌放到销售国；未核实的参数留空。",
+      "imageEvidence": {
+        "sourceUrl": "https://www.beerlao.la/products/?p=1",
+        "downloadUrl": "https://www.beerlao.la/media/czlj2at2/beerlao-640ml.png",
+        "sourceImage": "/images/global-coverage-asia-europe/beerlao-lager-original.png",
+        "originalSha256": "0f3753a8109564dedd7a50aa89b3871d96bad2d25e2bf9854ae236845b91aeea",
+        "sha256": "fcf8714e1be04b052cc08ea5808280c0bc9808d4774d37a45a2c42ab2d1dd25e",
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_transparent_packshot",
+        "originalRGBunchanged": true,
+        "derivative": {
+          "source": "/images/global-coverage-asia-europe/beerlao-lager-original.png",
+          "full": "/images/global-coverage-asia-europe/beerlao-lager-cutout.png",
+          "card": "/images/global-coverage-asia-europe/beerlao-lager-card.webp",
+          "thumbnail": "/images/global-coverage-asia-europe/beerlao-lager-map.webp",
+          "thumbnailBytes": 7200
+        }
+      },
+      "imageContentBounds": {
+        "width": 212,
+        "height": 800,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 212,
+          "height": 800
+        },
+        "method": "reviewed_transparent_body_crop"
+      }
+    },
+    {
+      "id": "global-ae-beerlao-green",
+      "name": "Beerlao Green",
+      "breweryId": "global-ae-brewery-lao-brewery",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "styleZh": null,
+      "abv": 4.6,
+      "ibu": null,
+      "description": "老挝 Beerlao Green，官方目录标为4.6%酒精度的拉格，产地老挝，于2023年推出。这里展示官方绿色玻璃瓶包装。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.beerlao.la/products/?p=1",
+        "sourceFile": "research/global-coverage-asia-europe/beerlao.html",
+        "sourceSha256": "335aa4b537b7d4a672c4cc6b6e92e679f77eeff313632e0c9c371baf879acbdb",
+        "retrievedAt": "2026-10-02T07:36:50.554586+00:00",
+        "sourceType": "official_producer"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "image": "/images/global-coverage-asia-europe/beerlao-green-card.webp",
+      "imageOriginal": "/images/global-coverage-asia-europe/beerlao-green-cutout.png",
+      "imageThumbnail": "/images/global-coverage-asia-europe/beerlao-green-map.webp",
+      "imageSource": "https://www.beerlao.la/products/?p=1",
+      "imageDownloadUrl": "https://www.beerlao.la/media/aeihzlrq/beerlao-green-330ml.png",
+      "imageCredit": "Lao Brewery Company 官方产品照片",
+      "imageLicense": "Copyright holder; no open redistribution license stated",
+      "sourceUrls": [
+        "https://www.beerlao.la/products/?p=1",
+        "https://www.beerlao.la/media/aeihzlrq/beerlao-green-330ml.png",
+        "https://www.beerlao.la/lao-brewery/production-facilities/",
+        "https://en.wikipedia.org/wiki/Vientiane"
+      ],
+      "sourceNote": "只收录来源可核实的当地酿造酒，不将进口酒或境外代工品牌放到销售国；未核实的参数留空。",
+      "imageEvidence": {
+        "sourceUrl": "https://www.beerlao.la/products/?p=1",
+        "downloadUrl": "https://www.beerlao.la/media/aeihzlrq/beerlao-green-330ml.png",
+        "sourceImage": "/images/global-coverage-asia-europe/beerlao-green-original.png",
+        "originalSha256": "97d1c314bee60f10f11cecb4a13fddbf064f49c1966abd9b9acc5fe894a74da2",
+        "sha256": "8b1b2d0fd9d046e6a1b73665b8f0b5add58051152f2a1aa5aa2db4f13fc3dc60",
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_transparent_packshot",
+        "originalRGBunchanged": true,
+        "derivative": {
+          "source": "/images/global-coverage-asia-europe/beerlao-green-original.png",
+          "full": "/images/global-coverage-asia-europe/beerlao-green-cutout.png",
+          "card": "/images/global-coverage-asia-europe/beerlao-green-card.webp",
+          "thumbnail": "/images/global-coverage-asia-europe/beerlao-green-map.webp",
+          "thumbnailBytes": 8578
+        }
+      },
+      "imageContentBounds": {
+        "width": 255,
+        "height": 800,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 255,
+          "height": 800
+        },
+        "method": "reviewed_transparent_body_crop"
+      }
+    },
+    {
+      "id": "global-ae-boris-rebellio",
+      "name": "Boris La Rebel·lio",
+      "breweryId": "global-ae-brewery-boris",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "American IPA",
+      "styleZh": "美式 IPA",
+      "abv": 4.5,
+      "ibu": null,
+      "description": "安道尔奥尔迪诺 La Cortinada 酒厂酿制的美式 IPA。官方描述酒体轻盈，金黄色泽，酒花表现鲜明。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://boriscraftbeer.com/",
+        "sourceFile": "research/global-coverage-asia-europe/boris.html",
+        "sourceSha256": "e0f2a9a0198550cc9ec470ca92bc604d2a600cae5ca55c90f60f72764403e412",
+        "retrievedAt": "2026-10-02T07:41:54.808768+00:00",
+        "sourceType": "official_producer"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "craftStatus": "craft_brewery_reference",
+      "catalogRole": "craft_brewery_reference",
+      "image": "/images/global-coverage-asia-europe/boris-rebellio-card.webp",
+      "imageOriginal": "/images/global-coverage-asia-europe/boris-rebellio-cutout.png",
+      "imageThumbnail": "/images/global-coverage-asia-europe/boris-rebellio-map.webp",
+      "imageSource": "https://boriscraftbeer.com/",
+      "imageDownloadUrl": "https://boriscraftbeer.com/wp-content/uploads/2026/03/rebellio.webp",
+      "imageCredit": "Boris Craft Beer 官方产品照片",
+      "imageLicense": "Copyright holder; no open redistribution license stated",
+      "sourceUrls": [
+        "https://boriscraftbeer.com/",
+        "https://boriscraftbeer.com/wp-content/uploads/2026/03/rebellio.webp",
+        "https://boriscraftbeer.com/",
+        "https://en.wikipedia.org/wiki/La_Cortinada"
+      ],
+      "sourceNote": "只收录来源可核实的当地酿造酒，不将进口酒或境外代工品牌放到销售国；未核实的参数留空。",
+      "imageEvidence": {
+        "sourceUrl": "https://boriscraftbeer.com/",
+        "downloadUrl": "https://boriscraftbeer.com/wp-content/uploads/2026/03/rebellio.webp",
+        "sourceImage": "/images/global-coverage-asia-europe/boris-rebellio-original.webp",
+        "originalSha256": "2363db3deba4c85ce348c7238d27795ef0af47d26b74639c32deabe88f3e90b8",
+        "sha256": "95bdd74c7ffe8865fee613608c54a5c02c9089180b548d041333463a8544a2b9",
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_transparent_packshot",
+        "originalRGBunchanged": true,
+        "derivative": {
+          "source": "/images/global-coverage-asia-europe/boris-rebellio-original.webp",
+          "full": "/images/global-coverage-asia-europe/boris-rebellio-cutout.png",
+          "card": "/images/global-coverage-asia-europe/boris-rebellio-card.webp",
+          "thumbnail": "/images/global-coverage-asia-europe/boris-rebellio-map.webp",
+          "thumbnailBytes": 6388
+        }
+      },
+      "imageContentBounds": {
+        "width": 245,
+        "height": 800,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 245,
+          "height": 800
+        },
+        "method": "reviewed_transparent_body_crop"
+      }
+    },
+    {
+      "id": "global-ae-boris-corona",
+      "name": "Boris La Corona",
+      "breweryId": "global-ae-brewery-boris",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Golden Ale",
+      "styleZh": "金色艾尔",
+      "abv": 4.5,
+      "ibu": null,
+      "description": "由安道尔 La Cortinada 的 Boris 酒厂酿造的金色艾尔；官方描述其风格清新，带花香型酒花气息。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://boriscraftbeer.com/",
+        "sourceFile": "research/global-coverage-asia-europe/boris.html",
+        "sourceSha256": "e0f2a9a0198550cc9ec470ca92bc604d2a600cae5ca55c90f60f72764403e412",
+        "retrievedAt": "2026-10-02T07:41:54.808768+00:00",
+        "sourceType": "official_producer"
+      },
+      "flavors": [
+        "花香"
+      ],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "craftStatus": "craft_brewery_reference",
+      "catalogRole": "craft_brewery_reference",
+      "image": "/images/global-coverage-asia-europe/boris-corona-card.webp",
+      "imageOriginal": "/images/global-coverage-asia-europe/boris-corona-cutout.png",
+      "imageThumbnail": "/images/global-coverage-asia-europe/boris-corona-map.webp",
+      "imageSource": "https://boriscraftbeer.com/",
+      "imageDownloadUrl": "https://boriscraftbeer.com/wp-content/uploads/2026/03/la-corona.webp",
+      "imageCredit": "Boris Craft Beer 官方产品照片",
+      "imageLicense": "Copyright holder; no open redistribution license stated",
+      "sourceUrls": [
+        "https://boriscraftbeer.com/",
+        "https://boriscraftbeer.com/wp-content/uploads/2026/03/la-corona.webp",
+        "https://boriscraftbeer.com/",
+        "https://en.wikipedia.org/wiki/La_Cortinada"
+      ],
+      "sourceNote": "只收录来源可核实的当地酿造酒，不将进口酒或境外代工品牌放到销售国；未核实的参数留空。",
+      "imageEvidence": {
+        "sourceUrl": "https://boriscraftbeer.com/",
+        "downloadUrl": "https://boriscraftbeer.com/wp-content/uploads/2026/03/la-corona.webp",
+        "sourceImage": "/images/global-coverage-asia-europe/boris-corona-original.webp",
+        "originalSha256": "1ddf6c04158ad60fe76df95919159708a5423b074c16b0c2fa41f75a6b7d0f73",
+        "sha256": "d8afd1c458b074a6ee9dbd3eb9e54bb6da496218eab70cc2ffc73169bed2be7d",
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_transparent_packshot",
+        "originalRGBunchanged": true,
+        "derivative": {
+          "source": "/images/global-coverage-asia-europe/boris-corona-original.webp",
+          "full": "/images/global-coverage-asia-europe/boris-corona-cutout.png",
+          "card": "/images/global-coverage-asia-europe/boris-corona-card.webp",
+          "thumbnail": "/images/global-coverage-asia-europe/boris-corona-map.webp",
+          "thumbnailBytes": 6270
+        }
+      },
+      "imageContentBounds": {
+        "width": 241,
+        "height": 800,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 241,
+          "height": 800
+        },
+        "method": "reviewed_transparent_body_crop"
+      }
+    },
+    {
+      "id": "global-ae-lasko-zlatorog",
+      "name": "Laško Zlatorog",
+      "breweryId": "global-ae-brewery-lasko",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pale Lager",
+      "styleZh": "浅色拉格",
+      "abv": 4.9,
+      "ibu": null,
+      "description": "斯洛文尼亚拉什科酿酒厂的浅色拉格，采用当地山地水源与斯洛文尼亚酒花，官方描述其具有鲜明的酒花苦味。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.lasko.eu/en/our-beer",
+        "sourceFile": "research/global-coverage-asia-europe/lasko-beers.html",
+        "sourceSha256": "faa2d5859551690abc51ccfddb53e99c40b2d0086d5fae7bcafb5f10719632c4",
+        "retrievedAt": "2026-10-02T07:38:18.070789+00:00",
+        "sourceType": "official_producer"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "image": "/images/global-coverage-asia-europe/lasko-zlatorog-card.webp",
+      "imageOriginal": "/images/global-coverage-asia-europe/lasko-zlatorog-cutout.png",
+      "imageThumbnail": "/images/global-coverage-asia-europe/lasko-zlatorog-map.webp",
+      "imageSource": "https://www.lasko.eu/en/our-beer",
+      "imageDownloadUrl": "https://cms.lasko.eu/assets/products/lasko-zlatorog/lasko-zlatorog.png",
+      "imageCredit": "Pivovarna Laško 官方产品照片",
+      "imageLicense": "Copyright holder; no open redistribution license stated",
+      "sourceUrls": [
+        "https://www.lasko.eu/en/our-beer",
+        "https://cms.lasko.eu/assets/products/lasko-zlatorog/lasko-zlatorog.png",
+        "https://www.lasko.eu/en/our-story",
+        "https://en.wikipedia.org/wiki/Laško"
+      ],
+      "sourceNote": "只收录来源可核实的当地酿造酒，不将进口酒或境外代工品牌放到销售国；未核实的参数留空。",
+      "imageEvidence": {
+        "sourceUrl": "https://www.lasko.eu/en/our-beer",
+        "downloadUrl": "https://cms.lasko.eu/assets/products/lasko-zlatorog/lasko-zlatorog.png",
+        "sourceImage": "/images/global-coverage-asia-europe/lasko-zlatorog-original.png",
+        "originalSha256": "26675971ef1a0c833e81f4290fba159f42b68dc4c641c83592d0392c734f1149",
+        "sha256": "0dc9e8e6f990a85902456b63115b266b2bd320a25f01c347842af7da9d6268fe",
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_transparent_packshot",
+        "originalRGBunchanged": true,
+        "derivative": {
+          "source": "/images/global-coverage-asia-europe/lasko-zlatorog-original.png",
+          "full": "/images/global-coverage-asia-europe/lasko-zlatorog-cutout.png",
+          "card": "/images/global-coverage-asia-europe/lasko-zlatorog-card.webp",
+          "thumbnail": "/images/global-coverage-asia-europe/lasko-zlatorog-map.webp",
+          "thumbnailBytes": 5818
+        }
+      },
+      "imageContentBounds": {
+        "width": 191,
+        "height": 800,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 191,
+          "height": 800
+        },
+        "method": "reviewed_transparent_body_crop"
+      }
+    },
+    {
+      "id": "global-ae-lasko-dark",
+      "name": "Laško Zlatorog Temno",
+      "breweryId": "global-ae-brewery-lasko",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Dark Lager",
+      "styleZh": "深色拉格",
+      "abv": 4.9,
+      "ibu": null,
+      "description": "拉什科酿酒厂的深色拉格，在浅色麦芽之外使用焦糖麦芽，形成较深酒色和焦糖麦芽特点。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.lasko.eu/en/our-beer",
+        "sourceFile": "research/global-coverage-asia-europe/lasko-beers.html",
+        "sourceSha256": "faa2d5859551690abc51ccfddb53e99c40b2d0086d5fae7bcafb5f10719632c4",
+        "retrievedAt": "2026-10-02T07:38:18.070789+00:00",
+        "sourceType": "official_producer"
+      },
+      "flavors": [
+        "焦糖"
+      ],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "image": "/images/global-coverage-asia-europe/lasko-dark-card.webp",
+      "imageOriginal": "/images/global-coverage-asia-europe/lasko-dark-cutout.png",
+      "imageThumbnail": "/images/global-coverage-asia-europe/lasko-dark-map.webp",
+      "imageSource": "https://www.lasko.eu/en/our-beer",
+      "imageDownloadUrl": "https://cms.lasko.eu/assets/products/lasko-zlatorog-temno/lasko-zlatorog-temno.png",
+      "imageCredit": "Pivovarna Laško 官方产品照片",
+      "imageLicense": "Copyright holder; no open redistribution license stated",
+      "sourceUrls": [
+        "https://www.lasko.eu/en/our-beer",
+        "https://cms.lasko.eu/assets/products/lasko-zlatorog-temno/lasko-zlatorog-temno.png",
+        "https://www.lasko.eu/en/our-story",
+        "https://en.wikipedia.org/wiki/Laško"
+      ],
+      "sourceNote": "只收录来源可核实的当地酿造酒，不将进口酒或境外代工品牌放到销售国；未核实的参数留空。",
+      "imageEvidence": {
+        "sourceUrl": "https://www.lasko.eu/en/our-beer",
+        "downloadUrl": "https://cms.lasko.eu/assets/products/lasko-zlatorog-temno/lasko-zlatorog-temno.png",
+        "sourceImage": "/images/global-coverage-asia-europe/lasko-dark-original.png",
+        "originalSha256": "f3d7fee6dc91f80683338a1c7328c2190b1c9a29f9e45919f4fc3f93942397fb",
+        "sha256": "68d8e5dd60f29a11eaba8ee375695e7e2b277503017ea3ed798318fb31a7e48b",
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_transparent_packshot",
+        "originalRGBunchanged": true,
+        "derivative": {
+          "source": "/images/global-coverage-asia-europe/lasko-dark-original.png",
+          "full": "/images/global-coverage-asia-europe/lasko-dark-cutout.png",
+          "card": "/images/global-coverage-asia-europe/lasko-dark-card.webp",
+          "thumbnail": "/images/global-coverage-asia-europe/lasko-dark-map.webp",
+          "thumbnailBytes": 5342
+        }
+      },
+      "imageContentBounds": {
+        "width": 191,
+        "height": 800,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 191,
+          "height": 800
+        },
+        "method": "reviewed_transparent_body_crop"
+      }
+    },
+    {
+      "id": "global-ae-rhombus-aloha",
+      "name": "Rhombus Aloha IPA",
+      "breweryId": "global-ae-brewery-rhombus",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "IPA",
+      "styleZh": "印度淡色艾尔",
+      "abv": 6,
+      "ibu": null,
+      "description": "保加利亚帕扎尔吉克 Rhombus 酒厂的 IPA，采用六种酒花，呈现芒果、西柚、柠檬与橙子的香气；官方描述有少许麦芽甜感，收尾偏干。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://rhombusbrewery.com/beer-list/",
+        "sourceFile": "research/global-coverage-asia-europe/rhombus-beers.html",
+        "sourceSha256": "b5ce73fb5fd4a5ba0f9c361a31493f0f21a141d7fa333be3ad305b154823a806",
+        "retrievedAt": "2026-10-02T07:43:26.964768+00:00",
+        "sourceType": "official_producer"
+      },
+      "flavors": [
+        "芒果",
+        "西柚",
+        "柠檬",
+        "橙子"
+      ],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "craftStatus": "craft_brewery_reference",
+      "catalogRole": "craft_brewery_reference",
+      "image": "/images/global-coverage-asia-europe/rhombus-aloha-card.webp",
+      "imageOriginal": "/images/global-coverage-asia-europe/rhombus-aloha-cutout.png",
+      "imageThumbnail": "/images/global-coverage-asia-europe/rhombus-aloha-map.webp",
+      "imageSource": "https://rhombusbrewery.com/beer-list/",
+      "imageDownloadUrl": "https://rhombusbrewery.com/wp-content/uploads/2020/05/aloha462x1080.png",
+      "imageCredit": "Rhombus Craft Brewery 官方产品照片",
+      "imageLicense": "Copyright holder; no open redistribution license stated",
+      "sourceUrls": [
+        "https://rhombusbrewery.com/beer-list/",
+        "https://rhombusbrewery.com/wp-content/uploads/2020/05/aloha462x1080.png",
+        "https://rhombusbrewery.com/",
+        "https://en.wikipedia.org/wiki/Pazardzhik"
+      ],
+      "sourceNote": "只收录来源可核实的当地酿造酒，不将进口酒或境外代工品牌放到销售国；未核实的参数留空。",
+      "imageEvidence": {
+        "sourceUrl": "https://rhombusbrewery.com/beer-list/",
+        "downloadUrl": "https://rhombusbrewery.com/wp-content/uploads/2020/05/aloha462x1080.png",
+        "sourceImage": "/images/global-coverage-asia-europe/rhombus-aloha-original.png",
+        "originalSha256": "1044b36c5abf3db93bef93b74b00374df17797f3e347d7a45f9f8f39a96ac432",
+        "sha256": "3a62fce689a367c8a16d0fe8344f14b473c400bade5c3ee3b3f25d2c881e1ada",
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_transparent_packshot",
+        "originalRGBunchanged": true,
+        "derivative": {
+          "source": "/images/global-coverage-asia-europe/rhombus-aloha-original.png",
+          "full": "/images/global-coverage-asia-europe/rhombus-aloha-cutout.png",
+          "card": "/images/global-coverage-asia-europe/rhombus-aloha-card.webp",
+          "thumbnail": "/images/global-coverage-asia-europe/rhombus-aloha-map.webp",
+          "thumbnailBytes": 6094
+        }
+      },
+      "imageContentBounds": {
+        "width": 255,
+        "height": 800,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 255,
+          "height": 800
+        },
+        "method": "reviewed_transparent_body_crop"
+      }
+    },
+    {
+      "id": "global-ae-appenzeller-ipa",
+      "name": "Appenzeller IPA",
+      "breweryId": "global-ae-brewery-locher",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "IPA",
+      "styleZh": "印度淡色艾尔",
+      "abv": 6,
+      "ibu": 42,
+      "description": "瑞士阿彭策尔 Locher 家族酒厂的 IPA，浅琥珀色、轻微浑浊，通过干投酒花带来柑橘与热带水果香气，酒体饱满。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://appenzellerbier.ch/de/bierspezialitaeten/app-bier-ipa-india-pale-ale",
+        "sourceFile": "research/global-coverage-asia-europe/swiss-ipa.html",
+        "sourceSha256": "38355de30a5b2d6564b3f331bb6a3425e19a66f867449920fd98cbc1e38e2218",
+        "retrievedAt": "2026-10-02T07:45:15.359531+00:00",
+        "sourceType": "official_producer"
+      },
+      "flavors": [
+        "柑橘",
+        "热带水果"
+      ],
+      "hops": [],
+      "malts": [
+        "大麦麦芽"
+      ],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "craftStatus": "family_brewery_reference",
+      "catalogRole": "family_brewery_reference",
+      "image": "/images/global-coverage-asia-europe/appenzeller-ipa-card.webp",
+      "imageOriginal": "/images/global-coverage-asia-europe/appenzeller-ipa-cutout.png",
+      "imageThumbnail": "/images/global-coverage-asia-europe/appenzeller-ipa-map.webp",
+      "imageSource": "https://appenzellerbier.ch/de/bierspezialitaeten/app-bier-ipa-india-pale-ale",
+      "imageDownloadUrl": "https://appenzellerbier.ch/files/appenzeller-bier/biere_bilder_mit_schatten_v3_home/IPA-LN.png",
+      "imageCredit": "Brauerei Locher 官方产品照片",
+      "imageLicense": "Copyright holder; no open redistribution license stated",
+      "sourceUrls": [
+        "https://appenzellerbier.ch/de/bierspezialitaeten/app-bier-ipa-india-pale-ale",
+        "https://appenzellerbier.ch/files/appenzeller-bier/biere_bilder_mit_schatten_v3_home/IPA-LN.png",
+        "https://appenzellerbier.ch/de/ueber-uns/portrait",
+        "https://en.wikipedia.org/wiki/Appenzell"
+      ],
+      "sourceNote": "只收录来源可核实的当地酿造酒，不将进口酒或境外代工品牌放到销售国；未核实的参数留空。",
+      "imageEvidence": {
+        "sourceUrl": "https://appenzellerbier.ch/de/bierspezialitaeten/app-bier-ipa-india-pale-ale",
+        "downloadUrl": "https://appenzellerbier.ch/files/appenzeller-bier/biere_bilder_mit_schatten_v3_home/IPA-LN.png",
+        "sourceImage": "/images/global-coverage-asia-europe/appenzeller-ipa-original.png",
+        "originalSha256": "ae41d2ce90718550420e80e8cca0c5247df8b68afe1086d5a8daf523c40e900e",
+        "sha256": "3024d08a62ebdd86dc99d95cfd5f5b356acd55f51261e8c6808ca2ff66e2caa6",
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_transparent_packshot",
+        "originalRGBunchanged": true,
+        "derivative": {
+          "source": "/images/global-coverage-asia-europe/appenzeller-ipa-original.png",
+          "full": "/images/global-coverage-asia-europe/appenzeller-ipa-cutout.png",
+          "card": "/images/global-coverage-asia-europe/appenzeller-ipa-card.webp",
+          "thumbnail": "/images/global-coverage-asia-europe/appenzeller-ipa-map.webp",
+          "thumbnailBytes": 8134
+        }
+      },
+      "imageContentBounds": {
+        "width": 198,
+        "height": 654,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 198,
+          "height": 654
+        },
+        "method": "reviewed_transparent_body_crop"
+      }
+    },
+    {
+      "id": "global-ae-myanmar-lager",
+      "name": "Myanmar Lager Beer",
+      "breweryId": "global-ae-brewery-myanmar",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "styleZh": "拉格",
+      "abv": null,
+      "ibu": null,
+      "description": "缅甸仰光 Pyinmabin 工业区酒厂酿制的拉格。官方列出麦芽、酒花、本地稻米和水，并说明稻米用于形成清爽收尾。酒精度未从本次产品文字来源核实，暂留空。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://myanmar-brewery.com/mmbeer/myanmar_lager",
+        "sourceFile": "research/global-coverage-asia-europe/myanmar.html",
+        "sourceSha256": "230ff1c6f33ca7a52179e03b7624a11e93c87d9b06ba7baeb95bf92d531f52aa",
+        "retrievedAt": "2026-10-02T07:43:26.350823+00:00",
+        "sourceType": "official_producer"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [
+        "大麦麦芽"
+      ],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "image": "/images/global-coverage-asia-europe/myanmar-lager-card.webp",
+      "imageOriginal": "/images/global-coverage-asia-europe/myanmar-lager-cutout.png",
+      "imageThumbnail": "/images/global-coverage-asia-europe/myanmar-lager-map.webp",
+      "imageSource": "https://myanmar-brewery.com/mmbeer/myanmar_lager",
+      "imageDownloadUrl": "https://cms.myanmar-brewery.com/storage/443/6551d9d56972e_mlb-bottle.png",
+      "imageCredit": "Myanmar Brewery 官方产品照片",
+      "imageLicense": "Copyright holder; no open redistribution license stated",
+      "sourceUrls": [
+        "https://myanmar-brewery.com/mmbeer/myanmar_lager",
+        "https://cms.myanmar-brewery.com/storage/443/6551d9d56972e_mlb-bottle.png",
+        "https://myanmar-brewery.com/mbr/story",
+        "https://en.wikipedia.org/wiki/Yangon"
+      ],
+      "sourceNote": "只收录来源可核实的当地酿造酒，不将进口酒或境外代工品牌放到销售国；未核实的参数留空。",
+      "imageEvidence": {
+        "sourceUrl": "https://myanmar-brewery.com/mmbeer/myanmar_lager",
+        "downloadUrl": "https://cms.myanmar-brewery.com/storage/443/6551d9d56972e_mlb-bottle.png",
+        "sourceImage": "/images/global-coverage-asia-europe/myanmar-lager-original.png",
+        "originalSha256": "42859fadbbc96c033e2fe52892eafacd96de50a0ecf477e58a2ff151e3a65d51",
+        "sha256": "d17b7eebf79c15f027e7be95e33cf18773728ad1c5205882accd730fce27ef21",
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_transparent_packshot",
+        "originalRGBunchanged": true,
+        "derivative": {
+          "source": "/images/global-coverage-asia-europe/myanmar-lager-original.png",
+          "full": "/images/global-coverage-asia-europe/myanmar-lager-cutout.png",
+          "card": "/images/global-coverage-asia-europe/myanmar-lager-card.webp",
+          "thumbnail": "/images/global-coverage-asia-europe/myanmar-lager-map.webp",
+          "thumbnailBytes": 8228
+        }
+      },
+      "imageContentBounds": {
+        "width": 312,
+        "height": 664,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 312,
+          "height": 664
+        },
+        "method": "reviewed_transparent_body_crop"
+      }
+    },
+    {
+      "id": "global-ae-alivaria-gold",
+      "name": "Alivaria Zolotoye",
+      "breweryId": "global-ae-brewery-alivaria",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pilsner",
+      "styleZh": "皮尔森",
+      "abv": 4.8,
+      "ibu": null,
+      "description": "白俄罗斯明斯克 Alivaria 酒厂的金色皮尔森。产品资料描述烘烤谷物、面包与少许坚果和柠檬气息，酒精度 4.8%。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.carlsberggroup.com/products/alivaria/alivaria-zolotoye/",
+        "sourceFile": "research/global-coverage-asia-europe/alivaria-gold.html",
+        "sourceSha256": "78b0497fec3db002a9936ee8b09c652ff7a895a06bc0a81d16514a7f5a4d8b47",
+        "retrievedAt": "2026-10-02T07:45:11.270541+00:00",
+        "sourceType": "official_producer"
+      },
+      "flavors": [
+        "谷物",
+        "面包",
+        "坚果",
+        "柠檬"
+      ],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "image": "/images/global-coverage-asia-europe/alivaria-gold-card.webp",
+      "imageOriginal": "/images/global-coverage-asia-europe/alivaria-gold-cutout.png",
+      "imageThumbnail": "/images/global-coverage-asia-europe/alivaria-gold-map.webp",
+      "imageSource": "https://www.carlsberggroup.com/products/alivaria/alivaria-zolotoye/",
+      "imageDownloadUrl": "https://www.carlsberggroup.com/media/bwacwjna/alivaria-zolotoye.png",
+      "imageCredit": "Alivaria Brewery 官方产品照片",
+      "imageLicense": "Copyright holder; no open redistribution license stated",
+      "sourceUrls": [
+        "https://www.carlsberggroup.com/products/alivaria/alivaria-zolotoye/",
+        "https://www.carlsberggroup.com/media/bwacwjna/alivaria-zolotoye.png",
+        "https://alivaria.by/",
+        "https://en.wikipedia.org/wiki/Minsk"
+      ],
+      "sourceNote": "只收录来源可核实的当地酿造酒，不将进口酒或境外代工品牌放到销售国；未核实的参数留空。",
+      "imageEvidence": {
+        "sourceUrl": "https://www.carlsberggroup.com/products/alivaria/alivaria-zolotoye/",
+        "downloadUrl": "https://www.carlsberggroup.com/media/bwacwjna/alivaria-zolotoye.png",
+        "sourceImage": "/images/global-coverage-asia-europe/alivaria-gold-original.png",
+        "originalSha256": "e2bb93a30aef79e016a4e329289012c99ee1383c537891fd95ed088b75741c07",
+        "sha256": "a0e174f9a1d6c62a011a5067780421126a8c8b47c88a09f37b69fe04b91d3ec9",
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_transparent_packshot",
+        "originalRGBunchanged": true,
+        "derivative": {
+          "source": "/images/global-coverage-asia-europe/alivaria-gold-original.png",
+          "full": "/images/global-coverage-asia-europe/alivaria-gold-cutout.png",
+          "card": "/images/global-coverage-asia-europe/alivaria-gold-card.webp",
+          "thumbnail": "/images/global-coverage-asia-europe/alivaria-gold-map.webp",
+          "thumbnailBytes": 6326
+        }
+      },
+      "imageContentBounds": {
+        "width": 218,
+        "height": 800,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 218,
+          "height": 800
+        },
+        "method": "reviewed_transparent_body_crop"
+      }
+    },
+    {
+      "id": "global-ae-svyturys-extra",
+      "name": "Švyturys Ekstra",
+      "breweryId": "global-ae-brewery-svyturys",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pilsner",
+      "styleZh": "皮尔森",
+      "abv": 5.2,
+      "ibu": null,
+      "description": "立陶宛本土 Švyturys 皮尔森，源自克莱佩达酿酒传统。官方描述金黄色酒液、白色泡沫和协调口味，收尾带酒花的微涩感。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.carlsberggroup.com/products/svyturys/svyturys-ekstra/",
+        "sourceFile": "research/global-coverage-asia-europe/svyturys-extra.html",
+        "sourceSha256": "7285192bf36f3b16973b149d70f4910c1c8954c359dd610e84b441a093879ec4",
+        "retrievedAt": "2026-10-02T07:45:11.452121+00:00",
+        "sourceType": "official_producer"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "image": "/images/global-coverage-asia-europe/svyturys-extra-card.webp",
+      "imageOriginal": "/images/global-coverage-asia-europe/svyturys-extra-cutout.png",
+      "imageThumbnail": "/images/global-coverage-asia-europe/svyturys-extra-map.webp",
+      "imageSource": "https://www.carlsberggroup.com/products/svyturys/svyturys-ekstra/",
+      "imageDownloadUrl": "https://www.carlsberggroup.com/media/i0tlxcgx/lt_svyturys-ekstra.png",
+      "imageCredit": "Švyturys-Utenos Alus 官方产品照片",
+      "imageLicense": "Copyright holder; no open redistribution license stated",
+      "sourceUrls": [
+        "https://www.carlsberggroup.com/products/svyturys/svyturys-ekstra/",
+        "https://www.carlsberggroup.com/media/i0tlxcgx/lt_svyturys-ekstra.png",
+        "https://www.carlsberggroup.com/who-we-are/about-the-carlsberg-group/global-presence/lithuania/",
+        "https://en.wikipedia.org/wiki/Klaipėda"
+      ],
+      "sourceNote": "只收录来源可核实的当地酿造酒，不将进口酒或境外代工品牌放到销售国；未核实的参数留空。",
+      "imageEvidence": {
+        "sourceUrl": "https://www.carlsberggroup.com/products/svyturys/svyturys-ekstra/",
+        "downloadUrl": "https://www.carlsberggroup.com/media/i0tlxcgx/lt_svyturys-ekstra.png",
+        "sourceImage": "/images/global-coverage-asia-europe/svyturys-extra-original.png",
+        "originalSha256": "42c420882ee90dc120374ff4d16b182492a078c59af4d7dfbcba416d3db3e5d2",
+        "sha256": "82c4e7106bb70468ae059893eb06e740a14c6b337dbc59e93368363c8dbfa026",
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_transparent_packshot",
+        "originalRGBunchanged": true,
+        "derivative": {
+          "source": "/images/global-coverage-asia-europe/svyturys-extra-original.png",
+          "full": "/images/global-coverage-asia-europe/svyturys-extra-cutout.png",
+          "card": "/images/global-coverage-asia-europe/svyturys-extra-card.webp",
+          "thumbnail": "/images/global-coverage-asia-europe/svyturys-extra-map.webp",
+          "thumbnailBytes": 7308
+        }
+      },
+      "imageContentBounds": {
+        "width": 216,
+        "height": 800,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 216,
+          "height": 800
+        },
+        "method": "reviewed_transparent_body_crop"
+      }
+    },
+    {
+      "id": "global-ae-xirdalan",
+      "name": "Xırdalan Original",
+      "breweryId": "global-ae-brewery-xirdalan",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "styleZh": "拉格",
+      "abv": 4.8,
+      "ibu": null,
+      "description": "阿塞拜疆赫尔达兰酒厂生产的本土 Xırdalan 拉格，酒精度 4.8%，官方描述为中等苦味。来源对细分风格的标注与包装存在差异，因此暂采用较宽的拉格分类。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.carlsberggroup.com/products/xirdalan/xirdalan-beer/",
+        "sourceFile": "research/global-coverage-asia-europe/xirdalan.html",
+        "sourceSha256": "148c4fbba1da0e07b26361a21575a3f963f6fec53c62403cc72d6be8064f3514",
+        "retrievedAt": "2026-10-02T07:45:13.232540+00:00",
+        "sourceType": "official_producer"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "image": "/images/global-coverage-asia-europe/xirdalan-card.webp",
+      "imageOriginal": "/images/global-coverage-asia-europe/xirdalan-cutout.png",
+      "imageThumbnail": "/images/global-coverage-asia-europe/xirdalan-map.webp",
+      "imageSource": "https://www.carlsberggroup.com/products/xirdalan/xirdalan-beer/",
+      "imageDownloadUrl": "https://www.carlsberggroup.com/media/xeians0k/microsoftteams-image-2.png",
+      "imageCredit": "Carlsberg Azerbaijan 官方产品照片",
+      "imageLicense": "Copyright holder; no open redistribution license stated",
+      "sourceUrls": [
+        "https://www.carlsberggroup.com/products/xirdalan/xirdalan-beer/",
+        "https://www.carlsberggroup.com/media/xeians0k/microsoftteams-image-2.png",
+        "https://www.carlsberggroup.com/who-we-are/about-the-carlsberg-group/global-presence/azerbaijan/",
+        "https://en.wikipedia.org/wiki/Khirdalan"
+      ],
+      "sourceNote": "只收录来源可核实的当地酿造酒，不将进口酒或境外代工品牌放到销售国；未核实的参数留空。",
+      "imageEvidence": {
+        "sourceUrl": "https://www.carlsberggroup.com/products/xirdalan/xirdalan-beer/",
+        "downloadUrl": "https://www.carlsberggroup.com/media/xeians0k/microsoftteams-image-2.png",
+        "sourceImage": "/images/global-coverage-asia-europe/xirdalan-original.png",
+        "originalSha256": "d3fa4d43da9804ebeb3b84725c24998025abbd37ce81fe6ceccc63539b872c59",
+        "sha256": "8400a833178cd7dc95684d1bf4d08b8eaf2986383586939f9a406c772c28e6c0",
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_transparent_packshot",
+        "originalRGBunchanged": true,
+        "derivative": {
+          "source": "/images/global-coverage-asia-europe/xirdalan-original.png",
+          "full": "/images/global-coverage-asia-europe/xirdalan-cutout.png",
+          "card": "/images/global-coverage-asia-europe/xirdalan-card.webp",
+          "thumbnail": "/images/global-coverage-asia-europe/xirdalan-map.webp",
+          "thumbnailBytes": 7278
+        }
+      },
+      "imageContentBounds": {
+        "width": 207,
+        "height": 800,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 207,
+          "height": 800
+        },
+        "method": "reviewed_transparent_body_crop"
+      }
+    },
+    {
+      "id": "global-ae-angkor-stout",
+      "name": "Angkor Extra Stout",
+      "breweryId": "global-ae-brewery-cambrew",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Stout",
+      "styleZh": "世涛",
+      "abv": 8,
+      "ibu": null,
+      "description": "由柬埔寨西哈努克市 Cambrew 酒厂本土酿造的世涛，品牌资料记载自 1994 年推出，酒精度 8%。采用官方同款深色瓶装产品图。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.carlsberggroup.com/products/angkor/angkor-extra-stout/",
+        "sourceFile": "research/global-coverage-asia-europe/angkor.html",
+        "sourceSha256": "abd1a321921813f2ed283e1d0f5d523a26bd4ac32807ea473b96911df019c8be",
+        "retrievedAt": "2026-10-02T07:45:13.247392+00:00",
+        "sourceType": "official_producer"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "image": "/images/global-coverage-asia-europe/angkor-stout-card.webp",
+      "imageOriginal": "/images/global-coverage-asia-europe/angkor-stout-cutout.png",
+      "imageThumbnail": "/images/global-coverage-asia-europe/angkor-stout-map.webp",
+      "imageSource": "https://www.carlsberggroup.com/products/angkor/angkor-extra-stout/",
+      "imageDownloadUrl": "https://www.carlsberggroup.com/media/gvvgwaoi/angkor-extra-stout.png",
+      "imageCredit": "Cambrew / Angkor Brewery 官方产品照片",
+      "imageLicense": "Copyright holder; no open redistribution license stated",
+      "sourceUrls": [
+        "https://www.carlsberggroup.com/products/angkor/angkor-extra-stout/",
+        "https://www.carlsberggroup.com/media/gvvgwaoi/angkor-extra-stout.png",
+        "https://www.carlsberggroup.com/who-we-are/about-the-carlsberg-group/global-presence/cambodia/",
+        "https://en.wikipedia.org/wiki/Sihanoukville"
+      ],
+      "sourceNote": "只收录来源可核实的当地酿造酒，不将进口酒或境外代工品牌放到销售国；未核实的参数留空。",
+      "imageEvidence": {
+        "sourceUrl": "https://www.carlsberggroup.com/products/angkor/angkor-extra-stout/",
+        "downloadUrl": "https://www.carlsberggroup.com/media/gvvgwaoi/angkor-extra-stout.png",
+        "sourceImage": "/images/global-coverage-asia-europe/angkor-stout-original.png",
+        "originalSha256": "6b2a0c83b37c135a6e31a72a93823130216bce3d1e5fb8700ba1bfe9d20333b1",
+        "sha256": "35eef30584aa62cd038689663b34f84f2dced3041a289e159daa5442c16cbd1d",
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_transparent_packshot",
+        "originalRGBunchanged": true,
+        "derivative": {
+          "source": "/images/global-coverage-asia-europe/angkor-stout-original.png",
+          "full": "/images/global-coverage-asia-europe/angkor-stout-cutout.png",
+          "card": "/images/global-coverage-asia-europe/angkor-stout-card.webp",
+          "thumbnail": "/images/global-coverage-asia-europe/angkor-stout-map.webp",
+          "thumbnailBytes": 6706
+        }
+      },
+      "imageContentBounds": {
+        "width": 214,
+        "height": 800,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 214,
+          "height": 800
+        },
+        "method": "reviewed_transparent_body_crop"
+      }
+    },
+    {
+      "id": "global-ae-lav",
+      "name": "LAV",
+      "breweryId": "global-ae-brewery-lav",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pale Lager",
+      "styleZh": "浅色拉格",
+      "abv": 4.5,
+      "ibu": null,
+      "description": "塞尔维亚切拉雷沃酒厂酿造的本土浅色拉格，官方描述金黄色泽、饱满酒体、果香、麦芽味和协调苦味。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.carlsberggroup.com/products/lav/lav/",
+        "sourceFile": "research/global-coverage-asia-europe/lav.html",
+        "sourceSha256": "da45bfd6a40c3d3601b968c0fc2b28cb348bc24de8c8a52118f86c460da59e34",
+        "retrievedAt": "2026-10-02T07:52:37.867323+00:00",
+        "sourceType": "official_producer"
+      },
+      "flavors": [
+        "果香",
+        "麦芽"
+      ],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "image": "/images/global-coverage-asia-europe/lav-card.webp",
+      "imageOriginal": "/images/global-coverage-asia-europe/lav-cutout.png",
+      "imageThumbnail": "/images/global-coverage-asia-europe/lav-map.webp",
+      "imageSource": "https://www.carlsberggroup.com/products/lav/lav/",
+      "imageDownloadUrl": "https://www.carlsberggroup.com/media/5n4hn2ck/lav-05.png",
+      "imageCredit": "Carlsberg Srbija / Čelarevo Brewery 官方产品照片",
+      "imageLicense": "Copyright holder; no open redistribution license stated",
+      "sourceUrls": [
+        "https://www.carlsberggroup.com/products/lav/lav/",
+        "https://www.carlsberggroup.com/media/5n4hn2ck/lav-05.png",
+        "https://www.carlsberggroup.com/who-we-are/about-the-carlsberg-group/global-presence/serbia/",
+        "https://en.wikipedia.org/wiki/Čelarevo"
+      ],
+      "sourceNote": "只收录来源可核实的当地酿造酒，不将进口酒或境外代工品牌放到销售国；未核实的参数留空。",
+      "imageEvidence": {
+        "sourceUrl": "https://www.carlsberggroup.com/products/lav/lav/",
+        "downloadUrl": "https://www.carlsberggroup.com/media/5n4hn2ck/lav-05.png",
+        "sourceImage": "/images/global-coverage-asia-europe/lav-original.png",
+        "originalSha256": "12d079a804949b0ba47bb0eb679d02dc7fbbf26599f60cd2d5576afb50fe7552",
+        "sha256": "ed5550e5a5a13c2a257f797b15791f97e96c893c8c0dcc89d4e9f63fc6f2c7fb",
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_transparent_packshot",
+        "originalRGBunchanged": true,
+        "derivative": {
+          "source": "/images/global-coverage-asia-europe/lav-original.png",
+          "full": "/images/global-coverage-asia-europe/lav-cutout.png",
+          "card": "/images/global-coverage-asia-europe/lav-card.webp",
+          "thumbnail": "/images/global-coverage-asia-europe/lav-map.webp",
+          "thumbnailBytes": 7298
+        }
+      },
+      "imageContentBounds": {
+        "width": 207,
+        "height": 800,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 207,
+          "height": 800
+        },
+        "method": "reviewed_transparent_body_crop"
+      }
+    },
+    {
+      "id": "global-ae-bazant-73",
+      "name": "Zlatý Bažant ’73",
+      "breweryId": "global-ae-brewery-bazant",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pale Lager",
+      "styleZh": "浅色拉格",
+      "abv": 4.5,
+      "ibu": null,
+      "description": "斯洛伐克胡尔巴诺沃酒厂酿造的浅色拉格，配方灵感来自 1973 年留存酿造记录。官方说明采用二次煮出糖化、自制大麦麦芽和 Saaz 酒花，酿造周期六周，带酒花香与协调苦味。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://zlatybazant.sk/en/products/zlaty-bazant-73",
+        "sourceFile": "research/global-coverage-asia-europe/bazant.html",
+        "sourceSha256": "ad635dc99aed0bc35617145eb23bffe7c3f7c30c537722ae926d887d04b9356c",
+        "retrievedAt": "2026-10-02T07:52:39.917822+00:00",
+        "sourceType": "official_producer"
+      },
+      "flavors": [],
+      "hops": [
+        "Saaz"
+      ],
+      "malts": [
+        "大麦麦芽"
+      ],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "image": "/images/global-coverage-asia-europe/bazant-73-card.webp",
+      "imageOriginal": "/images/global-coverage-asia-europe/bazant-73-cutout.png",
+      "imageThumbnail": "/images/global-coverage-asia-europe/bazant-73-map.webp",
+      "imageSource": "https://zlatybazant.sk/en/products/zlaty-bazant-73",
+      "imageDownloadUrl": "https://zlatybazant.sk/sites/default/files/produkty/03_beer_73_0.5_flasa.png",
+      "imageCredit": "Pivovar Hurbanovo 官方产品照片",
+      "imageLicense": "Copyright holder; no open redistribution license stated",
+      "sourceUrls": [
+        "https://zlatybazant.sk/en/products/zlaty-bazant-73",
+        "https://zlatybazant.sk/sites/default/files/produkty/03_beer_73_0.5_flasa.png",
+        "https://zlatybazant.sk/en/brewery/history",
+        "https://en.wikipedia.org/wiki/Hurbanovo"
+      ],
+      "sourceNote": "只收录来源可核实的当地酿造酒，不将进口酒或境外代工品牌放到销售国；未核实的参数留空。",
+      "imageEvidence": {
+        "sourceUrl": "https://zlatybazant.sk/en/products/zlaty-bazant-73",
+        "downloadUrl": "https://zlatybazant.sk/sites/default/files/produkty/03_beer_73_0.5_flasa.png",
+        "sourceImage": "/images/global-coverage-asia-europe/bazant-73-original.png",
+        "originalSha256": "beb6754fc7fc8cabf7cd04a5f67f3668abac20185f781e37f417a33a02ab795f",
+        "sha256": "d56dcf2a526bbc0de479120e483999ecae462f072381f1b1215c10591175c87f",
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_transparent_packshot",
+        "originalRGBunchanged": true,
+        "derivative": {
+          "source": "/images/global-coverage-asia-europe/bazant-73-original.png",
+          "full": "/images/global-coverage-asia-europe/bazant-73-cutout.png",
+          "card": "/images/global-coverage-asia-europe/bazant-73-card.webp",
+          "thumbnail": "/images/global-coverage-asia-europe/bazant-73-map.webp",
+          "thumbnailBytes": 8130
+        }
+      },
+      "imageContentBounds": {
+        "width": 213,
+        "height": 664,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 213,
+          "height": 664
+        },
+        "method": "reviewed_transparent_body_crop"
+      }
+    },
+    {
+      "id": "global-ae-niksicko-gold",
+      "name": "Nikšićko Gold",
+      "breweryId": "global-ae-brewery-trebjesa",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pale Lager",
+      "styleZh": "浅色拉格",
+      "abv": 5.2,
+      "ibu": null,
+      "description": "黑山尼克希奇 Trebjesa 酒厂本土生产的浅色啤酒。官方产品资料列出麦芽、酒花及大麦，酒精度 5.2%；酒厂自述将 Gold 列入本地生产系列。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.molsoncoors.com/brands/our-brands/niksicko?region=936",
+        "sourceFile": "research/global-coverage-asia-europe/niksicko.html",
+        "sourceSha256": "4bcf1a636dc1c3e9b78bc144be6768df4b16130518e32e29fb72c059a4667a1a",
+        "retrievedAt": "2026-10-02T07:52:41.305238+00:00",
+        "sourceType": "official_producer"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "image": "/images/global-coverage-asia-europe/niksicko-gold-card.webp",
+      "imageOriginal": "/images/global-coverage-asia-europe/niksicko-gold-cutout.png",
+      "imageThumbnail": "/images/global-coverage-asia-europe/niksicko-gold-map.webp",
+      "imageSource": "https://www.molsoncoors.com/brands/our-brands/niksicko?region=936",
+      "imageDownloadUrl": "https://www.molsoncoors.com/sites/molsonco/files/styles/beer_detail_180x/public/2023-01/Niksicko%20Gold.png?itok=HvX-ojYe",
+      "imageCredit": "Pivara Trebjesa 官方产品照片",
+      "imageLicense": "Copyright holder; no open redistribution license stated",
+      "sourceUrls": [
+        "https://www.molsoncoors.com/brands/our-brands/niksicko?region=936",
+        "https://www.molsoncoors.com/sites/molsonco/files/styles/beer_detail_180x/public/2023-01/Niksicko%20Gold.png?itok=HvX-ojYe",
+        "https://mojposao.me/poslodavci/industrija-piva-i-sokova-trebjesa-doo/simple",
+        "https://en.wikipedia.org/wiki/Nikšić"
+      ],
+      "sourceNote": "只收录来源可核实的当地酿造酒，不将进口酒或境外代工品牌放到销售国；未核实的参数留空。",
+      "imageEvidence": {
+        "sourceUrl": "https://www.molsoncoors.com/brands/our-brands/niksicko?region=936",
+        "downloadUrl": "https://www.molsoncoors.com/sites/molsonco/files/styles/beer_detail_180x/public/2023-01/Niksicko%20Gold.png?itok=HvX-ojYe",
+        "sourceImage": "/images/global-coverage-asia-europe/niksicko-gold-original.png",
+        "originalSha256": "ad6289eeb4ea4141c133a1a35c70487176a30620bc0fe9a7f2a79302a1ff1981",
+        "sha256": "5546c17d9667f73709c06592bf10925e1fe85faa0baa9f3359e134d8dbf857c9",
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_transparent_packshot",
+        "originalRGBunchanged": true,
+        "derivative": {
+          "source": "/images/global-coverage-asia-europe/niksicko-gold-original.png",
+          "full": "/images/global-coverage-asia-europe/niksicko-gold-cutout.png",
+          "card": "/images/global-coverage-asia-europe/niksicko-gold-card.webp",
+          "thumbnail": "/images/global-coverage-asia-europe/niksicko-gold-map.webp",
+          "thumbnailBytes": 6060
+        }
+      },
+      "imageContentBounds": {
+        "width": 119,
+        "height": 432,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 119,
+          "height": 432
+        },
+        "method": "reviewed_transparent_body_crop"
+      }
+    },
+    {
+      "id": "global-ae-sarajevsko-light",
+      "name": "Sarajevsko Light",
+      "breweryId": "global-ae-brewery-sarajevo",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pale Lager",
+      "styleZh": "浅色拉格",
+      "abv": 4.9,
+      "ibu": null,
+      "description": "萨拉热窝本土酿酒厂的浅色拉格，官方描述酒液清澈，具有柔和而可辨的苦味，酒精度 4.9%。酒厂历史可追溯至 1864 年。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://sarajevska-pivara.com/en/",
+        "sourceFile": "research/global-coverage-asia-europe/sarajevo.html",
+        "sourceSha256": "3a4b20d1cf237df1e280f14030a3a28cdd54796d9ed8df4ba76758153f3cbd8a",
+        "retrievedAt": "2026-10-02T07:52:42.599765+00:00",
+        "sourceType": "official_producer"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "image": "/images/global-coverage-asia-europe/sarajevsko-light-card.webp",
+      "imageOriginal": "/images/global-coverage-asia-europe/sarajevsko-light-cutout.png",
+      "imageThumbnail": "/images/global-coverage-asia-europe/sarajevsko-light-map.webp",
+      "imageSource": "https://sarajevska-pivara.com/en/",
+      "imageDownloadUrl": "https://sarajevska-pivara.com/wp-content/uploads/2026/01/twist-033-2-2-scaled.webp",
+      "imageCredit": "Sarajevska Pivara 官方产品照片",
+      "imageLicense": "Copyright holder; no open redistribution license stated",
+      "sourceUrls": [
+        "https://sarajevska-pivara.com/en/",
+        "https://sarajevska-pivara.com/wp-content/uploads/2026/01/twist-033-2-2-scaled.webp",
+        "https://sarajevska-pivara.com/en/",
+        "https://en.wikipedia.org/wiki/Sarajevo"
+      ],
+      "sourceNote": "只收录来源可核实的当地酿造酒，不将进口酒或境外代工品牌放到销售国；未核实的参数留空。",
+      "imageEvidence": {
+        "sourceUrl": "https://sarajevska-pivara.com/en/",
+        "downloadUrl": "https://sarajevska-pivara.com/wp-content/uploads/2026/01/twist-033-2-2-scaled.webp",
+        "sourceImage": "/images/global-coverage-asia-europe/sarajevsko-light-original.webp",
+        "originalSha256": "cb58450203eab485904c858734cbd9a7abad7675d308665aac55e10987b2df99",
+        "sha256": "90e42e9af876ee2c74ad831e02baa9772c0d8a132470db89c71bf131bff37900",
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_transparent_packshot",
+        "originalRGBunchanged": true,
+        "derivative": {
+          "source": "/images/global-coverage-asia-europe/sarajevsko-light-original.webp",
+          "full": "/images/global-coverage-asia-europe/sarajevsko-light-cutout.png",
+          "card": "/images/global-coverage-asia-europe/sarajevsko-light-card.webp",
+          "thumbnail": "/images/global-coverage-asia-europe/sarajevsko-light-map.webp",
+          "thumbnailBytes": 6444
+        }
+      },
+      "imageContentBounds": {
+        "width": 213,
+        "height": 800,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 213,
+          "height": 800
+        },
+        "method": "reviewed_transparent_body_crop"
+      }
+    },
+    {
+      "id": "global-ae-sarajevsko-premium",
+      "name": "Sarajevsko Premium",
+      "breweryId": "global-ae-brewery-sarajevo",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pale Lager",
+      "styleZh": "浅色拉格",
+      "abv": 4.9,
+      "ibu": null,
+      "description": "波黑萨拉热窝酒厂的 Premium 浅色拉格，官方说明香气来自麦芽和酒花，酒精度 4.9%；使用同款棕色瓶装实物图。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://sarajevska-pivara.com/en/",
+        "sourceFile": "research/global-coverage-asia-europe/sarajevo.html",
+        "sourceSha256": "3a4b20d1cf237df1e280f14030a3a28cdd54796d9ed8df4ba76758153f3cbd8a",
+        "retrievedAt": "2026-10-02T07:52:42.599765+00:00",
+        "sourceType": "official_producer"
+      },
+      "flavors": [],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "image": "/images/global-coverage-asia-europe/sarajevsko-premium-card.webp",
+      "imageOriginal": "/images/global-coverage-asia-europe/sarajevsko-premium-cutout.png",
+      "imageThumbnail": "/images/global-coverage-asia-europe/sarajevsko-premium-map.webp",
+      "imageSource": "https://sarajevska-pivara.com/en/",
+      "imageDownloadUrl": "https://sarajevska-pivara.com/wp-content/uploads/2026/01/premium-033-smedja-2-scaled.webp",
+      "imageCredit": "Sarajevska Pivara 官方产品照片",
+      "imageLicense": "Copyright holder; no open redistribution license stated",
+      "sourceUrls": [
+        "https://sarajevska-pivara.com/en/",
+        "https://sarajevska-pivara.com/wp-content/uploads/2026/01/premium-033-smedja-2-scaled.webp",
+        "https://sarajevska-pivara.com/en/",
+        "https://en.wikipedia.org/wiki/Sarajevo"
+      ],
+      "sourceNote": "只收录来源可核实的当地酿造酒，不将进口酒或境外代工品牌放到销售国；未核实的参数留空。",
+      "imageEvidence": {
+        "sourceUrl": "https://sarajevska-pivara.com/en/",
+        "downloadUrl": "https://sarajevska-pivara.com/wp-content/uploads/2026/01/premium-033-smedja-2-scaled.webp",
+        "sourceImage": "/images/global-coverage-asia-europe/sarajevsko-premium-original.webp",
+        "originalSha256": "402855ef5091f3603210f25dedbc5ba207694a18a9fd23025467eb92e01df963",
+        "sha256": "5adf63a5c9c5d6ca717b326b4f71531208a895193c7ff98a452300ace08680b0",
+        "individuallyVerified": true,
+        "reviewedAt": "2026-10-02",
+        "method": "original_transparent_packshot",
+        "originalRGBunchanged": true,
+        "derivative": {
+          "source": "/images/global-coverage-asia-europe/sarajevsko-premium-original.webp",
+          "full": "/images/global-coverage-asia-europe/sarajevsko-premium-cutout.png",
+          "card": "/images/global-coverage-asia-europe/sarajevsko-premium-card.webp",
+          "thumbnail": "/images/global-coverage-asia-europe/sarajevsko-premium-map.webp",
+          "thumbnailBytes": 6364
+        }
+      },
+      "imageContentBounds": {
+        "width": 211,
+        "height": 800,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 211,
+          "height": 800
+        },
+        "method": "reviewed_transparent_body_crop"
+      }
+    }
+  ]
+}

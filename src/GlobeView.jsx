@@ -1,6 +1,9 @@
 import React, { Component, useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import Globe from 'react-globe.gl';
-import { AmbientLight, DirectionalLight, MeshPhongMaterial } from 'three';
+import CelestialBackground from './CelestialBackground.jsx';
+import {maximumSkyAltitude,minimumSkyScale} from './celestial-orbits.mjs';
+import {createGlobeTerminator} from './globe-terminator.mjs';
+import { AmbientLight, DirectionalLight, MeshPhongMaterial, Group, TextureLoader, SRGBColorSpace } from 'three';
 import { layoutMapMarkers, photoDimensions, photoTouchesLand } from './marker-layout.mjs';
 import { hasDescribedPhoto } from './beer-photo-eligibility.mjs';
 import { photoReentryIds } from './photo-reentry.mjs';
@@ -10,22 +13,31 @@ import { createSphereUnprojector } from './map-projection.mjs';
 import { contentImageStyle } from './photo-content-layout.mjs';
 import { choosePhotoFocusAltitude } from './photo-focus.mjs';
 import { createPhotoOccupancy } from './photo-overlap.mjs';
+import { loadStaticMap } from './static-map-loader.mjs';
+import {loadBundledGeographicLand} from './geographic-land-loader.mjs';
+import { createIngredientMarker, cullIngredientMarkers } from './ingredient-markers.mjs';
+import {createIngredientField, setGardenSway, getIngredientFieldStats} from './ingredient-gardens.mjs';
+import {createCountryPicker, featureCountry, matchesCountrySelection, createMapTapTracker, isCountrySurfaceEvent} from './country-selection.mjs';
+import {makeTerrainTexture,makeDetailedTerrainTexture,selectTerrainTextureWidth} from './terrain-texture.mjs';
+import {createCountryOutline, COUNTRY_OUTLINE_BANDS} from './country-outline.mjs';
+import {ingredientAtPointer,consumeIngredientEvent} from './ingredient-picking.mjs';
+import {createCameraLayoutScheduler} from './camera-layout-scheduler.mjs';
+import {admitArrivingPhotos} from './photo-arrivals.mjs';
+import {compareBeerPhotoRank} from './beer-ranking.mjs';
+import {createPhotoPrefetcher} from './photo-prefetch.mjs';
+import {fitSparsePhotoFrames} from './sparse-photo-sizing.mjs';
 
 const MAP_URL = `${import.meta.env.BASE_URL}maps/world-50m.geojson`;
+const QUICK_MAP_URL = `${import.meta.env.BASE_URL}maps/world-110m.geojson`;
 const OCEAN = '#071624';
 const HOME_VIEW = {lat:20,lng:80};
 const MARKER_ALTITUDE = 0.002;
-const STAR_FIELD = Array.from({ length: 24 }, (_, index) => ({
-  left: `${((index * 47 + 19) % 101)}%`,
-  top: `${((index * 29 + 7) % 97)}%`,
-  size: index % 11 === 0 ? 2 : 1,
-  opacity: 0.12 + (index % 4) * 0.09,
-}));
 const BOTTLE_CSS = `
+.brew-globe-view[data-bottles-visible="false"] .globe-bottle-marker{display:none!important}
 .brew-globe-view .globe-bottle-marker{position:relative;width:0;height:0;pointer-events:none}
 .brew-globe-view .globe-bottle-stack{position:absolute;pointer-events:none}
 .brew-globe-view .globe-bottle-halo{position:absolute;inset:-3px;border-radius:45%;background:radial-gradient(ellipse,rgba(182,197,145,.13),rgba(159,190,151,.035) 65%,transparent 76%);pointer-events:none}
-.brew-globe-view .globe-bottle{appearance:none;position:absolute;inset:0;width:var(--beer-photo-width,8.32px);height:var(--beer-photo-height,16px);padding:0!important;margin:0;border:0!important;background:transparent!important;box-shadow:none!important;cursor:pointer;pointer-events:auto;transition:filter .2s;line-height:0}
+.brew-globe-view .globe-bottle{appearance:none;position:absolute;inset:0;width:calc(var(--beer-photo-width,8.32px)*var(--beer-photo-scale,1));height:calc(var(--beer-photo-height,16px)*var(--beer-photo-scale,1));padding:0!important;margin:0;border:0!important;background:transparent!important;box-shadow:none!important;cursor:pointer;pointer-events:auto;transition:filter .2s;line-height:0;will-change:transform}
 .brew-globe-view .globe-bottle img{display:block;width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 1px 1px #0008);user-select:none;-webkit-user-drag:none}
 .brew-globe-view .globe-photo-viewport{position:absolute;inset:0;overflow:hidden;pointer-events:none}
 .brew-globe-view .globe-bottle:not([data-image-state="ready"]) img{opacity:0}
@@ -134,7 +146,7 @@ function annotateMarker(element, marker) {
   element.dataset.landConstrained = String(marker.landConstrained || false);
 }
 
-function createBottleMarker(marker, { selectedBreweryId, selectedBeerId, onSelect, onBeerSelect, photoIdentityIndex }, existing, photoCache = new Map()) {
+function createBottleMarker(marker, { selectedBreweryId, selectedBeerId, onSelect, onBeerSelect, photoIdentityIndex, onImageStateChange }, existing, photoCache = new Map()) {
   const brewery = marker.brewery;
   const element = existing || document.createElement('div');
   if (existing && !existing.classList.contains('globe-bottle-marker')) existing.replaceChildren();
@@ -161,13 +173,14 @@ function createBottleMarker(marker, { selectedBreweryId, selectedBeerId, onSelec
     // Keep decoded images when camera layout changes or a brewery changes clusters.
     const button = photoCache.get(beer.id) || document.createElement('button');
     photoCache.set(beer.id, button);
+    button._onImageStateChange = onImageStateChange;
     button.type = 'button'; button.className = 'globe-bottle';
     button.dataset.beerId = beer.id;
     button.dataset.photoIdentity = photoIdentityIndex?.identityFor(beer) || beer.image;
     button.dataset.sourceBreweryId = photo.sourceId;
     button.dataset.sourceLat = String(photo.sourceLat); button.dataset.sourceLng = String(photo.sourceLng);
-    if (button.dataset.displayLat && (Math.abs(Number(button.dataset.displayLat) - photo.displayLat) > 1e-7
-      || Math.abs(Number(button.dataset.displayLng) - photo.displayLng) > 1e-7)) button._everVisible = false;
+    // A new geographic placement is still the same decoded photograph.
+    // Keep its reveal history so rotation/layout updates never fade it to zero again.
     button.dataset.displayLat = String(photo.displayLat); button.dataset.displayLng = String(photo.displayLng);
     button.dataset.photoScale = String(photo.scale ?? 1);
     button.dataset.sourceScreenX = String(photo.sourceX); button.dataset.sourceScreenY = String(photo.sourceY);
@@ -177,8 +190,9 @@ function createBottleMarker(marker, { selectedBreweryId, selectedBeerId, onSelec
     button.dataset.cluster = 'false'; button.dataset.photo = String(/\.jpe?g(?:\?|$)/i.test(beer.image || ''));
     button.dataset.selected = String(beer.id === selectedBeerId);
     button.setAttribute('aria-label', '查看 ' + beer.name);
-    Object.assign(button.style, { left: (width / 2 + photo.x - photo.width / 2) + 'px',
-      top: (height / 2 + photo.y - photo.height / 2) + 'px', width: '', height: '', zIndex: String(index + 1) });
+    Object.assign(button.style, { left: '0px', top: '0px',
+      transform: `translate3d(${width / 2 + photo.x - photo.width / 2}px,${height / 2 + photo.y - photo.height / 2}px,0)`,
+      width: '', height: '', zIndex: String(index + 1) });
     let img = button.querySelector('img');
     if (!img) {
       const placeholder = document.createElement('span');
@@ -186,8 +200,8 @@ function createBottleMarker(marker, { selectedBreweryId, selectedBeerId, onSelec
       placeholder.setAttribute('aria-hidden', 'true');
       img = document.createElement('img');
       img.draggable = false; img.decoding = 'async'; img.referrerPolicy = 'no-referrer';
-      img.onload = () => { button.dataset.imageState = 'ready'; };
-      img.onerror = () => { button.dataset.imageState = 'failed'; placeholder.textContent = '图片\n暂不可用'; };
+      img.onload = () => { button.dataset.imageState = 'ready'; button._onImageStateChange?.(); };
+      img.onerror = () => { button.dataset.imageState = 'failed'; placeholder.textContent = '图片\n暂不可用'; button._onImageStateChange?.(); };
       const tooltip = document.createElement('span'); tooltip.className = 'globe-bottle-tooltip';
       const imageViewport = document.createElement('span'); imageViewport.className = 'globe-photo-viewport';
       imageViewport.append(img); button.append(imageViewport, placeholder, tooltip);
@@ -224,10 +238,17 @@ function cullMovingMarkers(entries, options) {
   // One inherited size updates every old and newly inserted photo atomically,
   // even when React layout and the globe renderer run in different frames.
   if (options.photoSize && options.sizeRoot) {
-    options.sizeRoot.style.setProperty('--beer-photo-width', `${options.photoSize.photoWidth}px`);
-    options.sizeRoot.style.setProperty('--beer-photo-height', `${options.photoSize.photoHeight}px`);
+    const signature=`${options.photoSize.photoWidth},${options.photoSize.photoHeight}`;
+    if(options.sizeRoot._photoSizeSignature!==signature){
+      options.sizeRoot._photoSizeSignature=signature;
+      options.sizeRoot.style.setProperty('--beer-photo-width', `${options.photoSize.photoWidth}px`);
+      options.sizeRoot.style.setProperty('--beer-photo-height', `${options.photoSize.photoHeight}px`);
+    }
   }
-  let awaitingReveal = false;
+  // Network completion wakes this pass through img.onload. Only the existing
+  // safety hold needs a scheduled retry, at its actual deadline.
+  let nextRevealAt = null;
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const now = performance.now();
   entries.sort((a, b) => Number(b.element.dataset.selected === 'true') - Number(a.element.dataset.selected === 'true')
     || a.element.dataset.markerId.localeCompare(b.element.dataset.markerId));
@@ -238,23 +259,26 @@ function cullMovingMarkers(entries, options) {
       && rect.bottom <= options.height - options.bottomMargin
       // Match the placement pass: a bottle may overhang the coast, but its
       // actual frame must still touch land while following its map anchor.
-      && (!photograph || photoTouchesLand(options.landMask, rect))
-      && !options.obstacles.some(overlaps) && occupied.canPlace(rect);
-    if (visible) occupied.add(rect);
+      && (!photograph || options.moving || photoTouchesLand(options.landMask, rect))
+      && !options.obstacles.some(overlaps) && (options.moving || occupied.canPlace(rect));
+    if (visible && !options.moving) occupied.add(rect);
     return visible;
   };
   const visibility = (node, visible, photograph = false) => {
     if (!node) return false;
     if (photograph) {
-      if (!visible && node._everVisible) node._revealAfter = now + 700;
-      if (visible && now < (node._revealAfter || 0)) {
-        visible = false; awaitingReveal = true;
+      // During motion the already-approved geographic anchor follows the globe.
+      // Repeated coastal / overlap failures must not restart a 700 ms blackout.
+      if(options.moving) node._revealAfter=0;
+      else if (!visible && node._wasVisible) node._revealAfter = now + 700;
+      if (visible && !options.moving && now < (node._revealAfter || 0)) {
+        visible = false;
+        nextRevealAt = Math.min(nextRevealAt ?? Infinity, node._revealAfter);
       }
       if (visible && node.dataset.imageState !== 'ready') {
-        if (node.dataset.imageState === 'loading') awaitingReveal = true;
         visible = false;
       }
-      if (visible && !node._everVisible && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      if (visible && !node._everVisible && !reducedMotion) {
         node.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 220, easing: 'ease-out' });
       }
       node._wasVisible = visible;
@@ -262,9 +286,12 @@ function cullMovingMarkers(entries, options) {
       if (visible) node._hiddenSince = null;
       else node._hiddenSince ??= now;
     }
-    node.style.visibility = visible ? 'visible' : 'hidden';
-    node.setAttribute('aria-hidden', String(!visible));
-    node.tabIndex = visible ? 0 : -1;
+    if(node._lastVisibility!==visible){
+      node._lastVisibility=visible;
+      node.style.visibility = visible ? 'visible' : 'hidden';
+      node.setAttribute('aria-hidden', String(!visible));
+      node.tabIndex = visible ? 0 : -1;
+    }
     return visible;
   };
   const frames = entries.map(entry => {
@@ -274,18 +301,21 @@ function cullMovingMarkers(entries, options) {
     if (options.globe) element.style.transform = `translate(-50%, -50%) translate(${x}px, ${y}px)`;
     return { ...entry, centerX, centerY, anyVisible: false, visiblePhotos: 0 };
   });
+  const expandable=[];
   for (const frame of frames) {
     const { element, centerX, centerY, sourceScreens, photoScreens } = frame;
-    element.querySelectorAll('.globe-bottle').forEach((button, index) => {
-      const photo = button._photo, source = photo && sourceScreens?.find(point => point.id === photo.beer.id);
+    const sourcesById = new Map((sourceScreens || []).map(point => [point.id, point]));
+    const photosById = new Map((photoScreens || []).map(point => [point.id, point]));
+    element.querySelectorAll('.globe-bottle').forEach(button => {
+      const photo = button._photo, source = photo && sourcesById.get(photo.beer.id);
       if (!photo) return;
-      const projected = photoScreens?.find(point => point.id === photo.beer.id);
+      const projected = photosById.get(photo.beer.id);
       const x = projected?.x ?? centerX + photo.x, y = projected?.y ?? centerY + photo.y;
       const dimensions = options.photoSize;
-      const height = dimensions?.photoHeight ?? photo.height, width = dimensions?.photoWidth ?? photo.width;
+      const scale=options.moving?Number(button.dataset.displayScale||1):1;
+      const height = (dimensions?.photoHeight ?? photo.height)*scale, width = (dimensions?.photoWidth ?? photo.width)*scale;
       const marker = element._marker;
-      Object.assign(button.style, { left: `${marker.markerWidth / 2 + x - centerX - width / 2}px`,
-        top: `${marker.markerHeight / 2 + y - centerY - height / 2}px` });
+      button.style.transform=`translate3d(${marker.markerWidth / 2 + x - centerX - width / 2}px,${marker.markerHeight / 2 + y - centerY - height / 2}px,0)`;
       if (source) {
         button.dataset.sourceScreenX = String(source.x); button.dataset.sourceScreenY = String(source.y);
         button.dataset.displayOffsetX = String(x - source.x);
@@ -293,7 +323,11 @@ function cullMovingMarkers(entries, options) {
       }
       let visible = projected?.visible !== false && reserve({ left: x - width / 2, right: x + width / 2,
         top: y - height / 2, bottom: y + height / 2 }, true);
+      button._positionVisible=visible;
+      if(visible&&!options.moving)expandable.push({id:photo.beer.id,x,y,width,height,
+        targetScale:options.sparsePhotoScales?.get(photo.sourceId)||1,button,frame});
       visible = visibility(button, visible, true);
+      button._screenRect = {left:x-width/2,right:x+width/2,top:y-height/2,bottom:y+height/2};
       frame.anyVisible ||= visible;
       if (visible) frame.visiblePhotos++;
     });
@@ -304,7 +338,21 @@ function cullMovingMarkers(entries, options) {
     element.setAttribute('aria-hidden', String(!frame.anyVisible));
     element.dataset.visiblePhotoCount = String(frame.visiblePhotos);
   }
-  return awaitingReveal;
+  if(!options.moving){
+    const fitted=fitSparsePhotoFrames(expandable,{acceptRect:rect=>rect.left>=options.leftMargin
+      &&rect.right<=options.width-options.rightMargin&&rect.top>=options.topMargin&&rect.bottom<=options.height-options.bottomMargin
+      &&!options.obstacles.some(box=>rect.left<box.right&&rect.right>box.left&&rect.top<box.bottom&&rect.bottom>box.top)
+      &&photoTouchesLand(options.landMask,rect)});
+    for(const {id,button,frame} of expandable){
+      const result=fitted.get(id),rect=result.rect,marker=frame.element._marker;
+      if(button.dataset.displayScale!==String(result.scale)){
+        button.dataset.displayScale=String(result.scale);button.style.setProperty('--beer-photo-scale',String(result.scale));
+      }
+      button._screenRect=rect;
+      button.style.transform=`translate3d(${marker.markerWidth/2+rect.left-frame.centerX}px,${marker.markerHeight/2+rect.top-frame.centerY}px,0)`;
+    }
+  }
+  return nextRevealAt;
 }
 
 function polygonRings(feature) {
@@ -379,7 +427,12 @@ function makeEarthTexture(features) {
       if ((x * 17 + y * 31) % 19 < 7) context.fillRect(x, y, 0.65, 0.65);
     }
   }
-  return canvas.toDataURL('image/png');
+  // Preserve every texture pixel while keeping PNG encoding off the main
+  // thread and avoiding a multi-megabyte base64 string.
+  return new Promise((resolve, reject) => canvas.toBlob(blob => {
+    if (blob) resolve(URL.createObjectURL(blob));
+    else reject(new Error('Map texture unavailable'));
+  }, 'image/png'));
 }
 
 function hasWebGL() {
@@ -402,8 +455,12 @@ function homeAltitude(width, height) {
   return Math.max(1.5, Math.min(4.8, Math.sqrt(1 + 1 / (diameterRatio * Math.tan(25 * Math.PI / 180)) ** 2) - 1)) * 0.76;
 }
 
-function FlatMap({ features, geographicLand, places, beersByBrewery, photoIdentityIndex, selectedBreweryId, selectedBeerId, onSelect, onBeerSelect, width = 1000, height = 500, focusRequest, zoomRequest, resetRequest, wrapperRef }) {
+function FlatMap({ features, geographicLand, places, beersByBrewery, photoIdentityIndex, selectedBreweryId, selectedBeerId, onSelect, onBeerSelect, width = 1000, height = 500, focusRequest, zoomRequest, resetRequest, wrapperRef, ingredientRegions=[],onIngredientSelect,ingredientFocus,selectedCountry='all',onCountrySelect,bottlesVisible=true }) {
   const markerLayer = useRef(null);
+  const tapTracker=useRef(createMapTapTracker());
+  const lastDeliberateFocus=useRef(null);
+  const countryAt=useMemo(()=>createCountryPicker(features),[features]);
+  const ingredientElements = useRef(new Map());
   const photoCache = useRef(new Map());
   const photoAnchors = useRef(new Map());
   const anchorContext = useRef(null);
@@ -421,6 +478,7 @@ function FlatMap({ features, geographicLand, places, beersByBrewery, photoIdenti
     return () => { window.clearTimeout(timer); window.clearTimeout(reentry); };
   }, [view]);
   const viewRef = useRef(view); viewRef.current = view;
+  useEffect(()=>{if(ingredientFocus){if(viewAnimation.current)cancelAnimationFrame(viewAnimation.current);viewAnimation.current=null;drag.current=null;setView({lat:ingredientFocus.lat,lng:ingredientFocus.lng,zoom:3});}},[ingredientFocus]);
   useEffect(() => {
     // Overlay geometry is only final after React commits the detail panel.
     // Re-evaluate free space at the same view, retaining safe photo anchors.
@@ -465,13 +523,14 @@ function FlatMap({ features, geographicLand, places, beersByBrewery, photoIdenti
     wrapperRef.current._projectGeo = projectGeo;
   } }, [landMask, wrapperRef, projectGeo]);
   const featurePaths = useMemo(() => features.map(feature => ({
-    name: feature.properties.name,
+    name: feature.properties.name,country:featureCountry(feature),
     path: polygonRings(feature).map(polygon => polygon.map(ring => ring.map((coordinate, index) => {
       const [x, y] = project(coordinate, 1000, 500);
       return `${index ? 'L' : 'M'}${x.toFixed(4)},${y.toFixed(4)}`;
     }).join(' ') + 'Z').join(' ')).join(' '),
   })), [features]);
   const markers = useMemo(() => {
+    if(!geographicLand)return [];
     const context = [places, mapWidth, mapHeight];
     if (anchorContext.current?.some((value, index) => value !== context[index])) photoAnchors.current.clear();
     anchorContext.current = context;
@@ -499,7 +558,8 @@ function FlatMap({ features, geographicLand, places, beersByBrewery, photoIdenti
   }, [places, layoutView, mapWidth, mapHeight, selectedBreweryId, wrapperRef, geographicLand]);
   useEffect(() => {
     const selected = places.find(place => place.id === selectedBreweryId);
-    if (selected) animateView({ lat: selected.lat, lng: selected.lng, zoom: Math.max(4, viewRef.current.zoom) }, true);
+    const intent=JSON.stringify([selectedBreweryId,focusRequest]);
+    if(selected&&lastDeliberateFocus.current!==intent){lastDeliberateFocus.current=intent;animateView({ lat: selected.lat, lng: selected.lng, zoom: Math.max(4, viewRef.current.zoom) }, true);}
   }, [selectedBreweryId, focusRequest, places]);
   useEffect(() => {
     const delta = zoomRequest - previousZoom.current; previousZoom.current = zoomRequest;
@@ -515,9 +575,21 @@ function FlatMap({ features, geographicLand, places, beersByBrewery, photoIdenti
     const ids = new Set(markers.map(marker => marker.id));
     for (const [id, element] of elements.current) if (!ids.has(id)) { element.remove(); elements.current.delete(id); }
     const frames = [];
+    let timer, imageFrame = null;
+    const settle = () => {
+      window.clearTimeout(timer);
+      const nextRevealAt = cullMovingMarkers(frames, { ...layoutOptions(wrapperRef.current, mapWidth, mapHeight, view.zoom, selectedBreweryId), landMask,
+        photoSize: photoDimensions({ zoom: view.zoom, compact: width < 600 }) });
+      cullIngredientMarkers(wrapperRef.current,ingredientElements.current,projectGeo);
+      if (nextRevealAt !== null) timer = window.setTimeout(settle, Math.max(0, nextRevealAt - performance.now()));
+    };
+    const imageStateChanged = () => {
+      if (imageFrame !== null) return;
+      imageFrame = requestAnimationFrame(() => { imageFrame = null; settle(); });
+    };
     for (const marker of markers) {
       const element = createBottleMarker(marker, {
-        selectedBreweryId, selectedBeerId, onSelect, onBeerSelect, photoIdentityIndex,
+        selectedBreweryId, selectedBeerId, onSelect, onBeerSelect, photoIdentityIndex, onImageStateChange: imageStateChanged,
       }, elements.current.get(marker.id), photoCache.current);
       const projected = projectGeo(marker.lat, marker.lng);
       Object.assign(element.style, { position: 'absolute', left: projected.x + 'px', top: projected.y + 'px' });
@@ -529,34 +601,49 @@ function FlatMap({ features, geographicLand, places, beersByBrewery, photoIdenti
         photoScreens: marker.photos.map(photo => ({ id: photo.beer.id, ...projectGeo(photo.displayLat, photo.displayLng) })) });
     }
     if (wrapperRef.current) wrapperRef.current.dataset.layoutRevision = String(++layoutRevision.current);
-    let timer;
-    const settle = () => {
-      if (cullMovingMarkers(frames, { ...layoutOptions(wrapperRef.current, mapWidth, mapHeight, view.zoom, selectedBreweryId), landMask,
-        photoSize: photoDimensions({ zoom: view.zoom, compact: width < 600 }) })) {
-        timer = window.setTimeout(settle, 60);
+    settle();
+    return () => {
+      window.clearTimeout(timer);
+      if (imageFrame !== null) cancelAnimationFrame(imageFrame);
+      for (const button of photoCache.current.values()) {
+        if (button._onImageStateChange === imageStateChanged) button._onImageStateChange = null;
       }
     };
-    settle();
-    return () => window.clearTimeout(timer);
   }, [markers, beersByBrewery, selectedBreweryId, selectedBeerId, onSelect, onBeerSelect, centerX, centerY, span, viewHeight, mapWidth, mapHeight, landMask]);
+  useLayoutEffect(()=>{cullIngredientMarkers(wrapperRef.current,ingredientElements.current,projectGeo);},[ingredientRegions,onIngredientSelect,view,width,height,bottlesVisible]);
   return <div className="globe-flat-map" style={{ position: 'absolute', inset: 0, overflow: 'hidden', touchAction: 'none', cursor: 'grab' }}
     onPointerDown={event => {
-      if (event.target.closest('button')) return;
+      if (!isCountrySurfaceEvent(event)) return;
+      tapTracker.current.start(event.pointerId,event.clientX,event.clientY);
+      if(drag.current)return;
       if (viewAnimation.current) cancelAnimationFrame(viewAnimation.current);
-      drag.current = { x: event.clientX, y: event.clientY, view };
+      drag.current = { pointerId:event.pointerId,x: event.clientX, y: event.clientY, view };
       event.currentTarget.setPointerCapture(event.pointerId);
     }}
     onPointerMove={event => {
-      if (!drag.current) return;
+      if (!drag.current||drag.current.pointerId!==event.pointerId) return;
+      tapTracker.current.move(event.pointerId,event.clientX,event.clientY);
       const start = drag.current;
       setView({ ...start.view, lng: Math.max(-180, Math.min(180, start.view.lng - (event.clientX - start.x) / mapWidth * 360 / start.view.zoom)),
         lat: Math.max(-85, Math.min(85, start.view.lat + (event.clientY - start.y) / mapWidth * 360 / start.view.zoom)) });
-    }} onPointerUp={() => { drag.current = null; }} onPointerCancel={() => { drag.current = null; }}>
+    }} onPointerUp={event => {
+      const isTap=tapTracker.current.end(event.pointerId,event.clientX,event.clientY);
+      if(drag.current?.pointerId===event.pointerId)drag.current=null;
+      if(!isTap||event.button!==0||!isCountrySurfaceEvent(event))return;
+      const bounds=wrapperRef.current.getBoundingClientRect(),point=liveUnproject(event.clientX-bounds.left,event.clientY-bounds.top);
+      if(!point)return;
+      const feature=countryAt(point.lat,point.lng);
+      onCountrySelect?.(feature?{country:featureCountry(feature),name:feature.properties.name}:null);
+    }} onPointerCancel={() => { drag.current = null;tapTracker.current.cancel(); }}>
     <svg viewBox={viewBox} aria-label="世界精酿酒厂平面地图" role="img" style={{ width: '100%', height: '100%' }}>
       <rect x="-1000" y="-1000" width="3000" height="2500" fill={OCEAN} />
-      {featurePaths.map((feature, index) => <path key={`${feature.name}-${index}`} d={feature.path} fill="#213e39" stroke="#587164" strokeWidth={0.5 / view.zoom} fillRule="evenodd" />)}
+      {featurePaths.map((feature, index) => <path key={`${feature.name}-${index}`} d={feature.path} data-country={feature.country} data-selected={selectedCountry!=='all'&&matchesCountrySelection(selectedCountry,feature.country)} fill="#213e39" stroke="#587164" strokeWidth={.5 / view.zoom} fillRule="evenodd" />)}
+      <g key={selectedCountry} className="country-outline-flat" data-country-outline={selectedCountry}>
+        {COUNTRY_OUTLINE_BANDS.map((band,bandIndex)=>featurePaths.filter(feature=>selectedCountry!=='all'&&matchesCountrySelection(selectedCountry,feature.country)).map((feature,index)=><path key={`${bandIndex}-${index}`} d={feature.path} fill="none" stroke={`#${band.color.toString(16)}`} strokeOpacity={band.opacity} strokeWidth={band.width} vectorEffect="non-scaling-stroke" strokeLinecap="round" strokeLinejoin="round"/>))}
+      </g>
     </svg>
     <div ref={markerLayer} style={{ position: 'absolute', inset: 0, pointerEvents: 'none' }} />
+    <div className="ingredient-flat-layer" style={{position:'absolute',inset:0,pointerEvents:'none'}}>{ingredientRegions.map(region=>{const point=projectGeo(region.lat,region.lng);return <div key={region.id} ref={node=>{if(node){createIngredientMarker(region,onIngredientSelect,node);ingredientElements.current.set(region.id,node);}else ingredientElements.current.delete(region.id);}} style={{position:'absolute',left:point.x,top:point.y,transform:'translate(-50%,-50%)'}}/>;})}</div>
     <span style={{ position: 'absolute', bottom: 10, left: 12, color: '#b5c7b8', fontSize: 11, pointerEvents: 'none' }}>酒图就近展开 · 点击酒瓶查看详情</span>
   </div>;
 }
@@ -564,6 +651,7 @@ function FlatMap({ features, geographicLand, places, beersByBrewery, photoIdenti
 class GlobeBoundary extends Component {
   state = { failed: false };
   static getDerivedStateFromError() { return { failed: true }; }
+  componentDidCatch() { this.props.onFailure?.(); }
   render() { return this.state.failed ? this.props.fallback : this.props.children; }
 }
 
@@ -571,47 +659,92 @@ export default function GlobeView({
   breweries = [], selectedBreweryId, onSelect, autoRotate = true,
   focusRequest = 0, zoomRequest = 0, resetRequest = 0, onReady,
   beers = [], selectedBeerId, onBeerSelect, searchActive = false, photoIdentityIndex,
+  ingredientRegions = [], onIngredientSelect, ingredientFocus, ingredientPanelOpen=false,
+  selectedCountry='all',onCountrySelect,bottlesVisible=true,sparsePhotoScales,
 }) {
   const wrapperRef = useRef(null);
   const globeRef = useRef(null);
   const stateRef = useRef({ autoRotate, onReady });
-  stateRef.current = { autoRotate, onReady, selectedBreweryId, selectedBeerId, onSelect, onBeerSelect, photoIdentityIndex };
+  stateRef.current = { autoRotate, onReady, selectedBreweryId, selectedBeerId, onSelect, onBeerSelect, photoIdentityIndex, onIngredientSelect,onCountrySelect,ingredientRegions,bottlesVisible };
   const selectBrewery = useCallback(brewery => stateRef.current.onSelect?.(brewery), []);
   const selectBeer = useCallback(beer => stateRef.current.onBeerSelect?.(beer), []);
   const [size, setSize] = useState({ width: 0, height: 0 });
   const [features, setFeatures] = useState([]);
-  const geographicLand = useMemo(() => features.length ? createGeographicLandMask(features,
-    { width: 8192, height: 4096, coastMargin: 0 }) : null, [features]);
+  const [fineFeatures, setFineFeatures] = useState([]);
+  const [bundledLand,setBundledLand]=useState(null);
+  const [bundledLandFailed,setBundledLandFailed]=useState(false);
+  const countryAt=useMemo(()=>createCountryPicker(features),[features]);
+  const highlightedCountries=useMemo(()=>selectedCountry==='all'?[]:features.filter(feature=>matchesCountrySelection(selectedCountry,featureCountry(feature))),[features,selectedCountry]);
+  const selectCountryFeature=useCallback((feature,event)=>{if(!isCountrySurfaceEvent(event))return;userDragged.current=true;stateRef.current.onCountrySelect?.(feature?{country:featureCountry(feature),name:feature.properties.name}:null);},[]);
+  const pickCountry=useCallback((point,event)=>{
+    if(!isCountrySurfaceEvent(event))return;
+    const globe=globeRef.current;
+    const hit=globe&&ingredientAtPointer({event,rect:globe.renderer().domElement.getBoundingClientRect(),camera:globe.camera(),
+      adapters:[...ingredientGardens.current.values()].map(entry=>entry.adapter),globeRadius:globe.getGlobeRadius()});
+    const region=hit&&stateRef.current.ingredientRegions.find(item=>item.id===hit);
+    if(region){consumeIngredientEvent(event);stateRef.current.onIngredientSelect?.(region);return;}
+    selectCountryFeature(countryAt(point.lat,point.lng),event);
+  },[countryAt,selectCountryFeature]);
+  const geographicLand = useMemo(() => bundledLand || (bundledLandFailed && fineFeatures.length ? createGeographicLandMask(fineFeatures,
+    { width: 8192, height: 4096, coastMargin: 0 }) : null), [bundledLand,bundledLandFailed,fineFeatures]);
   const geographicLandRef = useRef(null);
   geographicLandRef.current = geographicLand;
   const landGuardRef = useRef(null);
   const [texture, setTexture] = useState(null);
   const [ready, setReady] = useState(false);
+  const [placementReady,setPlacementReady]=useState(false);
+  const initialPlacementTimer=useRef(null);
   const [failed, setFailed] = useState(false);
   const [mapError, setMapError] = useState(false);
   const [webGL] = useState(hasWebGL);
   const [camera, setCamera] = useState({ ...HOME_VIEW, altitude: 2.5 });
-  const cameraTimer = useRef(null);
-  const pendingCamera = useRef(camera);
+  const lastCameraMovement = useRef(-Infinity);
+  const placementScheduler = useRef(null);
+  if(!placementScheduler.current)placementScheduler.current=createCameraLayoutScheduler({
+    onLayout:()=>{if(globeRef.current)setCamera({...globeRef.current.pointOfView()});},
+    onReentry:()=>{if(globeRef.current)setCamera({...globeRef.current.pointOfView()});},
+  });
+  useEffect(()=>{placementScheduler.current.setEnabled(bottlesVisible);},[bottlesVisible]);
   const globeMaterial = useMemo(() => new MeshPhongMaterial({
-    color: '#ffffff', shininess: 4, specular: '#244c45',
-    emissive: '#132c2c', emissiveIntensity: 0.32,
+    color: '#ffffff', shininess: 4, specular: '#363c43',
+    emissive: '#242424', emissiveIntensity: 0.18,
   }), []);
+  const terminator = useMemo(()=>createGlobeTerminator({material:globeMaterial,nightBrightness:.48}),[globeMaterial]);
+  const sunLightRef=useRef(null);
+  useEffect(()=>()=>terminator.dispose(),[terminator]);
   const previousZoom = useRef(zoomRequest);
   const previousReset = useRef(resetRequest);
   const reducedMotion = useRef(typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
   const userDragged = useRef(false);
+  useEffect(()=>{
+    const globe=globeRef.current;
+    if(!ready||!globe||!webGL||failed||!highlightedCountries.length)return;
+    const outline=createCountryOutline(highlightedCountries,(lat,lng,altitude)=>globe.getCoords(lat,lng,altitude),{reducedMotion:reducedMotion.current});
+    globe.scene().add(outline);
+    if(wrapperRef.current)wrapperRef.current._countryOutline=outline;
+    return()=>{globe.scene().remove(outline);outline.userData.dispose();if(wrapperRef.current?._countryOutline===outline)delete wrapperRef.current._countryOutline;};
+  },[highlightedCountries,ready,webGL,failed]);
   const previousAutoRotate = useRef(autoRotate);
   const previousDetailBeer = useRef(selectedBeerId);
+  const lastDeliberateFocus = useRef(null);
   const fallbackReady = useRef(false);
   const markerElements = useRef(new Map());
+  const arrivalLayer = useRef(null);
+  const arrivalElements = useRef(new Map());
+  const arrivalState = useRef({places:[],nextAt:0});
+  const prefetchRef=useRef(null);
+  if(!prefetchRef.current)prefetchRef.current=createPhotoPrefetcher();
+  const nextPrefetch=useRef(0);
+  useEffect(()=>{if(!bottlesVisible)prefetchRef.current.setEnabled(false);},[bottlesVisible]);
+  const ingredientGardens = useRef(new Map());
   const markerData = useRef(new Map());
+  const ingredientMarkerData = useRef(new Map());
   const photoCache = useRef(new Map());
   const photoAnchors = useRef(new Map());
   const anchorContext = useRef(null);
   const layoutRevision = useRef(0);
-  const reentryTimer = useRef(null);
   const layoutFrame = useRef(null);
+  const revealTimer = useRef(null);
   const sizeRef = useRef(size);
   sizeRef.current = size;
 
@@ -630,11 +763,23 @@ export default function GlobeView({
   const places = useMemo(() => points.filter(brewery => !beers.length || beersByBrewery.has(brewery.id)).map(brewery => ({
     id: brewery.id, kind: 'brewery', lat: brewery.lat, lng: brewery.lng, brewery,
     beerCount: (beersByBrewery.get(brewery.id) || []).length,
-    photoBeers: (beersByBrewery.get(brewery.id) || []).filter(beer => visiblePhotoIds.has(beer.id)),
-  })), [points, beers.length, beersByBrewery, visiblePhotoIds]);
+    photoBeers: (beersByBrewery.get(brewery.id) || []).filter(beer => visiblePhotoIds.has(beer.id)).sort(compareBeerPhotoRank),
+  })).sort((a,b)=>compareBeerPhotoRank(a.photoBeers[0],b.photoBeers[0])||a.id.localeCompare(b.id)), [points, beers.length, beersByBrewery, visiblePhotoIds]);
+  arrivalState.current.places=places;
+  arrivalState.current.initialPlacementPending=!placementReady;
+  arrivalState.current.sparsePhotoScales=sparsePhotoScales;
+  useLayoutEffect(()=>{
+    for(const element of arrivalElements.current.values())element.remove();
+    arrivalElements.current.clear();arrivalState.current.nextAt=0;arrivalState.current.cursor=0;
+  },[places,size.width,size.height]);
+  const retainedMapMarkers=useRef([]);
   const mapMarkers = useMemo(() => {
+    if(!bottlesVisible)return retainedMapMarkers.current;
     const globe = globeRef.current;
-    if (!ready || !globe) return [];
+    if (!ready || !globe || !geographicLand || !places.length) return [];
+    // First show a few real brewery-anchor photos through the same lightweight
+    // admission path as rotation. The full spatial fill follows after paint.
+    if(!placementReady)return retainedMapMarkers.current;
     const context = [places, size.width, size.height];
     if (anchorContext.current?.some((value, index) => value !== context[index])) photoAnchors.current.clear();
     anchorContext.current = context;
@@ -660,7 +805,7 @@ export default function GlobeView({
       2.5 / Math.max(0.08, currentView.altitude), selectedBreweryId), photoZoomBase: 2.5 / homeAltitude(size.width, size.height), landMask,
       previousPlacements,
       preservePrevious: true, relocatablePhotoIds: hiddenPhotosEligibleForReentry(photoAnchors.current, photoCache.current) }).markers;
-    return attachPhotoAnchors(laidOut, photoAnchors.current, (x, y) => landMask?.geographicAt(x, y), 2.5 / Math.max(0.08, currentView.altitude)).map(marker => {
+    const nextMarkers=attachPhotoAnchors(laidOut, photoAnchors.current, (x, y) => landMask?.geographicAt(x, y), 2.5 / Math.max(0.08, currentView.altitude)).map(marker => {
         // three-globe identifies data by object identity, not by the id field.
         // Retain that identity so updating layout does not destroy its CSS2D node.
         const stable = markerData.current.get(marker.id) || {};
@@ -668,18 +813,26 @@ export default function GlobeView({
         markerData.current.set(marker.id, stable);
         return stable;
       });
-  }, [places, camera, size.width, size.height, ready, selectedBreweryId, geographicLand]);
+    retainedMapMarkers.current=nextMarkers;return nextMarkers;
+  }, [places, camera, size.width, size.height, ready, selectedBreweryId, geographicLand,bottlesVisible,placementReady]);
 
   const requestMarkerLayout = useCallback(() => {
     if (layoutFrame.current !== null) return;
     layoutFrame.current = window.requestAnimationFrame(() => {
       layoutFrame.current = null;
+      if(!stateRef.current.bottlesVisible)return;
       const globe = globeRef.current;
       if (!globe) return;
       globe.camera().updateMatrixWorld();
       const entries = [];
+      const sourceScreens = new Map();
+      const projectSource = photo => {
+        const key = `${photo.sourceLat},${photo.sourceLng}`;
+        if (!sourceScreens.has(key)) sourceScreens.set(key, globe.getScreenCoords(photo.sourceLat, photo.sourceLng, MARKER_ALTITUDE));
+        return sourceScreens.get(key);
+      };
       let waitingForDOM = false;
-      for (const element of markerElements.current.values()) {
+      for (const element of [...markerElements.current.values(),...arrivalElements.current.values()]) {
         // CSS2D attaches its nodes on a later render frame. Keep the reference
         // until then; deleting it here leaves first-load markers overlapping.
         if (!element.isConnected) {
@@ -690,7 +843,7 @@ export default function GlobeView({
         const marker = element._marker;
         const screen = globe.getScreenCoords(marker.lat, marker.lng, MARKER_ALTITUDE);
         entries.push({ element, x: screen.x, y: screen.y,
-          sourceScreens: marker.photos.map(photo => ({id: photo.beer.id, ...globe.getScreenCoords(photo.sourceLat, photo.sourceLng, MARKER_ALTITUDE)})),
+          sourceScreens: marker.photos.map(photo => ({id: photo.beer.id, ...projectSource(photo)})),
           photoScreens: marker.photos.map(photo => ({id: photo.beer.id, ...globePhotoProjection(globe, photo.displayLat, photo.displayLng)})) });
       }
       // Existing photos follow their geographic anchors every frame; the
@@ -707,12 +860,76 @@ export default function GlobeView({
       const zoom = 2.5 / Math.max(0.08, globe.pointOfView().altitude);
       if (wrapperRef.current) {
         wrapperRef.current._landMask = landMask;
-        wrapperRef.current._projectGeo = (lat, lng) => { globe.camera().updateMatrixWorld(); return globePhotoProjection(globe, lat, lng); };
+        wrapperRef.current._projectGeo = (lat, lng, altitude=0) => { globe.camera().updateMatrixWorld(); return globePhotoProjection(globe, lat, lng, altitude); };
         wrapperRef.current.dataset.zoomScale = String(zoom);
       }
-      const awaitingReveal = cullMovingMarkers(entries, { ...layoutOptions(wrapperRef.current, width, height, zoom), landMask, globe: true,
-        photoSize: photoDimensions({ zoom, photoZoomBase: 2.5 / homeAltitude(width, height), compact: width < 600 }) });
-      if (waitingForDOM || awaitingReveal) requestMarkerLayout();
+      const moving=performance.now()-lastCameraMovement.current<220;
+      if(wrapperRef.current)wrapperRef.current.dataset.cameraMoving=String(moving);
+      const options={...layoutOptions(wrapperRef.current,width,height,zoom),landMask,globe:true,moving,sparsePhotoScales:arrivalState.current.sparsePhotoScales,
+        photoSize:photoDimensions({zoom,photoZoomBase:2.5/homeAltitude(width,height),compact:width<600})};
+      const nextRevealAt = cullMovingMarkers(entries, options);
+
+      if(arrivalState.current.initialPlacementPending&&!arrivalState.current.initialPaintScheduled&&entries.some(({element})=>element._visible)){
+        arrivalState.current.initialPaintScheduled=true;
+        window.clearTimeout(initialPlacementTimer.current);
+        initialPlacementTimer.current=window.setTimeout(()=>setPlacementReady(true),120);
+      }
+
+      // A never-visited hemisphere must not wait for OrbitControls damping and
+      // the full settled raster/layout before it can even request a photograph.
+      const now=performance.now();
+      if(now>=nextPrefetch.current&&[...photoCache.current.values()].some(button=>button.dataset.imageState==='ready')){
+        nextPrefetch.current=now+400;
+        const view=globe.pointOfView(),a=view.lat*RADIANS,threshold=1/(1+Math.max(.08,view.altitude))-.18;
+        const nearby=arrivalState.current.places.map(place=>({place,facing:Math.sin(a)*Math.sin(place.lat*RADIANS)
+          +Math.cos(a)*Math.cos(place.lat*RADIANS)*Math.cos((place.lng-view.lng)*RADIANS)}))
+          .filter(item=>item.facing>=threshold).sort((a,b)=>b.facing-a.facing);
+        const candidates=[];
+        for(let rank=0;rank<3;rank++)for(const {place} of nearby){
+          const beer=place.photoBeers[rank];
+          if(beer&&!photoCache.current.get(beer.id)?.isConnected)candidates.push(beer);
+        }
+        prefetchRef.current.markLoaded([...photoCache.current.values()].filter(button=>button.dataset.imageState==='ready').map(button=>button._photo.beer));
+        prefetchRef.current.update(candidates);prefetchRef.current.setEnabled(true);
+      }
+      if((moving||arrivalState.current.initialPlacementPending)&&landMask&&geographicLandRef.current&&arrivalLayer.current&&now>=arrivalState.current.nextAt){
+        arrivalState.current.nextAt=now+80;
+        const attachedIds=new Set(),occupiedRects=[];
+        for(const {element} of entries)for(const button of element.querySelectorAll('.globe-bottle')){
+          attachedIds.add(button.dataset.beerId);
+          if(button._positionVisible&&button._screenRect)occupiedRects.push(button._screenRect);
+        }
+        const admitted=admitArrivingPhotos({...options,places:arrivalState.current.places,
+          anchors:photoAnchors.current,attachedIds,occupiedRects,geographicLand:geographicLandRef.current,
+          project:(lat,lng)=>globePhotoProjection(globe,lat,lng),limit:6,budgetMs:3,
+          cursor:arrivalState.current.cursor||0,onCursor:cursor=>{arrivalState.current.cursor=cursor;}});
+        for(const {beer,place,anchor,point,source} of admitted){
+          const w=options.photoSize.photoWidth,h=options.photoSize.photoHeight;
+          const photo={beer,brewery:place.brewery,sourceId:place.id,sourceLat:place.lat,sourceLng:place.lng,
+            sourceX:source.x,sourceY:source.y,displayLat:anchor.lat,displayLng:anchor.lng,
+            displayOffsetX:point.x-source.x,displayOffsetY:point.y-source.y,x:0,y:0,width:w,height:h,scale:1,
+            maxDisplayDistance:anchor.reach,placementRetained:photoAnchors.current.has(beer.id)};
+          photoAnchors.current.set(beer.id,{...anchor,zoom:anchor.zoom||zoom});
+          const marker={...place,id:`arrival:${beer.id}`,anchorId:place.id,members:[place],photos:[photo],
+            x:source.x,y:source.y,displayOffsetX:point.x-source.x,displayOffsetY:point.y-source.y,
+            markerWidth:w,markerHeight:h,availablePhotoCount:place.photoBeers.length};
+          const element=createBottleMarker(marker,{...stateRef.current,onSelect:selectBrewery,onBeerSelect:selectBeer,
+            onImageStateChange:requestMarkerLayout},undefined,photoCache.current);
+          element.style.visibility='hidden';
+          arrivalElements.current.set(beer.id,element);arrivalLayer.current.appendChild(element);
+        }
+        if(admitted.length){
+          if(wrapperRef.current)wrapperRef.current.dataset.arrivalCount=String(arrivalElements.current.size);
+          requestMarkerLayout();
+        }
+        if(arrivalState.current.initialPlacementPending&&arrivalState.current.places.length&&initialPlacementTimer.current===null)
+          initialPlacementTimer.current=window.setTimeout(()=>setPlacementReady(true),600);
+      }
+
+
+      window.clearTimeout(revealTimer.current);
+      revealTimer.current = nextRevealAt === null ? null : window.setTimeout(requestMarkerLayout, Math.max(0, nextRevealAt - performance.now()));
+      if (waitingForDOM) requestMarkerLayout();
     });
   }, []);
 
@@ -726,6 +943,11 @@ export default function GlobeView({
     if (changed) requestMarkerLayout();
   }, [requestMarkerLayout]);
 
+  useEffect(()=>{requestMarkerLayout();},[ingredientPanelOpen,requestMarkerLayout]);
+  useEffect(()=>{
+    if(ready&&ingredientFocus&&globeRef.current)globeRef.current.pointOfView({lat:ingredientFocus.lat,lng:ingredientFocus.lng,altitude:1.25},reducedMotion.current?0:700);
+  },[ingredientFocus,ready]);
+
   useLayoutEffect(() => {
     const ids = new Set(mapMarkers.map(marker => marker.id));
     for (const id of markerElements.current.keys()) if (!ids.has(id)) markerElements.current.delete(id);
@@ -733,37 +955,91 @@ export default function GlobeView({
     for (const marker of mapMarkers) {
       const element = markerElements.current.get(marker.id);
       if (!element) continue;
-      createBottleMarker(marker, {...stateRef.current, onSelect: selectBrewery, onBeerSelect: selectBeer}, element, photoCache.current);
+      createBottleMarker(marker, {...stateRef.current, onSelect: selectBrewery, onBeerSelect: selectBeer, onImageStateChange: requestMarkerLayout}, element, photoCache.current);
+    }
+    // The settled layout takes over the exact cached button and anchor. Its
+    // CSS2D parent may attach on the next frame; never destroy the photograph.
+    const claimed=new Set(mapMarkers.flatMap(marker=>marker.photos.map(photo=>photo.beer.id)));
+    for(const [id,element] of arrivalElements.current){
+      if(claimed.has(id)||!globePhotoProjection(globeRef.current,element._marker.lat,element._marker.lng).visible){
+        element.remove();arrivalElements.current.delete(id);
+      }
     }
     if (wrapperRef.current) wrapperRef.current.dataset.layoutRevision = String(++layoutRevision.current);
     requestMarkerLayout();
-  }, [mapMarkers, selectedBeerId, selectedBreweryId, size.width, size.height, ready, selectBrewery, selectBeer, requestMarkerLayout]);
+  }, [mapMarkers, places, selectedBeerId, selectedBreweryId, size.width, size.height, ready, geographicLand, selectBrewery, selectBeer, requestMarkerLayout]);
 
   useEffect(() => () => {
     if (layoutFrame.current !== null) window.cancelAnimationFrame(layoutFrame.current);
-    if (cameraTimer.current !== null) window.clearTimeout(cameraTimer.current);
-    if (reentryTimer.current !== null) window.clearTimeout(reentryTimer.current);
+    placementScheduler.current.dispose();
+    prefetchRef.current.dispose();
+    window.clearTimeout(initialPlacementTimer.current);
+    if (revealTimer.current !== null) window.clearTimeout(revealTimer.current);
+    for (const button of photoCache.current.values()) button._onImageStateChange = null;
   }, []);
 
+  const syncCelestialScene = useCallback(position => {
+    const wrapper=wrapperRef.current;
+    if(!wrapper||!position||!Number.isFinite(position.altitude))return;
+    const altitude=Math.max(.08,position.altitude);
+    const baselineAltitude=homeAltitude(sizeRef.current.width,sizeRef.current.height);
+    // Match the sphere's perspective radius at a fixed field of view. Scaling
+    // the whole system also moves each planet toward the same screen centre.
+    const scale=Math.sqrt(baselineAltitude*(baselineAltitude+2)/(altitude*(altitude+2))).toFixed(5);
+    if(wrapper.style.getPropertyValue('--celestial-system-scale')!==scale)
+      wrapper.style.setProperty('--celestial-system-scale',scale);
+    wrapper.dataset.zoomScale=String(2.5/altitude);
+    const orbitProgress=Math.max(0,Math.min(1,(.78-Number(scale))/.30)).toFixed(5);
+    if(wrapper.style.getPropertyValue('--celestial-orbit-progress')!==orbitProgress)wrapper.style.setProperty('--celestial-orbit-progress',orbitProgress);
+    const zodiacScale=(Number(scale)/minimumSkyScale(sizeRef.current.width)).toFixed(5);
+    if(wrapper.style.getPropertyValue('--celestial-zodiac-scale')!==zodiacScale)
+      wrapper.style.setProperty('--celestial-zodiac-scale',zodiacScale);
+    const radius=(sizeRef.current.height/(2*Math.tan(25*Math.PI/180)*Math.sqrt(baselineAltitude*(baselineAltitude+2)))).toFixed(1)+'px';
+    if(wrapper.style.getPropertyValue('--celestial-earth-radius')!==radius)
+      wrapper.style.setProperty('--celestial-earth-radius',radius);
+    // First reveal the remaining planets, then the more distant zodiac. A
+    // small hysteresis keeps either layer from blinking at its boundary.
+    const solar=Number(scale)<(wrapper.dataset.solarExpanded==='true'?.64:.58);
+    const expanded=Number(scale)<(wrapper.dataset.skyExpanded==='true'?.40:.36);
+    if(wrapper.dataset.solarExpanded!==String(solar))wrapper.dataset.solarExpanded=String(solar);
+    if(wrapper.dataset.skyExpanded!==String(expanded))wrapper.dataset.skyExpanded=String(expanded);
+
+  }, []);
+
+  const terrainUpgrade=useRef({pending:false,done:false,retryAfter:0,controller:null});
+  const upgradeTerrain=useCallback(position=>{
+    const globe=globeRef.current,state=terrainUpgrade.current;
+    if(!globe?.camera()||!globeMaterial.map||state.pending||state.done||performance.now()<state.retryAfter)return;
+    if(position.altitude>=homeAltitude(sizeRef.current.width,sizeRef.current.height)*.84)return;
+    const options={compact:sizeRef.current.width<650,maxTextureSize:globe.renderer().capabilities.maxTextureSize,deviceMemory:navigator.deviceMemory};
+    const detailedWidth=selectTerrainTextureWidth({...options,detailed:true});
+    if(!detailedWidth||detailedWidth<=(globeMaterial.map.image?.width||0)){state.done=true;return;}
+    state.pending=true;const controller=new AbortController();state.controller=controller;
+    makeDetailedTerrainTexture([],{...options,signal:controller.signal}).then(url=>new Promise((resolve,reject)=>{
+      new TextureLoader().load(url,next=>{
+        URL.revokeObjectURL(url);
+        if(controller.signal.aborted){next.dispose();resolve();return;}
+        next.colorSpace=SRGBColorSpace;
+        next.anisotropy=Math.min(8,globe.renderer().capabilities.getMaxAnisotropy());
+        const previous=globeMaterial.map;globeMaterial.map=next;globeMaterial.needsUpdate=true;previous?.dispose();
+        state.done=true;if(wrapperRef.current)wrapperRef.current.dataset.terrainWidth=String(detailedWidth);
+        resolve();
+      },undefined,error=>{URL.revokeObjectURL(url);reject(error);});
+    })).catch(()=>{state.retryAfter=performance.now()+30000;}).finally(()=>{state.pending=false;});
+  },[globeMaterial]);
+  useEffect(()=>()=>terrainUpgrade.current.controller?.abort(),[]);
+
   const handleCameraChange = useCallback(position => {
+    lastCameraMovement.current=performance.now();
     requestMarkerLayout();
     if (!position || !Number.isFinite(position.altitude)) return;
-    pendingCamera.current = position;
-    window.clearTimeout(reentryTimer.current);
-    reentryTimer.current = window.setTimeout(() => {
-      reentryTimer.current = null;
-      if (globeRef.current) setCamera({ ...globeRef.current.pointOfView() });
-    }, 900);
-    if (cameraTimer.current !== null) return;
-    // Add photos at most six times per second. Retained photo anchors and live
-    // dimensions follow the camera each frame without moving to a new grid.
-    cameraTimer.current = window.setTimeout(() => {
-      cameraTimer.current = null;
-      // A matching pointOfView can still be the first completed renderer frame:
-      // canvas sizing/projection and its land raster may only now be available.
-      setCamera({ ...pendingCamera.current });
-    }, 160);
-  }, [requestMarkerLayout]);
+    syncCelestialScene(position);
+    upgradeTerrain(position);
+    if(globeRef.current){terminator.updateFromCamera(globeRef.current.camera());sunLightRef.current?.position.copy(terminator.sunDirection).multiplyScalar(400);}
+    // Existing photo anchors and live coast/overlap culling still follow every
+    // frame. Full screen raster + placement runs after user motion settles.
+    placementScheduler.current.move({autoRotate:Boolean(globeRef.current?.controls().autoRotate)});
+  }, [requestMarkerLayout,syncCelestialScene,terminator,upgradeTerrain]);
 
   useEffect(() => {
     const wrapper = wrapperRef.current;
@@ -787,15 +1063,43 @@ export default function GlobeView({
 
   useEffect(() => {
     const controller = new AbortController();
-    fetch(MAP_URL, { signal: controller.signal })
-      .then(response => { if (!response.ok) throw new Error('Map unavailable'); return response.json(); })
-      .then(collection => {
-        setFeatures(collection.features);
-        setTexture(makeEarthTexture(collection.features));
-      })
-      .catch(error => { if (error.name !== 'AbortError') setMapError(true); });
-    return () => controller.abort();
+    let textureUrl = null;
+    // The small country outline and the pre-generated texture do not depend on
+    // one another. Show an interactive globe before the precise photo geometry.
+    const quickMap=loadStaticMap(QUICK_MAP_URL,{signal:controller.signal});
+    quickMap.then(collection=>{if(!controller.signal.aborted)setFeatures(current=>current.length?current:collection.features);})
+      .catch(error=>{if(error.name!=='AbortError'&&!controller.signal.aborted)setMapError(true);});
+    makeTerrainTexture([],{compact:(wrapperRef.current?.getBoundingClientRect().width||window.innerWidth)<650,signal:controller.signal})
+      .catch(async()=>makeEarthTexture((await quickMap).features))
+      .then(url=>{
+        if(controller.signal.aborted){if(url?.startsWith('blob:'))URL.revokeObjectURL(url);return;}
+        textureUrl=url;setTexture(url);
+      }).catch(error=>{if(error.name!=='AbortError'&&!controller.signal.aborted)setMapError(true);});
+    return()=>{controller.abort();if(textureUrl?.startsWith('blob:'))URL.revokeObjectURL(textureUrl);};
   }, []);
+
+  useEffect(()=>{
+    if(!ready&&webGL&&!failed)return;
+    const controller=new AbortController();
+    let fineTimer=null;
+    const upgradeCountryOutlines=()=>loadStaticMap(MAP_URL,{signal:controller.signal}).then(collection=>{
+      if(controller.signal.aborted)return;
+      setFineFeatures(collection.features);setFeatures(collection.features);
+    }).catch(error=>{if(error.name!=='AbortError'&&!controller.signal.aborted)setMapError(true);});
+    // The packed raster is bit-for-bit the same 50m geometry. It can place
+    // bottles without downloading/parsing every coastline vertex first.
+    loadBundledGeographicLand({signal:controller.signal}).then(mask=>{
+      if(controller.signal.aborted)return;
+      setBundledLand(mask);
+      // Give initial catalogue/thumbnail requests the bandwidth before the
+      // optional finer country outline; 110m remains interactive meanwhile.
+      fineTimer=window.setTimeout(upgradeCountryOutlines,2500);
+    }).catch(error=>{
+      if(error.name==='AbortError'||controller.signal.aborted)return;
+      setBundledLandFailed(true);upgradeCountryOutlines();
+    });
+    return()=>{controller.abort();window.clearTimeout(fineTimer);};
+  },[ready,webGL,failed]);
 
   const configureGlobe = useCallback(() => {
     const globe = globeRef.current;
@@ -807,33 +1111,65 @@ export default function GlobeView({
     controls.rotateSpeed = 0.6;
     controls.zoomSpeed = 0.65;
     controls.minDistance = 108;
-    controls.maxDistance = 750;
+    controls.maxDistance = (maximumSkyAltitude(homeAltitude(sizeRef.current.width,sizeRef.current.height),sizeRef.current.width)+1)*globe.getGlobeRadius();
     controls.autoRotateSpeed = 0.22;
     controls.autoRotate = stateRef.current.autoRotate && !reducedMotion.current;
     const renderer = globe.renderer();
     renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, sizeRef.current.width < 650 ? 1.6 : 2));
     renderer.setClearColor(0x000000, 0);
-    const sunlight = new DirectionalLight('#e2f1db', 2.1);
+    const sunlight = new DirectionalLight('#ffffff', 2.1);
     sunlight.position.set(-100, 160, 250);
-    const rim = new DirectionalLight('#628b91', 0.65);
+    sunLightRef.current=sunlight;
+    const rim = new DirectionalLight('#b3c2d1', 0.65);
     rim.position.set(170, -40, -120);
-    globe.lights([new AmbientLight('#d5e4da', 1.6), sunlight, rim]);
+    globe.lights([new AmbientLight('#ffffff', 1.6), sunlight, rim]);
     const home = { ...HOME_VIEW, altitude: homeAltitude(sizeRef.current.width, sizeRef.current.height) };
     globe.pointOfView(home, 0);
+    if(wrapperRef.current)wrapperRef.current.dataset.terrainWidth=String(globeMaterial.map?.image?.width||0);
+    syncCelestialScene(home);
+    terminator.updateFromCamera(globe.camera());
+    sunlight.position.copy(terminator.sunDirection).multiplyScalar(400);
     setCamera(home);
     setReady(true);
     stateRef.current.onReady?.();
-  }, []);
+  }, [syncCelestialScene,terminator]);
 
   const makeHtmlBottleMarker = useCallback(marker => {
     const element = createBottleMarker(marker, {
-      ...stateRef.current, onSelect: selectBrewery, onBeerSelect: selectBeer,
+      ...stateRef.current, onSelect: selectBrewery, onBeerSelect: selectBeer, onImageStateChange: requestMarkerLayout,
     }, undefined, photoCache.current);
     element.style.visibility = 'hidden';
     markerElements.current.set(marker.id, element);
     requestMarkerLayout();
     return element;
   }, [selectBrewery, selectBeer, requestMarkerLayout]);
+
+  const ingredientMarkers=useMemo(()=>ingredientRegions.map(region=>{const stable=ingredientMarkerData.current.get(region.id)||{};Object.assign(stable,region,{kind:'ingredient'});ingredientMarkerData.current.set(region.id,stable);return stable;}),[ingredientRegions]);
+  const makeIngredientGarden=useCallback(region=>{
+    let entry=ingredientGardens.current.get(region.id);
+    if(!entry){
+      const compact=sizeRef.current.width<650,plant=createIngredientField(region.type,{compact}),adapter=new Group();
+      adapter.rotation.x=Math.PI/2;adapter.scale.setScalar(1.5);adapter.add(plant);
+      const stats=getIngredientFieldStats(region.type,{compact});
+      entry={adapter,plant,height:stats.bounds.max[1],phase:[...region.id].reduce((sum,char)=>sum+char.charCodeAt(0),0)%31};
+      adapter.userData.regionId=region.id;adapter.userData.type=region.type;adapter.userData.triangles=stats.triangles;
+      ingredientGardens.current.set(region.id,entry);
+    }
+    return entry.adapter;
+  },[]);
+  const pickIngredient=useCallback((region,event)=>{consumeIngredientEvent(event);stateRef.current.onIngredientSelect?.(region);},[]);
+  useEffect(()=>{
+    const ids=new Set(ingredientRegions.map(region=>region.id));
+    for(const id of ingredientGardens.current.keys())if(!ids.has(id)){ingredientGardens.current.delete(id);ingredientMarkerData.current.delete(id);}
+    if(wrapperRef.current)wrapperRef.current._ingredientGardens=ingredientGardens.current;
+    requestMarkerLayout();
+  },[ingredientRegions,requestMarkerLayout]);
+  useEffect(()=>{
+    if(!ready||!ingredientMarkers.length||reducedMotion.current)return;
+    let frame;
+    const sway=time=>{if(document.visibilityState!=='hidden')for(const entry of ingredientGardens.current.values())setGardenSway(entry.plant,time/1000+entry.phase);frame=requestAnimationFrame(sway);};
+    frame=requestAnimationFrame(sway);return()=>cancelAnimationFrame(frame);
+  },[ready,ingredientMarkers]);
 
   useEffect(() => {
     if (!ready || !globeRef.current) return undefined;
@@ -859,6 +1195,9 @@ export default function GlobeView({
 
   useEffect(() => {
     if (!ready || !globeRef.current || !selected) return;
+    const intent=JSON.stringify([selectedBreweryId,focusRequest]);
+    if(lastDeliberateFocus.current===intent)return;
+    lastDeliberateFocus.current=intent;
     const globe = globeRef.current;
     // The parent pauses rotation on selection. Preserve an explicit restart,
     // including when this view remounts with an already selected brewery.
@@ -869,7 +1208,7 @@ export default function GlobeView({
     // Resolve narrow-island capacity before the single focus animation. This
     // path is only a deliberate selection/filter focus, never ordinary zoom.
     const { width, height } = sizeRef.current;
-    const initialAltitude = hasPhoto ? width < 500 ? 0.42 : 0.6 : 0.42;
+    const initialAltitude = Math.max(1.5, homeAltitude(width, height));
     const focus = hasPhoto ? choosePhotoFocusAltitude({ camera: globe.camera(), target: selected,
       places, geographicMask: geographicLandRef.current, width, height, radius: globe.getGlobeRadius(),
       initialAltitude, layoutOptions: { ...layoutOptions(wrapperRef.current, width, height,
@@ -883,7 +1222,7 @@ export default function GlobeView({
       photoAnchors.current.clear(); setCamera({ ...globe.pointOfView() });
     }, duration + 80);
     return () => window.clearTimeout(timer);
-  }, [selected?.id, selected?.lat, selected?.lng, focusRequest, ready]);
+  }, [selected?.id, selected?.lat, selected?.lng, selectedBreweryId, focusRequest, ready]);
 
   useEffect(() => {
     const closed = Boolean(previousDetailBeer.current) && !selectedBeerId;
@@ -929,7 +1268,9 @@ export default function GlobeView({
     const position = globe.pointOfView();
     globe.controls().autoRotate = false;
     userDragged.current = true;
-    globe.pointOfView({ ...position, altitude: Math.max(0.08, Math.min(6.3, position.altitude * 0.76 ** delta)) }, reducedMotion.current ? 0 : 500);
+    const maxAltitude=maximumSkyAltitude(homeAltitude(sizeRef.current.width,sizeRef.current.height),sizeRef.current.width);
+    const altitude=Math.max(.08,Math.min(maxAltitude,position.altitude * .76 ** delta));
+    if(Math.abs(altitude-position.altitude)>.001)globe.pointOfView({ ...position, altitude }, reducedMotion.current ? 0 : 500);
   }, [zoomRequest, ready]);
 
   useEffect(() => {
@@ -948,28 +1289,36 @@ export default function GlobeView({
     if (!selected && !userDragged.current) {
       globeRef.current.pointOfView({ altitude: homeAltitude(size.width, size.height) }, 0);
     }
-  }, [size.width, size.height, ready, selected]);
+    const globe=globeRef.current;
+    const maxAltitude=maximumSkyAltitude(homeAltitude(size.width,size.height),size.width);
+    globe.controls().maxDistance=(maxAltitude+1)*globe.getGlobeRadius();
+    if(globe.pointOfView().altitude>maxAltitude)globe.pointOfView({altitude:maxAltitude},0);
+    syncCelestialScene(globe.pointOfView());
+    terminator.updateFromCamera(globe.camera());
+    sunLightRef.current?.position.copy(terminator.sunDirection).multiplyScalar(400);
+  }, [size.width, size.height, ready,syncCelestialScene,terminator]);
 
-  const fallback = <FlatMap features={features} geographicLand={geographicLand} places={places} beersByBrewery={beersByBrewery} photoIdentityIndex={identities} selectedBreweryId={selectedBreweryId} selectedBeerId={selectedBeerId} onSelect={onSelect} onBeerSelect={onBeerSelect} width={size.width} height={size.height} focusRequest={focusRequest} zoomRequest={zoomRequest} resetRequest={resetRequest} wrapperRef={wrapperRef} />;
-  return <div ref={wrapperRef} className="brew-globe-view" data-map-mode={!webGL || failed ? "flat" : "globe"} data-zoom-scale={!webGL || failed ? undefined : 2.5 / Math.max(0.08, camera.altitude)} style={{ width: '100%', height: '100%', minHeight: 280, position: 'relative', overflow: 'hidden', background: 'radial-gradient(ellipse at 50% 45%, rgba(24,75,69,.23), rgba(5,14,23,0) 69%)' }}>
+  const fallback = <FlatMap features={features} geographicLand={geographicLand} places={places} beersByBrewery={beersByBrewery} photoIdentityIndex={identities} selectedBreweryId={selectedBreweryId} selectedBeerId={selectedBeerId} onSelect={onSelect} onBeerSelect={onBeerSelect} width={size.width} height={size.height} focusRequest={focusRequest} zoomRequest={zoomRequest} resetRequest={resetRequest} wrapperRef={wrapperRef} ingredientRegions={ingredientRegions} onIngredientSelect={onIngredientSelect} ingredientFocus={ingredientFocus} selectedCountry={selectedCountry} onCountrySelect={onCountrySelect} bottlesVisible={bottlesVisible} />;
+  return <div ref={wrapperRef} className="brew-globe-view" data-bottles-visible={bottlesVisible} data-map-mode={!webGL || failed ? "flat" : "globe"} data-geometry-ready={Boolean(geographicLand)} data-selected-country={selectedCountry} data-ingredient-count={ingredientMarkers.length} data-zoom-scale={!webGL || failed ? undefined : 2.5 / Math.max(0.08, camera.altitude)} style={{ width: '100%', height: '100%', minHeight: 280, position: 'relative', overflow: 'hidden', background: 'radial-gradient(ellipse at 50% 45%, rgba(24,75,69,.23), rgba(5,14,23,0) 69%)' }}>
     <style>{BOTTLE_CSS}</style>
-    <div aria-hidden="true" style={{ position: 'absolute', inset: 0, pointerEvents: 'none' }}>
-      {STAR_FIELD.map((star, index) => <i key={index} style={{ position: 'absolute', left: star.left, top: star.top, width: star.size, height: star.size, borderRadius: '50%', background: '#dae4d7', opacity: star.opacity }} />)}
-    </div>
-    {(!webGL || failed) ? fallback : texture && size.width > 0 && size.height > 0 ? <GlobeBoundary fallback={fallback}>
+    <CelestialBackground width={size.width||1440} height={size.height||670} earthRadius={size.height/(2*Math.tan(25*Math.PI/180)*Math.sqrt(homeAltitude(size.width,size.height)*(homeAltitude(size.width,size.height)+2)))}/>
+    {(!webGL || failed) ? fallback : texture && size.width > 0 && size.height > 0 ? <GlobeBoundary fallback={fallback} onFailure={()=>setFailed(true)}>
       <Globe ref={globeRef} width={size.width} height={size.height}
         backgroundColor="rgba(0,0,0,0)" globeImageUrl={texture} globeMaterial={globeMaterial}
         animateIn={false} rendererConfig={{ antialias: true, alpha: true, powerPreference: 'high-performance' }}
         showAtmosphere atmosphereColor="#7cafa0" atmosphereAltitude={0.095}
         globeCurvatureResolution={3} onGlobeReady={configureGlobe}
-        onZoom={handleCameraChange}
+        onZoom={handleCameraChange} onGlobeClick={pickCountry}
         htmlElementsData={mapMarkers} htmlLat="lat" htmlLng="lng" htmlAltitude={MARKER_ALTITUDE}
         htmlElement={makeHtmlBottleMarker} htmlElementVisibilityModifier={updateBottleVisibility} htmlTransitionDuration={0}
+        objectsData={ingredientMarkers} objectLat="lat" objectLng="lng" objectAltitude={0.0008} objectFacesSurface
+        objectThreeObject={makeIngredientGarden} onObjectClick={pickIngredient} objectLabel={region=>region.nameZh}
         enablePointerInteraction
       />
     </GlobeBoundary> : <div role="status" style={{ position: 'absolute', inset: 0, display: 'grid', placeItems: 'center', color: '#a4b8af', fontSize: 13, letterSpacing: '0.08em' }}>
       {mapError ? '地图暂时无法载入，请使用酒厂列表继续探索' : '正在展开世界地图…'}
     </div>}
-    <p style={{ position: 'absolute', width: 1, height: 1, padding: 0, margin: -1, overflow: 'hidden', clip: 'rect(0,0,0,0)', whiteSpace: 'nowrap' }}>精酿酒厂互动地球。拖拽旋转，滚动或双指缩放，点击酒图查看酒款。也可通过酒厂列表选择。</p>
+    <div ref={arrivalLayer} className="globe-arrival-layer" style={{position:'absolute',inset:0,pointerEvents:'none'}} />
+    <p style={{ position: 'absolute', width: 1, height: 1, padding: 0, margin: -1, overflow: 'hidden', clip: 'rect(0,0,0,0)', whiteSpace: 'nowrap' }}>精酿酒厂互动地球。拖拽旋转，滚动或双指缩放，点击国家筛选、点击海洋恢复，点击酒图查看酒款。也可通过酒厂列表选择。</p>
   </div>;
 }

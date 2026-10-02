@@ -1,0 +1,902 @@
+{
+  "metadata": {
+    "id": "award-sensory-supplements-2026-10-02",
+    "updatedAt": "2026-10-02",
+    "scope": "A bounded review of exact awarded products against their official product descriptions; no assertion of complete coverage or award-year recipe identity.",
+    "beerCount": 12,
+    "factCount": 67,
+    "factsByDimension": {
+      "ingredient": 17,
+      "aroma": 26,
+      "taste": 11,
+      "mouthfeel": 11,
+      "process": 2
+    },
+    "policy": [
+      "只记录本款产品明确说明的事实，不从风格、名称、评分、IBU 或其他酒款推断。",
+      "风味与实际原料分开；未知仍为空，不将无证据解释为不含。",
+      "事实引用逐标签保留官方来源；原文摘录每个 URL 合计不超过 25 词。",
+      "本文件仅补 sensoryFacts，不覆盖图片、ABV、评分、奖项、描述或地理位置。"
+    ]
+  },
+  "breweries": [],
+  "beers": [
+    {
+      "id": "curated-award-18394",
+      "name": "Wheat",
+      "breweryId": "curated-award-brewery-b76812b6fc837901",
+      "untappdId": "18394",
+      "sourceUrls": [
+        "https://www.threeboysbrewery.co.nz/shop/wheat"
+      ],
+      "sensoryFacts": [
+        {
+          "dimension": "ingredient",
+          "id": "fruit",
+          "text": "官方说明加入柠檬皮。",
+          "sourceExcerpt": "lemon zest",
+          "sourceUrl": "https://www.threeboysbrewery.co.nz/shop/wheat",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "ingredient",
+          "id": "spice",
+          "text": "官方说明加入芫荽。",
+          "sourceExcerpt": "added coriander",
+          "sourceUrl": "https://www.threeboysbrewery.co.nz/shop/wheat",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "spice",
+          "text": "官方将比利时修道院酵母产生的风味描述为辛香。",
+          "sourceExcerpt": "spicy flavours",
+          "sourceUrl": "https://www.threeboysbrewery.co.nz/shop/wheat",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        }
+      ],
+      "sensorySourceEvidence": [
+        {
+          "sourceUrl": "https://www.threeboysbrewery.co.nz/shop/wheat",
+          "sourceKind": "official_product_page",
+          "sourceFile": ".runtime/award-sensory-evidence/18394.html",
+          "sourceSha256": "41755cc0f667f3ae750a7971d3df111278ae13bbea161da09503df84b8ae7551",
+          "verifiedAt": "2026-10-02",
+          "productIdentity": "matched_exact_brewery_and_product_name"
+        }
+      ]
+    },
+    {
+      "id": "curated-award-1682299",
+      "name": "Triple Chocolate Milk Stout",
+      "breweryId": "curated-award-brewery-10adc96ce5414f49",
+      "untappdId": "1682299",
+      "sourceUrls": [
+        "https://www.behemothbrewing.co.nz/beer/triple-chocolate"
+      ],
+      "sensoryFacts": [
+        {
+          "dimension": "ingredient",
+          "id": "cacao",
+          "text": "官方列出荷兰可可粉与可可碎粒。",
+          "sourceExcerpt": "Cocoa powder",
+          "sourceUrl": "https://www.behemothbrewing.co.nz/beer/triple-chocolate",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "ingredient",
+          "id": "spice",
+          "text": "官方说明另外加入香草。",
+          "sourceExcerpt": "Vanilla",
+          "sourceUrl": "https://www.behemothbrewing.co.nz/beer/triple-chocolate",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "chocolate",
+          "text": "官方把这款酒的饮用风味比作巧克力奶昔。",
+          "sourceExcerpt": "chocolate milkshake",
+          "sourceUrl": "https://www.behemothbrewing.co.nz/beer/triple-chocolate",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        }
+      ],
+      "sensorySourceEvidence": [
+        {
+          "sourceUrl": "https://www.behemothbrewing.co.nz/beer/triple-chocolate",
+          "sourceKind": "official_product_page_public_text_extract",
+          "sourceFile": ".runtime/award-sensory-evidence/1682299-web-extract.json",
+          "sourceSha256": "303b39ac7718c17b9ca52de70ce12d301203e8ccd162649433ef38ae6ebf5be3",
+          "verifiedAt": "2026-10-02",
+          "productIdentity": "matched_exact_brewery_and_product_name"
+        }
+      ],
+      "sensoryEvidenceNotes": [
+        "采用该款官方产品页面的配方描述；未将当前页面配方追认为获奖年度配方，也未据此覆盖目录 ABV。",
+        "直接页面 HTML 为年龄确认页；本款正文经公开搜索工具读取，归档为所见短摘录，未绕过年龄确认。"
+      ]
+    },
+    {
+      "id": "curated-award-5561747",
+      "name": "Wit",
+      "breweryId": "curated-award-brewery-200002dc56e7849e",
+      "untappdId": "5561747",
+      "sourceUrls": [
+        "https://www.vanhonsebrouck.be/en-us/beer/kasteel/kasteel-wit/"
+      ],
+      "sensoryFacts": [
+        {
+          "dimension": "taste",
+          "id": "sweet",
+          "text": "官方品鉴说明有柔和甜感。",
+          "sourceExcerpt": "gentle sweetness",
+          "sourceUrl": "https://www.vanhonsebrouck.be/en-us/beer/kasteel/kasteel-wit/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "taste",
+          "id": "sour",
+          "text": "官方说明其甜、酸与辛香风味相互平衡。",
+          "sourceExcerpt": "sour",
+          "sourceUrl": "https://www.vanhonsebrouck.be/en-us/beer/kasteel/kasteel-wit/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "mouthfeel",
+          "id": "crisp",
+          "text": "官方描述收口清爽、干净。",
+          "sourceExcerpt": "crisp, dry",
+          "sourceUrl": "https://www.vanhonsebrouck.be/en-us/beer/kasteel/kasteel-wit/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "citrus",
+          "text": "官方明确描述柑橘香气与风味。",
+          "sourceExcerpt": "citrus notes",
+          "sourceUrl": "https://www.vanhonsebrouck.be/en-us/beer/kasteel/kasteel-wit/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "spice",
+          "text": "官方明确描述姜的辛香风味。",
+          "sourceExcerpt": "spicy ginger",
+          "sourceUrl": "https://www.vanhonsebrouck.be/en-us/beer/kasteel/kasteel-wit/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "malt",
+          "text": "官方描述带饼干感的麦芽风味。",
+          "sourceExcerpt": "biscuity maltiness",
+          "sourceUrl": "https://www.vanhonsebrouck.be/en-us/beer/kasteel/kasteel-wit/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        }
+      ],
+      "sensorySourceEvidence": [
+        {
+          "sourceUrl": "https://www.vanhonsebrouck.be/en-us/beer/kasteel/kasteel-wit/",
+          "sourceKind": "official_product_page",
+          "sourceFile": ".runtime/award-sensory-evidence/5561747.html",
+          "sourceSha256": "146413a1c9ee3cb5d3535f7917755afc43773823fc905fdaed0cb129d3653a7b",
+          "verifiedAt": "2026-10-02",
+          "productIdentity": "matched_exact_brewery_and_product_name"
+        }
+      ],
+      "sensoryEvidenceNotes": [
+        "姜、芫荽和柠檬草在此来源属于品鉴描述，未据此断言它们被作为原料加入。"
+      ]
+    },
+    {
+      "id": "curated-award-156628",
+      "name": "Blanche de Curitiba",
+      "breweryId": "curated-award-brewery-e219a6bbfbaf8ca0",
+      "untappdId": "156628",
+      "sourceUrls": [
+        "https://loja.bodebrown.com.br/cerveja-blanche-de-curitiba-lata-473ml/"
+      ],
+      "sensoryFacts": [
+        {
+          "dimension": "ingredient",
+          "id": "wheat",
+          "text": "官方配方说明使用未发芽小麦。",
+          "sourceExcerpt": "Trigo não maltado",
+          "sourceUrl": "https://loja.bodebrown.com.br/cerveja-blanche-de-curitiba-lata-473ml/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "ingredient",
+          "id": "spice",
+          "text": "官方配方说明使用真正的芫荽。",
+          "sourceExcerpt": "Coentro",
+          "sourceUrl": "https://loja.bodebrown.com.br/cerveja-blanche-de-curitiba-lata-473ml/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "ingredient",
+          "id": "fruit",
+          "text": "官方配方说明使用真正的橙皮。",
+          "sourceExcerpt": "casca de laranja",
+          "sourceUrl": "https://loja.bodebrown.com.br/cerveja-blanche-de-curitiba-lata-473ml/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "mouthfeel",
+          "id": "light",
+          "text": "官方说明这款酒的酒体轻盈。",
+          "sourceExcerpt": "corpo leve",
+          "sourceUrl": "https://loja.bodebrown.com.br/cerveja-blanche-de-curitiba-lata-473ml/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "mouthfeel",
+          "id": "crisp",
+          "text": "官方说明收口干爽、清新。",
+          "sourceExcerpt": "final seco e refrescante",
+          "sourceUrl": "https://loja.bodebrown.com.br/cerveja-blanche-de-curitiba-lata-473ml/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "taste",
+          "id": "sweet",
+          "text": "官方描述甜感与酸感柔和地平衡。",
+          "sourceExcerpt": "dulçor",
+          "sourceUrl": "https://loja.bodebrown.com.br/cerveja-blanche-de-curitiba-lata-473ml/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "taste",
+          "id": "sour",
+          "text": "官方描述酸感与甜感柔和地平衡。",
+          "sourceExcerpt": "acidez",
+          "sourceUrl": "https://loja.bodebrown.com.br/cerveja-blanche-de-curitiba-lata-473ml/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "citrus",
+          "text": "官方品鉴明确列出柑橘香气。",
+          "sourceExcerpt": "aromas cítricos",
+          "sourceUrl": "https://loja.bodebrown.com.br/cerveja-blanche-de-curitiba-lata-473ml/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "spice",
+          "text": "官方品鉴明确列出香料与辛香气息。",
+          "sourceExcerpt": "especiarias",
+          "sourceUrl": "https://loja.bodebrown.com.br/cerveja-blanche-de-curitiba-lata-473ml/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        }
+      ],
+      "sensorySourceEvidence": [
+        {
+          "sourceUrl": "https://loja.bodebrown.com.br/cerveja-blanche-de-curitiba-lata-473ml/",
+          "sourceKind": "official_product_page",
+          "sourceFile": ".runtime/award-sensory-evidence/156628.html",
+          "sourceSha256": "49caebb7efdf2e6ec2fc31f8f579202ad0d868aa2487a0ccf8348dd572d4cadc",
+          "verifiedAt": "2026-10-02",
+          "productIdentity": "matched_exact_brewery_and_product_name"
+        }
+      ],
+      "sensoryEvidenceNotes": [
+        "官方明示罐内二次发酵；现有筛选只有瓶中二次发酵，因此没有将罐内发酵错误映射为该标签。"
+      ]
+    },
+    {
+      "id": "curated-award-148016",
+      "name": "Tint-In-Wit",
+      "breweryId": "curated-award-brewery-f1318798a4f34d79",
+      "untappdId": "148016",
+      "sourceUrls": [
+        "https://toit.in/beer/toit-tint-in-wit/"
+      ],
+      "sensoryFacts": [
+        {
+          "dimension": "ingredient",
+          "id": "wheat",
+          "text": "官方说明使用印度本地未发芽小麦。",
+          "sourceExcerpt": "unmalted Indian wheat",
+          "sourceUrl": "https://toit.in/beer/toit-tint-in-wit/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "ingredient",
+          "id": "spice",
+          "text": "官方说明浸入当地芫荽。",
+          "sourceExcerpt": "local coriander",
+          "sourceUrl": "https://toit.in/beer/toit-tint-in-wit/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "ingredient",
+          "id": "fruit",
+          "text": "官方说明加入新鲜橙皮。",
+          "sourceExcerpt": "fresh orange peel",
+          "sourceUrl": "https://toit.in/beer/toit-tint-in-wit/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "mouthfeel",
+          "id": "smooth",
+          "text": "官方口感段落描述顺滑及轻微奶油感。",
+          "sourceExcerpt": "smooth and light creaminess",
+          "sourceUrl": "https://toit.in/beer/toit-tint-in-wit/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "taste",
+          "id": "sweet",
+          "text": "官方风味段落明确描述愉悦的甜感。",
+          "sourceExcerpt": "Pleasant sweetness",
+          "sourceUrl": "https://toit.in/beer/toit-tint-in-wit/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "citrus",
+          "text": "官方香气段落描述橙子果香。",
+          "sourceExcerpt": "orangey fruitiness",
+          "sourceUrl": "https://toit.in/beer/toit-tint-in-wit/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "spice",
+          "text": "官方香气段落描述适中的芫荽香气。",
+          "sourceExcerpt": "coriander aroma",
+          "sourceUrl": "https://toit.in/beer/toit-tint-in-wit/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        }
+      ],
+      "sensorySourceEvidence": [
+        {
+          "sourceUrl": "https://toit.in/beer/toit-tint-in-wit/",
+          "sourceKind": "official_product_page",
+          "sourceFile": ".runtime/award-sensory-evidence/148016.html",
+          "sourceSha256": "2b68588a11405dbd48556ec6d6e8393678d0be4fc30d652ab1bff7454bcd6c89",
+          "verifiedAt": "2026-10-02",
+          "productIdentity": "matched_exact_brewery_and_product_name"
+        }
+      ]
+    },
+    {
+      "id": "curated-award-4255419",
+      "name": "Four Legs Good",
+      "breweryId": "curated-award-brewery-2d8c0935d465978b",
+      "untappdId": "4255419",
+      "sourceUrls": [
+        "https://garageproject.co.nz/products/fourlegsgood"
+      ],
+      "sensoryFacts": [
+        {
+          "dimension": "ingredient",
+          "id": "hops",
+          "text": "官方列出 Wai-iti 与 Pacifica 两种酒花。",
+          "sourceExcerpt": "Wai-iti, Pacifica",
+          "sourceUrl": "https://garageproject.co.nz/products/fourlegsgood",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "ingredient",
+          "id": "barley",
+          "text": "官方原料表列出大麦麦芽。",
+          "sourceExcerpt": "Barley Malt",
+          "sourceUrl": "https://garageproject.co.nz/products/fourlegsgood",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "ingredient",
+          "id": "oats",
+          "text": "官方原料表列出燕麦麦芽。",
+          "sourceExcerpt": "Malted Oats",
+          "sourceUrl": "https://garageproject.co.nz/products/fourlegsgood",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "process",
+          "id": "dry-hop",
+          "text": "官方说明轻度干投上述两种酒花。",
+          "sourceExcerpt": "lightly dry hopped",
+          "sourceUrl": "https://garageproject.co.nz/products/fourlegsgood",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "mouthfeel",
+          "id": "crisp",
+          "text": "官方说明口感干爽、清脆。",
+          "sourceExcerpt": "dry, crisp",
+          "sourceUrl": "https://garageproject.co.nz/products/fourlegsgood",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "mouthfeel",
+          "id": "lively",
+          "text": "官方把这款酒描述为气泡活跃的农舍艾尔。",
+          "sourceExcerpt": "sparkling",
+          "sourceUrl": "https://garageproject.co.nz/products/fourlegsgood",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "taste",
+          "id": "sour",
+          "text": "官方说明带很轻微的酸感。",
+          "sourceExcerpt": "slightly tart",
+          "sourceUrl": "https://garageproject.co.nz/products/fourlegsgood",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        }
+      ],
+      "sensorySourceEvidence": [
+        {
+          "sourceUrl": "https://garageproject.co.nz/products/fourlegsgood",
+          "sourceKind": "official_product_page",
+          "sourceFile": ".runtime/award-sensory-evidence/4255419.html",
+          "sourceSha256": "f36c4837aed9481cb000ab26e745e602ec424883b985ad47309ad938d10023ab",
+          "verifiedAt": "2026-10-02",
+          "productIdentity": "matched_exact_brewery_and_product_name"
+        }
+      ],
+      "sensoryEvidenceNotes": [
+        "官方明示橡木熟成，但所读句子未明确容器为桶；本批没有将其进一步断言为桶陈。"
+      ]
+    },
+    {
+      "id": "curated-award-1705785",
+      "name": "Cape Pale Ale",
+      "breweryId": "curated-award-brewery-511cae92a2d34db0",
+      "untappdId": "1705785",
+      "sourceUrls": [
+        "https://jackblackbeer.com/pages/beer"
+      ],
+      "sensoryFacts": [
+        {
+          "dimension": "process",
+          "id": "dry-hop",
+          "text": "官方 Cape Pale Ale 段落明示干投酒花。",
+          "sourceExcerpt": "dry-hopped",
+          "sourceUrl": "https://jackblackbeer.com/pages/beer",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "ingredient",
+          "id": "hops",
+          "text": "官方明示这款酒经干投酒花酿制。",
+          "sourceExcerpt": "dry-hopped",
+          "sourceUrl": "https://jackblackbeer.com/pages/beer",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "citrus",
+          "text": "官方明确列出柑橘香气。",
+          "sourceExcerpt": "citrus",
+          "sourceUrl": "https://jackblackbeer.com/pages/beer",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "resin",
+          "text": "官方明确列出松树香气。",
+          "sourceExcerpt": "pine",
+          "sourceUrl": "https://jackblackbeer.com/pages/beer",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "tropical",
+          "text": "官方明确列出热带水果香气。",
+          "sourceExcerpt": "tropical aromas",
+          "sourceUrl": "https://jackblackbeer.com/pages/beer",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "hoppy",
+          "text": "官方将这款酒描述为酒花气息突出的经典酒款。",
+          "sourceExcerpt": "hoppy",
+          "sourceUrl": "https://jackblackbeer.com/pages/beer",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        }
+      ],
+      "sensorySourceEvidence": [
+        {
+          "sourceUrl": "https://jackblackbeer.com/pages/beer",
+          "sourceKind": "official_product_page",
+          "sourceFile": ".runtime/award-sensory-evidence/1705785.html",
+          "sourceSha256": "a091883267322ad3715780a0e83ac362ca65c36be6da2cf330bfad2a8036295a",
+          "verifiedAt": "2026-10-02",
+          "productIdentity": "matched_exact_brewery_and_product_name"
+        }
+      ]
+    },
+    {
+      "id": "curated-award-5857672",
+      "name": "Milk Stout",
+      "breweryId": "curated-award-brewery-021feafb7f7fb16f",
+      "untappdId": "5857672",
+      "sourceUrls": [
+        "https://capebrewing.co.za/"
+      ],
+      "sensoryFacts": [
+        {
+          "dimension": "mouthfeel",
+          "id": "full",
+          "text": "官方 Milk Stout 段落明确描述饱满酒体。",
+          "sourceExcerpt": "full-bodied",
+          "sourceUrl": "https://capebrewing.co.za/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "mouthfeel",
+          "id": "smooth",
+          "text": "官方描述奶油般、丝绒般口感与顺滑收口。",
+          "sourceExcerpt": "smooth finish",
+          "sourceUrl": "https://capebrewing.co.za/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "taste",
+          "id": "sweet",
+          "text": "官方明确描述平衡的甜感。",
+          "sourceExcerpt": "balanced sweetness",
+          "sourceUrl": "https://capebrewing.co.za/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "coffee",
+          "text": "官方明确描述烘焙咖啡豆风味。",
+          "sourceExcerpt": "roasted coffee beans",
+          "sourceUrl": "https://capebrewing.co.za/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "chocolate",
+          "text": "官方明确描述黑巧克力风味。",
+          "sourceExcerpt": "dark chocolate",
+          "sourceUrl": "https://capebrewing.co.za/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        }
+      ],
+      "sensorySourceEvidence": [
+        {
+          "sourceUrl": "https://capebrewing.co.za/",
+          "sourceKind": "official_product_page",
+          "sourceFile": ".runtime/award-sensory-evidence/5857672-home.html",
+          "sourceSha256": "4676f6348fb470b7a33e314a89f7cc2f953908344ed5ec210f111d52897f0798",
+          "verifiedAt": "2026-10-02",
+          "productIdentity": "matched_exact_brewery_and_product_name"
+        }
+      ],
+      "sensoryEvidenceNotes": [
+        "咖啡和巧克力仅作为明确风味；本页没有逐款添加原料清单，因此保留原料未知。"
+      ]
+    },
+    {
+      "id": "curated-award-457181",
+      "name": "Scotch Ale",
+      "breweryId": "curated-award-brewery-811de75259f9a5b3",
+      "untappdId": "457181",
+      "sourceUrls": [
+        "https://cervezablest.com.ar/scotch/"
+      ],
+      "sensoryFacts": [
+        {
+          "dimension": "taste",
+          "id": "sweet",
+          "text": "官方描述焦糖化麦芽带来的偏甜风味。",
+          "sourceExcerpt": "dulzón",
+          "sourceUrl": "https://cervezablest.com.ar/scotch/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "caramel",
+          "text": "官方品鉴明确强调焦糖化麦芽风味。",
+          "sourceExcerpt": "malta caramelizada",
+          "sourceUrl": "https://cervezablest.com.ar/scotch/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "malt",
+          "text": "官方品鉴明确强调麦芽风味。",
+          "sourceExcerpt": "sabor a malta",
+          "sourceUrl": "https://cervezablest.com.ar/scotch/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "roast",
+          "text": "官方描述轻微的烘烤麦芽气息。",
+          "sourceExcerpt": "malta tostada",
+          "sourceUrl": "https://cervezablest.com.ar/scotch/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        }
+      ],
+      "sensorySourceEvidence": [
+        {
+          "sourceUrl": "https://cervezablest.com.ar/scotch/",
+          "sourceKind": "official_product_page",
+          "sourceFile": ".runtime/award-sensory-evidence/457181.html",
+          "sourceSha256": "050104d98eeaa0b947152bea352bcbbd42e7ce58d2c528044584a1e23c445e6e",
+          "verifiedAt": "2026-10-02",
+          "productIdentity": "matched_exact_brewery_and_product_name"
+        }
+      ]
+    },
+    {
+      "id": "curated-award-12375",
+      "name": "Scotch",
+      "breweryId": "curated-award-brewery-13a7859e70cb561d",
+      "untappdId": "12375",
+      "sourceUrls": [
+        "https://www.cervezaantares.com/cervezas/scotch"
+      ],
+      "sensoryFacts": [
+        {
+          "dimension": "taste",
+          "id": "sweet",
+          "text": "官方 Scotch 产品正文明确形容其带甜感。",
+          "sourceExcerpt": "dulce",
+          "sourceUrl": "https://www.cervezaantares.com/cervezas/scotch",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "malt",
+          "text": "官方 Scotch 产品正文明确形容其麦芽风味突出。",
+          "sourceExcerpt": "maltosa",
+          "sourceUrl": "https://www.cervezaantares.com/cervezas/scotch",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        }
+      ],
+      "sensorySourceEvidence": [
+        {
+          "sourceUrl": "https://www.cervezaantares.com/cervezas/scotch",
+          "sourceKind": "official_product_page",
+          "sourceFile": ".runtime/award-sensory-evidence/12375.html",
+          "sourceSha256": "cba4fda4b4eeadfdc6ed7073826402933625b7035739969338bf01d3275c1575",
+          "verifiedAt": "2026-10-02",
+          "productIdentity": "matched_exact_brewery_and_product_name"
+        }
+      ]
+    },
+    {
+      "id": "curated-award-23963",
+      "name": "Winter Warmer",
+      "breweryId": "curated-award-brewery-c54bf3f657f90738",
+      "untappdId": "23963",
+      "sourceUrls": [
+        "https://picaroons.ca/our-beer/winter-warmer/"
+      ],
+      "sensoryFacts": [
+        {
+          "dimension": "mouthfeel",
+          "id": "full",
+          "text": "官方产品正文明确描述饱满酒体。",
+          "sourceExcerpt": "full-bodied",
+          "sourceUrl": "https://picaroons.ca/our-beer/winter-warmer/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "taste",
+          "id": "sweet",
+          "text": "官方产品正文与风味栏均明确列出甜感。",
+          "sourceExcerpt": "SWEET",
+          "sourceUrl": "https://picaroons.ca/our-beer/winter-warmer/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "fruit",
+          "text": "官方风味栏列出深色水果风味。",
+          "sourceExcerpt": "DARK FRUIT",
+          "sourceUrl": "https://picaroons.ca/our-beer/winter-warmer/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "chocolate",
+          "text": "官方风味栏列出巧克力风味。",
+          "sourceExcerpt": "CHOCOLATE",
+          "sourceUrl": "https://picaroons.ca/our-beer/winter-warmer/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "caramel",
+          "text": "官方风味栏列出焦糖风味。",
+          "sourceExcerpt": "CARAMEL",
+          "sourceUrl": "https://picaroons.ca/our-beer/winter-warmer/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "ingredient",
+          "id": "hops",
+          "text": "官方酒花栏列出 Willamette 与 Goldings。",
+          "sourceExcerpt": "WILLAMETTE, GOLDINGS",
+          "sourceUrl": "https://picaroons.ca/our-beer/winter-warmer/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "ingredient",
+          "id": "wheat",
+          "text": "官方麦芽原料栏列出小麦。",
+          "sourceExcerpt": "WHEAT",
+          "sourceUrl": "https://picaroons.ca/our-beer/winter-warmer/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        }
+      ],
+      "sensorySourceEvidence": [
+        {
+          "sourceUrl": "https://picaroons.ca/our-beer/winter-warmer/",
+          "sourceKind": "official_product_page",
+          "sourceFile": ".runtime/award-sensory-evidence/23963.html",
+          "sourceSha256": "f863ec35ff53d6eeca3713fb04bed1ec5debbe3877691793a754ef1f965c0379",
+          "verifiedAt": "2026-10-02",
+          "productIdentity": "matched_exact_brewery_and_product_name"
+        }
+      ],
+      "sensoryEvidenceNotes": [
+        "巧克力风味及巧克力麦芽未被转成可可原料；深色水果没有被转成干果。"
+      ]
+    },
+    {
+      "id": "curated-award-527497",
+      "name": "Milk Stout",
+      "breweryId": "curated-award-brewery-796131f46866b8f1",
+      "untappdId": "527497",
+      "sourceUrls": [
+        "https://cervezamanush.com.ar/cervezas/milk-stout/"
+      ],
+      "sensoryFacts": [
+        {
+          "dimension": "mouthfeel",
+          "id": "full",
+          "text": "官方本款产品简介明确描述饱满酒体。",
+          "sourceExcerpt": "cuerpo pleno",
+          "sourceUrl": "https://cervezamanush.com.ar/cervezas/milk-stout/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "mouthfeel",
+          "id": "smooth",
+          "text": "官方本款产品简介明确描述奶油般口感。",
+          "sourceExcerpt": "cremoso",
+          "sourceUrl": "https://cervezamanush.com.ar/cervezas/milk-stout/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "taste",
+          "id": "sweet",
+          "text": "官方本款产品简介明确描述轻微甜感。",
+          "sourceExcerpt": "Apenas dulce",
+          "sourceUrl": "https://cervezamanush.com.ar/cervezas/milk-stout/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "chocolate",
+          "text": "官方本款产品简介明确列出巧克力香气。",
+          "sourceExcerpt": "chocolate",
+          "sourceUrl": "https://cervezamanush.com.ar/cervezas/milk-stout/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "coffee",
+          "text": "官方本款产品简介明确列出咖啡香气。",
+          "sourceExcerpt": "café",
+          "sourceUrl": "https://cervezamanush.com.ar/cervezas/milk-stout/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "nut",
+          "text": "官方本款产品简介明确列出核桃香气。",
+          "sourceExcerpt": "nuez",
+          "sourceUrl": "https://cervezamanush.com.ar/cervezas/milk-stout/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "caramel",
+          "text": "官方本款产品简介明确列出焦糖香气。",
+          "sourceExcerpt": "caramelo",
+          "sourceUrl": "https://cervezamanush.com.ar/cervezas/milk-stout/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "ingredient",
+          "id": "hops",
+          "text": "官方本款酒花原料栏列出 Bullion。",
+          "sourceExcerpt": "Bullion",
+          "sourceUrl": "https://cervezamanush.com.ar/cervezas/milk-stout/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        }
+      ],
+      "sensorySourceEvidence": [
+        {
+          "sourceUrl": "https://cervezamanush.com.ar/cervezas/milk-stout/",
+          "sourceKind": "official_product_page",
+          "sourceFile": ".runtime/award-sensory-evidence/527497.html",
+          "sourceSha256": "8c806620a73c2083a976b8d1d2be39cc5f0a2f948b4fd5f76afe88d3b15b2a5f",
+          "verifiedAt": "2026-10-02",
+          "productIdentity": "matched_exact_brewery_and_product_name"
+        }
+      ],
+      "sensoryEvidenceNotes": [
+        "仅采用本款产品简介和酒花栏；没有把页面通用风格说明中的乳糖推断为本款原料。"
+      ]
+    }
+  ]
+}

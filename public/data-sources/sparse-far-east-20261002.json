@@ -1,0 +1,762 @@
+{
+  "metadata": {
+    "checkedAt": "2026-10-02",
+    "purpose": "Six locally produced package-image references across three previously empty Russian Far East cities",
+    "breweries": 3,
+    "beers": 6,
+    "pending": [
+      "Yakutsk: verified local brewing, no matched real bottle/can photo yet",
+      "Blagoveshchensk Amur: historical production verified, matching package photo unresolved"
+    ]
+  },
+  "breweries": [
+    {
+      "id": "sparse-far-east-kamchatka",
+      "name": "Kamchatskoye Pivo / Камчатское пиво",
+      "country": "Russia",
+      "countryZh": "俄罗斯",
+      "countryCode": "RU",
+      "city": "Petropavlovsk-Kamchatsky",
+      "lat": 53.017,
+      "lng": 158.65,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationEvidence": {
+        "city": "Petropavlovsk-Kamchatsky",
+        "countryCode": "RU",
+        "lat": 53.017,
+        "lng": 158.65,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://kampivo41.ru/2025/07/04/ao-kamchatskoe-pivo-predpriyatie-xxi-veka/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Petropavlovsk-Kamchatsky",
+        "coordinateEvidenceFile": "research/sparse-far-east-20261002/coordinates.json",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "官网2025年工厂报道明确两款均在彼得罗巴甫洛夫斯克-堪察茨基酿造；地图为城市参考点，不是厂门坐标。"
+      },
+      "website": "https://kampivo41.ru/",
+      "description": "官网2025年工厂报道明确两款均在彼得罗巴甫洛夫斯克-堪察茨基酿造；地图为城市参考点，不是厂门坐标。",
+      "sourceUrls": [
+        "https://kampivo41.ru/2025/07/04/ao-kamchatskoe-pivo-predpriyatie-xxi-veka/",
+        "https://en.wikipedia.org/wiki/Petropavlovsk-Kamchatsky"
+      ],
+      "craftStatus": "industrial_reference"
+    },
+    {
+      "id": "sparse-far-east-sakhalin",
+      "name": "Severnaya Zvezda / Северная Звезда",
+      "country": "Russia",
+      "countryZh": "俄罗斯",
+      "countryCode": "RU",
+      "city": "Korsakov",
+      "lat": 46.633,
+      "lng": 142.767,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationEvidence": {
+        "city": "Korsakov",
+        "countryCode": "RU",
+        "lat": 46.633,
+        "lng": 142.767,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://szvezda.com/o-kompanii.html",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Korsakov_(town)",
+        "coordinateEvidenceFile": "research/sparse-far-east-20261002/coordinates.json",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "官网确认Корсаковское在萨哈林本地的Корсаков厂生产，亦有南萨哈林斯克厂；本条用原始酿造城市Корсаков参考点，不代表每瓶仅在此灌装。"
+      },
+      "website": "https://szvezda.com/",
+      "description": "官网确认Корсаковское在萨哈林本地的Корсаков厂生产，亦有南萨哈林斯克厂；本条用原始酿造城市Корсаков参考点，不代表每瓶仅在此灌装。",
+      "sourceUrls": [
+        "https://szvezda.com/o-kompanii.html",
+        "https://en.wikipedia.org/wiki/Korsakov_(town)"
+      ],
+      "craftStatus": "industrial_reference"
+    },
+    {
+      "id": "sparse-far-east-khabarovsk",
+      "name": "Baltika-Khabarovsk / Балтика-Хабаровск",
+      "country": "Russia",
+      "countryZh": "俄罗斯",
+      "countryCode": "RU",
+      "city": "Khabarovsk",
+      "lat": 48.483,
+      "lng": 135.083,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationEvidence": {
+        "city": "Khabarovsk",
+        "countryCode": "RU",
+        "lat": 48.483,
+        "lng": 135.083,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://corporate.baltika.ru/company/production/baltika-habarovsk/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Khabarovsk",
+        "coordinateEvidenceFile": "research/sparse-far-east-20261002/coordinates.json",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "官方工厂页明确哈巴罗夫斯克厂生产Дикий Восток与Dragon。此处为已核实的当地生产厂城市参考；集团其他厂也可能生产相同品牌，不将圣彼得堡总部当本地厂。"
+      },
+      "website": "https://corporate.baltika.ru/",
+      "description": "官方工厂页明确哈巴罗夫斯克厂生产Дикий Восток与Dragon。此处为已核实的当地生产厂城市参考；集团其他厂也可能生产相同品牌，不将圣彼得堡总部当本地厂。",
+      "sourceUrls": [
+        "https://corporate.baltika.ru/company/production/baltika-habarovsk/",
+        "https://en.wikipedia.org/wiki/Khabarovsk"
+      ],
+      "craftStatus": "industrial_reference"
+    }
+  ],
+  "beers": [
+    {
+      "id": "sparse-far-east-kam-jubilee",
+      "name": "Камчатское Юбилейное / Kamchatskoye Yubileynoye",
+      "breweryId": "sparse-far-east-kamchatka",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pale Lager",
+      "styleZh": "淡色拉格",
+      "abv": 5.4,
+      "ibu": null,
+      "srm": null,
+      "description": "堪察加本地酿造的淡色拉格，官网描述为麦芽香、协调的酒花苦味和轻微酒香；使用淡色大麦芽、米和酒花，经过过滤但不巴氏杀菌。官网酒精度标注为不少于5.4%。",
+      "descriptionBasis": "official_and_local_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://kampivo41.ru/yubilejnoe/",
+        "sourceFile": "research/sparse-far-east-20261002/kam-jubilee-page.html",
+        "sourceSha256": "980a62f48aadaae2ab5de854ce4fc5c55fbdfe5285557b03a73d837c9daa6bbc",
+        "sourceType": "official_product_description",
+        "retrievedAt": "2026-10-02"
+      },
+      "flavors": [
+        "麦芽",
+        "酒花"
+      ],
+      "flavorEvidence": [
+        {
+          "sourceUrl": "https://kampivo41.ru/yubilejnoe/",
+          "kind": "official_product_description",
+          "checkedAt": "2026-10-02"
+        }
+      ],
+      "hops": [],
+      "malts": [
+        "淡色大麦芽"
+      ],
+      "ingredients": [
+        "米"
+      ],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://kampivo41.ru/yubilejnoe/",
+        "https://kampivo41.ru/2025/07/04/ao-kamchatskoe-pivo-predpriyatie-xxi-veka/",
+        "https://en.wikipedia.org/wiki/Petropavlovsk-Kamchatsky"
+      ],
+      "sourceNote": "官网2025年工厂报道明确两款均在彼得罗巴甫洛夫斯克-堪察茨基酿造；地图为城市参考点，不是厂门坐标。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Petropavlovsk-Kamchatsky",
+        "countryCode": "RU",
+        "lat": 53.017,
+        "lng": 158.65,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://kampivo41.ru/2025/07/04/ao-kamchatskoe-pivo-predpriyatie-xxi-veka/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Petropavlovsk-Kamchatsky",
+        "coordinateEvidenceFile": "research/sparse-far-east-20261002/coordinates.json",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "官网2025年工厂报道明确两款均在彼得罗巴甫洛夫斯克-堪察茨基酿造；地图为城市参考点，不是厂门坐标。"
+      },
+      "image": "/images/sparse-far-east-20261002/kam-jubilee-card.webp",
+      "imageThumbnail": "/images/sparse-far-east-20261002/kam-jubilee-map.webp",
+      "imageOriginal": "/images/sparse-far-east-20261002/kam-jubilee-card.webp",
+      "imageTransparent": "/images/sparse-far-east-20261002/kam-jubilee-transparent.png",
+      "imageKind": "product_packshot",
+      "imageCacheStatus": "cached",
+      "imageSource": "https://kampivo41.ru/yubilejnoe/",
+      "imageDownloadUrl": "https://kampivo41.ru/wp-content/uploads/2023/12/yubilejnoe.png",
+      "imageCredit": "酒厂官网同款实物包装图",
+      "imageLicense": null,
+      "imageHasBackground": false,
+      "imageEvidence": {
+        "sourceClass": "official_product_packshot",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "0ff772872c50d4205919a2fd6cfa3ed602f916f54b649e4bee355d4fcdbb8d89",
+        "mapSha256": "ce037a30f308c609ebc39e674912769454304a2ba1340fb363ee3d5c4088292f",
+        "mapBytes": 4244,
+        "mapDimensions": [
+          45,
+          180
+        ],
+        "method": "white studio background alpha silhouette; original decoded RGB unchanged",
+        "originalRGBPreserved": true
+      },
+      "imageContentBounds": {
+        "width": 161,
+        "height": 650,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 161,
+          "height": 650
+        },
+        "method": "transparent crop bounds"
+      },
+      "imageDerivation": {
+        "original": "/images/sparse-far-east-20261002/kam-jubilee-original.png",
+        "method": "white studio background alpha silhouette; original decoded RGB unchanged",
+        "backgroundRemoved": true
+      }
+    },
+    {
+      "id": "sparse-far-east-kam-more",
+      "name": "За тех, кто в море / Za Tekh, Kto v More",
+      "breweryId": "sparse-far-east-kamchatka",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pale Lager",
+      "styleZh": "淡色拉格",
+      "abv": 4.8,
+      "ibu": null,
+      "srm": null,
+      "description": "由堪察加当地酒厂酿造的淡色拉格，采用淡色大麦芽和颗粒酒花，过滤但不巴氏杀菌。官网描述麦芽发酵香与协调酒花苦味，玻璃瓶容量0.5升；酒精度标注为不少于4.8%。",
+      "descriptionBasis": "official_and_local_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://kampivo41.ru/za-teh-kto-v-more-svetloe-48/",
+        "sourceFile": "research/sparse-far-east-20261002/kam-more-page.html",
+        "sourceSha256": "7cf5d030b20091d4d436b84ef29178e59a846db09053f03bf9730bf2677acbd2",
+        "sourceType": "official_product_description",
+        "retrievedAt": "2026-10-02"
+      },
+      "flavors": [
+        "麦芽",
+        "酒花"
+      ],
+      "flavorEvidence": [
+        {
+          "sourceUrl": "https://kampivo41.ru/za-teh-kto-v-more-svetloe-48/",
+          "kind": "official_product_description",
+          "checkedAt": "2026-10-02"
+        }
+      ],
+      "hops": [],
+      "malts": [
+        "淡色大麦芽"
+      ],
+      "ingredients": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://kampivo41.ru/za-teh-kto-v-more-svetloe-48/",
+        "https://kampivo41.ru/2025/07/04/ao-kamchatskoe-pivo-predpriyatie-xxi-veka/",
+        "https://en.wikipedia.org/wiki/Petropavlovsk-Kamchatsky"
+      ],
+      "sourceNote": "官网2025年工厂报道明确两款均在彼得罗巴甫洛夫斯克-堪察茨基酿造；地图为城市参考点，不是厂门坐标。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Petropavlovsk-Kamchatsky",
+        "countryCode": "RU",
+        "lat": 53.017,
+        "lng": 158.65,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://kampivo41.ru/2025/07/04/ao-kamchatskoe-pivo-predpriyatie-xxi-veka/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Petropavlovsk-Kamchatsky",
+        "coordinateEvidenceFile": "research/sparse-far-east-20261002/coordinates.json",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "官网2025年工厂报道明确两款均在彼得罗巴甫洛夫斯克-堪察茨基酿造；地图为城市参考点，不是厂门坐标。"
+      },
+      "image": "/images/sparse-far-east-20261002/kam-more-card.webp",
+      "imageThumbnail": "/images/sparse-far-east-20261002/kam-more-map.webp",
+      "imageOriginal": "/images/sparse-far-east-20261002/kam-more-card.webp",
+      "imageTransparent": "/images/sparse-far-east-20261002/kam-more-transparent.png",
+      "imageKind": "product_packshot",
+      "imageCacheStatus": "cached",
+      "imageSource": "https://kampivo41.ru/za-teh-kto-v-more-svetloe-48/",
+      "imageDownloadUrl": "https://kampivo41.ru/wp-content/uploads/2023/12/za-teh-kto-v-more.png",
+      "imageCredit": "酒厂官网同款实物包装图",
+      "imageLicense": null,
+      "imageHasBackground": false,
+      "imageEvidence": {
+        "sourceClass": "official_product_packshot",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "8c8a83ea3ed7910ff3870b421f22b157bc0805f1ac3295631fdbd35e9d91f2c2",
+        "mapSha256": "0c1f01b355b3dac765417a3388bef1930420844b25c078ca14b379172a7e2e17",
+        "mapBytes": 4608,
+        "mapDimensions": [
+          45,
+          180
+        ],
+        "method": "white studio background alpha silhouette; original decoded RGB unchanged",
+        "originalRGBPreserved": true
+      },
+      "imageContentBounds": {
+        "width": 161,
+        "height": 650,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 161,
+          "height": 650
+        },
+        "method": "transparent crop bounds"
+      },
+      "imageDerivation": {
+        "original": "/images/sparse-far-east-20261002/kam-more-original.png",
+        "method": "white studio background alpha silhouette; original decoded RGB unchanged",
+        "backgroundRemoved": true
+      }
+    },
+    {
+      "id": "sparse-far-east-sakhalin-svetloe",
+      "name": "Корсаковское Светлое / Korsakovskoye Svetloye",
+      "breweryId": "sparse-far-east-sakhalin",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pale Lager",
+      "styleZh": "淡色拉格",
+      "abv": 4.0,
+      "ibu": null,
+      "srm": null,
+      "description": "萨哈林北极星酒厂的Корсаковское淡色啤酒。官网介绍其口味清爽，带麦芽味和轻度酒花苦味；酒精度4.0%，原麦汁浓度11%。当地工厂历史与产品页共同核实本地生产。",
+      "descriptionBasis": "official_and_local_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://szvezda.com/korsakovskoe.html",
+        "sourceFile": "research/sparse-far-east-20261002/korsakov.html",
+        "sourceSha256": "047abee00d6996107f08abee08941df0653bed0616867a02420b47768521ab00",
+        "sourceType": "official_product_description",
+        "retrievedAt": "2026-10-02"
+      },
+      "flavors": [
+        "麦芽",
+        "酒花"
+      ],
+      "flavorEvidence": [
+        {
+          "sourceUrl": "https://szvezda.com/korsakovskoe.html",
+          "kind": "official_product_description",
+          "checkedAt": "2026-10-02"
+        }
+      ],
+      "hops": [],
+      "malts": [],
+      "ingredients": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://szvezda.com/korsakovskoe.html",
+        "https://szvezda.com/o-kompanii.html",
+        "https://en.wikipedia.org/wiki/Korsakov_(town)"
+      ],
+      "sourceNote": "官网确认Корсаковское在萨哈林本地的Корсаков厂生产，亦有南萨哈林斯克厂；本条用原始酿造城市Корсаков参考点，不代表每瓶仅在此灌装。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Korsakov",
+        "countryCode": "RU",
+        "lat": 46.633,
+        "lng": 142.767,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://szvezda.com/o-kompanii.html",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Korsakov_(town)",
+        "coordinateEvidenceFile": "research/sparse-far-east-20261002/coordinates.json",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "官网确认Корсаковское在萨哈林本地的Корсаков厂生产，亦有南萨哈林斯克厂；本条用原始酿造城市Корсаков参考点，不代表每瓶仅在此灌装。"
+      },
+      "image": "/images/sparse-far-east-20261002/sakhalin-svetloe-card.webp",
+      "imageThumbnail": "/images/sparse-far-east-20261002/sakhalin-svetloe-map.webp",
+      "imageOriginal": "/images/sparse-far-east-20261002/sakhalin-svetloe-card.webp",
+      "imageTransparent": "/images/sparse-far-east-20261002/sakhalin-svetloe-transparent.png",
+      "imageKind": "product_packshot",
+      "imageCacheStatus": "cached",
+      "imageSource": "https://szvezda.com/korsakovskoe.html",
+      "imageDownloadUrl": "https://szvezda.com/images/2020/05/30/kors-svetloe.png",
+      "imageCredit": "酒厂官网同款实物包装图",
+      "imageLicense": null,
+      "imageHasBackground": false,
+      "imageEvidence": {
+        "sourceClass": "official_product_packshot",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "f3910789d3d3a79418d75e0f7739a08236d4f9fa3939d7e024555ab297969925",
+        "mapSha256": "5b6ba23aed20e362cc37151d7ad65505cd082b3892fc5c1443bb0c995c7d832a",
+        "mapBytes": 3918,
+        "mapDimensions": [
+          49,
+          180
+        ],
+        "method": "native alpha crop and resize",
+        "originalRGBPreserved": true
+      },
+      "imageContentBounds": {
+        "width": 178,
+        "height": 650,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 178,
+          "height": 650
+        },
+        "method": "transparent crop bounds"
+      },
+      "imageDerivation": {
+        "original": "/images/sparse-far-east-20261002/sakhalin-svetloe-original.png",
+        "method": "native alpha crop and resize",
+        "backgroundRemoved": true
+      }
+    },
+    {
+      "id": "sparse-far-east-sakhalin-pils",
+      "name": "Корсаковское Пильзенское / Korsakovskoye Pilzenskoye",
+      "breweryId": "sparse-far-east-sakhalin",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pilsner",
+      "styleZh": "皮尔森",
+      "abv": 4.5,
+      "ibu": null,
+      "srm": null,
+      "description": "萨哈林本地生产的Корсаковское皮尔森，酒精度4.5%，原麦汁浓度12%。官网描述酒花苦味与麦芽余味相互平衡，口味柔和；产品经过温和巴氏杀菌。",
+      "descriptionBasis": "official_and_local_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://szvezda.com/korsakovskoe.html",
+        "sourceFile": "research/sparse-far-east-20261002/korsakov.html",
+        "sourceSha256": "047abee00d6996107f08abee08941df0653bed0616867a02420b47768521ab00",
+        "sourceType": "official_product_description",
+        "retrievedAt": "2026-10-02"
+      },
+      "flavors": [
+        "麦芽",
+        "酒花"
+      ],
+      "flavorEvidence": [
+        {
+          "sourceUrl": "https://szvezda.com/korsakovskoe.html",
+          "kind": "official_product_description",
+          "checkedAt": "2026-10-02"
+        }
+      ],
+      "hops": [],
+      "malts": [],
+      "ingredients": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://szvezda.com/korsakovskoe.html",
+        "https://szvezda.com/o-kompanii.html",
+        "https://en.wikipedia.org/wiki/Korsakov_(town)"
+      ],
+      "sourceNote": "官网确认Корсаковское在萨哈林本地的Корсаков厂生产，亦有南萨哈林斯克厂；本条用原始酿造城市Корсаков参考点，不代表每瓶仅在此灌装。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Korsakov",
+        "countryCode": "RU",
+        "lat": 46.633,
+        "lng": 142.767,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://szvezda.com/o-kompanii.html",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Korsakov_(town)",
+        "coordinateEvidenceFile": "research/sparse-far-east-20261002/coordinates.json",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "官网确认Корсаковское在萨哈林本地的Корсаков厂生产，亦有南萨哈林斯克厂；本条用原始酿造城市Корсаков参考点，不代表每瓶仅在此灌装。"
+      },
+      "image": "/images/sparse-far-east-20261002/sakhalin-pils-card.webp",
+      "imageThumbnail": "/images/sparse-far-east-20261002/sakhalin-pils-map.webp",
+      "imageOriginal": "/images/sparse-far-east-20261002/sakhalin-pils-card.webp",
+      "imageTransparent": "/images/sparse-far-east-20261002/sakhalin-pils-transparent.png",
+      "imageKind": "product_packshot",
+      "imageCacheStatus": "cached",
+      "imageSource": "https://szvezda.com/korsakovskoe.html",
+      "imageDownloadUrl": "https://szvezda.com/images/2020/05/30/kors-pil.png",
+      "imageCredit": "酒厂官网同款实物包装图",
+      "imageLicense": null,
+      "imageHasBackground": false,
+      "imageEvidence": {
+        "sourceClass": "official_product_packshot",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "bbabbcf50ad7a413f0e268194ef83f0c4895e2f84fdea170767ac1b625e7cc57",
+        "mapSha256": "efc4f6a08266302ee708d53e84bbb1f8f3407e1dedad086c8027c85e4dba319e",
+        "mapBytes": 4196,
+        "mapDimensions": [
+          49,
+          180
+        ],
+        "method": "native alpha crop and resize",
+        "originalRGBPreserved": true
+      },
+      "imageContentBounds": {
+        "width": 178,
+        "height": 650,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 178,
+          "height": 650
+        },
+        "method": "transparent crop bounds"
+      },
+      "imageDerivation": {
+        "original": "/images/sparse-far-east-20261002/sakhalin-pils-original.png",
+        "method": "native alpha crop and resize",
+        "backgroundRemoved": true
+      }
+    },
+    {
+      "id": "sparse-far-east-khab-vostok",
+      "name": "Легенда Дикий Восток Светлое / Legenda Dikiy Vostok Svetloye",
+      "breweryId": "sparse-far-east-khabarovsk",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pale Lager",
+      "styleZh": "淡色拉格",
+      "abv": 4.7,
+      "ibu": null,
+      "srm": null,
+      "description": "Дикий Восток是哈巴罗夫斯克Балтика工厂实际生产的远东地区品牌。此条为当地零售商核验的4.7%淡色啤酒与1.2升瓶装实物；其本地酿造由酒厂官方分厂页面确认。未以品牌销量或评分替代精酿属性。",
+      "descriptionBasis": "official_and_local_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://dilan.ru/product/13959322-pivo-legenda-dikij-vostok-svetloe-47-12l-plb",
+        "sourceFile": "research/sparse-far-east-20261002/khab-vostok.html",
+        "sourceSha256": "e6718b7448c556b325e0adf1e0a41f8d152a390ba58cb620eece2f7f1d30171a",
+        "sourceType": "local_retailer_product_description",
+        "retrievedAt": "2026-10-02"
+      },
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "ingredients": [],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://dilan.ru/product/13959322-pivo-legenda-dikij-vostok-svetloe-47-12l-plb",
+        "https://corporate.baltika.ru/company/production/baltika-habarovsk/",
+        "https://en.wikipedia.org/wiki/Khabarovsk"
+      ],
+      "sourceNote": "官方工厂页明确哈巴罗夫斯克厂生产Дикий Восток与Dragon。此处为已核实的当地生产厂城市参考；集团其他厂也可能生产相同品牌，不将圣彼得堡总部当本地厂。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Khabarovsk",
+        "countryCode": "RU",
+        "lat": 48.483,
+        "lng": 135.083,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://corporate.baltika.ru/company/production/baltika-habarovsk/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Khabarovsk",
+        "coordinateEvidenceFile": "research/sparse-far-east-20261002/coordinates.json",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "官方工厂页明确哈巴罗夫斯克厂生产Дикий Восток与Dragon。此处为已核实的当地生产厂城市参考；集团其他厂也可能生产相同品牌，不将圣彼得堡总部当本地厂。"
+      },
+      "image": "/images/sparse-far-east-20261002/khab-vostok-card.webp",
+      "imageThumbnail": "/images/sparse-far-east-20261002/khab-vostok-map.webp",
+      "imageOriginal": "/images/sparse-far-east-20261002/khab-vostok-card.webp",
+      "imageTransparent": "/images/sparse-far-east-20261002/khab-vostok-transparent.png",
+      "imageKind": "product_packshot",
+      "imageCacheStatus": "cached",
+      "imageSource": "https://dilan.ru/product/13959322-pivo-legenda-dikij-vostok-svetloe-47-12l-plb",
+      "imageDownloadUrl": "https://dilan.ru/cache/gen/600x600_c/public/uploads/images/de40e6eb3bafce09b1e5d5aca771e0cd_a172df8e07.png?s=UvduSzsOTeFLXUC6PdpOQw",
+      "imageCredit": "俄罗斯当地零售商同款实物包装图",
+      "imageLicense": null,
+      "imageHasBackground": false,
+      "imageEvidence": {
+        "sourceClass": "retailer_product_packshot",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "7a22c908b31b64c37eee576808a853d523d8228644910d814c730a9000733134",
+        "mapSha256": "ca0e7a55a68f0c8d8a2c544c389f375a99e21262d96035ccb7368a043d4cdb9d",
+        "mapBytes": 5440,
+        "mapDimensions": [
+          59,
+          180
+        ],
+        "method": "white studio background alpha silhouette; original decoded RGB unchanged",
+        "originalRGBPreserved": true
+      },
+      "imageContentBounds": {
+        "width": 197,
+        "height": 600,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 197,
+          "height": 600
+        },
+        "method": "transparent crop bounds"
+      },
+      "imageDerivation": {
+        "original": "/images/sparse-far-east-20261002/khab-vostok-original.png",
+        "method": "white studio background alpha silhouette; original decoded RGB unchanged",
+        "backgroundRemoved": true
+      }
+    },
+    {
+      "id": "sparse-far-east-khab-dragon",
+      "name": "Dragon / Дракон",
+      "breweryId": "sparse-far-east-khabarovsk",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Rice Lager",
+      "styleZh": "米拉格",
+      "abv": 4.2,
+      "ibu": null,
+      "srm": null,
+      "description": "Dragon是哈巴罗夫斯克Балтика工厂确认生产的区域品牌之一。此条照片为当地零售商展示的450毫升罐装米拉格，酒精度4.2%。同品牌亦可能由集团其他工厂生产；地图展示已核实的哈巴罗夫斯克生产地参考，不代表照片中这罐的批次厂址已查明。",
+      "descriptionBasis": "official_and_local_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://sunvl.ru/catalog/beer/russia/pivo-drakon-sv-4-2-0-45l-zh-b/",
+        "sourceFile": "research/sparse-far-east-20261002/khab-dragon.html",
+        "sourceSha256": "aeb1817ad1f6a5b88bddd09da192ebb547582de1ec83176b44c15ac73bc98f54",
+        "sourceType": "local_retailer_product_description",
+        "retrievedAt": "2026-10-02"
+      },
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "ingredients": [
+        "米"
+      ],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://sunvl.ru/catalog/beer/russia/pivo-drakon-sv-4-2-0-45l-zh-b/",
+        "https://corporate.baltika.ru/company/production/baltika-habarovsk/",
+        "https://en.wikipedia.org/wiki/Khabarovsk"
+      ],
+      "sourceNote": "官方工厂页明确哈巴罗夫斯克厂生产Дикий Восток与Dragon。此处为已核实的当地生产厂城市参考；集团其他厂也可能生产相同品牌，不将圣彼得堡总部当本地厂。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Khabarovsk",
+        "countryCode": "RU",
+        "lat": 48.483,
+        "lng": 135.083,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://corporate.baltika.ru/company/production/baltika-habarovsk/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Khabarovsk",
+        "coordinateEvidenceFile": "research/sparse-far-east-20261002/coordinates.json",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "官方工厂页明确哈巴罗夫斯克厂生产Дикий Восток与Dragon。此处为已核实的当地生产厂城市参考；集团其他厂也可能生产相同品牌，不将圣彼得堡总部当本地厂。"
+      },
+      "image": "/images/sparse-far-east-20261002/khab-dragon-card.webp",
+      "imageThumbnail": "/images/sparse-far-east-20261002/khab-dragon-map.webp",
+      "imageOriginal": "/images/sparse-far-east-20261002/khab-dragon-card.webp",
+      "imageTransparent": "/images/sparse-far-east-20261002/khab-dragon-transparent.png",
+      "imageKind": "product_packshot",
+      "imageCacheStatus": "cached",
+      "imageSource": "https://sunvl.ru/catalog/beer/russia/pivo-drakon-sv-4-2-0-45l-zh-b/",
+      "imageDownloadUrl": "https://sunvl.ru/images/items/v258281.webp",
+      "imageCredit": "俄罗斯当地零售商同款实物包装图",
+      "imageLicense": null,
+      "imageHasBackground": false,
+      "imageEvidence": {
+        "sourceClass": "retailer_product_packshot",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "cf639ea1ced5387fc88bbec68ddc44b634f907056cea548f9fc744354f7346b3",
+        "mapSha256": "d372af4a7150b35e3c5c4087559daaf74039530850eb1031487d360e1170241e",
+        "mapBytes": 6392,
+        "mapDimensions": [
+          66,
+          180
+        ],
+        "method": "white studio background alpha silhouette; original decoded RGB unchanged",
+        "originalRGBPreserved": true
+      },
+      "imageContentBounds": {
+        "width": 240,
+        "height": 650,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 650
+        },
+        "method": "transparent crop bounds"
+      },
+      "imageDerivation": {
+        "original": "/images/sparse-far-east-20261002/khab-dragon-original.webp",
+        "method": "white studio background alpha silhouette; original decoded RGB unchanged",
+        "backgroundRemoved": true
+      }
+    }
+  ]
+}

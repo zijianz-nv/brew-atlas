@@ -10,22 +10,28 @@ const point = (lat, lng, radius) => new Vector3(
   radius * Math.cos(lat * radians) * Math.cos(lng * radians));
 
 /** Plan a deliberate focus once, without moving the live camera or photo anchors.
- * A narrow island can have eligible images but no complete image-sized land slot
- * at the usual focus distance. Probe the exact existing placement rules, retaining
+ * Keep country context visible when opening details, including on tall phones.
+ * Probe the exact existing placement rules within that bounded range, retaining
  * identical photo sizes, coastal clearance, local routes and collision checks.
  * Ordinary camera changes never invoke this planner.
  */
 export function choosePhotoFocusAltitude({ camera, target, places, geographicMask,
-  width, height, radius = 100, initialAltitude = .6, minimumAltitude = .08,
+  width, height, radius = 100, initialAltitude = 1.5, minimumAltitude = 1.25,
   maximumAttempts = 9, layoutOptions = {} }) {
-  const fallback = { altitude: initialAltitude, found: false, attempts: [] };
+  // This floor applies only to deliberate photo focus, never manual zoom. A
+  // portrait screen needs a larger distance to retain similar geographic context.
+  const aspect = width > 0 && height > 0 ? Math.min(1, width / height) : 1;
+  const fov = Number.isFinite(camera?.fov) ? camera.fov : 50;
+  const portraitFloor = (Math.sqrt(1 + 1 / (aspect * .87 * Math.tan(fov * radians / 2)) ** 2) - 1) * .65;
+  const floor = Math.max(1.25, portraitFloor, minimumAltitude);
+  const first = Math.max(floor, initialAltitude);
+  const fallback = { altitude: first, found: false, attempts: [] };
   if (!camera?.clone || !target || !Number.isFinite(target.lat) || !Number.isFinite(target.lng)
     || !geographicMask?.contains || !(width > 0 && height > 0 && radius > 0)
     || !places?.some(place => place.id === target.id && place.photoBeers?.length)) return fallback;
   const probe = camera.clone(), attempts = [];
-  const first = Math.max(minimumAltitude, initialAltitude);
   for (let index = 0; index < maximumAttempts; index++) {
-    const altitude = Math.max(minimumAltitude, first * .76 ** index);
+    const altitude = Math.max(floor, first * .76 ** index);
     probe.position.copy(point(target.lat, target.lng, radius * (1 + altitude)));
     probe.lookAt(0, 0, 0); probe.updateMatrixWorld();
     const unproject = createSphereUnprojector(probe, width, height, radius);
@@ -45,7 +51,7 @@ export function choosePhotoFocusAltitude({ camera, target, places, geographicMas
     const targetPhotos = photos.filter(photo => photo.sourceId === target.id).length;
     attempts.push({ altitude, photos: photos.length, targetPhotos });
     if (targetPhotos) return { altitude, found: true, attempts };
-    if (altitude === minimumAltitude) break;
+    if (altitude === floor) break;
   }
   // Do not zoom helplessly into an unplaceable/offshore source. The usual focus
   // still lets the user explore; a source image or coordinate is never invented.

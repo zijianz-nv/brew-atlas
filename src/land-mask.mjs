@@ -72,16 +72,45 @@ export function createGeographicLandMask(features, { width = 4096, height = 2048
       }
     }
   }
+  return geographicSampler(data,{width,height,coastMargin});
+}
+
+function geographicSampler(data,{width,height,coastMargin,packed=false}) {
   return {
     width, height, coastMargin,
+    toPackedRaster() {
+      const bytes=new Uint8Array(20+Math.ceil(width*height/8));
+      bytes.set([66,82,69,87,76,65,78,68]); // BREWLAND, version 1
+      const header=new DataView(bytes.buffer);
+      header.setUint32(8,width,true);header.setUint32(12,height,true);
+      bytes[16]=coastMargin;bytes[17]=1;
+      if(packed)bytes.set(data,20);
+      else for(let i=0;i<data.length;i++)if(data[i])bytes[20+(i>>3)]|=1<<(i&7);
+      return bytes;
+    },
     contains(lng, lat) {
       if (!finite(lng) || !finite(lat) || lat < -90 || lat > 90) return false;
       const longitude = ((lng + 180) % 360 + 360) % 360;
       const x = Math.min(width - 1, Math.floor(longitude / 360 * width));
       const y = clamp(Math.floor((90 - lat) / 180 * height), 0, height - 1);
-      return data[y * width + x] === 1;
+      const index=y*width+x;
+      return packed ? (data[index>>3]&(1<<(index&7)))!==0 : data[index]===1;
     },
   };
+}
+
+/** Decode the exact precomputed geographic raster; no simplification or
+ * changed shoreline policy. The build artifact removes repeated scanline work
+ * from mobile startup while retaining every original land/water sample. */
+export function decodeGeographicLandMask(input) {
+  const bytes=input instanceof Uint8Array?input:new Uint8Array(input);
+  if(bytes.length<20||[66,82,69,87,76,65,78,68].some((v,i)=>bytes[i]!==v)||bytes[17]!==1)
+    throw new Error('Invalid geographic land raster header');
+  const header=new DataView(bytes.buffer,bytes.byteOffset,bytes.byteLength);
+  const width=header.getUint32(8,true),height=header.getUint32(12,true),coastMargin=bytes[16];
+  if(!width||!height||width*height>33554432||![0,1].includes(coastMargin)
+    ||bytes.length!==20+Math.ceil(width*height/8))throw new Error('Invalid geographic land raster dimensions');
+  return geographicSampler(bytes.subarray(20),{width,height,coastMargin,packed:true});
 }
 
 /** Label four-connected land cells. IDs are local to this screen-mask instance. */

@@ -115,24 +115,33 @@ function geographicLandRoute(mask, source) {
   const origin = half * side + half;
   queue[0] = origin; steps[origin] = 0; land[origin] = 1;
   let head = 0, tail = 1;
-  while (head < tail) {
-    const index = queue[head++], nextStep = steps[index] + 1;
-    if (nextStep > half) continue;
-    const x = index % side, y = Math.floor(index / side), from = pointAt(index);
-    for (const next of [x ? index - 1 : -1, x + 1 < side ? index + 1 : -1,
-      y ? index - side : -1, y + 1 < side ? index + side : -1]) {
-      if (next < 0 || steps[next] !== 65535 || !isLand(next)) continue;
-      const to = pointAt(next);
-      if (!geographicLandSegment(mask, from, to)) continue;
-      steps[next] = nextStep; queue[tail++] = next;
+  // Expand this exact same bounded graph only when a candidate needs it.
+  // Distant/offshore candidates used to build every route before being rejected.
+  // Keep the queue frontier so subsequent candidates resume the same BFS.
+  const exploreUntil = target => {
+    while (head < tail && steps[target] === 65535) {
+      const index = queue[head++], nextStep = steps[index] + 1;
+      if (nextStep > half) continue;
+      const x = index % side, y = Math.floor(index / side), from = pointAt(index);
+      for (const next of [x ? index - 1 : -1, x + 1 < side ? index + 1 : -1,
+        y ? index - side : -1, y + 1 < side ? index + side : -1]) {
+        if (next < 0 || steps[next] !== 65535 || !isLand(next)) continue;
+        const to = pointAt(next);
+        if (!geographicLandSegment(mask, from, to)) continue;
+        steps[next] = nextStep; queue[tail++] = next;
+      }
     }
-  }
+  };
   const route = { reaches(point) {
     if (!point || geographicDistance(source, point) > 300) return false;
     const difference = ((point.lng - source.lng + 540) % 360) - 180;
     const x = Math.round(difference / deltaLng) + half, y = Math.round((point.lat - source.lat) / deltaLat) + half;
-    if (x < 0 || y < 0 || x >= side || y >= side || steps[y * side + x] === 65535) return false;
-    const from = pointAt(y * side + x);
+    if (x < 0 || y < 0 || x >= side || y >= side) return false;
+    const target = y * side + x;
+    if (!isLand(target)) return false;
+    exploreUntil(target);
+    if (steps[target] === 65535) return false;
+    const from = pointAt(target);
     return geographicLandSegment(mask, from, point);
   } };
   if (routes.size >= 32) routes.delete(routes.keys().next().value);
@@ -184,11 +193,18 @@ function representativePhotos(members, selectedId) {
 
 /** Shared by layout and the renderer so continuous camera zoom uses one size. */
 export function photoDimensions({ zoom = 1, photoZoomBase = 1, compact = false } = {}) {
-  const basePhotoHeight = compact ? 14 : 16;
+  const basePhotoHeight = compact ? 14 : 26;
+  const baseZoom = finite(photoZoomBase) && photoZoomBase > 0 ? photoZoomBase : 1;
   const relativePhotoZoom = finite(zoom) && zoom > 0
-    ? zoom / (finite(photoZoomBase) && photoZoomBase > 0 ? photoZoomBase : 1) : 1;
-  const photoHeight = Math.round(clamp(basePhotoHeight * relativePhotoZoom,
-    basePhotoHeight, compact ? 32 : 40) * 100) / 100;
+    ? zoom / baseZoom : 1;
+  // Beyond the initial view, follow the sphere's projected radius instead of
+  // retaining a screen-pixel floor over a tiny Earth. With zoom=2.5/altitude,
+  // this is sqrt(home*(home+2)/(altitude*(altitude+2))), as in the sky scene.
+  const photoScale = relativePhotoZoom < 1
+    ? relativePhotoZoom * Math.sqrt((2.5 + 2 * baseZoom) / (2.5 + 2 * zoom))
+    : relativePhotoZoom;
+  const photoHeight = Math.max(.01, Math.round(Math.min(basePhotoHeight * photoScale,
+    compact ? 32 : 56) * 100) / 100);
   return { photoHeight, photoWidth: Math.round(photoHeight * 0.52 * 100) / 100 };
 }
 
@@ -476,7 +492,8 @@ export function layoutMapMarkers(entries, {
       sources.get(photo.place.id).push(photo);
     }
     return { group, sources: [...sources.values()] };
-  });
+  }).sort((a,b)=>Number(b.group.entry.id===selectedId)-Number(a.group.entry.id===selectedId)
+    ||compareBeerPhotoRank(a.group.available[0]?.beer,b.group.available[0]?.beer));
   const firstRound = allocate => {
     for (let index = 0; firstPass.some(item => index < item.sources.length); index++) {
       for (const { group, sources } of firstPass) {

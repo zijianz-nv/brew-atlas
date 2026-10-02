@@ -1,0 +1,237 @@
+{
+  "metadata": {
+    "checkedAt": "2026-10-02",
+    "purpose": "Algerian locally brewed products with photographed bottle/can; sparse North Africa first batch",
+    "breweries": 1,
+    "beers": 2
+  },
+  "breweries": [
+    {
+      "id": "sparse-africa-tango-rouiba",
+      "name": "SARL Tango",
+      "country": "Algeria",
+      "countryZh": "阿尔及利亚",
+      "countryCode": "DZ",
+      "city": "Rouïba",
+      "cityZh": "鲁伊巴",
+      "lat": 36.73333333,
+      "lng": 3.28333333,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationEvidence": {
+        "city": "Rouïba",
+        "countryCode": "DZ",
+        "lat": 36.73333333,
+        "lng": 3.28333333,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://www.sarltango.com/contact",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Rou%C3%AFba",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/sparse-africa-20261002/coordinates.json",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "由阿尔及利亚Rouïba的SARL Tango本土酒厂生产。母公司官方页面确认其阿尔及利亚酿酒业务，官网列出本款产品与配方。地图采用Rouïba城市参考点，不声称酒厂门牌的精确位置。属于工业啤酒参考，不标作独立精酿。"
+      },
+      "website": "https://www.sarltango.com/",
+      "description": "由阿尔及利亚Rouïba的SARL Tango本土酒厂生产。母公司官方页面确认其阿尔及利亚酿酒业务，官网列出本款产品与配方。地图采用Rouïba城市参考点，不声称酒厂门牌的精确位置。属于工业啤酒参考，不标作独立精酿。",
+      "sourceUrls": [
+        "https://www.sarltango.com/contact",
+        "https://careers.theheinekencompany.com/English/Tango"
+      ],
+      "craftStatus": "industrial_reference"
+    }
+  ],
+  "beers": [
+    {
+      "id": "sparse-africa-tango-algeria",
+      "name": "Tango Bière Blonde Algérienne",
+      "breweryId": "sparse-africa-tango-rouiba",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pale Lager",
+      "styleZh": "淡色拉格",
+      "abv": 4.5,
+      "ibu": null,
+      "srm": null,
+      "description": "阿尔及利亚SARL Tango酿造的Tango金色啤酒。本条对应标签明确写着“Bière Blonde Algérienne”的25厘升、4.5%瓶装版；官网列出水、大麦芽、糖、啤酒花及麦芽提取物。实物图来自零售目录，产地依据为生产者官网与瓶标，不把法国零售地点当成产地。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.sarltango.com/tango",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/sparse-africa-20261002/tango.html",
+        "sourceSha256": "3e09255917d570522b60ffaa5afa9aaf09b152c3acec5e6434b4b1b098d751a7",
+        "sourceType": "official_product_description",
+        "retrievedAt": "2026-10-02"
+      },
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [
+        "Barley malt"
+      ],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Rouïba",
+        "countryCode": "DZ",
+        "lat": 36.73333333,
+        "lng": 3.28333333,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://www.sarltango.com/contact",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Rou%C3%AFba",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/sparse-africa-20261002/coordinates.json",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "由阿尔及利亚Rouïba的SARL Tango本土酒厂生产。母公司官方页面确认其阿尔及利亚酿酒业务，官网列出本款产品与配方。地图采用Rouïba城市参考点，不声称酒厂门牌的精确位置。属于工业啤酒参考，不标作独立精酿。"
+      },
+      "sourceUrls": [
+        "https://www.sarltango.com/tango",
+        "https://www.sarltango.com/contact",
+        "https://careers.theheinekencompany.com/English/Tango",
+        "https://www.metro.fr/marketplace/product/338fa364-024f-420a-884e-1ced101d3f54"
+      ],
+      "sourceNote": "由阿尔及利亚Rouïba的SARL Tango本土酒厂生产。母公司官方页面确认其阿尔及利亚酿酒业务，官网列出本款产品与配方。地图采用Rouïba城市参考点，不声称酒厂门牌的精确位置。属于工业啤酒参考，不标作独立精酿。 图片原始来源及本土版本独立核对，未填未知风味或上市年。",
+      "image": "/images/sparse-africa-20261002/tango-card.webp",
+      "imageThumbnail": "/images/sparse-africa-20261002/tango-map.webp",
+      "imageOriginal": "/images/sparse-africa-20261002/tango-original.jpg",
+      "imageKind": "product_packshot",
+      "imageCacheStatus": "cached",
+      "imageSource": "https://www.metro.fr/marketplace/product/338fa364-024f-420a-884e-1ced101d3f54",
+      "imageDownloadUrl": "https://images.metro-marketplace.eu/item_image/2abc2648-68e8-4c89-8def-f4a998030479?impolicy=pdp_mobile_main_preview&imwidth=768",
+      "imageCredit": "Tango同款实物瓶图：METRO；原图保留，Python只分离背景。",
+      "imageLicense": null,
+      "imageEvidence": {
+        "sourceClass": "retailer_product_packshot",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "14919b03d5ecfa3c15d4405d5bf766db4b447e7354264ed10d4821957cc8f5fe",
+        "mapSha256": "a70dd490187ecfb315563c04d034ef9aa08649b2fb7de8e7fd614e43885449ec",
+        "mapBytes": 3574,
+        "mapDimensions": [
+          54,
+          180
+        ],
+        "method": "manually reviewed bottle/can outline mask on original photo; retain RGB; remove external background; crop and resize; no redrawn packaging",
+        "originalRGBPreserved": true
+      },
+      "imageContentBounds": {
+        "width": 195,
+        "height": 650,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 195,
+          "height": 650
+        },
+        "method": "manually reviewed bottle/can outline mask on original photo; retain RGB; remove external background; crop and resize; no redrawn packaging"
+      }
+    },
+    {
+      "id": "sparse-africa-barbarossa-12-algeria",
+      "name": "Barba Rossa King 12%",
+      "breweryId": "sparse-africa-tango-rouiba",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Strong Beer",
+      "styleZh": "高酒精度啤酒",
+      "abv": 12,
+      "ibu": null,
+      "srm": null,
+      "description": "阿尔及利亚SARL Tango官网Barbarossa 12%对应的Barba Rossa King实物罐装，照片可读12%、50厘升与阿拉伯文包装。官网配方列水、大麦芽、糖、啤酒花及麦芽提取物。未取得可核实的详细品饮词与IBU，保持未知；不将8%的Imperator混成同款。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.sarltango.com/barbarossa-12",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/sparse-africa-20261002/barbarossa-12.html",
+        "sourceSha256": "28f2321e763eb9b8cdc13433407627f95df8a3d1e2cd9d48680ef6a827dcbd26",
+        "sourceType": "official_product_description",
+        "retrievedAt": "2026-10-02"
+      },
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [
+        "Barley malt"
+      ],
+      "yeast": null,
+      "foodPairings": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Rouïba",
+        "countryCode": "DZ",
+        "lat": 36.73333333,
+        "lng": 3.28333333,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://www.sarltango.com/contact",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Rou%C3%AFba",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/sparse-africa-20261002/coordinates.json",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "由阿尔及利亚Rouïba的SARL Tango本土酒厂生产。母公司官方页面确认其阿尔及利亚酿酒业务，官网列出本款产品与配方。地图采用Rouïba城市参考点，不声称酒厂门牌的精确位置。属于工业啤酒参考，不标作独立精酿。"
+      },
+      "sourceUrls": [
+        "https://www.sarltango.com/barbarossa-12",
+        "https://www.sarltango.com/contact",
+        "https://careers.theheinekencompany.com/English/Tango",
+        "https://untappd.com/w/sarl-tango/137506/photos"
+      ],
+      "sourceNote": "由阿尔及利亚Rouïba的SARL Tango本土酒厂生产。母公司官方页面确认其阿尔及利亚酿酒业务，官网列出本款产品与配方。地图采用Rouïba城市参考点，不声称酒厂门牌的精确位置。属于工业啤酒参考，不标作独立精酿。 图片原始来源及本土版本独立核对，未填未知风味或上市年。",
+      "image": "/images/sparse-africa-20261002/barbarossa-12-card.webp",
+      "imageThumbnail": "/images/sparse-africa-20261002/barbarossa-12-map.webp",
+      "imageOriginal": "/images/sparse-africa-20261002/barbarossa-12-original.jpg",
+      "imageKind": "product_packshot",
+      "imageCacheStatus": "cached",
+      "imageSource": "https://untappd.com/w/sarl-tango/137506/photos",
+      "imageDownloadUrl": "https://assets.untappd.com/photos/2026_01_26/560ecbd07518b6ed3110c3652cfd709d_c_1545903236_raw.jpg",
+      "imageCredit": "Barba Rossa King同款实物罐照：Untappd公开check-in；原图保留，Python只分离背景。",
+      "imageLicense": null,
+      "imageEvidence": {
+        "sourceClass": "public_checkin_product_photo",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "e4e1b667a484cf82d9e48bf1f1cf38af929d6bd7bb64155354239095678a654b",
+        "mapSha256": "87566e010c5b855224542a1ad29fca7cfaeb8700c2ea4425cb4358d5b8d20ed7",
+        "mapBytes": 4852,
+        "mapDimensions": [
+          67,
+          180
+        ],
+        "method": "manually reviewed bottle/can outline mask on original photo; retain RGB; remove external background; crop and resize; no redrawn packaging",
+        "originalRGBPreserved": true
+      },
+      "imageContentBounds": {
+        "width": 242,
+        "height": 650,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 242,
+          "height": 650
+        },
+        "method": "manually reviewed bottle/can outline mask on original photo; retain RGB; remove external background; crop and resize; no redrawn packaging"
+      }
+    }
+  ]
+}

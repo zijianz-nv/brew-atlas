@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "checkedAt": "2026-10-02",
+    "method": "Reviewed exact official product-level first-brewed or release claims; brewery founding and vintage years excluded."
+  },
+  "entries": [
+    {
+      "beerId": "guinness",
+      "year": 1959,
+      "kind": "first_brewed",
+      "claim": "官网明确说明 Guinness Draught 于 1959 年首次酿造。",
+      "sourceUrl": "https://www.guinness.com/en-gb/beers/guinness-draught",
+      "checkedAt": "2026-10-02"
+    },
+    {
+      "beerId": "urquell",
+      "year": 1842,
+      "kind": "first_brewed",
+      "claim": "官网将 Pilsner Urquell 的首款金色皮尔森与 1842 年相联系。",
+      "sourceUrl": "https://www.pilsnerurquell.com/",
+      "checkedAt": "2026-10-02"
+    },
+    {
+      "beerId": "lindemans-kriek",
+      "year": 1979,
+      "kind": "first_release",
+      "claim": "官网标明自 1979 年，并明确叙述该年创制 Lindemans Kriek。",
+      "sourceUrl": "https://lindemans.be/fr-be/pages/lindemans-kriek",
+      "checkedAt": "2026-10-02"
+    },
+    {
+      "beerId": "stone-fml",
+      "year": 2018,
+      "kind": "first_release",
+      "claim": "官方产品页 Release Date 为 June 4, 2018；这是产品发布年。",
+      "sourceUrl": "https://www.stonebrewing.com/beer/year-round-releases/stone-fearmovielions-hazy-double-ipa",
+      "checkedAt": "2026-10-02"
+    },
+    {
+      "beerId": "ij-zatte",
+      "year": 1985,
+      "kind": "first_brewed",
+      "claim": "官方 Zatte 页面说明该款为 1985 年从酒厂酒罐流出的第一款啤酒。",
+      "sourceUrl": "https://www.brouwerijhetij.nl/en/our-beers/zatte-tripel",
+      "checkedAt": "2026-10-02"
+    },
+    {
+      "beerId": "orval",
+      "year": 1931,
+      "kind": "first_brewed",
+      "claim": "官网不仅说明酒厂成立于 1931 年，还明确写该款啤酒首次酿造于 1931 年。",
+      "sourceUrl": "https://www.orval.be/en/page/447-orval-brewery",
+      "checkedAt": "2026-10-02"
+    },
+    {
+      "beerId": "dupont-saison",
+      "year": 1844,
+      "kind": "first_brewed",
+      "claim": "官方 Saison Dupont 产品页说明此酒自 1844 年在农场酒厂酿造。",
+      "sourceUrl": "https://www.brasserie-dupont.com/saison-dupont/",
+      "checkedAt": "2026-10-02"
+    }
+  ]
+}

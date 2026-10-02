@@ -1,0 +1,166 @@
+{
+  "entries": [
+    {
+      "beerId": "curated-representative-official-sierra-nevada-pale-ale",
+      "year": 1980,
+      "kind": "first_release",
+      "sourceUrl": "https://sierranevada.com/blog/our-beer/golden-vs-pale-ale",
+      "claim": "Sierra Nevada 官方文章明确称 Pale Ale 是其在 1980 年首次发布的啤酒；并非仅引用酒厂成立年。",
+      "checkedAt": "2026-10-02"
+    },
+    {
+      "beerId": "duvel",
+      "year": 1923,
+      "kind": "first_brewed",
+      "sourceUrl": "https://www.duvel.com/en-us/history",
+      "claim": "Duvel 官方历史记载，1923 年开始生产 Duvel，最初只有数箱；不是 Moortgat 酒厂 1871 年成立时间。",
+      "checkedAt": "2026-10-02"
+    },
+    {
+      "beerId": "curated-representative-official-westmalle-tripel",
+      "year": 1934,
+      "kind": "first_release",
+      "sourceUrl": "https://www.trappistwestmalle.be/trappistenbieren/",
+      "claim": "Westmalle 官方历史说明，1934 年启用新酿造设施时推出新酒 Westmalle Tripel；不是酒厂 1836 年开始酿酒的年份。",
+      "checkedAt": "2026-10-02"
+    },
+    {
+      "beerId": "guinness",
+      "year": 1959,
+      "kind": "first_brewed",
+      "sourceUrl": "https://www.guinness.com/en-ca/beers/guinness-draught",
+      "claim": "Guinness 官方 Draught 产品页明确记载该款首次酿造于 1959 年；1759 年为酒厂租约年份，不用于此款。",
+      "checkedAt": "2026-10-02"
+    },
+    {
+      "beerId": "urquell",
+      "year": 1842,
+      "kind": "first_brewed",
+      "sourceUrl": "https://www.pilsnerurquell.com/stories/how-pilsner-urquell-changed-beer-forever/",
+      "claim": "Pilsner Urquell 官方故事记载 Josef Groll 在 1842 年首次酿造该酒。",
+      "checkedAt": "2026-10-02"
+    },
+    {
+      "beerId": "unibroue-maudite",
+      "year": 1992,
+      "kind": "first_release",
+      "sourceUrl": "https://www.unibroue.com/en-us/our-story",
+      "claim": "Unibroue 官方历史在 1992 年段落记载推出 Maudite；Maudite 为当年秋季上市。",
+      "checkedAt": "2026-10-02"
+    },
+    {
+      "beerId": "unibroue-blanche",
+      "year": 1992,
+      "kind": "first_release",
+      "sourceUrl": "https://www.unibroue.com/en-us/our-story",
+      "claim": "Unibroue 官方历史在 1992 年段落记载推出 Blanche de Chambly；Maudite 为当年秋季上市。",
+      "checkedAt": "2026-10-02"
+    },
+    {
+      "beerId": "off-group-9d2770f9e95548af",
+      "year": 1994,
+      "kind": "first_release",
+      "sourceUrl": "https://www.unibroue.com/en-us/our-story",
+      "claim": "官方历史记载经典 La Fin du Monde 于 1994 年推出。本条仅绑定同名经典酒，不绑定另一款 Ce n’est pas La Fin du Monde。",
+      "checkedAt": "2026-10-02"
+    },
+    {
+      "beerId": "archive-001",
+      "year": 2007,
+      "kind": "first_brewed",
+      "sourceUrl": "https://brewdogmedia.s3.eu-west-2.amazonaws.com/docs/2019+DIY+DOG+-+V8.pdf",
+      "claim": "BrewDog 官方 DIY Dog 第 1 号配方明确写 FIRST BREWED APRIL 2007；仅匹配 6% 的 Punk IPA 2007–2010 历史配方。",
+      "checkedAt": "2026-10-02",
+      "meaning": "recipe_version"
+    },
+    {
+      "beerId": "archive-002",
+      "year": 2010,
+      "kind": "first_brewed",
+      "sourceUrl": "https://brewdogmedia.s3.eu-west-2.amazonaws.com/docs/2019+DIY+DOG+-+V8.pdf",
+      "claim": "BrewDog 官方 DIY Dog 第 2 号配方明确写 FIRST BREWED OCTOBER 2010；仅匹配 5.6% 的 Punk IPA 2010–Current 历史配方，不等同现售 5.4% 配方。",
+      "checkedAt": "2026-10-02",
+      "meaning": "recipe_version"
+    },
+    {
+      "beerId": "orval",
+      "year": 1931,
+      "kind": "first_brewed",
+      "sourceUrl": "https://www.orval.be/en/page/447-orval-brewery",
+      "claim": "Orval 官方啤酒介绍明确写该酒首次酿造于 1931 年。本条采用首次酿造口径，不混用常见的 1932 年首次外运说法。",
+      "checkedAt": "2026-10-02"
+    },
+    {
+      "beerId": "chouffe",
+      "year": 1982,
+      "kind": "first_brewed",
+      "sourceUrl": "https://chouffe.com/en-gb/about-us/our-story/",
+      "claim": "Chouffe 官方历史记载 La Chouffe 的首批酿造日期为 1982 年 8 月 27 日；33cl 包装在 2009 年上市不是此款诞生年份。",
+      "checkedAt": "2026-10-02"
+    },
+    {
+      "beerId": "stone-fml",
+      "year": 2018,
+      "kind": "first_release",
+      "sourceUrl": "https://www.stonebrewing.com/beer/year-round-releases/stone-fearmovielions-hazy-double-ipa",
+      "claim": "Stone 官方产品页标注 Release Date 为 2018 年 6 月 4 日。",
+      "checkedAt": "2026-10-02"
+    },
+    {
+      "beerId": "regional-usa-bells-hazy",
+      "year": 2022,
+      "kind": "first_release",
+      "sourceUrl": "https://bellsbeer.com/wp-content/uploads/2022/12/Hazy-Hearted-release_final.pdf",
+      "claim": "Bell’s 2022 年 12 月 15 日发布稿宣布 Hazy Hearted 当周在密歇根上市，次年扩大至五大湖地区；首次上市采用 2022。",
+      "checkedAt": "2026-10-02"
+    },
+    {
+      "beerId": "regional-usa-bells-big",
+      "year": 2022,
+      "kind": "first_release",
+      "sourceUrl": "https://bellsbeer.com/wp-content/uploads/2022/12/Hazy-Hearted-release_final.pdf",
+      "claim": "Bell’s 2022 年 12 月 15 日发布稿将 Big Hearted 列为当周全国上市的 Hearted IPA Variety Pack 新酒；2023 年成为全年单独销售系列不是首发。",
+      "checkedAt": "2026-10-02"
+    },
+    {
+      "beerId": "regional-usa-bells-eclipse",
+      "year": 2023,
+      "kind": "first_release",
+      "sourceUrl": "https://bellsbeer.com/culture/get-to-know-oberon-eclipse/",
+      "claim": "Bell’s 2023 年 10 月 12 日官方介绍说明当年秋季推出 Oberon Eclipse；本条不套用原版 Oberon 的年份。",
+      "checkedAt": "2026-10-02"
+    },
+    {
+      "beerId": "off-group-e2febc0d94c055db",
+      "year": 2009,
+      "kind": "first_release",
+      "sourceUrl": "https://sierranevada.com/blog/our-beer/what-is-dry-hopping",
+      "claim": "Sierra Nevada 官方干投酒花文章明确写 Torpedo Extra IPA 于 2009 年推出。",
+      "checkedAt": "2026-10-02"
+    },
+    {
+      "beerId": "global-ae-angkor-stout",
+      "year": 1994,
+      "kind": "first_release",
+      "sourceUrl": "https://www.carlsberggroup.com/products/angkor/angkor-extra-stout/",
+      "claim": "酿造商官方 Angkor Extra Stout 产品资料标注 Since: 1994，并说明该款自 1994 年推出。",
+      "checkedAt": "2026-10-02"
+    },
+    {
+      "beerId": "global-ae-svyturys-extra",
+      "year": 1995,
+      "kind": "first_release",
+      "sourceUrl": "https://www.carlsberggroup.com/products/svyturys/svyturys-ekstra/",
+      "claim": "生产商官方 Švyturys Ekstra 产品页明确写该酒于 1995 年推出；不是酒厂创立年份。",
+      "checkedAt": "2026-10-02"
+    },
+    {
+      "beerId": "global-ae-beerlao-green",
+      "year": 2023,
+      "kind": "first_release",
+      "sourceUrl": "https://www.beerlao.la/products/?p=1",
+      "claim": "Beerlao 官方产品页说明 Beerlao Green 于 2023 年推出；不套用标准 Beerlao 的 1973 年。",
+      "checkedAt": "2026-10-02"
+    }
+  ]
+}

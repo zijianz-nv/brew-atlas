@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "images": {
+    "/images/regional/saldens-citra-mosaic-dipa.jpg": {
+      "width": 1500,
+      "height": 1500,
+      "bounds": {
+        "x": 520,
+        "y": 230,
+        "width": 450,
+        "height": 1090
+      },
+      "originalSha256": "e324b64b193aad123f18a82da2a4e29404bf6b7908c06395cbda48eda918bfe7",
+      "method": "visually_reviewed_product_bounds",
+      "reviewedAt": "2026-10-02",
+      "note": "Product framing reviewed against the complete original photo. Display-only crop removes surrounding backdrop; source image bytes are unchanged."
+    },
+    "/images/regional/saldens-aipa-4c.jpg": {
+      "width": 1500,
+      "height": 1501,
+      "bounds": {
+        "x": 520,
+        "y": 230,
+        "width": 450,
+        "height": 1090
+      },
+      "originalSha256": "c6b7586e3878107ae938c71a33bacc9e8757c27be64a36cc942421e39a9f07cb",
+      "method": "visually_reviewed_product_bounds",
+      "reviewedAt": "2026-10-02",
+      "note": "Product framing reviewed against the complete original photo. Display-only crop removes surrounding backdrop; source image bytes are unchanged."
+    },
+    "/images/regional/saldens-tears-of-liberty.jpg": {
+      "width": 1500,
+      "height": 1501,
+      "bounds": {
+        "x": 520,
+        "y": 230,
+        "width": 450,
+        "height": 1090
+      },
+      "originalSha256": "07ed8bdc3d768cc8c26f31a83c750ec4fa053c6770ddb5372f336b5d9fb04d1e",
+      "method": "visually_reviewed_product_bounds",
+      "reviewedAt": "2026-10-02",
+      "note": "Product framing reviewed against the complete original photo. Display-only crop removes surrounding backdrop; source image bytes are unchanged."
+    },
+    "/images/regional/saldens-six-hops.jpg": {
+      "width": 1500,
+      "height": 1500,
+      "bounds": {
+        "x": 520,
+        "y": 230,
+        "width": 450,
+        "height": 1090
+      },
+      "originalSha256": "ed79ec421502d5c22975b3e0fb2e5a5f6f845ba0f483d9e7a8281efe2c356451",
+      "method": "visually_reviewed_product_bounds",
+      "reviewedAt": "2026-10-02",
+      "note": "Product framing reviewed against the complete original photo. Display-only crop removes surrounding backdrop; source image bytes are unchanged."
+    },
+    "/images/regional/saldens-grapefruit-dipa.jpg": {
+      "width": 1500,
+      "height": 1500,
+      "bounds": {
+        "x": 520,
+        "y": 230,
+        "width": 450,
+        "height": 1090
+      },
+      "originalSha256": "156e350c4be180978b532b44912328bb0cf1bf9c72dc0d8fe6cec59599622d73",
+      "method": "visually_reviewed_product_bounds",
+      "reviewedAt": "2026-10-02",
+      "note": "Product framing reviewed against the complete original photo. Display-only crop removes surrounding backdrop; source image bytes are unchanged."
+    },
+    "/images/regional/maui-light.jpg": {
+      "width": 980,
+      "height": 1318,
+      "bounds": {
+        "x": 300,
+        "y": 10,
+        "width": 680,
+        "height": 1280
+      },
+      "originalSha256": "ee2f442228fb70345c1f69346d16f3226630e6a0708285a6163672b7b5605606",
+      "method": "visually_reviewed_product_bounds",
+      "reviewedAt": "2026-10-02",
+      "note": "Product framing reviewed against the complete original photo. Display-only crop removes surrounding backdrop; source image bytes are unchanged."
+    },
+    "/images/regional/maui-omg.jpg": {
+      "width": 980,
+      "height": 1318,
+      "bounds": {
+        "x": 300,
+        "y": 10,
+        "width": 680,
+        "height": 1280
+      },
+      "originalSha256": "9072b7e41f75f2097072172ca6ba852708a802a5c9fa6a8d94c840fc96d95591",
+      "method": "visually_reviewed_product_bounds",
+      "reviewedAt": "2026-10-02",
+      "note": "Product framing reviewed against the complete original photo. Display-only crop removes surrounding backdrop; source image bytes are unchanged."
+    },
+    "/images/regional/maui-rainbows.png": {
+      "width": 235,
+      "height": 316,
+      "bounds": {
+        "x": 68,
+        "y": 0,
+        "width": 167,
+        "height": 316
+      },
+      "originalSha256": "9d661bb9a86a1df8faa1854ece351442689195eb1a5bf6407d040d2653e88128",
+      "method": "visually_reviewed_product_bounds",
+      "reviewedAt": "2026-10-02",
+      "note": "Display framing includes the can and excludes the decorative brand circle at left; unchanged source image."
+    }
+  }
+}

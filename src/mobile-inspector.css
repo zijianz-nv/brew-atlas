@@ -1,0 +1,113 @@
+/* Import after styles.css and year-filter.css in the app entry:
+ *   import './mobile-inspector.css';
+ * Existing inspector markup is unchanged. At <=600px this becomes a compact
+ * bottom sheet. Its full contents remain scrollable; the long introduction
+ * has a three-line scroll window, never a destructive ellipsis/line clamp.
+ * Desktop/tablet styles and the image component's content-fit crop are intact.
+ */
+@media (max-width:600px) {
+  .inspector.detail-open {
+    top:auto;
+    right:8px;
+    bottom:0;
+    left:8px;
+    width:auto;
+    height:auto;
+    max-height:56vh;
+    max-height:56dvh;
+    padding-bottom:0;
+    border-radius:16px 16px 0 0;
+    border-bottom:0;
+    box-shadow:0 -8px 32px #0005;
+    overflow-x:hidden;
+    overflow-y:auto;
+    overscroll-behavior-y:contain;
+    scroll-padding-top:52px;
+    -webkit-overflow-scrolling:touch;
+  }
+  .detail-backdrop { background:#0614162b; }
+  .inspector.detail-open .inspector-top {
+    position:sticky;
+    top:0;
+    z-index:4;
+    height:44px;
+    min-height:44px;
+    padding:0 6px 0 14px;
+    border-bottom:1px solid #ffffff0b;
+    border-radius:15px 15px 0 0;
+    background:#192d2efc;
+  }
+  .inspector.detail-open .inspector-top .icon-button {
+    width:44px;
+    height:44px;
+  }
+  .inspector.detail-open .inspector-hero {
+    height:112px;
+    margin:6px 12px 0;
+    border-radius:8px;
+  }
+  .inspector.detail-open .hero-bottle {
+    height:100px;
+    max-width:min(76%,220px);
+    filter:drop-shadow(2px 4px 3px #62562c32);
+  }
+  .inspector.detail-open .inspector-hero.no-photo { height:84px; }
+  .inspector.detail-open .no-photo .hero-bottle {
+    height:72px;
+    min-height:60px;
+  }
+  .inspector.detail-open .bottle-aura { width:94px;height:94px; }
+  .inspector.detail-open .bottle-aura:after { inset:8px; }
+  .inspector.detail-open .hero-save {
+    top:4px;
+    right:4px;
+    width:44px;
+    height:44px;
+  }
+  .inspector.detail-open .inspector-body {
+    padding:10px 16px calc(18px + env(safe-area-inset-bottom,0px));
+  }
+  .inspector.detail-open .detail-location { font-size:10px;line-height:1.4; }
+  .inspector.detail-open h2 {
+    font-size:19px;
+    line-height:1.25;
+    letter-spacing:-.2px;
+    margin:6px 0 4px;
+  }
+  .inspector.detail-open .detail-style { font-size:11px;line-height:1.5; }
+  .inspector.detail-open .beer-launch-year { font-size:10px;margin:6px 0 9px;line-height:1.6; }
+  .inspector.detail-open .beer-stats { margin:12px 0 10px; }
+  .inspector.detail-open .beer-stats>div+div { padding-left:16px; }
+  .inspector.detail-open .beer-stats strong { font-size:22px;line-height:1.2; }
+  .inspector.detail-open .beer-stats strong.missing-value { font-size:16px;min-height:27px; }
+  .inspector.detail-open .beer-stats strong small { font-size:11px; }
+  .inspector.detail-open .beer-stats span { font-size:9px;margin-top:3px; }
+  .inspector.detail-open .detail-tabs { margin-bottom:10px;gap:22px; }
+  .inspector.detail-open .detail-tabs button { min-height:44px;padding:10px 0;font-size:11px; }
+  .inspector.detail-open .beer-awards { margin:10px 0; }
+  .inspector.detail-open .beer-awards>h3 { margin:0 0 5px;font-size:11px; }
+  .inspector.detail-open .award-record { padding:8px 0;gap:5px 10px; }
+  .inspector.detail-open .award-record strong { font-size:12px; }
+  .inspector.detail-open .award-rating b { font-size:18px; }
+  .inspector.detail-open .taxonomy-detail { margin-bottom:10px; }
+  .inspector.detail-open .taxonomy-row { gap:9px;padding:6px 0; }
+  .inspector.detail-open .tasting-note {
+    font-size:12px;
+    line-height:1.7;
+    max-height:5.1em;
+    overflow-y:auto;
+    margin:12px 0;
+    padding-right:5px;
+    scrollbar-width:thin;
+    -webkit-overflow-scrolling:touch;
+  }
+  .inspector.detail-open .brewery-story>p { font-size:12px;line-height:1.7;margin:12px 0; }
+  .inspector.detail-open .brewery-story h3 { font-size:16px;margin:12px 0 8px; }
+  .inspector.detail-open .catalog-note { padding:8px 0;font-size:10px;line-height:1.7; }
+  .inspector.detail-open .recipe-details { margin-top:12px;padding-top:10px; }
+  .inspector.detail-open .detail-actions { margin-top:14px; }
+  .inspector.detail-open .detail-actions button { min-height:44px;font-size:11px; }
+  .inspector.detail-open .similar { margin-top:16px;padding-top:12px; }
+  .inspector.detail-open .similar h4 { margin-bottom:10px; }
+  .inspector.detail-open .similar .beer-photo { height:64px; }
+}

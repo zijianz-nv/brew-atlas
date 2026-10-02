@@ -1,0 +1,489 @@
+{
+  "metadata": {
+    "checkedAt": "2026-10-02",
+    "policy": "Replace exact products only. Original historical photos and new downloaded originals retained; no generative reconstruction; product rights remain with source owners."
+  },
+  "images": [
+    {
+      "beerId": "guinness",
+      "previousImage": "/images/world-guinness.jpg",
+      "newImage": "/images/world-replacements/guinness-card.webp",
+      "imageOriginal": "/images/world-replacements/guinness-transparent.png",
+      "imageThumbnail": "/images/world-replacements/guinness-map.webp",
+      "sourceImage": "/images/world-replacements/guinness-diageo.png",
+      "sourceUrl": "https://www.diageo.com/en/our-brands/beer/guinness",
+      "imageDownloadUrl": "https://www.diageo.com/~/media/Images/D/Diageo-V2/Universal/product-carousel/guinness-draught-big.png",
+      "imageCredit": "Diageo / Guinness official product packshot",
+      "sha256": "8fbb2c64c898960b985374a40ff4a2837c58f279dd7d84debe3b3ffdc6cf4fc4",
+      "fullSha256": "66b115a1292a423e78063c2d57555b9f846b5fe9c1e235fb4dd60346df4033f5",
+      "sourceSha256": "337736ad0720de06336e9e7510aee071bd188d4308702853b462440d78acd4b1",
+      "thumbnailSha256": "b536b4a29d255b932463a83dab48e718ad701f57e14c5198a58865f35f871c8d",
+      "imageContentBounds": {
+        "width": 286,
+        "height": 556,
+        "bounds": {
+          "x": 36,
+          "y": 5,
+          "width": 218,
+          "height": 545
+        },
+        "fullAlphaBounds": {
+          "x": 40,
+          "y": 10,
+          "width": 210,
+          "height": 535
+        },
+        "bodyAlphaBounds": {
+          "x": 41,
+          "y": 10,
+          "width": 208,
+          "height": 535
+        },
+        "alphaThreshold": 64,
+        "paddingPixels": 5,
+        "sourceMode": "RGBA",
+        "method": "decoded_alpha_body_with_padding",
+        "originalSha256": "8fbb2c64c898960b985374a40ff4a2837c58f279dd7d84debe3b3ffdc6cf4fc4",
+        "note": "Display framing excludes faint remote shadows; original image bytes are unchanged."
+      },
+      "imageEvidence": {
+        "sourceUrl": "https://www.diageo.com/en/our-brands/beer/guinness",
+        "downloadUrl": "https://www.diageo.com/~/media/Images/D/Diageo-V2/Universal/product-carousel/guinness-draught-big.png",
+        "sourceKind": "official_product",
+        "imageKind": "product_photo",
+        "originalSha256": "337736ad0720de06336e9e7510aee071bd188d4308702853b462440d78acd4b1",
+        "sha256": "8fbb2c64c898960b985374a40ff4a2837c58f279dd7d84debe3b3ffdc6cf4fc4",
+        "originalFileRetained": true,
+        "derivative": true,
+        "cacheStatus": "cached",
+        "capturedAt": "2026-10-02",
+        "note": "New verified photograph of the exact product; replacement for the old obscured/cropped/glass-only photo. This does not preserve RGB of the old photo. The new downloaded photo is retained unchanged; only its alpha is changed for package isolation.",
+        "visualReview": "Matched exact named product and inspected isolated package on light and dark backgrounds."
+      },
+      "processing": {
+        "method": "publisher-transparent-packshot",
+        "parameters": {},
+        "newSourceRGBPreserved": true,
+        "oldSourcePreserved": true,
+        "thumbnailBytes": 9832,
+        "reviewEvidence": ".runtime/cutouts-existing/replacement-guinness-review.png"
+      },
+      "reviewed": true,
+      "reviewedAt": "2026-10-02",
+      "previousSha256": "fa51ee36f362f980a448473f4d546af09259153231b83654223fadf5c707fecc"
+    },
+    {
+      "beerId": "ij-ipa",
+      "previousImage": "/images/world-ij-ipa.jpg",
+      "newImage": "/images/world-replacements/ij-ipa-card.webp",
+      "imageOriginal": "/images/world-replacements/ij-ipa-transparent.png",
+      "imageThumbnail": "/images/world-replacements/ij-ipa-map.webp",
+      "sourceImage": "/images/world-replacements/ij-ipa-source.png",
+      "sourceUrl": "https://www.brouwerijhetij.nl/en/our-beers/ipa",
+      "imageDownloadUrl": "https://img.imageboss.me/brouwerij-het-ij-assets/cdn/format:auto/images/Bieren/IPA/Nieuw-label/brouwerijtij-ipa-fles-nieuw.png",
+      "imageCredit": "Brouwerij 't IJ official IPA product packshot",
+      "sha256": "75a7661f39573cde55c9e537fe554e66be4223c596c6da6bb42015336c2af288",
+      "fullSha256": "ed07b2eccdd0e78f7956da3446378b7bd8824c1b4060a804a88949dc04290038",
+      "sourceSha256": "c8676da9e5f45f565aef94dfc6a0f5f9603074ebb03d3760a2a1febd8950ec7a",
+      "thumbnailSha256": "a4cdd2e1b88b02f50a81569089ff80f900ed70d7b2557f97227918d90b0f0ef9",
+      "imageContentBounds": {
+        "width": 350,
+        "height": 800,
+        "bounds": {
+          "x": 80,
+          "y": 47,
+          "width": 187,
+          "height": 670
+        },
+        "fullAlphaBounds": {
+          "x": 84,
+          "y": 52,
+          "width": 186,
+          "height": 661
+        },
+        "bodyAlphaBounds": {
+          "x": 87,
+          "y": 54,
+          "width": 173,
+          "height": 656
+        },
+        "alphaThreshold": 64,
+        "paddingPixels": 7,
+        "sourceMode": "RGBA",
+        "method": "decoded_alpha_body_with_padding",
+        "originalSha256": "75a7661f39573cde55c9e537fe554e66be4223c596c6da6bb42015336c2af288",
+        "note": "Display framing excludes faint remote shadows; original image bytes are unchanged."
+      },
+      "imageEvidence": {
+        "sourceUrl": "https://www.brouwerijhetij.nl/en/our-beers/ipa",
+        "downloadUrl": "https://img.imageboss.me/brouwerij-het-ij-assets/cdn/format:auto/images/Bieren/IPA/Nieuw-label/brouwerijtij-ipa-fles-nieuw.png",
+        "sourceKind": "official_product",
+        "imageKind": "product_photo",
+        "originalSha256": "c8676da9e5f45f565aef94dfc6a0f5f9603074ebb03d3760a2a1febd8950ec7a",
+        "sha256": "75a7661f39573cde55c9e537fe554e66be4223c596c6da6bb42015336c2af288",
+        "originalFileRetained": true,
+        "derivative": true,
+        "cacheStatus": "cached",
+        "capturedAt": "2026-10-02",
+        "note": "New verified photograph of the exact product; replacement for the old obscured/cropped/glass-only photo. This does not preserve RGB of the old photo. The new downloaded photo is retained unchanged; only its alpha is changed for package isolation.",
+        "visualReview": "Matched exact named product and inspected isolated package on light and dark backgrounds."
+      },
+      "processing": {
+        "method": "publisher-transparent-packshot-with-outer-floor-shadow-removed",
+        "parameters": {
+          "silhouetteSpansYLeftRight": [
+            [
+              0,
+              0,
+              479
+            ],
+            [
+              946,
+              0,
+              479
+            ],
+            [
+              950,
+              126,
+              348
+            ],
+            [
+              957,
+              134,
+              342
+            ],
+            [
+              964,
+              152,
+              325
+            ],
+            [
+              969,
+              183,
+              297
+            ],
+            [
+              971,
+              231,
+              246
+            ]
+          ]
+        },
+        "newSourceRGBPreserved": true,
+        "oldSourcePreserved": true,
+        "thumbnailBytes": 7012,
+        "reviewEvidence": ".runtime/cutouts-existing/replacement-ij-ipa-review.png"
+      },
+      "reviewed": true,
+      "reviewedAt": "2026-10-02",
+      "previousSha256": "d3a9f1685a7d7d8ff4c8d7c0bb2b4ca7736b94bfa6f82b946cdaa35c5fd69d05"
+    },
+    {
+      "beerId": "dupont-saison",
+      "previousImage": "/images/world-dupont-saison.jpg",
+      "newImage": "/images/world-replacements/dupont-saison-card.webp",
+      "imageOriginal": "/images/world-replacements/dupont-saison-transparent.png",
+      "imageThumbnail": "/images/world-replacements/dupont-saison-map.webp",
+      "sourceImage": "/images/world-replacements/dupont-saison-packshot.png",
+      "sourceUrl": "https://www.brasserie-dupont.com/saison-dupont/",
+      "imageDownloadUrl": "https://www.brasserie-dupont.com/wp-content/uploads/2026/06/SD_gamma-2.png",
+      "imageCredit": "Brasserie Dupont official Saison Dupont product packshot, left 75cl bottle",
+      "sha256": "09c0c1648dea9e5d9904f76e0e07f4cf787d735e9e3e96aba15938f2b59fc53a",
+      "fullSha256": "bad40ec52779343643f17f216d4f53f79be97bd6dd853477db0dd9e2317f5b1e",
+      "sourceSha256": "a15609555359ed331b5ebe5c79cc1152da4b81c185d78b849dc860ec9e4fe0b0",
+      "thumbnailSha256": "f4334cd64a7080e13b49c046470e0722b6e6f2a57eb87f4482803f8b9f2d7f48",
+      "imageContentBounds": {
+        "width": 800,
+        "height": 800,
+        "bounds": {
+          "x": 229,
+          "y": 24,
+          "width": 192,
+          "height": 699
+        },
+        "fullAlphaBounds": {
+          "x": 233,
+          "y": 29,
+          "width": 183,
+          "height": 690
+        },
+        "bodyAlphaBounds": {
+          "x": 236,
+          "y": 31,
+          "width": 178,
+          "height": 685
+        },
+        "alphaThreshold": 64,
+        "paddingPixels": 7,
+        "sourceMode": "RGBA",
+        "method": "decoded_alpha_body_with_padding",
+        "originalSha256": "09c0c1648dea9e5d9904f76e0e07f4cf787d735e9e3e96aba15938f2b59fc53a",
+        "note": "Display framing excludes faint remote shadows; original image bytes are unchanged."
+      },
+      "imageEvidence": {
+        "sourceUrl": "https://www.brasserie-dupont.com/saison-dupont/",
+        "downloadUrl": "https://www.brasserie-dupont.com/wp-content/uploads/2026/06/SD_gamma-2.png",
+        "sourceKind": "official_product",
+        "imageKind": "product_photo",
+        "originalSha256": "a15609555359ed331b5ebe5c79cc1152da4b81c185d78b849dc860ec9e4fe0b0",
+        "sha256": "09c0c1648dea9e5d9904f76e0e07f4cf787d735e9e3e96aba15938f2b59fc53a",
+        "originalFileRetained": true,
+        "derivative": true,
+        "cacheStatus": "cached",
+        "capturedAt": "2026-10-02",
+        "note": "New verified photograph of the exact product; replacement for the old obscured/cropped/glass-only photo. This does not preserve RGB of the old photo. The new downloaded photo is retained unchanged; only its alpha is changed for package isolation.",
+        "visualReview": "Matched exact named product and inspected isolated package on light and dark backgrounds."
+      },
+      "processing": {
+        "method": "publisher-transparent-packshot-left-bottle-only",
+        "parameters": {
+          "retainCanvasX": [
+            0,
+            774
+          ]
+        },
+        "newSourceRGBPreserved": true,
+        "oldSourcePreserved": true,
+        "thumbnailBytes": 6674,
+        "reviewEvidence": ".runtime/cutouts-existing/replacement-dupont-saison-review.png"
+      },
+      "reviewed": true,
+      "reviewedAt": "2026-10-02",
+      "previousSha256": "bc18ed370cc33f5035f93856dd4bc8cc436af828ea47e814b1e7f344e0f66654"
+    },
+    {
+      "beerId": "duvel",
+      "previousImage": "/images/world-duvel.jpg",
+      "newImage": "/images/world-replacements/duvel-card.webp",
+      "imageOriginal": "/images/world-replacements/duvel-transparent.png",
+      "imageThumbnail": "/images/world-replacements/duvel-map.webp",
+      "sourceImage": "/images/world-replacements/duvel-jp.webp",
+      "sourceUrl": "https://duvel.jp/beer.html",
+      "imageDownloadUrl": "https://duvel.jp/assets/images/product/duvel/beer/duvel_330_bg.webp",
+      "imageCredit": "Duvel Japan / Konishi Shuzo official importer product packshot, left bottle",
+      "sha256": "ec2499d02e3c48fa6a8518888dca9db80cc0a4e210f7b54a5b224edf2d2004c4",
+      "fullSha256": "db86a2c12d061cca4f950a0b1a192b7b133fec68816f40d43d0c6f814aa9ebea",
+      "sourceSha256": "9754ee61cce4c5b1f9b603768ff50f36381239d6c7b640b16c1ece2a5785fcea",
+      "thumbnailSha256": "b6373f886cecb89cfc5c950bf7180d396e877f37e6bbef4234a7524ebc41037c",
+      "imageContentBounds": {
+        "width": 785,
+        "height": 800,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 321,
+          "height": 800
+        },
+        "fullAlphaBounds": {
+          "x": 0,
+          "y": 0,
+          "width": 315,
+          "height": 800
+        },
+        "bodyAlphaBounds": {
+          "x": 0,
+          "y": 0,
+          "width": 313,
+          "height": 800
+        },
+        "alphaThreshold": 64,
+        "paddingPixels": 8,
+        "sourceMode": "RGBA",
+        "method": "decoded_alpha_body_with_padding",
+        "originalSha256": "ec2499d02e3c48fa6a8518888dca9db80cc0a4e210f7b54a5b224edf2d2004c4",
+        "note": "Display framing excludes faint remote shadows; original image bytes are unchanged."
+      },
+      "imageEvidence": {
+        "sourceUrl": "https://duvel.jp/beer.html",
+        "downloadUrl": "https://duvel.jp/assets/images/product/duvel/beer/duvel_330_bg.webp",
+        "sourceKind": "official_product",
+        "imageKind": "product_photo",
+        "originalSha256": "9754ee61cce4c5b1f9b603768ff50f36381239d6c7b640b16c1ece2a5785fcea",
+        "sha256": "ec2499d02e3c48fa6a8518888dca9db80cc0a4e210f7b54a5b224edf2d2004c4",
+        "originalFileRetained": true,
+        "derivative": true,
+        "cacheStatus": "cached",
+        "capturedAt": "2026-10-02",
+        "note": "New verified photograph of the exact product; replacement for the old obscured/cropped/glass-only photo. This does not preserve RGB of the old photo. The new downloaded photo is retained unchanged; only its alpha is changed for package isolation.",
+        "visualReview": "Matched exact named product and inspected isolated package on light and dark backgrounds."
+      },
+      "processing": {
+        "method": "publisher-transparent-packshot-left-bottle-only",
+        "parameters": {
+          "retainCanvasX": [
+            0,
+            605
+          ]
+        },
+        "newSourceRGBPreserved": true,
+        "oldSourcePreserved": true,
+        "thumbnailBytes": 8926,
+        "reviewEvidence": ".runtime/cutouts-existing/replacement-duvel-review.png"
+      },
+      "reviewed": true,
+      "reviewedAt": "2026-10-02",
+      "previousSha256": "d9b342a840490477da442cd468d59f592560762526a6ca1d53bd93032e98dcc9"
+    },
+    {
+      "beerId": "colorado-appia",
+      "previousImage": "/images/world-colorado-appia.jpg",
+      "newImage": "/images/world-replacements/colorado-appia-card.webp",
+      "imageOriginal": "/images/world-replacements/colorado-appia-transparent.png",
+      "imageThumbnail": "/images/world-replacements/colorado-appia-map.webp",
+      "sourceImage": "/images/world-replacements/colorado-appia-source.png",
+      "sourceUrl": "https://rizatti.com.br/nossas-marcas/cervejas/cervejaria-colorado/colorado-appia",
+      "imageDownloadUrl": "https://rizatti.com.br/uploads/produtos/resized-appia_300ml_ok1.png",
+      "imageCredit": "Rizatti / Ambev distributor Colorado Appia 300ml product packshot",
+      "sha256": "b94390f8b7b05e39aa5c6caa2d355509520b5cdf81efe185fe80633a8392a406",
+      "fullSha256": "f0ac35728770d387487204a1781d398677641f51679ac8b48fd67a608cdfb43f",
+      "sourceSha256": "ce9875d95205d1807e52c7474017fdce858695ca4242153b23358f87dd78d853",
+      "thumbnailSha256": "0ab6280c84783515968ec3c1bf4bd834a487d108445d6d3929d83684e5a7425c",
+      "imageContentBounds": {
+        "width": 540,
+        "height": 540,
+        "bounds": {
+          "x": 185,
+          "y": 115,
+          "width": 138,
+          "height": 400
+        },
+        "fullAlphaBounds": {
+          "x": 188,
+          "y": 119,
+          "width": 132,
+          "height": 392
+        },
+        "bodyAlphaBounds": {
+          "x": 189,
+          "y": 119,
+          "width": 130,
+          "height": 392
+        },
+        "alphaThreshold": 64,
+        "paddingPixels": 4,
+        "sourceMode": "RGBA",
+        "method": "decoded_alpha_body_with_padding",
+        "originalSha256": "b94390f8b7b05e39aa5c6caa2d355509520b5cdf81efe185fe80633a8392a406",
+        "note": "Display framing excludes faint remote shadows; original image bytes are unchanged."
+      },
+      "imageEvidence": {
+        "sourceUrl": "https://rizatti.com.br/nossas-marcas/cervejas/cervejaria-colorado/colorado-appia",
+        "downloadUrl": "https://rizatti.com.br/uploads/produtos/resized-appia_300ml_ok1.png",
+        "sourceKind": "official_distributor_product",
+        "imageKind": "product_photo",
+        "originalSha256": "ce9875d95205d1807e52c7474017fdce858695ca4242153b23358f87dd78d853",
+        "sha256": "b94390f8b7b05e39aa5c6caa2d355509520b5cdf81efe185fe80633a8392a406",
+        "originalFileRetained": true,
+        "derivative": true,
+        "cacheStatus": "cached",
+        "capturedAt": "2026-10-02",
+        "note": "New verified photograph of the exact product; replacement for the old obscured/cropped/glass-only photo. This does not preserve RGB of the old photo. The new downloaded photo is retained unchanged; only its alpha is changed for package isolation.",
+        "visualReview": "Matched exact named product and inspected isolated package on light and dark backgrounds."
+      },
+      "processing": {
+        "method": "new-distributor-photo-manual-silhouette-alpha-only",
+        "parameters": {
+          "silhouetteSpansYLeftRight": [
+            [
+              119,
+              243,
+              270
+            ],
+            [
+              121,
+              229,
+              280
+            ],
+            [
+              126,
+              224,
+              282
+            ],
+            [
+              136,
+              224,
+              280
+            ],
+            [
+              145,
+              225,
+              282
+            ],
+            [
+              155,
+              227,
+              280
+            ],
+            [
+              172,
+              223,
+              282
+            ],
+            [
+              211,
+              214,
+              290
+            ],
+            [
+              244,
+              208,
+              297
+            ],
+            [
+              261,
+              200,
+              308
+            ],
+            [
+              278,
+              190,
+              317
+            ],
+            [
+              297,
+              189,
+              319
+            ],
+            [
+              362,
+              189,
+              318
+            ],
+            [
+              440,
+              189,
+              316
+            ],
+            [
+              482,
+              192,
+              314
+            ],
+            [
+              496,
+              202,
+              305
+            ],
+            [
+              505,
+              219,
+              291
+            ],
+            [
+              510,
+              240,
+              271
+            ]
+          ]
+        },
+        "newSourceRGBPreserved": true,
+        "oldSourcePreserved": true,
+        "thumbnailBytes": 7220,
+        "reviewEvidence": ".runtime/cutouts-existing/replacement-colorado-appia-review.png"
+      },
+      "reviewed": true,
+      "reviewedAt": "2026-10-02",
+      "previousSha256": "9088f10bc555b1ae7460d06d620f1e532303dcd8649f1e19c3cd32c59106810a"
+    }
+  ]
+}

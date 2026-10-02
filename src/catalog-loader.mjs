@@ -46,6 +46,7 @@ export function validateCatalogManifest(manifest) {
   const paths = new Set(); let count = 0;
   for (const chunk of manifest.chunks) {
     if (!object(chunk) || !integer(chunk.count)) throw new Error('目录分片计数无效');
+    if (chunk.encoding !== undefined && chunk.encoding !== 'gzip') throw new Error('目录分片编码无效');
     const path = validateChunkPath(chunk.path);
     if (paths.has(path)) throw new Error('目录分片路径重复');
     paths.add(path); count += chunk.count;
@@ -69,9 +70,39 @@ function validateCatalog(catalog) {
   return catalog;
 }
 
+/** Render the map without fetching the full manifest or any library chunks. */
+export async function loadCatalogBootstrap(options = {}) {
+  const {baseUrl = APP_BASE_URL, fetchImpl = globalThis.fetch, signal} = options;
+  const base = normalizeBasePath(baseUrl);
+  if (typeof fetchImpl !== 'function') throw new TypeError('Invalid catalog loader options');
+  abortCheck(signal);
+  const url = `${base}data/catalog.bootstrap.json`;
+  const response = await fetchImpl(url, {signal});
+  abortCheck(signal);
+  // Older local builds remain usable. A server/auth/network error must not
+  // silently turn a small first request into a full-catalog download.
+  if (response.status === 404) return {catalog:await loadCatalog(options), complete:true};
+  if (!response.ok) throw new Error(`地图目录载入失败 (${response.status}): ${url}`);
+  const payload = await response.json();
+  abortCheck(signal);
+  if (!object(payload) || payload.format !== 'brew-atlas-bootstrap' || payload.schemaVersion !== 1)
+    throw new Error('地图目录格式无效');
+  const catalog = validateCatalog(payload.catalog), meta = catalog.metadata.bootstrap;
+  if (!object(meta) || meta.scope !== 'map' || !integer(meta.loadedBeers) || !integer(meta.totalBeers)
+    || !integer(meta.loadedBreweries) || !integer(meta.totalBreweries)
+    || meta.loadedBeers !== catalog.beers.length || meta.loadedBreweries !== catalog.breweries.length
+    || meta.totalBeers < meta.loadedBeers || meta.totalBreweries < meta.loadedBreweries
+    || catalog.metadata.counts?.beers !== meta.totalBeers
+    || catalog.metadata.counts?.breweries !== meta.totalBreweries)
+    throw new Error('地图目录计数无效');
+  const breweryIds = new Set(catalog.breweries.map(brewery => brewery.id));
+  if (catalog.beers.some(beer => !breweryIds.has(beer.breweryId))) throw new Error('地图酒厂关联缺失');
+  return {catalog:rebaseCatalogResources(catalog, base), complete:false};
+}
+
 /** Load all chunks with at most four requests; publish only a complete catalogue. */
 export async function loadCatalog({ baseUrl = APP_BASE_URL, fetchImpl = globalThis.fetch,
-  signal, concurrency = 4 } = {}) {
+  signal, concurrency = 4, DecompressionStreamImpl = globalThis.DecompressionStream } = {}) {
   const base = normalizeBasePath(baseUrl);
   if (typeof fetchImpl !== 'function' || !Number.isInteger(concurrency) || concurrency < 1 || concurrency > 4)
     throw new TypeError('Invalid catalog loader options');
@@ -86,9 +117,27 @@ export async function loadCatalog({ baseUrl = APP_BASE_URL, fetchImpl = globalTh
     abortCheck(activeSignal);
     return response;
   };
-  const read = async (response, url) => {
+  const read = async (response, url, encoding) => {
     if (!response.ok) throw new Error(`目录载入失败 (${response.status}): ${url}`);
-    const data = await response.json();
+    let data;
+    if (encoding === 'gzip') {
+      let bytes = new Uint8Array(await response.arrayBuffer());
+      abortCheck(activeSignal);
+      // Pages serves gzip files without Content-Encoding; other hosts may
+      // already decode them in Fetch. Inspect the bytes before decompressing.
+      if (bytes[0] === 0x1f && bytes[1] === 0x8b) {
+        if (typeof DecompressionStreamImpl === 'function') {
+          data = await new Response(new Blob([bytes]).stream()
+            .pipeThrough(new DecompressionStreamImpl('gzip'))).json();
+        } else {
+          // Three includes this decoder; load it only for older browsers.
+          const {gunzipSync} = await import('three/addons/libs/fflate.module.js');
+          abortCheck(activeSignal);
+          bytes = gunzipSync(bytes);
+          data = JSON.parse(new TextDecoder().decode(bytes));
+        }
+      } else data = JSON.parse(new TextDecoder().decode(bytes));
+    } else data = await response.json();
     abortCheck(activeSignal);
     return data;
   };
@@ -104,8 +153,9 @@ export async function loadCatalog({ baseUrl = APP_BASE_URL, fetchImpl = globalTh
     const worker = async () => {
       while (next < manifest.chunks.length) {
         abortCheck(activeSignal);
-        const index = next++, descriptor = manifest.chunks[index], url = `${base}data/${descriptor.path}`;
-        const records = await read(await request(url), url);
+        const index = next++, descriptor = manifest.chunks[index];
+        const url = `${base}data/${descriptor.path}${descriptor.encoding === 'gzip' ? '.gz' : ''}`;
+        const records = await read(await request(url), url, descriptor.encoding);
         if (!Array.isArray(records) || records.length !== descriptor.count)
           throw new Error(`目录分片记录数不一致: ${descriptor.path}`);
         chunks[index] = records;

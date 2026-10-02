@@ -1,0 +1,1046 @@
+{
+  "metadata": {
+    "id": "award-asia-2026-10-02",
+    "updatedAt": "2026-10-02",
+    "requestedProducts": 21,
+    "searchedProducts": 21,
+    "beers": 9,
+    "breweries": 6,
+    "newReviewedPackshots": 9,
+    "method": "Exact existing award UIDs enriched by genuine public official/importer/retail packaging and short attributed description; original award ratings/year/counts are untouched.",
+    "limitations": [
+      "No new ratings or awards inferred.",
+      "Images identify products; 2025 award-year package/recipe not independently verified.",
+      "Two India records retain unknown production location.",
+      "Two annual Minoh beers withheld because 2025 package identity was not sufficiently demonstrated."
+    ],
+    "searchAudit": "research/award-country-expansion-2026-10-02/asia-search-audit.json"
+  },
+  "breweries": [
+    {
+      "id": "curated-award-brewery-f1449177e26310e8",
+      "name": "Be Easy Brewing",
+      "nameZh": null,
+      "countryCode": "JP",
+      "country": "Japan",
+      "countryZh": "日本",
+      "countryBasis": "official_brewery_location",
+      "city": "Hirosaki",
+      "lat": 40.60305556,
+      "lng": 140.46388889,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://www.beeasybrewing.com/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Hirosaki",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/japan/",
+        "https://www.beeasybrewing.com/",
+        "https://en.wikipedia.org/wiki/Hirosaki"
+      ],
+      "cityZh": "弘前市",
+      "locationNote": "使用已核验酒厂所属城市/城镇的参考坐标，不是精确厂址，也不证明本款每个生产批次的实际地点。",
+      "locationEvidence": {
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://www.beeasybrewing.com/",
+        "identityEvidenceFile": ".runtime/award-asia-evidence/be-easy-location.html",
+        "identityEvidenceSha256": "c87a7641bf73aea72175018b01d97db3d7305f6f6c192014d0aff5c713f1b1e3",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Hirosaki",
+        "coordinateSourcePageId": 328182,
+        "coordinatePlaceTitle": "Hirosaki",
+        "coordinateEvidenceFile": ".runtime/award-asia-evidence/coordinates.html",
+        "locationPrecision": "city",
+        "productionLocationVerified": false
+      }
+    },
+    {
+      "id": "curated-award-brewery-6114cde5101b56f2",
+      "name": "Session's Brewery",
+      "nameZh": null,
+      "countryCode": "JP",
+      "country": "Japan",
+      "countryZh": "日本",
+      "countryBasis": "official_brewery_location",
+      "city": "Hiroshima",
+      "lat": 34.39138889,
+      "lng": 132.45194444,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://sessions.thebase.in/about",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Hiroshima",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/japan/",
+        "https://sessions.thebase.in/about",
+        "https://en.wikipedia.org/wiki/Hiroshima"
+      ],
+      "cityZh": "广岛市",
+      "locationNote": "使用已核验酒厂所属城市/城镇的参考坐标，不是精确厂址，也不证明本款每个生产批次的实际地点。",
+      "locationEvidence": {
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://sessions.thebase.in/about",
+        "identityEvidenceFile": ".runtime/award-asia-evidence/hiroshima-location.html",
+        "identityEvidenceSha256": "93bd1d38049f0708822e08e81600549b50e52ce67ee2182573542851c214d588",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Hiroshima",
+        "coordinateSourcePageId": 59062,
+        "coordinatePlaceTitle": "Hiroshima",
+        "coordinateEvidenceFile": ".runtime/award-asia-evidence/coordinates.html",
+        "locationPrecision": "city",
+        "productionLocationVerified": false
+      }
+    },
+    {
+      "id": "curated-award-brewery-04478aa8248e27e7",
+      "name": "Yo-Ho Brewing Company",
+      "nameZh": null,
+      "countryCode": "JP",
+      "country": "Japan",
+      "countryZh": "日本",
+      "countryBasis": "official_brewery_location",
+      "city": "Saku",
+      "lat": 36.24880556,
+      "lng": 138.47694444,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://yohobrewing.com/company/offices/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Saku,_Nagano",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/japan/",
+        "https://yohobrewing.com/company/offices/",
+        "https://en.wikipedia.org/wiki/Saku,_Nagano"
+      ],
+      "cityZh": "佐久市",
+      "locationNote": "使用已核验酒厂所属城市/城镇的参考坐标，不是精确厂址，也不证明本款每个生产批次的实际地点。",
+      "locationEvidence": {
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://yohobrewing.com/company/offices/",
+        "identityEvidenceFile": ".runtime/award-asia-evidence/yoho-location.html",
+        "identityEvidenceSha256": "f7035d568368db99e23feb340ceb78ffc7942128580a40fc68722acd35237deb",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Saku,_Nagano",
+        "coordinateSourcePageId": 328937,
+        "coordinatePlaceTitle": "Saku, Nagano",
+        "coordinateEvidenceFile": ".runtime/award-asia-evidence/coordinates.html",
+        "locationPrecision": "city",
+        "productionLocationVerified": false
+      }
+    },
+    {
+      "id": "curated-award-brewery-24e62bb58415d0e0",
+      "name": "VERTERE",
+      "nameZh": null,
+      "countryCode": "JP",
+      "country": "Japan",
+      "countryZh": "日本",
+      "countryBasis": "official_brewery_location",
+      "city": "Okutama",
+      "lat": 35.80955556,
+      "lng": 139.09619444,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://verterebrew.com/contact/",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Okutama,_Tokyo",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/japan/",
+        "https://verterebrew.com/contact/",
+        "https://en.wikipedia.org/wiki/Okutama,_Tokyo"
+      ],
+      "cityZh": "奥多摩町",
+      "locationNote": "使用已核验酒厂所属城市/城镇的参考坐标，不是精确厂址，也不证明本款每个生产批次的实际地点。",
+      "locationEvidence": {
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://verterebrew.com/contact/",
+        "identityEvidenceFile": ".runtime/award-asia-evidence/vertere-location.html",
+        "identityEvidenceSha256": "af9d569fc9e05559c2650b7b6c11bfaba71b3b279646d2b1a6f2874a85c12da8",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Okutama,_Tokyo",
+        "coordinateSourcePageId": 1507931,
+        "coordinatePlaceTitle": "Okutama, Tokyo",
+        "coordinateEvidenceFile": ".runtime/award-asia-evidence/coordinates.html",
+        "locationPrecision": "city",
+        "productionLocationVerified": false
+      }
+    },
+    {
+      "id": "curated-award-brewery-f2f75cb175e39557",
+      "name": "Tsingtao (青岛啤酒) Brewery",
+      "nameZh": null,
+      "countryCode": "CN",
+      "country": "China",
+      "countryZh": "中国",
+      "countryBasis": "official_brewery_location",
+      "city": "Qingdao",
+      "lat": 36.0669,
+      "lng": 120.3827,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://www.tsingtao.com.cn/EN/statement/Connect.html",
+      "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Qingdao",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/china-peoples-republic-of-china/page/8/",
+        "https://www.tsingtao.com.cn/EN/statement/Connect.html",
+        "https://en.wikipedia.org/wiki/Qingdao"
+      ],
+      "cityZh": "青岛市",
+      "locationNote": "青岛为该品牌及原酒厂所在城市；采用城市参考点，不代表琥珀拉格这一批次的生产工厂。",
+      "locationEvidence": {
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://www.tsingtao.com.cn/EN/statement/Connect.html",
+        "identityEvidenceFile": ".runtime/award-asia-evidence/tsingtao-location-web.json",
+        "identityEvidenceSha256": "94b45a5e93c90101fd91ae70cf2c12dbda3020758b6a69db3adc7713464c6ef5",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Qingdao",
+        "coordinateSourcePageId": 250171,
+        "coordinatePlaceTitle": "Qingdao",
+        "coordinateEvidenceFile": ".runtime/award-asia-evidence/coordinates.html",
+        "locationPrecision": "city",
+        "productionLocationVerified": false
+      }
+    },
+    {
+      "id": "curated-award-brewery-cbb739acee8c8bcf",
+      "name": "Hangzhou Qiandaohu Beer Co. (Cheerday Brewery - 千岛湖)",
+      "nameZh": null,
+      "countryCode": "CN",
+      "country": "China",
+      "countryZh": "中国",
+      "countryBasis": "official_brewery_location",
+      "city": "Qiandaohu Town",
+      "lat": 29.604444444444447,
+      "lng": 119.03861111111111,
+      "locationVerified": true,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationSourceUrl": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2241/site/attach/0/7d841e0db74d4d16885f7fed2d2415d8.pdf",
+      "coordinateSourceUrl": "https://www.wikidata.org/wiki/Q10904885",
+      "year": null,
+      "website": null,
+      "description": null,
+      "sourceUrls": [
+        "https://awards.untappd.com/region/china-peoples-republic-of-china/",
+        "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2241/site/attach/0/7d841e0db74d4d16885f7fed2d2415d8.pdf",
+        "https://www.wikidata.org/wiki/Q10904885"
+      ],
+      "cityZh": "千岛湖镇",
+      "locationNote": "使用已核验酒厂所属城市/城镇的参考坐标，不是精确厂址，也不证明本款每个生产批次的实际地点。",
+      "locationEvidence": {
+        "verifiedAt": "2026-10-02",
+        "identitySourceUrl": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2241/site/attach/0/7d841e0db74d4d16885f7fed2d2415d8.pdf",
+        "identityEvidenceFile": ".runtime/award-asia-evidence/cheerday-factory.pdf",
+        "identityEvidenceSha256": "25849302cb9ca2ac6efb76f96ab8bc301a8caba654a98d102e3dc759cacd597b",
+        "coordinateSourceUrl": "https://www.wikidata.org/wiki/Q10904885",
+        "coordinateSourcePageId": "Q10904885",
+        "coordinatePlaceTitle": "Qiandaohu Town",
+        "coordinateEvidenceFile": ".runtime/award-asia-evidence/qiandaohu-coordinates-web.json",
+        "locationPrecision": "city",
+        "productionLocationVerified": false
+      }
+    }
+  ],
+  "beers": [
+    {
+      "id": "curated-award-3796825",
+      "name": "Aomori Ale",
+      "breweryId": "curated-award-brewery-f1449177e26310e8",
+      "untappdId": "3796825",
+      "style": "Wheat Beer - American Pale Wheat",
+      "abv": 5.5,
+      "ibu": null,
+      "description": "Be Easy 的美式小麦艾尔，酒精度5.5%。官网列有 Citra 酒花、皮尔森麦芽与小麦麦芽，并以 Pineapple Passion 酵母发酵；带柑橘与轻热带水果气息，口感顺滑、酒体偏轻。",
+      "descriptionBasis": "reviewed_public_product_information",
+      "descriptionMethod": "faithful_short_paraphrase",
+      "image": "/images/awards-products/asia-3796825-card.webp",
+      "imageThumbnail": "/images/awards-products/asia-3796825-map.webp",
+      "imageOriginal": "/images/awards-products/asia-3796825-cutout.png",
+      "imageRawOriginal": "/images/awards-products/asia-3796825-1-original.jpg",
+      "imageKind": "product_packshot",
+      "imageSource": "https://www.beeasybrewing.com/cdn/shop/files/AomoriAle_605f4816-7027-4838-8b0c-8da7b4b707de.jpg?v=1772108257&width=1946",
+      "imageSourceUrl": "https://www.beeasybrewing.com/cdn/shop/files/AomoriAle_605f4816-7027-4838-8b0c-8da7b4b707de.jpg?v=1772108257&width=1946",
+      "imageCredit": "官方产品照片；只移除背景并生成本地显示缩略图，保留原瓶罐和标签像素。",
+      "sourceNote": "官网当前350mL罐装外观与介绍；未核实其是否为2025评分年度的同一配方或包装。",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/japan/",
+        "https://awards.untappd.com/beers/3796825/",
+        "https://untappd.com/b/be-easy-brewing-aomori-ale/3796825",
+        "https://www.beeasybrewing.com/products/aomori-ale",
+        "https://www.beeasybrewing.com/cdn/shop/files/AomoriAle_605f4816-7027-4838-8b0c-8da7b4b707de.jpg?v=1772108257&width=1946"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://awards.untappd.com/region/japan/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:37:24.419Z",
+          "ratingText": "3.66 in 2025",
+          "sha256": "712353795b6b772b1672131e10c22b9bf87d9def5ad2d0ccbff2cfb55a96dbcd",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": false
+        },
+        {
+          "role": "reviewed_product_description_and_packaging",
+          "url": "https://www.beeasybrewing.com/products/aomori-ale",
+          "sourceFile": ".runtime/award-asia-evidence/3796825.html",
+          "sha256": "7ac671c7ea0aa224e9f9e1ca1bf94034ad7530205152547c54ec8d7be8e84973",
+          "retrievedAt": "2026-10-02",
+          "readMethod": "direct_public_html",
+          "summaryZh": "Be Easy 的美式小麦艾尔，酒精度5.5%。官网列有 Citra 酒花、皮尔森麦芽与小麦麦芽，并以 Pineapple Passion 酵母发酵；带柑橘与轻热带水果气息，口感顺滑、酒体偏轻。"
+        }
+      ],
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/3796825/",
+          "https://www.beeasybrewing.com/products/aomori-ale",
+          "https://untappd.com/b/be-easy-brewing-aomori-ale/3796825"
+        ],
+        "basis": "精确UID酒名及酒厂与官网或专业经销商同名产品、可读瓶罐标签交叉核验；未靠近似风格匹配。",
+        "reviewedAt": "2026-10-02",
+        "awardYearPackageVerified": false
+      },
+      "imageEvidence": {
+        "sourceUrl": "https://www.beeasybrewing.com/cdn/shop/files/AomoriAle_605f4816-7027-4838-8b0c-8da7b4b707de.jpg?v=1772108257&width=1946",
+        "sourcePageUrl": "https://www.beeasybrewing.com/products/aomori-ale",
+        "sourceClass": "official_product_packshot",
+        "originalSha256": "058e78899a4ad693710d0c131d2a16b521b647726c5fb6fe16d34c91aa6af993",
+        "rawOriginalImage": "/images/awards-products/asia-3796825-1-original.jpg",
+        "rawOriginalUnmodified": true,
+        "individuallyVerified": true,
+        "reviewMethod": "manual_packaging_identity_and_full_silhouette_check",
+        "reviewedAt": "2026-10-02",
+        "reuseRightsVerified": false,
+        "cutoutSha256": "a84e1e8520ac2fcfab9f1ce1ca84d8f2475319aafafbf949508f18d505b9bcdc",
+        "processingManifest": "research/award-country-expansion-2026-10-02/asia-packshot-processing.json"
+      },
+      "imageContentBounds": {
+        "width": 1946,
+        "height": 1946,
+        "bounds": {
+          "x": 525,
+          "y": 155,
+          "width": 894,
+          "height": 1631
+        },
+        "originalSha256": "a84e1e8520ac2fcfab9f1ce1ca84d8f2475319aafafbf949508f18d505b9bcdc",
+        "method": "decoded_alpha_bbox"
+      }
+    },
+    {
+      "id": "curated-award-3343622",
+      "name": "Hiroshima Lemon Ale",
+      "breweryId": "curated-award-brewery-6114cde5101b56f2",
+      "untappdId": "3343622",
+      "style": "Wheat Beer - Fruited",
+      "abv": 5.0,
+      "ibu": 28.0,
+      "description": "广岛 Session’s Brewery 的水果小麦艾尔，酒精度5%、IBU 28。官网介绍在煮沸时加入广岛产柠檬皮，以突出柠檬香气；口感圆润，收尾清爽。",
+      "descriptionBasis": "reviewed_public_product_information",
+      "descriptionMethod": "faithful_short_paraphrase",
+      "image": "/images/awards-products/asia-3343622-card.webp",
+      "imageThumbnail": "/images/awards-products/asia-3343622-map.webp",
+      "imageOriginal": "/images/awards-products/asia-3343622-cutout.png",
+      "imageRawOriginal": "/images/awards-products/asia-3343622-can-original.jpg",
+      "imageKind": "product_packshot",
+      "imageSource": "https://baseec-img-mng.akamaized.net/images/item/origin/0de08fd7ccab930b89dbd50f73465a24.jpg",
+      "imageSourceUrl": "https://baseec-img-mng.akamaized.net/images/item/origin/0de08fd7ccab930b89dbd50f73465a24.jpg",
+      "imageCredit": "官方产品照片；只移除背景并生成本地显示缩略图，保留原瓶罐和标签像素。",
+      "sourceNote": "从官网350mL罐与酒杯合照中只保留本款罐体；当前包装不等于获奖年度特定批次。",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/japan/",
+        "https://awards.untappd.com/beers/3343622/",
+        "https://untappd.com/b/session-s-brewery-hiroshima-lemon-ale/3343622",
+        "https://sessions.thebase.in/items/137498073",
+        "https://baseec-img-mng.akamaized.net/images/item/origin/0de08fd7ccab930b89dbd50f73465a24.jpg"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://awards.untappd.com/region/japan/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:37:24.419Z",
+          "ratingText": "3.48 in 2025",
+          "sha256": "712353795b6b772b1672131e10c22b9bf87d9def5ad2d0ccbff2cfb55a96dbcd",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": true
+        },
+        {
+          "role": "reviewed_product_description_and_packaging",
+          "url": "https://sessions.thebase.in/items/137498073",
+          "sourceFile": ".runtime/award-asia-evidence/hiroshima-can.html",
+          "sha256": "1495be7a1d8ea7dcf3c637cafab3c25dfbef8b9afb13cf7ce32c89fda560e29d",
+          "retrievedAt": "2026-10-02",
+          "readMethod": "direct_public_html",
+          "summaryZh": "广岛 Session’s Brewery 的水果小麦艾尔，酒精度5%、IBU 28。官网介绍在煮沸时加入广岛产柠檬皮，以突出柠檬香气；口感圆润，收尾清爽。"
+        }
+      ],
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/3343622/",
+          "https://sessions.thebase.in/items/137498073",
+          "https://untappd.com/b/session-s-brewery-hiroshima-lemon-ale/3343622"
+        ],
+        "basis": "精确UID酒名及酒厂与官网或专业经销商同名产品、可读瓶罐标签交叉核验；未靠近似风格匹配。",
+        "reviewedAt": "2026-10-02",
+        "awardYearPackageVerified": false
+      },
+      "imageEvidence": {
+        "sourceUrl": "https://baseec-img-mng.akamaized.net/images/item/origin/0de08fd7ccab930b89dbd50f73465a24.jpg",
+        "sourcePageUrl": "https://sessions.thebase.in/items/137498073",
+        "sourceClass": "official_product_packshot",
+        "originalSha256": "083242e9e2a6c7b7c82bf356fe110769a2bf9ec0e1f63a8d07c6d219b102c9c6",
+        "rawOriginalImage": "/images/awards-products/asia-3343622-can-original.jpg",
+        "rawOriginalUnmodified": true,
+        "individuallyVerified": true,
+        "reviewMethod": "manual_packaging_identity_and_full_silhouette_check",
+        "reviewedAt": "2026-10-02",
+        "reuseRightsVerified": false,
+        "cutoutSha256": "b2c2fd106ffabae489392f06c8681ed1c5c2840ed9bd27d50dc0d91e1cd27486",
+        "processingManifest": "research/award-country-expansion-2026-10-02/asia-packshot-processing.json"
+      },
+      "imageContentBounds": {
+        "width": 3366,
+        "height": 4210,
+        "bounds": {
+          "x": 208,
+          "y": 1219,
+          "width": 1279,
+          "height": 2442
+        },
+        "originalSha256": "b2c2fd106ffabae489392f06c8681ed1c5c2840ed9bd27d50dc0d91e1cd27486",
+        "method": "decoded_alpha_bbox"
+      }
+    },
+    {
+      "id": "curated-award-3439159",
+      "name": "Sorry Sakura Mochi Stout",
+      "breweryId": "curated-award-brewery-04478aa8248e27e7",
+      "untappdId": "3439159",
+      "style": "Stout - Pastry",
+      "abv": 6.0,
+      "ibu": 26.0,
+      "description": "以樱饼为灵感的甜点世涛，酒精度6%。官方发布说明使用盐渍樱叶、肉桂、糯米粉与燕麦，让樱叶香气与稠滑、甜润的口感结合。",
+      "descriptionBasis": "reviewed_public_product_information",
+      "descriptionMethod": "faithful_short_paraphrase",
+      "image": "/images/awards-products/asia-3439159-card.webp",
+      "imageThumbnail": "/images/awards-products/asia-3439159-map.webp",
+      "imageOriginal": "/images/awards-products/asia-3439159-cutout.png",
+      "imageRawOriginal": "/images/awards-products/asia-3439159-7-original.png",
+      "imageKind": "product_packshot",
+      "imageSource": "https://yohobrewing.com/cms-content/2019/07/sakuramochi_omote_new.png",
+      "imageSourceUrl": "https://yohobrewing.com/cms-content/2019/07/sakuramochi_omote_new.png",
+      "imageCredit": "官方产品照片；只移除背景并生成本地显示缩略图，保留原瓶罐和标签像素。",
+      "sourceNote": "2019官方历史包装与配方；官网2026 SORRY MIKAN公告称本款已停产。此图不代表2025具体生产批次或当前在售。",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/japan/",
+        "https://awards.untappd.com/beers/3439159/",
+        "https://untappd.com/b/yo-ho-brewing-company-sorry-sakura-mochi-stout/3439159",
+        "https://yohobrewing.com/press_room/products/sorrysakuramochistout/",
+        "https://yohobrewing.com/cms-content/2019/07/sakuramochi_omote_new.png",
+        "https://yohobrewing.com/en/press_room/sorrymikan_eng/"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://awards.untappd.com/region/japan/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:37:24.419Z",
+          "ratingText": "3.71 in 2025",
+          "sha256": "712353795b6b772b1672131e10c22b9bf87d9def5ad2d0ccbff2cfb55a96dbcd",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": true
+        },
+        {
+          "role": "reviewed_product_description_and_packaging",
+          "url": "https://yohobrewing.com/press_room/products/sorrysakuramochistout/",
+          "sourceFile": ".runtime/award-asia-evidence/3439159.html",
+          "sha256": "3b884ab62c09e9b85bde538e248437935e0173a921a2924968943c112d27c9f4",
+          "retrievedAt": "2026-10-02",
+          "readMethod": "direct_public_html",
+          "summaryZh": "以樱饼为灵感的甜点世涛，酒精度6%。官方发布说明使用盐渍樱叶、肉桂、糯米粉与燕麦，让樱叶香气与稠滑、甜润的口感结合。"
+        }
+      ],
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/3439159/",
+          "https://yohobrewing.com/press_room/products/sorrysakuramochistout/",
+          "https://untappd.com/b/yo-ho-brewing-company-sorry-sakura-mochi-stout/3439159"
+        ],
+        "basis": "精确UID酒名及酒厂与官网或专业经销商同名产品、可读瓶罐标签交叉核验；未靠近似风格匹配。",
+        "reviewedAt": "2026-10-02",
+        "awardYearPackageVerified": false
+      },
+      "imageEvidence": {
+        "sourceUrl": "https://yohobrewing.com/cms-content/2019/07/sakuramochi_omote_new.png",
+        "sourcePageUrl": "https://yohobrewing.com/press_room/products/sorrysakuramochistout/",
+        "sourceClass": "official_product_packshot",
+        "originalSha256": "14ccf4d7c3619e293ddd70187021bb8e6291da423804fd1a6c1f69fec497cc61",
+        "rawOriginalImage": "/images/awards-products/asia-3439159-7-original.png",
+        "rawOriginalUnmodified": true,
+        "individuallyVerified": true,
+        "reviewMethod": "manual_packaging_identity_and_full_silhouette_check",
+        "reviewedAt": "2026-10-02",
+        "reuseRightsVerified": false,
+        "cutoutSha256": "ddeae4344833004dfdc89786a78d8e70ef54f5051c218269e9b579d0ada03f8e",
+        "processingManifest": "research/award-country-expansion-2026-10-02/asia-packshot-processing.json"
+      },
+      "imageContentBounds": {
+        "width": 2048,
+        "height": 1366,
+        "bounds": {
+          "x": 736,
+          "y": 129,
+          "width": 584,
+          "height": 1125
+        },
+        "originalSha256": "ddeae4344833004dfdc89786a78d8e70ef54f5051c218269e9b579d0ada03f8e",
+        "method": "decoded_alpha_bbox"
+      },
+      "availabilityStatus": "discontinued_reported"
+    },
+    {
+      "id": "curated-award-3677598",
+      "name": "Amber Lager (琥珀拉格啤酒）",
+      "breweryId": "curated-award-brewery-f2f75cb175e39557",
+      "untappdId": "3677598",
+      "style": "Lager - Amber / Red",
+      "abv": 5.5,
+      "ibu": 14.0,
+      "description": "青岛琥珀拉格。本次核验为官方旗舰店所列330mL瓶装版本，原麦汁浓度13.8°P；酒精度5.5%沿用该精确UID的公开产品资料。",
+      "descriptionBasis": "reviewed_public_product_information",
+      "descriptionMethod": "faithful_short_paraphrase",
+      "image": "/images/awards-products/asia-3677598-card.webp",
+      "imageThumbnail": "/images/awards-products/asia-3677598-map.webp",
+      "imageOriginal": "/images/awards-products/asia-3677598-cutout.png",
+      "imageRawOriginal": "/images/awards-products/asia-3677598-3-original.jpg",
+      "imageKind": "product_packshot",
+      "imageSource": "https://img.yzcdn.cn/upload_files/2020/01/20/FmehO1VzwxWOgvA1H6A2-bzWrnpb.jpg!middle.jpg",
+      "imageSourceUrl": "https://img.yzcdn.cn/upload_files/2020/01/20/FmehO1VzwxWOgvA1H6A2-bzWrnpb.jpg!middle.jpg",
+      "imageCredit": "官方产品照片；只移除背景并生成本地显示缩略图，保留原瓶罐和标签像素。",
+      "sourceNote": "13.8°P是原麦汁浓度，绝非13.8% ABV。展示330mL旧包装，未以当前380mL新包装替换。",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/china-peoples-republic-of-china/page/8/",
+        "https://awards.untappd.com/beers/3677598/",
+        "https://untappd.com/b/tsingtao-brewery-amber-lager/3677598",
+        "https://detail.youzan.com/show/goods?alias=2xk6p4me9zbiw&from_source=gbox_seo",
+        "https://img.yzcdn.cn/upload_files/2020/01/20/FmehO1VzwxWOgvA1H6A2-bzWrnpb.jpg!middle.jpg"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://awards.untappd.com/region/china-peoples-republic-of-china/page/8/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:42:04.514Z",
+          "ratingText": "3.29 in 2025",
+          "sha256": "f722962afb97e7959b85c4747038f24020dd0b65e44b68e5959086d81b1d0716",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": true
+        },
+        {
+          "role": "reviewed_product_description_and_packaging",
+          "url": "https://detail.youzan.com/show/goods?alias=2xk6p4me9zbiw&from_source=gbox_seo",
+          "sourceFile": ".runtime/award-asia-evidence/3677598.html",
+          "sha256": "ca22df48a80d6451c4e1822df62848ac9748c4e3fce274b6caafffb278e701f0",
+          "retrievedAt": "2026-10-02",
+          "readMethod": "direct_public_html",
+          "summaryZh": "青岛琥珀拉格。本次核验为官方旗舰店所列330mL瓶装版本，原麦汁浓度13.8°P；酒精度5.5%沿用该精确UID的公开产品资料。"
+        }
+      ],
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/3677598/",
+          "https://detail.youzan.com/show/goods?alias=2xk6p4me9zbiw&from_source=gbox_seo",
+          "https://untappd.com/b/tsingtao-brewery-amber-lager/3677598"
+        ],
+        "basis": "精确UID酒名及酒厂与官网或专业经销商同名产品、可读瓶罐标签交叉核验；未靠近似风格匹配。",
+        "reviewedAt": "2026-10-02",
+        "awardYearPackageVerified": false
+      },
+      "imageEvidence": {
+        "sourceUrl": "https://img.yzcdn.cn/upload_files/2020/01/20/FmehO1VzwxWOgvA1H6A2-bzWrnpb.jpg!middle.jpg",
+        "sourcePageUrl": "https://detail.youzan.com/show/goods?alias=2xk6p4me9zbiw&from_source=gbox_seo",
+        "sourceClass": "official_product_packshot",
+        "originalSha256": "267a0787e20d194c86621a453db81c988915d24af03625793d66741892cb9b71",
+        "rawOriginalImage": "/images/awards-products/asia-3677598-3-original.jpg",
+        "rawOriginalUnmodified": true,
+        "individuallyVerified": true,
+        "reviewMethod": "manual_packaging_identity_and_full_silhouette_check",
+        "reviewedAt": "2026-10-02",
+        "reuseRightsVerified": false,
+        "cutoutSha256": "506d93c619f4b37eca4610f63c57aa0da935b253ed040be2eae531197789a018",
+        "processingManifest": "research/award-country-expansion-2026-10-02/asia-packshot-processing.json"
+      },
+      "imageContentBounds": {
+        "width": 520,
+        "height": 520,
+        "bounds": {
+          "x": 202,
+          "y": 46,
+          "width": 121,
+          "height": 448
+        },
+        "originalSha256": "506d93c619f4b37eca4610f63c57aa0da935b253ed040be2eae531197789a018",
+        "method": "decoded_alpha_bbox"
+      }
+    },
+    {
+      "id": "curated-award-4061489",
+      "name": "Baldwinii",
+      "breweryId": "curated-award-brewery-24e62bb58415d0e0",
+      "untappdId": "4061489",
+      "style": "Stout - Pastry",
+      "abv": 10.0,
+      "ibu": 26.0,
+      "description": "VERTERE 的 Baldwinii 世涛，酒精度10%。本次零售产品页明确列出咖啡、可可与香草豆，描述其浓厚口感和布朗尼般的风味。",
+      "descriptionBasis": "reviewed_public_product_information",
+      "descriptionMethod": "faithful_short_paraphrase",
+      "image": "/images/awards-products/asia-4061489-card.webp",
+      "imageThumbnail": "/images/awards-products/asia-4061489-map.webp",
+      "imageOriginal": "/images/awards-products/asia-4061489-cutout.png",
+      "imageRawOriginal": "/images/awards-products/asia-4061489-0-original.png",
+      "imageKind": "product_packshot",
+      "imageSource": "https://img.otomoni.beer/packaged_drinks/images/c2211838bcedcf472a5ba78c3d02b7a05cc6faa1/square.png?1734426060",
+      "imageSourceUrl": "https://img.otomoni.beer/packaged_drinks/images/c2211838bcedcf472a5ba78c3d02b7a05cc6faa1/square.png?1734426060",
+      "imageCredit": "公开零售/经销商产品照片；只移除背景并生成本地显示缩略图，保留原瓶罐和标签像素。",
+      "sourceNote": "包装及正文来自Otomoni的本款页面；该厂同名酒会调整配方。IBU存在批次来源差异，未声称图片对应2025获奖当年配方。",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/japan/",
+        "https://awards.untappd.com/beers/4061489/",
+        "https://untappd.com/b/vertere-baldwinii/4061489",
+        "https://otomoni.beer/beers/01JF9XJVG6S3WC448JEXY3FAJD",
+        "https://img.otomoni.beer/packaged_drinks/images/c2211838bcedcf472a5ba78c3d02b7a05cc6faa1/square.png?1734426060"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://awards.untappd.com/region/japan/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:37:24.419Z",
+          "ratingText": "3.86 in 2025",
+          "sha256": "712353795b6b772b1672131e10c22b9bf87d9def5ad2d0ccbff2cfb55a96dbcd",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": false
+        },
+        {
+          "role": "reviewed_product_description_and_packaging",
+          "url": "https://otomoni.beer/beers/01JF9XJVG6S3WC448JEXY3FAJD",
+          "sourceFile": ".runtime/award-asia-evidence/4061489.html",
+          "sha256": "17952085caef06099e5ccdc6aafd343b8b3ba04feb8edae4dc87e8bb316e1335",
+          "retrievedAt": "2026-10-02",
+          "readMethod": "direct_public_html",
+          "summaryZh": "VERTERE 的 Baldwinii 世涛，酒精度10%。本次零售产品页明确列出咖啡、可可与香草豆，描述其浓厚口感和布朗尼般的风味。"
+        }
+      ],
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/4061489/",
+          "https://otomoni.beer/beers/01JF9XJVG6S3WC448JEXY3FAJD",
+          "https://untappd.com/b/vertere-baldwinii/4061489"
+        ],
+        "basis": "精确UID酒名及酒厂与官网或专业经销商同名产品、可读瓶罐标签交叉核验；未靠近似风格匹配。",
+        "reviewedAt": "2026-10-02",
+        "awardYearPackageVerified": false
+      },
+      "imageEvidence": {
+        "sourceUrl": "https://img.otomoni.beer/packaged_drinks/images/c2211838bcedcf472a5ba78c3d02b7a05cc6faa1/square.png?1734426060",
+        "sourcePageUrl": "https://otomoni.beer/beers/01JF9XJVG6S3WC448JEXY3FAJD",
+        "sourceClass": "retail_product_packshot",
+        "originalSha256": "622fd30679f0b69aa7b1ca163ca36df484cb4ab6c5eb8523b2201500a9f2a79b",
+        "rawOriginalImage": "/images/awards-products/asia-4061489-0-original.png",
+        "rawOriginalUnmodified": true,
+        "individuallyVerified": true,
+        "reviewMethod": "manual_packaging_identity_and_full_silhouette_check",
+        "reviewedAt": "2026-10-02",
+        "reuseRightsVerified": false,
+        "cutoutSha256": "23d470d5dc5a369e108ebf2fd1feafe3c8de78ed7586b48642bba182d193c497",
+        "processingManifest": "research/award-country-expansion-2026-10-02/asia-packshot-processing.json"
+      },
+      "imageContentBounds": {
+        "width": 600,
+        "height": 600,
+        "bounds": {
+          "x": 186,
+          "y": 73,
+          "width": 244,
+          "height": 453
+        },
+        "originalSha256": "23d470d5dc5a369e108ebf2fd1feafe3c8de78ed7586b48642bba182d193c497",
+        "method": "decoded_alpha_bbox"
+      },
+      "sourceConflicts": [
+        {
+          "field": "ibu",
+          "catalogValue": 26,
+          "retailValue": 18,
+          "legacyReleaseValue": 13,
+          "sources": [
+            "https://untappd.com/b/vertere-baldwinii/4061489",
+            "https://otomoni.beer/beers/01JF9XJVG6S3WC448JEXY3FAJD",
+            "https://craftbeer.bestbeerjapan.com/entry/2021/06/16/083731"
+          ],
+          "resolution": "保留原精确UID的26，不把当前零售或2021批次IBU覆盖为获奖2025配方。"
+        }
+      ]
+    },
+    {
+      "id": "curated-award-15780",
+      "name": "Maharaja Premium Indian Pilsner",
+      "breweryId": "curated-award-brewery-b845dd6739286405",
+      "untappdId": "15780",
+      "style": "Pilsner - Other",
+      "abv": 5.0,
+      "ibu": null,
+      "description": "Maharaja Premium Indian Pilsner。品牌进口商将它描述为清澈金色的皮尔森，带花香、辛香与酒花气息，也有麦芽和玉米般的香气，收尾微甜。",
+      "descriptionBasis": "reviewed_public_product_information",
+      "descriptionMethod": "faithful_short_paraphrase",
+      "image": "/images/awards-products/asia-15780-card.webp",
+      "imageThumbnail": "/images/awards-products/asia-15780-map.webp",
+      "imageOriginal": "/images/awards-products/asia-15780-cutout.png",
+      "imageRawOriginal": "/images/awards-products/asia-15780-3-original.jpg",
+      "imageKind": "product_packshot",
+      "imageSource": "https://b2331970.assetcdn.net/2.0/2331970/wp-content/uploads/2020/07/MAHARAJA-ALT-BOTTLES-FOR-WEBSITE-070220-v5-1-scaled.jpg?lossy=2&strip=1&webp=1",
+      "imageSourceUrl": "https://b2331970.assetcdn.net/2.0/2331970/wp-content/uploads/2020/07/MAHARAJA-ALT-BOTTLES-FOR-WEBSITE-070220-v5-1-scaled.jpg?lossy=2&strip=1&webp=1",
+      "imageCredit": "官方产品照片；只移除背景并生成本地显示缩略图，保留原瓶罐和标签像素。",
+      "sourceNote": "品牌进口商原图中提取完整正面瓶；保留原UID归属，不将美国进口商地址当成印度酒厂。当前具体生产城市未核实。",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/india/",
+        "https://awards.untappd.com/beers/15780/",
+        "https://untappd.com/b/united-breweries-maharaja-premium-indian-pilsner/15780",
+        "https://ewbeverages.com/products/maharaja-premium-indian-pilsner/",
+        "https://b2331970.assetcdn.net/2.0/2331970/wp-content/uploads/2020/07/MAHARAJA-ALT-BOTTLES-FOR-WEBSITE-070220-v5-1-scaled.jpg?lossy=2&strip=1&webp=1"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://awards.untappd.com/region/india/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:36:22.555Z",
+          "ratingText": "3.36 in 2025",
+          "sha256": "0fba9b43c4d3188580614e16b7e49947c2cac80c5918005317c7d7ff6959e738",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": true
+        },
+        {
+          "role": "reviewed_product_description_and_packaging",
+          "url": "https://ewbeverages.com/products/maharaja-premium-indian-pilsner/",
+          "sourceFile": ".runtime/award-asia-evidence/15780.html",
+          "sha256": "9520794614b804d372dbc6cc29a6244f9a156a03b2b9dce309d65786290e71ee",
+          "retrievedAt": "2026-10-02",
+          "readMethod": "direct_public_html",
+          "summaryZh": "Maharaja Premium Indian Pilsner。品牌进口商将它描述为清澈金色的皮尔森，带花香、辛香与酒花气息，也有麦芽和玉米般的香气，收尾微甜。"
+        }
+      ],
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/15780/",
+          "https://ewbeverages.com/products/maharaja-premium-indian-pilsner/",
+          "https://untappd.com/b/united-breweries-maharaja-premium-indian-pilsner/15780"
+        ],
+        "basis": "精确UID酒名及酒厂与官网或专业经销商同名产品、可读瓶罐标签交叉核验；未靠近似风格匹配。",
+        "reviewedAt": "2026-10-02",
+        "awardYearPackageVerified": false
+      },
+      "imageEvidence": {
+        "sourceUrl": "https://b2331970.assetcdn.net/2.0/2331970/wp-content/uploads/2020/07/MAHARAJA-ALT-BOTTLES-FOR-WEBSITE-070220-v5-1-scaled.jpg?lossy=2&strip=1&webp=1",
+        "sourcePageUrl": "https://ewbeverages.com/products/maharaja-premium-indian-pilsner/",
+        "sourceClass": "official_product_packshot",
+        "originalSha256": "95f1d833dcfad6cedc3015cb59ab532bd01da16b8e6ca84f75fb1f5123bdd4a0",
+        "rawOriginalImage": "/images/awards-products/asia-15780-3-original.jpg",
+        "rawOriginalUnmodified": true,
+        "individuallyVerified": true,
+        "reviewMethod": "manual_packaging_identity_and_full_silhouette_check",
+        "reviewedAt": "2026-10-02",
+        "reuseRightsVerified": false,
+        "cutoutSha256": "5a54a9276089daa3f5d055767327951e532f033f268d6913b6755bfb93a61f43",
+        "processingManifest": "research/award-country-expansion-2026-10-02/asia-packshot-processing.json"
+      },
+      "imageContentBounds": {
+        "width": 1517,
+        "height": 2560,
+        "bounds": {
+          "x": 509,
+          "y": 320,
+          "width": 489,
+          "height": 1913
+        },
+        "originalSha256": "5a54a9276089daa3f5d055767327951e532f033f268d6913b6755bfb93a61f43",
+        "method": "decoded_alpha_bbox"
+      }
+    },
+    {
+      "id": "curated-award-4760501",
+      "name": "Bareilly Bold",
+      "breweryId": "curated-award-brewery-77a1b1c5e7011efa",
+      "untappdId": "4760501",
+      "style": "Pilsner - Other",
+      "abv": 6.5,
+      "ibu": 15.0,
+      "description": "Kati Patang 的 Bareilly Bold，本次展示官网双瓶图中粉色标的 Bold 版本。该精确产品UID的酒精度为6.5%；它与另一黑金标 Bareilly Extra Bold 是不同产品。",
+      "descriptionBasis": "reviewed_public_product_information",
+      "descriptionMethod": "faithful_short_paraphrase",
+      "image": "/images/awards-products/asia-4760501-card.webp",
+      "imageThumbnail": "/images/awards-products/asia-4760501-map.webp",
+      "imageOriginal": "/images/awards-products/asia-4760501-cutout.png",
+      "imageRawOriginal": "/images/awards-products/asia-4760501-official-original.png",
+      "imageKind": "product_packshot",
+      "imageSource": "https://katipatang.com/assets/ourbrews/variants/bareillybold.png",
+      "imageSourceUrl": "https://katipatang.com/assets/ourbrews/variants/bareillybold.png",
+      "imageCredit": "官方产品照片；只移除背景并生成本地显示缩略图，保留原瓶罐和标签像素。",
+      "sourceNote": "官网同图包含Bold和Extra Bold，仅保留粉标Bold。产品名Bareilly不能当作生产城市；官网New Delhi为品牌联系地址，未用于定位生产酒厂。",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/india/",
+        "https://awards.untappd.com/beers/4760501/",
+        "https://untappd.com/b/kati-patang-bareilly-bold/4760501",
+        "https://katipatang.com/our-brews",
+        "https://katipatang.com/assets/ourbrews/variants/bareillybold.png"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://awards.untappd.com/region/india/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:36:22.555Z",
+          "ratingText": "3.30 in 2025",
+          "sha256": "0fba9b43c4d3188580614e16b7e49947c2cac80c5918005317c7d7ff6959e738",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": true
+        },
+        {
+          "role": "reviewed_product_description_and_packaging",
+          "url": "https://katipatang.com/our-brews",
+          "sourceFile": ".runtime/award-asia-evidence/katipatang-brews.html",
+          "sha256": "1bb9b248ff70e7cac46e56e44ee91002d3cd7fd7ca0f02bcff9346c85cf6a9ed",
+          "retrievedAt": "2026-10-02",
+          "readMethod": "direct_public_html",
+          "summaryZh": "Kati Patang 的 Bareilly Bold，本次展示官网双瓶图中粉色标的 Bold 版本。该精确产品UID的酒精度为6.5%；它与另一黑金标 Bareilly Extra Bold 是不同产品。"
+        }
+      ],
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/4760501/",
+          "https://katipatang.com/our-brews",
+          "https://untappd.com/b/kati-patang-bareilly-bold/4760501"
+        ],
+        "basis": "精确UID酒名及酒厂与官网或专业经销商同名产品、可读瓶罐标签交叉核验；未靠近似风格匹配。",
+        "reviewedAt": "2026-10-02",
+        "awardYearPackageVerified": false
+      },
+      "imageEvidence": {
+        "sourceUrl": "https://katipatang.com/assets/ourbrews/variants/bareillybold.png",
+        "sourcePageUrl": "https://katipatang.com/our-brews",
+        "sourceClass": "official_product_packshot",
+        "originalSha256": "f58f8781d673a5787770c8e0ab0012746584ee766b525bc1498057f233a90473",
+        "rawOriginalImage": "/images/awards-products/asia-4760501-official-original.png",
+        "rawOriginalUnmodified": true,
+        "individuallyVerified": true,
+        "reviewMethod": "manual_packaging_identity_and_full_silhouette_check",
+        "reviewedAt": "2026-10-02",
+        "reuseRightsVerified": false,
+        "cutoutSha256": "288c598ebb41f65a29afc4776d1cd36ea7dd64e924ea6c43f5366550407feeae",
+        "processingManifest": "research/award-country-expansion-2026-10-02/asia-packshot-processing.json"
+      },
+      "imageContentBounds": {
+        "width": 535,
+        "height": 970,
+        "bounds": {
+          "x": 7,
+          "y": 15,
+          "width": 253,
+          "height": 934
+        },
+        "originalSha256": "288c598ebb41f65a29afc4776d1cd36ea7dd64e924ea6c43f5366550407feeae",
+        "method": "decoded_alpha_bbox"
+      }
+    },
+    {
+      "id": "curated-award-5574313",
+      "name": "Belgian Wheat Beer",
+      "breweryId": "curated-award-brewery-cbb739acee8c8bcf",
+      "untappdId": "5574313",
+      "style": "Wheat Beer - Other",
+      "abv": 4.0,
+      "ibu": null,
+      "description": "千岛湖 Belgian Wheat Beer，所核实的出口包装为1L金属瓶罐，酒精度4%。经销商列有大麦麦芽、小麦麦芽、燕麦、芫荽和橙皮，并描述口感轻柔、带柑橘与香料气息。",
+      "descriptionBasis": "reviewed_public_product_information",
+      "descriptionMethod": "faithful_short_paraphrase",
+      "image": "/images/awards-products/asia-5574313-card.webp",
+      "imageThumbnail": "/images/awards-products/asia-5574313-map.webp",
+      "imageOriginal": "/images/awards-products/asia-5574313-cutout.png",
+      "imageRawOriginal": "/images/awards-products/asia-5574313-retail-original.jpg",
+      "imageKind": "product_packshot",
+      "imageSource": "https://s-2.ru/content/product/mid/product_img_1358.jpg",
+      "imageSourceUrl": "https://s-2.ru/content/product/mid/product_img_1358.jpg",
+      "imageCredit": "公开零售/经销商产品照片；只移除背景并生成本地显示缩略图，保留原瓶罐和标签像素。",
+      "sourceNote": "包装上品牌、英文酒名、4%和1L均与本款公开产品相符；同品牌另有近似名称UID，未据名称相近合并。页面过滤/未过滤标签矛盾，未录入过滤工艺。",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/china-peoples-republic-of-china/",
+        "https://awards.untappd.com/beers/5574313/",
+        "https://untappd.com/b/hangzhou-qiandaohu-beer-co-cheerday-brewery-belgian-wheat-beer/5574313",
+        "https://s-2.ru/product/pivo-cheerday-belgian-wheat-1-l/",
+        "https://s-2.ru/content/product/mid/product_img_1358.jpg"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://awards.untappd.com/region/china-peoples-republic-of-china/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:36:22.555Z",
+          "ratingText": "3.43 in 2025",
+          "sha256": "0fba9b43c4d3188580614e16b7e49947c2cac80c5918005317c7d7ff6959e738",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": true
+        },
+        {
+          "role": "reviewed_product_description_and_packaging",
+          "url": "https://s-2.ru/product/pivo-cheerday-belgian-wheat-1-l/",
+          "sourceFile": ".runtime/award-asia-evidence/cheerday-belgian-product.html",
+          "sha256": "ff5c453eccb6a8377b2237b20046dd944d5640e9a694b7543169b94eae341495",
+          "retrievedAt": "2026-10-02",
+          "readMethod": "direct_public_html",
+          "summaryZh": "千岛湖 Belgian Wheat Beer，所核实的出口包装为1L金属瓶罐，酒精度4%。经销商列有大麦麦芽、小麦麦芽、燕麦、芫荽和橙皮，并描述口感轻柔、带柑橘与香料气息。"
+        }
+      ],
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/5574313/",
+          "https://s-2.ru/product/pivo-cheerday-belgian-wheat-1-l/",
+          "https://untappd.com/b/hangzhou-qiandaohu-beer-co-cheerday-brewery-belgian-wheat-beer/5574313"
+        ],
+        "basis": "精确UID酒名及酒厂与官网或专业经销商同名产品、可读瓶罐标签交叉核验；未靠近似风格匹配。",
+        "reviewedAt": "2026-10-02",
+        "awardYearPackageVerified": false
+      },
+      "imageEvidence": {
+        "sourceUrl": "https://s-2.ru/content/product/mid/product_img_1358.jpg",
+        "sourcePageUrl": "https://s-2.ru/product/pivo-cheerday-belgian-wheat-1-l/",
+        "sourceClass": "retail_product_packshot",
+        "originalSha256": "f381e7305763a2e2640a965eee953f6fe4428a35748a3251822d8db948f53eaf",
+        "rawOriginalImage": "/images/awards-products/asia-5574313-retail-original.jpg",
+        "rawOriginalUnmodified": true,
+        "individuallyVerified": true,
+        "reviewMethod": "manual_packaging_identity_and_full_silhouette_check",
+        "reviewedAt": "2026-10-02",
+        "reuseRightsVerified": false,
+        "cutoutSha256": "a0cbd3e2783c18fbcebe6b0fdd14bd7bc3c8b477fb4ff2160a0b344af7ae2ed4",
+        "processingManifest": "research/award-country-expansion-2026-10-02/asia-packshot-processing.json"
+      },
+      "imageContentBounds": {
+        "width": 400,
+        "height": 600,
+        "bounds": {
+          "x": 109,
+          "y": 14,
+          "width": 183,
+          "height": 567
+        },
+        "originalSha256": "a0cbd3e2783c18fbcebe6b0fdd14bd7bc3c8b477fb4ff2160a0b344af7ae2ed4",
+        "method": "decoded_alpha_bbox"
+      },
+      "sourceConflicts": [
+        {
+          "field": "filtration",
+          "sourceUrl": "https://s-2.ru/product/pivo-cheerday-belgian-wheat-1-l/",
+          "note": "同页筛选标签称已过滤、正文称未过滤；不录入该工艺。"
+        }
+      ]
+    },
+    {
+      "id": "curated-award-6064291",
+      "name": "Longjing Wheat Craft Beer (龙井小麦精酿啤酒)",
+      "breweryId": "curated-award-brewery-cbb739acee8c8bcf",
+      "untappdId": "6064291",
+      "style": "Wheat Beer - Other",
+      "abv": 4.0,
+      "ibu": null,
+      "description": "千岛湖龙井小麦精酿啤酒。本次核实为酒精度4%、1L金属瓶罐的版本，包装正面明确标示龙井小麦及英文 Longjing Wheat Craft Beer；地方报道介绍它将龙井茶香融入小麦啤酒。",
+      "descriptionBasis": "reviewed_public_product_information",
+      "descriptionMethod": "faithful_short_paraphrase",
+      "image": "/images/awards-products/asia-6064291-card.webp",
+      "imageThumbnail": "/images/awards-products/asia-6064291-map.webp",
+      "imageOriginal": "/images/awards-products/asia-6064291-cutout.png",
+      "imageRawOriginal": "/images/awards-products/asia-6064291-retail-original.jpg",
+      "imageKind": "product_packshot",
+      "imageSource": "https://s-2.ru/content/product/mid/product_img_1416.jpg",
+      "imageSourceUrl": "https://s-2.ru/content/product/mid/product_img_1416.jpg",
+      "imageCredit": "公开零售/经销商产品照片；只移除背景并生成本地显示缩略图，保留原瓶罐和标签像素。",
+      "sourceNote": "实物标明4.0%vol，11°为麦汁浓度；未用其他厂商同名龙井小麦替代。出口经销商口味文案较通用，因此本条介绍仅采用产品参数与地方报道核实的茶香。",
+      "sourceUrls": [
+        "https://awards.untappd.com/region/china-peoples-republic-of-china/",
+        "https://awards.untappd.com/beers/6064291/",
+        "https://untappd.com/b/hangzhou-qiandaohu-beer-co-cheerday-brewery-longjing-wheat-craft-beer/6064291",
+        "https://s-2.ru/product/pivo-cheerday-longjing-1-l/",
+        "https://s-2.ru/content/product/mid/product_img_1416.jpg",
+        "https://www.qdhnews.com.cn/news/content/2025-06/05/content_9805018.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://awards.untappd.com/region/china-peoples-republic-of-china/",
+          "role": "award_list",
+          "retrievedAt": "2026-09-21T02:36:22.555Z",
+          "ratingText": "3.47 in 2025",
+          "sha256": "0fba9b43c4d3188580614e16b7e49947c2cac80c5918005317c7d7ff6959e738",
+          "accessMethod": "public indexed/rendered web page",
+          "detailHeaderVerified": true
+        },
+        {
+          "role": "reviewed_product_description_and_packaging",
+          "url": "https://s-2.ru/product/pivo-cheerday-longjing-1-l/",
+          "sourceFile": ".runtime/award-asia-evidence/cheerday-longjing-product.html",
+          "sha256": "f6afe697b50eede8230244248d8e404507b85087aa37426a650137da4d0c0ca2",
+          "retrievedAt": "2026-10-02",
+          "readMethod": "direct_public_html",
+          "summaryZh": "千岛湖龙井小麦精酿啤酒。本次核实为酒精度4%、1L金属瓶罐的版本，包装正面明确标示龙井小麦及英文 Longjing Wheat Craft Beer；地方报道介绍它将龙井茶香融入小麦啤酒。"
+        }
+      ],
+      "identityEvidence": {
+        "status": "reviewed_same_product",
+        "sources": [
+          "https://awards.untappd.com/beers/6064291/",
+          "https://s-2.ru/product/pivo-cheerday-longjing-1-l/",
+          "https://untappd.com/b/hangzhou-qiandaohu-beer-co-cheerday-brewery-longjing-wheat-craft-beer/6064291"
+        ],
+        "basis": "精确UID酒名及酒厂与官网或专业经销商同名产品、可读瓶罐标签交叉核验；未靠近似风格匹配。",
+        "reviewedAt": "2026-10-02",
+        "awardYearPackageVerified": false
+      },
+      "imageEvidence": {
+        "sourceUrl": "https://s-2.ru/content/product/mid/product_img_1416.jpg",
+        "sourcePageUrl": "https://s-2.ru/product/pivo-cheerday-longjing-1-l/",
+        "sourceClass": "retail_product_packshot",
+        "originalSha256": "1f9abcec87b28caa8f18c588ce41d9c0e8f869f452cda1926a0d548276fe72fe",
+        "rawOriginalImage": "/images/awards-products/asia-6064291-retail-original.jpg",
+        "rawOriginalUnmodified": true,
+        "individuallyVerified": true,
+        "reviewMethod": "manual_packaging_identity_and_full_silhouette_check",
+        "reviewedAt": "2026-10-02",
+        "reuseRightsVerified": false,
+        "cutoutSha256": "acb1235d8c00cbbaa22458e04b97d88ff59eae8568058b0fd997aae3f3f3acd2",
+        "processingManifest": "research/award-country-expansion-2026-10-02/asia-packshot-processing.json"
+      },
+      "imageContentBounds": {
+        "width": 191,
+        "height": 600,
+        "bounds": {
+          "x": 1,
+          "y": 0,
+          "width": 184,
+          "height": 593
+        },
+        "originalSha256": "acb1235d8c00cbbaa22458e04b97d88ff59eae8568058b0fd997aae3f3f3acd2",
+        "method": "decoded_alpha_bbox"
+      }
+    }
+  ]
+}

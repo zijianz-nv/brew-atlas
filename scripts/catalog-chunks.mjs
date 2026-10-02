@@ -30,7 +30,8 @@ export function* encodeBeerChunks(beers, {maxFileBytes = MAX_CATALOG_FILE_BYTES}
   if (rows.length) yield part();
 }
 
-export function createCatalogChunkManifest(catalog, chunks, {maxFileBytes = MAX_CATALOG_FILE_BYTES} = {}) {
+export function createCatalogChunkManifest(catalog, chunks, {maxFileBytes = MAX_CATALOG_FILE_BYTES, maxHeaderBytes = maxFileBytes} = {}) {
+  validateBudget(maxHeaderBytes);
   validateBudget(maxFileBytes);
   if (!catalog || typeof catalog !== 'object' || !catalog.metadata || !Array.isArray(catalog.breweries) || !Array.isArray(catalog.beers)) {
     throw new Error('Catalog must contain metadata, breweries and beers');
@@ -40,7 +41,7 @@ export function createCatalogChunkManifest(catalog, chunks, {maxFileBytes = MAX_
     totalBeers:beers.length, chunks:chunks.map(({path, count}) => ({path, count}))};
   if (manifest.chunks.reduce((sum, chunk) => sum + chunk.count, 0) !== beers.length) throw new Error('Chunk counts do not match catalog beer count');
   const text = JSON.stringify(manifest), bytes = Buffer.byteLength(text);
-  if (bytes > maxFileBytes) throw new Error(`Catalog manifest/header is ${bytes} bytes, exceeding ${maxFileBytes}; breweries must not be silently omitted`);
+  if (bytes > maxHeaderBytes) throw new Error(`Catalog manifest/header is ${bytes} bytes, exceeding ${maxHeaderBytes}; breweries must not be silently omitted`);
   return {manifest, text, bytes};
 }
 

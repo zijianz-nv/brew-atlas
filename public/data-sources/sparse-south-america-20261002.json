@@ -1,0 +1,779 @@
+{
+  "metadata": {
+    "checkedAt": "2026-10-02",
+    "purpose": "Real local breweries at previously sparse inland South American places",
+    "breweries": 3,
+    "beers": 6,
+    "locations": [
+      "Cuiabá",
+      "Manaus",
+      "Pachar"
+    ]
+  },
+  "breweries": [
+    {
+      "id": "south-inland-louvada",
+      "name": "Cervejaria Louvada",
+      "country": "Brazil",
+      "countryZh": "巴西",
+      "countryCode": "BR",
+      "city": "Cuiabá",
+      "region": "Mato Grosso",
+      "lat": -15.59583333,
+      "lng": -56.09694444,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Cuiabá",
+        "resolvedLocality": "Cuiabá, Mato Grosso",
+        "countryCode": "BR",
+        "lat": -15.59583333,
+        "lng": -56.09694444,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://louvada.com.br/fale-conosco/",
+        "identitySourceUrl": "https://louvada.com.br/fale-conosco/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Cuiab%C3%A1",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "官网列明Cuiabá工厂地址Av. das Torres 4511，历史页确认2015年在本市开设首厂；城市参考点不代表所有批次均来自同一工厂。",
+        "sourceUrls": [
+          "https://louvada.com.br/fale-conosco/",
+          "https://en.wikipedia.org/wiki/Cuiab%C3%A1"
+        ]
+      },
+      "website": "https://louvada.com.br/fale-conosco/",
+      "description": "官网列明Cuiabá工厂地址Av. das Torres 4511，历史页确认2015年在本市开设首厂；城市参考点不代表所有批次均来自同一工厂。",
+      "sourceUrls": [
+        "https://louvada.com.br/fale-conosco/",
+        "https://en.wikipedia.org/wiki/Cuiab%C3%A1"
+      ],
+      "craftStatus": "craft_reference"
+    },
+    {
+      "id": "south-inland-rio-negro",
+      "name": "Cervejaria Rio Negro",
+      "country": "Brazil",
+      "countryZh": "巴西",
+      "countryCode": "BR",
+      "city": "Manaus",
+      "region": "Amazonas",
+      "lat": -3.101999998,
+      "lng": -60.02500153,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Manaus",
+        "resolvedLocality": "Manaus, Amazonas",
+        "countryCode": "BR",
+        "lat": -3.101999998,
+        "lng": -60.02500153,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://www.cervejariarionegro.com.br/",
+        "identitySourceUrl": "https://www.cervejariarionegro.com.br/",
+        "coordinateSourceUrl": "https://ungegn.un.org/dashboard/cities/details?crM49=76&id=941",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "官方地址Rua Francisca Mendes 49，Manaus；CreaJr-AM工厂参观记录确认当地生产500ml瓶装与桶装啤酒，采用UNGEGN/IBGE城市坐标。",
+        "sourceUrls": [
+          "https://www.cervejariarionegro.com.br/",
+          "https://ungegn.un.org/dashboard/cities/details?crM49=76&id=941"
+        ]
+      },
+      "website": "https://www.cervejariarionegro.com.br/",
+      "description": "官方地址Rua Francisca Mendes 49，Manaus；CreaJr-AM工厂参观记录确认当地生产500ml瓶装与桶装啤酒，采用UNGEGN/IBGE城市坐标。",
+      "sourceUrls": [
+        "https://www.cervejariarionegro.com.br/",
+        "https://ungegn.un.org/dashboard/cities/details?crM49=76&id=941"
+      ],
+      "craftStatus": "craft_reference"
+    },
+    {
+      "id": "south-inland-valle",
+      "name": "Cervecería del Valle Sagrado",
+      "country": "Peru",
+      "countryZh": "秘鲁",
+      "countryCode": "PE",
+      "city": "Pachar",
+      "region": "Cusco",
+      "lat": -13.2765,
+      "lng": -72.22257,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Pachar",
+        "resolvedLocality": "Pachar, Cusco",
+        "countryCode": "PE",
+        "lat": -13.2765,
+        "lng": -72.22257,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://peru.info/en-us/gastronomy/blogperu/2/45/from-airampo-to-quillabamba-coffee-the-peruvian-ingredients-that-set-a-cuscoborn-brewery-apart",
+        "identitySourceUrl": "https://peru.info/en-us/gastronomy/blogperu/2/45/from-airampo-to-quillabamba-coffee-the-peruvian-ingredients-that-set-a-cuscoborn-brewery-apart",
+        "coordinateSourceUrl": "https://mapcarta.com/20213062",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "秘鲁官方旅游推广机构采访明确所有啤酒产于Urubamba与Ollantaytambo之间的Pachar。使用该村参考点，非Cusco市售酒点；不是Lamay同名Pachar。",
+        "sourceUrls": [
+          "https://peru.info/en-us/gastronomy/blogperu/2/45/from-airampo-to-quillabamba-coffee-the-peruvian-ingredients-that-set-a-cuscoborn-brewery-apart",
+          "https://mapcarta.com/20213062"
+        ]
+      },
+      "website": "https://peru.info/en-us/gastronomy/blogperu/2/45/from-airampo-to-quillabamba-coffee-the-peruvian-ingredients-that-set-a-cuscoborn-brewery-apart",
+      "description": "秘鲁官方旅游推广机构采访明确所有啤酒产于Urubamba与Ollantaytambo之间的Pachar。使用该村参考点，非Cusco市售酒点；不是Lamay同名Pachar。",
+      "sourceUrls": [
+        "https://peru.info/en-us/gastronomy/blogperu/2/45/from-airampo-to-quillabamba-coffee-the-peruvian-ingredients-that-set-a-cuscoborn-brewery-apart",
+        "https://mapcarta.com/20213062"
+      ],
+      "craftStatus": "craft_reference"
+    }
+  ],
+  "beers": [
+    {
+      "id": "south-inland-louvada-ipa",
+      "name": "Louvada IPA",
+      "breweryId": "south-inland-louvada",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "American IPA",
+      "styleZh": "美式IPA",
+      "abv": 6.5,
+      "ibu": 65,
+      "srm": null,
+      "description": "库亚巴 Louvada 的 IPA，官网描述香气复杂，带淡淡黄色水果气息；配方列出大麦芽、小麦芽、酒花与酵母。",
+      "descriptionBasis": "source_backed_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://louvada.com.br/nossas-cervejas/louvada-ipa/",
+        "sourceUrls": [
+          "https://louvada.com.br/nossas-cervejas/louvada-ipa/",
+          "https://louvada.com.br/nossas-cervejas/louvada-ipa/"
+        ],
+        "retrievedAt": "2026-10-02",
+        "method": "reviewed Chinese paraphrase; no guessed ABV or IBU"
+      },
+      "flavors": [
+        "果香"
+      ],
+      "hops": [],
+      "malts": [
+        "大麦芽",
+        "小麦芽"
+      ],
+      "yeast": null,
+      "fermentation": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://louvada.com.br/nossas-cervejas/louvada-ipa/",
+        "https://louvada.com.br/nossas-cervejas/louvada-ipa/",
+        "https://louvada.com.br/fale-conosco/"
+      ],
+      "sourceNote": "官网列明Cuiabá工厂地址Av. das Torres 4511，历史页确认2015年在本市开设首厂；城市参考点不代表所有批次均来自同一工厂。",
+      "craftStatus": "craft_reference",
+      "locationEvidence": {
+        "city": "Cuiabá",
+        "resolvedLocality": "Cuiabá, Mato Grosso",
+        "countryCode": "BR",
+        "lat": -15.59583333,
+        "lng": -56.09694444,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://louvada.com.br/fale-conosco/",
+        "identitySourceUrl": "https://louvada.com.br/fale-conosco/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Cuiab%C3%A1",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "官网列明Cuiabá工厂地址Av. das Torres 4511，历史页确认2015年在本市开设首厂；城市参考点不代表所有批次均来自同一工厂。",
+        "sourceUrls": [
+          "https://louvada.com.br/fale-conosco/",
+          "https://en.wikipedia.org/wiki/Cuiab%C3%A1"
+        ]
+      },
+      "image": "/images/sparse-south-america-20261002/louvada-ipa-card.webp",
+      "imageThumbnail": "/images/sparse-south-america-20261002/louvada-ipa-map.webp",
+      "imageOriginal": "/images/sparse-south-america-20261002/louvada-ipa-original.png",
+      "imageKind": "product_packshot",
+      "imageCacheStatus": "cached",
+      "imageSource": "https://louvada.com.br/nossas-cervejas/louvada-ipa/",
+      "imageDownloadUrl": "https://louvada.com.br/wp-content/uploads/2021/06/louvada-IPA.png",
+      "imageCredit": "官网或当地零售商实物图；原图保留，本地透明背景处理。",
+      "imageLicense": null,
+      "imageEvidence": {
+        "sourceClass": "official_product_packshot",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "08ece514a9d4125d36f11a7448556cfe322c197d5d1c5a1ffe58b45b1268d6d2",
+        "mapSha256": "d9f68206c8f7e5a46b47d9f74331d94e7fdc2bbd906e5fee77f7d94976b80bba",
+        "mapBytes": 6202,
+        "mapDimensions": [
+          61,
+          170
+        ],
+        "cardDimensions": [
+          234,
+          650
+        ],
+        "method": "native alpha crop",
+        "originalRGBPreserved": true
+      },
+      "imageContentBounds": {
+        "width": 234,
+        "height": 650,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 234,
+          "height": 650
+        },
+        "method": "alpha body crop"
+      }
+    },
+    {
+      "id": "south-inland-louvada-caju",
+      "name": "Louvada Blond Caju",
+      "breweryId": "south-inland-louvada",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Fruit Beer",
+      "styleZh": "腰果果汁金色艾尔",
+      "abv": 4.8,
+      "ibu": 15,
+      "srm": null,
+      "description": "加入腰果果汁的季节金色艾尔，官网描述酒体轻盈、果味清爽。来自巴西内陆库亚巴的 Louvada，瓶标与艺术家 Nathan Henrique 合作设计。",
+      "descriptionBasis": "source_backed_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://louvada.com.br/nossas-cervejas/louvada-blond-caju/",
+        "sourceUrls": [
+          "https://louvada.com.br/nossas-cervejas/louvada-blond-caju/",
+          "https://louvada.com.br/nossas-cervejas/louvada-blond-caju/"
+        ],
+        "retrievedAt": "2026-10-02",
+        "method": "reviewed Chinese paraphrase; no guessed ABV or IBU"
+      },
+      "flavors": [
+        "果香"
+      ],
+      "hops": [],
+      "malts": [
+        "大麦芽"
+      ],
+      "yeast": null,
+      "fermentation": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://louvada.com.br/nossas-cervejas/louvada-blond-caju/",
+        "https://louvada.com.br/nossas-cervejas/louvada-blond-caju/",
+        "https://louvada.com.br/fale-conosco/"
+      ],
+      "sourceNote": "官网列明Cuiabá工厂地址Av. das Torres 4511，历史页确认2015年在本市开设首厂；城市参考点不代表所有批次均来自同一工厂。",
+      "craftStatus": "craft_reference",
+      "locationEvidence": {
+        "city": "Cuiabá",
+        "resolvedLocality": "Cuiabá, Mato Grosso",
+        "countryCode": "BR",
+        "lat": -15.59583333,
+        "lng": -56.09694444,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://louvada.com.br/fale-conosco/",
+        "identitySourceUrl": "https://louvada.com.br/fale-conosco/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Cuiab%C3%A1",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "官网列明Cuiabá工厂地址Av. das Torres 4511，历史页确认2015年在本市开设首厂；城市参考点不代表所有批次均来自同一工厂。",
+        "sourceUrls": [
+          "https://louvada.com.br/fale-conosco/",
+          "https://en.wikipedia.org/wiki/Cuiab%C3%A1"
+        ]
+      },
+      "image": "/images/sparse-south-america-20261002/louvada-caju-card.webp",
+      "imageThumbnail": "/images/sparse-south-america-20261002/louvada-caju-map.webp",
+      "imageOriginal": "/images/sparse-south-america-20261002/louvada-caju-original.png",
+      "imageKind": "product_packshot",
+      "imageCacheStatus": "cached",
+      "imageSource": "https://louvada.com.br/nossas-cervejas/louvada-blond-caju/",
+      "imageDownloadUrl": "https://louvada.com.br/wp-content/uploads/2021/09/louvada-BLOND-CAJU.png",
+      "imageCredit": "官网或当地零售商实物图；原图保留，本地透明背景处理。",
+      "imageLicense": null,
+      "imageEvidence": {
+        "sourceClass": "official_product_packshot",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "bd1d7b3464fd804049ccd6ba2aa7b8286ae3cbaa6e98d1f902df722a34779433",
+        "mapSha256": "b55124ff810283f998462945bdc91a3a5a1353771500d5adc6630cb6b9268dd6",
+        "mapBytes": 5208,
+        "mapDimensions": [
+          105,
+          170
+        ],
+        "cardDimensions": [
+          350,
+          567
+        ],
+        "method": "native alpha crop",
+        "originalRGBPreserved": true
+      },
+      "imageContentBounds": {
+        "width": 350,
+        "height": 567,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 350,
+          "height": 567
+        },
+        "method": "alpha body crop"
+      }
+    },
+    {
+      "id": "south-inland-louvada-pilsen",
+      "name": "Louvada Pilsen",
+      "breweryId": "south-inland-louvada",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pilsner",
+      "styleZh": "皮尔森",
+      "abv": 4.8,
+      "ibu": 13,
+      "srm": null,
+      "description": "库亚巴 Louvada 的浅色全麦芽皮尔森，采用下层发酵，苦味柔和，官网描述有面包、薄脆饼干与谷物香气。官方实物图为500ml与355ml两种瓶装。",
+      "descriptionBasis": "source_backed_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://louvada.com.br/nossas-cervejas/louvada-pilsen/",
+        "sourceUrls": [
+          "https://louvada.com.br/nossas-cervejas/louvada-pilsen/",
+          "https://louvada.com.br/nossas-cervejas/louvada-pilsen/"
+        ],
+        "retrievedAt": "2026-10-02",
+        "method": "reviewed Chinese paraphrase; no guessed ABV or IBU"
+      },
+      "flavors": [
+        "麦香"
+      ],
+      "hops": [],
+      "malts": [
+        "大麦芽"
+      ],
+      "yeast": null,
+      "fermentation": "lager",
+      "foodPairings": [],
+      "firstBrewed": null,
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://louvada.com.br/nossas-cervejas/louvada-pilsen/",
+        "https://louvada.com.br/nossas-cervejas/louvada-pilsen/",
+        "https://louvada.com.br/fale-conosco/"
+      ],
+      "sourceNote": "官网列明Cuiabá工厂地址Av. das Torres 4511，历史页确认2015年在本市开设首厂；城市参考点不代表所有批次均来自同一工厂。",
+      "craftStatus": "craft_reference",
+      "locationEvidence": {
+        "city": "Cuiabá",
+        "resolvedLocality": "Cuiabá, Mato Grosso",
+        "countryCode": "BR",
+        "lat": -15.59583333,
+        "lng": -56.09694444,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://louvada.com.br/fale-conosco/",
+        "identitySourceUrl": "https://louvada.com.br/fale-conosco/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Cuiab%C3%A1",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "官网列明Cuiabá工厂地址Av. das Torres 4511，历史页确认2015年在本市开设首厂；城市参考点不代表所有批次均来自同一工厂。",
+        "sourceUrls": [
+          "https://louvada.com.br/fale-conosco/",
+          "https://en.wikipedia.org/wiki/Cuiab%C3%A1"
+        ]
+      },
+      "image": "/images/sparse-south-america-20261002/louvada-pilsen-card.webp",
+      "imageThumbnail": "/images/sparse-south-america-20261002/louvada-pilsen-map.webp",
+      "imageOriginal": "/images/sparse-south-america-20261002/louvada-pilsen-original.png",
+      "imageKind": "product_packshot",
+      "imageCacheStatus": "cached",
+      "imageSource": "https://louvada.com.br/nossas-cervejas/louvada-pilsen/",
+      "imageDownloadUrl": "https://louvada.com.br/wp-content/uploads/2021/03/louvada-PILSEN.png",
+      "imageCredit": "官网或当地零售商实物图；原图保留，本地透明背景处理。",
+      "imageLicense": null,
+      "imageEvidence": {
+        "sourceClass": "official_product_packshot",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "dbff3f84162d38eda0b10b1ac7fe1409efa093aa7b6ed2e2c00d50b14218e603",
+        "mapSha256": "7c6e624690874085c69b2cf7376e2c1e2958bd7a1deeddff36c9a1e07db5cd86",
+        "mapBytes": 8666,
+        "mapDimensions": [
+          101,
+          170
+        ],
+        "cardDimensions": [
+          350,
+          587
+        ],
+        "method": "native alpha crop",
+        "originalRGBPreserved": true
+      },
+      "imageContentBounds": {
+        "width": 350,
+        "height": 587,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 350,
+          "height": 587
+        },
+        "method": "alpha body crop"
+      }
+    },
+    {
+      "id": "south-inland-rio-muyra",
+      "name": "Muyrá Pilsen Premium",
+      "breweryId": "south-inland-rio-negro",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pilsner",
+      "styleZh": "未过滤皮尔森",
+      "abv": null,
+      "ibu": null,
+      "srm": null,
+      "description": "马瑙斯 Rio Negro 酿造的 Muyrá Premium Pilsen。产品资料说明以100%大麦芽酿造且不过滤，酒体比标准皮尔森更饱满，保留自然浑浊与较明显酒花苦味；采用当地零售商500ml实物瓶图。",
+      "descriptionBasis": "source_backed_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.patiogourmet.com.br/cerveja-cervejaria-rio-negro-pilsen-premium-muyra-garrafa-500ml/p",
+        "sourceUrls": [
+          "https://www.patiogourmet.com.br/cerveja-cervejaria-rio-negro-pilsen-premium-muyra-garrafa-500ml/p",
+          "https://www.patiogourmet.com.br/cerveja-cervejaria-rio-negro-pilsen-premium-muyra-garrafa-500ml/p"
+        ],
+        "retrievedAt": "2026-10-02",
+        "method": "reviewed Chinese paraphrase; no guessed ABV or IBU"
+      },
+      "flavors": [
+        "麦香"
+      ],
+      "hops": [],
+      "malts": [
+        "大麦芽"
+      ],
+      "yeast": null,
+      "fermentation": "lager",
+      "foodPairings": [],
+      "firstBrewed": null,
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://www.patiogourmet.com.br/cerveja-cervejaria-rio-negro-pilsen-premium-muyra-garrafa-500ml/p",
+        "https://www.patiogourmet.com.br/cerveja-cervejaria-rio-negro-pilsen-premium-muyra-garrafa-500ml/p",
+        "https://www.cervejariarionegro.com.br/"
+      ],
+      "sourceNote": "官方地址Rua Francisca Mendes 49，Manaus；CreaJr-AM工厂参观记录确认当地生产500ml瓶装与桶装啤酒，采用UNGEGN/IBGE城市坐标。",
+      "craftStatus": "craft_reference",
+      "locationEvidence": {
+        "city": "Manaus",
+        "resolvedLocality": "Manaus, Amazonas",
+        "countryCode": "BR",
+        "lat": -3.101999998,
+        "lng": -60.02500153,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://www.cervejariarionegro.com.br/",
+        "identitySourceUrl": "https://www.cervejariarionegro.com.br/",
+        "coordinateSourceUrl": "https://ungegn.un.org/dashboard/cities/details?crM49=76&id=941",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "官方地址Rua Francisca Mendes 49，Manaus；CreaJr-AM工厂参观记录确认当地生产500ml瓶装与桶装啤酒，采用UNGEGN/IBGE城市坐标。",
+        "sourceUrls": [
+          "https://www.cervejariarionegro.com.br/",
+          "https://ungegn.un.org/dashboard/cities/details?crM49=76&id=941"
+        ]
+      },
+      "image": "/images/sparse-south-america-20261002/rio-muyra-card.webp",
+      "imageThumbnail": "/images/sparse-south-america-20261002/rio-muyra-map.webp",
+      "imageOriginal": "/images/sparse-south-america-20261002/rio-muyra-original.jpg",
+      "imageKind": "product_packshot",
+      "imageCacheStatus": "cached",
+      "imageSource": "https://www.patiogourmet.com.br/cerveja-cervejaria-rio-negro-pilsen-premium-muyra-garrafa-500ml/p",
+      "imageDownloadUrl": "https://mercantilnovaera.vtexassets.com/arquivos/ids/189162-600-auto?aspect=true&height=auto&v=637702661863030000&width=600",
+      "imageCredit": "官网或当地零售商实物图；原图保留，本地透明背景处理。",
+      "imageLicense": null,
+      "imageEvidence": {
+        "sourceClass": "retailer_product_packshot",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "b99c9012db3285ad6628865cab7a45ee5e2d0832beb13da51a110f7f2e1fa3ad",
+        "mapSha256": "c530ca5ef58e2e0e2b5e3ea2ae40839b1036d670f67486359bbcaf9030a55e39",
+        "mapBytes": 5000,
+        "mapDimensions": [
+          48,
+          170
+        ],
+        "cardDimensions": [
+          143,
+          503
+        ],
+        "method": "reviewed single-bottle crop; row silhouette removes JPEG white/gray fringe with local Python; all original interior RGB retained",
+        "originalRGBPreserved": true
+      },
+      "imageContentBounds": {
+        "width": 143,
+        "height": 503,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 143,
+          "height": 503
+        },
+        "method": "alpha body crop"
+      }
+    },
+    {
+      "id": "south-inland-valle-apu",
+      "name": "Apu Verónica",
+      "breweryId": "south-inland-valle",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Double IPA",
+      "styleZh": "双倍IPA",
+      "abv": 9.6,
+      "ibu": 95,
+      "srm": null,
+      "description": "在秘鲁圣谷 Pachar 本地酿造，以俯瞰奥扬泰坦博的 Apu Verónica 雪山命名。官网描述酒花果香鲜明、苦味强烈，带轻微辛香，收口干爽；零售实物图来自 Colca Gourmet。",
+      "descriptionBasis": "source_backed_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://cerveceriadelvalle.com/index.html",
+        "sourceUrls": [
+          "https://cerveceriadelvalle.com/index.html",
+          "https://colcagourmet.com/cervezas/163-apu-veronica.html"
+        ],
+        "retrievedAt": "2026-10-02",
+        "method": "reviewed Chinese paraphrase; no guessed ABV or IBU"
+      },
+      "flavors": [
+        "果香",
+        "辛香"
+      ],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "fermentation": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://cerveceriadelvalle.com/index.html",
+        "https://colcagourmet.com/cervezas/163-apu-veronica.html",
+        "https://peru.info/en-us/gastronomy/blogperu/2/45/from-airampo-to-quillabamba-coffee-the-peruvian-ingredients-that-set-a-cuscoborn-brewery-apart"
+      ],
+      "sourceNote": "秘鲁官方旅游推广机构采访明确所有啤酒产于Urubamba与Ollantaytambo之间的Pachar。使用该村参考点，非Cusco市售酒点；不是Lamay同名Pachar。",
+      "craftStatus": "craft_reference",
+      "locationEvidence": {
+        "city": "Pachar",
+        "resolvedLocality": "Pachar, Cusco",
+        "countryCode": "PE",
+        "lat": -13.2765,
+        "lng": -72.22257,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://peru.info/en-us/gastronomy/blogperu/2/45/from-airampo-to-quillabamba-coffee-the-peruvian-ingredients-that-set-a-cuscoborn-brewery-apart",
+        "identitySourceUrl": "https://peru.info/en-us/gastronomy/blogperu/2/45/from-airampo-to-quillabamba-coffee-the-peruvian-ingredients-that-set-a-cuscoborn-brewery-apart",
+        "coordinateSourceUrl": "https://mapcarta.com/20213062",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "秘鲁官方旅游推广机构采访明确所有啤酒产于Urubamba与Ollantaytambo之间的Pachar。使用该村参考点，非Cusco市售酒点；不是Lamay同名Pachar。",
+        "sourceUrls": [
+          "https://peru.info/en-us/gastronomy/blogperu/2/45/from-airampo-to-quillabamba-coffee-the-peruvian-ingredients-that-set-a-cuscoborn-brewery-apart",
+          "https://mapcarta.com/20213062"
+        ]
+      },
+      "image": "/images/sparse-south-america-20261002/valle-apu-card.webp",
+      "imageThumbnail": "/images/sparse-south-america-20261002/valle-apu-map.webp",
+      "imageOriginal": "/images/sparse-south-america-20261002/valle-apu-original.jpg",
+      "imageKind": "product_packshot",
+      "imageCacheStatus": "cached",
+      "imageSource": "https://colcagourmet.com/cervezas/163-apu-veronica.html",
+      "imageDownloadUrl": "https://colcagourmet.com/406-home_default/apu-veronica.jpg",
+      "imageCredit": "官网或当地零售商实物图；原图保留，本地透明背景处理。",
+      "imageLicense": null,
+      "imageEvidence": {
+        "sourceClass": "retailer_product_packshot",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "34b986ebbde5fc64451ce350600fd7f20309c54e08db59568b9c40c2f577ad3b",
+        "mapSha256": "1525b980c7e4b64e7a0cad302f1e75e24e5baffffab7dceb4d640919890983e8",
+        "mapBytes": 4374,
+        "mapDimensions": [
+          55,
+          170
+        ],
+        "cardDimensions": [
+          78,
+          239
+        ],
+        "method": "reviewed single-bottle crop; row silhouette removes JPEG white/gray fringe with local Python; all original interior RGB retained",
+        "originalRGBPreserved": true
+      },
+      "imageContentBounds": {
+        "width": 78,
+        "height": 239,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 78,
+          "height": 239
+        },
+        "method": "alpha body crop"
+      }
+    },
+    {
+      "id": "south-inland-rio-cherokee",
+      "name": "Cherokee American Wheat Mango",
+      "breweryId": "south-inland-rio-negro",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "American Wheat Ale",
+      "styleZh": "芒果美式小麦艾尔",
+      "abv": null,
+      "ibu": null,
+      "srm": null,
+      "description": "马瑙斯 Rio Negro 的美式小麦啤酒，熟成时加入芒果。产品资料描述酒花带出柑橘与百香果气息，芒果增加柔和甜感，尾段保留柑橘式苦味。采用当地 Pátio Gourmet 的500ml实物瓶图。",
+      "descriptionBasis": "source_backed_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.patiogourmet.com.br/cerveja-cervejaria-rio-negro-cherokee-american-wheat-mango-garrafa-500ml/p",
+        "sourceUrls": [
+          "https://www.patiogourmet.com.br/cerveja-cervejaria-rio-negro-cherokee-american-wheat-mango-garrafa-500ml/p",
+          "https://www.patiogourmet.com.br/cerveja-cervejaria-rio-negro-cherokee-american-wheat-mango-garrafa-500ml/p"
+        ],
+        "retrievedAt": "2026-10-02",
+        "method": "reviewed Chinese paraphrase; no guessed ABV or IBU"
+      },
+      "flavors": [
+        "芒果",
+        "柑橘",
+        "百香果"
+      ],
+      "hops": [],
+      "malts": [],
+      "yeast": null,
+      "fermentation": null,
+      "foodPairings": [],
+      "firstBrewed": null,
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://www.patiogourmet.com.br/cerveja-cervejaria-rio-negro-cherokee-american-wheat-mango-garrafa-500ml/p",
+        "https://www.patiogourmet.com.br/cerveja-cervejaria-rio-negro-cherokee-american-wheat-mango-garrafa-500ml/p",
+        "https://www.cervejariarionegro.com.br/"
+      ],
+      "sourceNote": "官方地址Rua Francisca Mendes 49，Manaus；CreaJr-AM工厂参观记录确认当地生产500ml瓶装与桶装啤酒，采用UNGEGN/IBGE城市坐标。",
+      "craftStatus": "craft_reference",
+      "locationEvidence": {
+        "city": "Manaus",
+        "resolvedLocality": "Manaus, Amazonas",
+        "countryCode": "BR",
+        "lat": -3.101999998,
+        "lng": -60.02500153,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://www.cervejariarionegro.com.br/",
+        "identitySourceUrl": "https://www.cervejariarionegro.com.br/",
+        "coordinateSourceUrl": "https://ungegn.un.org/dashboard/cities/details?crM49=76&id=941",
+        "method": "reviewed_public_locality_reference",
+        "verificationNote": "官方地址Rua Francisca Mendes 49，Manaus；CreaJr-AM工厂参观记录确认当地生产500ml瓶装与桶装啤酒，采用UNGEGN/IBGE城市坐标。",
+        "sourceUrls": [
+          "https://www.cervejariarionegro.com.br/",
+          "https://ungegn.un.org/dashboard/cities/details?crM49=76&id=941"
+        ]
+      },
+      "image": "/images/sparse-south-america-20261002/rio-cherokee-card.webp",
+      "imageThumbnail": "/images/sparse-south-america-20261002/rio-cherokee-map.webp",
+      "imageOriginal": "/images/sparse-south-america-20261002/rio-cherokee-original.jpg",
+      "imageKind": "product_packshot",
+      "imageCacheStatus": "cached",
+      "imageSource": "https://www.patiogourmet.com.br/cerveja-cervejaria-rio-negro-cherokee-american-wheat-mango-garrafa-500ml/p",
+      "imageDownloadUrl": "https://mercantilnovaera.vtexassets.com/arquivos/ids/189150-600-auto?aspect=true&height=auto&v=637702514657000000&width=600",
+      "imageCredit": "官网或当地零售商实物图；原图保留，本地透明背景处理。",
+      "imageLicense": null,
+      "imageEvidence": {
+        "sourceClass": "retailer_product_packshot",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "853b14ab2e8e802db8262f43089a1339bdde4abecebadc3f0e10911c50e8a980",
+        "mapSha256": "8d2437340b6fecce8c0e33a4d8f3f9a36b20bec080cc569e2bf7b542576d5a2f",
+        "mapBytes": 4428,
+        "mapDimensions": [
+          48,
+          170
+        ],
+        "cardDimensions": [
+          144,
+          507
+        ],
+        "method": "reviewed single-bottle crop; row silhouette removes JPEG white/gray fringe with local Python; all original interior RGB retained",
+        "originalRGBPreserved": true
+      },
+      "imageContentBounds": {
+        "width": 144,
+        "height": 507,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 144,
+          "height": 507
+        },
+        "method": "alpha body crop"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-10-01T22:05:39.034Z",
+  "source": "world-50m.geojson",
+  "sourceSha256": "96652f04de92088f1ad759d0c03541ea5235061b060aa3147693fd5812a039c7",
+  "width": 8192,
+  "height": 4096,
+  "coastMargin": 0,
+  "packedBytes": 4194324,
+  "gzipBytes": 112411,
+  "sha256": "4a5145e9ee3193c2a4868ea8cea19ac742467a7b4b7996f771d28861fb095b94",
+  "comparedCells": 33554432,
+  "exactCellEquality": true,
+  "elapsedMs": 1310,
+  "provenance": "Same Natural Earth 1:50m geometry and scanline raster as the browser; no coordinate rounding or coastline simplification."
+}

@@ -1,6 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { loadCatalog, validateCatalogManifest, validateChunkPath, rebaseCatalogResources } from '../src/catalog-loader.mjs';
+import {gzipSync} from 'node:zlib';
+import { loadCatalog, loadCatalogBootstrap, validateCatalogManifest, validateChunkPath, rebaseCatalogResources } from '../src/catalog-loader.mjs';
+import {createCatalogBootstrap} from './catalog-bootstrap.mjs';
 import { normalizeBasePath, withBasePath, withoutBasePath } from '../src/base-path.mjs';
 
 const brewery = { id: 'brewery', name: 'Source producer', lat: null, lng: null };
@@ -15,6 +17,36 @@ const pause = (ms, signal, onAbort = () => {}) => new Promise((resolve, reject) 
   const abort = () => { clearTimeout(timer); onAbort(); reject(signal.reason); };
   signal.addEventListener('abort', abort, { once: true });
   timer = setTimeout(() => { signal.removeEventListener('abort', abort); resolve(); }, ms);
+});
+
+test('gzip-only published chunks retain every record with native, legacy and host-decoded responses', async () => {
+  const rows = [[{...beer('fruit'), name:'芭乐 / 桃子', image:'/images/fruit.webp'}], [beer('second')]];
+  const source = manifest(rows);
+  source.chunks.forEach(chunk => {chunk.encoding = 'gzip';});
+  for (const mode of ['native','legacy','host-decoded']) {
+    const calls = [];
+    const output = await loadCatalog({baseUrl:'/brew-atlas/',
+      DecompressionStreamImpl:mode === 'legacy' ? null : globalThis.DecompressionStream,
+      fetchImpl:async url => {
+        calls.push(url);
+        if (url.endsWith('catalog.manifest.json')) return response(source);
+        const index = Number(url.match(/part-(\d+)\.json\.gz$/)?.[1]);
+        assert(Number.isInteger(index), 'only compressed chunk URLs are requested');
+        const text = JSON.stringify(rows[index]);
+        return new Response(mode === 'host-decoded' ? text : gzipSync(text));
+      }});
+    assert.deepEqual(output, rebaseCatalogResources({...source.catalog,beers:rows.flat()},'/brew-atlas/'));
+    assert.equal(calls.length,3);
+  }
+});
+
+test('unsupported encodings and damaged compressed chunks cannot publish an incomplete catalog', async () => {
+  const source = manifest([[beer('a')]]);
+  source.chunks[0].encoding = 'zip';
+  assert.throws(() => validateCatalogManifest(source), /编码/);
+  source.chunks[0].encoding = 'gzip';
+  await assert.rejects(loadCatalog({fetchImpl:async url => url.endsWith('manifest.json')
+    ? response(source) : new Response(new Uint8Array([0x1f,0x8b,0,0]))}));
 });
 
 test('root and repository base paths preserve external sources and slash-shaped beer names', () => {
@@ -132,4 +164,65 @@ test('an empty, valid catalog completes without issuing phantom chunk requests',
   let calls = 0;
   const output = await loadCatalog({ fetchImpl: async () => { calls++; return response(manifest([])); } });
   assert.equal(calls, 1); assert.deepEqual(output.beers, []);
+});
+
+test('map-first loading makes exactly one small request; full records are fetched only when explicitly requested', async () => {
+  const mapped = {...beer('mapped'),image:'/images/map.png',description:'Source product introduction.'};
+  const hidden = beer('searchable-without-image');
+  const source = {metadata:{}, breweries:[{...brewery,locationVerified:true,lat:10,lng:20}], beers:[mapped,hidden]};
+  const bootstrap = createCatalogBootstrap(source), chunks = manifest([[mapped],[hidden]]);
+  chunks.catalog = {metadata:source.metadata,breweries:source.breweries};
+  const calls = [], fetchImpl = async url => {
+    calls.push(url);
+    if (url.endsWith('catalog.bootstrap.json')) return response(bootstrap);
+    if (url.endsWith('catalog.manifest.json')) return response(chunks);
+    return response(url.endsWith('part-0.json') ? [mapped] : [hidden]);
+  };
+  const initial = await loadCatalogBootstrap({baseUrl:'/brew-atlas/',fetchImpl});
+  assert.equal(initial.complete, false);
+  assert.deepEqual(calls, ['/brew-atlas/data/catalog.bootstrap.json']);
+  assert.deepEqual(initial.catalog.beers.map(beer => beer.id), ['mapped']);
+  assert.equal(initial.catalog.beers[0].image, '/brew-atlas/images/map.png');
+  assert.equal(initial.catalog.metadata.counts.beers, 2);
+  const full = await loadCatalog({baseUrl:'/brew-atlas/',fetchImpl});
+  assert.deepEqual(full.beers.map(beer => beer.id), ['mapped','searchable-without-image']);
+  assert.equal(calls.length, 4);
+});
+
+test('only bootstrap 404 falls back; errors and malformed subsets never masquerade as a complete catalog', async () => {
+  const old = {metadata:{},breweries:[brewery],beers:[beer('old')]}, calls = [];
+  const result = await loadCatalogBootstrap({fetchImpl:async url => {
+    calls.push(url); return response(url.endsWith('catalog.json') ? old : {}, url.endsWith('catalog.json') ? 200 : 404);
+  }});
+  assert.equal(result.complete, true); assert.deepEqual(result.catalog, old);
+  assert.deepEqual(calls, ['/data/catalog.bootstrap.json','/data/catalog.manifest.json','/data/catalog.json']);
+  for (const status of [403,429,503]) {
+    let count = 0;
+    await assert.rejects(loadCatalogBootstrap({fetchImpl:async () => {count++;return response({},status);}}), new RegExp(String(status)));
+    assert.equal(count, 1);
+  }
+  const valid = createCatalogBootstrap({metadata:{},breweries:[brewery],beers:[]});
+  for (const edit of [payload => {payload.schemaVersion=2;},payload => {payload.catalog.metadata.bootstrap.loadedBeers=1;},
+    payload => {payload.catalog.metadata.counts.beers=3;},payload => {
+      payload.catalog.beers=[beer('orphan')];payload.catalog.metadata.bootstrap.loadedBeers=1;
+      payload.catalog.metadata.bootstrap.totalBeers=1;payload.catalog.metadata.counts.beers=1;
+    }]) {
+    const broken = structuredClone(valid); edit(broken); let count = 0;
+    await assert.rejects(loadCatalogBootstrap({fetchImpl:async () => {count++;return response(broken);}}));
+    assert.equal(count, 1);
+  }
+});
+
+test('bootstrap respects cancellation before fetch, while fetching and after JSON parsing', async () => {
+  const controller = new AbortController(); controller.abort(); let called = false;
+  await assert.rejects(loadCatalogBootstrap({signal:controller.signal,fetchImpl:async()=>{called=true;}}),{name:'AbortError'});
+  assert.equal(called,false);
+  const inFlight = new AbortController(); let aborted = 0;
+  const pending = loadCatalogBootstrap({signal:inFlight.signal,fetchImpl:async(url,{signal})=>{
+    await pause(100,signal,()=>aborted++); return response({});
+  }});
+  inFlight.abort(); await assert.rejects(pending,{name:'AbortError'}); assert.equal(aborted,1);
+  const parsing = new AbortController();
+  await assert.rejects(loadCatalogBootstrap({signal:parsing.signal,fetchImpl:async()=>({ok:true,status:200,
+    json:async()=>{parsing.abort();return {};}})}),{name:'AbortError'});
 });

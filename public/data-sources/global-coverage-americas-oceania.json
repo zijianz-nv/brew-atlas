@@ -1,0 +1,3878 @@
+{
+  "metadata": {
+    "title": "Verified locally brewed country coverage: Americas and Oceania",
+    "retrievedAt": "2026-10-02",
+    "sourcePolicy": "Local brewing required; no imports or overseas contract production used to fill a country.",
+    "countries": 25,
+    "beers": 26,
+    "unresolvedCountries": [
+      "Kiribati",
+      "Marshall Islands",
+      "Federated States of Micronesia",
+      "Nauru",
+      "Tuvalu",
+      "Tonga"
+    ]
+  },
+  "breweries": [
+    {
+      "id": "openbeer-brewery-99",
+      "name": "Belize Brewing Company",
+      "nameZh": "Belize Brewing Company",
+      "country": "Belize",
+      "countryZh": "伯利兹",
+      "countryCode": "BZ",
+      "city": "Ladyville",
+      "region": null,
+      "lat": 17.54944444,
+      "lng": -88.29194444,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "website": "https://belikin.bz/",
+      "description": "伯利兹 Ladyville 酒厂的 Belikin 拉格，官方介绍其采用欧洲拉格酿造传统。",
+      "sourceUrls": [
+        "https://www.bevco.bz/belikin-beer/",
+        "https://belikin.bz/",
+        "https://en.wikipedia.org/wiki/Ladyville"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Ladyville",
+        "resolvedLocality": "Ladyville",
+        "countryCode": "BZ",
+        "lat": 17.54944444,
+        "lng": -88.29194444,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://belikin.bz/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Ladyville",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://belikin.bz/",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://www.bevco.bz/belikin-beer/",
+          "https://belikin.bz/",
+          "https://en.wikipedia.org/wiki/Ladyville"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      }
+    },
+    {
+      "id": "systembolaget-producer-8be6616be78a7d9f",
+      "name": "CARIB Brewery (Trinidad and Tobago)",
+      "nameZh": "CARIB Brewery (Trinidad and Tobago)",
+      "country": "Trinidad and Tobago",
+      "countryZh": "特立尼达和多巴哥",
+      "countryCode": "TT",
+      "city": "Champs Fleurs",
+      "region": null,
+      "lat": 10.6505411,
+      "lng": -61.4271169,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "website": "https://caribbrewery.com/business/trinidad-tobago/",
+      "description": "特立尼达和多巴哥本地酿造的 Stag 拉格，官方描述口味爽脆、余味较轻。",
+      "sourceUrls": [
+        "https://caribbrewery.com/alco/stag/",
+        "https://caribbrewery.com/business/trinidad-tobago/",
+        "https://www.openstreetmap.org/way/146542617"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。 坐标为 Champs Fleurs 街区的公开地标参考点，不是商店生产啤酒。",
+      "craftStatus": "industrial_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Champs Fleurs",
+        "resolvedLocality": "Champs Fleurs",
+        "countryCode": "TT",
+        "lat": 10.6505411,
+        "lng": -61.4271169,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://caribbrewery.com/business/trinidad-tobago/",
+        "coordinateSourceUrl": "https://www.openstreetmap.org/way/146542617",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/champs-fleurs-coordinates.json",
+        "identitySourceUrl": "https://caribbrewery.com/business/trinidad-tobago/",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://caribbrewery.com/alco/stag/",
+          "https://caribbrewery.com/business/trinidad-tobago/",
+          "https://www.openstreetmap.org/way/146542617"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。 坐标为 Champs Fleurs 街区的公开地标参考点，不是商店生产啤酒。"
+      }
+    },
+    {
+      "id": "globalcoverage-brewery-gd",
+      "name": "CARIB Brewery Grenada",
+      "nameZh": "CARIB Brewery Grenada",
+      "country": "Grenada",
+      "countryZh": "格林纳达",
+      "countryCode": "GD",
+      "city": "St. George’s",
+      "region": null,
+      "lat": 12.0525,
+      "lng": -61.75305556,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "website": "https://caribbrewery.com/business/grenada/",
+      "description": "格林纳达酒厂本地生产的 Carib 金色拉格，官方介绍其麦芽与酒花、甜味与苦味保持平衡。",
+      "sourceUrls": [
+        "https://caribbrewery.com/alco/carib-lager/",
+        "https://caribbrewery.com/business/grenada/",
+        "https://en.wikipedia.org/wiki/St._George%27s%2C_Grenada"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "St. George’s",
+        "resolvedLocality": "St. George’s",
+        "countryCode": "GD",
+        "lat": 12.0525,
+        "lng": -61.75305556,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://caribbrewery.com/business/grenada/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/St._George%27s%2C_Grenada",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://caribbrewery.com/business/grenada/",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://caribbrewery.com/alco/carib-lager/",
+          "https://caribbrewery.com/business/grenada/",
+          "https://en.wikipedia.org/wiki/St._George%27s%2C_Grenada"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      }
+    },
+    {
+      "id": "globalcoverage-brewery-kn",
+      "name": "CARIB Brewery (St. Kitts & Nevis)",
+      "nameZh": "CARIB Brewery (St. Kitts & Nevis)",
+      "country": "Saint Kitts and Nevis",
+      "countryZh": "圣基茨和尼维斯",
+      "countryCode": "KN",
+      "city": "Basseterre",
+      "region": null,
+      "lat": 17.3,
+      "lng": -62.73333333,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "website": "https://www.uncommoncaribbean.com/nevis/skol-beer/",
+      "description": "Skol 品牌在圣基茨和尼维斯由当地 Carib 酒厂获许可酿造的版本；属于本地生产的全麦芽拉格。",
+      "sourceUrls": [
+        "https://caribbrewery.com/alco/skol/",
+        "https://www.uncommoncaribbean.com/nevis/skol-beer/",
+        "https://caribbrewery.com/business/st-kitts-nevis/",
+        "https://en.wikipedia.org/wiki/Basseterre"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Basseterre",
+        "resolvedLocality": "Basseterre",
+        "countryCode": "KN",
+        "lat": 17.3,
+        "lng": -62.73333333,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://www.uncommoncaribbean.com/nevis/skol-beer/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Basseterre",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://www.uncommoncaribbean.com/nevis/skol-beer/",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://caribbrewery.com/alco/skol/",
+          "https://www.uncommoncaribbean.com/nevis/skol-beer/",
+          "https://caribbrewery.com/business/st-kitts-nevis/",
+          "https://en.wikipedia.org/wiki/Basseterre"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      }
+    },
+    {
+      "id": "globalcoverage-brewery-ht",
+      "name": "BRANA",
+      "nameZh": "BRANA",
+      "country": "Haiti",
+      "countryZh": "海地",
+      "countryCode": "HT",
+      "city": "Port-au-Prince",
+      "region": null,
+      "lat": 18.53638889,
+      "lng": -72.34638889,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "website": "https://www.brana.ht/nos-marques/prestige",
+      "description": "海地 BRANA 的 Prestige，自 1976 年推出。此条采用官网当前标示的 5.6% 酒精度与官方瓶装照片。",
+      "sourceUrls": [
+        "https://www.brana.ht/nos-marques/prestige",
+        "https://en.wikipedia.org/wiki/Port-au-Prince"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Port-au-Prince",
+        "resolvedLocality": "Port-au-Prince",
+        "countryCode": "HT",
+        "lat": 18.53638889,
+        "lng": -72.34638889,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://www.brana.ht/nos-marques/prestige",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Port-au-Prince",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://www.brana.ht/nos-marques/prestige",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://www.brana.ht/nos-marques/prestige",
+          "https://en.wikipedia.org/wiki/Port-au-Prince"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      }
+    },
+    {
+      "id": "globalcoverage-brewery-bo",
+      "name": "Cervecería Boliviana Nacional",
+      "nameZh": "Cervecería Boliviana Nacional",
+      "country": "Bolivia",
+      "countryZh": "玻利维亚",
+      "countryCode": "BO",
+      "city": "La Paz",
+      "region": null,
+      "lat": -16.49583333,
+      "lng": -68.13333333,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "website": "https://www.cbn.bo/marcas/bebidas-alcoholicas/cervezas/pacena",
+      "description": "玻利维亚 CBN 的 Paceña 皮尔森，官方品牌历史追溯至 1886 年。图为官方 330 毫升罐装。",
+      "sourceUrls": [
+        "https://www.cbn.bo/marcas/bebidas-alcoholicas/cervezas/pacena",
+        "https://en.wikipedia.org/wiki/La_Paz"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "La Paz",
+        "resolvedLocality": "La Paz",
+        "countryCode": "BO",
+        "lat": -16.49583333,
+        "lng": -68.13333333,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://www.cbn.bo/marcas/bebidas-alcoholicas/cervezas/pacena",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/La_Paz",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://www.cbn.bo/marcas/bebidas-alcoholicas/cervezas/pacena",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://www.cbn.bo/marcas/bebidas-alcoholicas/cervezas/pacena",
+          "https://en.wikipedia.org/wiki/La_Paz"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      }
+    },
+    {
+      "id": "globalcoverage-brewery-ve",
+      "name": "Cervecería Polar",
+      "nameZh": "Cervecería Polar",
+      "country": "Venezuela",
+      "countryZh": "委内瑞拉",
+      "countryCode": "VE",
+      "city": "Caracas",
+      "region": null,
+      "lat": 10.50611111,
+      "lng": -66.91444444,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "website": "https://empresaspolar.com/hitos-historicos-empresas-polar/",
+      "description": "委内瑞拉生产的 Polar Pilsen，品牌始于 1941 年。官方描述为金黄色酒液、白色泡沫和柔和香气。",
+      "sourceUrls": [
+        "https://empresaspolar.com/nuestras-marcas/polar-pilsen/",
+        "https://empresaspolar.com/hitos-historicos-empresas-polar/",
+        "https://en.wikipedia.org/wiki/Caracas"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Caracas",
+        "resolvedLocality": "Caracas",
+        "countryCode": "VE",
+        "lat": 10.50611111,
+        "lng": -66.91444444,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://empresaspolar.com/hitos-historicos-empresas-polar/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Caracas",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://empresaspolar.com/hitos-historicos-empresas-polar/",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://empresaspolar.com/nuestras-marcas/polar-pilsen/",
+          "https://empresaspolar.com/hitos-historicos-empresas-polar/",
+          "https://en.wikipedia.org/wiki/Caracas"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      }
+    },
+    {
+      "id": "globalcoverage-brewery-ws",
+      "name": "Vailima / Samoa Breweries",
+      "nameZh": "Vailima / Samoa Breweries",
+      "country": "Samoa",
+      "countryZh": "萨摩亚",
+      "countryCode": "WS",
+      "city": "Apia",
+      "region": null,
+      "lat": -13.83333333,
+      "lng": -171.75,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "website": "https://en.wikipedia.org/wiki/Samoa_Breweries",
+      "description": "Vailima 官网当前明确标示在萨摩亚酿造并罐装、由萨摩亚人全资拥有。Export 为 6.7% 拉格；位置采用 Apia 城市参考点。",
+      "sourceUrls": [
+        "https://www.vailimabeer.com/home",
+        "https://en.wikipedia.org/wiki/Samoa_Breweries",
+        "https://en.wikipedia.org/wiki/Apia"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Apia",
+        "resolvedLocality": "Apia",
+        "countryCode": "WS",
+        "lat": -13.83333333,
+        "lng": -171.75,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://en.wikipedia.org/wiki/Samoa_Breweries",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Apia",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://en.wikipedia.org/wiki/Samoa_Breweries",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://www.vailimabeer.com/home",
+          "https://en.wikipedia.org/wiki/Samoa_Breweries",
+          "https://en.wikipedia.org/wiki/Apia"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      }
+    },
+    {
+      "id": "globalcoverage-brewery-sb",
+      "name": "Solomon Breweries",
+      "nameZh": "Solomon Breweries",
+      "country": "Solomon Islands",
+      "countryZh": "所罗门群岛",
+      "countryCode": "SB",
+      "city": "Honiara",
+      "region": null,
+      "lat": -9.43194444,
+      "lng": 159.95555556,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "website": "https://solbrew.com.sb/about-solbrew/",
+      "description": "所罗门群岛 Solomon Breweries 的本地 SolBrew 拉格，酒精度 4.7%。图从官方瓶罐合影中保留完整瓶身。",
+      "sourceUrls": [
+        "https://solbrew.com.sb/solbrew-lager/",
+        "https://solbrew.com.sb/about-solbrew/",
+        "https://en.wikipedia.org/wiki/Honiara"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Honiara",
+        "resolvedLocality": "Honiara",
+        "countryCode": "SB",
+        "lat": -9.43194444,
+        "lng": 159.95555556,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://solbrew.com.sb/about-solbrew/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Honiara",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://solbrew.com.sb/about-solbrew/",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://solbrew.com.sb/solbrew-lager/",
+          "https://solbrew.com.sb/about-solbrew/",
+          "https://en.wikipedia.org/wiki/Honiara"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      }
+    },
+    {
+      "id": "globalcoverage-brewery-pg",
+      "name": "SP Brewery",
+      "nameZh": "SP Brewery",
+      "country": "Papua New Guinea",
+      "countryZh": "巴布亚新几内亚",
+      "countryCode": "PG",
+      "city": "Port Moresby",
+      "region": null,
+      "lat": -9.47888889,
+      "lng": 147.14944444,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "website": "https://www.sp.com.pg/our-company",
+      "description": "巴布亚新几内亚 SP Brewery 的 SP Lager，自 1952 年酿造。官方介绍其麦芽与温和酒花味平衡，原料包括水、大麦麦芽与酒花。",
+      "sourceUrls": [
+        "https://www.sp.com.pg/about-sp-lager",
+        "https://www.sp.com.pg/our-company",
+        "https://en.wikipedia.org/wiki/Port_Moresby"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Port Moresby",
+        "resolvedLocality": "Port Moresby",
+        "countryCode": "PG",
+        "lat": -9.47888889,
+        "lng": 147.14944444,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://www.sp.com.pg/our-company",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Port_Moresby",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://www.sp.com.pg/our-company",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://www.sp.com.pg/about-sp-lager",
+          "https://www.sp.com.pg/our-company",
+          "https://en.wikipedia.org/wiki/Port_Moresby"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      }
+    },
+    {
+      "id": "systembolaget-producer-d3c2d00cfbdce9a4",
+      "name": "Cervecería Nacional Dominicana",
+      "nameZh": "Cervecería Nacional Dominicana",
+      "country": "Dominican Republic",
+      "countryZh": "多米尼加共和国",
+      "countryCode": "DO",
+      "city": "Santo Domingo",
+      "region": null,
+      "lat": 18.4625,
+      "lng": -69.9361,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "website": "https://www.presidente.com.do/somos-presidente",
+      "description": "多米尼加共和国 Presidente Regular 皮尔森。官网描述带新鲜酒花的花香、轻微果香以及明显苦味和适度酸感。",
+      "sourceUrls": [
+        "https://www.presidente.com.do/home",
+        "https://www.presidente.com.do/somos-presidente",
+        "https://en.wikipedia.org/wiki/Santo_Domingo"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Santo Domingo",
+        "resolvedLocality": "Santo Domingo",
+        "countryCode": "DO",
+        "lat": 18.4625,
+        "lng": -69.9361,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://www.presidente.com.do/somos-presidente",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Santo_Domingo",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://www.presidente.com.do/somos-presidente",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://www.presidente.com.do/home",
+          "https://www.presidente.com.do/somos-presidente",
+          "https://en.wikipedia.org/wiki/Santo_Domingo"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      }
+    },
+    {
+      "id": "globalcoverage-brewery-bb",
+      "name": "Banks (Barbados) Breweries",
+      "nameZh": "Banks (Barbados) Breweries",
+      "country": "Barbados",
+      "countryZh": "巴巴多斯",
+      "countryCode": "BB",
+      "city": "Christ Church",
+      "region": null,
+      "lat": 13.08333333,
+      "lng": -59.53333333,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "website": "https://www.thebhlgroup.com/brands",
+      "description": "巴巴多斯 Banks 酒厂自 1961 年在岛上酿酒，现址位于 Christ Church 的 Newton。图为官网 Banks 啤酒瓶。",
+      "sourceUrls": [
+        "https://www.thebhlgroup.com/brands",
+        "https://en.wikipedia.org/wiki/Christ_Church%2C_Barbados"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Christ Church",
+        "resolvedLocality": "Christ Church",
+        "countryCode": "BB",
+        "lat": 13.08333333,
+        "lng": -59.53333333,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://www.thebhlgroup.com/brands",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Christ_Church%2C_Barbados",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://www.thebhlgroup.com/brands",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://www.thebhlgroup.com/brands",
+          "https://en.wikipedia.org/wiki/Christ_Church%2C_Barbados"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      }
+    },
+    {
+      "id": "openbeer-brewery-365",
+      "name": "Cervecería Bucanero",
+      "nameZh": "Cervecería Bucanero",
+      "country": "Cuba",
+      "countryZh": "古巴",
+      "countryCode": "CU",
+      "city": "Holguín",
+      "region": null,
+      "lat": 20.88694444,
+      "lng": -76.25916667,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "website": "https://es.wikipedia.org/wiki/Cerveza_Cristal_(Cuba)",
+      "description": "古巴 Holguín 的 Cervecería Bucanero 生产的 Cristal 系列淡色拉格，来源产品页标示 4.9%。",
+      "sourceUrls": [
+        "https://www.beertasting.com/en/beers/bucanero-palma-cristal",
+        "https://es.wikipedia.org/wiki/Cerveza_Cristal_(Cuba)",
+        "https://en.wikipedia.org/wiki/Holgu%C3%ADn"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Holguín",
+        "resolvedLocality": "Holguín",
+        "countryCode": "CU",
+        "lat": 20.88694444,
+        "lng": -76.25916667,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://es.wikipedia.org/wiki/Cerveza_Cristal_(Cuba)",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Holgu%C3%ADn",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://es.wikipedia.org/wiki/Cerveza_Cristal_(Cuba)",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://www.beertasting.com/en/beers/bucanero-palma-cristal",
+          "https://es.wikipedia.org/wiki/Cerveza_Cristal_(Cuba)",
+          "https://en.wikipedia.org/wiki/Holgu%C3%ADn"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      }
+    },
+    {
+      "id": "globalcoverage-brewery-py",
+      "name": "Cervepar",
+      "nameZh": "Cervepar",
+      "country": "Paraguay",
+      "countryZh": "巴拉圭",
+      "countryCode": "PY",
+      "city": "Ypané",
+      "region": null,
+      "lat": -25.45,
+      "lng": -57.53,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "website": "https://cervepar.com.py/index.php/2026/08/28/cervepar-mas-de-130-anos-de-una-historia-que-convirtio-la-calidad-paraguaya-en-orgullo-nacional/",
+      "description": "巴拉圭 Cervepar 在 Ypané 生产的 Pilsen Clásica。官方将其描述为经典拉格，实物图来自巴拉圭零售商。",
+      "sourceUrls": [
+        "https://cervepar.com.py/index.php/marcas/pilsen/",
+        "https://cervepar.com.py/index.php/2026/08/28/cervepar-mas-de-130-anos-de-una-historia-que-convirtio-la-calidad-paraguaya-en-orgullo-nacional/",
+        "https://www.sancayetano.com.py/cerveza-pilsen-lata-269ml-12-p5910",
+        "https://en.wikipedia.org/wiki/Ypan%C3%A9"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Ypané",
+        "resolvedLocality": "Ypané",
+        "countryCode": "PY",
+        "lat": -25.45,
+        "lng": -57.53,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://cervepar.com.py/index.php/2026/08/28/cervepar-mas-de-130-anos-de-una-historia-que-convirtio-la-calidad-paraguaya-en-orgullo-nacional/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Ypan%C3%A9",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://cervepar.com.py/index.php/2026/08/28/cervepar-mas-de-130-anos-de-una-historia-que-convirtio-la-calidad-paraguaya-en-orgullo-nacional/",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://cervepar.com.py/index.php/marcas/pilsen/",
+          "https://cervepar.com.py/index.php/2026/08/28/cervepar-mas-de-130-anos-de-una-historia-que-convirtio-la-calidad-paraguaya-en-orgullo-nacional/",
+          "https://www.sancayetano.com.py/cerveza-pilsen-lata-269ml-12-p5910",
+          "https://en.wikipedia.org/wiki/Ypan%C3%A9"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      }
+    },
+    {
+      "id": "globalcoverage-brewery-vu",
+      "name": "Vanuatu Brewing",
+      "nameZh": "Vanuatu Brewing",
+      "country": "Vanuatu",
+      "countryZh": "瓦努阿图",
+      "countryCode": "VU",
+      "city": "Port Vila",
+      "region": null,
+      "lat": -17.73333333,
+      "lng": 168.31666667,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "website": "https://en.wikipedia.org/wiki/Tusker_(Vanuatu_beer)",
+      "description": "瓦努阿图 Port Vila 本地酿造的 Tusker Premium 拉格。此款与肯尼亚同名 Tusker 不同，照片来自瓦努阿图本地商店。",
+      "sourceUrls": [
+        "https://retail.dynamicvanuatu.com/products/tusker-premium-330ml-bottle",
+        "https://en.wikipedia.org/wiki/Tusker_(Vanuatu_beer)",
+        "https://en.wikipedia.org/wiki/Port_Vila"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Port Vila",
+        "resolvedLocality": "Port Vila",
+        "countryCode": "VU",
+        "lat": -17.73333333,
+        "lng": 168.31666667,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://en.wikipedia.org/wiki/Tusker_(Vanuatu_beer)",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Port_Vila",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://en.wikipedia.org/wiki/Tusker_(Vanuatu_beer)",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://retail.dynamicvanuatu.com/products/tusker-premium-330ml-bottle",
+          "https://en.wikipedia.org/wiki/Tusker_(Vanuatu_beer)",
+          "https://en.wikipedia.org/wiki/Port_Vila"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      }
+    },
+    {
+      "id": "globalcoverage-brewery-sr",
+      "name": "Surinaamse Brouwerij",
+      "nameZh": "Surinaamse Brouwerij",
+      "country": "Suriname",
+      "countryZh": "苏里南",
+      "countryCode": "SR",
+      "city": "Paramaribo",
+      "region": null,
+      "lat": 5.85222222,
+      "lng": -55.20388889,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "website": "https://www.shata.sr/nl/doing-business/surinaamse-brouwerij-nv/",
+      "description": "苏里南 Paramaribo 的 Surinaamse Brouwerij 本地生产的 Parbo 皮尔森。实物图采用官网包装变更说明中的旧版瓶身，包装历史与当前酒款区分保留。",
+      "sourceUrls": [
+        "https://parbobier.com/about-us/",
+        "https://www.shata.sr/nl/doing-business/surinaamse-brouwerij-nv/",
+        "https://parbobier.com/parbo-pilsner-verpakkingswijziging/",
+        "https://en.wikipedia.org/wiki/Paramaribo"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Paramaribo",
+        "resolvedLocality": "Paramaribo",
+        "countryCode": "SR",
+        "lat": 5.85222222,
+        "lng": -55.20388889,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://www.shata.sr/nl/doing-business/surinaamse-brouwerij-nv/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Paramaribo",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://www.shata.sr/nl/doing-business/surinaamse-brouwerij-nv/",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://parbobier.com/about-us/",
+          "https://www.shata.sr/nl/doing-business/surinaamse-brouwerij-nv/",
+          "https://parbobier.com/parbo-pilsner-verpakkingswijziging/",
+          "https://en.wikipedia.org/wiki/Paramaribo"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      }
+    },
+    {
+      "id": "openbeer-brewery-442",
+      "name": "Desnoes & Geddes Ltd",
+      "nameZh": "Desnoes & Geddes Ltd",
+      "country": "Jamaica",
+      "countryZh": "牙买加",
+      "countryCode": "JM",
+      "city": "Kingston",
+      "region": null,
+      "lat": 17.97138889,
+      "lng": -76.79305556,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "website": "https://www.redstripecorporate.com/company?lang=en",
+      "description": "牙买加 Kingston 酿造的 Red Stripe 拉格；实物瓶标明确写有 Brewed in Jamaica。美国市场玻璃瓶生产于 2016 年回迁牙买加，本条不包括境外代工版本。",
+      "sourceUrls": [
+        "https://www.redstripebeer.com/our-beer?lang=en",
+        "https://www.redstripecorporate.com/company?lang=en",
+        "https://beerandwine.co.nz/products/red-stripe-lager-355ml",
+        "https://en.wikipedia.org/wiki/Kingston%2C_Jamaica"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Kingston",
+        "resolvedLocality": "Kingston",
+        "countryCode": "JM",
+        "lat": 17.97138889,
+        "lng": -76.79305556,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://www.redstripecorporate.com/company?lang=en",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Kingston%2C_Jamaica",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://www.redstripecorporate.com/company?lang=en",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://www.redstripebeer.com/our-beer?lang=en",
+          "https://www.redstripecorporate.com/company?lang=en",
+          "https://beerandwine.co.nz/products/red-stripe-lager-355ml",
+          "https://en.wikipedia.org/wiki/Kingston%2C_Jamaica"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      }
+    },
+    {
+      "id": "globalcoverage-brewery-fj",
+      "name": "Paradise Beverages",
+      "nameZh": "Paradise Beverages",
+      "country": "Fiji",
+      "countryZh": "斐济",
+      "countryCode": "FJ",
+      "city": "Suva",
+      "region": null,
+      "lat": -18.1416,
+      "lng": 178.4419,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "website": "https://www.fijianmade.gov.fj/product/view/812",
+      "description": "斐济 Suva 的 Paradise Beverages 生产的 Fiji Gold 淡色拉格，4.6%。当地政府 Fiji Made 产品名录核实其本国产地。",
+      "sourceUrls": [
+        "https://www.paulsliquor.com.au/products/fiji-gold-cans",
+        "https://www.fijianmade.gov.fj/product/view/812",
+        "https://en.wikipedia.org/wiki/Suva"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Suva",
+        "resolvedLocality": "Suva",
+        "countryCode": "FJ",
+        "lat": -18.1416,
+        "lng": 178.4419,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://www.fijianmade.gov.fj/product/view/812",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Suva",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://www.fijianmade.gov.fj/product/view/812",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://www.paulsliquor.com.au/products/fiji-gold-cans",
+          "https://www.fijianmade.gov.fj/product/view/812",
+          "https://en.wikipedia.org/wiki/Suva"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      }
+    },
+    {
+      "id": "globalcoverage-brewery-vc",
+      "name": "St. Vincent Brewery",
+      "nameZh": "St. Vincent Brewery",
+      "country": "Saint Vincent and the Grenadines",
+      "countryZh": "圣文森特和格林纳丁斯",
+      "countryCode": "VC",
+      "city": "Kingstown",
+      "region": null,
+      "lat": 13.15777778,
+      "lng": -61.225,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "website": "https://www.hairounbeer.com/company_profile.htm",
+      "description": "圣文森特当地 St. Vincent Brewery 酿造并装瓶的 Hairoun 拉格，官方列出的原料包括大麦、酒花和天然泉水。",
+      "sourceUrls": [
+        "https://www.hairounbeer.com/company_profile.htm",
+        "https://www.caribbeantrade.co.uk/Hairoun-Lager---24-x-280ml-id735.aspx",
+        "https://en.wikipedia.org/wiki/Kingstown"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Kingstown",
+        "resolvedLocality": "Kingstown",
+        "countryCode": "VC",
+        "lat": 13.15777778,
+        "lng": -61.225,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://www.hairounbeer.com/company_profile.htm",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Kingstown",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://www.hairounbeer.com/company_profile.htm",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://www.hairounbeer.com/company_profile.htm",
+          "https://www.caribbeantrade.co.uk/Hairoun-Lager---24-x-280ml-id735.aspx",
+          "https://en.wikipedia.org/wiki/Kingstown"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      }
+    },
+    {
+      "id": "globalcoverage-brewery-bs",
+      "name": "Bahamian Brewery",
+      "nameZh": "Bahamian Brewery",
+      "country": "Bahamas",
+      "countryZh": "巴哈马",
+      "countryCode": "BS",
+      "city": "Freeport",
+      "region": null,
+      "lat": 26.52861111,
+      "lng": -78.69666667,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "website": "https://www.bahamianbrewery.com/",
+      "description": "巴哈马 Freeport 的 Bahamian Brewery 本地生产的 Sands。官网明确将其列于本地生产啤酒，区别于酒厂经销的进口品牌。",
+      "sourceUrls": [
+        "https://www.bahamianbrewery.com/",
+        "https://bahamianbrewery.com/products/",
+        "https://en.wikipedia.org/wiki/Freeport%2C_Bahamas"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Freeport",
+        "resolvedLocality": "Freeport",
+        "countryCode": "BS",
+        "lat": 26.52861111,
+        "lng": -78.69666667,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://www.bahamianbrewery.com/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Freeport%2C_Bahamas",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://www.bahamianbrewery.com/",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://www.bahamianbrewery.com/",
+          "https://bahamianbrewery.com/products/",
+          "https://en.wikipedia.org/wiki/Freeport%2C_Bahamas"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      }
+    },
+    {
+      "id": "globalcoverage-brewery-ag",
+      "name": "Long Bay Brewing",
+      "nameZh": "Long Bay Brewing",
+      "country": "Antigua and Barbuda",
+      "countryZh": "安提瓜和巴布达",
+      "countryCode": "AG",
+      "city": "Pares",
+      "region": null,
+      "lat": 17.08333333,
+      "lng": -61.75,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "website": "https://antigua.news/2025/10/29/long-bay-brewing-company-showcases-local-craft-and-growth-plans/",
+      "description": "安提瓜和巴布达 Long Bay Brewing 本地酿造的 Lager，2025 年推出罐装。本地生产报道与罐身 Made in Antigua & Barbuda 字样相互印证。",
+      "sourceUrls": [
+        "https://antigua.news/2025/10/29/long-bay-brewing-company-showcases-local-craft-and-growth-plans/",
+        "https://www.horizonssupplies.com/",
+        "https://en.wikipedia.org/wiki/Pares%2C_Antigua_and_Barbuda"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "unknown",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Pares",
+        "resolvedLocality": "Pares",
+        "countryCode": "AG",
+        "lat": 17.08333333,
+        "lng": -61.75,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://antigua.news/2025/10/29/long-bay-brewing-company-showcases-local-craft-and-growth-plans/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Pares%2C_Antigua_and_Barbuda",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://antigua.news/2025/10/29/long-bay-brewing-company-showcases-local-craft-and-growth-plans/",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://antigua.news/2025/10/29/long-bay-brewing-company-showcases-local-craft-and-growth-plans/",
+          "https://www.horizonssupplies.com/",
+          "https://en.wikipedia.org/wiki/Pares%2C_Antigua_and_Barbuda"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      }
+    },
+    {
+      "id": "globalcoverage-brewery-gy",
+      "name": "Banks DIH",
+      "nameZh": "Banks DIH",
+      "country": "Guyana",
+      "countryZh": "圭亚那",
+      "countryCode": "GY",
+      "city": "Georgetown",
+      "region": null,
+      "lat": 6.80111111,
+      "lng": -58.155,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "website": "https://www.banksdih.com/content/our-products-services",
+      "description": "圭亚那 Banks DIH 本地生产的 GT 拉格，官方酒精度为 4.3%。实物瓶身由酒厂 2025 年产品目录裁出。",
+      "sourceUrls": [
+        "https://www.banksdih.com/content/our-products-services",
+        "https://www.banksdih.com/content/product-portfolio",
+        "https://en.wikipedia.org/wiki/Georgetown%2C_Guyana"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Georgetown",
+        "resolvedLocality": "Georgetown",
+        "countryCode": "GY",
+        "lat": 6.80111111,
+        "lng": -58.155,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://www.banksdih.com/content/our-products-services",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Georgetown%2C_Guyana",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://www.banksdih.com/content/our-products-services",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://www.banksdih.com/content/our-products-services",
+          "https://www.banksdih.com/content/product-portfolio",
+          "https://en.wikipedia.org/wiki/Georgetown%2C_Guyana"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      }
+    },
+    {
+      "id": "globalcoverage-brewery-pw",
+      "name": "Palau Brewing Company",
+      "nameZh": "Palau Brewing Company",
+      "country": "Palau",
+      "countryZh": "帕劳",
+      "countryCode": "PW",
+      "city": "Koror",
+      "region": null,
+      "lat": 7.34222222,
+      "lng": 134.47722222,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "website": "https://pristineparadisepalau.com/experience/the-taj-palau-2/",
+      "description": "帕劳 Koror 的本地 Red Rooster 啤酒系列中的 Light。旅游机构介绍其本地酿造身份；此照片为已记录的 355 毫升历史罐装，罐装与生啤酒精度可能不同，暂不填统一数值。",
+      "sourceUrls": [
+        "https://pristineparadisepalau.com/experience/the-taj-palau-2/",
+        "https://www.isaiah-japan.com/%E3%82%B3%E3%83%A9%E3%83%A0/%E3%83%91%E3%83%A9%E3%82%AA%E3%81%AE%E5%90%8D%E7%89%A9%E6%96%99%E7%90%86%E3%81%AB%E9%96%A2%E3%81%97%E3%81%A6/",
+        "https://en.wikipedia.org/wiki/Koror"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "unknown",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Koror",
+        "resolvedLocality": "Koror",
+        "countryCode": "PW",
+        "lat": 7.34222222,
+        "lng": 134.47722222,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://pristineparadisepalau.com/experience/the-taj-palau-2/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Koror",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://pristineparadisepalau.com/experience/the-taj-palau-2/",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://pristineparadisepalau.com/experience/the-taj-palau-2/",
+          "https://www.isaiah-japan.com/%E3%82%B3%E3%83%A9%E3%83%A0/%E3%83%91%E3%83%A9%E3%82%AA%E3%81%AE%E5%90%8D%E7%89%A9%E6%96%99%E7%90%86%E3%81%AB%E9%96%A2%E3%81%97%E3%81%A6/",
+          "https://en.wikipedia.org/wiki/Koror"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      }
+    },
+    {
+      "id": "globalcoverage-brewery-dm",
+      "name": "Dominica Brewery",
+      "nameZh": "Dominica Brewery",
+      "country": "Dominica",
+      "countryZh": "多米尼克",
+      "countryCode": "DM",
+      "city": "Loubière",
+      "region": null,
+      "lat": 15.275216,
+      "lng": -61.373425,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "website": "https://en.wikipedia.org/wiki/Kubuli",
+      "description": "多米尼克 Loubière 酒厂的本土 Kubuli 金色拉格，品牌名源于该岛的原住民名称。图为 2015 年真实瓶装照片，已保留摄影作者与许可。",
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Kubuli",
+        "https://commons.wikimedia.org/wiki/File:Kubuli_Beer.JPG",
+        "https://www.openstreetmap.org/node/240267620"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Loubière",
+        "resolvedLocality": "Loubière",
+        "countryCode": "DM",
+        "lat": 15.275216,
+        "lng": -61.373425,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://en.wikipedia.org/wiki/Kubuli",
+        "coordinateSourceUrl": "https://www.openstreetmap.org/node/240267620",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/loubiere-coordinates.json",
+        "identitySourceUrl": "https://en.wikipedia.org/wiki/Kubuli",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Kubuli",
+          "https://commons.wikimedia.org/wiki/File:Kubuli_Beer.JPG",
+          "https://www.openstreetmap.org/node/240267620"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      }
+    },
+    {
+      "id": "globalcoverage-brewery-lc",
+      "name": "Windward & Leeward Brewery",
+      "nameZh": "Windward & Leeward Brewery",
+      "country": "Saint Lucia",
+      "countryZh": "圣卢西亚",
+      "countryCode": "LC",
+      "city": "Vieux Fort",
+      "region": null,
+      "lat": 13.728,
+      "lng": -60.954,
+      "locationPrecision": "city",
+      "locationRole": "brewery_city_reference",
+      "website": "https://www.pitonbeer.com/our-history/",
+      "description": "圣卢西亚 Vieux Fort 当地酒厂酿造的 Piton 拉格，以岛上的双峰命名。图为实际 Piton 瓶装照片。",
+      "sourceUrls": [
+        "https://www.pitonbeer.com/our-history/",
+        "https://lets-travel-more.com/the-most-popular-drinks-in-saint-lucia/",
+        "https://en.wikipedia.org/wiki/Vieux_Fort%2C_Saint_Lucia"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "locationVerified": true,
+      "locationEvidence": {
+        "city": "Vieux Fort",
+        "resolvedLocality": "Vieux Fort",
+        "countryCode": "LC",
+        "lat": 13.728,
+        "lng": -60.954,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://www.pitonbeer.com/our-history/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Vieux_Fort%2C_Saint_Lucia",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://www.pitonbeer.com/our-history/",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://www.pitonbeer.com/our-history/",
+          "https://lets-travel-more.com/the-most-popular-drinks-in-saint-lucia/",
+          "https://en.wikipedia.org/wiki/Vieux_Fort%2C_Saint_Lucia"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      }
+    }
+  ],
+  "beers": [
+    {
+      "id": "globalcoverage-bz-belikin",
+      "name": "Belikin Beer",
+      "breweryId": "openbeer-brewery-99",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": null,
+      "ibu": null,
+      "srm": null,
+      "description": "伯利兹 Ladyville 酒厂的 Belikin 拉格，官方介绍其采用欧洲拉格酿造传统。",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://www.bevco.bz/belikin-beer/",
+        "https://belikin.bz/"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Ladyville",
+        "resolvedLocality": "Ladyville",
+        "countryCode": "BZ",
+        "lat": 17.54944444,
+        "lng": -88.29194444,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://belikin.bz/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Ladyville",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://belikin.bz/",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://www.bevco.bz/belikin-beer/",
+          "https://belikin.bz/",
+          "https://en.wikipedia.org/wiki/Ladyville"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      },
+      "descriptionBasis": "verified_public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.bevco.bz/belikin-beer/",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/pages/belikin.html",
+        "sourceSha256": "11957106e6d637892b8cb408ceace54534fee2718381fbf684dbc7532614293d",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_or_identified_public_product",
+        "method": "faithful short paraphrase; no user-review prose"
+      },
+      "image": "/images/global-coverage-americas-oceania/belikin-card.webp",
+      "imageThumbnail": "/images/global-coverage-americas-oceania/belikin-map.webp",
+      "imageOriginal": "/images/global-coverage-americas-oceania/belikin-original.png",
+      "imageSource": "https://belikin.bz/",
+      "imageDownloadUrl": "https://belikin.bz/wp-content/uploads/2024/05/beer_highlight_06.png",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageEvidence": {
+        "sourceClass": "verified_real_package",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "downloadedForDemo": true,
+        "cacheStatus": "cached",
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "ca4ab4fe1a51297eebbbe7eb1af81e0c1c40775b98c106dfff708e02be59c82b",
+        "mapSha256": "fc453daa9012b08d8899fde0d60c67d796793d56d5542b7c1b68bbf6031574b6",
+        "mapBytes": 4076,
+        "mapDimensions": [
+          41,
+          160
+        ],
+        "cardDimensions": [
+          183,
+          720
+        ],
+        "method": "native alpha; crop transparent padding",
+        "originalRGBPreserved": true
+      },
+      "imageCredit": "品牌/商家产品实物图；本地缓存不表示获得再利用许可。",
+      "imageLicense": null,
+      "imageContentBounds": {
+        "width": 183,
+        "height": 720,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 183,
+          "height": 720
+        },
+        "method": "reviewed_alpha_crop"
+      }
+    },
+    {
+      "id": "openbeer-2357",
+      "name": "Belikin Stout",
+      "breweryId": "openbeer-brewery-99",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Stout",
+      "abv": null,
+      "ibu": null,
+      "srm": null,
+      "description": "伯利兹 Belikin 系列的世涛，酒厂位于 Ladyville。图为官方深色玻璃瓶包装。",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://www.bevco.bz/belikin-beer/",
+        "https://belikin.bz/"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Ladyville",
+        "resolvedLocality": "Ladyville",
+        "countryCode": "BZ",
+        "lat": 17.54944444,
+        "lng": -88.29194444,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://belikin.bz/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Ladyville",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://belikin.bz/",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://www.bevco.bz/belikin-beer/",
+          "https://belikin.bz/",
+          "https://en.wikipedia.org/wiki/Ladyville"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      },
+      "descriptionBasis": "verified_public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.bevco.bz/belikin-beer/",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/pages/belikin.html",
+        "sourceSha256": "11957106e6d637892b8cb408ceace54534fee2718381fbf684dbc7532614293d",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_or_identified_public_product",
+        "method": "faithful short paraphrase; no user-review prose"
+      },
+      "image": "/images/global-coverage-americas-oceania/belikin-stout-card.webp",
+      "imageThumbnail": "/images/global-coverage-americas-oceania/belikin-stout-map.webp",
+      "imageOriginal": "/images/global-coverage-americas-oceania/belikin-stout-original.png",
+      "imageSource": "https://belikin.bz/",
+      "imageDownloadUrl": "https://belikin.bz/wp-content/uploads/2024/06/Belikin-Stout.png",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageEvidence": {
+        "sourceClass": "verified_real_package",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "downloadedForDemo": true,
+        "cacheStatus": "cached",
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "9d432db068bcdfc7b55e69338293367f2b9b4a13f2234385692cf9aac456ea24",
+        "mapSha256": "d1717107ecc4d3013bf152d5248ddd1d5b17ca05499a7ca482ac84efd9d11655",
+        "mapBytes": 3776,
+        "mapDimensions": [
+          39,
+          160
+        ],
+        "cardDimensions": [
+          175,
+          720
+        ],
+        "method": "native alpha; crop transparent padding",
+        "originalRGBPreserved": true
+      },
+      "imageCredit": "品牌/商家产品实物图；本地缓存不表示获得再利用许可。",
+      "imageLicense": null,
+      "imageContentBounds": {
+        "width": 175,
+        "height": 720,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 175,
+          "height": 720
+        },
+        "method": "reviewed_alpha_crop"
+      }
+    },
+    {
+      "id": "globalcoverage-tt-stag",
+      "name": "Stag Lager",
+      "breweryId": "systembolaget-producer-8be6616be78a7d9f",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": 5.2,
+      "ibu": null,
+      "srm": null,
+      "description": "特立尼达和多巴哥本地酿造的 Stag 拉格，官方描述口味爽脆、余味较轻。",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://caribbrewery.com/alco/stag/",
+        "https://caribbrewery.com/business/trinidad-tobago/"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。 坐标为 Champs Fleurs 街区的公开地标参考点，不是商店生产啤酒。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Champs Fleurs",
+        "resolvedLocality": "Champs Fleurs",
+        "countryCode": "TT",
+        "lat": 10.6505411,
+        "lng": -61.4271169,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://caribbrewery.com/business/trinidad-tobago/",
+        "coordinateSourceUrl": "https://www.openstreetmap.org/way/146542617",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/champs-fleurs-coordinates.json",
+        "identitySourceUrl": "https://caribbrewery.com/business/trinidad-tobago/",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://caribbrewery.com/alco/stag/",
+          "https://caribbrewery.com/business/trinidad-tobago/",
+          "https://www.openstreetmap.org/way/146542617"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。 坐标为 Champs Fleurs 街区的公开地标参考点，不是商店生产啤酒。"
+      },
+      "descriptionBasis": "verified_public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://caribbrewery.com/alco/stag/",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/pages/stag.html",
+        "sourceSha256": "c2f226ae3da00841bcf9ee9079f5d7c219a2a6540887d1ee27c713cafcfd0d8f",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_or_identified_public_product",
+        "method": "faithful short paraphrase; no user-review prose"
+      },
+      "image": "/images/global-coverage-americas-oceania/stag-card.webp",
+      "imageThumbnail": "/images/global-coverage-americas-oceania/stag-map.webp",
+      "imageOriginal": "/images/global-coverage-americas-oceania/stag-original.png",
+      "imageSource": "https://caribbrewery.com/alco/stag/",
+      "imageDownloadUrl": "https://caribbrewery.com/wp-content/uploads/2021/10/STA_LAGER_Bottle_275ml-min.png",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageEvidence": {
+        "sourceClass": "verified_real_package",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "downloadedForDemo": true,
+        "cacheStatus": "cached",
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "c8bfd2d3a3e395fef0703843c92f0bb0be8dd7d426e965cc0cc960e314c584ac",
+        "mapSha256": "b6e6e8802fd071d07e91dc570141b0fc056732f2b7b128f96836753bfcc25941",
+        "mapBytes": 4724,
+        "mapDimensions": [
+          51,
+          160
+        ],
+        "cardDimensions": [
+          232,
+          720
+        ],
+        "method": "native alpha; crop transparent padding",
+        "originalRGBPreserved": true
+      },
+      "imageCredit": "品牌/商家产品实物图；本地缓存不表示获得再利用许可。",
+      "imageLicense": null,
+      "imageContentBounds": {
+        "width": 232,
+        "height": 720,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 232,
+          "height": 720
+        },
+        "method": "reviewed_alpha_crop"
+      }
+    },
+    {
+      "id": "globalcoverage-gd-carib",
+      "name": "Carib Lager (Grenada)",
+      "breweryId": "globalcoverage-brewery-gd",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": 5.0,
+      "ibu": null,
+      "srm": null,
+      "description": "格林纳达酒厂本地生产的 Carib 金色拉格，官方介绍其麦芽与酒花、甜味与苦味保持平衡。",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://caribbrewery.com/alco/carib-lager/",
+        "https://caribbrewery.com/business/grenada/"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "St. George’s",
+        "resolvedLocality": "St. George’s",
+        "countryCode": "GD",
+        "lat": 12.0525,
+        "lng": -61.75305556,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://caribbrewery.com/business/grenada/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/St._George%27s%2C_Grenada",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://caribbrewery.com/business/grenada/",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://caribbrewery.com/alco/carib-lager/",
+          "https://caribbrewery.com/business/grenada/",
+          "https://en.wikipedia.org/wiki/St._George%27s%2C_Grenada"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      },
+      "descriptionBasis": "verified_public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://caribbrewery.com/alco/carib-lager/",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/pages/carib.html",
+        "sourceSha256": "23fbf0de37fd89d5b729d35becdc1475783b09dd67b932f522c93a41e3d5a5b1",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_or_identified_public_product",
+        "method": "faithful short paraphrase; no user-review prose"
+      },
+      "image": "/images/global-coverage-americas-oceania/carib-card.webp",
+      "imageThumbnail": "/images/global-coverage-americas-oceania/carib-map.webp",
+      "imageOriginal": "/images/global-coverage-americas-oceania/carib-original.png",
+      "imageSource": "https://caribbrewery.com/business/grenada/",
+      "imageDownloadUrl": "https://caribbrewery.com/wp-content/uploads/2021/10/carib-premium-new.png",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageEvidence": {
+        "sourceClass": "verified_real_package",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "downloadedForDemo": true,
+        "cacheStatus": "cached",
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "c43770140330ccf496b4254ecbe170f05fd511f9bcf8d43586dff35ea8d3683d",
+        "mapSha256": "b0d46a8b348f50462ca98f8c418bbcba575d545ecf55d579cf1c5dea49d4be07",
+        "mapBytes": 4882,
+        "mapDimensions": [
+          48,
+          160
+        ],
+        "cardDimensions": [
+          216,
+          720
+        ],
+        "method": "native alpha; crop transparent padding",
+        "originalRGBPreserved": true
+      },
+      "imageCredit": "品牌/商家产品实物图；本地缓存不表示获得再利用许可。",
+      "imageLicense": null,
+      "imageContentBounds": {
+        "width": 216,
+        "height": 720,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 216,
+          "height": 720
+        },
+        "method": "reviewed_alpha_crop"
+      }
+    },
+    {
+      "id": "globalcoverage-kn-skol",
+      "name": "Skol Lager (St. Kitts)",
+      "breweryId": "globalcoverage-brewery-kn",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": 4.9,
+      "ibu": null,
+      "srm": null,
+      "description": "Skol 品牌在圣基茨和尼维斯由当地 Carib 酒厂获许可酿造的版本；属于本地生产的全麦芽拉格。",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://caribbrewery.com/alco/skol/",
+        "https://www.uncommoncaribbean.com/nevis/skol-beer/",
+        "https://caribbrewery.com/business/st-kitts-nevis/"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Basseterre",
+        "resolvedLocality": "Basseterre",
+        "countryCode": "KN",
+        "lat": 17.3,
+        "lng": -62.73333333,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://www.uncommoncaribbean.com/nevis/skol-beer/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Basseterre",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://www.uncommoncaribbean.com/nevis/skol-beer/",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://caribbrewery.com/alco/skol/",
+          "https://www.uncommoncaribbean.com/nevis/skol-beer/",
+          "https://caribbrewery.com/business/st-kitts-nevis/",
+          "https://en.wikipedia.org/wiki/Basseterre"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      },
+      "descriptionBasis": "verified_public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://caribbrewery.com/alco/skol/",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/pages/skol-official.html",
+        "sourceSha256": "4a7b6af45c5fcef1b5e6dcb3d081f62f4ad6e28ead9c7066e63f74234917dd8e",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_or_identified_public_product",
+        "method": "faithful short paraphrase; no user-review prose"
+      },
+      "image": "/images/global-coverage-americas-oceania/skol-card.webp",
+      "imageThumbnail": "/images/global-coverage-americas-oceania/skol-map.webp",
+      "imageOriginal": "/images/global-coverage-americas-oceania/skol-original.png",
+      "imageSource": "https://caribbrewery.com/business/st-kitts-nevis/",
+      "imageDownloadUrl": "https://caribbrewery.com/wp-content/uploads/2021/10/skol.png",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageEvidence": {
+        "sourceClass": "verified_real_package",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "downloadedForDemo": true,
+        "cacheStatus": "cached",
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "2f5c7b77c8b25e5684285b10a94840cbcfbaba6eb6a6aaa002a2aa4160e623da",
+        "mapSha256": "eeb23659ba359682d54e3197a25c0863f4b726e906d7390754755ec40e2e7984",
+        "mapBytes": 4776,
+        "mapDimensions": [
+          48,
+          160
+        ],
+        "cardDimensions": [
+          216,
+          720
+        ],
+        "method": "native alpha; crop transparent padding",
+        "originalRGBPreserved": true
+      },
+      "imageCredit": "品牌/商家产品实物图；本地缓存不表示获得再利用许可。",
+      "imageLicense": null,
+      "imageContentBounds": {
+        "width": 216,
+        "height": 720,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 216,
+          "height": 720
+        },
+        "method": "reviewed_alpha_crop"
+      }
+    },
+    {
+      "id": "globalcoverage-ht-prestige",
+      "name": "Prestige",
+      "breweryId": "globalcoverage-brewery-ht",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": 5.6,
+      "ibu": null,
+      "srm": null,
+      "description": "海地 BRANA 的 Prestige，自 1976 年推出。此条采用官网当前标示的 5.6% 酒精度与官方瓶装照片。",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://www.brana.ht/nos-marques/prestige"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Port-au-Prince",
+        "resolvedLocality": "Port-au-Prince",
+        "countryCode": "HT",
+        "lat": 18.53638889,
+        "lng": -72.34638889,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://www.brana.ht/nos-marques/prestige",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Port-au-Prince",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://www.brana.ht/nos-marques/prestige",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://www.brana.ht/nos-marques/prestige",
+          "https://en.wikipedia.org/wiki/Port-au-Prince"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      },
+      "descriptionBasis": "verified_public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.brana.ht/nos-marques/prestige",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/pages/prestige.html",
+        "sourceSha256": "cf58261be25088c5194f7857ada746fc308e7dce54a5f6bf79708fedcfd51178",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_or_identified_public_product",
+        "method": "faithful short paraphrase; no user-review prose"
+      },
+      "image": "/images/global-coverage-americas-oceania/prestige-card.webp",
+      "imageThumbnail": "/images/global-coverage-americas-oceania/prestige-map.webp",
+      "imageOriginal": "/images/global-coverage-americas-oceania/prestige-original.png",
+      "imageSource": "https://www.brana.ht/nos-marques/prestige",
+      "imageDownloadUrl": "https://images.squarespace-cdn.com/content/v1/694bee427f26aa6627ae1655/7c0ed5fa-6223-4854-aa73-56208dbc30c0/prestige-bottle-small-3.png",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageEvidence": {
+        "sourceClass": "verified_real_package",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "downloadedForDemo": true,
+        "cacheStatus": "cached",
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "0e5d9441c654b2039a6e5d2d5e4dea8d47acba61be89fc4c64cf116a46bb6f9d",
+        "mapSha256": "e63835a0ab35e184ce651f15574584a560180e05e5c5e0c06d4a99dbd9ae71a3",
+        "mapBytes": 6788,
+        "mapDimensions": [
+          71,
+          160
+        ],
+        "cardDimensions": [
+          318,
+          720
+        ],
+        "method": "native alpha; crop transparent padding",
+        "originalRGBPreserved": true
+      },
+      "imageCredit": "品牌/商家产品实物图；本地缓存不表示获得再利用许可。",
+      "imageLicense": null,
+      "imageContentBounds": {
+        "width": 318,
+        "height": 720,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 318,
+          "height": 720
+        },
+        "method": "reviewed_alpha_crop"
+      }
+    },
+    {
+      "id": "globalcoverage-bo-pacena",
+      "name": "Paceña Pilsener",
+      "breweryId": "globalcoverage-brewery-bo",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pilsner",
+      "abv": null,
+      "ibu": null,
+      "srm": null,
+      "description": "玻利维亚 CBN 的 Paceña 皮尔森，官方品牌历史追溯至 1886 年。图为官方 330 毫升罐装。",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://www.cbn.bo/marcas/bebidas-alcoholicas/cervezas/pacena"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "La Paz",
+        "resolvedLocality": "La Paz",
+        "countryCode": "BO",
+        "lat": -16.49583333,
+        "lng": -68.13333333,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://www.cbn.bo/marcas/bebidas-alcoholicas/cervezas/pacena",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/La_Paz",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://www.cbn.bo/marcas/bebidas-alcoholicas/cervezas/pacena",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://www.cbn.bo/marcas/bebidas-alcoholicas/cervezas/pacena",
+          "https://en.wikipedia.org/wiki/La_Paz"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      },
+      "descriptionBasis": "verified_public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.cbn.bo/marcas/bebidas-alcoholicas/cervezas/pacena",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/pages/pacena.html",
+        "sourceSha256": "21ff65356913bac121d6abab3c839b97e5f10066640c77e779d1b8809b63ffa9",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_or_identified_public_product",
+        "method": "faithful short paraphrase; no user-review prose"
+      },
+      "image": "/images/global-coverage-americas-oceania/pacena-card.webp",
+      "imageThumbnail": "/images/global-coverage-americas-oceania/pacena-map.webp",
+      "imageOriginal": "/images/global-coverage-americas-oceania/pacena-original.jpg",
+      "imageSource": "https://www.cbn.bo/marcas/bebidas-alcoholicas/cervezas/pacena",
+      "imageDownloadUrl": "https://www.cbn.bo/img/pacena-330.jpg",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageEvidence": {
+        "sourceClass": "verified_real_package",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "downloadedForDemo": true,
+        "cacheStatus": "cached",
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "66ac6a267169e4992abec0ab0a267eb39bba17c8f19615dd02497995c2b58ede",
+        "mapSha256": "9d957157488fd70febcb536d4ae0bcfadda9becc2b7d883577708703078525c6",
+        "mapBytes": 9560,
+        "mapDimensions": [
+          94,
+          160
+        ],
+        "cardDimensions": [
+          160,
+          272
+        ],
+        "method": "edge-connected studio background alpha removal",
+        "originalRGBPreserved": true
+      },
+      "imageCredit": "品牌/商家产品实物图；本地缓存不表示获得再利用许可。",
+      "imageLicense": null,
+      "imageContentBounds": {
+        "width": 160,
+        "height": 272,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 160,
+          "height": 272
+        },
+        "method": "reviewed_alpha_crop"
+      }
+    },
+    {
+      "id": "globalcoverage-ve-polar",
+      "name": "Polar Pilsen",
+      "breweryId": "globalcoverage-brewery-ve",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pilsner",
+      "abv": null,
+      "ibu": null,
+      "srm": null,
+      "description": "委内瑞拉生产的 Polar Pilsen，品牌始于 1941 年。官方描述为金黄色酒液、白色泡沫和柔和香气。",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://empresaspolar.com/nuestras-marcas/polar-pilsen/",
+        "https://empresaspolar.com/hitos-historicos-empresas-polar/"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Caracas",
+        "resolvedLocality": "Caracas",
+        "countryCode": "VE",
+        "lat": 10.50611111,
+        "lng": -66.91444444,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://empresaspolar.com/hitos-historicos-empresas-polar/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Caracas",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://empresaspolar.com/hitos-historicos-empresas-polar/",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://empresaspolar.com/nuestras-marcas/polar-pilsen/",
+          "https://empresaspolar.com/hitos-historicos-empresas-polar/",
+          "https://en.wikipedia.org/wiki/Caracas"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      },
+      "descriptionBasis": "verified_public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://empresaspolar.com/nuestras-marcas/polar-pilsen/",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/pages/polar.html",
+        "sourceSha256": "6d51b1667d915e7d3bb46773e83698475b2c939fc2e40a14976a2dc75d2f89e2",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_or_identified_public_product",
+        "method": "faithful short paraphrase; no user-review prose"
+      },
+      "image": "/images/global-coverage-americas-oceania/polar-card.webp",
+      "imageThumbnail": "/images/global-coverage-americas-oceania/polar-map.webp",
+      "imageOriginal": "/images/global-coverage-americas-oceania/polar-original.webp",
+      "imageSource": "https://empresaspolar.com/nuestras-marcas/polar-pilsen/",
+      "imageDownloadUrl": "https://empresaspolar.com/wp-content/uploads/2026/06/Group-1332.webp",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageEvidence": {
+        "sourceClass": "verified_real_package",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "downloadedForDemo": true,
+        "cacheStatus": "cached",
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "c29bab0767f10f841785b94bb478ebf24b70ffe8e5c09ee02f0ce4170d12914e",
+        "mapSha256": "550ee81b88708affd334cd21bb6df6411e08de7c1f59a9cd0d2a0528a7613b4e",
+        "mapBytes": 4050,
+        "mapDimensions": [
+          43,
+          160
+        ],
+        "cardDimensions": [
+          193,
+          720
+        ],
+        "method": "reviewed silhouette polygon; original RGB unchanged",
+        "originalRGBPreserved": true
+      },
+      "imageCredit": "品牌/商家产品实物图；本地缓存不表示获得再利用许可。",
+      "imageLicense": null,
+      "imageContentBounds": {
+        "width": 193,
+        "height": 720,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 193,
+          "height": 720
+        },
+        "method": "reviewed_alpha_crop"
+      }
+    },
+    {
+      "id": "globalcoverage-ws-vailima-export",
+      "name": "Vailima Export Lager",
+      "breweryId": "globalcoverage-brewery-ws",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": 6.7,
+      "ibu": null,
+      "srm": null,
+      "description": "Vailima 官网当前明确标示在萨摩亚酿造并罐装、由萨摩亚人全资拥有。Export 为 6.7% 拉格；位置采用 Apia 城市参考点。",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://www.vailimabeer.com/home",
+        "https://en.wikipedia.org/wiki/Samoa_Breweries"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Apia",
+        "resolvedLocality": "Apia",
+        "countryCode": "WS",
+        "lat": -13.83333333,
+        "lng": -171.75,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://en.wikipedia.org/wiki/Samoa_Breweries",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Apia",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://en.wikipedia.org/wiki/Samoa_Breweries",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://www.vailimabeer.com/home",
+          "https://en.wikipedia.org/wiki/Samoa_Breweries",
+          "https://en.wikipedia.org/wiki/Apia"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      },
+      "descriptionBasis": "verified_public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.vailimabeer.com/home",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/pages/vailima.html",
+        "sourceSha256": "86787f938674837ac81b559898a51b946371a5c0b42467b9206847e0abc1dc34",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_or_identified_public_product",
+        "method": "faithful short paraphrase; no user-review prose"
+      },
+      "image": "/images/global-coverage-americas-oceania/vailima-export-card.webp",
+      "imageThumbnail": "/images/global-coverage-americas-oceania/vailima-export-map.webp",
+      "imageOriginal": "/images/global-coverage-americas-oceania/vailima-export-original.png",
+      "imageSource": "https://www.vailimabeer.com/home",
+      "imageDownloadUrl": "https://static.wixstatic.com/media/7e5a33_44178415fc6a4512b950624601353398~mv2.png",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageEvidence": {
+        "sourceClass": "verified_real_package",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "downloadedForDemo": true,
+        "cacheStatus": "cached",
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "c25144e8f941a6e139f1400cf27366256075b468a89f459463ba2472231bedbf",
+        "mapSha256": "a3cb23d15503bf06eb7ce11df7a4f6d684a5b282108882472b8cb29a7dc09211",
+        "mapBytes": 4600,
+        "mapDimensions": [
+          59,
+          160
+        ],
+        "cardDimensions": [
+          265,
+          720
+        ],
+        "method": "native alpha; crop transparent padding",
+        "originalRGBPreserved": true
+      },
+      "imageCredit": "品牌/商家产品实物图；本地缓存不表示获得再利用许可。",
+      "imageLicense": null,
+      "imageContentBounds": {
+        "width": 265,
+        "height": 720,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 265,
+          "height": 720
+        },
+        "method": "reviewed_alpha_crop"
+      }
+    },
+    {
+      "id": "globalcoverage-sb-solbrew",
+      "name": "SolBrew Lager",
+      "breweryId": "globalcoverage-brewery-sb",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": 4.7,
+      "ibu": null,
+      "srm": null,
+      "description": "所罗门群岛 Solomon Breweries 的本地 SolBrew 拉格，酒精度 4.7%。图从官方瓶罐合影中保留完整瓶身。",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://solbrew.com.sb/solbrew-lager/",
+        "https://solbrew.com.sb/about-solbrew/"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Honiara",
+        "resolvedLocality": "Honiara",
+        "countryCode": "SB",
+        "lat": -9.43194444,
+        "lng": 159.95555556,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://solbrew.com.sb/about-solbrew/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Honiara",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://solbrew.com.sb/about-solbrew/",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://solbrew.com.sb/solbrew-lager/",
+          "https://solbrew.com.sb/about-solbrew/",
+          "https://en.wikipedia.org/wiki/Honiara"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      },
+      "descriptionBasis": "verified_public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://solbrew.com.sb/solbrew-lager/",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/pages/solbrew-lager.html",
+        "sourceSha256": "caf8e903a41ed5c7014ee6e0b36f7fbd1fc989c0d5cf1960ba7290a641beec89",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_or_identified_public_product",
+        "method": "faithful short paraphrase; no user-review prose"
+      },
+      "image": "/images/global-coverage-americas-oceania/solbrew-card.webp",
+      "imageThumbnail": "/images/global-coverage-americas-oceania/solbrew-map.webp",
+      "imageOriginal": "/images/global-coverage-americas-oceania/solbrew-original.png",
+      "imageSource": "https://solbrew.com.sb/solbrew-lager/",
+      "imageDownloadUrl": "https://solbrew.com.sb/wp-content/uploads/2019/12/ForWeb-e1576459123105.png",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageEvidence": {
+        "sourceClass": "verified_real_package",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "downloadedForDemo": true,
+        "cacheStatus": "cached",
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "1664c328973daddef7b8d49938c18fd89f75d87592d3d0fe17681eadd6d924e7",
+        "mapSha256": "88d5b34d792e6c032558a4455cc3da8f67171aff382d1696d75c92bb90d6eb43",
+        "mapBytes": 4434,
+        "mapDimensions": [
+          45,
+          160
+        ],
+        "cardDimensions": [
+          138,
+          490
+        ],
+        "method": "reviewed complete single package crop",
+        "originalRGBPreserved": true
+      },
+      "imageCredit": "品牌/商家产品实物图；本地缓存不表示获得再利用许可。",
+      "imageLicense": null,
+      "imageContentBounds": {
+        "width": 138,
+        "height": 490,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 138,
+          "height": 490
+        },
+        "method": "reviewed_alpha_crop"
+      }
+    },
+    {
+      "id": "globalcoverage-pg-png",
+      "name": "SP Lager",
+      "breweryId": "globalcoverage-brewery-pg",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": 4.5,
+      "ibu": null,
+      "srm": null,
+      "description": "巴布亚新几内亚 SP Brewery 的 SP Lager，自 1952 年酿造。官方介绍其麦芽与温和酒花味平衡，原料包括水、大麦麦芽与酒花。",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://www.sp.com.pg/about-sp-lager",
+        "https://www.sp.com.pg/our-company"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Port Moresby",
+        "resolvedLocality": "Port Moresby",
+        "countryCode": "PG",
+        "lat": -9.47888889,
+        "lng": 147.14944444,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://www.sp.com.pg/our-company",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Port_Moresby",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://www.sp.com.pg/our-company",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://www.sp.com.pg/about-sp-lager",
+          "https://www.sp.com.pg/our-company",
+          "https://en.wikipedia.org/wiki/Port_Moresby"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      },
+      "descriptionBasis": "verified_public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.sp.com.pg/about-sp-lager",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/pages/png.html",
+        "sourceSha256": "5c389bd74f04beea6118416e7c3a2762c65d4a515b7559116edf6b05fb8db05a",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_or_identified_public_product",
+        "method": "faithful short paraphrase; no user-review prose"
+      },
+      "image": "/images/global-coverage-americas-oceania/png-card.webp",
+      "imageThumbnail": "/images/global-coverage-americas-oceania/png-map.webp",
+      "imageOriginal": "/images/global-coverage-americas-oceania/png-original.png",
+      "imageSource": "https://www.sp.com.pg/about-sp-lager",
+      "imageDownloadUrl": "https://images.squarespace-cdn.com/content/v1/6925d33fbeae197ba33195a4/7d383c4c-8349-4de3-a6fe-95bf59ed08dc/products_sp_lager.png",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageEvidence": {
+        "sourceClass": "verified_real_package",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "downloadedForDemo": true,
+        "cacheStatus": "cached",
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "f1f8dfd21ab29ab404a90bf6c51d5398107b0aefcddceeac475f0ab75b700441",
+        "mapSha256": "c53190c0d0b9eb924ec47e9c2828eff01f384f08383808b3b10692ea7cb22354",
+        "mapBytes": 7162,
+        "mapDimensions": [
+          89,
+          160
+        ],
+        "cardDimensions": [
+          277,
+          497
+        ],
+        "method": "reviewed silhouette polygon; original RGB unchanged",
+        "originalRGBPreserved": true
+      },
+      "imageCredit": "品牌/商家产品实物图；本地缓存不表示获得再利用许可。",
+      "imageLicense": null,
+      "imageContentBounds": {
+        "width": 277,
+        "height": 497,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 277,
+          "height": 497
+        },
+        "method": "reviewed_alpha_crop"
+      }
+    },
+    {
+      "id": "systembolaget-2025-article-688397",
+      "name": "Presidente Pilsener",
+      "breweryId": "systembolaget-producer-d3c2d00cfbdce9a4",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pilsner",
+      "abv": null,
+      "ibu": null,
+      "srm": null,
+      "description": "多米尼加共和国 Presidente Regular 皮尔森。官网描述带新鲜酒花的花香、轻微果香以及明显苦味和适度酸感。",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://www.presidente.com.do/home",
+        "https://www.presidente.com.do/somos-presidente"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Santo Domingo",
+        "resolvedLocality": "Santo Domingo",
+        "countryCode": "DO",
+        "lat": 18.4625,
+        "lng": -69.9361,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://www.presidente.com.do/somos-presidente",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Santo_Domingo",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://www.presidente.com.do/somos-presidente",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://www.presidente.com.do/home",
+          "https://www.presidente.com.do/somos-presidente",
+          "https://en.wikipedia.org/wiki/Santo_Domingo"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      },
+      "descriptionBasis": "verified_public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.presidente.com.do/home",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/pages/presidente.html",
+        "sourceSha256": "6e0d6e04427acf0741eec30ef492b4cec46fd0fc9196137f2f125d8d19e90c11",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_or_identified_public_product",
+        "method": "faithful short paraphrase; no user-review prose"
+      },
+      "image": "/images/global-coverage-americas-oceania/presidente-card.webp",
+      "imageThumbnail": "/images/global-coverage-americas-oceania/presidente-map.webp",
+      "imageOriginal": "/images/global-coverage-americas-oceania/presidente-original.png",
+      "imageSource": "https://www.presidente.com.do/home",
+      "imageDownloadUrl": "https://www.presidente.com.do/sites/g/files/seuoyk596/files/2022-05/Frame%2011528.png",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageEvidence": {
+        "sourceClass": "verified_real_package",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "downloadedForDemo": true,
+        "cacheStatus": "cached",
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "81c8d46b49c99afc161ee6ed991d88582a2a5eef830346aedc0022e815be5bbd",
+        "mapSha256": "9d5773414bd48fb58e42ccd6383e8f7a89a219d5fb91ab5ac50f4f0094b3be4a",
+        "mapBytes": 4350,
+        "mapDimensions": [
+          41,
+          160
+        ],
+        "cardDimensions": [
+          95,
+          374
+        ],
+        "method": "native alpha; crop transparent padding",
+        "originalRGBPreserved": true
+      },
+      "imageCredit": "品牌/商家产品实物图；本地缓存不表示获得再利用许可。",
+      "imageLicense": null,
+      "imageContentBounds": {
+        "width": 95,
+        "height": 374,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 95,
+          "height": 374
+        },
+        "method": "reviewed_alpha_crop"
+      }
+    },
+    {
+      "id": "globalcoverage-bb-banks-barbados",
+      "name": "Banks Beer (Barbados)",
+      "breweryId": "globalcoverage-brewery-bb",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": null,
+      "ibu": null,
+      "srm": null,
+      "description": "巴巴多斯 Banks 酒厂自 1961 年在岛上酿酒，现址位于 Christ Church 的 Newton。图为官网 Banks 啤酒瓶。",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://www.thebhlgroup.com/brands"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Christ Church",
+        "resolvedLocality": "Christ Church",
+        "countryCode": "BB",
+        "lat": 13.08333333,
+        "lng": -59.53333333,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://www.thebhlgroup.com/brands",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Christ_Church%2C_Barbados",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://www.thebhlgroup.com/brands",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://www.thebhlgroup.com/brands",
+          "https://en.wikipedia.org/wiki/Christ_Church%2C_Barbados"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      },
+      "descriptionBasis": "verified_public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.thebhlgroup.com/brands",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/pages/banks-barbados.html",
+        "sourceSha256": "54cc85ebed084967310a44ab7aa91f3ea848a079c82d973959e00b1bc9f1c668",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_or_identified_public_product",
+        "method": "faithful short paraphrase; no user-review prose"
+      },
+      "image": "/images/global-coverage-americas-oceania/banks-barbados-card.webp",
+      "imageThumbnail": "/images/global-coverage-americas-oceania/banks-barbados-map.webp",
+      "imageOriginal": "/images/global-coverage-americas-oceania/banks-barbados-original.png",
+      "imageSource": "https://www.thebhlgroup.com/brands",
+      "imageDownloadUrl": "https://static.wixstatic.com/media/c60047_b893fd3de29b48579968ecfc3393a9ed~mv2.png",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageEvidence": {
+        "sourceClass": "verified_real_package",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "downloadedForDemo": true,
+        "cacheStatus": "cached",
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "a94de1b1c424d0226b788e6d3b0c6dbbe87b4755654ee88fa3e612e5c1411ee9",
+        "mapSha256": "1a5016cd74247c6bd6a1861d88edb2635695a5aa2d6c2c96419e1f79924e371b",
+        "mapBytes": 5078,
+        "mapDimensions": [
+          80,
+          160
+        ],
+        "cardDimensions": [
+          358,
+          720
+        ],
+        "method": "native alpha; crop transparent padding",
+        "originalRGBPreserved": true
+      },
+      "imageCredit": "品牌/商家产品实物图；本地缓存不表示获得再利用许可。",
+      "imageLicense": null,
+      "imageContentBounds": {
+        "width": 358,
+        "height": 720,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 358,
+          "height": 720
+        },
+        "method": "reviewed_alpha_crop"
+      }
+    },
+    {
+      "id": "globalcoverage-cu-cuba-cristal",
+      "name": "Palma Cristal",
+      "breweryId": "openbeer-brewery-365",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": 4.9,
+      "ibu": null,
+      "srm": null,
+      "description": "古巴 Holguín 的 Cervecería Bucanero 生产的 Cristal 系列淡色拉格，来源产品页标示 4.9%。",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://www.beertasting.com/en/beers/bucanero-palma-cristal",
+        "https://es.wikipedia.org/wiki/Cerveza_Cristal_(Cuba)"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Holguín",
+        "resolvedLocality": "Holguín",
+        "countryCode": "CU",
+        "lat": 20.88694444,
+        "lng": -76.25916667,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://es.wikipedia.org/wiki/Cerveza_Cristal_(Cuba)",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Holgu%C3%ADn",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://es.wikipedia.org/wiki/Cerveza_Cristal_(Cuba)",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://www.beertasting.com/en/beers/bucanero-palma-cristal",
+          "https://es.wikipedia.org/wiki/Cerveza_Cristal_(Cuba)",
+          "https://en.wikipedia.org/wiki/Holgu%C3%ADn"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      },
+      "descriptionBasis": "verified_public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.beertasting.com/en/beers/bucanero-palma-cristal",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/pages/cuba-bt.html",
+        "sourceSha256": "27540ed4618d1042c8102c339d3f267f79fe4b32bc010f1594b2dc4aac22a906",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_or_identified_public_product",
+        "method": "faithful short paraphrase; no user-review prose"
+      },
+      "image": "/images/global-coverage-americas-oceania/cuba-cristal-card.webp",
+      "imageThumbnail": "/images/global-coverage-americas-oceania/cuba-cristal-map.webp",
+      "imageOriginal": "/images/global-coverage-americas-oceania/cuba-cristal-original.png",
+      "imageSource": "https://www.beertasting.com/en/beers/bucanero-palma-cristal",
+      "imageDownloadUrl": "https://beertasting.app/storage/media/b4e9f8da357de52e49905d70ef11d8db/rdkpuojdbz96hqrruu3t.png",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageEvidence": {
+        "sourceClass": "verified_real_package",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "downloadedForDemo": true,
+        "cacheStatus": "cached",
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "b91c9f9ed9e00caa8b457ab2924b4bbd9321bc7fde92eec53ec4d6581c447b60",
+        "mapSha256": "fc35912aa37fe7b9d6991f9d48dffc0fb950998d88a0b90077a0b03aeb864de6",
+        "mapBytes": 4676,
+        "mapDimensions": [
+          45,
+          160
+        ],
+        "cardDimensions": [
+          200,
+          720
+        ],
+        "method": "native alpha; crop transparent padding",
+        "originalRGBPreserved": true
+      },
+      "imageCredit": "品牌/商家产品实物图；本地缓存不表示获得再利用许可。",
+      "imageLicense": null,
+      "imageContentBounds": {
+        "width": 200,
+        "height": 720,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 720
+        },
+        "method": "reviewed_alpha_crop"
+      }
+    },
+    {
+      "id": "globalcoverage-py-pilsen-can",
+      "name": "Pilsen Clásica",
+      "breweryId": "globalcoverage-brewery-py",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": null,
+      "ibu": null,
+      "srm": null,
+      "description": "巴拉圭 Cervepar 在 Ypané 生产的 Pilsen Clásica。官方将其描述为经典拉格，实物图来自巴拉圭零售商。",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://cervepar.com.py/index.php/marcas/pilsen/",
+        "https://cervepar.com.py/index.php/2026/08/28/cervepar-mas-de-130-anos-de-una-historia-que-convirtio-la-calidad-paraguaya-en-orgullo-nacional/",
+        "https://www.sancayetano.com.py/cerveza-pilsen-lata-269ml-12-p5910"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Ypané",
+        "resolvedLocality": "Ypané",
+        "countryCode": "PY",
+        "lat": -25.45,
+        "lng": -57.53,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://cervepar.com.py/index.php/2026/08/28/cervepar-mas-de-130-anos-de-una-historia-que-convirtio-la-calidad-paraguaya-en-orgullo-nacional/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Ypan%C3%A9",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://cervepar.com.py/index.php/2026/08/28/cervepar-mas-de-130-anos-de-una-historia-que-convirtio-la-calidad-paraguaya-en-orgullo-nacional/",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://cervepar.com.py/index.php/marcas/pilsen/",
+          "https://cervepar.com.py/index.php/2026/08/28/cervepar-mas-de-130-anos-de-una-historia-que-convirtio-la-calidad-paraguaya-en-orgullo-nacional/",
+          "https://www.sancayetano.com.py/cerveza-pilsen-lata-269ml-12-p5910",
+          "https://en.wikipedia.org/wiki/Ypan%C3%A9"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      },
+      "descriptionBasis": "verified_public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://cervepar.com.py/index.php/marcas/pilsen/",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/pages/pilsen.html",
+        "sourceSha256": "f6b4f3faa0943ecb3c08d34dbb917e25413af0bde1aba674a4cd1bd943c56b33",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_or_identified_public_product",
+        "method": "faithful short paraphrase; no user-review prose"
+      },
+      "image": "/images/global-coverage-americas-oceania/pilsen-can-card.webp",
+      "imageThumbnail": "/images/global-coverage-americas-oceania/pilsen-can-map.webp",
+      "imageOriginal": "/images/global-coverage-americas-oceania/pilsen-can-original.jpg",
+      "imageSource": "https://www.sancayetano.com.py/cerveza-pilsen-lata-269ml-12-p5910",
+      "imageDownloadUrl": "https://www.sancayetano.com.py/userfiles/images/productos/600/173246.JPG",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageEvidence": {
+        "sourceClass": "verified_real_package",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "downloadedForDemo": true,
+        "cacheStatus": "cached",
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "3007204db20fbe23fde75ef2492d2244077091578bb2ccf8153f6e2504dd98cb",
+        "mapSha256": "506c1ccd436600d976c2c2a2fb60dafe48248c6938c6421fb5172d8ec8ea53e0",
+        "mapBytes": 5772,
+        "mapDimensions": [
+          72,
+          160
+        ],
+        "cardDimensions": [
+          229,
+          507
+        ],
+        "method": "reviewed silhouette polygon; original RGB unchanged",
+        "originalRGBPreserved": true
+      },
+      "imageCredit": "品牌/商家产品实物图；本地缓存不表示获得再利用许可。",
+      "imageLicense": null,
+      "imageContentBounds": {
+        "width": 229,
+        "height": 507,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 229,
+          "height": 507
+        },
+        "method": "reviewed_alpha_crop"
+      }
+    },
+    {
+      "id": "globalcoverage-vu-vanuatu-tusker",
+      "name": "Tusker Premium Lager (Vanuatu)",
+      "breweryId": "globalcoverage-brewery-vu",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": 5.0,
+      "ibu": null,
+      "srm": null,
+      "description": "瓦努阿图 Port Vila 本地酿造的 Tusker Premium 拉格。此款与肯尼亚同名 Tusker 不同，照片来自瓦努阿图本地商店。",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://retail.dynamicvanuatu.com/products/tusker-premium-330ml-bottle",
+        "https://en.wikipedia.org/wiki/Tusker_(Vanuatu_beer)"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Port Vila",
+        "resolvedLocality": "Port Vila",
+        "countryCode": "VU",
+        "lat": -17.73333333,
+        "lng": 168.31666667,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://en.wikipedia.org/wiki/Tusker_(Vanuatu_beer)",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Port_Vila",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://en.wikipedia.org/wiki/Tusker_(Vanuatu_beer)",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://retail.dynamicvanuatu.com/products/tusker-premium-330ml-bottle",
+          "https://en.wikipedia.org/wiki/Tusker_(Vanuatu_beer)",
+          "https://en.wikipedia.org/wiki/Port_Vila"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      },
+      "descriptionBasis": "verified_public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://retail.dynamicvanuatu.com/products/tusker-premium-330ml-bottle",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/pages/vanuatu-shop.html",
+        "sourceSha256": "22f1c415baaa86c0bf387967056d43a33284b48d397cf3b8275d9c5d2aef0d85",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_or_identified_public_product",
+        "method": "faithful short paraphrase; no user-review prose"
+      },
+      "image": "/images/global-coverage-americas-oceania/vanuatu-tusker-card.webp",
+      "imageThumbnail": "/images/global-coverage-americas-oceania/vanuatu-tusker-map.webp",
+      "imageOriginal": "/images/global-coverage-americas-oceania/vanuatu-tusker-original.png",
+      "imageSource": "https://retail.dynamicvanuatu.com/products/tusker-premium-330ml-bottle",
+      "imageDownloadUrl": "https://retail.dynamicvanuatu.com/cdn/shop/files/9a8ecc68-df97-4da5-ba3e-938ef31b8e47.png?v=1744256802&width=1024",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageEvidence": {
+        "sourceClass": "verified_real_package",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "downloadedForDemo": true,
+        "cacheStatus": "cached",
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "b3cd878178817adaacb90bb5979b587d30495418a55c5484ace79d53655d5a5b",
+        "mapSha256": "211fff00117015e39a160724b4405c9936002b98614a83de9ca858d42510b0e4",
+        "mapBytes": 4102,
+        "mapDimensions": [
+          42,
+          160
+        ],
+        "cardDimensions": [
+          129,
+          494
+        ],
+        "method": "edge-connected studio background alpha removal",
+        "originalRGBPreserved": true
+      },
+      "imageCredit": "品牌/商家产品实物图；本地缓存不表示获得再利用许可。",
+      "imageLicense": null,
+      "imageContentBounds": {
+        "width": 129,
+        "height": 494,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 129,
+          "height": 494
+        },
+        "method": "reviewed_alpha_crop"
+      }
+    },
+    {
+      "id": "globalcoverage-sr-parbo-official",
+      "name": "Parbo Bier",
+      "breweryId": "globalcoverage-brewery-sr",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pilsner",
+      "abv": 5.0,
+      "ibu": null,
+      "srm": null,
+      "description": "苏里南 Paramaribo 的 Surinaamse Brouwerij 本地生产的 Parbo 皮尔森。实物图采用官网包装变更说明中的旧版瓶身，包装历史与当前酒款区分保留。",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://parbobier.com/about-us/",
+        "https://www.shata.sr/nl/doing-business/surinaamse-brouwerij-nv/",
+        "https://parbobier.com/parbo-pilsner-verpakkingswijziging/"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Paramaribo",
+        "resolvedLocality": "Paramaribo",
+        "countryCode": "SR",
+        "lat": 5.85222222,
+        "lng": -55.20388889,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://www.shata.sr/nl/doing-business/surinaamse-brouwerij-nv/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Paramaribo",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://www.shata.sr/nl/doing-business/surinaamse-brouwerij-nv/",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://parbobier.com/about-us/",
+          "https://www.shata.sr/nl/doing-business/surinaamse-brouwerij-nv/",
+          "https://parbobier.com/parbo-pilsner-verpakkingswijziging/",
+          "https://en.wikipedia.org/wiki/Paramaribo"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      },
+      "descriptionBasis": "verified_public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://parbobier.com/about-us/",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/pages/parbo-about.html",
+        "sourceSha256": "80ded2cbdc87cece8863b9613364e635c22e7181166aa96e3e3c651c55219ecd",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_or_identified_public_product",
+        "method": "faithful short paraphrase; no user-review prose"
+      },
+      "image": "/images/global-coverage-americas-oceania/parbo-official-card.webp",
+      "imageThumbnail": "/images/global-coverage-americas-oceania/parbo-official-map.webp",
+      "imageOriginal": "/images/global-coverage-americas-oceania/parbo-official-original.png",
+      "imageSource": "https://parbobier.com/parbo-pilsner-verpakkingswijziging/",
+      "imageDownloadUrl": "https://parbobier.com/wp-content/uploads/2025/04/oud_design-removebg-preview.png",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageEvidence": {
+        "sourceClass": "verified_real_package",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "downloadedForDemo": true,
+        "cacheStatus": "cached",
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "9d2354eccb86699f384044bf8839ebda45028ba173e2dbb01e5f6b91086b8d94",
+        "mapSha256": "e6d1711db305de05d3056fc0abc8421423371ab48a9fba53dc32045d3b281529",
+        "mapBytes": 3726,
+        "mapDimensions": [
+          47,
+          160
+        ],
+        "cardDimensions": [
+          145,
+          495
+        ],
+        "method": "reviewed complete single package crop",
+        "originalRGBPreserved": true
+      },
+      "imageCredit": "品牌/商家产品实物图；本地缓存不表示获得再利用许可。",
+      "imageLicense": null,
+      "imageContentBounds": {
+        "width": 145,
+        "height": 495,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 145,
+          "height": 495
+        },
+        "method": "reviewed_alpha_crop"
+      }
+    },
+    {
+      "id": "openbeer-3692",
+      "name": "Red Stripe Lager Beer",
+      "breweryId": "openbeer-brewery-442",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": 4.7,
+      "ibu": null,
+      "srm": null,
+      "description": "牙买加 Kingston 酿造的 Red Stripe 拉格；实物瓶标明确写有 Brewed in Jamaica。美国市场玻璃瓶生产于 2016 年回迁牙买加，本条不包括境外代工版本。",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://www.redstripebeer.com/our-beer?lang=en",
+        "https://www.redstripecorporate.com/company?lang=en",
+        "https://beerandwine.co.nz/products/red-stripe-lager-355ml"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Kingston",
+        "resolvedLocality": "Kingston",
+        "countryCode": "JM",
+        "lat": 17.97138889,
+        "lng": -76.79305556,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://www.redstripecorporate.com/company?lang=en",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Kingston%2C_Jamaica",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://www.redstripecorporate.com/company?lang=en",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://www.redstripebeer.com/our-beer?lang=en",
+          "https://www.redstripecorporate.com/company?lang=en",
+          "https://beerandwine.co.nz/products/red-stripe-lager-355ml",
+          "https://en.wikipedia.org/wiki/Kingston%2C_Jamaica"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      },
+      "descriptionBasis": "verified_public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.redstripebeer.com/our-beer?lang=en",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/pages/red-stripe.html",
+        "sourceSha256": "0478a9d3aef58aa95a44b6a30dcad8e43e21eb7eb74bc5dd587edc61f099480c",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_or_identified_public_product",
+        "method": "faithful short paraphrase; no user-review prose"
+      },
+      "image": "/images/global-coverage-americas-oceania/redstripe-bottle-card.webp",
+      "imageThumbnail": "/images/global-coverage-americas-oceania/redstripe-bottle-map.webp",
+      "imageOriginal": "/images/global-coverage-americas-oceania/redstripe-bottle-original.png",
+      "imageSource": "https://beerandwine.co.nz/products/red-stripe-lager-355ml",
+      "imageDownloadUrl": "https://beerandwine.co.nz/cdn/shop/files/Red-Stripe-Lager-330ml_1200x1200.png?v=1740620447",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageEvidence": {
+        "sourceClass": "verified_real_package",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "downloadedForDemo": true,
+        "cacheStatus": "cached",
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "f75f2e5a2e9ac5feebb8637b0e6983a1bd50c2912e70b7a1fc28390c37f909d1",
+        "mapSha256": "25421a2b0114ad37e63198fbaf6bb369151554ae4a4263fd0bde4c8974025521",
+        "mapBytes": 6248,
+        "mapDimensions": [
+          74,
+          160
+        ],
+        "cardDimensions": [
+          274,
+          592
+        ],
+        "method": "edge-connected studio background alpha removal",
+        "originalRGBPreserved": true
+      },
+      "imageCredit": "品牌/商家产品实物图；本地缓存不表示获得再利用许可。",
+      "imageLicense": null,
+      "imageContentBounds": {
+        "width": 274,
+        "height": 592,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 274,
+          "height": 592
+        },
+        "method": "reviewed_alpha_crop"
+      }
+    },
+    {
+      "id": "globalcoverage-fj-fiji-realcan",
+      "name": "Fiji Gold",
+      "breweryId": "globalcoverage-brewery-fj",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": 4.6,
+      "ibu": null,
+      "srm": null,
+      "description": "斐济 Suva 的 Paradise Beverages 生产的 Fiji Gold 淡色拉格，4.6%。当地政府 Fiji Made 产品名录核实其本国产地。",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://www.paulsliquor.com.au/products/fiji-gold-cans",
+        "https://www.fijianmade.gov.fj/product/view/812"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Suva",
+        "resolvedLocality": "Suva",
+        "countryCode": "FJ",
+        "lat": -18.1416,
+        "lng": 178.4419,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://www.fijianmade.gov.fj/product/view/812",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Suva",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://www.fijianmade.gov.fj/product/view/812",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://www.paulsliquor.com.au/products/fiji-gold-cans",
+          "https://www.fijianmade.gov.fj/product/view/812",
+          "https://en.wikipedia.org/wiki/Suva"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      },
+      "descriptionBasis": "verified_public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.paulsliquor.com.au/products/fiji-gold-cans",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/pages/fiji-pauls.html",
+        "sourceSha256": "4dcd5201e968944deaf2386b14d90beb877b23313bd9d3b13eb7e09b732e0a9b",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_or_identified_public_product",
+        "method": "faithful short paraphrase; no user-review prose"
+      },
+      "image": "/images/global-coverage-americas-oceania/fiji-realcan-card.webp",
+      "imageThumbnail": "/images/global-coverage-americas-oceania/fiji-realcan-map.webp",
+      "imageOriginal": "/images/global-coverage-americas-oceania/fiji-realcan-original.png",
+      "imageSource": "https://www.paulsliquor.com.au/products/fiji-gold-cans",
+      "imageDownloadUrl": "https://www.paulsliquor.com.au/cdn/shop/files/FijiGold330mL_New_c61db837-c3b6-4911-bdb1-b3438e804729_1024x.png?v=1761239154",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageEvidence": {
+        "sourceClass": "verified_real_package",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "downloadedForDemo": true,
+        "cacheStatus": "cached",
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "f5f7ce658dc8aabb4c86fd84a0d60909346178cf1cadc4a240abf5a2300c8fdb",
+        "mapSha256": "eb5697aa6c1f852d095b58eeeccc4ad6d0ae234a023e53d881c0363e5732514b",
+        "mapBytes": 6732,
+        "mapDimensions": [
+          95,
+          160
+        ],
+        "cardDimensions": [
+          426,
+          720
+        ],
+        "method": "edge-connected studio background alpha removal",
+        "originalRGBPreserved": true
+      },
+      "imageCredit": "品牌/商家产品实物图；本地缓存不表示获得再利用许可。",
+      "imageLicense": null,
+      "imageContentBounds": {
+        "width": 426,
+        "height": 720,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 426,
+          "height": 720
+        },
+        "method": "reviewed_alpha_crop"
+      }
+    },
+    {
+      "id": "globalcoverage-vc-hairoun-bottle",
+      "name": "Hairoun Lager",
+      "breweryId": "globalcoverage-brewery-vc",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": 4.8,
+      "ibu": null,
+      "srm": null,
+      "description": "圣文森特当地 St. Vincent Brewery 酿造并装瓶的 Hairoun 拉格，官方列出的原料包括大麦、酒花和天然泉水。",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://www.hairounbeer.com/company_profile.htm",
+        "https://www.caribbeantrade.co.uk/Hairoun-Lager---24-x-280ml-id735.aspx"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Kingstown",
+        "resolvedLocality": "Kingstown",
+        "countryCode": "VC",
+        "lat": 13.15777778,
+        "lng": -61.225,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://www.hairounbeer.com/company_profile.htm",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Kingstown",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://www.hairounbeer.com/company_profile.htm",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://www.hairounbeer.com/company_profile.htm",
+          "https://www.caribbeantrade.co.uk/Hairoun-Lager---24-x-280ml-id735.aspx",
+          "https://en.wikipedia.org/wiki/Kingstown"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      },
+      "descriptionBasis": "verified_public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.hairounbeer.com/company_profile.htm",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/pages/hairoun.html",
+        "sourceSha256": "354811eea8bfb44bfd53ed836c2239018206dc02b9a2bddcf738a410ffc04384",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_or_identified_public_product",
+        "method": "faithful short paraphrase; no user-review prose"
+      },
+      "image": "/images/global-coverage-americas-oceania/hairoun-bottle-card.webp",
+      "imageThumbnail": "/images/global-coverage-americas-oceania/hairoun-bottle-map.webp",
+      "imageOriginal": "/images/global-coverage-americas-oceania/hairoun-bottle-original.jpg",
+      "imageSource": "https://www.caribbeantrade.co.uk/Hairoun-Lager---24-x-280ml-id735.aspx",
+      "imageDownloadUrl": "https://www.caribbeantrade.co.uk/productimage.aspx?size=large&imageid=864",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageEvidence": {
+        "sourceClass": "verified_real_package",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "downloadedForDemo": true,
+        "cacheStatus": "cached",
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "d5765c456f90f35126f8e19c770c5e83d752ef520a1137f7650c481e17c9d22d",
+        "mapSha256": "6ad06ed70c3830b135cee75c58f95e4fa2d82e7e1384bc90e30137865549e23a",
+        "mapBytes": 3638,
+        "mapDimensions": [
+          47,
+          160
+        ],
+        "cardDimensions": [
+          70,
+          240
+        ],
+        "method": "reviewed silhouette polygon; original RGB unchanged",
+        "originalRGBPreserved": true
+      },
+      "imageCredit": "品牌/商家产品实物图；本地缓存不表示获得再利用许可。",
+      "imageLicense": null,
+      "imageContentBounds": {
+        "width": 70,
+        "height": 240,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 70,
+          "height": 240
+        },
+        "method": "reviewed_alpha_crop"
+      }
+    },
+    {
+      "id": "globalcoverage-bs-bahamas-lineup",
+      "name": "Sands Beer",
+      "breweryId": "globalcoverage-brewery-bs",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": null,
+      "ibu": null,
+      "srm": null,
+      "description": "巴哈马 Freeport 的 Bahamian Brewery 本地生产的 Sands。官网明确将其列于本地生产啤酒，区别于酒厂经销的进口品牌。",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://www.bahamianbrewery.com/",
+        "https://bahamianbrewery.com/products/"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Freeport",
+        "resolvedLocality": "Freeport",
+        "countryCode": "BS",
+        "lat": 26.52861111,
+        "lng": -78.69666667,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://www.bahamianbrewery.com/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Freeport%2C_Bahamas",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://www.bahamianbrewery.com/",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://www.bahamianbrewery.com/",
+          "https://bahamianbrewery.com/products/",
+          "https://en.wikipedia.org/wiki/Freeport%2C_Bahamas"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      },
+      "descriptionBasis": "verified_public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.bahamianbrewery.com/",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/pages/bahamas-sands.html",
+        "sourceSha256": "a37804e84f101d2f85f18582d7488eaf7c218237b9fac01580f6e9c0d9ef07d4",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_or_identified_public_product",
+        "method": "faithful short paraphrase; no user-review prose"
+      },
+      "image": "/images/global-coverage-americas-oceania/bahamas-lineup-card.webp",
+      "imageThumbnail": "/images/global-coverage-americas-oceania/bahamas-lineup-map.webp",
+      "imageOriginal": "/images/global-coverage-americas-oceania/bahamas-lineup-original.jpg",
+      "imageSource": "https://bahamianbrewery.com/products/",
+      "imageDownloadUrl": "https://bahamianbrewery.com/wp-content/uploads/2023/01/BBB_MeetTheFamily_142023.jpg",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageEvidence": {
+        "sourceClass": "verified_real_package",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "downloadedForDemo": true,
+        "cacheStatus": "cached",
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "3f5b38ec6f4e97d975a5beaeca22f9bb1fa5a2affe70439af5a27d6735c10aa0",
+        "mapSha256": "08c47ac69a654c4825fbe9e6cb38e9fa4c3e24778e027cae66762bdee38dd469",
+        "mapBytes": 4470,
+        "mapDimensions": [
+          41,
+          160
+        ],
+        "cardDimensions": [
+          169,
+          662
+        ],
+        "method": "reviewed complete single package crop; edge-connected studio background alpha removal",
+        "originalRGBPreserved": true
+      },
+      "imageCredit": "品牌/商家产品实物图；本地缓存不表示获得再利用许可。",
+      "imageLicense": null,
+      "imageContentBounds": {
+        "width": 169,
+        "height": 662,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 169,
+          "height": 662
+        },
+        "method": "reviewed_alpha_crop"
+      }
+    },
+    {
+      "id": "globalcoverage-ag-longbay-can",
+      "name": "Long Bay Lager",
+      "breweryId": "globalcoverage-brewery-ag",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": null,
+      "ibu": null,
+      "srm": null,
+      "description": "安提瓜和巴布达 Long Bay Brewing 本地酿造的 Lager，2025 年推出罐装。本地生产报道与罐身 Made in Antigua & Barbuda 字样相互印证。",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://antigua.news/2025/10/29/long-bay-brewing-company-showcases-local-craft-and-growth-plans/",
+        "https://www.horizonssupplies.com/"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "unknown",
+      "catalogRole": "craft_candidate",
+      "locationEvidence": {
+        "city": "Pares",
+        "resolvedLocality": "Pares",
+        "countryCode": "AG",
+        "lat": 17.08333333,
+        "lng": -61.75,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://antigua.news/2025/10/29/long-bay-brewing-company-showcases-local-craft-and-growth-plans/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Pares%2C_Antigua_and_Barbuda",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://antigua.news/2025/10/29/long-bay-brewing-company-showcases-local-craft-and-growth-plans/",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://antigua.news/2025/10/29/long-bay-brewing-company-showcases-local-craft-and-growth-plans/",
+          "https://www.horizonssupplies.com/",
+          "https://en.wikipedia.org/wiki/Pares%2C_Antigua_and_Barbuda"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      },
+      "descriptionBasis": "verified_public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://antigua.news/2025/10/29/long-bay-brewing-company-showcases-local-craft-and-growth-plans/",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/pages/longbay-local.html",
+        "sourceSha256": "f392f70eaa2c9d96a696cd9689bf30ddd14524a59099321e7be680f00c728a2f",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_or_identified_public_product",
+        "method": "faithful short paraphrase; no user-review prose"
+      },
+      "image": "/images/global-coverage-americas-oceania/longbay-can-card.webp",
+      "imageThumbnail": "/images/global-coverage-americas-oceania/longbay-can-map.webp",
+      "imageOriginal": "/images/global-coverage-americas-oceania/longbay-can-original.png",
+      "imageSource": "https://www.horizonssupplies.com/",
+      "imageDownloadUrl": "https://rgbarrett0storage.blob.core.windows.net/anuhorizons/2025/09/long-bay-beer.png",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageEvidence": {
+        "sourceClass": "verified_real_package",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "downloadedForDemo": true,
+        "cacheStatus": "cached",
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "31305f884d61393d81334cd93d2c480bb14d7cf310c53609d82353dd29500e91",
+        "mapSha256": "c1f8d94f21ae1b5264536456d6ba628d4e7b39abca2437414daf9ee6c07765ce",
+        "mapBytes": 7652,
+        "mapDimensions": [
+          91,
+          160
+        ],
+        "cardDimensions": [
+          238,
+          420
+        ],
+        "method": "reviewed silhouette polygon; original RGB unchanged",
+        "originalRGBPreserved": true
+      },
+      "imageCredit": "品牌/商家产品实物图；本地缓存不表示获得再利用许可。",
+      "imageLicense": null,
+      "imageContentBounds": {
+        "width": 238,
+        "height": 420,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 238,
+          "height": 420
+        },
+        "method": "reviewed_alpha_crop"
+      }
+    },
+    {
+      "id": "globalcoverage-gy-gt-page1",
+      "name": "GT Beer",
+      "breweryId": "globalcoverage-brewery-gy",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": 4.3,
+      "ibu": null,
+      "srm": null,
+      "description": "圭亚那 Banks DIH 本地生产的 GT 拉格，官方酒精度为 4.3%。实物瓶身由酒厂 2025 年产品目录裁出。",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://www.banksdih.com/content/our-products-services",
+        "https://www.banksdih.com/content/product-portfolio"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Georgetown",
+        "resolvedLocality": "Georgetown",
+        "countryCode": "GY",
+        "lat": 6.80111111,
+        "lng": -58.155,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://www.banksdih.com/content/our-products-services",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Georgetown%2C_Guyana",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://www.banksdih.com/content/our-products-services",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://www.banksdih.com/content/our-products-services",
+          "https://www.banksdih.com/content/product-portfolio",
+          "https://en.wikipedia.org/wiki/Georgetown%2C_Guyana"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      },
+      "descriptionBasis": "verified_public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.banksdih.com/content/our-products-services",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/pages/gt-product.html",
+        "sourceSha256": "59efd8367bdf4eb8c2b8d54bfc5109135f7ee2f90eba54696b78c9799a714da4",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_or_identified_public_product",
+        "method": "faithful short paraphrase; no user-review prose"
+      },
+      "image": "/images/global-coverage-americas-oceania/gt-page1-card.webp",
+      "imageThumbnail": "/images/global-coverage-americas-oceania/gt-page1-map.webp",
+      "imageOriginal": "/images/global-coverage-americas-oceania/gt-page1-original.jpg",
+      "imageSource": "https://www.banksdih.com/content/product-portfolio",
+      "imageDownloadUrl": "https://www.banksdih.com/sites/default/files/2025-06/Portfolio%20June%202025-images-1.jpg",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageEvidence": {
+        "sourceClass": "verified_real_package",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "downloadedForDemo": true,
+        "cacheStatus": "cached",
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "2844cfaffea6f32e2221d9b56301f06a6766210aa86c8cc57997eb5814a92c9e",
+        "mapSha256": "e56c9ac8f8afd4e0b33192d4fd85d962e2b10d57ee90f923d6fd6ea9fc808b71",
+        "mapBytes": 4668,
+        "mapDimensions": [
+          49,
+          160
+        ],
+        "cardDimensions": [
+          153,
+          498
+        ],
+        "method": "reviewed complete single package crop; edge-connected studio background alpha removal",
+        "originalRGBPreserved": true
+      },
+      "imageCredit": "品牌/商家产品实物图；本地缓存不表示获得再利用许可。",
+      "imageLicense": null,
+      "imageContentBounds": {
+        "width": 153,
+        "height": 498,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 153,
+          "height": 498
+        },
+        "method": "reviewed_alpha_crop"
+      }
+    },
+    {
+      "id": "globalcoverage-pw-palau-four",
+      "name": "Red Rooster Light",
+      "breweryId": "globalcoverage-brewery-pw",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": null,
+      "ibu": null,
+      "srm": null,
+      "description": "帕劳 Koror 的本地 Red Rooster 啤酒系列中的 Light。旅游机构介绍其本地酿造身份；此照片为已记录的 355 毫升历史罐装，罐装与生啤酒精度可能不同，暂不填统一数值。",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://pristineparadisepalau.com/experience/the-taj-palau-2/",
+        "https://www.isaiah-japan.com/%E3%82%B3%E3%83%A9%E3%83%A0/%E3%83%91%E3%83%A9%E3%82%AA%E3%81%AE%E5%90%8D%E7%89%A9%E6%96%99%E7%90%86%E3%81%AB%E9%96%A2%E3%81%97%E3%81%A6/"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "unknown",
+      "catalogRole": "craft_candidate",
+      "locationEvidence": {
+        "city": "Koror",
+        "resolvedLocality": "Koror",
+        "countryCode": "PW",
+        "lat": 7.34222222,
+        "lng": 134.47722222,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://pristineparadisepalau.com/experience/the-taj-palau-2/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Koror",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://pristineparadisepalau.com/experience/the-taj-palau-2/",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://pristineparadisepalau.com/experience/the-taj-palau-2/",
+          "https://www.isaiah-japan.com/%E3%82%B3%E3%83%A9%E3%83%A0/%E3%83%91%E3%83%A9%E3%82%AA%E3%81%AE%E5%90%8D%E7%89%A9%E6%96%99%E7%90%86%E3%81%AB%E9%96%A2%E3%81%97%E3%81%A6/",
+          "https://en.wikipedia.org/wiki/Koror"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      },
+      "descriptionBasis": "verified_public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://pristineparadisepalau.com/experience/the-taj-palau-2/",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/pages/palau-tourism.html",
+        "sourceSha256": "126c17c488dadafe10a3d3dc64e242f223f10d224ed9f756c6f66ef0feacc786",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_or_identified_public_product",
+        "method": "faithful short paraphrase; no user-review prose"
+      },
+      "image": "/images/global-coverage-americas-oceania/palau-four-card.webp",
+      "imageThumbnail": "/images/global-coverage-americas-oceania/palau-four-map.webp",
+      "imageOriginal": "/images/global-coverage-americas-oceania/palau-four-original.jpg",
+      "imageSource": "https://www.isaiah-japan.com/%E3%82%B3%E3%83%A9%E3%83%A0/%E3%83%91%E3%83%A9%E3%82%AA%E3%81%AE%E5%90%8D%E7%89%A9%E6%96%99%E7%90%86%E3%81%AB%E9%96%A2%E3%81%97%E3%81%A6/",
+      "imageDownloadUrl": "https://image.jimcdn.com/app/cms/image/transf/dimension%3D848x10000%3Aformat%3Djpg/path/sc0ba9c2322f53f30/image/ia57065c8224c9dfb/version/1622791027/image.jpg",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageEvidence": {
+        "sourceClass": "verified_real_package",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "downloadedForDemo": true,
+        "cacheStatus": "cached",
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "a3b95545712381e1f9ed3b16f1c9a5f987f9b64c2c7348e8ad0cda763355c15a",
+        "mapSha256": "660c49bbefb5401616de53b898ea796a77b6ab6ec5c488e6d97cb39d084c466e",
+        "mapBytes": 5796,
+        "mapDimensions": [
+          86,
+          160
+        ],
+        "cardDimensions": [
+          224,
+          418
+        ],
+        "method": "reviewed silhouette polygon; original RGB unchanged",
+        "originalRGBPreserved": true
+      },
+      "imageCredit": "品牌/商家产品实物图；本地缓存不表示获得再利用许可。",
+      "imageLicense": null,
+      "imageContentBounds": {
+        "width": 224,
+        "height": 418,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 224,
+          "height": 418
+        },
+        "method": "reviewed_alpha_crop"
+      }
+    },
+    {
+      "id": "globalcoverage-dm-kubuli",
+      "name": "Kubuli Lager",
+      "breweryId": "globalcoverage-brewery-dm",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Lager",
+      "abv": 5.0,
+      "ibu": null,
+      "srm": null,
+      "description": "多米尼克 Loubière 酒厂的本土 Kubuli 金色拉格，品牌名源于该岛的原住民名称。图为 2015 年真实瓶装照片，已保留摄影作者与许可。",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Kubuli",
+        "https://commons.wikimedia.org/wiki/File:Kubuli_Beer.JPG"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Loubière",
+        "resolvedLocality": "Loubière",
+        "countryCode": "DM",
+        "lat": 15.275216,
+        "lng": -61.373425,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://en.wikipedia.org/wiki/Kubuli",
+        "coordinateSourceUrl": "https://www.openstreetmap.org/node/240267620",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/loubiere-coordinates.json",
+        "identitySourceUrl": "https://en.wikipedia.org/wiki/Kubuli",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://en.wikipedia.org/wiki/Kubuli",
+          "https://commons.wikimedia.org/wiki/File:Kubuli_Beer.JPG",
+          "https://www.openstreetmap.org/node/240267620"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      },
+      "descriptionBasis": "verified_public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://en.wikipedia.org/wiki/Kubuli",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/pages/kubuli-local.html",
+        "sourceSha256": "15cca9d102581c8930727fb1bd051b050b209d69e5ae0ab3bc257788e2eac34b",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_or_identified_public_product",
+        "method": "faithful short paraphrase; no user-review prose"
+      },
+      "image": "/images/global-coverage-americas-oceania/kubuli-card.webp",
+      "imageThumbnail": "/images/global-coverage-americas-oceania/kubuli-map.webp",
+      "imageOriginal": "/images/global-coverage-americas-oceania/kubuli-original.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Kubuli_Beer.JPG",
+      "imageDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Kubuli_Beer.JPG",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageEvidence": {
+        "sourceClass": "verified_real_package",
+        "individuallyVerified": true,
+        "reuseRightsVerified": true,
+        "downloadedForDemo": true,
+        "cacheStatus": "cached",
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "3c9c8ce1f1e0363499314b6c3eb43711e99b03cb9a96182982ffd83af5b2859f",
+        "mapSha256": "c129b1e184870da4910e03a2a29c0c339540e152e908b04480ce47a867e3ac52",
+        "mapBytes": 4824,
+        "mapDimensions": [
+          76,
+          160
+        ],
+        "cardDimensions": [
+          342,
+          720
+        ],
+        "method": "reviewed silhouette polygon; original RGB unchanged",
+        "originalRGBPreserved": true
+      },
+      "imageCredit": "Aneil Lutchman, Kubuli Beer.JPG (2015), CC BY-SA 2.0；裁切并移除背景。",
+      "imageLicense": "CC BY-SA 2.0",
+      "imageContentBounds": {
+        "width": 342,
+        "height": 720,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 342,
+          "height": 720
+        },
+        "method": "reviewed_alpha_crop"
+      },
+      "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+    },
+    {
+      "id": "globalcoverage-lc-piton-bottle",
+      "name": "Piton Lager",
+      "breweryId": "globalcoverage-brewery-lc",
+      "collection": "regional",
+      "collections": [
+        "regional"
+      ],
+      "style": "Pilsner",
+      "abv": 5.0,
+      "ibu": null,
+      "srm": null,
+      "description": "圣卢西亚 Vieux Fort 当地酒厂酿造的 Piton 拉格，以岛上的双峰命名。图为实际 Piton 瓶装照片。",
+      "flavors": [],
+      "flavorEvidence": [],
+      "hops": [],
+      "malts": [],
+      "rating": null,
+      "ratingsCount": null,
+      "awards": [],
+      "sourceUrls": [
+        "https://www.pitonbeer.com/our-history/",
+        "https://lets-travel-more.com/the-most-popular-drinks-in-saint-lucia/"
+      ],
+      "sourceNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。",
+      "craftStatus": "industrial_reference",
+      "catalogRole": "industrial_reference",
+      "locationEvidence": {
+        "city": "Vieux Fort",
+        "resolvedLocality": "Vieux Fort",
+        "countryCode": "LC",
+        "lat": 13.728,
+        "lng": -60.954,
+        "locationPrecision": "city",
+        "locationRole": "brewery_city_reference",
+        "productionCountryVerified": true,
+        "productionLocationVerified": false,
+        "verifiedAt": "2026-10-02",
+        "sourceListingUrl": "https://www.pitonbeer.com/our-history/",
+        "coordinateSourceUrl": "https://en.wikipedia.org/wiki/Vieux_Fort%2C_Saint_Lucia",
+        "coordinateQueryUrl": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ladyville%7CPort-au-Prince%7CLa+Paz%7CYpan%C3%A9%7CCaracas%7CApia%7CHoniara%7CPort+Moresby%7CSanto+Domingo%7CChrist+Church%2C+Barbados%7CChamps+Fleurs%7CSaint+George%27s%2C+Grenada%7CBasseterre%7CGeorgetown%2C+Guyana%7CKingstown%7CVieux+Fort%2C+Saint+Lucia%7CSuva%7CPort+Vila%7CNuku%CA%BBalofa%7CKoror%7CPares%2C+Antigua+and+Barbuda%7CFreeport%2C+Bahamas%7CParamaribo%7CHolgu%C3%ADn%7CKingston%2C+Jamaica%7CLoubi%C3%A8re&colimit=max&redirects=1",
+        "coordinateEvidenceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/coordinates.json",
+        "identitySourceUrl": "https://www.pitonbeer.com/our-history/",
+        "method": "reviewed_public_locality_reference",
+        "sourceUrls": [
+          "https://www.pitonbeer.com/our-history/",
+          "https://lets-travel-more.com/the-most-popular-drinks-in-saint-lucia/",
+          "https://en.wikipedia.org/wiki/Vieux_Fort%2C_Saint_Lucia"
+        ],
+        "verificationNote": "2026-10-02 公开网页核对本地酿造身份与同款瓶罐；地图为城市/社区参考坐标，不代表精确酒厂建筑。图片原件保留，衍生图仅裁切、去背景与缩放；未提供资料不推测。"
+      },
+      "descriptionBasis": "verified_public_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.pitonbeer.com/our-history/",
+        "sourceFile": "/Users/zijianz/Documents/Codex/2026-09-11/slack-codex-slack-slack-codex-10/brew-atlas/research/global-coverage-americas-oceania/pages/piton-history.html",
+        "sourceSha256": "4808235e562d0a6bd2e2001b6e5d8fbd61334a93f8c10bf941be64ec78e6f7f7",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_or_identified_public_product",
+        "method": "faithful short paraphrase; no user-review prose"
+      },
+      "image": "/images/global-coverage-americas-oceania/piton-bottle-card.webp",
+      "imageThumbnail": "/images/global-coverage-americas-oceania/piton-bottle-map.webp",
+      "imageOriginal": "/images/global-coverage-americas-oceania/piton-bottle-original.jpg",
+      "imageSource": "https://lets-travel-more.com/the-most-popular-drinks-in-saint-lucia/",
+      "imageDownloadUrl": "https://lets-travel-more.com/wp-content/uploads/2020/02/Piton-1.jpg",
+      "imageCacheStatus": "cached",
+      "imageKind": "product_packshot",
+      "imageEvidence": {
+        "sourceClass": "verified_real_package",
+        "individuallyVerified": true,
+        "reuseRightsVerified": false,
+        "downloadedForDemo": true,
+        "cacheStatus": "cached",
+        "reviewedAt": "2026-10-02",
+        "originalSha256": "c1d47ab7f1cbcb2682523558ca918c5a6ce56cc509f957f60699cb624050bc24",
+        "mapSha256": "e52a957c1098ea0d7f5d1e350086ab312888c865810c964013b0aef95b03e21e",
+        "mapBytes": 4086,
+        "mapDimensions": [
+          42,
+          160
+        ],
+        "cardDimensions": [
+          187,
+          720
+        ],
+        "method": "reviewed silhouette polygon; original RGB unchanged",
+        "originalRGBPreserved": true
+      },
+      "imageCredit": "品牌/商家产品实物图；本地缓存不表示获得再利用许可。",
+      "imageLicense": null,
+      "imageContentBounds": {
+        "width": 187,
+        "height": 720,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 187,
+          "height": 720
+        },
+        "method": "reviewed_alpha_crop"
+      }
+    }
+  ]
+}

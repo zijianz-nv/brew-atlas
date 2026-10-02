@@ -26,7 +26,7 @@ test('a deliberate Japanese island focus finds a real land slot with unchanged f
     // already fits Japan, focusing must not zoom further just for this test.
     if (result.attempts[0].targetPhotos) assert.equal(result.altitude, result.attempts[0].altitude);
     else assert(result.altitude < result.attempts[0].altitude);
-    assert(result.altitude >= .08);
+    assert(result.altitude >= (width < 500 ? 1.8 : 1.25));
     assert(result.attempts.at(-1).targetPhotos >= 1);
     assert(result.attempts.length <= 9);
     assert.deepEqual(camera.matrixWorld.toArray(), before, 'probing must not move the actual camera');
@@ -40,8 +40,8 @@ test('a continental focus keeps its normal distance and missing photos never tri
   const options = { camera, target: inland, places: [place(inland)], geographicMask, width, height,
     layoutOptions: { photoZoomBase: 2.5 / homeAltitude(width, height) } };
   const result = choosePhotoFocusAltitude(options);
-  assert.equal(result.found, true); assert.equal(result.altitude, .6); assert.equal(result.attempts.length, 1);
-  assert.deepEqual(choosePhotoFocusAltitude({ ...options, places: [] }), { altitude: .6, found: false, attempts: [] });
+  assert.equal(result.found, true); assert.equal(result.altitude, 1.5); assert.equal(result.attempts.length, 1);
+  assert.deepEqual(choosePhotoFocusAltitude({ ...options, places: [] }), { altitude: 1.5, found: false, attempts: [] });
 });
 
 test('an impossible ocean source is bounded and preserves the normal focus instead of crossing sea', () => {
@@ -49,6 +49,20 @@ test('an impossible ocean source is bounded and preserves the normal focus inste
   const ocean = { id: 'ocean', lat: 0, lng: -140 };
   const result = choosePhotoFocusAltitude({ camera, target: ocean, places: [place(ocean)], geographicMask,
     width, height, initialAltitude: .42, maximumAttempts: 3 });
-  assert.equal(result.found, false); assert.equal(result.altitude, .42); assert.equal(result.attempts.length, 3);
+  assert.equal(result.found, false); assert(result.altitude >= 1.8); assert(result.attempts.length <= 3);
   assert(result.attempts.every(attempt => attempt.targetPhotos === 0));
+});
+
+
+test('opening detail cannot force a close-up even with a legacy initial distance or blocked panel', () => {
+  for (const [width, height] of [[1440, 674], [390, 844]]) {
+    const camera = new PerspectiveCamera(50, width / height, .1, 3000);
+    const mexico = { id: 'vaquita', lat: 23.2494, lng: -106.4111 };
+    const result = choosePhotoFocusAltitude({ camera, target: mexico, places: [place(mexico)],
+      geographicMask, width, height, initialAltitude: .42, minimumAltitude: .08,
+      layoutOptions: { obstacles: [{ left: 0, top: 0, right: width, bottom: height }] } });
+    assert.equal(result.found, false, 'an obstructed target must remain obstructed');
+    assert(result.altitude >= (width < 500 ? 2.5 : 1.25));
+    assert(result.attempts.every(attempt => attempt.altitude >= result.altitude));
+  }
 });

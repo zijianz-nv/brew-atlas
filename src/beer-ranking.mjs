@@ -22,9 +22,16 @@ export function compareBeerPhotoRank(a, b) {
   ).map(award => ({gold:3,silver:2,bronze:1}[String(award.medal).toLowerCase()] || 0)));
   const accoladeDifference = awardTier(b) - awardTier(a);
   if (accoladeDifference) return accoladeDifference;
+  // Sales status requires a cited claim; neither ratings nor check-ins prove sales.
+  const bestseller = beer => Boolean(/^https?:\/\//.test(beer?.salesEvidence?.sourceUrl||'')
+    && /^(best_seller|bestseller|sales_rank)$/.test(beer.salesEvidence.kind)
+    && beer.salesEvidence.claim);
+  const salesDifference = Number(bestseller(b)) - Number(bestseller(a));
+  if (salesDifference) return salesDifference;
   const curated = beer => (beer?.collections || [beer?.collection]).some(c => c === 'awards' || c === 'representative');
   // Legacy source-specific ranking remains for archived regression fixtures.
-  if (curated(a) || curated(b)) return String(a?.id ?? '').localeCompare(String(b?.id ?? ''));
+  const curatedDifference = Number(curated(b)) - Number(curated(a));
+  if (curatedDifference) return curatedDifference;
   const left = ratingEvidence(a), right = ratingEvidence(b);
   const tierDifference = (right?.tier || 0) - (left?.tier || 0);
   if (tierDifference) return tierDifference;
