@@ -79,12 +79,12 @@ export function createConstellationLayout({width,height,exclusions=[],seed='zodi
 }
 
 const ringHours={Ari:0,Tau:1,Gem:2,Sco:3,Cnc:4,Leo:5,Vir:6,Sgr:7,Cap:8,Lib:9,Aqr:10,Psc:11};
-/** Mobile uses four figures per horizontal row and two per side column. Each
- * group stays evenly spaced; the groups can move independently around controls. */
+/** Mobile uses four figures per horizontal row and two per side column.
+ * Paired rows share columns and mirror their distance from Earth's center. */
 export function createConstellationMobileLayout({width,height,exclusions=[],centerY=height/2}={}){
  if(!Number.isFinite(width)||!Number.isFinite(height)||width<=0||height<=0||!Number.isFinite(centerY))return [];
  const blocked=exclusions.map(rect).filter(Boolean),gap=3,margin=8;
- const groups=[['top',['Psc','Ari','Tau','Gem']],['bottom',['Cap','Sgr','Vir','Leo']],['sides',['Aqr','Lib','Sco','Cnc']]];
+ const groups=[['rows',['Psc','Ari','Tau','Gem','Cap','Sgr','Vir','Leo']],['sides',['Aqr','Lib','Sco','Cnc']]];
  const centerFirst=(values,target)=>values.sort((a,b)=>Math.abs(a-target)-Math.abs(b-target));
  const range=(a,b,step)=>Array.from({length:Math.max(0,Math.floor((b-a)/step)+1)},(_,i)=>a+i*step);
  let best=[];
@@ -100,10 +100,15 @@ export function createConstellationMobileLayout({width,height,exclusions=[],cent
    return [shape.sign.id,f];
   }));
   const candidates=groups.map(([row,ids])=>{
-   const figures=ids.map(id=>frames.get(id)),result=[];
+   let figures=ids.map(id=>frames.get(id));
+   if(row==='rows'){
+    const rowHeight=Math.max(...figures.map(f=>f.height));
+    figures=figures.map(f=>({...f,padding:f.padding+(rowHeight-f.height)/2,height:rowHeight}));
+   }
+   const result=[];
    function add(points){
     const items=figures.map((f,i)=>({...f,x:points[i].x-f.width/2,y:points[i].y-f.height/2,
-     layoutRow:row==='sides'?(i<2?'left':'right'):row}));
+     layoutRow:row==='sides'?(i<2?'left':'right'):(i<4?'top':'bottom')}));
     for(const item of items){
      item.bounds={left:item.x-gap/2,top:item.y-gap/2,right:item.x+item.width+gap/2,bottom:item.y+item.height+gap/2};
      if(item.x<margin||item.y<margin||item.x+item.width>width-margin||item.y+item.height>height-margin||blocked.some(b=>overlap(item.bounds,b)))return;
@@ -111,13 +116,14 @@ export function createConstellationMobileLayout({width,height,exclusions=[],cent
     if(items.some((item,i)=>items.slice(i+1).some(b=>overlap(item.bounds,b.bounds))))return;
     result.push(items);
    }
-   if(row==='top'||row==='bottom'){
-    const top=row==='top',minY=top?32:centerY+45,maxY=top?centerY-55:height-25;
-    // Include exact obstacle edges: a valid short-screen row can occupy a
-    // sub-5px interval which the regular candidate scan would otherwise miss.
-    const edgeYs=tight?blocked.flatMap(b=>figures.flatMap(f=>[b.bottom+f.height/2+gap/2+.01,b.top-f.height/2-gap/2-.01])):[];
-    const ys=centerFirst([...new Set([...range(minY,maxY,5),...edgeYs.filter(y=>y>=minY&&y<=maxY)])],top?centerY*.34:centerY+(height-centerY)*.52);
-    for(const y of ys)for(const step of [width*.225,width*.21,width*.24,width*.195])add(figures.map((_,i)=>({x:width/2+(i-1.5)*step,y})));
+   if(row==='rows'){
+    const minDistance=45,maxDistance=Math.min(centerY,height-centerY)-25;
+    // Exact obstacle edges recover narrow valid intervals on short phones.
+    // Every candidate moves BOTH rows together, including fallback sizes.
+    const edges=blocked.flatMap(b=>figures.flatMap((f,i)=>[b.bottom+f.height/2+gap/2+.01,b.top-f.height/2-gap/2-.01]
+     .map(y=>i<4?centerY-y:y-centerY)));
+    const distances=centerFirst([...new Set([...range(minDistance,maxDistance,5),...edges.filter(d=>d>=minDistance&&d<=maxDistance)])],Math.min(centerY,height-centerY)*.66);
+    for(const distance of distances)for(const step of [width*.225,width*.21,width*.24,width*.195])add(figures.map((_,i)=>({x:width/2+(i%4-1.5)*step,y:centerY+(i<4?-distance:distance)})));
    }else{
     const xs=centerFirst(range(22,width*.32,3),width*.13);
     const ys=centerFirst(range(centerY-55,centerY+90,5),centerY+10);

@@ -4,7 +4,7 @@ import SolarSystemPlanets from './SolarSystemPlanets.jsx';
 import MeteorTrails from './MeteorTrails.jsx';
 import {createConstellationRingLayout} from './constellation-layout.mjs';
 import {createCelestialOrbits,orbitalFigureStyle,minimumSkyScale} from './celestial-orbits.mjs';
-import {constellationInteriorBounds,placeCelestialBodies} from './celestial-body-placement.mjs';
+import {balancedOverviewBodies,constellationInteriorBounds,placeCelestialBodies} from './celestial-body-placement.mjs';
 
 const STARS=Array.from({length:64},(_,i)=>({x:(i*137+37)%1600,y:(i*233+71)%1000,r:i%11===0?1.6:.6+(i%3)*.25,opacity:.16+(i%5)*.08}));
 
@@ -33,7 +33,7 @@ function CelestialBackground({width=1440,height=670,earthRadius=330}){
   const exclusions=useMemo(()=>{
     const scale=minimumSkyScale(width),r=earthRadius*scale+8;
     return [{x:width/2-r,y:height/2-r,width:r*2,height:r*2+18},
-      {x:0,y:0,width:compact?width:365,height:compact?Math.max(58,titleBottom+12):140},
+      {x:0,y:0,width:compact?width:365,height:compact?Math.max(12,titleBottom+12):140},
       (compact?{x:width-260,y:height-14,width:236,height:44}:{x:width-80,y:height*.3,width:80,height:320}),
       {x:width/2-155,y:skyHeight-58,width:310,height:58},
       ...(compact?[{x:0,y:0,width:24,height:skyHeight},{x:width-24,y:0,width:24,height:skyHeight}]:[])];
@@ -45,11 +45,12 @@ function CelestialBackground({width=1440,height=670,earthRadius=330}){
     if(!sky.length)return layout;
     const scale=minimumSkyScale(width),bodyWidths=compact?{SUN:160,MOON:33,MARS:26,MERCURY:32,VENUS:46,JUPITER:72,SATURN:110,URANUS:48,NEPTUNE:47}
       :{SUN:Math.min(360,Math.max(210,width*.25)),MOON:76,MARS:48,MERCURY:42,VENUS:68,JUPITER:118,SATURN:190,URANUS:70,NEPTUNE:72};
-    const bodies=Object.entries(layout.points).filter(([name])=>name!=='EARTH').map(([name,p])=>({name,
+    const orbitalBodies=Object.entries(layout.points).filter(([name])=>name!=='EARTH').map(([name,p])=>({name,
       x:width/2+(p.x-width/2)*scale,y:height/2+(p.y-height/2)*scale,
       width:bodyWidths[name]*scale*p.depth,
       height:bodyWidths[name]*scale*p.depth*(name==='SATURN'?.6875:1)+(name==='SUN'?0:8)}));
     const bounds=constellationInteriorBounds({constellations:sky,width,centerY:height/2,gap:compact?5:10});
+    const bodies=balancedOverviewBodies(orbitalBodies,bounds);
     const place=bodies=>placeCelestialBodies({width,height:skyHeight,bodies,bounds,
       exclusions:[...exclusions,...sky.map(s=>({x:s.x,y:s.y,width:s.width,height:s.height}))],gap:compact?5:10,padding:compact?24:12});
     let placements=bounds?place(bodies)

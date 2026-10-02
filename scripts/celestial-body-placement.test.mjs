@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {constellationInteriorBounds,placeCelestialBodies} from '../src/celestial-body-placement.mjs';
+import {balancedOverviewBodies,constellationInteriorBounds,placeCelestialBodies} from '../src/celestial-body-placement.mjs';
 import {createConstellationRingLayout} from '../src/constellation-layout.mjs';
 import {createCelestialOrbits,minimumSkyScale} from '../src/celestial-orbits.mjs';
 const body=(name,x,y,width=20,height=20)=>({name,x,y,width,height});
@@ -42,7 +42,7 @@ test('occupied boxes stay inside the circle, including corners, and never escape
 test('all nine overview bodies fit inside fixed desktop and mobile constellations without obstructing Earth or controls',()=>{
  for(const [width,height,earthRadius]of [[1440,670,330],[1720,920,430],[1280,490,260],[424,588,254],[409,484,217.9],[354,339,174]]){
   const compact=width<600,skyHeight=height+90,scale=minimumSkyScale(width),r=earthRadius*scale+8;
-  const exclusions=[{x:width/2-r,y:height/2-r,width:r*2,height:r*2+18},{x:0,y:0,width:compact?width:365,height:compact?58:140},
+  const exclusions=[{x:width/2-r,y:height/2-r,width:r*2,height:r*2+18},{x:0,y:0,width:compact?width:365,height:compact?12:140},
    compact?{x:width-260,y:height-14,width:236,height:44}:{x:width-80,y:height*.3,width:80,height:320},
    {x:width/2-155,y:skyHeight-58,width:310,height:58},...(compact?[{x:0,y:0,width:24,height:skyHeight},{x:width-24,y:0,width:24,height:skyHeight}]:[])];
   const sky=createConstellationRingLayout({width,height:skyHeight,centerY:height/2,exclusions}),snapshot=structuredClone(sky);
@@ -56,11 +56,13 @@ test('all nine overview bodies fit inside fixed desktop and mobile constellation
   const gap=compact?5:10,options={width,height:skyHeight,bounds,exclusions:[...exclusions,...sky],gap,padding:compact?24:12};
   let placed;
   for(const sizeScale of compact?[1,.85,.7,.55]:[1]){
-   placed=placeCelestialBodies({...options,bodies:bodies.map(b=>b.name==='SUN'?{...b,width:b.width*sizeScale,height:b.height*sizeScale}:b)});
+   placed=placeCelestialBodies({...options,bodies:balancedOverviewBodies(bodies,bounds).map(b=>b.name==='SUN'?{...b,width:b.width*sizeScale,height:b.height*sizeScale}:b)});
    if(placed.every(p=>p.placed))break;
   }
   assert.equal(placed.filter(p=>p.placed).length,9,`${width}x${height} retains all bodies`);
   assert.deepEqual(sky,snapshot,'planet placement must not move constellations');
+  const upper=placed.filter(p=>p.y<height/2),lower=placed.filter(p=>p.y>=height/2);
+  assert(upper.length>=3&&lower.length>=3,`${width}x${height} distributes bodies above and below Earth`);
   for(const [i,p]of placed.entries()){
    const occupied=rect(p);
    if(bounds.type==='rectangle')assert(occupied.x>=bounds.x-1e-7&&occupied.y>=bounds.y-1e-7&&occupied.x+occupied.width<=bounds.x+bounds.width+1e-7&&occupied.y+occupied.height<=bounds.y+bounds.height+1e-7);

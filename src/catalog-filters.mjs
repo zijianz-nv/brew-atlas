@@ -1,15 +1,17 @@
+import {citySearchAliases} from './city-search.mjs';
 import {countrySelectionValues} from './country-selection.mjs';
 export const EMPTY_FACETS = Object.freeze({family:'all', substyle:'all', taste:'all', mouthfeel:'all', aroma:'all', process:'all', ingredient:'all', brewery:'all'});
 export const FILTER_DIMENSIONS = [...Object.keys(EMPTY_FACETS), 'country', 'strength'];
 
 // Keep local place names searchable alongside their English catalogue names.
-// Only supplied aliases are used; no place or product identity is inferred.
+// Include supplied aliases and narrowly scoped city spelling equivalents; no
+// location verification or beer-production identity is inferred.
 export function beerSearchText(beer, brewery) {
   const aliases = value => Array.isArray(value) ? value : [];
   return [beer.name, ...aliases(beer.nameAliases), beer.style, beer.styleZh,
     beer.description, ...aliases(beer.flavors), brewery?.name, brewery?.nameZh,
     ...aliases(brewery?.nameAliases), brewery?.city, brewery?.cityZh,
-    ...aliases(brewery?.cityAliases), brewery?.region, brewery?.regionZh, ...aliases(brewery?.regionAliases),
+    ...aliases(brewery?.cityAliases), ...citySearchAliases(brewery), brewery?.region, brewery?.regionZh, ...aliases(brewery?.regionAliases),
     ...aliases(brewery?.locationAliases), brewery?.country, brewery?.countryZh,
     ...aliases(brewery?.countryAliases)].filter(value => typeof value === 'string')
     .join(' ').toLowerCase();

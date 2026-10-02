@@ -3,6 +3,70 @@
 .inspector-top .inspector-random-button{height:32px;padding:0 10px;gap:5px;font-size:10px}
 .inspector.detail-open{scrollbar-gutter:stable;overflow-y:scroll}
 
+/* The desktop comparison footer follows the inspector's responsive bounds. */
+@media (min-width:701px) {
+  .app { --inspector-compare-width:370px;--inspector-compare-right:20px;--inspector-compare-bottom:20px;--inspector-compare-height:54px; }
+  .app:has(.compare-dock) .inspector.detail-open {
+    bottom:calc(var(--inspector-compare-bottom) + var(--inspector-compare-height));
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0;
+  }
+  .app:has(.inspector.detail-open) .compare-dock {
+    right:var(--inspector-compare-right);
+    bottom:var(--inspector-compare-bottom);
+    width:var(--inspector-compare-width);
+    height:var(--inspector-compare-height);
+    padding:6px 12px;
+    border-radius:0 0 17px 17px;
+    background:#192d2e;
+    box-shadow:0 8px 24px #0003;
+  }
+  .app:has(.inspector.detail-open) .compare-dock>button:not(.icon-button) { margin-left:auto;min-height:36px; }
+  .app:has(.inspector.detail-open) .compare-dock>.icon-button { width:36px;height:36px; }
+  .app:has(.inspector.detail-open) .toast { top:12px;bottom:auto;pointer-events:none; }
+}
+@media (min-width:701px) and (max-width:1100px) {
+  .app { --inspector-compare-width:350px;--inspector-compare-right:17px;--inspector-compare-bottom:17px; }
+}
+@media (min-width:1600px) {
+  .app { --inspector-compare-width:402px;--inspector-compare-right:28px;--inspector-compare-bottom:28px; }
+}
+@media (min-width:701px) and (max-height:720px) {
+  .app { --inspector-compare-bottom:14px; }
+}
+
+/* Reserve a separate footer for comparison while reading a phone detail.
+ * The inspector scrolls above it, so no description or action is covered. */
+@media (max-width:700px) {
+  .app { --mobile-compare-footer:calc(58px + env(safe-area-inset-bottom,0px)); }
+  .app:has(.compare-dock) .inspector.detail-open { bottom:var(--mobile-compare-footer); }
+  .app:has(.inspector.detail-open) .compare-dock {
+    left:8px;
+    right:8px;
+    bottom:0;
+    height:var(--mobile-compare-footer);
+    padding:6px 10px calc(6px + env(safe-area-inset-bottom,0px));
+    border-radius:0;
+    border-bottom:0;
+    background:#192d2e;
+    box-shadow:0 -1px 10px #0002;
+  }
+  .app:has(.inspector.detail-open) .compare-dock>button:not(.icon-button) {
+    margin-left:auto;
+    min-height:44px;
+    padding:0 16px;
+  }
+  .app:has(.inspector.detail-open) .compare-dock>.icon-button { width:44px;height:44px; }
+  .app:has(.compare-dock) .toast { bottom:224px; }
+  .app:has(.inspector.detail-open) .toast {
+    top:8px;
+    bottom:auto;
+    max-width:calc(100vw - 32px);
+    white-space:normal;
+    pointer-events:none;
+  }
+}
+
 /* Import after styles.css and year-filter.css in the app entry:
  *   import './mobile-inspector.css';
  * Existing inspector markup is unchanged. At <=600px this becomes a compact
@@ -30,6 +94,11 @@
     scroll-padding-top:52px;
     -webkit-overflow-scrolling:touch;
   }
+  .app:has(.compare-dock) .inspector.detail-open {
+    max-height:calc(56vh - var(--mobile-compare-footer));
+    max-height:calc(56dvh - var(--mobile-compare-footer));
+  }
+  .app:has(.inspector.detail-open) .toast { top:calc(71px + env(safe-area-inset-top,0px)); }
   .detail-backdrop { background:#0614162b; }
   .inspector.detail-open .inspector-top {
     position:sticky;

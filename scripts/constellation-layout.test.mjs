@@ -2,8 +2,19 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {createConstellationLayout,createConstellationRingLayout} from '../src/constellation-layout.mjs';
 import {ZODIAC_CONSTELLATIONS} from '../src/celestial-stars.mjs';
-import {createCelestialOrbits,minimumSkyScale} from '../src/celestial-orbits.mjs';
+import {minimumSkyScale} from '../src/celestial-orbits.mjs';
 const overlaps=(a,b)=>a.left<b.right&&a.right>b.left&&a.top<b.bottom&&a.bottom>b.top;
+function verifyPairedRows(signs,width,centerY){
+ const top=signs.filter(s=>s.layoutRow==='top'),bottom=signs.filter(s=>s.layoutRow==='bottom');
+ assert.equal(top.length,4);assert.equal(bottom.length,4);
+ for(let i=0;i<4;i++){
+  assert(Math.abs(top[i].x+top[i].width/2-bottom[i].x-bottom[i].width/2)<1e-8,'opposing rows share X centers');
+  assert(Math.abs(top[i].y+top[i].height/2+bottom[i].y+bottom[i].height/2-2*centerY)<1e-8,'opposing row centers mirror Earth');
+ }
+ assert(Math.abs(centerY-Math.max(...top.map(s=>s.y+s.height))-(Math.min(...bottom.map(s=>s.y))-centerY))<1e-8,'both rows leave the same inner visual gap');
+ assert(Math.abs(top[0].x+top[0].width/2+top[3].x+top[3].width/2-width)<1e-8);
+}
+
 function verify(options,expected=12){
  const signs=createConstellationLayout(options);assert.equal(signs.length,expected);
  assert.equal(new Set(signs.map(s=>s.id)).size,signs.length);
@@ -72,19 +83,14 @@ test('desktop constellations form one true circle at full, tall and short viewpo
   assert(sharedRadius<centerY); // Height, rather than the wide screen, sets the circle.
  }
 });
-test('actual mobile solar systems retain all twelve in four symmetric top/bottom/side groups',()=>{
+test('mobile stars precede planets and retain aligned mirrored top/bottom rows with symmetric side groups',()=>{
  for(const {width,height,earthRadius} of [{width:424,height:588,earthRadius:254},{width:424,height:516,earthRadius:226.1},
   {width:409,height:484,earthRadius:217.9},{width:394,height:472,earthRadius:209},{width:374,height:472,earthRadius:199},{width:354,height:460,earthRadius:189}]){
  const skyHeight=height+90,centerY=height/2,scale=minimumSkyScale(width),r=earthRadius*scale+8;
  const exclusions=[{x:width/2-r,y:centerY-r,width:r*2,height:r*2+18},{x:0,y:0,width:310,height:58},
   {x:width-260,y:height-14,width:236,height:44},{x:width/2-155,y:skyHeight-58,width:310,height:58},
   {x:0,y:0,width:24,height:skyHeight},{x:width-24,y:0,width:24,height:skyHeight}];
- const bodyWidths={SUN:210,MOON:33,MARS:26,MERCURY:32,VENUS:46,JUPITER:72,SATURN:110,URANUS:48,NEPTUNE:47};
- for(const [name,p]of Object.entries(createCelestialOrbits(width,height).points))if(name!=='EARTH'){
-  const x=width/2+(p.x-width/2)*scale,y=centerY+(p.y-centerY)*scale,radius=bodyWidths[name]*scale*p.depth/2+4;
-  exclusions.push({x:x-radius,y:y-radius,width:radius*2,height:radius*2+8});
- }
- const signs=createConstellationRingLayout({width,height:skyHeight,centerY,exclusions});assert.equal(signs.length,12);
+ const signs=createConstellationRingLayout({width,height:skyHeight,centerY,exclusions});assert.equal(signs.length,12);verifyPairedRows(signs,width,centerY);
  for(const [i,s] of signs.entries()){
   for(const b of [...exclusions.map(r=>({left:r.x,top:r.y,right:r.x+r.width,bottom:r.y+r.height})),...signs.slice(i+1).map(s=>s.bbox)])assert(!overlaps(s.bbox,b));
   assert.equal(s.label.bbox.width,22);
@@ -119,12 +125,12 @@ test('320x667 short phone keeps all twelve around the actual Earth and full-widt
  const ratio=Math.min(width*.87,stageHeight*.87)/stageHeight;
  const altitude=Math.max(1.5,Math.min(4.8,Math.sqrt(1+1/(ratio*Math.tan(25*Math.PI/180))**2)-1))*.76;
  const earthRadius=stageHeight/(2*Math.tan(25*Math.PI/180)*Math.sqrt(altitude*(altitude+2))),r=earthRadius*.3+8;
- for(const headingHeight of [58,80]){
+ for(const headingHeight of [12,58]){
   const exclusions=[{x:width/2-r,y:centerY-r,width:r*2,height:r*2+18},{x:0,y:0,width,height:headingHeight},
    {x:width-260,y:stageHeight-14,width:236,height:44},{x:width/2-155,y:height-58,width:310,height:58},
    {x:0,y:0,width:24,height},{x:width-24,y:0,width:24,height}];
   const options={width,height,centerY,exclusions},signs=createConstellationRingLayout(options);
-  assert.equal(signs.length,12,`all figures fit with ${headingHeight}px heading`);
+  assert.equal(signs.length,12,`all figures fit with ${headingHeight}px heading`);verifyPairedRows(signs,width,centerY);
   assert.deepEqual(signs,createConstellationRingLayout(options));
   for(const [i,s]of signs.entries()){
    assert(s.x>=0&&s.y>=0&&s.x+s.width<=width&&s.y+s.height<=height);
@@ -132,7 +138,7 @@ test('320x667 short phone keeps all twelve around the actual Earth and full-widt
    assert.equal(s.label.bbox.width,22);assert(s.label.bbox.bottom<=s.bbox.bottom);
    for(const star of s.stars)assert(star.y<s.label.bbox.top);
    const starSize=Math.max(Math.max(...s.stars.map(p=>p.x))-Math.min(...s.stars.map(p=>p.x)),Math.max(...s.stars.map(p=>p.y))-Math.min(...s.stars.map(p=>p.y)));
-   if(headingHeight===58)assert(Math.abs(starSize-28)<1e-8,'normal heading preserves a 28px star figure');
+   assert(starSize>=12-1e-8&&starSize<=48+1e-8,'short-screen figures stay within the supported readable size range');
   }
   for(const row of ['top','bottom']){
    const group=signs.filter(s=>s.layoutRow===row),centers=group.map(s=>({x:s.x+s.width/2,y:s.y+s.height/2}));

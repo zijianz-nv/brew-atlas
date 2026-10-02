@@ -58,3 +58,26 @@ test('single-pass counts match independent per-dimension counting across every a
   }
   assert.deepEqual({inputs,records,breweries},snapshot);
 });
+
+test('Russian Saint Petersburg source spellings share city search aliases without altering records',()=>{
+  const aliases=['圣彼得堡','聖彼得堡','Saint Petersburg','St. Petersburg','St Petersburg','Sankt-Peterburg','Санкт-Петербург'];
+  for(const city of aliases){
+    const brewery={id:'petersburg',country:'Russia',city,locationVerified:false,lat:null,lng:null};
+    const original=structuredClone(brewery),beer={id:'city-record',name:'A local beer'};
+    const text=beerSearchText(beer,brewery);
+    for(const query of aliases)assert.ok(text.includes(query.toLowerCase()),`${city} must match ${query}`);
+    assert.deepEqual(brewery,original);
+  }
+  assert.ok(beerSearchText({name:'Beer'},{country:'Russian Federation',city:'St. Petersburg'}).includes('圣彼得堡'));
+});
+
+test('city aliases do not assign Russian Saint Petersburg to Florida, an unknown source, or another Russian city',()=>{
+  for(const brewery of [{country:'United States',city:'St. Petersburg'},{country:null,city:'St. Petersburg'},{country:'Russia',city:'Moscow'}]){
+    const text=beerSearchText({name:'Beer'},brewery);
+    assert.equal(text.includes('圣彼得堡'),false);
+    assert.equal(text.includes('санкт-петербург'),false);
+    assert.ok(text.includes(brewery.city.toLowerCase()),'preserve the actual source city');
+  }
+  const text=beerSearchText({name:'Beer'},{country:'Japan',city:'Sapporo',cityZh:'札幌',cityAliases:['さっぽろ']});
+  for(const query of ['sapporo','札幌','さっぽろ'])assert.ok(text.includes(query),'other supplied city aliases remain searchable');
+});

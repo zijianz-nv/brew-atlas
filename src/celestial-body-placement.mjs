@@ -20,6 +20,19 @@ export function constellationInteriorBounds({constellations=[],width,centerY,gap
   return endX>x&&endY>y?{type:'rectangle',x,y,width:endX-x,height:endY-y}:null;
 }
 
+// Spread visual weight above and below Earth before collision placement. These
+// are decorative overview anchors, never changes to the surrounding stars.
+export function balancedOverviewBodies(bodies,bounds){
+  if(!bounds)return bodies;
+  const circle=bounds.type==='circle',cx=circle?bounds.x:bounds.x+bounds.width/2,
+    cy=circle?bounds.y:bounds.y+bounds.height/2,rx=circle?bounds.radius:bounds.width/2,
+    ry=circle?bounds.radius:bounds.height/2;
+  const anchors={SUN:[-.65,-.68],MOON:[-.72,-.12],MARS:[.72,.16],
+    MERCURY:[.06,-.87],VENUS:[.7,-.62],JUPITER:[-.48,.78],
+    SATURN:[.52,.78],URANUS:[-.76,.42],NEPTUNE:[.05,.91]};
+  return bodies.map(body=>{const anchor=anchors[body.name];return anchor?{...body,x:cx+anchor[0]*rx,y:cy+anchor[1]*ry}:body;});
+}
+
 export function placeCelestialBodies({bodies=[],exclusions=[],width,height,gap=8,padding=6,bounds}={}){
   if(!Number.isFinite(width)||width<=0||!Number.isFinite(height)||height<=0||!Number.isFinite(gap)||gap<0||!Number.isFinite(padding)||padding<0)throw new RangeError('Positive viewport and nonnegative spacing required');
   const validRect=r=>r&&['x','y','width','height'].every(k=>Number.isFinite(r[k]))&&r.width>0&&r.height>0;

@@ -1,5 +1,12 @@
 .taxonomy-dock .dock-actions{display:flex;align-items:center;justify-content:flex-end;gap:10px;flex:none}
-@media(max-width:700px){.taxonomy-dock .dock-main{grid-template-columns:minmax(0,1fr)}.taxonomy-dock .dock-actions{grid-column:1/-1;gap:12px}}
+@media(max-width:700px){
+  /* Search and its trailing actions share the first row at every phone width. */
+  .filter-dock.taxonomy-dock .dock-main{display:flex;height:38px;gap:7px}
+  .filter-dock.taxonomy-dock .search-box{flex:1 1 0;min-width:0;height:38px;padding-bottom:0;border-bottom:0}
+  .filter-dock.taxonomy-dock .dock-actions{gap:6px}
+  .filter-dock.taxonomy-dock .search-country-chip{min-width:0;max-width:40%}
+  .app:has(.brew-globe-view[data-sky-expanded="true"]) .filter-dock.taxonomy-dock .random-button span{display:inline}
+}
 
 /* Details provide their own next-beer action in the sticky header. Retain
  * the dock's measured geometry while removing its controls and glass layer. */
