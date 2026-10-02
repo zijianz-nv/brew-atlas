@@ -33,12 +33,13 @@ const OCEAN = '#071624';
 const HOME_VIEW = {lat:20,lng:80};
 const MARKER_ALTITUDE = 0.002;
 const BOTTLE_CSS = `
+@property --beer-photo-scale{syntax:"<number>";inherits:false;initial-value:1}
 .brew-globe-view[data-bottles-visible="false"] .globe-bottle-marker{display:none!important}
 .brew-globe-view .globe-bottle-marker{position:relative;width:0;height:0;pointer-events:none}
 .brew-globe-view .globe-bottle-marker[aria-hidden="true"] .globe-bottle{visibility:hidden!important;pointer-events:none}
 .brew-globe-view .globe-bottle-stack{position:absolute;pointer-events:none}
 .brew-globe-view .globe-bottle-halo{position:absolute;inset:-3px;border-radius:45%;background:radial-gradient(ellipse,rgba(182,197,145,.13),rgba(159,190,151,.035) 65%,transparent 76%);pointer-events:none}
-.brew-globe-view .globe-bottle{appearance:none;position:absolute;inset:0;width:calc(var(--beer-photo-width,8.32px)*var(--beer-photo-scale,1));height:calc(var(--beer-photo-height,16px)*var(--beer-photo-scale,1));padding:0!important;margin:0;border:0!important;background:transparent!important;box-shadow:none!important;cursor:pointer;pointer-events:auto;transition:filter .2s;line-height:0;will-change:transform}
+.brew-globe-view .globe-bottle{appearance:none;position:absolute;inset:0;width:calc(var(--beer-photo-width,8.32px)*var(--beer-photo-scale,1));height:calc(var(--beer-photo-height,16px)*var(--beer-photo-scale,1));padding:0!important;margin:0;border:0!important;background:transparent!important;box-shadow:none!important;cursor:pointer;pointer-events:auto;transition:filter .2s,--beer-photo-scale .16s ease-out;line-height:0;will-change:transform}
 .brew-globe-view .globe-bottle img{display:block;width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 1px 1px #0008);user-select:none;-webkit-user-drag:none}
 .brew-globe-view .globe-photo-viewport{position:absolute;inset:0;overflow:hidden;pointer-events:none}
 .brew-globe-view .globe-bottle:not([data-image-state="ready"]) img{opacity:0}
