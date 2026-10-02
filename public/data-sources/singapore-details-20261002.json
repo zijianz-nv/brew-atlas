@@ -1,0 +1,440 @@
+{
+  "metadata": {
+    "id": "singapore-details-20261002",
+    "checkedAt": "2026-10-02",
+    "purpose": "Officially sourced descriptions and sensory facts for existing photographed Singapore beers",
+    "beers": 7,
+    "breweries": 0,
+    "scope": "Existing exact beer IDs; source breweries, photographs and numeric parameters remain inherited from the base catalog.",
+    "limitations": [
+      "仅补充酒厂官方产品页能够对应的酒款；未补造首酿或上市年份。",
+      "风味描述与实际添加原料分开记录；未把蜂蜜、咖啡或可可风味推断为配方添加物。",
+      "本次七款的官方已核对描述未明确提供芭乐或桃子风味，不添加这些标签。"
+    ]
+  },
+  "breweries": [],
+  "beers": [
+    {
+      "id": "beertasting-0f10745e-100f-48f0-bb29-19607d139dae",
+      "name": "Brewerkz - Citrus Honey Wheat",
+      "breweryId": "beertasting-brewery-222f534e-0ea9-4d6a-9f03-631a2361c714",
+      "collection": "beertasting",
+      "collections": [
+        "beertasting"
+      ],
+      "description": "这款小麦啤酒带有橙与柠檬的明亮柑橘风味，伴随蜂蜜般的甜感，收尾轻盈清爽。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://brewerkz.com/craft-beer/",
+        "sourceProduct": "Citrus Honey Wheat",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_product_page",
+        "productIdentity": "matched_existing_brewery_product_name_and_abv",
+        "sourceAbv": 5,
+        "method": "faithful Chinese paraphrase; aroma descriptors are not inferred ingredients"
+      },
+      "sensoryFacts": [
+        {
+          "dimension": "aroma",
+          "id": "citrus",
+          "text": "官网描述橙与柠檬风味。",
+          "sourceUrl": "https://brewerkz.com/craft-beer/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "honey",
+          "text": "官网描述蜂蜜般甜感，未据此认定添加蜂蜜。",
+          "sourceUrl": "https://brewerkz.com/craft-beer/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "mouthfeel",
+          "id": "light",
+          "text": "官网描述轻盈的收尾。",
+          "sourceUrl": "https://brewerkz.com/craft-beer/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        }
+      ],
+      "sourceUrls": [
+        "https://brewerkz.com/craft-beer/"
+      ],
+      "sourceNote": "2026-10-02 按酒厂官方对应产品页补充中文介绍及明确原料、风味事实；保留已有图片与历史参数，当前产品描述不追认为所有历史批次配方。"
+    },
+    {
+      "id": "beertasting-9229cd87-262c-47ab-98ec-012627579df7",
+      "name": "Brewerkz - Bohemian Pilsner",
+      "breweryId": "beertasting-brewery-222f534e-0ea9-4d6a-9f03-631a2361c714",
+      "collection": "beertasting",
+      "collections": [
+        "beertasting"
+      ],
+      "description": "带有淡淡蜂蜜风味的波西米亚皮尔森，麦芽与苦感平衡，口感清爽。酒厂说明使用来自捷克一家知名酒厂的酵母。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://brewerkz.com/craft-beer/",
+        "sourceProduct": "Bohemian Pilsner",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_product_page",
+        "productIdentity": "matched_existing_brewery_product_name_and_abv",
+        "sourceAbv": 5,
+        "method": "faithful Chinese paraphrase; aroma descriptors are not inferred ingredients"
+      },
+      "yeast": "来自捷克酒厂的酵母（具体菌株未公开）",
+      "sensoryFacts": [
+        {
+          "dimension": "aroma",
+          "id": "honey",
+          "text": "官网描述淡淡蜂蜜风味。",
+          "sourceUrl": "https://brewerkz.com/craft-beer/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "malt",
+          "text": "官网描述麦芽风味与苦感的平衡。",
+          "sourceUrl": "https://brewerkz.com/craft-beer/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "taste",
+          "id": "bitter",
+          "text": "官网描述麦芽与苦感平衡。",
+          "sourceUrl": "https://brewerkz.com/craft-beer/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "mouthfeel",
+          "id": "crisp",
+          "text": "官网描述清爽口感。",
+          "sourceUrl": "https://brewerkz.com/craft-beer/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        }
+      ],
+      "sourceUrls": [
+        "https://brewerkz.com/craft-beer/"
+      ],
+      "sourceNote": "2026-10-02 按酒厂官方对应产品页补充中文介绍及明确原料、风味事实；保留已有图片与历史参数，当前产品描述不追认为所有历史批次配方。"
+    },
+    {
+      "id": "beertasting-a92016ee-1ebf-4aff-8082-53758f71d33b",
+      "name": "Brewerkz - Siloso Beach Lime Sea Salt Gose",
+      "breweryId": "beertasting-brewery-222f534e-0ea9-4d6a-9f03-631a2361c714",
+      "collection": "beertasting",
+      "collections": [
+        "beertasting"
+      ],
+      "description": "以海盐和泰国青柠酿制的古斯酸啤，清爽的柑橘风味中带有草本气息、酸感与咸味。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://brewerkz.com/craft-beer/",
+        "sourceProduct": "Siloso Beach Lime Sea Salt Gose",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_product_page",
+        "productIdentity": "matched_existing_brewery_product_name_and_abv",
+        "sourceAbv": 3.4,
+        "method": "faithful Chinese paraphrase; aroma descriptors are not inferred ingredients"
+      },
+      "sensoryFacts": [
+        {
+          "dimension": "ingredient",
+          "id": "fruit",
+          "text": "官网确认酿造时使用泰国青柠。",
+          "sourceUrl": "https://brewerkz.com/craft-beer/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "taste",
+          "id": "sour",
+          "text": "官网描述酸感与咸味。",
+          "sourceUrl": "https://brewerkz.com/craft-beer/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "citrus",
+          "text": "官网确认使用青柠并描述鲜明的柑橘风味。",
+          "sourceUrl": "https://brewerkz.com/craft-beer/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        }
+      ],
+      "sourceUrls": [
+        "https://brewerkz.com/craft-beer/"
+      ],
+      "sourceNote": "2026-10-02 按酒厂官方对应产品页补充中文介绍及明确原料、风味事实；保留已有图片与历史参数，当前产品描述不追认为所有历史批次配方。"
+    },
+    {
+      "id": "beertasting-d1d33800-2446-437b-9131-955dec5e3f47",
+      "name": "Brewerkz - Triumphant Harmony",
+      "breweryId": "beertasting-brewery-222f534e-0ea9-4d6a-9f03-631a2361c714",
+      "collection": "beertasting",
+      "collections": [
+        "beertasting"
+      ],
+      "description": "带有热带水果和松针风味的浑浊 IPA，苦感轻柔，酒体顺滑圆润。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://brewerkz.com/craft-beer/",
+        "sourceProduct": "Triumphant Harmony Hazy IPA",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_product_page",
+        "productIdentity": "matched_existing_brewery_product_name_and_abv",
+        "sourceAbv": 6.5,
+        "method": "faithful Chinese paraphrase; aroma descriptors are not inferred ingredients"
+      },
+      "sensoryFacts": [
+        {
+          "dimension": "aroma",
+          "id": "tropical",
+          "text": "官网描述热带水果风味。",
+          "sourceUrl": "https://brewerkz.com/craft-beer/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "resin",
+          "text": "官网描述松针风味。",
+          "sourceUrl": "https://brewerkz.com/craft-beer/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "taste",
+          "id": "bitter",
+          "text": "官网描述轻柔苦感。",
+          "sourceUrl": "https://brewerkz.com/craft-beer/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "mouthfeel",
+          "id": "smooth",
+          "text": "官网描述顺滑圆润的酒体。",
+          "sourceUrl": "https://brewerkz.com/craft-beer/",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        }
+      ],
+      "sourceUrls": [
+        "https://brewerkz.com/craft-beer/"
+      ],
+      "sourceNote": "2026-10-02 按酒厂官方对应产品页补充中文介绍及明确原料、风味事实；保留已有图片与历史参数，当前产品描述不追认为所有历史批次配方。"
+    },
+    {
+      "id": "beertasting-7d713fcf-55fe-446d-9926-05f98a084c86",
+      "name": "Brewlander - Joy",
+      "breweryId": "beertasting-brewery-9e8a67b5-e44b-41f4-af72-b64d7f1ef4f1",
+      "collection": "beertasting",
+      "collections": [
+        "beertasting"
+      ],
+      "description": "Joy 是一款突出柑橘风味的低度 IPA。酒厂说明采用大量酒花，并以易饮和适度酒花感作为这款酒的特点。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.brewlander.com/products/brewlander-session-ipa",
+        "sourceProduct": "Joy Session IPA",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_product_page",
+        "productIdentity": "matched_existing_brewery_product_name_and_abv",
+        "sourceAbv": 4.5,
+        "method": "faithful Chinese paraphrase; aroma descriptors are not inferred ingredients"
+      },
+      "sensoryFacts": [
+        {
+          "dimension": "aroma",
+          "id": "citrus",
+          "text": "官方产品页明确描述柑橘风味。",
+          "sourceUrl": "https://www.brewlander.com/products/brewlander-session-ipa",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "hoppy",
+          "text": "官方产品页将酒花感列入风味特点。",
+          "sourceUrl": "https://www.brewlander.com/products/brewlander-session-ipa",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "ingredient",
+          "id": "hops",
+          "text": "酒厂明确说明配方采用大量酒花，未公开具体品种。",
+          "sourceUrl": "https://www.brewlander.com/products/brewlander-session-ipa",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        }
+      ],
+      "sourceUrls": [
+        "https://www.brewlander.com/products/brewlander-session-ipa"
+      ],
+      "sourceNote": "2026-10-02 按酒厂官方对应产品页补充中文介绍及明确原料、风味事实；保留已有图片与历史参数，当前产品描述不追认为所有历史批次配方。"
+    },
+    {
+      "id": "beertasting-c28a1e86-6704-4f95-9e9a-88905bc832b0",
+      "name": "Brewlander - Respect",
+      "breweryId": "beertasting-brewery-9e8a67b5-e44b-41f4-af72-b64d7f1ef4f1",
+      "collection": "beertasting",
+      "collections": [
+        "beertasting"
+      ],
+      "description": "Respect 波特使用多种特种麦芽，酒体饱满，呈现咖啡与可可风味。Willamette 酒花带来一丝接骨木莓气息，收尾如天鹅绒般顺滑，苦甜交织。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.brewlander.com/products/brewlander-respect-porter",
+        "sourceProduct": "Respect Porter",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_product_page",
+        "productIdentity": "matched_existing_brewery_product_name_and_abv",
+        "sourceAbv": 5.8,
+        "method": "faithful Chinese paraphrase; aroma descriptors are not inferred ingredients"
+      },
+      "hops": [
+        "Willamette"
+      ],
+      "sensoryFacts": [
+        {
+          "dimension": "ingredient",
+          "id": "hops",
+          "text": "官方产品页明确列出 Willamette 酒花。",
+          "sourceUrl": "https://www.brewlander.com/products/brewlander-respect-porter",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "coffee",
+          "text": "官方将咖啡列为风味描述，未据此认定加入咖啡。",
+          "sourceUrl": "https://www.brewlander.com/products/brewlander-respect-porter",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "chocolate",
+          "text": "官方描述可可风味，未据此认定添加可可。",
+          "sourceUrl": "https://www.brewlander.com/products/brewlander-respect-porter",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "berry",
+          "text": "官方说明 Willamette 酒花带来接骨木莓气息。",
+          "sourceUrl": "https://www.brewlander.com/products/brewlander-respect-porter",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "mouthfeel",
+          "id": "full",
+          "text": "官方描述饱满酒体。",
+          "sourceUrl": "https://www.brewlander.com/products/brewlander-respect-porter",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "mouthfeel",
+          "id": "smooth",
+          "text": "官方描述天鹅绒般的顺滑收尾。",
+          "sourceUrl": "https://www.brewlander.com/products/brewlander-respect-porter",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "taste",
+          "id": "bitter",
+          "text": "官方描述苦甜交织的收尾。",
+          "sourceUrl": "https://www.brewlander.com/products/brewlander-respect-porter",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "taste",
+          "id": "sweet",
+          "text": "官方描述苦甜交织的收尾。",
+          "sourceUrl": "https://www.brewlander.com/products/brewlander-respect-porter",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        }
+      ],
+      "sourceUrls": [
+        "https://www.brewlander.com/products/brewlander-respect-porter"
+      ],
+      "sourceNote": "2026-10-02 按酒厂官方对应产品页补充中文介绍及明确原料、风味事实；保留已有图片与历史参数，当前产品描述不追认为所有历史批次配方。"
+    },
+    {
+      "id": "beertasting-d41cf31b-6273-41cf-8351-db8c0a1a03e5",
+      "name": "Brewlander - Inception IPA",
+      "breweryId": "beertasting-brewery-9e8a67b5-e44b-41f4-af72-b64d7f1ef4f1",
+      "collection": "beertasting",
+      "collections": [
+        "beertasting"
+      ],
+      "description": "Inception 是一款现代西海岸 IPA，以较中性的麦芽背景突出酒花。配方大量使用 El Dorado 和 Idaho 7，呈现松针与热带水果风味，并保留鲜明苦感。",
+      "descriptionBasis": "official_product_description",
+      "descriptionEvidence": {
+        "sourceUrl": "https://www.brewlander.com/products/inception-ipa",
+        "sourceProduct": "Inception WCIPA",
+        "retrievedAt": "2026-10-02",
+        "sourceType": "official_product_page",
+        "productIdentity": "matched_existing_brewery_product_name_and_abv",
+        "sourceAbv": 6,
+        "method": "faithful Chinese paraphrase; aroma descriptors are not inferred ingredients"
+      },
+      "hops": [
+        "El Dorado",
+        "Idaho 7"
+      ],
+      "sensoryFacts": [
+        {
+          "dimension": "ingredient",
+          "id": "hops",
+          "text": "官方配方明确列出 El Dorado 和 Idaho 7 酒花。",
+          "sourceUrl": "https://www.brewlander.com/products/inception-ipa",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "resin",
+          "text": "官方描述松针风味。",
+          "sourceUrl": "https://www.brewlander.com/products/inception-ipa",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "aroma",
+          "id": "tropical",
+          "text": "官方描述热带水果风味。",
+          "sourceUrl": "https://www.brewlander.com/products/inception-ipa",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        },
+        {
+          "dimension": "taste",
+          "id": "bitter",
+          "text": "官方描述鲜明的西海岸 IPA 苦感。",
+          "sourceUrl": "https://www.brewlander.com/products/inception-ipa",
+          "verifiedAt": "2026-10-02",
+          "reviewStatus": "reviewed_product_evidence"
+        }
+      ],
+      "sourceUrls": [
+        "https://www.brewlander.com/products/inception-ipa"
+      ],
+      "sourceNote": "2026-10-02 按酒厂官方对应产品页补充中文介绍及明确原料、风味事实；保留已有图片与历史参数，当前产品描述不追认为所有历史批次配方。"
+    }
+  ]
+}

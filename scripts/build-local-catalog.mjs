@@ -129,6 +129,11 @@ export function mergeLocalCatalog(inputs,{createdAt=new Date().toISOString()}={}
           else if(['abv','ibu'].includes(field)&&!blank(existing[field])&&!blank(beer[field])&&existing[field]!==beer[field])
             audit.fieldConflicts.push({id:existing.id,sourceId:beer.id,field,retained:existing[field],candidate:beer[field]});
         }
+        if(fills.includes('description')&&http(beer.descriptionEvidence?.sourceUrl)
+          &&beer.sourceUrls.includes(beer.descriptionEvidence.sourceUrl)) {
+          existing.descriptionEvidence=beer.descriptionEvidence;
+          if(beer.descriptionBasis)existing.descriptionBasis=beer.descriptionBasis;
+        }
         // Image identity and location are never inferred from a shared brewery name.
         if(!existing.image&&beer.image){
           for(const field of ['image','imageOriginal','imageThumbnail','imageSource','imageCredit','imageKind','imageEvidence','imageContentBounds','imageLicenseUrl','imageCacheStatus','imageDownloadUrl','imageBeforeCutout','imageDerivation'])if(beer[field]!=null)existing[field]=beer[field];
@@ -201,7 +206,8 @@ export async function writeLocalCatalog(){
     ['awards','public/data/award-americas-supplements.json'],
     ['awards','public/data/award-europe-africa-supplements.json'],
     ['awards','public/data/award-oceania-supplements.json'],
-    ['awards','public/data/award-sensory-supplements.json']];
+    ['awards','public/data/award-sensory-supplements.json'],
+    ['beertasting','public/data-sources/singapore-details-20261002.json']];
   const inputs=await Promise.all(paths.map(async([collection,path])=>({collection,catalog:JSON.parse(await readFile(resolve(root,path),'utf8'))})));
   const {catalog,audit}=mergeLocalCatalog(inputs);
   const sales=JSON.parse(await readFile(resolve(root,'public/data-sources/beer-sales-evidence.json'),'utf8'));

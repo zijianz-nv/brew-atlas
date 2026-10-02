@@ -10,6 +10,7 @@ import {beerLaunchYear,matchesLaunchYear} from './beer-launch-year.mjs';
 import {matchesAbvRange} from './abv-filter.mjs';
 import {loadCatalog, loadCatalogBootstrap} from './catalog-loader.mjs';
 import {hasDescribedPhoto, beerIntroduction} from './beer-photo-eligibility.mjs';
+import {beerImageSource} from './beer-image-source.mjs';
 import {recommendableBeerCandidates, chooseRandomBeer} from './random-beer.mjs';
 import {createBeerPhotoIdentityIndex} from './beer-photo-identity.mjs';
 import {createSparsePhotoScaleMap} from './sparse-photo-sizing.mjs';
@@ -36,7 +37,7 @@ const scopeName=value=>value==='country'?'国家级':value==='subnational'?'地�
 
 
 function BottleImage({beer,className='',variant='card'}){
-  const source=hasDescribedPhoto(beer)?(variant==='original'?(beer.imageEvidence?.derivative?beer.image:(beer.imageOriginal||beer.image)):variant==='thumbnail'?(beer.imageThumbnail||beer.image):beer.image):null;
+  const source=beerImageSource(beer,variant);
   const wrapperRef=useRef(null),[containerAspect,setContainerAspect]=useState(null);
   const [imageState,setImageState]=useState(()=>({source,status:'loading'}));
   const status=imageState.source===source?imageState.status:'loading';
