@@ -1,5 +1,5 @@
 import {readdir} from 'node:fs/promises';
-import {join} from 'node:path';
+import {join,posix} from 'node:path';
 import {beerImageSource} from '../src/beer-image-source.mjs';
 
 export function displayImagePaths(catalog) {
@@ -53,12 +53,16 @@ export function createArchiveRewriter({archivedPaths, retainedPaths, revision}) 
       return treeRoot + path.split('/').map(encodeURIComponent).join('/') + suffix;
     return input;
   };
-  const text = input => input.replace(/(?<![\w:/.-])(?:\/?public\/|\/)?(?:images|data-sources)\/[^\s"'`<>()[\]{}]+/g,
+  const text = (input,documentPath='/') => input.replace(/(?<![\w:/.-])(?:\/?public\/|\/)?(?:images|data-sources)\/[^\s"'`<>()[\]{}]+/g,
     token => {
       const output = reference(token);
       if (output !== token) return output;
       const trimmed = token.replace(/[.,;:]+$/,'');
       return reference(trimmed) + token.slice(trimmed.length);
+    }).replace(/\]\(([^\s)]+)\)/g,(link,target)=>{
+      if (/^(?:[a-z]+:|\/\/|#)/i.test(target)) return link;
+      const path=posix.resolve(posix.dirname(documentPath),target),mapped=reference(path);
+      return mapped===path?link:`](${mapped})`;
     });
   const json = value => {
     if (typeof value === 'string') return reference(value);

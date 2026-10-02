@@ -1,7 +1,6 @@
 .taxonomy-dock .dock-actions{display:flex;align-items:center;justify-content:flex-end;gap:10px;flex:none}
 @media(max-width:700px){.taxonomy-dock .dock-main{grid-template-columns:minmax(0,1fr)}.taxonomy-dock .dock-actions{grid-column:1/-1;gap:12px}}
 
-/* Keep the same random target above details without exposing the other filters.
- * Visibility preserves its exact desktop/mobile position for repeated taps. */
-.filter-dock[data-detail-open="true"]{z-index:81;visibility:hidden;pointer-events:none}
-.filter-dock[data-detail-open="true"] .random-button{visibility:visible;pointer-events:auto}
+/* Details provide their own next-beer action in the sticky header. Retain
+ * the dock's measured geometry while removing its controls and glass layer. */
+.filter-dock[data-detail-open="true"]{visibility:hidden;pointer-events:none;background:transparent;border-color:transparent;box-shadow:none;-webkit-backdrop-filter:none;backdrop-filter:none;filter:none}

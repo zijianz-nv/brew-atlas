@@ -16,6 +16,13 @@ export function contentImageStyle(beer, containerAspect) {
   if (width <= 0 || height <= 0 || contentWidth <= 0 || contentHeight <= 0 || containerAspect <= 0) return null;
   if (x < 0 || y < 0 || x + contentWidth > width || y + contentHeight > height) return null;
 
+  // Already-trimmed images need no crop. Let the browser fit the full image
+  // instead of compositing a narrow percentage-sized layer inside the frame.
+  if (x === 0 && y === 0 && contentWidth === width && contentHeight === height) {
+    return {position:'absolute', width:'100%', height:'100%', left:'0%', top:'0%',
+      maxWidth:'none', maxHeight:'none', objectFit:'contain'};
+  }
+
   // A virtual frame of (aspect × 1) is sufficient to derive CSS percentages.
   const scale = Math.min(containerAspect / contentWidth, 1 / contentHeight);
   const renderedWidth = width * scale / containerAspect;

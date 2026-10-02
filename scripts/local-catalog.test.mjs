@@ -8,6 +8,22 @@ const awards=await load('research/untappd-awards-2026-09-21/identified-awards.js
 const seeds=await load('research/curated-catalog/representative-seeds.json');
 const facts=await load('research/curated-catalog/award-enrichment-existing-facts.json');
 
+test('official descriptions fill existing Singapore IDs while preserving their photos and parameters',async()=>{
+ const supplement=await load('public/data-sources/singapore-details-20261002.json');
+ const breweries=[...new Set(supplement.beers.map(b=>b.breweryId))].map(id=>({id,name:id,country:'Singapore'}));
+ const beers=supplement.beers.map(b=>({id:b.id,name:b.name,breweryId:b.breweryId,abv:b.descriptionEvidence.sourceAbv,image:`/images/${b.id}.webp`}));
+ const {catalog}=mergeLocalCatalog([{collection:'beertasting',catalog:{metadata:{},breweries,beers}}, {collection:'beertasting',catalog:supplement}]);
+ assert.equal(catalog.beers.length,beers.length);
+ for(const original of beers){
+  const added=supplement.beers.find(b=>b.id===original.id),merged=catalog.beers.find(b=>b.id===original.id);
+  for(const field of ['id','breweryId','image','abv'])assert.equal(merged[field],original[field]);
+  assert.equal(merged.description,added.description);
+  assert.deepEqual(merged.descriptionEvidence,added.descriptionEvidence);
+  assert(merged.sourceUrls.includes(merged.descriptionEvidence.sourceUrl));
+  assert.equal(merged.launchYearEvidence,undefined);
+ }
+});
+
 test('same brewery ID fills local-language search aliases without replacing verified coordinates',()=>{
  const original={id:'yukon',name:'Yukon',city:'Whitehorse',lat:60.72,lng:-135.05,locationVerified:true,sourceUrls:['https://example.org/location'],locationEvidence:{reviewed:true}};
  const beer={id:'one',name:'Grizzly',breweryId:'yukon'};

@@ -11,10 +11,17 @@ const percent = value => parseFloat(value) / 100;
 function verifyFit(metadata, aspect) {
   const style = contentImageStyle({ imageContentBounds: metadata }, aspect);
   assert.ok(style);
-  const renderedWidth = percent(style.width) * aspect;
-  const renderedHeight = percent(style.height);
-  const left = percent(style.left) * aspect;
-  const top = percent(style.top);
+  let renderedWidth = percent(style.width) * aspect;
+  let renderedHeight = percent(style.height);
+  let left = percent(style.left) * aspect;
+  let top = percent(style.top);
+  if (style.objectFit === 'contain') {
+    const fit = Math.min(renderedWidth / metadata.width, renderedHeight / metadata.height);
+    left += (renderedWidth - metadata.width * fit) / 2;
+    top += (renderedHeight - metadata.height * fit) / 2;
+    renderedWidth = metadata.width * fit;
+    renderedHeight = metadata.height * fit;
+  }
   const scaleX = renderedWidth / metadata.width;
   const scaleY = renderedHeight / metadata.height;
   close(scaleX, scaleY);
@@ -48,10 +55,19 @@ test('transparent margins fit content, not the square image canvas', () => {
 test('wide and narrow frames preserve all content and pixel aspect ratio', () => {
   for (const aspect of [0.2, 0.52, 1, 2, 5]) {
     for (const metadata of [
-      { width: 400, height: 200, bounds: { x: 0, y: 0, width: 400, height: 200 } },
       { width: 1000, height: 1000, bounds: { x: 100, y: 390, width: 800, height: 80 } },
       { width: 1000, height: 1000, bounds: { x: 990, y: 1, width: 1, height: 998 } },
     ]) verifyFit(metadata, aspect);
+  }
+});
+
+test('already-trimmed images use native contain fitting, including narrow Boris bottles', () => {
+  for (const [width,height] of [[400,200],[245,800],[241,800]]) {
+    for (const aspect of [0.2,0.52,1,2.2,5]) {
+      const beer={imageContentBounds:{width,height,bounds:{x:0,y:0,width,height}}};
+      assert.deepEqual(contentImageStyle(beer,aspect),{position:'absolute',width:'100%',height:'100%',
+        left:'0%',top:'0%',maxWidth:'none',maxHeight:'none',objectFit:'contain'});
+    }
   }
 });
 

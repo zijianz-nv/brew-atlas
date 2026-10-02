@@ -143,3 +143,11 @@
 }
 
 .announcement-features{margin:0}.announcement-features>div{margin-top:13px}.announcement-features dt{font-size:11px;color:#e4d4ad;margin-bottom:4px}.announcement-features dd{margin:0;font-size:11px;line-height:1.8;color:#b2c6b4}
+
+/* Give the mobile heading its own row, including wrapped counts and country
+ * selection. The globe starts below that content instead of behind its text. */
+@media(max-width:700px){
+ .main-content:has(>.map-summary){display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(0,1fr);row-gap:12px;padding-top:22px}
+ .main-content>.map-summary{position:relative;inset:auto;grid-row:1;min-width:0;margin:0 20px;max-width:none}
+ .main-content>.globe-stage{position:relative;inset:auto;grid-row:2;min-width:0;min-height:0;margin:0 -17px 195px}
+}

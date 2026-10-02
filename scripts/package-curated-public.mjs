@@ -38,12 +38,12 @@ const assetSidecars = await writeStaticGzipSidecars(resolve(root,'dist/assets'),
 for (const path of retainedSources) {
   const target = resolve(root,'dist',path.slice(1));
   await mkdir(dirname(target),{recursive:true});
-  await writeFile(target,archive.text(await readFile(resolve(root,'public',path.slice(1)),'utf8')));
+  await writeFile(target,archive.text(await readFile(resolve(root,'public',path.slice(1)),'utf8'),path));
 }
 const sourceNotices = ['WORLD-SOURCES.md','ARCHIVE-SOURCES.md','MAP-SOURCES.md','OPENBEER-SOURCES.md','OFF-PHOTO-SOURCES.md'];
 let softwareNotices = await readFile(resolve(root,'THIRD-PARTY-NOTICES.md'),'utf8');
 for (const name of sourceNotices) {
-  await writeFile(resolve(root,'dist/data-sources',name),archive.text(await readFile(resolve(root,'research',name),'utf8')));
+  await writeFile(resolve(root,'dist/data-sources',name),archive.text(await readFile(resolve(root,'research',name),'utf8'),`/data-sources/${name}`));
   softwareNotices = softwareNotices.replaceAll(`research/${name}`,`data-sources/${name}`);
 }
 // Only adjust the introductory distribution paths; retain license and attribution text.

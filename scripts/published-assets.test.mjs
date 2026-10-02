@@ -53,3 +53,9 @@ test('published notices link archived originals and directories but retain credi
   assert(output.endsWith('https://brewery.example/images/raw/a.jpg'));
   assert.throws(()=>createArchiveRewriter({revision:'main',archivedPaths:[],retainedPaths:[]}),/immutable/);
 });
+
+test('relative source-data links remain usable after evidence moves to the archive',()=>{
+ const archive=createArchiveRewriter({revision,retainedPaths:[],archivedPaths:['/data-sources/beertasting/brewery-locations.json']});
+ assert.equal(archive.text('[coordinates](./brewery-locations.json#evidence)', '/data-sources/beertasting/NOTICE.md'),
+  `[coordinates](${raw}/data-sources/beertasting/brewery-locations.json#evidence)`);
+});

@@ -1,3 +1,7 @@
+.inspector-top{gap:8px}
+.inspector-top>span{min-width:0;margin-right:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.inspector-top .inspector-random-button{height:32px;padding:0 10px;gap:5px;font-size:10px}
+
 /* Import after styles.css and year-filter.css in the app entry:
  *   import './mobile-inspector.css';
  * Existing inspector markup is unchanged. At <=600px this becomes a compact
@@ -41,6 +45,7 @@
     width:44px;
     height:44px;
   }
+  .inspector.detail-open .inspector-random-button { height:36px; }
   .inspector.detail-open .inspector-hero {
     height:112px;
     margin:6px 12px 0;

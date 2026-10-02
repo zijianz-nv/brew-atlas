@@ -4,7 +4,7 @@ import SolarSystemPlanets from './SolarSystemPlanets.jsx';
 import MeteorTrails from './MeteorTrails.jsx';
 import {createConstellationRingLayout} from './constellation-layout.mjs';
 import {createCelestialOrbits,orbitalFigureStyle,minimumSkyScale} from './celestial-orbits.mjs';
-import {placeCelestialBodies} from './celestial-body-placement.mjs';
+import {constellationInteriorBounds,placeCelestialBodies} from './celestial-body-placement.mjs';
 
 const STARS=Array.from({length:64},(_,i)=>({x:(i*137+37)%1600,y:(i*233+71)%1000,r:i%11===0?1.6:.6+(i%3)*.25,opacity:.16+(i%5)*.08}));
 
@@ -49,11 +49,21 @@ function CelestialBackground({width=1440,height=670,earthRadius=330}){
       x:width/2+(p.x-width/2)*scale,y:height/2+(p.y-height/2)*scale,
       width:bodyWidths[name]*scale*p.depth,
       height:bodyWidths[name]*scale*p.depth*(name==='SATURN'?.6875:1)+(name==='SUN'?0:8)}));
-    const placements=placeCelestialBodies({width,height:skyHeight,bodies,
+    const bounds=constellationInteriorBounds({constellations:sky,width,centerY:height/2,gap:compact?5:10});
+    const place=bodies=>placeCelestialBodies({width,height:skyHeight,bodies,bounds,
       exclusions:[...exclusions,...sky.map(s=>({x:s.x,y:s.y,width:s.width,height:s.height}))],gap:compact?5:10,padding:compact?24:12});
+    let placements=bounds?place(bodies)
+      :bodies.map(body=>({...body,placed:false}));
+    // A short phone can fit the Sun's disc but not its large corona. Reduce
+    // only that overview figure before giving up any of the nine bodies.
+    if(bounds&&compact&&placements.some(body=>!body.placed))for(const sizeScale of [.85,.7,.55]){
+      const candidate=place(bodies.map(body=>body.name==='SUN'?{...body,width:body.width*sizeScale,height:body.height*sizeScale,sizeScale}:body));
+      if(candidate.filter(body=>body.placed).length>placements.filter(body=>body.placed).length)placements=candidate;
+      if(placements.every(body=>body.placed))break;
+    }
     const points={...layout.points};
     for(const p of placements){
-      points[p.name]={...points[p.name],placed:p.placed,...(p.placed?{
+      points[p.name]={...points[p.name],placed:p.placed,depth:points[p.name].depth*(p.sizeScale??1),...(p.placed?{
         x:width/2+(p.x-width/2)/scale,y:height/2+(p.y-height/2)/scale}: {})};
     }
     return {...layout,points};

@@ -1,0 +1,19 @@
+/* Keep the layout viewport stable when a phone opens its software keyboard.
+   A readable input size prevents iOS focus zoom; manual pinch remains enabled. */
+@media (max-width:700px), (hover:none) and (pointer:coarse) {
+  .app :is(input:not([type="range"]):not([type="checkbox"]):not([type="radio"]), textarea, select, [contenteditable="true"]) {
+    font-size:16px;
+  }
+}
+
+@media (max-width:700px) {
+  html,body,#root {
+    width:100%;
+    max-width:100%;
+    overflow-x:clip;
+  }
+  .app {
+    width:100%;
+    max-width:100%;
+  }
+}
