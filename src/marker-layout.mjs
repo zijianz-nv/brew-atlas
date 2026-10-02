@@ -228,6 +228,8 @@ export function photoDimensions({ zoom = 1, photoZoomBase = 1, compact = false }
  * prior image anchors projected into this frame's CSS pixels. Safe anchors are
  * retained exactly, even across group changes. With preservePrevious, unsafe
  * previous images are omitted for this layout instead of jumping to a new cell.
+ * visiblePreviousPhotoIds reserves safe, currently visible anchors before new
+ * source allocation; hidden history alone does not claim that priority.
  * relocatablePhotoIds explicitly permits already-hidden images to re-enter at a
  * new safe grid cell; a safe previous center always takes precedence. The caller
  * owns the hidden-time/settled-camera policy and the re-entry fade.
@@ -240,7 +242,7 @@ export function photoDimensions({ zoom = 1, photoZoomBase = 1, compact = false }
  */
 export function layoutMapMarkers(entries, {
   width, height, zoom = 1, photoZoomBase = 1, compact = false, selectedId, landMask,
-  previousPlacements, preservePrevious = false, relocatablePhotoIds = new Set(),
+  previousPlacements, preservePrevious = false, relocatablePhotoIds = new Set(), visiblePreviousPhotoIds = new Set(),
   obstacles = [], leftMargin = 8, rightMargin = 8, topMargin = 8, bottomMargin = 8,
 } = {}) {
   if (!finite(width) || !finite(height) || width <= 0 || height <= 0) {
@@ -518,6 +520,11 @@ export function layoutMapMarkers(entries, {
       }
     } while (progressed);
   };
+  // A newly entering brewery may fill gaps but must not displace a photograph
+  // still visible at a safe anchor. Hidden history keeps the usual source-first
+  // allocation, so one brewery's old cache cannot monopolize future openings.
+  if (previous.size && visiblePreviousPhotoIds.size)
+    remainingRounds((group, photo) => visiblePreviousPhotoIds.has(photo.beer.id) && retainPhoto(group, photo));
   if (previous.size) firstRound(retainPhoto);
   firstRound(allocatePhoto);
   if (previous.size) remainingRounds(retainPhoto);

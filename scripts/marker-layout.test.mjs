@@ -673,6 +673,31 @@ test('retained identity follows beer IDs across changing groups and leaves first
   assertGeometry(result, input, opts);
 });
 
+test('a new brewery cannot displace safe visible sibling anchors and still gets first access to free cells', () => {
+  const original = place('old', 500, 350, { beerCount: 8, photoBeers: photos('old', 8) });
+  const before = layoutMapMarkers([original], options), previousPlacements = projectedPlacements(before);
+  const target = previousPlacements.get('old-001');
+  // The newcomer's nearest grid cell is exactly the second old photograph's
+  // anchor. Previously its first allocation evicted that continuously visible
+  // sibling even though plenty of other safe cells were available nearby.
+  const newcomer = place('new', target.x, target.y, { photoBeers: photos('new', 2) });
+  const input = [{ ...original, beerCount: 10, photoBeers: photos('old', 10) }, newcomer];
+  const opts = { ...options, previousPlacements, preservePrevious: true,
+    visiblePreviousPhotoIds: new Set(previousPlacements.keys()) };
+  const result = layoutMapMarkers(input, opts), rendered = renderedPhotos(result);
+  for (const [id, anchor] of previousPlacements) {
+    const photo = rendered.find(photo => photo.beer.id === id);
+    assert.ok(photo?.placementRetained, `${id} remains visible at its safe old anchor`);
+    assert.equal(photo.centerX, anchor.x); assert.equal(photo.centerY, anchor.y);
+  }
+  const ids = rendered.map(photo => photo.beer.id);
+  assert.ok(ids.includes('new-000'), 'the entering brewery receives a photograph in free space');
+  assert.ok(ids.includes('old-008'), 'existing breweries can still add unseen photographs');
+  assert.ok(ids.indexOf('new-000') < ids.indexOf('old-008'), 'new source first-photo fairness remains ahead of additional unseen siblings');
+  assert.deepEqual(layoutMapMarkers([...input].reverse(), opts), result);
+  assertGeometry(result, input, opts);
+});
+
 test('shrinking projected spacing keeps the higher-priority photo and omits excessively overlapping anchors', () => {
   const input = [place('p', 500, 350, { photoBeers: [ratedPhoto('high', 4.6, 100), ratedPhoto('low', 3.8, 100), ...photos('new', 20)] })];
   const opts = { ...options, preservePrevious: true,

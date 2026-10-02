@@ -35,6 +35,7 @@ const MARKER_ALTITUDE = 0.002;
 const BOTTLE_CSS = `
 .brew-globe-view[data-bottles-visible="false"] .globe-bottle-marker{display:none!important}
 .brew-globe-view .globe-bottle-marker{position:relative;width:0;height:0;pointer-events:none}
+.brew-globe-view .globe-bottle-marker[aria-hidden="true"] .globe-bottle{visibility:hidden!important;pointer-events:none}
 .brew-globe-view .globe-bottle-stack{position:absolute;pointer-events:none}
 .brew-globe-view .globe-bottle-halo{position:absolute;inset:-3px;border-radius:45%;background:radial-gradient(ellipse,rgba(182,197,145,.13),rgba(159,190,151,.035) 65%,transparent 76%);pointer-events:none}
 .brew-globe-view .globe-bottle{appearance:none;position:absolute;inset:0;width:calc(var(--beer-photo-width,8.32px)*var(--beer-photo-scale,1));height:calc(var(--beer-photo-height,16px)*var(--beer-photo-scale,1));padding:0!important;margin:0;border:0!important;background:transparent!important;box-shadow:none!important;cursor:pointer;pointer-events:auto;transition:filter .2s;line-height:0;will-change:transform}
@@ -100,6 +101,11 @@ function hiddenPhotosEligibleForReentry(anchors, cache) {
   return photoReentryIds(photos, now);
 }
 
+function currentlyVisiblePhotoIds(cache) {
+  return new Set([...cache].filter(([,node])=>node.isConnected&&node._wasVisible
+    &&node.closest('[data-marker-id]')?._visible!==false).map(([id])=>id));
+}
+
 function attachPhotoAnchors(markers, anchors, unproject, zoom) {
   for (const marker of markers) for (const photo of marker.photos) {
     const previous = photo.placementRetained && anchors.get(photo.beer.id);
@@ -149,6 +155,9 @@ function annotateMarker(element, marker) {
 function createBottleMarker(marker, { selectedBreweryId, selectedBeerId, onSelect, onBeerSelect, photoIdentityIndex, onImageStateChange }, existing, photoCache = new Map()) {
   const brewery = marker.brewery;
   const element = existing || document.createElement('div');
+  // A cached child may still have visibility:visible from its former parent.
+  // Keep a new group hidden until its first geographic projection is ready.
+  if(!existing)element.setAttribute('aria-hidden','true');
   if (existing && !existing.classList.contains('globe-bottle-marker')) existing.replaceChildren();
   element.className = 'globe-bottle-marker';
   element.dataset.breweryId = brewery.id;
@@ -191,7 +200,8 @@ function createBottleMarker(marker, { selectedBreweryId, selectedBeerId, onSelec
     button.dataset.selected = String(beer.id === selectedBeerId);
     button.setAttribute('aria-label', '查看 ' + beer.name);
     Object.assign(button.style, { left: '0px', top: '0px',
-      transform: `translate3d(${width / 2 + photo.x - photo.width / 2}px,${height / 2 + photo.y - photo.height / 2}px,0)`,
+      // Keep the photograph's center fixed even while its CSS size is enlarged.
+      transform: `translate3d(${width / 2 + photo.x}px,${height / 2 + photo.y}px,0) translate(-50%,-50%)`,
       width: '', height: '', zIndex: String(index + 1) });
     let img = button.querySelector('img');
     if (!img) {
@@ -315,7 +325,7 @@ function cullMovingMarkers(entries, options) {
       const scale=options.moving?Number(button.dataset.displayScale||1):1;
       const height = (dimensions?.photoHeight ?? photo.height)*scale, width = (dimensions?.photoWidth ?? photo.width)*scale;
       const marker = element._marker;
-      button.style.transform=`translate3d(${marker.markerWidth / 2 + x - centerX - width / 2}px,${marker.markerHeight / 2 + y - centerY - height / 2}px,0)`;
+      button.style.transform=`translate3d(${marker.markerWidth / 2 + x - centerX}px,${marker.markerHeight / 2 + y - centerY}px,0) translate(-50%,-50%)`;
       if (source) {
         button.dataset.sourceScreenX = String(source.x); button.dataset.sourceScreenY = String(source.y);
         button.dataset.displayOffsetX = String(x - source.x);
@@ -349,7 +359,7 @@ function cullMovingMarkers(entries, options) {
         button.dataset.displayScale=String(result.scale);button.style.setProperty('--beer-photo-scale',String(result.scale));
       }
       button._screenRect=rect;
-      button.style.transform=`translate3d(${marker.markerWidth/2+rect.left-frame.centerX}px,${marker.markerHeight/2+rect.top-frame.centerY}px,0)`;
+      button.style.transform=`translate3d(${marker.markerWidth/2+(rect.left+rect.right)/2-frame.centerX}px,${marker.markerHeight/2+(rect.top+rect.bottom)/2-frame.centerY}px,0) translate(-50%,-50%)`;
     }
   }
   return nextRevealAt;
@@ -553,6 +563,7 @@ function FlatMap({ features, geographicLand, places, beersByBrewery, photoIdenti
     });
     const result = layoutMapMarkers(entries, { ...layoutOptions(wrapperRef.current, mapWidth, mapHeight, layoutView.zoom, selectedBreweryId), landMask: layoutLand,
       previousPlacements: previousPhotoPlacements(photoAnchors.current, projectLayout, layoutView.zoom), preservePrevious: true,
+      visiblePreviousPhotoIds: currentlyVisiblePhotoIds(photoCache.current),
       relocatablePhotoIds: hiddenPhotosEligibleForReentry(photoAnchors.current, photoCache.current) }).markers;
     return attachPhotoAnchors(result, photoAnchors.current, unprojectLayout, layoutView.zoom);
   }, [places, layoutView, mapWidth, mapHeight, selectedBreweryId, wrapperRef, geographicLand]);
@@ -804,6 +815,7 @@ export default function GlobeView({
     const laidOut = layoutMapMarkers(entries, { ...layoutOptions(wrapperRef.current, size.width, size.height,
       2.5 / Math.max(0.08, currentView.altitude), selectedBreweryId), photoZoomBase: 2.5 / homeAltitude(size.width, size.height), landMask,
       previousPlacements,
+      visiblePreviousPhotoIds: currentlyVisiblePhotoIds(photoCache.current),
       preservePrevious: true, relocatablePhotoIds: hiddenPhotosEligibleForReentry(photoAnchors.current, photoCache.current) }).markers;
     const nextMarkers=attachPhotoAnchors(laidOut, photoAnchors.current, (x, y) => landMask?.geographicAt(x, y), 2.5 / Math.max(0.08, currentView.altitude)).map(marker => {
         // three-globe identifies data by object identity, not by the id field.
@@ -968,6 +980,38 @@ export default function GlobeView({
     if (wrapperRef.current) wrapperRef.current.dataset.layoutRevision = String(++layoutRevision.current);
     requestMarkerLayout();
   }, [mapMarkers, places, selectedBeerId, selectedBreweryId, size.width, size.height, ready, geographicLand, selectBrewery, selectBeer, requestMarkerLayout]);
+
+  useEffect(() => {
+    const globe=globeRef.current;
+    if(!ready||!globe||!webGL||failed)return;
+    const scene=globe.scene(),previous=scene.onAfterRender;
+    let previousMatrix=[],previousRevision=-1,previousCount=-1;
+    // OrbitControls updates inside the renderer's frame. CSS2D then projects
+    // each parent with that new camera, so its photo offsets must use the same
+    // frame rather than the separate admission/culling animation callback.
+    const synchronize=function(...args){
+      previous?.apply(this,args);
+      if(!stateRef.current.bottlesVisible)return;
+      const matrix=globe.camera().matrixWorld.elements;
+      const count=markerElements.current.size+arrivalElements.current.size;
+      if(previousRevision===layoutRevision.current&&previousCount===count
+        &&matrix.every((value,index)=>value===previousMatrix[index]))return;
+      previousMatrix=Array.from(matrix);previousRevision=layoutRevision.current;previousCount=count;
+      for(const element of [...markerElements.current.values(),...arrivalElements.current.values()]){
+        const marker=element._marker;if(!marker||!element.isConnected)continue;
+        const source=globe.getScreenCoords(marker.lat,marker.lng,MARKER_ALTITUDE);
+        const centerX=source.x+(marker.displayOffsetX||0),centerY=source.y+(marker.displayOffsetY||0);
+        element.style.transform=`translate(-50%, -50%) translate(${source.x}px, ${source.y}px)`;
+        for(const button of element.querySelectorAll('.globe-bottle')){
+          const photo=button._photo;if(!photo)continue;
+          const point=globe.getScreenCoords(photo.displayLat,photo.displayLng,0);
+          button.style.transform=`translate3d(${marker.markerWidth/2+point.x-centerX}px,${marker.markerHeight/2+point.y-centerY}px,0) translate(-50%,-50%)`;
+        }
+      }
+    };
+    scene.onAfterRender=synchronize;
+    return()=>{if(scene.onAfterRender===synchronize)scene.onAfterRender=previous;};
+  },[ready,webGL,failed]);
 
   useEffect(() => () => {
     if (layoutFrame.current !== null) window.cancelAnimationFrame(layoutFrame.current);
